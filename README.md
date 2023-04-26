@@ -1,3 +1,5 @@
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/truocphan)
+
 # TO-DO
 ### PrivEsc-1: Elementor Pro ≤ 3.11.6 - Authenticated(Subscriber+) Privilege Escalation via update_page_option
 
