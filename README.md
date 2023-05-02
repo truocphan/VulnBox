@@ -1,7 +1,7 @@
 [![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/truocphan)
 
 # TO-DO
-- ### PrivEsc-2: Easy Digital Downloads <= 3.1.1.4.1 - Unauthenticated Arbitrary Password Reset to Privilege Escalation
+- ### PrivEsc-2: Easy Digital Downloads ≤ 3.1.1.4.1 - Unauthenticated Arbitrary Password Reset to Privilege Escalation
 - ### SQLi-1: Custom 404 Pro ≤ 3.7.2 - Unauthenticated SQL Injection
 - ### CVE-2023-29432: Houzez ≤ 2.8.2 - Unauthenticated SQL Injection
 - ### CVE-2023-26540: Houzez ≤ 2.7.1 - Privilege Escalation
