@@ -8,6 +8,7 @@
 
 # VulnBox
 ## CVE
+- ### [CVE-2023-32243: Essential Addons for Elementor ≤ 5.7.1 - Unauthenticated Arbitrary Password Reset to Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-32243)
 - ### [CVE-2023-30869: Easy Digital Downloads ≤ 3.1.1.4.1 - Unauthenticated Arbitrary Password Reset to Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-30869)
 - ### [CVE-2023-28787: Quiz and Survey Master ≤ 8.1.4 - Unauthenticated SQL Injection](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-28787)
 - ### [CVE-2023-26009: Houzez Login Register ≤ 2.6.3 - Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-26009)
