@@ -5,6 +5,7 @@
 - ### CVE-2023-29432: Houzez ≤ 2.8.2 - Unauthenticated SQL Injection
 - ### CVE-2023-26540: Houzez ≤ 2.7.1 - Privilege Escalation
 - ### CVE-2023-24000: GamiPress ≤ 2.5.7 - Unauthenticated SQL Injection
+- ### CVE-2023-0600: WP Visitor Statistics (Real Time Traffic) ≤ 6.8.1 - Unauthenticated SQL Injection
 
 # VulnBox
 ## CVE
