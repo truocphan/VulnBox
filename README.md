@@ -5,7 +5,6 @@
 - ### CVE-2023-29432: Houzez ≤ 2.8.2 - Unauthenticated SQL Injection
 - ### CVE-2023-26540: Houzez ≤ 2.7.1 - Privilege Escalation
 - ### CVE-2023-24000: GamiPress ≤ 2.5.7 - Unauthenticated SQL Injection
-- ### CVE-2023-0600: WP Visitor Statistics (Real Time Traffic) ≤ 6.8.1 - Unauthenticated SQL Injection
 
 # VulnBox
 ## CVE
@@ -17,6 +16,7 @@
 - ### [CVE-2023-1874: WP Data Access ≤ 5.3.7 - Authenticated (Subscriber+) Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-1874) - April 26, 2023
 - ### [CVE-2023-1597: tagDiv Cloud Library ≤ 2.5 - Unauthenticated Arbitrary User Metadata Update to Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-1597) - April 26, 2023
 - ### [CVE-2023-1596: tagDiv Composer ≤ 3.9 - Reflected Cross-site Scripting (RXSS)](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-1596) - April 26, 2023
+- ### [CVE-2023-0600: WP Visitor Statistics (Real Time Traffic) ≤ 6.8.1 - Unauthenticated SQL Injection](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-0600) - May 16, 2023
 - ### [CVE-2022-3477: tagDiv Composer ≤ 3.4 - Unauthorized Account Access and Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2022-3477) - April 26, 2023
 
 ## Others
