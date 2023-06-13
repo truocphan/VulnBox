@@ -12,6 +12,12 @@
 - ### [CVE-2023-30869: Easy Digital Downloads ≤ 3.1.1.4.1 - Unauthenticated Arbitrary Password Reset to Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-30869) - May 2, 2023
 - ### [CVE-2023-28787: Quiz and Survey Master ≤ 8.1.4 - Unauthenticated SQL Injection](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-28787) - April 26, 2023
 - ### [CVE-2023-26009: Houzez Login Register ≤ 2.6.3 - Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-26009) - April 27, 2023
+- ### CVE-2023-3203: MStore API <= 3.9.6 - Cross-Site Request Forgery to Product Limit Update - June 13, 2023
+- ### CVE-2023-3202: MStore API <= 3.9.6 - Cross-Site Request Forgery to Firebase Server Key Update - June 13, 2023
+- ### CVE-2023-3201: MStore API <= 3.9.6 - Cross-Site Request Forgery to Order Title Update - June 13, 2023
+- ### CVE-2023-3200: MStore API <= 3.9.6 - Cross-Site Request Forgery to Order Message Update - June 13, 2023
+- ### CVE-2023-3199: MStore API <= 3.9.6 - Cross-Site Request Forgery to Order Title Update - June 13, 2023
+- ### CVE-2023-3198: MStore API ≤ 3.9.6 - Cross-Site Request Forgery to Order Status Update - June 13, 2023
 - ### [CVE-2023-2734: MStore API ≤ 3.9.1 - Authentication Bypass](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-2734) - May 31, 2023
 - ### [CVE-2023-2733: MStore API ≤ 3.9.0 - Authentication Bypass](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-2733) - May 31, 2023
 - ### [CVE-2023-2732: MStore API ≤ 3.9.2 - Authentication Bypass](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-2732) - May 24, 2023
