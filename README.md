@@ -29,7 +29,7 @@
 - ### ($12.83) [CVE-2022-3477: tagDiv Composer ≤ 3.4 - Unauthorized Account Access and Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2022-3477) - April 26, 2023
 
 ## Others
-- ### ($12.83) [PrivEsc-2: WP Post Author ≤ 3.2.3 - Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/PrivEsc-2) - July 02, 2023
+- ### ($12.83) [PrivEsc-2023-0002: WP Post Author ≤ 3.2.3 - Privilege Escalation](https://github.com/truocphan/VulnBox/tree/main/Boxes/PrivEsc-2) - July 02, 2023
 - ### ($11.52) [PrivEsc-1: Elementor Pro ≤ 3.11.6 - Authenticated(Subscriber+) Privilege Escalation via update_page_option](https://github.com/truocphan/VulnBox/tree/main/Boxes/PrivEsc-1) - April 26, 2023
 
 #
