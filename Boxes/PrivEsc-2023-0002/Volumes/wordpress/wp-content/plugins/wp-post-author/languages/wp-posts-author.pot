@@ -1,0 +1,1901 @@
+# Copyright (C) 2022 AF themes
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Post Author - Author Login/Registration, Multiple Authors, Co-Authors, Guest Authors and Author Box 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-posts-author\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-28T11:55:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: wp-post-author\n"
+
+#. Plugin Name of the plugin
+msgid "WP Post Author - Author Login/Registration, Multiple Authors, Co-Authors, Guest Authors and Author Box"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wp-post-author/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Author Registration | Author Login | Multiple Post Authors | Post Co-Authors  | Post Guest Authors  | Author Box | Author Bio and Social Icons | Guetneberg Blocks, Widgets and Shortcodes"
+msgstr ""
+
+#. Author of the plugin
+msgid "AF themes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://afthemes.com"
+msgstr ""
+
+#: api_request/settings/callback_function.php:6
+msgid "About Author"
+msgstr ""
+
+#: api_request/settings/callback_function.php:7
+msgid "right"
+msgstr ""
+
+#: api_request/settings/callback_function.php:8
+#: api_request/settings/callback_function.php:9
+#: api_request/settings/callback_function.php:10
+#: includes/awpa-widget-custom.php:123
+#: includes/awpa-widget-custom.php:128
+#: includes/awpa-widget-specific.php:139
+#: includes/awpa-widget.php:141
+#: includes/awpa-widget.php:153
+#: includes/awpa-widget.php:161
+#: block/src/dashboard/render-tabs/global-settings.js:73
+#: block/src/dashboard/render-tabs/global-settings.js:87
+#: block/src/dashboard/render-tabs/global-settings.js:101
+#: block/src/dashboard/render-tabs/widget.js:56
+msgid "Round"
+msgstr ""
+
+#: block/src/form_blocks/index.php:25
+msgid "User Registration form (default)"
+msgstr ""
+
+#: includes/admin/awpa-form-menu.php:19
+#: includes/admin/awpa-form-menu.php:20
+msgid "Registration Forms"
+msgstr ""
+
+#: includes/admin/awpa-form-menu.php:28
+msgid "Registered Authors"
+msgstr ""
+
+#: includes/admin/awpa-form-menu.php:29
+msgid "Registered  Authors"
+msgstr ""
+
+#: includes/admin/awpa-form-menu.php:37
+#: includes/admin/awpa-form-menu.php:38
+msgid "Guest Authors"
+msgstr ""
+
+#: includes/admin/awpa-form-menu.php:46
+#: includes/admin/awpa-form-menu.php:47
+#: block/src/dashboard/index.js:52
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/awpa-form-meta.php:48
+msgid "Form Options"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:10
+msgctxt "Post Type General Name"
+msgid "User Forms"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:11
+msgctxt "Post Type Singular Name"
+msgid "User Form"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:12
+#: includes/admin/awpa-form-register.php:13
+msgid "User Forms"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:14
+msgid "Form Archives"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:15
+msgid "Form Attributes"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:16
+msgid "Parent Form:"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:17
+#: block/src/aft_form_builder/listing/listing.js:231
+msgid "All Forms"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:18
+msgid "Add New Form"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:19
+#: block/src/aft_form_builder/listing/listing.js:233
+#: block/src/multi_authors/guest_authors.js:261
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:20
+msgid "New Form"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:21
+msgid "Edit Form"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:22
+msgid "Update Form"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:23
+msgid "View Form"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:24
+msgid "View Forms"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:25
+msgid "Search Form"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:26
+msgid "Not found"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:27
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:28
+msgid "Featured Image"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:29
+msgid "Set featured image"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:30
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:31
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:32
+msgid "Insert into item"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:33
+msgid "Uploaded to this item"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:34
+msgid "Forms list"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:35
+msgid "Forms list navigation"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:36
+msgid "Filter items list"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:39
+msgid "User Form"
+msgstr ""
+
+#: includes/admin/awpa-form-register.php:40
+msgid "Post Type Description"
+msgstr ""
+
+#: includes/awpa-backend.php:28
+#: includes/awpa-backend.php:29
+msgid "WP Post Author Backend"
+msgstr ""
+
+#: includes/awpa-backend.php:164
+#: includes/awpa-shortcodes.php:17
+#: includes/awpa-widget.php:24
+#: block/src/dashboard/render-tabs/widget.js:31
+msgid "WP Post Author"
+msgstr ""
+
+#: includes/awpa-frontend.php:29
+#: includes/awpa-frontend.php:30
+msgid "WP Post Author Frontend"
+msgstr ""
+
+#: includes/awpa-functions.php:130
+msgid "See author's posts"
+msgstr ""
+
+#: includes/awpa-user-fields.php:28
+#: includes/awpa-user-fields.php:29
+msgid "WP Post Author User Fields"
+msgstr ""
+
+#: includes/awpa-user-fields.php:37
+#: includes/awpa-widget-custom.php:148
+#: block/src/author/components/common-social.js:56
+#: block/src/author/components/social.js:57
+#: block/src/dashboard/render-tabs/shortcode.js:64
+#: block/src/dashboard/render-tabs/widget.js:77
+#: block/src/multi_authors/components/new_guest_author.js:356
+msgid "Facebook"
+msgstr ""
+
+#: includes/awpa-user-fields.php:38
+#: includes/awpa-widget-custom.php:149
+#: block/src/author/components/common-social.js:79
+#: block/src/author/components/social.js:80
+#: block/src/multi_authors/components/new_guest_author.js:371
+msgid "Instagram"
+msgstr ""
+
+#: includes/awpa-user-fields.php:39
+#: includes/awpa-widget-custom.php:150
+#: block/src/author/components/common-social.js:101
+#: block/src/author/components/social.js:102
+#: block/src/multi_authors/components/new_guest_author.js:386
+msgid "Youtube"
+msgstr ""
+
+#: includes/awpa-user-fields.php:40
+#: includes/awpa-widget-custom.php:151
+#: block/src/author/components/common-social.js:91
+#: block/src/author/components/social.js:92
+#: block/src/dashboard/render-tabs/shortcode.js:68
+#: block/src/dashboard/render-tabs/widget.js:81
+#: block/src/multi_authors/components/new_guest_author.js:401
+msgid "Twitter"
+msgstr ""
+
+#: includes/awpa-user-fields.php:41
+#: includes/awpa-widget-custom.php:152
+#: block/src/multi_authors/components/new_guest_author.js:416
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/awpa-user-login.php:198
+#: includes/awpa-user-login.php:271
+msgid "Hello "
+msgstr ""
+
+#: includes/awpa-user-login.php:198
+#: includes/awpa-user-login.php:274
+msgid "You are already logged in"
+msgstr ""
+
+#: includes/awpa-user-login.php:200
+#: includes/awpa-user-login.php:278
+msgid "Logout"
+msgstr ""
+
+#: includes/awpa-user-login.php:210
+#: includes/awpa-user-login.php:252
+#: block/src/membership/membership.js:28
+#: block/src/user-login/components/edit.js:115
+msgid "Username"
+msgstr ""
+
+#: includes/awpa-user-login.php:211
+#: includes/awpa-user-login.php:253
+#: block/src/dashboard/menus/mail_settings.js:104
+#: block/src/user-login/components/edit.js:119
+msgid "Password"
+msgstr ""
+
+#: includes/awpa-user-login.php:212
+#: includes/awpa-user-login.php:254
+#: block/src/user-login/components/edit.js:123
+msgid "Remember Me"
+msgstr ""
+
+#: includes/awpa-user-login.php:239
+msgid "User Login Form"
+msgstr ""
+
+#: includes/awpa-user-login.php:240
+msgid "Submit"
+msgstr ""
+
+#: includes/awpa-user-login.php:296
+msgid "Forget Password"
+msgstr ""
+
+#: includes/awpa-widget-base.php:148
+msgid "Upload"
+msgstr ""
+
+#: includes/awpa-widget-base.php:148
+#: block/src/author/components/inspector.js:269
+#: block/src/form_blocks/components/inspector.js:147
+#: block/src/user-login/components/inspector.js:292
+msgid "Select Image"
+msgstr ""
+
+#: includes/awpa-widget-base.php:148
+msgid "Choose Image"
+msgstr ""
+
+#: includes/awpa-widget-base.php:159
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:43
+#: includes/awpa-widget-specific.php:20
+#: includes/awpa-widget.php:20
+msgid "Displays posts author descriptions."
+msgstr ""
+
+#: includes/awpa-widget-custom.php:47
+msgid "WP Post Author (Custom)"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:63
+#: includes/awpa-widget-specific.php:41
+#: includes/awpa-widget.php:40
+msgid "About Post Author"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:116
+#: includes/awpa-widget-specific.php:132
+#: includes/awpa-widget.php:134
+#: block/src/author/components/inspector.js:236
+#: block/src/dashboard/render-tabs/global-settings.js:57
+#: block/src/dashboard/render-tabs/widget.js:36
+msgid "Left"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:117
+#: includes/awpa-widget-specific.php:133
+#: includes/awpa-widget.php:135
+#: block/src/author/components/inspector.js:248
+#: block/src/dashboard/render-tabs/global-settings.js:58
+msgid "Right"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:118
+#: includes/awpa-widget-specific.php:134
+#: includes/awpa-widget.php:136
+#: block/src/author/components/inspector.js:242
+#: block/src/dashboard/render-tabs/global-settings.js:59
+msgid "Center"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:122
+#: includes/awpa-widget-custom.php:129
+#: includes/awpa-widget-specific.php:138
+#: includes/awpa-widget.php:140
+#: includes/awpa-widget.php:154
+#: includes/awpa-widget.php:160
+#: block/src/author/components/inspector.js:156
+#: block/src/dashboard/render-tabs/global-settings.js:72
+#: block/src/dashboard/render-tabs/global-settings.js:86
+#: block/src/dashboard/render-tabs/global-settings.js:102
+#: block/src/dashboard/render-tabs/widget.js:41
+msgid "Square"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:130
+#: includes/awpa-widget.php:155
+#: includes/awpa-widget.php:162
+#: block/src/author/components/inspector.js:172
+#: block/src/dashboard/render-tabs/global-settings.js:88
+#: block/src/dashboard/render-tabs/global-settings.js:103
+msgid "None"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:142
+msgid "Profile image"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:143
+msgid "Name"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:144
+#: block/src/membership/membership.js:55
+msgid "Role"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:145
+#: block/src/author/components/common-social.js:111
+#: block/src/author/components/social.js:113
+#: block/src/membership/membership.js:41
+msgid "Email"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:146
+#: block/src/author/components/common-social.js:121
+#: block/src/author/components/social.js:123
+#: block/src/dashboard/render-tabs/shortcode.js:76
+#: block/src/dashboard/render-tabs/widget.js:89
+#: block/src/multi_authors/components/new_guest_author.js:341
+msgid "Website"
+msgstr ""
+
+#: includes/awpa-widget-custom.php:147
+msgid "Descriptions"
+msgstr ""
+
+#: includes/awpa-widget-specific.php:24
+msgid "WP Post Author (Specific)"
+msgstr ""
+
+#: includes/awpa-widget-specific.php:126
+#: includes/awpa-widget.php:128
+msgid "Post Author"
+msgstr ""
+
+#: includes/awpa-widget-specific.php:127
+#: includes/awpa-widget.php:129
+msgid "Specific Author"
+msgstr ""
+
+#: includes/awpa-widget-specific.php:144
+#: includes/awpa-widget.php:147
+#: block/src/dashboard/render-tabs/global-settings.js:117
+#: block/src/dashboard/render-tabs/global-settings.js:132
+#: block/src/form_builder/components/date_edit.js:89
+msgid "No"
+msgstr ""
+
+#: includes/awpa-widget-specific.php:145
+#: includes/awpa-widget.php:148
+#: block/src/dashboard/render-tabs/global-settings.js:118
+#: block/src/dashboard/render-tabs/global-settings.js:133
+#: block/src/dashboard/render-tabs/widget.js:46
+#: block/src/dashboard/render-tabs/widget.js:51
+#: block/src/form_builder/components/date_edit.js:88
+msgid "Yes"
+msgstr ""
+
+#: includes/core.php:30
+#: includes/core.php:31
+msgid "WP Post Author Core"
+msgstr ""
+
+#: includes/multi-authors/wpa-multi-authors.php:64
+msgid "Authors"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:58
+#: block/src/dashboard/render-tabs/global-settings.js:38
+#: block/src/dashboard/render-tabs/widget.js:29
+#: block/src/utils/common-section-header-edit.js:84
+msgid "Title"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:65
+msgid "Author"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:72
+#: block/src/dashboard/menus/settings.js:93
+msgid "Shortcode"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:79
+msgid "Date"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:91
+#: block/src/dashboard/menus/membership_plan.js:137
+#: block/src/membership/membership.js:79
+msgid "Edit"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:92
+#: block/src/dashboard/menus/membership_plan.js:138
+msgid "Trash"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:93
+#: block/src/dashboard/menus/membership_plan.js:139
+msgid "Preview"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:94
+msgid "Duplicate"
+msgstr ""
+
+#: block/src/aft_form_builder/listing/listing.js:238
+#: block/src/dashboard/menus/membership_plan.js:250
+#: block/src/multi_authors/guest_authors.js:263
+msgid "Search"
+msgstr ""
+
+#: block/src/author/components/common-social.js:68
+#: block/src/author/components/social.js:69
+#: block/src/dashboard/render-tabs/shortcode.js:72
+#: block/src/dashboard/render-tabs/widget.js:85
+msgid "Linkedin"
+msgstr ""
+
+#: block/src/author/components/edit.js:176
+msgid "Add your content..."
+msgstr ""
+
+#: block/src/author/components/inspector.js:150
+msgid " Official"
+msgstr ""
+
+#: block/src/author/components/inspector.js:152
+msgid "Custom"
+msgstr ""
+
+#: block/src/author/components/inspector.js:157
+msgid "Circle"
+msgstr ""
+
+#: block/src/author/components/inspector.js:160
+msgid "Rounded Square"
+msgstr ""
+
+#: block/src/author/components/inspector.js:164
+msgid "Small"
+msgstr ""
+
+#: block/src/author/components/inspector.js:165
+msgid "Medium"
+msgstr ""
+
+#: block/src/author/components/inspector.js:166
+msgid "Large"
+msgstr ""
+
+#: block/src/author/components/inspector.js:170
+msgid "Solid"
+msgstr ""
+
+#: block/src/author/components/inspector.js:171
+msgid "Border"
+msgstr ""
+
+#: block/src/author/components/inspector.js:193
+#: block/src/utils/component/design-header-control/index.js:33
+msgid "Layout 1"
+msgstr ""
+
+#: block/src/author/components/inspector.js:198
+#: block/src/utils/component/design-header-control/index.js:36
+msgid "Layout 2"
+msgstr ""
+
+#: block/src/author/components/inspector.js:203
+#: block/src/utils/component/design-header-control/index.js:39
+msgid "Layout 3"
+msgstr ""
+
+#: block/src/author/components/inspector.js:208
+#: block/src/utils/component/design-header-control/index.js:42
+msgid "Layout 4"
+msgstr ""
+
+#: block/src/author/components/inspector.js:213
+#: block/src/utils/component/design-header-control/index.js:45
+msgid "Layout 5"
+msgstr ""
+
+#: block/src/author/components/inspector.js:218
+#: block/src/utils/component/design-header-control/index.js:48
+msgid "Layout 6"
+msgstr ""
+
+#: block/src/author/components/inspector.js:256
+msgid "Image"
+msgstr ""
+
+#: block/src/author/components/inspector.js:265
+#: block/src/form_blocks/components/inspector.js:143
+#: block/src/user-login/components/inspector.js:288
+msgid "Edit image"
+msgstr ""
+
+#: block/src/author/components/inspector.js:275
+#: block/src/form_blocks/components/inspector.js:153
+#: block/src/user-login/components/inspector.js:298
+msgid "Remove Image"
+msgstr ""
+
+#: block/src/author/components/inspector.js:279
+#: block/src/form_blocks/components/inspector.js:157
+#: block/src/user-login/components/inspector.js:302
+msgid "Remove"
+msgstr ""
+
+#: block/src/author/components/inspector.js:291
+msgid "Image Shape"
+msgstr ""
+
+#: block/src/author/components/inspector.js:300
+msgid "Header Settings"
+msgstr ""
+
+#: block/src/author/components/inspector.js:308
+#: block/src/form_blocks/components/inspector.js:173
+#: block/src/user-login/components/inspector.js:180
+msgid "Typography Settings"
+msgstr ""
+
+#: block/src/author/components/inspector.js:466
+#: block/src/form_blocks/components/inspector.js:230
+#: block/src/user-login/components/inspector.js:142
+#: block/src/utils/component/header-settings.js:91
+msgid "Color Settings"
+msgstr ""
+
+#: block/src/author/components/inspector.js:468
+#: block/src/form_blocks/components/inspector.js:234
+#: block/src/user-login/components/inspector.js:146
+msgid "Colors"
+msgstr ""
+
+#: block/src/author/components/inspector.js:474
+#: block/src/user-login/components/inspector.js:173
+#: block/src/utils/component/header-settings.js:84
+msgid "Background Color"
+msgstr ""
+
+#: block/src/author/components/inspector.js:479
+msgid "Description Color"
+msgstr ""
+
+#: block/src/author/components/inspector.js:485
+#: block/src/form_blocks/components/inspector.js:195
+#: block/src/form_blocks/components/inspector.js:283
+#: block/src/user-login/components/inspector.js:342
+msgid "Border Radius"
+msgstr ""
+
+#: block/src/author/components/inspector.js:496
+#: block/src/form_blocks/components/inspector.js:205
+#: block/src/user-login/components/inspector.js:317
+msgid "Enable Box Shadow"
+msgstr ""
+
+#: block/src/author/components/inspector.js:521
+msgid "Social link Urls"
+msgstr ""
+
+#: block/src/author/components/inspector.js:526
+msgid "Facebook Url"
+msgstr ""
+
+#: block/src/author/components/inspector.js:535
+msgid "LinkedIn Url"
+msgstr ""
+
+#: block/src/author/components/inspector.js:544
+msgid "Twitter Url"
+msgstr ""
+
+#: block/src/author/components/inspector.js:551
+msgid "Instagram Url"
+msgstr ""
+
+#: block/src/author/components/inspector.js:560
+msgid "Youtube Url"
+msgstr ""
+
+#: block/src/author/components/inspector.js:567
+msgid "Email Address "
+msgstr ""
+
+#: block/src/author/components/inspector.js:576
+msgid "Website "
+msgstr ""
+
+#: block/src/author/components/inspector.js:583
+msgid "Social Icon Option"
+msgstr ""
+
+#: block/src/author/components/inspector.js:587
+msgid "Icon Option"
+msgstr ""
+
+#: block/src/author/components/inspector.js:596
+#: block/src/author/components/inspector.js:602
+msgid "Font Color"
+msgstr ""
+
+#: block/src/author/components/inspector.js:610
+#: block/src/author/components/inspector.js:616
+msgid "Background/Border Color"
+msgstr ""
+
+#: block/src/author/components/inspector.js:623
+msgid "Size"
+msgstr ""
+
+#: block/src/author/components/inspector.js:633
+msgid "Shape"
+msgstr ""
+
+#: block/src/author/components/inspector.js:643
+msgid "Fill"
+msgstr ""
+
+#: block/src/author/components/inspector.js:652
+#: block/src/utils/component/header-settings.js:212
+msgid "Block Gaps Settings"
+msgstr ""
+
+#: block/src/author/components/inspector.js:656
+#: block/src/user-login/components/inspector.js:355
+#: block/src/utils/component/header-settings.js:218
+msgid "Padding Settings"
+msgstr ""
+
+#: block/src/author/components/inspector.js:695
+#: block/src/utils/component/header-settings.js:254
+msgid "Margin Settings"
+msgstr ""
+
+#: block/src/author/index.js:26
+#: block/src/dashboard/render-tabs/global-settings.js:181
+msgid "Author Box"
+msgstr ""
+
+#: block/src/author/index.js:27
+msgid "WP Author Section"
+msgstr ""
+
+#: block/src/author/index.js:32
+msgid "empty"
+msgstr ""
+
+#: block/src/authors_metabox/index.js:58
+msgid "Select author"
+msgstr ""
+
+#: block/src/components/tooltip.js:8
+msgid "?"
+msgstr ""
+
+#: block/src/dashboard/index.js:53
+msgid "Recaptcha"
+msgstr ""
+
+#: block/src/dashboard/index.js:56
+#: block/src/dashboard/menus/mail_settings.js:91
+msgid "Mail Settings"
+msgstr ""
+
+#: block/src/dashboard/index.js:59
+msgid "Membership"
+msgstr ""
+
+#: block/src/dashboard/index.js:63
+#: block/src/form_builder/builder_box/Premium.js:122
+msgid "Newsletter"
+msgstr ""
+
+#: block/src/dashboard/index.js:67
+msgid "Content Restrict"
+msgstr ""
+
+#: block/src/dashboard/menus/component/add_membership_plan.js:103
+#: block/src/dashboard/menus/membership_plan.js:92
+msgid "Plan Name"
+msgstr ""
+
+#: block/src/dashboard/menus/component/add_membership_plan.js:113
+msgid "Plan Description"
+msgstr ""
+
+#: block/src/dashboard/menus/component/add_membership_plan.js:123
+msgid "Plan Price"
+msgstr ""
+
+#: block/src/dashboard/menus/component/add_membership_plan.js:134
+#: block/src/form_builder/components/paypal_edit.js:21
+msgid "Currency: (USD, EUR, etc)"
+msgstr ""
+
+#: block/src/dashboard/menus/component/add_membership_plan.js:159
+msgid "Plan Status"
+msgstr ""
+
+#: block/src/dashboard/menus/component/add_membership_plan.js:162
+msgid "Plan Image"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:57
+#: block/src/dashboard/menus/mail_settings.js:81
+#: block/src/dashboard/menus/payment_integration.js:60
+msgid "Integration"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:70
+msgid "Google Recaptcha"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:73
+msgid "Version"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:87
+msgid "recaptcha v2"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:99
+msgid "recaptcha 3"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:104
+msgid "Site Key."
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:105
+msgid "Provide recaptcha site key for selected recaptcha version"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:116
+msgid "Secret Key"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:117
+msgid "Provide recaptcha secret key for selected recaptcha version"
+msgstr ""
+
+#: block/src/dashboard/menus/integration.js:136
+#: block/src/dashboard/menus/mail_settings.js:166
+#: block/src/dashboard/menus/payment_integration.js:133
+#: block/src/dashboard/menus/social_login.js:129
+#: block/src/user_dashboard/dashboard.js:404
+msgid "Save Changes"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:83
+msgid "Select one mailing option"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:85
+msgid "WP Mail"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:86
+msgid "WP Custom Setting"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:94
+msgid "E-mail address"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:114
+msgid "SMTP Server Name"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:124
+msgid "Authentication"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:131
+msgid "SSL"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:132
+msgid "TLS/STARTTLS"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:137
+msgid "Port Number"
+msgstr ""
+
+#: block/src/dashboard/menus/mail_settings.js:147
+msgid "From Name"
+msgstr ""
+
+#: block/src/dashboard/menus/membership_plan.js:99
+#: block/src/form_builder/builder_box/Settings.js:57
+#: block/src/multi_authors/components/new_guest_author.js:195
+msgid "Description"
+msgstr ""
+
+#: block/src/dashboard/menus/membership_plan.js:106
+msgid "Price"
+msgstr ""
+
+#: block/src/dashboard/menus/membership_plan.js:119
+msgid "Status"
+msgstr ""
+
+#: block/src/dashboard/menus/membership_plan.js:126
+msgid "Created At"
+msgstr ""
+
+#: block/src/dashboard/menus/membership_plan.js:247
+msgid "Membership Plan"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:62
+#: block/src/frontend/render_block/payment.js:113
+msgid "Paypal"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:75
+msgid "Paypal Settings"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:81
+msgid "Enable Test Mode"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:81
+msgid "Enable it to check settings on test mode"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:84
+msgid "Sandbox Client Id"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:84
+msgid "Provide paypal sandbox client id"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:94
+msgid "Sandbox Secret Code"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:94
+msgid "Provide paypal sandbox secret code"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:104
+msgid "Live Client Id"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:104
+msgid "Provide paypal live client id"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:114
+msgid "Live Secret Code"
+msgstr ""
+
+#: block/src/dashboard/menus/payment_integration.js:114
+msgid "Provide paypal live secret code"
+msgstr ""
+
+#: block/src/dashboard/menus/settings.js:89
+#: block/src/dashboard/render-tabs/global-settings.js:26
+msgid "Global Settings"
+msgstr ""
+
+#: block/src/dashboard/menus/settings.js:91
+msgid "Widget"
+msgstr ""
+
+#: block/src/dashboard/menus/settings.js:95
+msgid "Custom Styling"
+msgstr ""
+
+#: block/src/dashboard/menus/social_login.js:101
+msgid "App ID"
+msgstr ""
+
+#: block/src/dashboard/menus/social_login.js:111
+msgid "Test Stripe Secret Key"
+msgstr ""
+
+#: block/src/dashboard/menus/subscription_plan.js:185
+msgid "Product"
+msgstr ""
+
+#: block/src/dashboard/menus/subscription_plan.js:215
+msgid "Plans"
+msgstr ""
+
+#: block/src/dashboard/menus/subscription_plan.js:248
+msgid "Add"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/custom-styling.js:18
+msgid "Custom styling"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/custom-styling.js:20
+msgid "Please paste appropriate css code snippets to the given area"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/custom-styling.js:25
+msgid "Custom css box"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:30
+msgid "Appearance"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:33
+msgid "Please set appearance for the WP Post Author."
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:49
+#: block/src/dashboard/render-tabs/widget.js:34
+msgid "Alignment"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:64
+#: block/src/dashboard/render-tabs/widget.js:39
+msgid "Profile image layout"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:78
+msgid "See Author Posts link shape"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:93
+msgid "Social icons shape"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:109
+#: block/src/dashboard/render-tabs/widget.js:44
+msgid "Show author role"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:124
+#: block/src/dashboard/render-tabs/widget.js:49
+msgid "Show author email"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:139
+msgid "Highlight Color"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:164
+msgid " By default, output from the Post Author Box will be visible on your front page, posts and single author page."
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:167
+msgid "If you need to show it from any other available post type, please check."
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:176
+msgid "Also show on User Forms"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:188
+msgid "Remove from post content"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/global-settings.js:189
+msgid " When turned ON, the output from the Post Author Box will no longer be automatically added to your post content."
+msgstr ""
+
+#: block/src/dashboard/render-tabs/right-side-content.js:10
+msgid "Get the outstanding"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/right-side-content.js:10
+msgid "themes"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/right-side-content.js:10
+#: block/src/dashboard/render-tabs/right-side-content.js:17
+msgid "from AF themes"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/right-side-content.js:17
+msgid "Get amazing WordPress "
+msgstr ""
+
+#: block/src/dashboard/render-tabs/right-side-content.js:17
+msgid "plugins"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:15
+msgid "The shortcode"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:15
+msgid "is mainly designed for WordPress single post author and  author page."
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:20
+#: block/src/dashboard/render-tabs/shortcode.js:57
+#: block/src/dashboard/render-tabs/widget.js:22
+#: block/src/dashboard/render-tabs/widget.js:70
+msgid "Options"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:21
+#: block/src/dashboard/render-tabs/widget.js:23
+msgid "Available values"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:22
+#: block/src/dashboard/render-tabs/widget.js:24
+msgid "Default value"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:27
+msgid "align"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:28
+msgid "left, right or center"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:29
+msgid "left"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:32
+msgid "image-layout"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:33
+msgid "square or round"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:34
+msgid "square"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:37
+msgid "show-role"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:38
+#: block/src/dashboard/render-tabs/shortcode.js:43
+msgid "true or false"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:42
+msgid "show-email"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:44
+msgid "true"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:49
+msgid "You can configure and use the shortcode for.php templates and functions with appropriate attribute values.The output will only visible on single post and single author page."
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:50
+#: block/src/dashboard/render-tabs/widget.js:64
+msgid "Other options"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:58
+#: block/src/dashboard/render-tabs/widget.js:71
+msgid "Availability"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:65
+#: block/src/dashboard/render-tabs/shortcode.js:69
+#: block/src/dashboard/render-tabs/shortcode.js:73
+#: block/src/dashboard/render-tabs/shortcode.js:77
+#: block/src/dashboard/render-tabs/shortcode.js:81
+#: block/src/dashboard/render-tabs/widget.js:78
+#: block/src/dashboard/render-tabs/widget.js:82
+#: block/src/dashboard/render-tabs/widget.js:86
+#: block/src/dashboard/render-tabs/widget.js:90
+#: block/src/dashboard/render-tabs/widget.js:94
+msgid "Visible if available"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:80
+#: block/src/dashboard/render-tabs/widget.js:93
+msgid "Author bio"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:86
+#: block/src/dashboard/render-tabs/widget.js:99
+msgid "Add/remove available contact info by selecting specific user from the following admin page:"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/shortcode.js:86
+msgid "Users."
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:17
+msgid "The widget \"WP Post Author\" is mainly designed for WordPress single post author and author page."
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:30
+msgid "Any texts string"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:35
+msgid "Left, Right or Center"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:40
+msgid "Square or Round"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:45
+#: block/src/dashboard/render-tabs/widget.js:50
+msgid "Yes or No"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:54
+msgid "Social icon shape"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:55
+msgid "Round, Square or None"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:62
+msgid "You can add and configure the widget from the following admin page:"
+msgstr ""
+
+#: block/src/dashboard/render-tabs/widget.js:63
+msgid "The widget will only visible on single post."
+msgstr ""
+
+#: block/src/form_blocks/components/edit.js:112
+msgid "No form found, please create one!"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:102
+msgid "Block Background Color"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:109
+msgid "Form options"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:114
+msgid "Select Form"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:122
+msgid "Block Settings"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:127
+#: block/src/user-login/components/inspector.js:272
+msgid "Enable Background Image"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:191
+msgid "Input Settings"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:241
+#: block/src/user-login/components/inspector.js:158
+msgid "Label Color"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:246
+msgid "Input Text Color"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:251
+msgid "Input Background Color"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:261
+msgid "Text Description Color"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:266
+msgid "Text Placeholder Color"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:271
+#: block/src/user-login/components/inspector.js:168
+msgid "Button Background Color"
+msgstr ""
+
+#: block/src/form_blocks/components/inspector.js:279
+msgid "Button Settings"
+msgstr ""
+
+#: block/src/form_blocks/index.js:18
+msgid "Registration"
+msgstr ""
+
+#: block/src/form_blocks/index.js:19
+msgid "WPA User Registration"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Builder.js:14
+msgid "Basic Input"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Builder.js:31
+#: block/src/user_dashboard/dashboard.js:287
+msgid "Advance Input"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Card.js:165
+msgid "Privacy Policy"
+msgstr ""
+
+#: block/src/form_builder/builder_box/index.js:106
+#: block/src/multi_authors/components/new_guest_author.js:141
+msgid "Back"
+msgstr ""
+
+#: block/src/form_builder/builder_box/index.js:120
+msgid "Copied"
+msgstr ""
+
+#: block/src/form_builder/builder_box/index.js:128
+msgid "Add user registration title"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Premium.js:75
+msgid "Payment Process"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Premium.js:76
+msgid "Select paid or free plan for user registration"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Premium.js:82
+msgid "Paid"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Premium.js:84
+msgid "Free"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Premium.js:93
+msgid "Add membership plan"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Premium.js:94
+msgid "Multiple membership plans can be selected"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Premium.js:105
+msgid "Select membership plan"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Premium.js:123
+msgid "Select one or more newletter for form"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:43
+msgid "Item Id"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:43
+msgid "Input id"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:47
+msgid "Label"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:47
+msgid "Enter input lable"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:52
+msgid "Placeholder"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:52
+msgid "Enter input placeholder"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:57
+msgid "Enter input description"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:62
+msgid "Custom Class"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:62
+msgid "Enter input classname"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:69
+msgid "Privacy Policy Link"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:69
+msgid "Enter privacy policy link here"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:77
+msgid "Required"
+msgstr ""
+
+#: block/src/form_builder/builder_box/Settings.js:77
+msgid "Checkbox for required input field"
+msgstr ""
+
+#: block/src/form_builder/components/checkbox_edit.js:73
+#: block/src/form_builder/components/country_edit.js:39
+#: block/src/form_builder/components/date_edit.js:28
+#: block/src/form_builder/components/paypal_edit.js:17
+#: block/src/form_builder/components/select_edit.js:61
+msgid "Advance Setting"
+msgstr ""
+
+#: block/src/form_builder/components/country_edit.js:40
+msgid "Countries"
+msgstr ""
+
+#: block/src/form_builder/components/date_edit.js:30
+msgid "Date Format"
+msgstr ""
+
+#: block/src/form_builder/components/date_edit.js:48
+msgid "Date Limit"
+msgstr ""
+
+#: block/src/form_builder/components/date_edit.js:58
+msgid "Min Date"
+msgstr ""
+
+#: block/src/form_builder/components/date_edit.js:68
+msgid "Max Date"
+msgstr ""
+
+#: block/src/form_builder/components/date_edit.js:81
+msgid "Enable Date Range"
+msgstr ""
+
+#: block/src/form_builder/components/image_edit.js:42
+msgid "Image Size Limit (MB)"
+msgstr ""
+
+#: block/src/form_builder/components/paypal_edit.js:19
+msgid "Client Id:"
+msgstr ""
+
+#: block/src/form_builder/components/paypal_edit.js:34
+msgid "Amount:"
+msgstr ""
+
+#: block/src/frontend/render_block/components/payer_detail.js:17
+msgid "Payer Name"
+msgstr ""
+
+#: block/src/frontend/render_block/components/payer_detail.js:36
+msgid "Payer E-mail"
+msgstr ""
+
+#: block/src/frontend/render_block/components/payer_detail.js:55
+msgid "Payer Address"
+msgstr ""
+
+#: block/src/frontend/render_block/payment.js:106
+msgid "Payment Method"
+msgstr ""
+
+#: block/src/frontend/render_block/payment.js:111
+msgid "Select payment method"
+msgstr ""
+
+#: block/src/frontend/render_block/payment.js:116
+msgid "Stripe"
+msgstr ""
+
+#: block/src/frontend/render_block/payment.js:162
+msgid "There are items that required your attention."
+msgstr ""
+
+#: block/src/frontend/render_block/save.js:51
+msgid "You must fill privacy policy checkbox"
+msgstr ""
+
+#: block/src/frontend/render_block/save.js:394
+msgid "User Registration Completed"
+msgstr ""
+
+#: block/src/frontend/render_block/save.js:454
+msgid "Loading..."
+msgstr ""
+
+#: block/src/frontend/render_block/save.js:573
+msgid "Membership Plans"
+msgstr ""
+
+#: block/src/frontend/render_block/save.js:574
+msgid "Please select a plan"
+msgstr ""
+
+#: block/src/frontend/render_block/save.js:635
+msgid "Please fill all input fields. There are items that required your attention."
+msgstr ""
+
+#: block/src/frontend/render_block/save.js:653
+msgid "No payment integration enable, please contact admin."
+msgstr ""
+
+#: block/src/membership/membership.js:35
+#: block/src/multi_authors/components/new_guest_author.js:150
+msgid "Display Name"
+msgstr ""
+
+#: block/src/membership/membership.js:48
+msgid "Membership Type"
+msgstr ""
+
+#: block/src/membership/membership.js:80
+msgid "View"
+msgstr ""
+
+#: block/src/membership/membership.js:85
+msgid "Form per page"
+msgstr ""
+
+#: block/src/membership/membership.js:86
+msgid "of"
+msgstr ""
+
+#: block/src/membership/membership.js:88
+msgid "All"
+msgstr ""
+
+#: block/src/membership/membership.js:174
+msgid "All Authors"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:125
+#: block/src/multi_authors/components/new_guest_author.js:126
+msgid "New Guest Author Created!"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:129
+msgid "Guest Author Updated!"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:143
+msgid "Add New Guest"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:143
+msgid "Update Guest"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:165
+msgid "First Name"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:180
+msgid "Last Name"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:206
+msgid "Email Name"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:222
+msgid "Enable Guest"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:236
+#: block/src/multi_authors/components/new_guest_author.js:270
+msgid "Enable to convert Guest to Author"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:251
+#: block/src/multi_authors/components/new_guest_author.js:286
+msgid "Link Account with"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:256
+#: block/src/multi_authors/components/new_guest_author.js:291
+msgid "Map with author"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:305
+msgid "Unlink guest and author"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:318
+msgid "Guest is linked with:"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:339
+msgid "Additional Contact Info"
+msgstr ""
+
+#: block/src/multi_authors/components/new_guest_author.js:438
+msgid "Guest Author"
+msgstr ""
+
+#: block/src/multi_authors/guest_authors.js:260
+msgid "Guest Author List"
+msgstr ""
+
+#: block/src/order/index.js:26
+msgid "Payer Detail"
+msgstr ""
+
+#: block/src/order/index.js:27
+msgid "Payer name:"
+msgstr ""
+
+#: block/src/order/index.js:28
+msgid "Payer email:"
+msgstr ""
+
+#: block/src/order/index.js:29
+msgid "Payer address:"
+msgstr ""
+
+#: block/src/order/index.js:33
+msgid "Membership Detail"
+msgstr ""
+
+#: block/src/order/index.js:34
+msgid "Plan name:"
+msgstr ""
+
+#: block/src/order/index.js:35
+msgid "Plan description:"
+msgstr ""
+
+#: block/src/order/index.js:36
+msgid "Order ID:"
+msgstr ""
+
+#: block/src/order/index.js:40
+msgid "Subscription Detail"
+msgstr ""
+
+#: block/src/order/index.js:41
+msgid "Stats from:"
+msgstr ""
+
+#: block/src/order/index.js:42
+msgid "Ends at:"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:112
+msgid "Text Settings"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:118
+msgid "Form Title "
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:124
+msgid "Button Text"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:130
+msgid "Button Border Radius"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:152
+#: block/src/utils/component/header-settings.js:103
+msgid "Title Color"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:163
+msgid "Button Text Color"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:226
+msgid "Input Settings "
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:230
+msgid "Enable Input Shadow"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:258
+msgid "Input Border Radius"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:267
+msgid "Background"
+msgstr ""
+
+#: block/src/user-login/components/inspector.js:351
+msgid "Block Gaps"
+msgstr ""
+
+#: block/src/user-login/index.js:12
+msgid "Login"
+msgstr ""
+
+#: block/src/user-login/index.js:13
+msgid "AWPA User Login Form"
+msgstr ""
+
+#: block/src/user_dashboard/dashboard.js:271
+msgid "Profile Image"
+msgstr ""
+
+#: block/src/user_dashboard/dashboard.js:280
+msgid "Change Profile Image"
+msgstr ""
+
+#: block/src/utils/common-section-header-edit.js:98
+msgid "Sub Title"
+msgstr ""
+
+#: block/src/utils/component/boxshadow/index.js:37
+msgid "Box Shadow Option "
+msgstr ""
+
+#: block/src/utils/component/boxshadow/index.js:43
+msgid "Shadow Color"
+msgstr ""
+
+#: block/src/utils/component/boxshadow/index.js:51
+msgid "X Offset"
+msgstr ""
+
+#: block/src/utils/component/boxshadow/index.js:59
+msgid "Y Offset"
+msgstr ""
+
+#: block/src/utils/component/boxshadow/index.js:68
+msgid "Blur"
+msgstr ""
+
+#: block/src/utils/component/boxshadow/index.js:77
+msgid "Spread"
+msgstr ""
+
+#: block/src/utils/component/design-header-control/index.js:51
+msgid "Layout 7"
+msgstr ""
+
+#: block/src/utils/component/design-header-control/index.js:54
+msgid "Layout 8"
+msgstr ""
+
+#: block/src/utils/component/design-header-control/index.js:57
+msgid "Layout 9"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:72
+#: block/src/utils/component/typography/custom-select-control.js:27
+msgid "h1"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:73
+#: block/src/utils/component/typography/custom-select-control.js:28
+msgid "h2"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:74
+#: block/src/utils/component/typography/custom-select-control.js:29
+msgid "h3"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:75
+#: block/src/utils/component/typography/custom-select-control.js:30
+msgid "h4"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:76
+#: block/src/utils/component/typography/custom-select-control.js:31
+msgid "h5"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:77
+#: block/src/utils/component/typography/custom-select-control.js:32
+msgid "h6"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:96
+msgid "Title Settings"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:108
+msgid "Subtitle Color"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:118
+msgid "Dash color"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:125
+msgid "Dash Color"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:139
+msgid "Title Subtitle Gaps"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:143
+msgid "Title Gaps"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:148
+#: block/src/utils/component/header-settings.js:169
+#: block/src/utils/padding.js:74
+msgid "Padding Top"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:155
+#: block/src/utils/component/header-settings.js:176
+#: block/src/utils/padding.js:92
+msgid "Padding Bottom"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:164
+msgid "Subtitle Gaps"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:186
+#: block/src/utils/margin.js:38
+msgid "Margin"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:190
+#: block/src/utils/component/header-settings.js:258
+#: block/src/utils/margin.js:48
+msgid "Margin Top"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:197
+#: block/src/utils/component/header-settings.js:265
+#: block/src/utils/margin.js:58
+msgid "Margin Bottom"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:223
+msgid "Header Padding Top"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:230
+msgid "Header Padding Left"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:238
+msgid "Header Padding Bottom"
+msgstr ""
+
+#: block/src/utils/component/header-settings.js:245
+msgid "Header Padding Right"
+msgstr ""
+
+#: block/src/utils/component/typography/font-typography.js:52
+msgid "Default"
+msgstr ""
+
+#: block/src/utils/component/typography/range-typography.js:58
+msgid "Font Size"
+msgstr ""
+
+#: block/src/utils/padding.js:64
+msgid "Padding"
+msgstr ""
+
+#: block/src/utils/padding.js:83
+msgid "Padding Right"
+msgstr ""
+
+#: block/src/utils/padding.js:101
+msgid "Padding Left"
+msgstr ""
+
+#: block/src/utils/padding.js:110
+msgid "Padding Vertical"
+msgstr ""
+
+#: block/src/utils/padding.js:119
+msgid "Padding Horizontal"
+msgstr ""

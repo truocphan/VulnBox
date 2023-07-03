@@ -1,0 +1,84 @@
+.components-panel__row .components-base-control.css-1wzzj1a {
+    display: none;
+}
+
+#awpa_authors_metabox > div {
+    width: 100% !important;
+}
+
+.edit-post-meta-boxes-area.is-side #awpa_authors_metabox > select {
+    width: 86% !important;
+}
+
+.awpa-ma-dragbox {
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    cursor: move;
+    display: flex;
+    border-radius: 3px;
+}
+
+
+.awpa-ma-drag-box-title {
+    margin: 8px;
+    align-self: center;
+    flex: 1;
+}
+
+.awpa-ma-drag-box-title p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.awpa-ma-drag-box-title .author-type {
+    font-size: 10px;
+    color: #a2a7ac;
+
+}
+
+.awpa-ma-drag-box-close {
+    position: relative;
+    border-left: 1px solid #dee2e6;
+    flex: 0 1 25%;
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awpa-ma-drag-box-close .move-icon-box, .awpa-ma-drag-box-close .item-remove{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awpa-ma-drag-box-close .move-icon-box svg { 
+    fill: var(--color-gray);
+    transform: rotate(91deg);
+    height: 18px;
+    width: 18px;
+}
+
+ .awpa-ma-drag-box-close .item-remove { 
+    background-color: #dee2e6;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 0 4px 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(25%, -30%);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.awpa-ma-drag-box-close .item-remove:hover { 
+    background-color: #b32d2e;
+    color: #fff;
+}

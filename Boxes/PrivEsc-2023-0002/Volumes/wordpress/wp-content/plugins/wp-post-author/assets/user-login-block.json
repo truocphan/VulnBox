@@ -1,0 +1,227 @@
+{
+    "name": "awpa/user-login",
+    "category": "awpa",
+    "attributes": {
+        "uniqueClass": {
+            "type": "string"
+        },
+        "sectionAlignment": {
+            "type": "string",
+            "default": "center"
+        },
+        "formTitle": {
+            "type": "string",
+            "default": "User Login Form"
+        },
+        "formTitleColor": {
+            "type": "string",
+            "default": "#343a40"
+        },
+        "formBgColor": {
+            "type": "string",
+            "default": "#fff"
+        },
+        "labelColor": {
+            "type": "string",
+            "default": "#343a40"
+        },
+        "btnText": {
+            "type": "string",
+            "default": "Login"
+        },
+        "btnRadius": {
+            "type": "number",
+            "default": 0
+        },
+        "btnTextColor": {
+            "type": "string",
+            "default": "#fff"
+        },
+        "btnBgcolor": {
+            "type": "string",
+            "default": "#2d1286"
+        },
+        "titleFontSize": {
+            "type": "number",
+            "default": 32
+        },
+        "titleTabletForntSize": {
+            "type": "number",
+            "default": 26
+        },
+        "titleMobileForntSize": {
+            "type": "number",
+            "default": 26
+        },
+        "titleFontFamily": {
+            "type": "string",
+            "default": "Default"
+        },
+        "titleLoadGoogleFonts": {
+            "type": "boolean",
+            "default": false
+        },
+        "titleFontWeight": {
+            "type": "string",
+            "default": 600
+        },
+        "titleFontSubset": {
+            "type": "string"
+        },
+        "titleFontSizeType": {
+            "type": "string",
+            "default": "px"
+        },
+        "labelFontSize": {
+            "type": "number",
+            "default": 16
+        },
+        "labelTabletForntSize": {
+            "type": "number",
+            "default": 14
+        },
+        "labelMobileForntSize": {
+            "type": "number",
+            "default": 14
+        },
+        "labelFontFamily": {
+            "type": "string",
+            "default": "Default"
+        },
+        "labelLoadGoogleFonts": {
+            "type": "boolean",
+            "default": false
+        },
+        "labelFontWeight": {
+            "type": "string",
+            "default": 600
+        },
+        "labelFontSubset": {
+            "type": "string"
+        },
+        "labelFontSizeType": {
+            "type": "string",
+            "default": "px"
+        },
+        "btnFontSize": {
+            "type": "number",
+            "default": 16
+        },
+        "btnTabletForntSize": {
+            "type": "number",
+            "default": 16
+        },
+        "btnMobileForntSize": {
+            "type": "number",
+            "default": 16
+        },
+        "btnFontFamily": {
+            "type": "string",
+            "default": "Default"
+        },
+        "btnLoadGoogleFonts": {
+            "type": "boolean",
+            "default": false
+        },
+        "btnFontWeight": {
+            "type": "string",
+            "default": 600
+        },
+        "btnFontSubset": {
+            "type": "string"
+        },
+        "btnFontSizeType": {
+            "type": "string",
+            "default": "px"
+        },
+        "enableBgImage": {
+            "type": "boolean",
+            "defaultf": false
+        },
+        "imgURL": {
+            "type": "string",
+            "default": false
+        },
+        "imgID": {
+            "type": "number"
+        },
+        "imgAlt": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "alt",
+            "selector": "img"
+        },
+        "enableBoxShadow": {
+            "type": "boolean",
+            "default": false
+        },
+        "xOffset": {
+            "type": "number",
+            "default": 0
+        },
+        "yOffset": {
+            "type": "number",
+            "default": 6
+        },
+        "blur": {
+            "type": "number",
+            "default": 12
+        },
+        "spread": {
+            "type": "number",
+            "default": -10
+        },
+        "shadowColor": {
+            "type": "string",
+            "default": "#000"
+        },
+        "borderRadius": {
+            "type": "number",
+            "default": 0
+        },
+        "inputBoxShadow": {
+            "type": "boolean",
+            "default": true
+        },
+        "inputxOffset": {
+            "type": "number",
+            "default": 0
+        },
+        "inputyOffset": {
+            "type": "number",
+            "default": 6
+        },
+        "inputblur": {
+            "type": "number",
+            "default": 12
+        },
+        "inputspread": {
+            "type": "number",
+            "default": -10
+        },
+        "inputshadowColor": {
+            "type": "string",
+            "default": "#000"
+        },
+        "inputBorderRadius": {
+            "type": "number",
+            "default": 0
+        },
+        "paddingTop": {
+            "type": "number",
+            "default": 16
+        },
+        "paddingRight": {
+            "type": "number",
+            "default": 16
+        },
+        "paddingBottom": {
+            "type": "number",
+            "default": 16
+        },
+        "paddingLeft": {
+            "type": "number",
+            "default": 16
+        }
+    }
+}

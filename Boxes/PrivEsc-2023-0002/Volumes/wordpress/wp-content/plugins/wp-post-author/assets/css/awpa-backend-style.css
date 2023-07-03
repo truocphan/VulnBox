@@ -1,0 +1,2226 @@
+/* //////////////////////////////////////////////////// */
+/* variables  */
+
+:root {
+  --color-blue: #2271b1;
+  --color-blue-dark: #0a4b78;
+
+  --color-indigo: #2d1286;
+  --color-indigo-light: #9e86ef;
+  --color-indigo-light-2: #e6e0fb;
+  --color-indigo-dark: #230e68;
+
+  --color-gray: #495057;
+
+  --color-gray-light-1: #adb5bd;
+  --color-gray-light-2: #dee2e6;
+  --color-gray-light-3: #f5f5f5;
+  --color-gray-light-4: #8a8e92;
+
+  --color-gray-dark-1: #343a40;
+  --color-gray-dark-2: #212529;
+
+  --color-white: #ffffff;
+  --color-red: #b32d2e;
+
+
+  
+  --border: 1px solid rgba(226,230,235,0.5);
+  --box-shadow: 0 2px 5px rgba(143, 163, 184, 0.1);
+}
+
+
+
+/* //////////////////////////////////////////////////// */
+/* Button */
+
+.toplevel_page_wp-post-author .btn,
+.wp-post-author_page_awpa-add-new-registration .btn,
+.wp-post-author_page_awpa-settings .btn,
+.wp-post-author_page_awpa-multi-authors .btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  min-height: 30px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* Button-enable */
+
+.toplevel_page_wp-post-author .btn-blue,
+.toplevel_page_wp-post-author .btn-enable,
+.wp-post-author_page_awpa-add-new-registration .btn-blue,
+.wp-post-author_page_awpa-add-new-registration .btn-enable,
+.wp-post-author_page_awpa-settings .btn-blue,
+.wp-post-author_page_awpa-settings .btn-enable,
+.wp-post-author_page_awpa-multi-authors .btn-blue,
+.wp-post-author_page_awpa-multi-authors .btn-enable {
+  background-color: var(--color-indigo);
+  color: var(--color-white);
+}
+
+.toplevel_page_wp-post-author .btn-blue:hover,
+.toplevel_page_wp-post-author .btn-blue:active,
+.toplevel_page_wp-post-author .btn-enable:hover,
+.toplevel_page_wp-post-author .btn-enable:active,
+.wp-post-author_page_awpa-add-new-registration .btn-blue:hover,
+.wp-post-author_page_awpa-add-new-registration .btn-blue:active,
+.wp-post-author_page_awpa-add-new-registration .btn-enable:hover,
+.wp-post-author_page_awpa-add-new-registration .btn-enable:active,
+.wp-post-author_page_awpa-settings .btn-blue:hover,
+.wp-post-author_page_awpa-settings .btn-blue:active,
+.wp-post-author_page_awpa-settings .btn-enable:hover,
+.wp-post-author_page_awpa-settings .btn-enable:active ,
+.wp-post-author_page_awpa-multi-authors .btn-blue:hover,
+.wp-post-author_page_awpa-multi-authors .btn-blue:active,
+.wp-post-author_page_awpa-multi-authors .btn-enable:hover,
+.wp-post-author_page_awpa-multi-authors .btn-enable:active {
+  background-color: var(--color-indigo-dark);
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* Button-disable */
+
+.toplevel_page_wp-post-author .btn-disable,
+.toplevel_page_wp-post-author .btn:disabled,
+.wp-post-author_page_awpa-add-new-registration .btn-disable,
+.wp-post-author_page_awpa-add-new-registration .btn:disabled,
+.wp-post-author_page_awpa-settings .btn-disable,
+.wp-post-author_page_awpa-settings .btn:disabled ,
+.wp-post-author_page_awpa-multi-authors .btn-disable,
+.wp-post-author_page_awpa-multi-authors .btn:disabled {
+  background-color: var(--color-gray-light-3);
+  border-color: var(--color-gray-light-3);
+  color: var(--color-gray-light-1);
+}
+
+/* //////////////////////////////////////////////////// */
+/* Switch */
+
+.toplevel_page_wp-post-author .switch,
+.wp-post-author_page_awpa-settings .switch,
+.wp-post-author_page_awpa-add-new-registration .switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 25px;
+
+}
+
+.toplevel_page_wp-post-author .switch input,
+.wp-post-author_page_awpa-settings .switch input,
+.wp-post-author_page_awpa-add-new-registration .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toplevel_page_wp-post-author .slider,
+.wp-post-author_page_awpa-settings .slider,
+.wp-post-author_page_awpa-add-new-registration .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 3px solid var(--color-indigo);
+  border-radius: 100px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toplevel_page_wp-post-author .slider:before,
+.wp-post-author_page_awpa-settings .slider:before,
+.wp-post-author_page_awpa-add-new-registration .slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 2px;
+  top: 2px;
+  background-color: var(--color-indigo);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toplevel_page_wp-post-author input:checked+.slider,
+.wp-post-author_page_awpa-settings input:checked+.slider,
+.wp-post-author_page_awpa-add-new-registration input:checked+.slider {
+  background-color: var(--color-indigo);
+}
+
+.toplevel_page_wp-post-author input:focus+.slider,
+.wp-post-author_page_awpa-settings input:focus+.slider,
+.wp-post-author_page_awpa-add-new-registration input:focus+.slider {
+  box-shadow: 0 0 1px var(--color-indigo);
+}
+
+.toplevel_page_wp-post-author input:checked+.slider:before,
+.wp-post-author_page_awpa-settings input:checked+.slider:before,
+.wp-post-author_page_awpa-add-new-registration input:checked+.slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+  background-color: var(--color-white);
+}
+
+.toplevel_page_wp-post-author .slider.round,
+.wp-post-author_page_awpa-settings .slider.round,
+.wp-post-author_page_awpa-add-new-registration .slider.round {
+  border-radius: 100px;
+}
+
+.toplevel_page_wp-post-author .slider.round:before,
+.wp-post-author_page_awpa-settings .slider.round:before,
+.wp-post-author_page_awpa-add-new-registration .slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* Popup-notice */
+
+.toplevel_page_wp-post-author .notice,
+.wp-post-author_page_awpa-add-new-registration .notice {
+  display: none;
+}
+
+/*********************************************************************
+----------------------- Registration Forms page ----------------------
+**********************************************************************/
+
+/* //////////////////////////////////////////////////// */
+/* all-forms-container */
+.toplevel_page_wp-post-author .awpa-all-forms-container,
+.wp-post-author_page_awpa-members #afwrap-membership-dashboard {
+  margin-top: -18px;
+}
+
+
+
+
+/* //////////////////////////////////////////////////// */
+/* form-header */
+
+.awpa-form-header {
+  display: flex;
+  align-items: center;
+}
+
+.awpa-form-header,
+.awpa-form-header~div {
+  margin: 0 16px;
+  width: auto;
+}
+
+.awpa-form-header h1 {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-right: 5px;
+}
+
+.awpa-form-header h2 {
+  font-size: 18px;
+  margin: 0;
+  margin-right: 5px;
+  color: inherit;
+}
+
+.awpa-form-header input {
+  margin-left: auto;
+  margin-right: 4px;
+}
+
+.awpa-add-new {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  text-decoration: none;
+  border: 1px solid #2271b1;
+  border-radius: 2px;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: normal;
+  color: #2271b1;
+  background: #f6f7f7;
+  cursor: pointer;
+}
+
+.awpa-form-header .awpa-post-search {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2.15;
+  min-height: 30px;
+  margin: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.awpa-form-header .awpa-add-new:hover,
+.awpa-form-header .awpa-post-search:hover {
+  background: #f0f0f1;
+  border-color: #0a4b78;
+  color: #0a4b78;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* Table */
+
+.aft-container .rdt_Table {
+  border: 1px solid #c3c4c7;
+  border-bottom: none;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Table-head */
+
+.aft-container .rdt_TableHeadRow {
+  min-height: 35.6px;
+  border-color: #c3c4c7;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2c3338;
+  color: var(--color-blue);
+}
+
+.aft-container .rdt_TableCol:not(:first-child),
+.aft-container .rdt_TableCell:not(:first-child) {
+  padding: 0 8px;
+}
+
+
+.aft-container .rdt_TableCol:not(:first-child):active,
+.aft-container .rdt_TableCol:not(:first-child):active {
+  color: #043959;
+  box-shadow: 0 0 0 1px #4f94d4, 0 0 2px 1px rgb(79 148 212 / 80%);
+  outline: 1px solid transparent;
+}
+
+.aft-container .rdt_TableCol:first-child,
+.aft-container .rdt_TableCell:first-child {
+  min-width: 33.8px;
+  padding-left: 3px;
+}
+
+.aft-container .rdt_TableCol_Sortable:hover,
+.aft-container .rdt_TableCol_Sortable:focus {
+  opacity: 1;
+}
+
+.aft-container .rdt_TableCol_Sortable span {
+  font: normal 10.5px/1 dashicons;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 5px;
+  color: #3c434a;
+  line-height: .5;
+  vertical-align: top;
+}
+
+.aft-container .rdt_TableCol_Sortable:hover span,
+.aft-container .rdt_TableCol_Sortable:focus span {
+  opacity: 1;
+}
+
+.aft-container [data-column-id="1"].rdt_TableCol,
+.aft-container [data-column-id="1"].rdt_TableCell,
+.wp-post-author_page_awpa-settings [data-column-id="3"].rdt_TableCol,
+.wp-post-author_page_awpa-settings [data-column-id="3"].rdt_TableCell,
+.wp-post-author_page_awpa-multi-authors [data-column-id="3"].rdt_TableCol,
+.wp-post-author_page_awpa-multi-authors [data-column-id="3"].rdt_TableCell,
+.toplevel_page_wp-post-author [data-column-id="3"].rdt_TableCol,
+.toplevel_page_wp-post-author [data-column-id="3"].rdt_TableCell,
+.wp-post-author_page_awpa-settings [data-column-id="3"].rdt_TableCol,
+.wp-post-author_page_awpa-settings [data-column-id="3"].rdt_TableCell {
+  flex-grow: 2;
+}
+
+
+
+/* //////////////////////////////////////////////////// */
+/* Table-body */
+
+
+.aft-container div.rdt_TableRow {
+  border: none;
+}
+
+.aft-container .rdt_TableRow {
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+.aft-container .rdt_TableRow:nth-child(odd) {
+  background: var(--color-gray-light-3);
+}
+
+.aft-container .rdt_TableRow:nth-child(odd) .awpa-user-registration {
+  background-color: var(--color-gray-light-3);
+}
+
+.aft-container .awpa-user-registration,
+.aft-container .awpa-registration h2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: var(--color-blue);
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.aft-container .awpa-form-list-box {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.aft-container .rdt_TableRow:hover .awpa-form-list-box {
+  opacity: 1;
+}
+
+.aft-container .awpa-form-list-box a {
+  display: inline-block;
+  font-size: 13px;
+  border-right: 2px solid var(--color-gray-light-2);
+  padding-right: 5px;
+  margin-right: 5px;
+  line-height: 10px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.aft-container .awpa-form-list-box a:hover,
+.aft-container .awpa-form-list-box a:active {
+  color: #135e96;
+}
+
+
+.aft-container .awpa-form-list-box a:last-child {
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+
+.aft-container .awpa-form-list-box .awpa-form-list-trash,
+.aft-container .awpa-form-list-box .awpa-form-list-trash:hover,
+.aft-container .awpa-form-list-box .awpa-form-list-trash:active {
+  color: var(--color-red);
+}
+
+
+.aft-container .awpa-form-list-author {
+  text-decoration: none;
+}
+
+.awpa-shortcode {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* Pagination */
+
+
+.aft-container .rdt_Pagination {
+  border: 1px solid #c3c4c7;
+  min-height: 35.6px;
+}
+
+.aft-container select+svg {
+  display: none;
+}
+
+.aft-container .rdt_Pagination svg {
+  height: 22px;
+  width: 22px;
+}
+
+
+.aft-container .rdt_Pagination button {
+  height: 22px;
+  width: 22px;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.aft-container .rdt_Pagination select {
+  font-size: 13px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Membership Plan */
+.wp-post-author_page_awpa-settings .awpa-form-header {
+  margin-bottom: 10px;
+}
+
+.awpa-form-header h2 {
+  font-size: 18px;
+  margin: 0;
+  margin-right: 5px;
+  color: inherit;
+}
+
+/*********************************************************************
+----------------------------- Add New page ---------------------------
+**********************************************************************/
+
+/* //////////////////////////////////////////////////// */
+/* wpbody-content */
+.wp-post-author_page_awpa-add-new-registration #wpbody-content,
+.toplevel_page_wp-post-author #wpbody-content {
+  padding-bottom: 0;
+  float: none;
+  width: auto;
+}
+
+/* //////////////////////////////////////////////////// */
+/* wpfooter */
+
+.wp-post-author_page_awpa-add-new-registration #wpfooter,
+.toplevel_page_wp-post-author #wpfooter {
+  display: none;
+}
+
+/* //////////////////////////////////////////////////// */
+/* top-section */
+
+.wp-post-author_page_awpa-add-new-registration #wpcontent,
+.toplevel_page_wp-post-author #wpcontent,
+.wp-post-author_page_awpa-members #wpcontent,
+.wp-post-author_page_awpa-multi-authors #wpcontent {
+  padding: 0;
+}
+
+
+.wp-post-author_page_awpa-add-new-registration .awpa-top-section-wrapper,
+.toplevel_page_wp-post-author .awpa-top-section-wrapper {
+  background: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid var(--color-gray-light-2);
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-top-section-wrapper .awpa-form-header,
+.wp-post-author_page_awpa-add-new-registration .awpa-top-section-wrapper .awpa-form-create,
+.toplevel_page_wp-post-author .awpa-top-section-wrapper .awpa-form-create,
+.toplevel_page_wp-post-author .awpa-top-section-wrapper .awpa-form-header{
+  margin: 0;
+}
+
+.awpa-add-new.awpa-add-back{
+  color: var(--color-indigo);
+  border-color: var(--color-indigo);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  min-height: 30px;
+}
+
+.awpa-add-new.awpa-add-back span {
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-create,
+.toplevel_page_wp-post-author .awpa-form-create {
+  display: flex;
+  gap: 10px;
+}
+
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-title,
+.toplevel_page_wp-post-author .awpa-form-title {
+  width: 250px;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* builder-section-wrapper */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-section-wrapper,
+.toplevel_page_wp-post-author .awpa-builder-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+/* //////////////////////////////////////////////////// */
+/* field-section */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-field-section-wrapper,
+.toplevel_page_wp-post-author .awpa-field-section-wrapper {
+  flex: 0 0 35%;
+  min-width: 300px;
+  background: var(--color-white);
+  border-right: 1px solid var(--color-gray-light-2);
+}
+
+/* //////////////////////////////////////////////////// */
+/* Tab */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-tab,
+.toplevel_page_wp-post-author .awpa-tab {
+  display: flex;
+  margin: 16px;
+  box-shadow: 0 1px var(--color-gray-light-2);
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-tab input,
+.toplevel_page_wp-post-author .awpa-tab input {
+  flex: 1;
+  background: var(--color-white);
+  color: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 16px;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
+  transition: all .3s;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-tab input.active,
+.toplevel_page_wp-post-author .awpa-tab input.active {
+  border-color: var(--color-indigo);
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* Input-list-container */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-input-list-container,
+.toplevel_page_wp-post-author .awpa-input-list-container,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting,
+.toplevel_page_wp-post-author .apwa-input-setting,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-premium,
+.toplevel_page_wp-post-author .apwa-input-premium {
+  height: 73.9vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 16px 16px;
+  margin-right: 2px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Input-list-header */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-field-section-wrapper h3,
+.toplevel_page_wp-post-author .awpa-field-section-wrapper h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 24px 0;
+  color: inherit;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-field-section-wrapper h3:first-child,
+.toplevel_page_wp-post-author .awpa-field-section-wrapper h3:first-child {
+  margin-top: 8px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Input-list */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list,
+.toplevel_page_wp-post-author .awpa-basic-input-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  align-content: start;
+  justify-items: center;
+  align-items: center;
+  gap: 16px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Input-list-item */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .input-list-item,
+.toplevel_page_wp-post-author .awpa-basic-input-list .input-list-item {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 1.1;
+  border: 1px solid var(--color-gray-light-2);
+  border-radius: 3px;
+  cursor: move;
+  transition: all 0.3s;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .input-list-item:hover,
+.toplevel_page_wp-post-author .awpa-basic-input-list .input-list-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .input-list-item:active,
+.toplevel_page_wp-post-author .awpa-basic-input-list .input-list-item:active {
+  transform: translateY(-1px);
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* //////////////////////////////////////////////////// */
+/* input-item-icon */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .input-list-item span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .input-list-item span::before {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  font-weight: 100;
+  color: var(--color-gray);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-email */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .email span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .email span::before {
+  content: "\f0e0";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-password */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .password span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .password span::before {
+  content: "\f06e";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-nickname */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .nickname span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .nickname span::before {
+  content: "\f507";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-user-login */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .user_login span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .user_login span::before {
+  content: "\f502";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-first-name */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .first_name span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .first_name span::before {
+  content: "\f2bb";
+  transform: scaleX(-1);
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-last-name */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .last_name span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .last_name span::before {
+  content: "\f2bb";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-description */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .description span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .description span::before {
+  content: "\f2b9";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-display-name */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .display_name span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .display_name span::before {
+  content: "\f51c";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-web-site */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .web_site span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .web_site span::before {
+  content: "\f2d2";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-input-field */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .input-field span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .input-field span::before {
+  content: "\f118";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-password-field */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .password-field span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .password-field span::before {
+  content: "\f118";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-secondary-email */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .secondary-email span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .secondary-email span::before {
+  content: "\f2b6";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-country */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .country span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .country span::before {
+  content: "\f024";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-textarea */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .teaxtarea span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .teaxtarea span::before {
+  content: "\f1c2";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-number */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .number span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .number span::before {
+  content: "\f118";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-date */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .date span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .date span::before {
+  content: "\f272";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-checkbox */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .checkboxes span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .checkboxes span::before {
+  content: "\f14a";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-select */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .select span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .select span::before {
+  content: '\f150';
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-radio */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .radiobox span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .radiobox span::before {
+  content: "\f192";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-privacy-policy */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .privacy-policy span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .privacy-policy span::before {
+  content: "\f118";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-profile-image */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .profile-image span::before,
+.toplevel_page_wp-post-author .awpa-basic-input-list .profile-image span::before {
+  content: "\f2c1";
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-drag */
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-option svg,
+.toplevel_page_wp-post-author .checkbox-option svg,
+.wp-post-author_page_awpa-add-new-registration .radiobox-option svg,
+.toplevel_page_wp-post-author .radiobox-option svg,
+.wp-post-author_page_awpa-add-new-registration .move-icon-box svg,
+.toplevel_page_wp-post-author .move-icon-box svg,
+.wp-post-author_page_awpa-add-new-registration .input-list-item svg,
+.toplevel_page_wp-post-author .input-list-item svg {
+  fill: var(--color-gray);
+  transform: rotate(91deg);
+  height: 18px;
+  width: 18px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Input-list-item-lock */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .item-locked,
+.toplevel_page_wp-post-author .awpa-basic-input-list .item-locked {
+  opacity: 0.5 !important;
+  cursor: not-allowed;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .input-list-item.item-locked:hover,
+.toplevel_page_wp-post-author .awpa-basic-input-list .input-list-item.item-locked:hover,
+.wp-post-author_page_awpa-add-new-registration .awpa-basic-input-list .input-list-item.item-locked:active,
+.toplevel_page_wp-post-author .awpa-basic-input-list .input-list-item.item-locked:active {
+  transform: none;
+  box-shadow: none;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* Input-setting  */
+
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting,
+.toplevel_page_wp-post-author .apwa-input-setting,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-premium,
+.toplevel_page_wp-post-author .apwa-input-premium {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Input-label  */
+
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item label,
+.toplevel_page_wp-post-author .apwa-input-setting-item label {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Input-field  */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-title input,
+.toplevel_page_wp-post-author .awpa-form-title input,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item input,
+.toplevel_page_wp-post-author .apwa-input-setting-item input,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box input,
+.toplevel_page_wp-post-author .awpa-form-builder-box input,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item select,
+.toplevel_page_wp-post-author .apwa-input-setting-item select,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box select,
+.toplevel_page_wp-post-author .awpa-form-builder-box select,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item textarea,
+.toplevel_page_wp-post-author .apwa-input-setting-item textarea,
+.wp-post-author_page_awpa-add-new-registration .css-wmw4vi-ReactDropdownSelect,
+.toplevel_page_wp-post-autho .css-wmw4vi-ReactDropdownSelect {
+  padding: 8px 12px;
+  min-height: 30px;
+  border: 1px solid var(--color-gray-light-2);
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 14px;
+  color: inherit;
+  line-height: inherit;
+  max-width: 100%;
+  width: 100%;
+}
+
+.tooltip {
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  color: white;
+  font-size: 12px;
+  background-color: slategray;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip-override {
+  width: 150px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-title input:focus,
+.toplevel_page_wp-post-author .awpa-form-title input:focus,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item input:focus,
+.toplevel_page_wp-post-author .apwa-input-setting-item input:focus,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box input:focus,
+.toplevel_page_wp-post-author .awpa-form-builder-box input:focus,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item select:focus,
+.toplevel_page_wp-post-author .apwa-input-setting-item select:focus,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box select:focus,
+.toplevel_page_wp-post-author .awpa-form-builder-box select:focus,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item textarea:focus,
+.toplevel_page_wp-post-author .apwa-input-setting-item textarea:focus,
+.wp-post-author_page_awpa-add-new-registration .css-wmw4vi-ReactDropdownSelect:focus-within,
+.toplevel_page_wp-post-author .css-wmw4vi-ReactDropdownSelect:focus-within,
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-section-wrapper input[type="checkbox"]:focus,
+.toplevel_page_wp-post-author .awpa-builder-section-wrapper input[type="checkbox"]:focus,
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-section-wrapper input[type="radio"]:focus,
+.toplevel_page_wp-post-author .awpa-builder-section-wrapper input[type="radio"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-title input::placeholder,
+.toplevel_page_wp-post-author .awpa-form-title input::placeholder,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item input::placeholder,
+.toplevel_page_wp-post-author .apwa-input-setting-item input::placeholder,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box input::placeholder,
+.toplevel_page_wp-post-author .awpa-form-builder-box input::placeholder,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item select::placeholder,
+.toplevel_page_wp-post-author .apwa-input-setting-item select::placeholder,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box select::placeholder,
+.toplevel_page_wp-post-author .awpa-form-builder-box select::placeholder,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item textarea::placeholder,
+.toplevel_page_wp-post-author .apwa-input-setting-item textarea::placeholder,
+.wp-post-author_page_awpa-add-new-registration .css-wmw4vi-ReactDropdownSelect::placeholder,
+.toplevel_page_wp-post-author .css-wmw4vi-ReactDropdownSelect::placeholder {
+  color: var(--color-gray-light-1);
+  font-size: 14px;
+}
+
+
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item textarea,
+.toplevel_page_wp-post-author .apwa-input-setting-item textarea {
+  height: 135px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-section-wrapper input[type="checkbox"],
+.toplevel_page_wp-post-author .awpa-builder-section-wrapper input[type="checkbox"],
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-section-wrapper input[type="radio"],
+.toplevel_page_wp-post-author .awpa-builder-section-wrapper input[type="radio"] {
+  min-height: 16px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--color-gray-light-2);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-section-wrapper input[type="checkbox"]:checked::before,
+.toplevel_page_wp-post-author .awpa-builder-section-wrapper input[type="checkbox"]:checked::before {
+  content: '\2713';
+  color: var(--color-indigo);
+  font-family: unset;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+
+
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-section-wrapper input[type="radio"],
+.toplevel_page_wp-post-author .awpa-builder-section-wrapper input[type="radio"] {
+  border-radius: 50%;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-section-wrapper input[type="radio"]:checked::before,
+.toplevel_page_wp-post-author .awpa-builder-section-wrapper input[type="radio"]:checked::before {
+  width: 8px;
+  height: 8px;
+  margin: 0;
+  background-color: var(--color-indigo);
+}
+
+/* //////////////////////////////////////////////////// */
+/* checkbox and radio setting options  */
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .container,
+.toplevel_page_wp-post-author .checkbox-edit .container {
+  width: 100% !important;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-option,
+.toplevel_page_wp-post-author .checkbox-option,
+.wp-post-author_page_awpa-add-new-registration .radiobox-option,
+.toplevel_page_wp-post-author .radiobox-option {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: all .3s;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-option:active,
+.toplevel_page_wp-post-author .checkbox-option:active,
+.wp-post-author_page_awpa-add-new-registration .radiobox-option:active,
+.toplevel_page_wp-post-author .radiobox-option:active {
+  border-color: var(--color-indigo);
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-option div,
+.toplevel_page_wp-post-author .checkbox-option div,
+.wp-post-author_page_awpa-add-new-registration .radiobox-option div,
+.toplevel_page_wp-post-author .radiobox-option div {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-option span,
+.toplevel_page_wp-post-author .checkbox-option span,
+.wp-post-author_page_awpa-add-new-registration .radiobox-option span,
+.toplevel_page_wp-post-author .radiobox-option span {
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-option svg,
+.toplevel_page_wp-post-author .checkbox-option svg,
+.wp-post-author_page_awpa-add-new-registration .radiobox-option svg,
+.toplevel_page_wp-post-author .radiobox-option svg {
+  margin-right: 5px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .option-name,
+.toplevel_page_wp-post-author .checkbox-edit .option-name,
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit button,
+.toplevel_page_wp-post-author .checkbox-edit button {
+  font-size: 14px;
+  padding: 8px 12px;
+  color: inherit;
+  border-radius: 3px;
+  border: 1px solid var(--color-gray-light-2);
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .option-name,
+.toplevel_page_wp-post-author .checkbox-edit .option-name {
+  width: 63%;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .option-name:focus-visible,
+.toplevel_page_wp-post-author .checkbox-edit .option-name:focus-visible {
+  outline: none;
+  border-color: var(--color-indigo);
+}
+
+.wp-post-author_page_awpa-add-new-registration .paypal input:not(:last-child),
+.toplevel_page_wp-post-author .paypal input:not(:last-child),
+.wp-post-author_page_awpa-add-new-registration .paypal select,
+.toplevel_page_wp-post-author .paypal select {
+  margin-bottom: 10px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .item-remove::before,
+.toplevel_page_wp-post-author .checkbox-edit .item-remove::before,
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .item-add::before,
+.toplevel_page_wp-post-author .checkbox-edit .item-add::before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .item-add::before,
+.toplevel_page_wp-post-author .checkbox-edit .item-add::before {
+  content: "\f067";
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .item-remove::before,
+.toplevel_page_wp-post-author .checkbox-edit .item-remove::before {
+  content: "\f00d";
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .item-add,
+.toplevel_page_wp-post-author .checkbox-edit .item-add,
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .item-remove,
+.toplevel_page_wp-post-author .checkbox-edit .item-remove {
+  color: var(--color-grey-light);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .item-add:hover,
+.toplevel_page_wp-post-author .checkbox-edit .item-add:hover,
+.wp-post-author_page_awpa-add-new-registration .checkbox-edit .item-remove:hover,
+.toplevel_page_wp-post-author .checkbox-edit .item-remove:hover {
+  background: var(--color-indigo);
+  color: var(--color-white);
+  border-color: var(--color-indigo);
+}
+
+/* //////////////////////////////////////////////////// */
+/* Date setting options  */
+
+.wp-post-author_page_awpa-add-new-registration .date-edit,
+.toplevel_page_wp-post-author .date-edit,
+.wp-post-author_page_awpa-add-new-registration .date-limit-item-box,
+.toplevel_page_wp-post-author .date-limit-item-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .date-edit-item,
+.toplevel_page_wp-post-author .date-edit-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Profile-image and country setting options  */
+
+.wp-post-author_page_awpa-add-new-registration .css-wmw4vi-ReactDropdownSelect,
+.toplevel_page_wp-post-author .css-wmw4vi-ReactDropdownSelect {
+  height: auto;
+  margin-bottom: 16px;
+  padding: 0 8px 0 0;
+}
+
+
+.wp-post-author_page_awpa-add-new-registration .css-wmw4vi-ReactDropdownSelect input,
+.toplevel_page_wp-post-author .css-wmw4vi-ReactDropdownSelect input {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .css-wmw4vi-ReactDropdownSelect input:focus,
+.toplevel_page_wp-post-author .css-wmw4vi-ReactDropdownSelect input:focus {
+  border: none;
+}
+
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item input,
+.toplevel_page_wp-post-author .apwa-input-setting-item input {
+  transition: all .3s;
+}
+
+
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting-item input[type='button']:hover,
+.toplevel_page_wp-post-author .apwa-input-setting-item inpu[type='button']:hover {
+  border: 1px solid var(--color-indigo);
+}
+
+.wp-post-author_page_awpa-add-new-registration .react-dropdown-select-option-label,
+.toplevel_page_wp-post-author .react-dropdown-select-option-label {
+  font-size: 13px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .react-dropdown-select-clear,
+.toplevel_page_wp-post-author .react-dropdown-select-clear {
+  margin: 0;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .react-dropdown-select-dropdown-handle,
+.toplevel_page_wp-post-author .react-dropdown-select-dropdown-handle,
+.wp-post-author_page_awpa-add-new-registration .react-dropdown-select-clear,
+.toplevel_page_wp-post-author .react-dropdown-select-clear {
+  align-self: flex-start;
+  margin-top: 3px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .css-1yc4zyy-DropdownHandleComponent svg,
+.toplevel_page_wp-post-author .css-1yc4zyy-DropdownHandleComponent svg,
+.wp-post-author_page_awpa-add-new-registration .css-1aarvou-DropdownHandleComponent svg,
+.toplevel_page_wp-post-author .css-1aarvou-DropdownHandleComponent svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Scrollbar */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-input-list-container::-webkit-scrollbar,
+.toplevel_page_wp-post-author .awpa-input-list-container::-webkit-scrollbar,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting::-webkit-scrollbar,
+.toplevel_page_wp-post-author .apwa-input-setting::-webkit-scrollbar,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-premium::-webkit-scrollbar,
+.toplevel_page_wp-post-author .apwa-input-premium::-webkit-scrollbar,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div::-webkit-scrollbar,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div::-webkit-scrollbar {
+  width: 5px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-input-list-container:hover::-webkit-scrollbar-thumb,
+.toplevel_page_wp-post-author .awpa-input-list-container:hover::-webkit-scrollbar-thumb,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-setting:hover::-webkit-scrollbar-thumb,
+.toplevel_page_wp-post-author .apwa-input-setting:hover::-webkit-scrollbar-thumb,
+.wp-post-author_page_awpa-add-new-registration .apwa-input-premium:hover::-webkit-scrollbar-thumb,
+.toplevel_page_wp-post-author .apwa-input-premium:hover::-webkit-scrollbar-thumb,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div:hover::-webkit-scrollbar-thumb,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div:hover::-webkit-scrollbar-thumb {
+  background-color: var(--color-gray-light-2);
+  border-radius: 10px;
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* Builder-section  */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-builder-container,
+.toplevel_page_wp-post-author .awpa-builder-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-gray-light-3);
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box,
+.toplevel_page_wp-post-author .awpa-form-builder-box {
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 3px;
+  margin: 16px;
+  background: var(--color-white);
+  box-shadow: 0 0 1.5px rgba(0, 0, 0, 0.1);
+  min-height: 82.4vh;
+  max-height: 82.4vh;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Builder-active-section  */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box:hover,
+.toplevel_page_wp-post-author .awpa-form-builder-box:hover,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box.active,
+.toplevel_page_wp-post-author .awpa-form-builder-box.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div {
+  max-height: 100%;
+  overflow: auto;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Builder-item  */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div>div,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div>div {
+  max-width: 31.25rem;
+  margin: 16px auto;
+  border-radius: 3px;
+  display: flex;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div>div:hover,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div>div:hover {
+  border-color: var(--color-gray-light-2);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div>div:active,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div>div:active {
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+/* //////////////////////////////////////////////////// */
+/* Builder-item-Placeholder  */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box.active>div>div:last-child::after,
+.toplevel_page_wp-post-author .awpa-form-builder-box.active>div:last-child::after {
+  content: "Drop here to add a section";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--color-gray-light-1);
+  height: 85px;
+  max-width: 86%;
+  margin: 32px auto;
+  background: var(--color-indigo-light-2);
+  border: 1px dashed var(--color-indigo);
+  border-radius: 3px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Form-field */
+
+.wp-post-author_page_awpa-add-new-registration .form-field,
+.toplevel_page_wp-post-author .form-field {
+  width: 100%;
+  padding: 16px;
+  position: relative;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Form-field-label  */
+
+.wp-post-author_page_awpa-add-new-registration .item-style,
+.toplevel_page_wp-post-author .item-style,
+.wp-post-author_page_awpa-add-new-registration .item-select,
+.toplevel_page_wp-post-author .item-select {
+  font-size: 14px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+/* //////////////////////////////////////////////////// */
+/* checkbox and radio  */
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-item,
+.toplevel_page_wp-post-author .checkbox-item,
+.wp-post-author_page_awpa-add-new-registration .awpa-input-radio-wrap,
+.toplevel_page_wp-post-author .awpa-input-radio-wrap {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .checkbox-item input,
+.toplevel_page_wp-post-author .checkbox-item input,
+.wp-post-author_page_awpa-add-new-registration .awpa-input-radio-wrap input,
+.toplevel_page_wp-post-author .awpa-input-radio-wrap input {
+  margin-right: 8px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Texarea  */
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box input[type="textarea"],
+.toplevel_page_wp-post-author .awpa-form-builder-box input[type="textarea"] {
+  height: 90px;
+  overflow-y: auto;
+  resize: horizontal;
+  border: 1px solid var(--color-gray-light-2);
+  border-radius: 4px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box input[type="textarea"]::placeholder,
+.toplevel_page_wp-post-author .awpa-form-builder-box input[type="textarea"]::placeholder {
+  transform: translateY(-25px);
+}
+
+/* //////////////////////////////////////////////////// */
+/* File  */
+
+.wp-post-author_page_awpa-add-new-registration .profile-image input::-webkit-file-upload-button,
+.toplevel_page_wp-post-author .profile-image input::-webkit-file-upload-button {
+  background: transparent;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: inherit;
+  border: none;
+  border-right: 1px solid var(--color-gray-light-2);
+  padding: 0;
+  padding-right: 12px;
+  margin-right: 12px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* paypal-integration */
+
+.wp-post-author_page_awpa-add-new-registration .paypal-integration img,
+.toplevel_page_wp-post-author .paypal-integration img {
+  width: 100%;
+}
+
+/* //////////////////////////////////////////////////// */
+/* form-field-description  */
+
+.wp-post-author_page_awpa-add-new-registration .item-description,
+.toplevel_page_wp-post-author .item-description {
+  font-size: 12px;
+}
+
+
+
+/* //////////////////////////////////////////////////// */
+/* form-manage-items */
+
+.wp-post-author_page_awpa-add-new-registration .form-manage-items,
+.toplevel_page_wp-post-author .form-manage-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-left: 1px solid transparent;
+  transition: all .3s;
+}
+
+.wp-post-author_page_awpa-add-new-registration .form-manage-items div,
+.toplevel_page_wp-post-author .form-manage-items div {
+  padding: 10px;
+}
+
+.wp-post-author_page_awpa-add-new-registration .form-manage-items div:not(:last-child),
+.toplevel_page_wp-post-author .form-manage-items div:not(:last-child) {
+  border-bottom: 1px solid transparent;
+  transition: all .3s;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div>div:hover .form-manage-items,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div>div:hover .form-manage-items,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div>div:hover .form-manage-items div:not(:last-child),
+.toplevel_page_wp-post-author .awpa-form-builder-box>div>div:hover .form-manage-items div:not(:last-child) {
+  border-color: var(--color-gray-light-2);
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-delete */
+
+.wp-post-author_page_awpa-add-new-registration .item-btn,
+.toplevel_page_wp-post-author .item-btn {
+  font-size: 0;
+  cursor: pointer;
+}
+
+.wp-post-author_page_awpa-add-new-registration .item-btn::before,
+.toplevel_page_wp-post-author .item-btn::before {
+  content: "\f1f8";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 10px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.wp-post-author_page_awpa-add-new-registration .item-btn:hover::before,
+.toplevel_page_wp-post-author .item-btn:hover::before {
+  color: var(--color-red);
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div>div:hover .item-btn::before,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div>div:hover .item-btn::before,
+.wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div>div:hover .move-icon-box,
+.toplevel_page_wp-post-author .awpa-form-builder-box>div>div:hover .move-icon-box {
+  opacity: 1;
+}
+
+/* //////////////////////////////////////////////////// */
+/* Icon-move */
+
+.wp-post-author_page_awpa-add-new-registration .move-icon-box,
+.toplevel_page_wp-post-author .move-icon-box {
+  cursor: grab;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  opacity: 0;
+  transition: all .3s;
+}
+
+
+/*********************************************************************
+------------------------------ guests Authors page  -------------------------
+**********************************************************************/
+/* //////////////////////////////////////////////////// */
+/* Add new Guest */
+
+.wp-post-author_page_awpa-multi-authors #display_name {
+  width: 60%;
+}
+
+.wp-post-author_page_awpa-multi-authors .integration-container {
+    padding: 16px;
+}
+
+
+/*********************************************************************
+------------------------------ Settings page  -------------------------
+**********************************************************************/
+
+/* //////////////////////////////////////////////////// */
+/* top-section */
+
+.wp-post-author_page_awpa-settings #wpcontent {
+  padding: 0;
+}
+
+.wp-post-author_page_awpa-settings .wrap {
+  margin: 0;
+}
+
+.wp-post-author_page_awpa-settings .wrap h1 {
+  color: inherit;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 16px 16px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* settings-nav */
+
+.wp-post-author_page_awpa-settings .settings-nav {
+  margin: 0;
+    padding: 0 30px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    margin-bottom: 30px;
+}
+
+.wp-post-author_page_awpa-settings .settings-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.wp-post-author_page_awpa-settings .settings-nav li {
+  margin: 0;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+
+
+.wp-post-author_page_awpa-settings .settings-nav a {
+  display: inline-block;
+  padding: 16px 0;
+  color: var(--color-gray);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.wp-post-author_page_awpa-settings .settings-nav li.active {
+  border-color: var(--color-indigo);
+}
+
+.wp-post-author_page_awpa-settings .settings-nav li.active a{
+  color: var(--color-indigo);
+}
+
+/* //////////////////////////////////////////////////////// */
+/* settings tab */
+
+.wp-post-author_page_awpa-settings .Settings-tab-content-wrapper {
+  padding: 0 16px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.wp-post-author_page_awpa-settings .settings-tabs {
+  flex: 0 1 15%;
+  min-width: 180px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+
+
+
+.wp-post-author_page_awpa-settings .settings-tabs .settings-tab-item a {
+  display: block;
+  color: var(--color-gray);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  padding: 16px 32px;
+  border-radius: 0;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  background: var(--color-white);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  transition: all 0.3s ease;
+}
+
+.wp-post-author_page_awpa-settings .settings-tabs .settings-tab-item.active a {
+  box-shadow: 0 -4px var(--color-indigo) inset;
+}
+
+
+
+/* //////////////////////////////////////////////////////// */
+/* Left-part */
+
+.wp-post-author_page_awpa-settings .aft-left-part {
+  flex: 1;
+  background-color: var(--color-white);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 15px 15px 15px 30px;
+  padding: 0 35px;
+  border-radius: 3px;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Left-part-table */
+
+.wp-post-author_page_awpa-settings .aft-left-part .awpa-table {
+  border-radius: 3px;
+}
+
+.wp-post-author_page_awpa-settings .awpa-table.awpa-appearance-table {
+  width: 100%;
+}
+
+.wp-post-author_page_awpa-settings .form-table th {
+  font-size: 14px;
+  width: 25%;
+  color: inherit;
+}
+
+.wp-post-author_page_awpa-settings .awpa-appearance-table tr td {
+  padding: 10px 0;
+}
+
+
+.wp-post-author_page_awpa-settings .aft-left-part h2,
+.wp-post-author_page_awpa-settings .awpa-input-wrapper h3 {
+  color: inherit;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.wp-post-author_page_awpa-settings .form-table td p {
+  font-weight: normal;
+}
+
+.wp-post-author_page_awpa-settings .aft-left-part .awpa-section-desc:first-child {
+  margin-bottom: 10px;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Left-part-form-fields */
+
+.wp-post-author_page_awpa-settings .form-table select,
+.wp-post-author_page_awpa-settings .form-table input[type="text"],
+.wp-post-author_page_awpa-settings .form-table textarea {
+  width: 100%;
+  color: inherit;
+  font-weight: normal;
+}
+
+
+.wp-post-author_page_awpa-settings .form-table textarea {
+  height: 200px;
+}
+
+
+.wp-post-author_page_awpa-settings p.submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Right-part*/
+
+.wp-post-author_page_awpa-settings .aft-left-part+div {
+  border-radius: 3px;
+  align-self: flex-start;
+  flex: 0 1 30%;
+  min-width: 300px;
+}
+
+.wp-post-author_page_awpa-settings .aft-right-part {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.wp-post-author_page_awpa-settings .aft-section-wrap {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--color-white);
+  border-radius: 3px;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+}
+
+.wp-post-author_page_awpa-settings .aft-right-part .aft-section-header {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.wp-post-author_page_awpa-settings .aft-section-wrap img {
+  width: 100%;
+}
+
+.wp-post-author_page_awpa-settings .integration-card .btn {
+  display: block;
+}
+
+
+/* //////////////////////////////////////////////////////// */
+/* Integration */
+
+ .integration-container {
+  padding: 0 16px 16px;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-heding */
+
+ .integration-container h2 {
+  font-size: 18px;
+  color: inherit;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-switch */
+
+ .integration-card .switch {
+  display: block;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-button */
+
+ .integration-card .btn-save {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-content-wrapper */
+
+.awpa-input-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid var(--color-gray-light-2);
+  margin-top: 10px;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-sub-heading */
+
+ .integration-card h3 {
+  font-size: 16px;
+}
+
+.awpa-input-wrapper h3 {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-field-wrapper */
+
+.awpa-imput-content-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-field */
+
+.awpa-imput-content-wrapper .awpa-field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-field-label */
+
+.awpa-imput-content-wrapper .awpa-field label {
+  width: 40%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Integration-field-items */
+
+.awpa-imput-content-wrapper .awpa-field>input, .awpa-imput-content-wrapper .awpa-field textarea {
+  width: 60%;
+  border: 1px solid var(--color-gray-light-2);
+  color: inherit;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 3px 8px;
+}
+
+.awpa-imput-content-wrapper .awpa-field textarea {
+  min-height: 100px;
+}
+
+.awpa-imput-content-wrapper .awpa-field>input[type="file"] {
+  line-height: 2;
+  min-height: 30px;
+  border-radius: 4px;
+}
+
+.awpa-imput-content-wrapper .awpa-checkbox-field {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.awpa-imput-content-wrapper .awpa-radio-field input[type="radio"],
+.awpa-imput-content-wrapper .awpa-checkbox-field input[type="checkbox"] {
+  height: 18px;
+  width: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.awpa-imput-content-wrapper .awpa-radio-field input[type="radio"]::before {
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-indigo);
+  margin: 0;
+  display: flex;
+}
+
+.awpa-imput-content-wrapper .awpa-checkbox-field input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.awpa-imput-content-wrapper .awpa-checkbox-field input[type="checkbox"]:checked:before {
+  content: '\2713';
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  color: var(--color-indigo);
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.awpa-imput-content-wrapper input:focus,
+.awpa-imput-content-wrapper select:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid var(--color-indigo);
+}
+
+.wp-post-author_page_awpa-settings .awpa-recaptcha-radio-field {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+
+/*********************************************************************
+--------------------------- Media-queries ----------------------------
+**********************************************************************/
+
+
+/* //////////////////////////////////////////////////// */
+/* desktops  */
+
+@media screen and (max-width: 1280px) {
+
+  .wp-post-author_page_awpa-multi-authors [data-column-id="6"].rdt_TableCol,
+  .wp-post-author_page_awpa-multi-authors [data-column-id="6"].rdt_TableCell {
+    display: none;
+  }
+  
+  }
+
+@media screen and (max-width: 1210px) {
+
+.toplevel_page_wp-post-author [data-column-id="4"].rdt_TableCol,
+.toplevel_page_wp-post-author [data-column-id="4"].rdt_TableCell,
+.wp-post-author_page_awpa-settings [data-column-id="4"].rdt_TableCol,
+.wp-post-author_page_awpa-settings [data-column-id="4"].rdt_TableCell {
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  .wp-post-author_page_awpa-settings .settings-tabs {
+    flex: 0 0 25%;
+  }
+
+  .wp-post-author_page_awpa-settings .aft-left-part {
+    flex: 1;
+  }
+
+  .wp-post-author_page_awpa-settings .aft-left-part+div {
+    flex: 0 0 100%;
+  }
+  .wp-post-author_page_awpa-settings .aft-right-part {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .awpa-imput-content-wrapper {
+    width: 80%;
+  }
+
+  .wp-post-author_page_awpa-multi-authors [data-column-id="5"].rdt_TableCol,
+  .wp-post-author_page_awpa-multi-authors [data-column-id="5"].rdt_TableCell {
+    display: none;
+  }
+}
+
+/* //////////////////////////////////////////////////// */
+/* tablets  */
+
+@media screen and (max-width: 1040px) {
+
+   .toplevel_page_wp-post-author [data-column-id="2"].rdt_TableCol,
+ .toplevel_page_wp-post-author [data-column-id="2"].rdt_TableCell,
+ .wp-post-author_page_awpa-settings [data-column-id="2"].rdt_TableCol,
+ .wp-post-author_page_awpa-settings [data-column-id="2"].rdt_TableCell {
+   display: none;
+ }
+ 
+ }
+
+@media screen and (max-width: 992px) {
+
+ .awpa-imput-content-wrapper {
+    width: 100%;
+  }
+
+  .wp-post-author_page_awpa-multi-authors [data-column-id="4"].rdt_TableCol,
+  .wp-post-author_page_awpa-multi-authors [data-column-id="4"].rdt_TableCell {
+    display: none;
+  }
+
+}
+
+
+/* //////////////////////////////////////////////////// */
+/* landscape phones */
+
+@media screen and (max-width: 782px) {
+
+  .aft-container {
+    position: relative;
+    margin: 0 10px;
+  }
+
+  .awpa-form-header,
+  .awpa-form-header~div {
+    margin: 0;
+  }
+
+  .wp-post-author_page_awpa-multi-authors .integration-container {
+    padding: 16px 0 0;
+}
+
+  .awpa-form-header input {
+    width: 100%;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+  }
+
+  .awpa-form-header .awpa-add-new {
+    padding: 10px 15px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .awpa-form-header .awpa-post-search {
+    padding: 0 14px;
+    line-height: 2.7;
+    font-size: 14px;
+    vertical-align: middle;
+    min-height: 40px;
+    position: absolute;
+    bottom: -110px;
+    left: 0;
+  }
+
+  .aft-container .rdt_TableCol:first-child,
+.aft-container .rdt_TableCell:first-child {
+  padding-left: 8px;
+}
+
+
+.toplevel_page_wp-post-author [data-column-id="3"].rdt_TableCol,
+.toplevel_page_wp-post-author [data-column-id="3"].rdt_TableCell,
+.wp-post-author_page_awpa-settings [data-column-id="3"].rdt_TableCol,
+.wp-post-author_page_awpa-settings [data-column-id="3"].rdt_TableCell {
+  display: none;
+}
+
+  .aft-container .rdt_TableCol:nth-child(1),
+  .aft-container .rdt_TableCol:nth-child(2) {
+    display: flex !important;
+  }
+
+  .aft-container .awpa-user-registraiton-container {
+    width: 100%;
+  }
+
+  .aft-container .awpa-form-list-box {
+    opacity: 1;
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+  }
+
+  .aft-container .awpa-form-list-box a {
+    border: none;
+  }
+
+
+  .wp-post-author_page_awpa-add-new-registration .awpa-form-builder-box>div>div>div,
+  .toplevel_page_wp-post-author .awpa-form-builder-box>div>div>div {
+    margin: 0 2.5px;
+  }
+
+  .wp-post-author_page_awpa-settings .form-table th {
+    width: 100%;
+  }
+
+  .wp-post-author_page_awpa-settings .awpa-appearance-table tr td:not(:first-child) {
+    padding: 0;
+  }
+
+  .wp-post-author_page_awpa-multi-authors [data-column-id="2"].rdt_TableCol,
+  .wp-post-author_page_awpa-multi-authors [data-column-id="2"].rdt_TableCell,
+  .wp-post-author_page_awpa-members [data-column-id="3"].rdt_TableCol,
+  .wp-post-author_page_awpa-members [data-column-id="3"].rdt_TableCell {
+    display: none;
+  }
+  .wp-post-author_page_awpa-members .aft-container .rdt_TableRow {
+    align-items: center;
+}
+
+}
+
+
+
+/* //////////////////////////////////////////////////// */
+/* portrait phones */
+
+@media screen and (max-width: 600px) {
+
+  .wp-post-author_page_awpa-add-new-registration .awpa-field-section-wrapper,
+  .toplevel_page_wp-post-author .awpa-field-section-wrapper {
+    flex: 0 0 100%;
+  }
+
+  .wp-post-author_page_awpa-settings .aft-right-part {
+    flex-direction: column;
+  }
+
+  .wp-post-author_page_awpa-settings .Settings-tab-content-wrapper {
+    padding: 0 8px;
+  }
+
+  .wp-post-author_page_awpa-settings .settings-tabs {
+    flex: 0 0 100%;
+  }
+
+
+
+  .awpa-imput-content-wrapper .awpa-field {
+    width: 100%;
+    display: block;
+  }
+
+  .awpa-imput-content-wrapper .awpa-field label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .awpa-imput-content-wrapper .awpa-field>input, .awpa-imput-content-wrapper .awpa-field textarea {
+    width: 100%;
+  }
+
+  .wp-post-author_page_awpa-multi-authors #display_name {
+    width: 100%;
+}
+
+  .wp-post-author_page_awpa-add-new-registration .awpa-top-section-wrapper,
+.toplevel_page_wp-post-author .awpa-top-section-wrapper {
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.wp-post-author_page_awpa-add-new-registration .awpa-form-create,
+.toplevel_page_wp-post-author .awpa-form-create {
+  justify-content: space-between;
+  width: 100%;
+}
+.wp-post-author_page_awpa-multi-authors [data-column-id="3"].rdt_TableCol,
+  .wp-post-author_page_awpa-multi-authors [data-column-id="3"].rdt_TableCell,
+  .wp-post-author_page_awpa-members [data-column-id="2"].rdt_TableCol,
+  .wp-post-author_page_awpa-members [data-column-id="2"].rdt_TableCell {
+    display: none;
+  }
+
+  .wp-post-author_page_awpa-settings .settings-tabs .settings-tab-item.active a {
+  box-shadow: none;
+  background: var(--color-indigo);
+  color: var(--color-white);
+}
+
+
+}
+.wp-core-ui select{
+  max-width: 100%;
+}

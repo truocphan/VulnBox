@@ -1,0 +1,127 @@
+{
+	"name": "awpa/add-form",
+	"category": "awpa",
+	"attributes": {
+		"uniqueClass": {
+			"type": "string",
+			"default": ""
+		},
+		"formSelect": {
+			"type": "string",
+			"default": "1"
+		},
+		"labelFontSize": {
+			"type": "number",
+			"default": 16
+		},
+		"labelTabletForntSize": {
+			"type": "number",
+			"default": 14
+		},
+		"labelMobileForntSize": {
+			"type": "number",
+			"default": 14
+		},
+		"labelFontFamily": {
+			"type": "string",
+			"default": "Default"
+		},
+		"labelLoadGoogleFonts": {
+			"type": "boolean",
+			"default": false
+		},
+		"labelFontWeight": {
+			"type": "string",
+			"default": 600
+		},
+		"labelFontSubset": {
+			"type": "string"
+		},
+		"labelFontSizeType": {
+			"type": "string",
+			"default": "px"
+		},
+		"labelColor": {
+			"type": "string"
+		},
+		"inputTextColor": {
+			"type": "string"
+		},
+		"inputbgColor": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"boxBgColor": {
+			"type": "string"
+		},
+		"enableBgImage": {
+			"type": "boolean",
+			"defaultf": false
+		},
+		"imgURL": {
+			"type": "string",
+			"default": false
+		},
+		"imgID": {
+			"type": "number"
+		},
+		"imgAlt": {
+			"type": "string",
+			"source": "attribute",
+			"attribute": "alt",
+			"selector": "img"
+		},
+		"btnText": {
+			"type": "string",
+			"default": "Register"
+		},
+		"btnTextColor": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"textDescriptionColor":{
+			"type": "string",
+			"default": "#000"
+		},
+		"textPlaceholderColor":{
+			"type": "string",
+			"default": "#000"
+		},
+		"btnBgColor": {
+			"type": "string",
+			"default": "#2d1286"
+		},
+		"btnBorderRadius": {
+			"type": "number",
+			"default": 0
+		},
+		"inputBoxShadow": {
+			"type": "boolean",
+			"default": true
+		},
+		"xOffset": {
+			"type": "number",
+			"default": 0
+		},
+		"yOffset": {
+			"type": "number",
+			"default": 6
+		},
+		"blur": {
+			"type": "number",
+			"default": 12
+		},
+		"spread": {
+			"type": "number",
+			"default": -10
+		},
+		"shadowColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"inputBorderRadius": {
+			"type": "number",
+			"default": 0
+		}
+	}
+}
