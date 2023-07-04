@@ -18,6 +18,7 @@
 - ### ($5.63) CVE-2023-3200: MStore API <= 3.9.6 - Cross-Site Request Forgery to Order Message Update - June 13, 2023
 - ### ($5.63) CVE-2023-3199: MStore API <= 3.9.6 - Cross-Site Request Forgery to Order Title Update - June 13, 2023
 - ### ($5.63) CVE-2023-3198: MStore API ≤ 3.9.6 - Cross-Site Request Forgery to Order Status Update - June 13, 2023
+- ### [CVE-2023-2982: WordPress Social Login and Register (Discord, Google, Twitter, LinkedIn) ≤ 7.6.4 - Authentication Bypass](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-2982) - July 04, 2023
 - ### ($12.83) [CVE-2023-2734: MStore API ≤ 3.9.1 - Authentication Bypass](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-2734) - May 31, 2023
 - ### ($12.83) [CVE-2023-2733: MStore API ≤ 3.9.0 - Authentication Bypass](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-2733) - May 31, 2023
 - ### ($12.83) [CVE-2023-2732: MStore API ≤ 3.9.2 - Authentication Bypass](https://github.com/truocphan/VulnBox/tree/main/Boxes/CVE-2023-2732) - May 24, 2023
