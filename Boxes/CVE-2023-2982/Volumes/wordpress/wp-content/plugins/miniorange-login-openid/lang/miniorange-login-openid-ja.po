@@ -1,0 +1,3216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: miniorange-login-openid\n"
+"POT-Creation-Date: 2020-03-12 09:11+0530\n"
+"PO-Revision-Date: 2020-03-12 09:52+0530\n"
+"Last-Translator: \n"
+"Language-Team: miniOrange\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: mo_sl;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-mo-openid-login-widget.php:42
+msgid ""
+"Login using Social Apps like Google, Facebook, LinkedIn, Microsoft, "
+"Instagram."
+msgstr ""
+"Google、Facebook、LinkedIn、Microsoft、Instagramなどのソーシャルアプリを使用"
+"してログインします。"
+
+#: class-mo-openid-login-widget.php:544 class-mo-openid-login-widget.php:552
+msgid "Logout"
+msgstr "ログアウト"
+
+#: class-mo-openid-login-widget.php:1329
+msgid ""
+"Share using horizontal widget. Lets you share with Social Apps like Google, "
+"Facebook, LinkedIn, Pinterest, Reddit."
+msgstr ""
+"水平ウィジェットを使用して共有します。あなたはグーグル、フェイスブック、リン"
+"クトイン、Pinterest、Redditのようなソーシャルアプリと共有することができます。"
+
+#: class-mo-openid-login-widget.php:1374
+msgid ""
+"Share using a vertical floating widget. Lets you share with Social Apps like "
+"Google, Facebook, LinkedIn, Pinterest, Reddit."
+msgstr ""
+"垂直フローティングウィジェットを使用して共有します。あなたはグーグル、フェイ"
+"スブック、リンクトイン、Pinterest、Redditのようなソーシャルアプリと共有するこ"
+"とができます。"
+
+#: miniorange_openid_sso_settings.php:98
+msgid "Login with"
+msgstr "でログイン"
+
+#: miniorange_openid_sso_settings.php:267
+msgid "Configure OpenID"
+msgstr "オープン ID の構成"
+
+#: miniorange_openid_sso_settings_page.php:46
+#: view/config_apps/mo_openid_config_apps.php:95
+#: view/licensing_plans/mo_openid_lic_plans.php:963
+msgid "UPGRADE NOW"
+msgstr "今すぐアップグレード"
+
+#: miniorange_openid_sso_settings_page.php:77
+#: miniorange_openid_sso_settings_page.php:514
+#: miniorange_openid_sso_settings_page.php:657
+#: miniorange_openid_sso_settings_page.php:842
+msgid "miniOrange Social Login"
+msgstr "ミニオレンジソーシャルログイン"
+
+#: miniorange_openid_sso_settings_page.php:78
+#: miniorange_openid_sso_settings_page.php:515
+#: miniorange_openid_sso_settings_page.php:658
+#: miniorange_openid_sso_settings_page.php:843
+#: view/profile/mo_openid_profile.php:23 view/profile/mo_openid_profile.php:51
+msgid "Privacy Policy"
+msgstr "個人情報保護方針"
+
+#: miniorange_openid_sso_settings_page.php:79
+#: miniorange_openid_sso_settings_page.php:516
+#: miniorange_openid_sso_settings_page.php:659
+#: miniorange_openid_sso_settings_page.php:844
+msgid "FAQs"
+msgstr "よくある質問"
+
+#: miniorange_openid_sso_settings_page.php:80
+#: miniorange_openid_sso_settings_page.php:517
+#: miniorange_openid_sso_settings_page.php:660
+#: miniorange_openid_sso_settings_page.php:845
+msgid "Forum"
+msgstr "フォーラム"
+
+#: miniorange_openid_sso_settings_page.php:81
+#: miniorange_openid_sso_settings_page.php:120
+#: miniorange_openid_sso_settings_page.php:518
+#: miniorange_openid_sso_settings_page.php:661
+msgid "Add On"
+msgstr "加算オン"
+
+#: miniorange_openid_sso_settings_page.php:82
+#: miniorange_openid_sso_settings_page.php:519
+#: miniorange_openid_sso_settings_page.php:662
+#: miniorange_openid_sso_settings_page.php:847
+msgid "Upgrade Now"
+msgstr "今すぐアップグレード"
+
+#: miniorange_openid_sso_settings_page.php:83
+msgid "What's new in miniOrange"
+msgstr "miniOrangeの新機能"
+
+#: miniorange_openid_sso_settings_page.php:85
+msgid "Rate us"
+msgstr "レート当方"
+
+#: miniorange_openid_sso_settings_page.php:88
+msgid "Restart Tour"
+msgstr "再起動ツアー"
+
+#: miniorange_openid_sso_settings_page.php:90
+msgid "Setup Plugin"
+msgstr "セットアッププラグイン"
+
+#: miniorange_openid_sso_settings_page.php:103
+#: miniorange_openid_sso_settings_page.php:531
+#: miniorange_openid_sso_settings_page.php:674
+#: miniorange_openid_sso_settings_page.php:857
+msgid "miniOrange"
+msgstr "ミニオレンジ"
+
+#: miniorange_openid_sso_settings_page.php:106
+msgid "Configure Apps"
+msgstr "アプリを構成する"
+
+#: miniorange_openid_sso_settings_page.php:107
+msgid "Customise Social Login Icons"
+msgstr "ソーシャルログインアイコンのカスタマイズ"
+
+#: miniorange_openid_sso_settings_page.php:108
+#: view/disp_options/mo_openid_dispopt.php:98
+#: view/disp_options/mo_openid_dispopt.php:131
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:10
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:12
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:41
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:214
+msgid "Display Options"
+msgstr "表示オプション"
+
+#: miniorange_openid_sso_settings_page.php:109
+msgid "Redirect Options"
+msgstr "リダイレクトオプション"
+
+#: miniorange_openid_sso_settings_page.php:110
+msgid "Registration"
+msgstr "登録"
+
+#: miniorange_openid_sso_settings_page.php:111
+msgid "GDPR"
+msgstr "GDPR"
+
+#: miniorange_openid_sso_settings_page.php:111
+#: miniorange_openid_sso_settings_page.php:112
+#: miniorange_openid_sso_settings_page.php:113
+#: miniorange_openid_sso_settings_page.php:115
+#: miniorange_openid_sso_settings_page.php:116
+#: miniorange_openid_sso_settings_page.php:117
+#: miniorange_openid_sso_settings_page.php:118
+#: view/disp_options/mo_openid_dispopt.php:28
+#: view/disp_options/mo_openid_dispopt.php:46
+#: view/disp_options/mo_openid_dispopt.php:94
+#: view/premium_features/mo_openid_prem_feat.php:90
+#: view/premium_features/mo_openid_prem_feat.php:105
+#: view/premium_features/mo_openid_prem_feat.php:121
+#: view/premium_features/mo_openid_prem_feat.php:135
+#: view/premium_features/mo_openid_prem_feat.php:149
+#: view/premium_features/mo_openid_prem_feat.php:160
+#: view/profile/mo_openid_profile.php:84
+msgid "PRO"
+msgstr "PRO"
+
+#: miniorange_openid_sso_settings_page.php:112
+#: view/restrict_domain/mo_openid_restrict_dom.php:11
+#: view/restrict_domain/mo_openid_restrict_dom.php:41
+msgid "Domain Restriction"
+msgstr "ドメイン制限"
+
+#: miniorange_openid_sso_settings_page.php:113
+#: view/link_social_account/mo_openid_Acclink.php:72
+msgid "Link Social Account"
+msgstr "リンクソーシャルアカウント"
+
+#: miniorange_openid_sso_settings_page.php:114
+#: view/profile_completion/mo_openid_prof_comp.php:60
+msgid "Profile Completion"
+msgstr "プロフィール Completion"
+
+#: miniorange_openid_sso_settings_page.php:115
+#: view/email_settings/mo_openid_set_email.php:74
+msgid "Email Notification"
+msgstr "電子メール通知"
+
+#: miniorange_openid_sso_settings_page.php:116
+msgid "Recaptcha"
+msgstr "レカプチャ"
+
+#: miniorange_openid_sso_settings_page.php:117
+#: view/premium_features/mo_openid_prem_feat.php:159
+msgid "Premium Features"
+msgstr "プレミアム機能"
+
+#: miniorange_openid_sso_settings_page.php:118
+#: view/integration/mo_openid_integrate.php:116
+msgid "Integrations"
+msgstr "統合"
+
+#: miniorange_openid_sso_settings_page.php:119
+#: miniorange_openid_sso_settings_page.php:550
+#: miniorange_openid_sso_settings_page.php:681
+msgid "Shortcodes"
+msgstr "ショートコード"
+
+#: miniorange_openid_sso_settings_page.php:121
+msgid "User Profile"
+msgstr "ユーザープロフィール"
+
+#: miniorange_openid_sso_settings_page.php:206
+#: miniorange_openid_sso_settings_page.php:602
+#: miniorange_openid_sso_settings_page.php:737
+#: miniorange_openid_sso_settings_page.php:909
+msgid "NEED HELP"
+msgstr "助けが必要"
+
+#: miniorange_openid_sso_settings_page.php:536
+msgid ""
+"Select\n"
+"                    Social Apps"
+msgstr ""
+"選択する\n"
+"                    ソーシャルアプリ"
+
+#: miniorange_openid_sso_settings_page.php:540
+#: miniorange_openid_sso_settings_page.php:679
+msgid "Customization"
+msgstr "カスタマイズ"
+
+#: miniorange_openid_sso_settings_page.php:543
+msgid ""
+"Social\n"
+"                    Share Counts"
+msgstr ""
+"ソーシャル\n"
+"                    共有数 Counts"
+
+#: miniorange_openid_sso_settings_page.php:547
+msgid ""
+"Display\n"
+"                    Option"
+msgstr ""
+"表示\n"
+"                    オプション"
+
+#: miniorange_openid_sso_settings_page.php:677
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:10
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:20
+msgid "Select Applications"
+msgstr "アプリケーションを選択"
+
+#: miniorange_openid_sso_settings_page.php:678
+msgid "Display options"
+msgstr "表示オプション"
+
+#: miniorange_openid_sso_settings_page.php:680
+msgid "Enable and Add Social Comments"
+msgstr "ソーシャルコメントを有効にして追加する"
+
+#: miniorange_openid_sso_settings_page.php:846 view/faq/mo_openid_faq.php:108
+#: view/faq/mo_openid_faq.php:117
+msgid "Social Login"
+msgstr "ソーシャルログイン"
+
+#: miniorange_openid_sso_settings_page.php:860
+#: view/add_on/custom_registration_form.php:9
+#: view/mo_new/mo_openid_whats_new.php:65
+msgid "Custom Registration Form"
+msgstr "カスタム登録フォーム"
+
+#: miniorange_openid_sso_settings_page.php:861
+msgid "Go to Social Login"
+msgstr "ソーシャルログインに移動"
+
+#: miniorange_openid_sso_settings_page.php:862
+msgid "Licensing Plans"
+msgstr "ライセンスプラン"
+
+#: view/add_on/custom_registration_form.php:10
+msgid "Purchase"
+msgstr "購入"
+
+#: view/add_on/custom_registration_form.php:15
+msgid "Verify Key"
+msgstr "検証するキー"
+
+#: view/add_on/custom_registration_form.php:21
+msgid ""
+"Custom Registration Form Add-On helps you to integrate details of new as "
+"well as existing users. You\n"
+"                        can add as many fields as you want including the one "
+"which are returned by\n"
+"                        social sites at time of registration"
+msgstr ""
+"カスタム登録フォームアドオンは、新規および既存のユーザーの詳細を統合するのに"
+"役立ちます。君は\n"
+"                        によって返されるものを含め、必要な数のフィールドを追"
+"加できます\n"
+"                        登録時のソーシャルサイト"
+
+#: view/add_on/custom_registration_form.php:46
+msgid "Customization Fields"
+msgstr "カスタマイズフィールド"
+
+#: view/add_on/custom_registration_form.php:49
+msgid "Enable Auto Field Registration Form"
+msgstr "自動フィールド登録フォームを有効にする"
+
+#: view/add_on/custom_registration_form.php:71
+msgid "Registration page link"
+msgstr "登録ページのリンク"
+
+#: view/add_on/custom_registration_form.php:77
+msgid "Existing Field"
+msgstr "既存のフィールド"
+
+#: view/add_on/custom_registration_form.php:78
+#: view/add_on/custom_registration_form.php:145
+msgid "Field"
+msgstr "フィールド"
+
+#: view/add_on/custom_registration_form.php:79
+#: view/add_on/custom_registration_form.php:150
+msgid "Custom name"
+msgstr "カスタム名"
+
+#: view/add_on/custom_registration_form.php:80
+#: view/add_on/custom_registration_form.php:146
+#: view/add_on/custom_registration_form.php:151
+msgid "Field Type"
+msgstr "フィールドタイプ"
+
+#: view/add_on/custom_registration_form.php:81
+msgid "Field Options"
+msgstr "フィールドオプション"
+
+#: view/add_on/custom_registration_form.php:82
+#: view/add_on/custom_registration_form.php:156
+msgid "Required Field"
+msgstr "必須フィールド"
+
+#: view/add_on/custom_registration_form.php:94
+msgid "Select Field"
+msgstr "フィールドを選択"
+
+#: view/add_on/custom_registration_form.php:102
+msgid "Select Type"
+msgstr "タイプを選択"
+
+#: view/add_on/custom_registration_form.php:109
+msgid "No"
+msgstr "No"
+
+#: view/add_on/custom_registration_form.php:124
+#: view/integration/mo_openid_integrate.php:29
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: view/add_on/custom_registration_form.php:129
+msgid "Instructions to setup"
+msgstr "説明書toセットアップ"
+
+#: view/add_on/custom_registration_form.php:132
+msgid "Create a page and use shortcode"
+msgstr "ページを作成してショートコードを使用する"
+
+#: view/add_on/custom_registration_form.php:133
+msgid "where you want your form to be displayed"
+msgstr "フォームを表示する場所"
+
+#: view/add_on/custom_registration_form.php:135
+msgid ""
+"Copy the page link and paste it in the above field <b>Registration page\n"
+"                                                    link"
+msgstr ""
+"ページリンクをコピーして、上記のフィールド<b>登録ページに貼り付けます\n"
+"                                                    リンク"
+
+#: view/add_on/custom_registration_form.php:138
+msgid ""
+"If you have any existing wp_usermeta field then enter that field's name in"
+msgstr ""
+"既存のwp_usermetaフィールドがある場合次に、そのフィールドの名前を入力します"
+
+#: view/add_on/custom_registration_form.php:139
+msgid ""
+"Existing\n"
+"                                                    Field"
+msgstr ""
+"既存\n"
+"                                                    フィールド"
+
+#: view/add_on/custom_registration_form.php:140
+msgid "column. For example, if you are saving"
+msgstr "カラム。たとえば、保存している場合"
+
+#: view/add_on/custom_registration_form.php:140
+msgid "First Name"
+msgstr "ファーストネーム"
+
+#: view/add_on/custom_registration_form.php:140
+#: view/add_on/custom_registration_form.php:156
+msgid "as"
+msgstr "として"
+
+#: view/add_on/custom_registration_form.php:141
+msgid "fname"
+msgstr "f名前"
+
+#: view/add_on/custom_registration_form.php:142
+msgid ""
+"in wp_usermeta field then enter fname in Existing Field\n"
+"                                                column."
+msgstr ""
+"wp_usermetaフィールドに既存のフィールドにf名前と入力します\n"
+"                                                カラム。"
+
+#: view/add_on/custom_registration_form.php:145
+msgid "Select field name under the "
+msgstr "下のフィールド名を選択します"
+
+#: view/add_on/custom_registration_form.php:145
+msgid "dropdown"
+msgstr "落ちる"
+
+#: view/add_on/custom_registration_form.php:146
+msgid "If selected field is other than custom, then"
+msgstr "選択したフィールドがカスタム以外の場合、"
+
+#: view/add_on/custom_registration_form.php:146
+msgid ""
+"will\n"
+"                                                automatically be"
+msgstr ""
+"意志\n"
+"                                                自動的に"
+
+#: view/add_on/custom_registration_form.php:147
+msgid "Textbox"
+msgstr "テキストボックス"
+
+#: view/add_on/custom_registration_form.php:147
+msgid "and there is no need to enter"
+msgstr "入る必要はありません"
+
+#: view/add_on/custom_registration_form.php:147
+msgid ""
+"Custom\n"
+"                                                    name"
+msgstr ""
+"カスタム\n"
+"                                                    名前"
+
+#: view/add_on/custom_registration_form.php:148 view/faq/mo_openid_faq.php:81
+#: view/profile/mo_openid_profile.php:51
+msgid "and"
+msgstr "そして"
+
+#: view/add_on/custom_registration_form.php:148
+msgid "Field options"
+msgstr "フィールドオプション"
+
+#: view/add_on/custom_registration_form.php:150
+msgid "If selected field is custom, then enter"
+msgstr "選択したフィールドがカスタムの場合、それから入る"
+
+#: view/add_on/custom_registration_form.php:151
+#: view/add_on/custom_registration_form.php:156
+msgid "Select"
+msgstr "選択する"
+
+#: view/add_on/custom_registration_form.php:151
+msgid "if selected"
+msgstr "選択された場合"
+
+#: view/add_on/custom_registration_form.php:151
+msgid "is"
+msgstr "は"
+
+#: view/add_on/custom_registration_form.php:152
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: view/add_on/custom_registration_form.php:152
+msgid "or"
+msgstr "または"
+
+#: view/add_on/custom_registration_form.php:152
+msgid "Dropdown"
+msgstr "落ちる"
+
+#: view/add_on/custom_registration_form.php:152
+#: view/add_on/custom_registration_form.php:153
+msgid ""
+"Field\n"
+"                                                    Options"
+msgstr ""
+"フィールド\n"
+"                                                    オプション"
+
+#: view/add_on/custom_registration_form.php:153
+msgid "seprated by semicolon "
+msgstr "セミコロンで区切られた"
+
+#: view/add_on/custom_registration_form.php:153
+msgid "otherwise leave"
+msgstr "そうでなければ去る"
+
+#: view/add_on/custom_registration_form.php:154
+msgid "blank."
+msgstr "ブランク。"
+
+#: view/add_on/custom_registration_form.php:156
+msgid "Yes"
+msgstr "はい"
+
+#: view/add_on/custom_registration_form.php:156
+msgid ""
+"if you want to make that field\n"
+"                                                compulsory for user"
+msgstr ""
+"その分野を作りたいなら\n"
+"                                                ユーザーの義務"
+
+#: view/add_on/custom_registration_form.php:159
+msgid "If you want to add more than 1 fields at a time click on"
+msgstr "追加したい場合複数のフィールド at a 時間クリック"
+
+#: view/add_on/custom_registration_form.php:160
+msgid "Last click on"
+msgstr "最後のクリック"
+
+#: view/add_on/custom_registration_form.php:160
+#: view/customise_social_icons/mo_openid_cust_icons.php:119
+#: view/disp_options/mo_openid_dispopt.php:92
+#: view/email_settings/mo_openid_set_email.php:66
+#: view/gdpr/mo_openid_gdpr.php:33 view/integration/mo_openid_integrate.php:108
+#: view/link_social_account/mo_openid_Acclink.php:65
+#: view/profile_completion/mo_openid_prof_comp.php:52
+#: view/redirect_options/mo_openid_redirect_op.php:121
+#: view/registration/mo_openid_registration.php:48
+#: view/restrict_domain/mo_openid_restrict_dom.php:33
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:23
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:36
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:49
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:227
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:205
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:74
+msgid "Save"
+msgstr "セーブ"
+
+#: view/add_on/custom_registration_form.php:160
+msgid "button"
+msgstr "ボタン"
+
+#: view/add_on/custom_registration_form.php:192
+msgid "Social Login Add On"
+msgstr "ソーシャルログインアドオン"
+
+#: view/config_apps/mo_openid_config_apps.php:33
+msgid "Active"
+msgstr "アクティブ"
+
+#: view/config_apps/mo_openid_config_apps.php:63
+msgid "Premium Applications"
+msgstr "プレミアムアプリケーション"
+
+#: view/config_apps/mo_openid_config_apps.php:115
+msgid "Configure Applications"
+msgstr "アプリケーションを構成する"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:13
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:28
+msgid "Shape"
+msgstr "形状"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:14
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:39
+msgid "Round"
+msgstr "円形"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:17
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:45
+msgid "Rounded Edges"
+msgstr "丸みを帯びたエッジ"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:21
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:50
+msgid "Square"
+msgstr "平方"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:24
+msgid "Long Button"
+msgstr "ロングボタン"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:31
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:29
+msgid "Theme"
+msgstr "テーマ"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:34
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:59
+msgid "Default"
+msgstr "デフォルト"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:40
+msgid "Custom background*"
+msgstr "カスタム背景*"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:49
+msgid "*Custom background:"
+msgstr "*カスタム背景："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:49
+msgid "This will change the background color of login icons"
+msgstr "これにより、ログインアイコンの背景色が変更されます"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:52
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:31
+msgid "Size of Icons"
+msgstr "アイコンのサイズ"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:54
+msgid "Width:"
+msgstr "幅："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:57
+msgid "Height:"
+msgstr "高さ："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:60
+msgid "Curve:"
+msgstr "曲線："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:71
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:30
+msgid "Space between Icons"
+msgstr "アイコン間のスペース"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:79
+msgid "Customize Text For Social Login Buttons / Icons"
+msgstr "ソーシャルログインボタン/アイコンのテキストをカスタマイズする"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:82
+msgid "Select color for customize text:"
+msgstr "テキストをカスタマイズするための色を選択："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:90
+msgid "Enter text to show above login widget:"
+msgstr "ログインウィジェットの上に表示するテキストを入力します。:"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:96
+msgid "Enter text to show on your login buttons:"
+msgstr "ログインボタンに表示するテキストを入力します:"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:103
+msgid "Customize Text to show user after Login"
+msgstr "ログイン後にユーザーを表示するようにテキストをカスタマイズする"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:106
+msgid ""
+"Enter text to show before the logout link. Use ##username## to display "
+"current username:"
+msgstr ""
+"ログアウトリンクの前に表示するテキストを入力します。 ## username ##を使用し"
+"て、現在のユーザー名を表示します:"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:113
+msgid "Enter text to show as logout link:"
+msgstr "ログアウトリンクとして表示するテキストを入力します:"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:215
+msgid "Customize Login Icons"
+msgstr "ログインアイコンをカスタマイズする"
+
+#: view/disp_options/mo_openid_dispopt.php:10
+msgid "Select the options where you want to display the social login icons"
+msgstr "ソーシャルログインアイコンを表示するオプションを選択します"
+
+#: view/disp_options/mo_openid_dispopt.php:11
+msgid "Default Login Form [wp-admin]"
+msgstr "デフォルトのログインフォーム[wp-admin]"
+
+#: view/disp_options/mo_openid_dispopt.php:16
+msgid "Default Registration Form"
+msgstr "デフォルトの登録フォーム"
+
+#: view/disp_options/mo_openid_dispopt.php:22
+msgid "Comment Form"
+msgstr "コメントフォーム"
+
+#: view/disp_options/mo_openid_dispopt.php:26
+msgid "Don't find your login page in above options use"
+msgstr "上記のオプションでログインページが見つからない"
+
+#: view/disp_options/mo_openid_dispopt.php:26
+msgid "to display social icons or"
+msgstr "ソーシャルアイコンを表示する、または"
+
+#: view/disp_options/mo_openid_dispopt.php:26
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: view/disp_options/mo_openid_dispopt.php:28
+msgid "BuddyPress display options"
+msgstr "バディプレスの表示オプション"
+
+#: view/disp_options/mo_openid_dispopt.php:30
+msgid "Before BuddyPress Registration Form"
+msgstr "バディプレス登録フォームの前に"
+
+#: view/disp_options/mo_openid_dispopt.php:35
+msgid "Before BuddyPress Account Details"
+msgstr "バディプレスアカウントの詳細の前"
+
+#: view/disp_options/mo_openid_dispopt.php:40
+msgid "After BuddyPress Registration Form"
+msgstr "バディプレス登録フォームの後"
+
+#: view/disp_options/mo_openid_dispopt.php:46
+msgid "Woocommerce display options"
+msgstr "Woocommerceの表示オプション"
+
+#: view/disp_options/mo_openid_dispopt.php:48
+msgid "Before WooCommerce Login Form"
+msgstr "WooCommerceログインフォームの前"
+
+#: view/disp_options/mo_openid_dispopt.php:53
+msgid "Before 'Remember Me' of WooCommerce Login Form"
+msgstr "WooCommerceログインフォームの「私を覚えてますか」の前"
+
+#: view/disp_options/mo_openid_dispopt.php:57
+msgid "After WooCommerce Login Form"
+msgstr "WooCommerceログインフォームの後"
+
+#: view/disp_options/mo_openid_dispopt.php:62
+msgid "Before WooCommerce Registration Form"
+msgstr "WooCommerce登録フォームの前に"
+
+#: view/disp_options/mo_openid_dispopt.php:66
+msgid "Before 'Register button' of WooCommerce Registration Form"
+msgstr "WooCommerce登録フォームの「登録ボタン」の前"
+
+#: view/disp_options/mo_openid_dispopt.php:71
+msgid "After WooCommerce Registration Form"
+msgstr "WooCommerce登録フォームの後"
+
+#: view/disp_options/mo_openid_dispopt.php:76
+msgid "Before WooCommerce Checkout Form"
+msgstr "WooCommerceチェックアウトフォームの前"
+
+#: view/disp_options/mo_openid_dispopt.php:81
+msgid "After WooCommerce Checkout Form"
+msgstr "WooCommerceチェックアウトフォームの後"
+
+#: view/disp_options/mo_openid_dispopt.php:87
+msgid "Display miniOrange logo with social login icons on selected form"
+msgstr ""
+"選択したフォームにソーシャルログインアイコン付きのminiOrangeロゴを表示する"
+
+#: view/disp_options/mo_openid_dispopt.php:94
+msgid ""
+"These features are available in premium version only. To know more about the "
+"premium plugin "
+msgstr ""
+"これらの機能は、プレミアムバージョンでのみ使用できます。プレミアムプラグイン"
+"の詳細を知るには"
+
+#: view/disp_options/mo_openid_dispopt.php:94
+msgid "click here"
+msgstr "ここをクリック"
+
+#: view/disp_options/mo_openid_dispopt.php:95
+msgid "Add Login Icons"
+msgstr "ログインアイコンを追加する"
+
+#: view/disp_options/mo_openid_dispopt.php:98
+msgid "You can add login icons in the following areas from"
+msgstr "次のエリアにログインアイコンを追加できます。"
+
+#: view/disp_options/mo_openid_dispopt.php:98
+msgid "For other areas(widget areas), use Login widget"
+msgstr "その他の領域（ウィジェット領域）には、ログインウィジェットを使用します"
+
+#: view/disp_options/mo_openid_dispopt.php:100
+msgid ""
+"Default Login Form: This option places login icons below the default login "
+"form on wp-login"
+msgstr ""
+"デフォルトのログインフォーム：このオプションは、wp-loginのデフォルトのログイ"
+"ンフォームの下にログインアイコンを配置します。"
+
+#: view/disp_options/mo_openid_dispopt.php:101
+msgid ""
+"Default Registration Form: This option places login icons below the default "
+"registration form"
+msgstr ""
+"デフォルトの登録フォーム：このオプションは、ログインアイコンをデフォルトの登"
+"録フォームの下に配置します"
+
+#: view/disp_options/mo_openid_dispopt.php:103
+msgid ""
+"Comment Form: This option places login icons above the comment section of "
+"all your posts"
+msgstr ""
+"コメントフォーム：このオプションは、すべての投稿のコメントセクションの上にロ"
+"グインアイコンを配置します"
+
+#: view/disp_options/mo_openid_dispopt.php:108
+msgid "Add Login Icons as Widget"
+msgstr "ログインアイコンをウィジェットとして追加"
+
+#: view/disp_options/mo_openid_dispopt.php:111
+msgid ""
+"Go to Widgets. Among the available widgets you\n"
+"                            will find miniOrange Social Login Widget, drag "
+"it to the widget area where\n"
+"                            you want it to appear"
+msgstr ""
+"ウィジェットに移動します。利用可能なウィジェットの中では\n"
+"                            miniOrange Social Login Widgetを見つけて、ウィ"
+"ジェットエリアにドラッグします。\n"
+"                            あなたはそれが現れたい"
+
+#: view/disp_options/mo_openid_dispopt.php:114
+msgid ""
+"Now logout and go to your site. You will see Social Login icon for which you "
+"enabled login."
+msgstr ""
+"ログアウトして、サイトにアクセスします。ログインを有効にしたソーシャルログイ"
+"ンアイコンが表示されます。"
+
+#: view/disp_options/mo_openid_dispopt.php:115
+msgid ""
+"Click that app icon and login with your existing app account to wordpress"
+msgstr ""
+"そのアプリアイコンをクリックし、既存のアプリアカウントでワードプレスにログイ"
+"ンします"
+
+#: view/disp_options/mo_openid_dispopt.php:119
+msgid "Using Shortcode"
+msgstr "ショートコードを使用する"
+
+#: view/disp_options/mo_openid_dispopt.php:122
+msgid ""
+"You can use this shortcode <code id='2'>[miniorange_social_login]</code><i "
+"style= \"width: 11px;height: 9px;padding-left:2px;padding-top:3px\" class="
+"\"far fa-fw fa-lg fa-copy mo_copy mo_copytooltip\" onclick="
+"\"copyToClipboard(this, '#2', '#shortcode_url2_copy')\"><span id="
+"\"shortcode_url2_copy\" class=\"mo_copytooltiptext\">Copy to Clipboard</"
+"span></i> to display social icons on any login page, post, popup and PHP "
+"pages."
+msgstr ""
+"このショートコード<code id = '2'> [miniorange_social_login] </ code> <i "
+"style = \"width：11px; height：9px; padding-left：2px; padding-top：3px\" "
+"class = \"fa fa\"を使用できます-fw fa-lg fa-copy mo_copy "
+"mo_copytooltip \"onclick =\" copyToClipboard（this、 '＃2'、 '＃"
+"shortcode_url2_copy'） \"> <span id =\" shortcode_url2_copy \"class =\" "
+"mo_copytooltiptext \">クリップボードにコピー</ span> </ i>を使用して、ログイ"
+"ンページ、投稿、ポップアップ、PHPページにソーシャルアイコンを表示します"
+
+#: view/disp_options/mo_openid_dispopt.php:123
+msgid "* Detailed information about how to use shortcode is given in <a href="
+msgstr "*ショートコードの使用方法に関する詳細情報は、<a href ="
+
+#: view/email_settings/mo_openid_set_email.php:11
+msgid "Send mail to Admin"
+msgstr "管理者にメールを送信"
+
+#: view/email_settings/mo_openid_set_email.php:21
+msgid "*NOTE: This feature requires SMTP to be setup."
+msgstr "*注意：この機能を使用するには、SMTPをセットアップする必要があります。"
+
+#: view/email_settings/mo_openid_set_email.php:22
+msgid "Enable Email Notification to Admin - on User Registration*"
+msgstr "管理者へのメール通知を有効にする-ユーザー登録時*"
+
+#: view/email_settings/mo_openid_set_email.php:26
+msgid ""
+"If you want to send Email Notification to multiple admins, enter emails of "
+"all admins here:"
+msgstr ""
+"複数の管理者に電子メール通知を送信する場合は、すべての管理者の電子メールをこ"
+"こに入力してください。"
+
+#: view/email_settings/mo_openid_set_email.php:29
+#: view/email_settings/mo_openid_set_email.php:57
+msgid "Email Subject:"
+msgstr "メールの件名："
+
+#: view/email_settings/mo_openid_set_email.php:40
+msgid "Send mail to User"
+msgstr "ユーザーにメールを送信"
+
+#: view/email_settings/mo_openid_set_email.php:51
+msgid "*NOTE: This feature requires SMTP to be setup"
+msgstr "*注：この機能を使用するには、SMTPをセットアップする必要があります"
+
+#: view/email_settings/mo_openid_set_email.php:52
+msgid "Email Notification to User on User Registration"
+msgstr "ユーザー登録に関するユーザーへのメール通知"
+
+#: view/faq/mo_openid_faq.php:9
+msgid "If you are unable to open any section, press CTRL + F5 to clear cache"
+msgstr ""
+"セクションを開くことができない場合は、CTRL + F5を押してキャッシュをクリアしま"
+"す"
+
+#: view/faq/mo_openid_faq.php:10
+msgid "Site Issue"
+msgstr "サイトの問題"
+
+#: view/faq/mo_openid_faq.php:12
+msgid ""
+"I installed the plugin and my website stopped working. How can I recover my "
+"site?"
+msgstr ""
+"プラグインをインストールしましたが、Webサイトが機能しなくなりました。サイトを"
+"復元するにはどうすればよいですか？"
+
+#: view/faq/mo_openid_faq.php:14
+msgid ""
+"There must have been a server error on your website. To get your website "
+"back online:"
+msgstr ""
+"Webサイトにサーバーエラーがあったに違いありません。ウェブサイトをオンラインに"
+"戻すには："
+
+#: view/faq/mo_openid_faq.php:16
+msgid "Open FTP access and look for plugins folder under wp-content."
+msgstr "FTPアクセスを開き、wp-contentの下のプラグインフォルダーを探します。"
+
+#: view/faq/mo_openid_faq.php:17
+msgid ""
+"Change the extension folder name miniorange-login-openid to miniorange-login-"
+"openid"
+msgstr ""
+"拡張フォルダー名miniorange-login-openidをminiorange-login-openidに変更します"
+
+#: view/faq/mo_openid_faq.php:18
+msgid "Check your website. It must have started working"
+msgstr "ウェブサイトを確認してください。動作し始めている必要があります"
+
+#: view/faq/mo_openid_faq.php:19
+msgid "Change the folder name back to miniorange-login-openid."
+msgstr "フォルダー名をminiorange-login-openidに戻します。"
+
+#: view/faq/mo_openid_faq.php:22 view/faq/mo_openid_faq.php:35
+#: view/faq/mo_openid_faq.php:52
+msgid ""
+"For any further queries, please submit a query on right hand side in our"
+msgstr "さらにクエリが必要な場合は、右側のクエリを送信してください"
+
+#: view/faq/mo_openid_faq.php:22 view/faq/mo_openid_faq.php:35
+#: view/faq/mo_openid_faq.php:52
+msgid "Support Section"
+msgstr "サポート部門"
+
+#: view/faq/mo_openid_faq.php:29
+msgid "Change email"
+msgstr "メールアドレスを変更"
+
+#: view/faq/mo_openid_faq.php:31
+msgid ""
+"I want to change the email address with which I access my account. How can I "
+"do that?"
+msgstr ""
+"アカウントにアクセスするためのメールアドレスを変更したい。どうやってやるの？"
+
+#: view/faq/mo_openid_faq.php:33
+msgid "You will have to register in miniOrange again with your new email id."
+msgstr "新しいメールIDでminiOrangeに再度登​​録する必要があります。"
+
+#: view/faq/mo_openid_faq.php:34
+msgid "Please deactivate and activate the plugin by going to"
+msgstr "にアクセスしてプラグインを無効化および有効化してください"
+
+#: view/faq/mo_openid_faq.php:34
+msgid "Plugins -> Installed Plugins"
+msgstr "プラグイン->インストール済みプラグイン"
+
+#: view/faq/mo_openid_faq.php:34
+msgid ""
+"and then go to the Social Login Plugin to register again. This will enable "
+"you to access miniOrange dashboard with new email address."
+msgstr ""
+"その後、ソーシャルログインプラグインに移動して再度登録します。これにより、新"
+"しいメールアドレスでminiOrangeダッシュボードにアクセスできるようになります"
+
+#: view/faq/mo_openid_faq.php:42
+msgid "cURL"
+msgstr "カール"
+
+#: view/faq/mo_openid_faq.php:44
+msgid "How to enable PHP cURL extension? (Pre-requisite)"
+msgstr "PHP カール拡張機能を有効にする方法（前提条件）"
+
+#: view/faq/mo_openid_faq.php:46
+msgid ""
+"cURL is enabled by default but in case you have disabled it, follow the "
+"steps to enable it"
+msgstr ""
+"カールはデフォルトで有効になっていますが、無効にした場合は、手順に従って有効"
+"にしてください"
+
+#: view/faq/mo_openid_faq.php:48
+msgid "Open php.ini(it's usually in /etc/ or in php folder on the server)."
+msgstr ""
+"php.iniを開きます（通常は/ etc /またはサーバーのphpフォルダーにあります）。"
+
+#: view/faq/mo_openid_faq.php:49
+msgid ""
+"Search for extension=php_curl.dll. Uncomment it by removing the semi-"
+"colon( ; ) in front of it."
+msgstr ""
+"extension = php_curl.dllを検索します。その前にあるセミコロン（;）を削除して、"
+"コメントを解除します。"
+
+#: view/faq/mo_openid_faq.php:50
+msgid "Restart the Apache Server."
+msgstr "Apacheサーバーを再起動します。"
+
+#: view/faq/mo_openid_faq.php:55
+msgid ""
+"I am getting error - curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be "
+"activated when an open_basedir is set"
+msgstr ""
+"エラーが発生しています-curl_setopt（）：open_basedirが設定されている場合、"
+"CURLOPT_FOLLOWLOCATIONをアクティブにできません"
+
+#: view/faq/mo_openid_faq.php:57
+msgid ""
+"Just setsafe_mode = Off in your php.ini file (it's usually in /etc/ on the "
+"server). If that's already off, then look around for the open_basedir in the "
+"php.ini file, and change it to open_basedir = ."
+msgstr ""
+"hp.iniファイルでsetsafe_mode = Offにします（通常はサーバーの/ etc /にありま"
+"す）。すでにオフになっている場合は、php.iniファイルでopen_basedirを探し、"
+"open_basedir =に変更します。"
+
+#: view/faq/mo_openid_faq.php:65
+msgid "OTP and Forgot Password"
+msgstr "OTPおよびパスワードを忘れた"
+
+#: view/faq/mo_openid_faq.php:67
+msgid "I did not recieve OTP. What should I do?"
+msgstr "OTPを受け取りませんでした。私は何をすべきか？"
+
+#: view/faq/mo_openid_faq.php:69
+msgid ""
+"The OTP is sent as an email to your email address with which you have "
+"registered with miniOrange. If you can't see the email from miniOrange in "
+"your mails, please make sure to check your SPAM folder."
+msgstr ""
+"OTPは、miniOrangeに登録した電子メールアドレスに電子メールとして送信されます。"
+"メールにminiOrangeからのメールが表示されない場合は、必ずSPAMフォルダを確認し"
+"てください。"
+
+#: view/faq/mo_openid_faq.php:69
+msgid ""
+"If you don't see an email even in SPAM folder, please verify your account "
+"using your mobile number. You will get an OTP on your mobile number which "
+"you need to enter on the page. If none of the above works, please contact us "
+"using the Support form on the right."
+msgstr ""
+"SPAMフォルダにメールが表示されない場合は、携帯電話番号を使用してアカウントを"
+"確認してください。ページに入力する必要がある携帯電話番号のOTPを取得します。上"
+"記のいずれも機能しない場合は、右側のサポートフォームを使用してご連絡くださ"
+"い。"
+
+#: view/faq/mo_openid_faq.php:72
+msgid "After entering OTP, I get Invalid OTP. What should I do?"
+msgstr "OTPを入力した後、無効なOTPを取得します。私は何をすべきか？"
+
+#: view/faq/mo_openid_faq.php:74
+msgid "Use the "
+msgstr "使用 the "
+
+#: view/faq/mo_openid_faq.php:74
+msgid "Resend OTP"
+msgstr "OTPを再送信"
+
+#: view/faq/mo_openid_faq.php:74
+msgid ""
+"option to get an additional OTP. Plese make sure you did not enter the first "
+"OTP you recieved if you selected"
+msgstr ""
+"追加のOTPを取得するオプション。選択した場合、最初に受信したOTPを入力していな"
+"いことを確認してください"
+
+#: view/faq/mo_openid_faq.php:74
+msgid ""
+"option to get an additional OTP. Enter the latest OTP since the previous "
+"ones expire once you click on Resend OTP."
+msgstr ""
+"追加のOTPを取得するオプション。 OTPの再送信をクリックすると、以前のOTPが期限"
+"切れになるため、最新のOTPを入力します。"
+
+#: view/faq/mo_openid_faq.php:74
+msgid ""
+"If OTP sent on your email address are not working, please verify your "
+"account using your mobile number. You will get an OTP on your mobile number "
+"which you need to enter on the page. If none of the above works, please "
+"contact us using the Support form on the right."
+msgstr ""
+"メールアドレスで送信されたOTPが機能しない場合は、携帯電話番号を使用してアカウ"
+"ントを確認してください。ページに入力する必要がある携帯電話番号のOTPを取得しま"
+"す。上記のいずれも機能しない場合は、右側のサポートフォームを使用してご連絡く"
+"ださい。"
+
+#: view/faq/mo_openid_faq.php:77
+msgid "I forgot the password of my miniOrange account. How can I reset it?"
+msgstr ""
+"miniOrangeアカウントのパスワードを忘れました。リセットするにはどうすればよい"
+"ですか？"
+
+#: view/faq/mo_openid_faq.php:79
+msgid "There are two cases according to the page you see"
+msgstr "表示されるページに応じて2つのケースがあります"
+
+#: view/faq/mo_openid_faq.php:80 view/faq/mo_openid_faq.php:81
+msgid "Login with miniOrange"
+msgstr "ミニオレンジでログイン"
+
+#: view/faq/mo_openid_faq.php:80
+msgid "screen: You should click on"
+msgstr "画面：をクリックする必要があります"
+
+#: view/faq/mo_openid_faq.php:80
+msgid "forgot password"
+msgstr "パスワードをお忘れですか"
+
+#: view/faq/mo_openid_faq.php:80
+msgid ""
+"link. You will get your new password on your email address which you have "
+"registered with miniOrange . Now you can login with the new password"
+msgstr ""
+"リンク。 miniOrangeに登録したメールアドレスで新しいパスワードを取得します。こ"
+"れで、新しいパスワードでログインできます"
+
+#: view/faq/mo_openid_faq.php:81 view/profile/mo_openid_profile.php:19
+msgid "Register with miniOrange"
+msgstr "ミニオレンジに登録する"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "screen: Enter your email ID and any random password in "
+msgstr "画面：メールIDと任意のランダムなパスワードを入力してください"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "password"
+msgstr "パスワード"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "confirm password"
+msgstr "パスワードを認証する"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "input box. This will redirect you to"
+msgstr "入力ボックス。これにより、リダイレクトされます"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "screen. Now follow first step"
+msgstr "画面。今、最初のステップに従ってください"
+
+#: view/faq/mo_openid_faq.php:89
+msgid "Social login"
+msgstr "ソーシャルログイン"
+
+#: view/faq/mo_openid_faq.php:91
+msgid "How to add login icons to frontend login page?"
+msgstr "フロントエンドのログインページにログインアイコンを追加する方法"
+
+#: view/faq/mo_openid_faq.php:93
+msgid ""
+"You can add social login icons to frontend login page using our shortcode "
+"[miniorange_social_login]. Refer to 'Shortcode' tab to add customizations to "
+"Shortcode."
+msgstr ""
+"ショートコード[miniorange_social_login]を使用して、フロントエンドログインペー"
+"ジにソーシャルログインアイコンを追加できます。ショートコードにカスタマイズを"
+"追加するには、「ショートコード」タブを参照してください。"
+
+#: view/faq/mo_openid_faq.php:96
+msgid "How can I put social login icons on a page without using widgets?"
+msgstr ""
+"ウィジェットを使用せずにページにソーシャルログインアイコンを配置するにはどう"
+"すればよいですか？"
+
+#: view/faq/mo_openid_faq.php:98
+msgid ""
+"You can add social login icons to any page or custom login page using "
+"'social login shortcode' [miniorange_social_login]. Refer to 'Shortcode' tab "
+"to add customizations to Shortcode."
+msgstr ""
+"「ソーシャルログインショートコード」[miniorange_social_login]を使用して、任意"
+"のページまたはカスタムログインページにソーシャルログインアイコンを追加できま"
+"す。ショートコードにカスタマイズを追加するには、「ショートコード」タブを参照"
+"してください。"
+
+#: view/faq/mo_openid_faq.php:101
+msgid "Social Login icons are not added to login/registration form."
+msgstr "ソーシャルログインアイコンは、ログイン/登録フォームに追加されません。"
+
+#: view/faq/mo_openid_faq.php:103
+msgid ""
+"Your login/registration form may not be wordpress's default login/"
+"registration form. In this case you can add social login icons to custom "
+"login/registration form using 'social login "
+"shortcode' [miniorange_social_login]. Refer to 'Shortcode' tab to add "
+"customizations to Shortcode."
+msgstr ""
+"ログイン/登録フォームは、wordpressのデフォルトのログイン/登録フォームではない"
+"場合があります。この場合、「ソーシャルログインショートコード」"
+"[miniorange_social_login]を使用して、ソーシャルログインアイコンをカスタムログ"
+"イン/登録フォームに追加できます。ショートコードにカスタマイズを追加するには、"
+"「ショートコード」タブを参照してください。"
+
+#: view/faq/mo_openid_faq.php:106
+msgid "How can I redirect to my blog page after login?"
+msgstr "ログイン後にブログページにリダイレクトするにはどうすればよいですか？"
+
+#: view/faq/mo_openid_faq.php:108
+msgid "You can select one of the options from"
+msgstr "次のいずれかのオプションを選択できます"
+
+#: view/faq/mo_openid_faq.php:108
+msgid "Redirect URL after login"
+msgstr "ログイン後にリダイレクトURL"
+
+#: view/faq/mo_openid_faq.php:108 view/faq/mo_openid_faq.php:117
+msgid "of"
+msgstr "の"
+
+#: view/faq/mo_openid_faq.php:108 view/faq/mo_openid_faq.php:117
+msgid "Display Option"
+msgstr "表示オプション"
+
+#: view/faq/mo_openid_faq.php:108
+msgid " section under"
+msgstr "下のセクション"
+
+#: view/faq/mo_openid_faq.php:108
+msgid "tab."
+msgstr "タブ。"
+
+#: view/faq/mo_openid_faq.php:109
+#: view/redirect_options/mo_openid_redirect_op.php:13
+msgid "Same page where user logged in"
+msgstr "ユーザーがログインした同じページ"
+
+#: view/faq/mo_openid_faq.php:110
+#: view/redirect_options/mo_openid_redirect_op.php:21
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: view/faq/mo_openid_faq.php:111
+msgid "Account Dsahboard"
+msgstr "アカウントダッシュボード"
+
+#: view/faq/mo_openid_faq.php:115
+msgid "After logout I am redirected to blank page"
+msgstr "ログアウト後、空白ページにリダイレクトされます"
+
+#: view/faq/mo_openid_faq.php:117
+msgid ""
+"Your theme and Social Login plugin may conflict during logout. To resolve it "
+"you need to uncheck"
+msgstr ""
+"ログアウト中にテーマとソーシャルログインプラグインが競合する場合があります。"
+"解決するには、チェックを外す必要があります"
+
+#: view/faq/mo_openid_faq.php:117
+msgid "Enable Logout Redirection"
+msgstr "ログアウトリダイレクトを有効にする"
+
+#: view/faq/mo_openid_faq.php:117
+msgid "checkbox under"
+msgstr "下のチェックボックス"
+
+#: view/faq/mo_openid_faq.php:117
+msgid "tab"
+msgstr "タブ"
+
+#: view/faq/mo_openid_faq.php:120
+msgid ""
+"My users get the following message -\"Registration has been disabled for "
+"this site. Please contact your administrator.\" What should I do?"
+msgstr ""
+"ユーザーには次のメッセージが表示されます-「このサイトの登録は無効になっていま"
+"す。管理者に連絡してください。」私は何をすべきか？"
+
+#: view/faq/mo_openid_faq.php:122
+msgid ""
+"This means you must have unchecked the check-box of auto-register in the "
+"Social Login tab. Please check it. This will allow new users to be able to "
+"register to your site."
+msgstr ""
+"つまり、[ソーシャルログイン]タブで自動登録のチェックボックスをオフにしておく"
+"必要があります。これをチェックしてください。これにより、新しいユーザーがサイ"
+"トに登録できるようになります。"
+
+#: view/faq/mo_openid_faq.php:125
+msgid "Why do my users get a message that it is not secure to proceed?"
+msgstr ""
+"続行するのは安全ではないというメッセージがユーザーに表示されるのはなぜです"
+"か？"
+
+#: view/faq/mo_openid_faq.php:126
+msgid ""
+"Your website must be starting with http://. Now generally that's not an "
+"issue but our service uses https://( s stands for secure). You get a warning "
+"from the browser that the information is being passed insecurely. This "
+"happens after you log in to social media application and are coming back to "
+"your website. The warning is triggered from the browser since the data "
+"passes from https:// to http://, i.e. from a secure site to non-secure site."
+"<br><br>We make sure that the information(email, name, username) getting "
+"passed from social media application to your website is encrypted with a key "
+"which is unique to you. So, even if the there is a warning of sending "
+"information without security, that information is encrypted."
+msgstr ""
+"Webサイトはhttp：//で始まる必要があります。今では一般にそれは問題ではありませ"
+"んが、私たちのサービスはhttps：//（sはセキュアを表します）を使用しています。"
+"情報が安全に渡されていないという警告がブラウザから表示されます。これは、ソー"
+"シャルメディアアプリケーションにログインしてWebサイトに戻った後に発生します。"
+"データはhttps：//からhttp：//に、つまり安全なサイトから安全でないサイトに渡さ"
+"れるため、警告はブラウザからトリガーされます。<br> <br>情報（メール、名前、"
+"ユーザー名）は、ソーシャルメディアアプリケーションからWebサイトに渡され、ユー"
+"ザー固有のキーで暗号化されます。そのため、セキュリティなしで情報を送信すると"
+"いう警告があったとしても、その情報は暗号化されます。"
+
+#: view/faq/mo_openid_faq.php:127
+msgid ""
+"To remove this warning, you can add an SSL certificate to your website to "
+"change it to https OR use your own"
+msgstr ""
+"この警告を削除するには、WebサイトにSSL証明書を追加してhttpsに変更するか、独自"
+"の証明書を使用します"
+
+#: view/faq/mo_openid_faq.php:127 view/shrtco/mo_openid_shrtco.php:111
+#: view/shrtco/mo_openid_shrtco.php:112
+msgid "Custom App"
+msgstr "カスタムアプリ"
+
+#: view/faq/mo_openid_faq.php:130
+msgid ""
+"My users get the following message -\"There was an error in registration. "
+"Please contact your administrator.\" What should I do?"
+msgstr ""
+"ユーザーに次のメッセージが表示されます-「登録にエラーがありました。管理者に連"
+"絡してください。」私は何をすべきか？"
+
+#: view/faq/mo_openid_faq.php:132
+msgid ""
+"This message is thrown by WordPress when there is an error in user-"
+"registration"
+msgstr ""
+"このメッセージは、ユーザー登録にエラーがあるときにWordPressによってスローされ"
+"ます"
+
+#: view/faq/mo_openid_faq.php:133
+msgid ""
+"To see the actual error thrown by WordPress, go to \\wordpress\\wp-content"
+"\\plugins\\miniorange-login-openid\\class-mo-openid-login-widget.php file"
+msgstr ""
+"WordPressによってスローされた実際のエラーを確認するには、\\ wordpress \\ wp-"
+"content \\ plugins \\ miniorange-login-openid \\ class-mo-openid-login-"
+"widget.phpファイルに移動します"
+
+#: view/faq/mo_openid_faq.php:134
+msgid "Search for the line"
+msgstr "行を検索"
+
+#: view/faq/mo_openid_faq.php:135
+msgid "Change it to"
+msgstr "に変更する"
+
+#: view/faq/mo_openid_faq.php:136
+msgid ""
+"Save the file and try logging again. Please send us the error you see while "
+"logging in through the support forum to your right."
+msgstr ""
+"ファイルを保存して、再度ログ記録してみてください。右側のサポートフォーラムか"
+"らログイン中に表示されるエラーをお送りください"
+
+#: view/faq/mo_openid_faq.php:138
+msgid "How do I centre the social login icons?"
+msgstr "ソーシャルログインアイコンを中央に配置するにはどうすればよいですか？"
+
+#: view/faq/mo_openid_faq.php:140
+msgid "If you are making changes to a PHP file"
+msgstr "PHPファイルを変更する場合"
+
+#: view/faq/mo_openid_faq.php:141
+msgid ""
+"Go to the PHP file which invokes your page/post and insert the following "
+"html snippet. Also, increase the margin-left value as per your requirement. "
+"Save the file."
+msgstr ""
+"ページ/投稿を呼び出すPHPファイルに移動し、次のhtmlスニペットを挿入します。ま"
+"た、要件に従って左マージンの値を増やします。ファイルを保存します。"
+
+#: view/faq/mo_openid_faq.php:144
+msgid "If you are making changes to an HTML file."
+msgstr "HTMLファイルに変更を加えている場合。"
+
+#: view/faq/mo_openid_faq.php:145
+msgid ""
+"Go to the HTML file which invokes your page/post and insert the following "
+"html snippet. Also, increase the margin-left value as per your requirement. "
+"Save the file."
+msgstr ""
+"ページ/投稿を呼び出すHTMLファイルに移動し、次のHTMLスニペットを挿入します。ま"
+"た、要件に従って左マージンの値を増やします。ファイルを保存します。"
+
+#: view/faq/mo_openid_faq.php:155
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:570
+msgid "Social Sharing"
+msgstr "ソーシャルシェアリング"
+
+#: view/faq/mo_openid_faq.php:157
+msgid "Is it possible to show sharing icons below the post content?"
+msgstr "投稿コンテンツの下に共有アイコンを表示することは可能ですか？"
+
+#: view/faq/mo_openid_faq.php:159
+msgid ""
+"You can put social sharing icons before the content, after the content or "
+"both before and after the content."
+msgstr ""
+"コンテンツの前、コンテンツの後、またはコンテンツの前後にソーシャル共有アイコ"
+"ンを配置できます。"
+
+#: view/faq/mo_openid_faq.php:159
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:50
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:53
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "Go to"
+msgstr "に行く"
+
+#: view/faq/mo_openid_faq.php:159
+msgid "Sharing tab"
+msgstr "共有タブ"
+
+#: view/faq/mo_openid_faq.php:159
+msgid "check"
+msgstr "小切手"
+
+#: view/faq/mo_openid_faq.php:159
+msgid "Blog post"
+msgstr "ブログ投稿"
+
+#: view/faq/mo_openid_faq.php:159
+msgid ""
+"checkbox and select one of three(before, after, both) options available. "
+"Save settings"
+msgstr ""
+"チェックボックスをオンにして、使用可能な3つのオプション（前、後、両方）のいず"
+"れかを選択します。設定を保存する"
+
+#: view/faq/mo_openid_faq.php:162
+msgid "Why is sharing with some applications not working?"
+msgstr "一部のアプリケーションとの共有が機能しないのはなぜですか？"
+
+#: view/faq/mo_openid_faq.php:164
+msgid ""
+"This issue arises if your website is not publicly hosted. Facebook, for "
+"example looks for the URL to generate its preview for sharing. That does not "
+"work on localhost or any privately hosted URL."
+msgstr ""
+"この問題は、Webサイトが公開されていない場合に発生します。たとえば、Facebookは"
+"URLを探して共有用のプレビューを生成します。これは、localhostまたはプライベー"
+"トにホストされたURLでは機能しません。"
+
+#: view/faq/mo_openid_faq.php:167
+msgid "Facebook sharing is showing the wrong image. How do I change the image?"
+msgstr ""
+"Facebook共有で間違った画像が表示されています。画像を変更するにはどうすればよ"
+"いですか？"
+
+#: view/faq/mo_openid_faq.php:169
+msgid ""
+"The image is selected by Facebook and it is a part of Facebook sharing "
+"feature. We provide Facebook with webpage URL. It generates the entire "
+"preview of webpage using that URL."
+msgstr ""
+"画像はFacebookによって選択され、Facebook共有機能の一部です。 FacebookにWeb"
+"ページのURLを提供します。そのURLを使用してWebページのプレビュー全体を生成しま"
+"す。"
+
+#: view/faq/mo_openid_faq.php:170
+msgid "To set an image for the page, set it as a meta tag in"
+msgstr "ページの画像を設定するには、それをメタタグとして設定します"
+
+#: view/faq/mo_openid_faq.php:170
+msgid "of your webpage."
+msgstr "あなたのウェブページの。"
+
+#: view/faq/mo_openid_faq.php:172
+msgid "You can further debug the issue with Facebook's tool"
+msgstr "フェイスブックのツールで問題をさらにデバッグできます"
+
+#: view/faq/mo_openid_faq.php:174
+msgid ""
+"If the problem still persists, please contact us using the Support form on "
+"the right."
+msgstr ""
+"それでも問題が解決しない場合は、右側のサポートフォームを使用してご連絡くださ"
+"い。"
+
+#: view/faq/mo_openid_faq.php:177
+msgid "There is no option of Instagram in Social Sharing. Why?"
+msgstr "ソーシャル共有にはInstagramのオプションはありません。どうして？"
+
+#: view/faq/mo_openid_faq.php:179
+msgid ""
+"Instagram has made a conscious effort to not allow sharing from external "
+"sources to fight spam and low quality photos."
+msgstr ""
+"インスタグラムは、スパムや低品質の写真と戦うために外部ソースからの共有を許可"
+"しないように意識的に努力しています。"
+
+#: view/faq/mo_openid_faq.php:180
+msgid ""
+"At this point of time, uploading via Instagram's API from external sources "
+"is not possible"
+msgstr ""
+"この時点では、外部ソースからインスタグラムのAPIを介してアップロードすることは"
+"できません"
+
+#: view/faq/mo_openid_faq.php:184
+msgid "Email share is not working. Why?"
+msgstr "メール共有が機能していません。どうして？"
+
+#: view/faq/mo_openid_faq.php:186
+msgid "Email share in the plugin is enabled through"
+msgstr "プラグインのメール共有は"
+
+#: view/faq/mo_openid_faq.php:186
+msgid "mailto"
+msgstr "郵便物to"
+
+#: view/faq/mo_openid_faq.php:186
+msgid ""
+"mailto is generally configured through desktop or browser so if it is not "
+"working, mailto is not setup or improperly configured"
+msgstr ""
+"郵便物toは通常、デスクトップまたはブラウザーを介して構成されているため、機能"
+"していない場合、郵便物toはセットアップされていないか、正しく構成されていませ"
+"ん"
+
+#: view/faq/mo_openid_faq.php:187
+msgid ""
+"To set it up properly, search for mailto settings followed by your Operating "
+"System's name where you have your browser installed."
+msgstr ""
+"適切に設定するには、mailto設定を検索し、続いてブラウザがインストールされてい"
+"るオペレーティングシステムの名前を検索します"
+
+#: view/faq/mo_openid_faq.php:190
+msgid ""
+"I cannot see some icons in preview or on blog even though I have selected "
+"them in the plugin settings."
+msgstr ""
+"プラグイン設定でアイコンを選択したにもかかわらず、プレビューまたはブログで一"
+"部のアイコンが表示されません。"
+
+#: view/faq/mo_openid_faq.php:192
+msgid ""
+"Please check if you have an Adblock extension installed on your browser "
+"where you are checking the plugin. If you do, the Adblock extension will "
+"have a setting to block Social buttons. Uncheck this option."
+msgstr ""
+"プラグインをチェックしているブラウザにAdblock拡張機能がインストールされている"
+"かどうかを確認してください。その場合、Adblock拡張機能にはソーシャルボタンをブ"
+"ロックする設定があります。このオプションをオフにします。"
+
+#: view/faq/mo_openid_faq.php:194
+msgid ""
+"If you don't have Adblock installed and still face this issue, please "
+"contact us using the Support form on the right or mail us at info@xecurify."
+"com."
+msgstr ""
+"Adblockをインストールしていないのにこの問題が引き続き発生する場合は、右側のサ"
+"ポートフォームを使用してご連絡いただくか、info @ xecurify.comにメールでお問い"
+"合わせください"
+
+#: view/faq/mo_openid_faq.php:206
+msgid "Frequently Asked Questions"
+msgstr "よくある質問"
+
+#: view/gdpr/mo_openid_gdpr.php:13
+msgid ""
+"If GDPR check is enabled, users will be asked to give consent before using "
+"Social Login. Users who will not give consent will not be able to log in. "
+"This setting stands true only when users are registering using Social Login. "
+"This will not interfere with users registering through the regular WordPress"
+msgstr ""
+"GDPRチェックが有効になっている場合、ユーザーはソーシャルログインを使用する前"
+"に同意を求められます。同意しないユーザーはログインできません。この設定は、"
+"ユーザーがソーシャルログインを使用して登録している場合にのみ有効です。これ"
+"は、通常のWordPressで登録するユーザーの邪魔になりません"
+
+#: view/gdpr/mo_openid_gdpr.php:13
+msgid "Click"
+msgstr "クリック"
+
+#: view/gdpr/mo_openid_gdpr.php:13
+msgid "here"
+msgstr "ここに"
+
+#: view/gdpr/mo_openid_gdpr.php:13
+msgid ""
+"to read miniOrange Social Login Privacy Policy. Please update your website's "
+"privacy policy accordingly and enter the URL to your privacy policy below."
+msgstr ""
+"ミニオレンジソーシャルログインプライバシーポリシーを読む。それに応じてウェブ"
+"サイトのプライバシーポリシーを更新し、以下にプライバシーポリシーのURLを入力し"
+"てください."
+
+#: view/gdpr/mo_openid_gdpr.php:15
+msgid "Take consent from users"
+msgstr "ユーザーの同意を得る"
+
+#: view/gdpr/mo_openid_gdpr.php:25
+msgid "Enter the Consent message:"
+msgstr "同意メッセージを入力します:"
+
+#: view/gdpr/mo_openid_gdpr.php:28
+msgid "Enter the text to be displayed for the Privacy Policy URL"
+msgstr "プライバシーポリシーのURLに表示するテキストを入力します"
+
+#: view/gdpr/mo_openid_gdpr.php:31
+msgid "Enter Privacy Policy URL"
+msgstr "プライバシーポリシーのURLを入力"
+
+#: view/gdpr/mo_openid_gdpr.php:38
+msgid "GDPR Settings"
+msgstr "GDPR設定"
+
+#: view/integration/mo_openid_integrate.php:7
+msgid "Custom Attributes Mapping"
+msgstr "カスタム属性マッピング"
+
+#: view/integration/mo_openid_integrate.php:12
+#: view/integration/mo_openid_integrate.php:46
+#: view/integration/mo_openid_integrate.php:56
+#: view/integration/mo_openid_integrate.php:67
+msgid ""
+"This feature is available in premium version only. To use this feature, "
+"please upgrade to premium plugin."
+msgstr ""
+"この機能はプレミアムバージョンでのみ使用できます。この機能を使用するには、プ"
+"レミアムプラグインにアップグレードしてください。"
+
+#: view/integration/mo_openid_integrate.php:18
+msgid "Select Attribute"
+msgstr "属性を選択"
+
+#: view/integration/mo_openid_integrate.php:43
+msgid "BuddyPress Extended Attributes Mapping"
+msgstr "バディプレス拡張属性マッピング"
+
+#: view/integration/mo_openid_integrate.php:54
+msgid "Paid Memberships Pro"
+msgstr "有料会員プロ"
+
+#: view/integration/mo_openid_integrate.php:64
+msgid "MailChimp Integration"
+msgstr "MailChimpの統合"
+
+#: view/integration/mo_openid_integrate.php:68
+msgid ""
+"A user is added as a subscriber to a mailing list in MailChimp when that "
+"user registers using social login. First name, last name and email are also "
+"captured for that user in the Mailing List."
+msgstr ""
+"ユーザーは、ソーシャルログインを使用して登録すると、MailChimpのメーリングリス"
+"トのサブスクライバーとして追加されます。メーリングリストでは、そのユーザーの"
+"名、姓、および電子メールもキャプチャされます"
+
+#: view/integration/mo_openid_integrate.php:69
+msgid ""
+"(List ID in MailChimp : Lists -> Select your List -> Settings -> List Name "
+"and Defaults -> List ID)"
+msgstr ""
+"（MailChimpのリストID：リスト->リストを選択->設定->リスト名とデフォルト->リス"
+"トID）"
+
+#: view/integration/mo_openid_integrate.php:70
+msgid "(API Key in MailChimp : Profile -> Extras -> API Keys -> Your API Key )"
+msgstr "（MailChimpのAPIキー：プロファイル->エクストラ-> APIキー-> APIキー）"
+
+#: view/integration/mo_openid_integrate.php:71
+msgid "List Id"
+msgstr "リストID"
+
+#: view/integration/mo_openid_integrate.php:72
+msgid "API Key:"
+msgstr "APIキー："
+
+#: view/integration/mo_openid_integrate.php:75
+msgid "Ask user for permission to be added in MailChimp Subscriber list"
+msgstr "MailChimpサブスクライバーリストに追加する許可をユーザーに求める"
+
+#: view/integration/mo_openid_integrate.php:80
+msgid "If unchecked, user will get subscribed during registration."
+msgstr "チェックされていない場合、ユーザーは登録時にサブスクライブされます。"
+
+#: view/integration/mo_openid_integrate.php:82
+msgid ""
+"Click on Download button to get a list of emails of WordPress users "
+"registered on your site. You can import this file in MailChimp."
+msgstr ""
+"[ダウンロード]ボタンをクリックして、サイトに登録されているWordPressユーザーの"
+"電子メールのリストを取得します。このファイルをMailChimpにインポートできます"
+
+#: view/integration/mo_openid_integrate.php:85
+msgid "Download emails of users"
+msgstr "ユーザーのメールをダウンロードする"
+
+#: view/integration/mo_openid_integrate.php:95
+msgid "Woocommerce Integration"
+msgstr "Woocommerceの統合"
+
+#: view/integration/mo_openid_integrate.php:98
+msgid ""
+"This feature is available in premium version only. To use this feature, "
+"please upgrade to  premium plugin."
+msgstr ""
+"この機能はプレミアムバージョンでのみ使用できます。この機能を使用するには、プ"
+"レミアムプラグインにアップグレードしてください。"
+
+#: view/integration/mo_openid_integrate.php:99
+msgid ""
+"If enabled, first name, last name and email are pre-filled in billing "
+"details of a user and on the Woocommerce checkout page."
+msgstr ""
+"有効にした場合、ユーザーの請求詳細とWoocommerceチェックアウトページに名、姓、"
+"メールが事前に入力されます"
+
+#: view/integration/mo_openid_integrate.php:102
+msgid "Sync Woocommerce checkout fields"
+msgstr "Woocommerceチェックアウトフィールドを同期する"
+
+#: view/licensing_plans/mo_openid_lic_plans.php:1904
+msgid "Licensing Plan For Social Login"
+msgstr "ソーシャルログインのライセンスプラン"
+
+#: view/link_social_account/mo_openid_Acclink.php:19
+msgid ""
+"Enable account linking to let your users link their Social accounts with "
+"existing WordPress account. Users will be prompted with the option to either "
+"link to any existing account using WordPress login page or register as a new "
+"user."
+msgstr ""
+"アカウントリンクを有効にして、ユーザーがソーシャルアカウントを既存のWordPress"
+"アカウントにリンクできるようにします。ユーザーは、WordPressログインページを使"
+"用して既存のアカウントにリンクするか、新しいユーザーとして登録するかを選択す"
+"るよう求められます"
+
+#: view/link_social_account/mo_openid_Acclink.php:20
+msgid "Enable linking of Social Accounts"
+msgstr "ソーシャルアカウントのリンクを有効にする"
+
+#: view/link_social_account/mo_openid_Acclink.php:33
+msgid "Customize Text for Account Linking"
+msgstr "アカウントリンク用のテキストのカスタマイズ"
+
+#: view/link_social_account/mo_openid_Acclink.php:33
+msgid "Preview Account Linking form"
+msgstr "アカウントリンクフォームのプレビュー"
+
+#: view/link_social_account/mo_openid_Acclink.php:35
+msgid "Enter title of Account linking form"
+msgstr "アカウントリンクフォームのタイトルを入力してください"
+
+#: view/link_social_account/mo_openid_Acclink.php:36
+msgid " Enter button text for create new user"
+msgstr "新しいユーザーを作成するためのボタンテキストを入力します"
+
+#: view/link_social_account/mo_openid_Acclink.php:39
+msgid "Enter button text for Link to existing user:"
+msgstr "既存のユーザーへのリンクのボタンテキストを入力します。"
+
+#: view/link_social_account/mo_openid_Acclink.php:41
+msgid "Enter instruction to Create New Account :"
+msgstr "新しいアカウントを作成する手順を入力してください："
+
+#: view/link_social_account/mo_openid_Acclink.php:47
+msgid " Enter instructions to link to an existing account :"
+msgstr "既存のアカウントにリンクする手順を入力してください："
+
+#: view/link_social_account/mo_openid_Acclink.php:51
+msgid "Enter extra instructions for account linking "
+msgstr "アカウントのリンクに関する追加の指示を入力してください"
+
+#: view/link_social_account/mo_openid_Acclink.php:55
+msgid ""
+"Display miniOrange logo with social login icons on account completion forms"
+msgstr ""
+"アカウント完了フォームにソーシャルログインアイコン付きのminiOrangeロゴを表示"
+"する"
+
+#: view/mo_new/mo_openid_whats_new.php:9
+msgid "Do you want to make your <b>website more secure"
+msgstr "<b>ウェブサイトをより安全にしたいですか"
+
+#: view/mo_new/mo_openid_whats_new.php:9
+msgid "by Brute Force attack, Spam Protection etc? Try out our Plugin."
+msgstr ""
+"ブルートフォース攻撃、スパム保護などによって？プラグインを試してください。"
+
+#: view/mo_new/mo_openid_whats_new.php:22
+#: view/mo_new/mo_openid_whats_new.php:50
+#: view/mo_new/mo_openid_whats_new.php:89
+msgid "Looking for"
+msgstr "探している"
+
+#: view/mo_new/mo_openid_whats_new.php:22
+msgid "WordPress REST API Authentication?"
+msgstr "WordPress REST API認証？"
+
+#: view/mo_new/mo_openid_whats_new.php:22
+msgid ""
+"Try out our new Plugin which secures rest API access for unauthorized users "
+"using OAuth 2.0, Basic Auth, jwt, Bearer Token."
+msgstr ""
+"OAuth 2.0、Basic Auth、jwt、Bearer Tokenを使用して、許可されていないユーザー"
+"のREST APIアクセスを保護する新しいプラグインをお試しください"
+
+#: view/mo_new/mo_openid_whats_new.php:37
+msgid "Looking for "
+msgstr "探している"
+
+#: view/mo_new/mo_openid_whats_new.php:37
+msgid "WordPress OAuth Single Sign On?"
+msgstr "WordPress OAuthシングルサインオン？"
+
+#: view/mo_new/mo_openid_whats_new.php:37
+msgid ""
+"Try out our new Plugin which allows login (Single Sign On) into WordPress "
+"with your Azure AD, AWS Cognito, Invision Community, Slack, Discord or other "
+"custom OAuth 2.0 / OpenID Connect providers"
+msgstr ""
+"Azure AD、AWS Cognito、Invision Community、Slack、Discord、またはその他のカス"
+"タムOAuth 2.0 / OpenID Connectプロバイダーを使用してWordPressにログイン（シン"
+"グルサインオン）できる新しいプラグインをお試しください"
+
+#: view/mo_new/mo_openid_whats_new.php:50
+msgid "WordPress Two Factor Authentication"
+msgstr "WordPress二要素認証"
+
+#: view/mo_new/mo_openid_whats_new.php:50
+msgid ""
+"Try out our 2FA Plugin which is simple & easy 2FA setup with any App "
+"supporting TOTP algorithm like Google, Authy, LastPass Authenticator & other "
+"2FA methods."
+msgstr ""
+"Google、Authy、LastPass Authenticatorおよびその他の2FAメソッドなどのTOTPアル"
+"ゴリズムをサポートするアプリで、シ​​ンプルで簡単な2FAセットアップである2FAプラ"
+"グインをお試しください"
+
+#: view/mo_new/mo_openid_whats_new.php:65
+msgid "Looking for a"
+msgstr "探している"
+
+#: view/mo_new/mo_openid_whats_new.php:65
+msgid "Try our new <b>Social Login Integration Add-on"
+msgstr "新しい<b>ソーシャルログイン統合アドオンをお試しください"
+
+#: view/mo_new/mo_openid_whats_new.php:71
+msgid "Social Login Integration Add-on"
+msgstr "ソーシャルログイン統合アドオン"
+
+#: view/mo_new/mo_openid_whats_new.php:72
+msgid "by"
+msgstr "by"
+
+#: view/mo_new/mo_openid_whats_new.php:73
+msgid "miniorange"
+msgstr "ミニオレンジ"
+
+#: view/mo_new/mo_openid_whats_new.php:77
+msgid ""
+"Custom Registration Form Add-On helps you to integrate details of new as "
+"well as existing users. You can add as many fields as you want including the "
+"one which are returned by social sites at time of registration"
+msgstr ""
+"カスタム登録フォームアドオンは、新規および既存のユーザーの詳細を統合するのに"
+"役立ちます。登録時にソーシャルサイトから返されるフィールドを含め、必要な数の"
+"フィールドを追加できます。"
+
+#: view/mo_new/mo_openid_whats_new.php:79
+msgid "Tested with 5.3"
+msgstr "5.3でテスト済み"
+
+#: view/mo_new/mo_openid_whats_new.php:81
+msgid "Get this plugin"
+msgstr "このプラグインを入手"
+
+#: view/mo_new/mo_openid_whats_new.php:89
+msgid "OTP Verification"
+msgstr "OTP検証"
+
+#: view/mo_new/mo_openid_whats_new.php:89
+msgid "along with Social Login? Try our OTP Plugin."
+msgstr "ソーシャルログインと一緒に？ OTPプラグインをお試しください。"
+
+#: view/mo_new/mo_openid_whats_new.php:102
+msgid "What\\'s new in miniOrange"
+msgstr "ミニオレンジの新機能"
+
+#: view/premium_features/mo_openid_prem_feat.php:89
+msgid "Force Admin To Login Using Password"
+msgstr "パスワードを使用して管理者にログインを強制する"
+
+#: view/premium_features/mo_openid_prem_feat.php:91
+msgid ""
+"Admin user tries to login using social login then he will need to enter "
+"WordPress admin login credentials to login."
+msgstr ""
+"管理者ユーザーがソーシャルログインを使用してログインしようとすると、WordPress"
+"管理者ログイン資格情報を入力してログインする必要があります。"
+
+#: view/premium_features/mo_openid_prem_feat.php:104
+msgid "User Moderation"
+msgstr "ユーザー管理"
+
+#: view/premium_features/mo_openid_prem_feat.php:106
+msgid ""
+"Enable this feature to restrict the access of newly registered users. User "
+"created through social login will not be able to access your website until "
+"admin will not allow them by activating their accounts else"
+msgstr ""
+"新しく登録されたユーザーのアクセスを制限するには、この機能を有効にします。"
+"ソーシャルログインで作成されたユーザーは、管理者が他のアカウントをアクティブ"
+"にして許可しない限り、ウェブサイトにアクセスできません。"
+
+#: view/premium_features/mo_openid_prem_feat.php:107
+msgid "Notice: SMTP should be configured to send activation emails. "
+msgstr ""
+"注意：SMTPはアクティベーションメールを送信するように設定する必要があります。"
+
+#: view/premium_features/mo_openid_prem_feat.php:120
+msgid "Reset Password"
+msgstr "パスワードを再設定する"
+
+#: view/premium_features/mo_openid_prem_feat.php:122
+msgid "Send password reset link to user after registration"
+msgstr "登録後にユーザーにパスワードリセットリンクを送信する"
+
+#: view/premium_features/mo_openid_prem_feat.php:123
+msgid "Notice: SMTP should be configured to send activation emails"
+msgstr ""
+"注意：アクティベーションメールを送信するようにSMTPを設定する必要があります"
+
+#: view/premium_features/mo_openid_prem_feat.php:134
+msgid "Extended User Attribute"
+msgstr "拡張ユーザー属性"
+
+#: view/premium_features/mo_openid_prem_feat.php:136
+msgid ""
+"Mainly the required data(name,lastname,email) is mapped and use after the "
+"user gets login. If you want to use more data that is provided from the app "
+"you can enable this feature.(The data is depend on app to app)"
+msgstr ""
+"主に、必要なデータ（名前、姓、メール）がマップされ、ユーザーがログインした後"
+"に使用されます。アプリから提供されるより多くのデータを使用する場合は、この機"
+"能を有効にできます（データはアプリごとに異なります）。"
+
+#: view/premium_features/mo_openid_prem_feat.php:137
+msgid "Custom App of should be set for this feature"
+msgstr "この機能にはカスタムアプリを設定する必要があります"
+
+#: view/premium_features/mo_openid_prem_feat.php:148
+msgid "Redirect to social in a new window"
+msgstr "新しいウィンドウでソーシャルにリダイレクト"
+
+#: view/premium_features/mo_openid_prem_feat.php:150
+msgid ""
+"While login with social login. The login page opens in a new tab. After the "
+"login process the tab gets closed."
+msgstr ""
+"ソーシャルログインでログイン中。ログインページが新しいタブで開きます。ログイ"
+"ンプロセスの後、タブは閉じられます。"
+
+#: view/profile/mo_openid_profile.php:20
+msgid "Why should I register?"
+msgstr "なぜ登録する必要があるのですか？"
+
+#: view/profile/mo_openid_profile.php:22
+msgid ""
+"By registering with miniOrange we take care of creating applications for you "
+"so that you don’t have to worry about creating applications in each social "
+"network."
+msgstr ""
+"miniOrangeに登録することで、各ソーシャルネットワークでアプリケーションを作成"
+"することを心配する必要がないように、アプリケーションを作成します。"
+
+#: view/profile/mo_openid_profile.php:23
+msgid "Please Note"
+msgstr "ご注意ください"
+
+#: view/profile/mo_openid_profile.php:23
+msgid ""
+"We do not store any information except the email that you will use to "
+"register with us. You can go through our "
+msgstr ""
+"あなたが私たちに登録するために使用するメール以外の情報は保存しません。あなた"
+"は私たちを通過することができます"
+
+#: view/profile/mo_openid_profile.php:23
+msgid ""
+"for how we use your information. We don’t sell your information to any third-"
+"party organization"
+msgstr ""
+"情報の使用方法について。お客様の情報を第三者組織に販売することはありません"
+
+#: view/profile/mo_openid_profile.php:27
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:202
+msgid "Email"
+msgstr "Eメール"
+
+#: view/profile/mo_openid_profile.php:33
+msgid "Password"
+msgstr "パスワード"
+
+#: view/profile/mo_openid_profile.php:38
+msgid "Confirm Password"
+msgstr "パスワードを認証する"
+
+#: view/profile/mo_openid_profile.php:51
+msgid "By clicking Submit, you agree to our"
+msgstr "[送信]をクリックすると、"
+
+#: view/profile/mo_openid_profile.php:51
+msgid "User Agreement"
+msgstr "ユーザー規約"
+
+#: view/profile/mo_openid_profile.php:72
+msgid "Thank you for registering with miniOrange"
+msgstr "ミニオレンジに登録していただきありがとうございます"
+
+#: view/profile/mo_openid_profile.php:75
+msgid "miniOrange Account Email"
+msgstr "ミニオレンジアカウントメール"
+
+#: view/profile/mo_openid_profile.php:79
+msgid "Customer ID"
+msgstr "顧客ID"
+
+#: view/profile/mo_openid_profile.php:84 view/recaptcha/mo_openid_recap.php:13
+msgid "Click here"
+msgstr "ここをクリック"
+
+#: view/profile/mo_openid_profile.php:84
+msgid " to check our"
+msgstr "私たちをチェックする"
+
+#: view/profile/mo_openid_profile.php:84
+msgid "plans"
+msgstr "予定"
+
+#: view/profile/mo_openid_profile.php:91
+msgid "User Profile Details"
+msgstr "ユーザープロファイルの詳細"
+
+#: view/profile_completion/mo_openid_prof_comp.php:10
+msgid ""
+"Prompt users for username &amp; email when unavailable (profile completion)"
+msgstr ""
+"ユーザー名の入力を求める＆amp;利用できない場合のメール（プロファイルの完了）"
+
+#: view/profile_completion/mo_openid_prof_comp.php:11
+msgid ""
+"In case of unavailability of username or email from the social media "
+"application, user is prompted to input the same"
+msgstr ""
+"ソーシャルメディアアプリケーションからユーザー名または電子メールが利用できな"
+"い場合、ユーザーは同じものを入力するように求められます"
+
+#: view/profile_completion/mo_openid_prof_comp.php:16
+msgid "*NOTE:"
+msgstr "*注意："
+
+#: view/profile_completion/mo_openid_prof_comp.php:16
+msgid ""
+"Disabling profile completion is not recommended. Instagram and Twitter don't "
+"return email address. Please keep this enabled if you are using Instagram or "
+"Twitter. This feature requires SMTP to be setup for your WordPress website "
+"since we send a code to users over email to verify their email address."
+msgstr ""
+"プロファイルの完了を無効にすることはお勧めしません。 InstagramとTwitterはメー"
+"ルアドレスを返しません。 InstagramまたはTwitterを使用している場合は、これを有"
+"効にしてください。この機能を使用するには、WordPress WebサイトのSMTPをセット"
+"アップする必要があります。これは、ユーザーに電子メールアドレスを確認するため"
+"のコードを電子メールで送信するためです。"
+
+#: view/profile_completion/mo_openid_prof_comp.php:19
+msgid "Customize Text for Profile Completion"
+msgstr "プロファイル完了のためのテキストのカスタマイズ"
+
+#: view/profile_completion/mo_openid_prof_comp.php:19
+msgid "Preview Profile Completion form"
+msgstr "プロフィール完成フォームのプレビュー"
+
+#: view/profile_completion/mo_openid_prof_comp.php:21
+msgid "Enter title of Profle Completion"
+msgstr "プロファイル完了のタイトルを入力してください"
+
+#: view/profile_completion/mo_openid_prof_comp.php:22
+msgid "Enter Username Label text"
+msgstr "ユーザー名ラベルのテキストを入力してください"
+
+#: view/profile_completion/mo_openid_prof_comp.php:23
+msgid "Enter Email Label text"
+msgstr "メールラベルテキストを入力"
+
+#: view/profile_completion/mo_openid_prof_comp.php:24
+msgid "Enter Submit button text"
+msgstr "ボタンのテキストを入力submit"
+
+#: view/profile_completion/mo_openid_prof_comp.php:25
+msgid "Enter instruction for Profile Completion"
+msgstr "プロファイル完了の指示を入力してください"
+
+#: view/profile_completion/mo_openid_prof_comp.php:27
+msgid "Enter extra instruction for Profile Completion "
+msgstr "プロファイルの完了に関する追加の指示を入力します"
+
+#: view/profile_completion/mo_openid_prof_comp.php:29
+msgid "Enter username already exists warning message text "
+msgstr "ユーザー名を入力してください警告メッセージテキストが既に存在します"
+
+#: view/profile_completion/mo_openid_prof_comp.php:30
+msgid "Customize Text for Email Verification"
+msgstr "メール検証用のテキストをカスタマイズする"
+
+#: view/profile_completion/mo_openid_prof_comp.php:30
+msgid "Preview Email Verification form"
+msgstr "メール確認フォームのプレビュー"
+
+#: view/profile_completion/mo_openid_prof_comp.php:32
+msgid "Enter title of Email Verification form"
+msgstr "メール確認フォームのタイトルを入力してください"
+
+#: view/profile_completion/mo_openid_prof_comp.php:33
+msgid "Enter Resend OTP button text"
+msgstr "再送信OTPボタンテキストを入力"
+
+#: view/profile_completion/mo_openid_prof_comp.php:34
+msgid "Enter Back button text"
+msgstr "戻るボタンのテキストを入力"
+
+#: view/profile_completion/mo_openid_prof_comp.php:35
+msgid "Enter instruction for Email Verification form"
+msgstr "メール確認フォームの指示を入力してください"
+
+#: view/profile_completion/mo_openid_prof_comp.php:37
+msgid "Enter verification code in Email Verification form"
+msgstr "メール確認フォームに確認コードを入力してください"
+
+#: view/profile_completion/mo_openid_prof_comp.php:39
+msgid "Enter Message for wrong OTP"
+msgstr "間違ったOTPのメッセージを入力してください"
+
+#: view/profile_completion/mo_openid_prof_comp.php:40
+msgid "Customized E-mail Message"
+msgstr "カスタマイズされた電子メールメッセージ"
+
+#: view/profile_completion/mo_openid_prof_comp.php:41
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:107
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:201
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:556
+msgid "NOTE"
+msgstr "注意"
+
+#: view/profile_completion/mo_openid_prof_comp.php:41
+msgid "Please enter"
+msgstr "入ってください"
+
+#: view/profile_completion/mo_openid_prof_comp.php:41
+msgid "in message where you want to show one time password."
+msgstr "ワンタイムパスワードを表示するメッセージ内。"
+
+#: view/profile_completion/mo_openid_prof_comp.php:43
+msgid ""
+"Display miniOrange logo with social login icons on profile completion forms"
+msgstr ""
+"プロファイル完了フォームにソーシャルログインアイコン付きのminiOrangeロゴを表"
+"示する"
+
+#: view/recaptcha/mo_openid_recap.php:8
+msgid "Enable reCAPTCHA"
+msgstr "reCAPTCHAを有効にする"
+
+#: view/recaptcha/mo_openid_recap.php:13
+msgid "Prerequisite"
+msgstr "前提条件"
+
+#: view/recaptcha/mo_openid_recap.php:13
+msgid "Before you can use reCAPTCHA, you need to register your domain/website."
+msgstr "reCAPTCHAを使用する前に、ドメイン/ウェブサイトを登録する必要があります"
+
+#: view/recaptcha/mo_openid_recap.php:14
+msgid "Enter Site key and Secret key that you get after registration."
+msgstr "登録後に取得するサイトキーとシークレットキーを入力します。"
+
+#: view/recaptcha/mo_openid_recap.php:17
+msgid "Select type of reCAPTCHA "
+msgstr "reCAPTCHAのタイプを選択"
+
+#: view/recaptcha/mo_openid_recap.php:19
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: view/recaptcha/mo_openid_recap.php:26
+msgid "reCAPTCHA v2"
+msgstr "reCAPTCHA v2"
+
+#: view/recaptcha/mo_openid_recap.php:34
+msgid "Site key"
+msgstr "サイトキー"
+
+#: view/recaptcha/mo_openid_recap.php:38
+msgid "Secret key"
+msgstr "秘密鍵"
+
+#: view/recaptcha/mo_openid_recap.php:42
+msgid "Enable reCAPTCHA for "
+msgstr "のreCAPTCHAを有効にします"
+
+#: view/recaptcha/mo_openid_recap.php:46
+msgid "WordPress Login form"
+msgstr "WordPressログインフォーム"
+
+#: view/recaptcha/mo_openid_recap.php:57
+msgid "WordPress Registration form"
+msgstr "WordPress登録フォーム"
+
+#: view/recaptcha/mo_openid_recap.php:71
+msgid "Save Settings"
+msgstr "設定を保存する"
+
+#: view/recaptcha/mo_openid_recap.php:72
+msgid "Test reCAPTCHA Configuration"
+msgstr "reCAPTCHA構成のテスト"
+
+#: view/recaptcha/mo_openid_recap.php:78
+msgid "Configure reCAPTCHA Settings"
+msgstr " reCAPTCHA設定を構成する"
+
+#: view/redirect_options/mo_openid_redirect_op.php:9
+msgid "Redirect URL after login:"
+msgstr "ログイン後にリダイレクトURL："
+
+#: view/redirect_options/mo_openid_redirect_op.php:32
+msgid "Account dashboard"
+msgstr "アカウントダッシュボード"
+
+#: view/redirect_options/mo_openid_redirect_op.php:40
+msgid "Custom URL"
+msgstr "カスタムURL"
+
+#: view/redirect_options/mo_openid_redirect_op.php:51
+#: view/redirect_options/mo_openid_redirect_op.php:110
+msgid "Relative URL"
+msgstr "相対URL"
+
+#: view/redirect_options/mo_openid_redirect_op.php:62
+msgid ""
+"*NOTE: If you login through WordPress default login page after login you "
+"will be redirected to Homepage"
+msgstr ""
+"*注：ログイン後にWordPressのデフォルトのログインページからログインすると、"
+"ホームページにリダイレクトされます"
+
+#: view/redirect_options/mo_openid_redirect_op.php:69
+msgid "Redirect URL after logout:"
+msgstr "ログアウト後にリダイレクトURL："
+
+#: view/redirect_options/mo_openid_redirect_op.php:78
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:51
+msgid "Home Page"
+msgstr "ホームページ"
+
+#: view/redirect_options/mo_openid_redirect_op.php:90
+msgid "Current Page"
+msgstr "現在のページ"
+
+#: view/redirect_options/mo_openid_redirect_op.php:100
+msgid "Login Page"
+msgstr "ログインページ"
+
+#: view/redirect_options/mo_openid_redirect_op.php:128
+msgid "Redirection Options"
+msgstr "リダイレクトオプション"
+
+#: view/registration/mo_openid_registration.php:9
+msgid "Auto Registration"
+msgstr "自動登録"
+
+#: view/registration/mo_openid_registration.php:11
+msgid "Auto-register users"
+msgstr "ユーザーの自動登録"
+
+#: view/registration/mo_openid_registration.php:15
+msgid "Registration disabled message"
+msgstr "登録不可メッセージ"
+
+#: view/registration/mo_openid_registration.php:17
+msgid ""
+"If Auto-register users is unchecked, users will not be able to register "
+"using Social Login. The users who already have an account will be able to "
+"login.  This setting stands true only when users are registering using "
+"Social Login. This will not interfere with users registering through the "
+"regular WordPress registration form."
+msgstr ""
+"[ユーザーの自動登録]がオフになっている場合、ユーザーはソーシャルログインを使"
+"用して登録できません。すでにアカウントを持っているユーザーはログインできま"
+"す。この設定は、ユーザーがソーシャルログインを使用して登録している場合にのみ"
+"有効です。これは、通常のWordPress登録フォームから登録するユーザーの邪魔になり"
+"ません。"
+
+#: view/registration/mo_openid_registration.php:20
+msgid "Role Mapping"
+msgstr "ロールマッピング"
+
+#: view/registration/mo_openid_registration.php:22
+msgid "Universal Role"
+msgstr "普遍的な役割"
+
+#: view/registration/mo_openid_registration.php:30
+msgid ""
+"Use Role Mapping to assign this role to the all users registering through "
+"Social Login. According to the role mapped user will be granted role on the "
+"website."
+msgstr ""
+"ロールマッピングを使用して、ソーシャルログインで登録しているすべてのユーザー"
+"にこのロールを割り当てます。ロールに応じて、マップされたユーザーはWebサイトで"
+"ロールを付与されます"
+
+#: view/registration/mo_openid_registration.php:32
+msgid "Enable Email Notification to Admin"
+msgstr "管理者へのメール通知を有効にする"
+
+#: view/registration/mo_openid_registration.php:34
+msgid "Enable Email Notification to Admin - on User Registration"
+msgstr "管理者へのメール通知を有効にする-ユーザー登録時"
+
+#: view/registration/mo_openid_registration.php:38
+msgid "This feature requires SMTP to be configured"
+msgstr "この機能を使用するには、SMTPを構成する必要があります"
+
+#: view/registration/mo_openid_registration.php:41
+msgid "Set Display Picture for User"
+msgstr "ユーザーの表示画像を設定する"
+
+#: view/registration/mo_openid_registration.php:43
+msgid "Set Display Picture for User - on User Registration"
+msgstr "ユーザーの表示画像の設定-ユーザー登録時"
+
+#: view/registration/mo_openid_registration.php:53
+msgid "Registration Options"
+msgstr "登録オプション"
+
+#: view/restrict_domain/mo_openid_restrict_dom.php:17
+msgid "Users with these domains will not be able to register"
+msgstr "これらのドメインを持つユーザーは登録できません"
+
+#: view/restrict_domain/mo_openid_restrict_dom.php:24
+msgid "Allow Domain"
+msgstr "ドメインを許可"
+
+#: view/restrict_domain/mo_openid_restrict_dom.php:29
+msgid "Only users with these domains will be able to register"
+msgstr "これらのドメインを持つユーザーのみが登録できます"
+
+#: view/shrtco/mo_openid_shrtco.php:9
+msgid ""
+"Use social login Shortcode in the content of required page/post where you "
+"want to display Social Login Icons."
+msgstr ""
+"ソーシャルログインアイコンを表示する必要なページ/投稿のコンテンツでソーシャル"
+"ログインショートコードを使用します。"
+
+#: view/shrtco/mo_openid_shrtco.php:10
+msgid "Default Social Login Shortcode"
+msgstr "デフォルトのソーシャルログインショートコード"
+
+#: view/shrtco/mo_openid_shrtco.php:11
+msgid "This will display Social Login Icons with same default settings"
+msgstr ""
+"これにより、同じデフォルト設定のソーシャルログインアイコンが表示されます"
+
+#: view/shrtco/mo_openid_shrtco.php:14
+msgid "For Icons"
+msgstr "アイコン用"
+
+#: view/shrtco/mo_openid_shrtco.php:15
+msgid ""
+"You can use  different attribute to customize social login icons. All "
+"attributes are optional except view."
+msgstr ""
+"異なる属性を使用して、ソーシャルログインアイコンをカスタマイズできます。"
+"ビューを除くすべての属性はオプションです。"
+
+#: view/shrtco/mo_openid_shrtco.php:16
+msgid "Square Shape Example"
+msgstr "正方形の形状の例"
+
+#: view/shrtco/mo_openid_shrtco.php:23
+msgid "Round Shape Example"
+msgstr "丸型の例"
+
+#: view/shrtco/mo_openid_shrtco.php:30
+msgid "For Long-Buttons"
+msgstr "ロングボタン用"
+
+#: view/shrtco/mo_openid_shrtco.php:31
+msgid ""
+"You can use different attribute to customize social login buttons. All "
+"attributes are optional"
+msgstr ""
+"異なる属性を使用して、ソーシャルログインボタンをカスタマイズできます。すべて"
+"の属性はオプションです"
+
+#: view/shrtco/mo_openid_shrtco.php:32
+msgid "Vertical View Example"
+msgstr "垂直ビューの例"
+
+#: view/shrtco/mo_openid_shrtco.php:37
+msgid "Horizontal View Example"
+msgstr "水平ビューの例"
+
+#: view/shrtco/mo_openid_shrtco.php:41
+msgid "Note:"
+msgstr "注意:"
+
+#: view/shrtco/mo_openid_shrtco.php:41
+msgid "By default Long-Button view is"
+msgstr "デフォルトでは、ロングボタンビューは"
+
+#: view/shrtco/mo_openid_shrtco.php:41
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:11
+msgid "Vertical"
+msgstr "垂直"
+
+#: view/shrtco/mo_openid_shrtco.php:43
+msgid "For Selected Applications"
+msgstr "選択したアプリケーション用"
+
+#: view/shrtco/mo_openid_shrtco.php:44
+msgid ""
+"If you want to show selected applications without setting up default "
+"settings then use this shortcode. You can use different attribute to "
+"customize social login buttons. All attributes are optional"
+msgstr ""
+"デフォルト設定を設定せずに選択したアプリケーションを表示する場合は、この"
+"ショートコードを使用します。異なる属性を使用して、ソーシャルログインボタンを"
+"カスタマイズできます。すべての属性はオプションです"
+
+#: view/shrtco/mo_openid_shrtco.php:45
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:17
+msgid "Example"
+msgstr "例"
+
+#: view/shrtco/mo_openid_shrtco.php:110
+msgid "Note"
+msgstr "注意:"
+
+#: view/shrtco/mo_openid_shrtco.php:111
+msgid "1. If you are not registered with miniOrange and "
+msgstr "1.miniOrangeに登録していない場合"
+
+#: view/shrtco/mo_openid_shrtco.php:111
+msgid "is also not set up then please register with us first or set up"
+msgstr "設定されていない場合は、最初に登録するか設定してください"
+
+#: view/shrtco/mo_openid_shrtco.php:111
+msgid "otherwise the buttons will be"
+msgstr "そうでない場合、ボタンは"
+
+#: view/shrtco/mo_openid_shrtco.php:111 view/shrtco/mo_openid_shrtco.php:112
+msgid "disabled"
+msgstr "無効"
+
+#: view/shrtco/mo_openid_shrtco.php:112
+msgid "2. If Facebook is selected then please set up "
+msgstr "2. を選択した場合は、セットアップしてください"
+
+#: view/shrtco/mo_openid_shrtco.php:112
+msgid "first otherwise the buttons will be "
+msgstr "最初にそうでなければ、ボタンは"
+
+#: view/shrtco/mo_openid_shrtco.php:123
+msgid "Available values for attributes"
+msgstr "属性に使用可能な値"
+
+#: view/shrtco/mo_openid_shrtco.php:127
+msgid "view"
+msgstr "view"
+
+#: view/shrtco/mo_openid_shrtco.php:128
+msgid "horizontal, vertical"
+msgstr "水平垂直"
+
+#: view/shrtco/mo_openid_shrtco.php:132
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:21
+msgid "shape"
+msgstr "形状"
+
+#: view/shrtco/mo_openid_shrtco.php:133
+msgid "round, roundededges, square, longbuttonwithtext"
+msgstr "丸い、丸いエッジ、正方形、長いボタン付きテキスト"
+
+#: view/shrtco/mo_openid_shrtco.php:137
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:22
+msgid "theme"
+msgstr "テーマ"
+
+#: view/shrtco/mo_openid_shrtco.php:138
+msgid "default, custombackground"
+msgstr "デフォルト、カスタムバックグラウンド"
+
+#: view/shrtco/mo_openid_shrtco.php:142
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:23
+msgid "size"
+msgstr "サイズ"
+
+#: view/shrtco/mo_openid_shrtco.php:143
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:23
+msgid "Any value between 20 to 100"
+msgstr "20〜100の任意の値"
+
+#: view/shrtco/mo_openid_shrtco.php:147
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:24
+msgid "space"
+msgstr "スペース"
+
+#: view/shrtco/mo_openid_shrtco.php:148
+msgid "Any value between 0 to 100"
+msgstr "0〜100の任意の値"
+
+#: view/shrtco/mo_openid_shrtco.php:152
+msgid "width"
+msgstr "幅："
+
+#: view/shrtco/mo_openid_shrtco.php:153
+msgid "Any value between 200 to 1000"
+msgstr "200から1000までの任意の値"
+
+#: view/shrtco/mo_openid_shrtco.php:157
+msgid "height"
+msgstr "高さ："
+
+#: view/shrtco/mo_openid_shrtco.php:158
+msgid "Any value between 35 to 50"
+msgstr "35〜50の任意の値"
+
+#: view/shrtco/mo_openid_shrtco.php:162
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:30
+msgid "color"
+msgstr "色"
+
+#: view/shrtco/mo_openid_shrtco.php:163
+msgid "Enter color code for example"
+msgstr "たとえば、色コードを入力してください"
+
+#: view/shrtco/mo_openid_shrtco.php:167
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:29
+msgid "heading"
+msgstr "見出し"
+
+#: view/shrtco/mo_openid_shrtco.php:168
+msgid "Enter custom heading"
+msgstr "カスタム見出しを入力してください"
+
+#: view/shrtco/mo_openid_shrtco.php:172
+msgid "appcnt"
+msgstr "appcnt"
+
+#: view/shrtco/mo_openid_shrtco.php:173
+msgid "Any value for number of icons in one row"
+msgstr "1行のアイコンの数の任意の値"
+
+#: view/shrtco/mo_openid_shrtco.php:181
+msgid "Shortcode in php file"
+msgstr "PHPファイルのショートコード"
+
+#: view/shrtco/mo_openid_shrtco.php:182
+msgid "You can use shortcode in PHP file as following: "
+msgstr "PHPファイルでショートコードを次のように使用できます。"
+
+#: view/shrtco/mo_openid_shrtco.php:184
+msgid ""
+"Replace SHORTCODE in above code with the required shortcode like "
+"<code>[miniorange_social_login theme=\"default\"]</code>, so the final code "
+"looks like following :"
+msgstr ""
+"上記のコードのSHORTCODEを<code> [miniorange_social_login theme = \"default"
+"\"] </ code>のような必要なショートコードに置き換えます。最終的なコードは次の"
+"ようになります。"
+
+#: view/shrtco/mo_openid_shrtco.php:192
+msgid "Social Login Shortcodes"
+msgstr "ソーシャルログインショートコード"
+
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:11
+msgid "Comment Section Heading"
+msgstr "コメントセクションの見出し"
+
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:15
+msgid "Comments - Default Label"
+msgstr "コメント-デフォルトのラベル"
+
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:19
+msgid "Comments - Facebook Label"
+msgstr "コメント-Facebookラベル"
+
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:30
+msgid "Customize Text For Social Comment Labels"
+msgstr "ソーシャルコメントラベルのテキストをカスタマイズする"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:9
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:23
+msgid "Enable Social Comments"
+msgstr "ソーシャルコメントを有効にする"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:10
+msgid "To enable Social Comments, please select Facebook Comments from"
+msgstr ""
+"ソーシャルコメントを有効にするには、以下からFacebookコメントを選択してくださ"
+"い"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:10
+msgid " Also select one or both of the options from"
+msgstr "また、次のオプションのいずれかまたは両方を選択します"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:11
+msgid "Add Social Comments"
+msgstr "ソーシャルコメントを追加"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:12
+msgid "You can add social comments in the following areas from "
+msgstr "次の領域にソーシャルコメントを追加できます"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:12
+msgid ""
+"If you require a shortcode, please contact us from the Support form on the "
+"right."
+msgstr ""
+"ショートコードが必要な場合は、右側のサポートフォームからご連絡ください。"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:14
+msgid "Blog Post: This option enables Social Comments on Posts / Blog Post"
+msgstr ""
+"ブログ投稿：このオプションは、投稿/ブログ投稿に対するソーシャルコメントを有効"
+"にします"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:15
+msgid ""
+"Static pages: This option places Social Comments on Pages / Static Pages "
+"with comments enabled"
+msgstr ""
+"静的ページ：このオプションは、コメントを有効にしたページ/静的ページにソーシャ"
+"ルコメントを配置します"
+
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:14
+msgid "Select the options where you want to add social comments"
+msgstr "ソーシャルコメントを追加するオプションを選択します"
+
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:20
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:74
+msgid "Blog Post"
+msgstr "ブログ投稿"
+
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:28
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:98
+msgid "Static Pages"
+msgstr "静的ページ"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:9
+msgid ""
+"Select applications to add Social Comments. These commenting applications "
+"will be added to your blog post pages at the location of your comments."
+msgstr ""
+"ソーシャルコメントを追加するアプリケーションを選択します。これらのコメントア"
+"プリケーションは、コメントの場所でブログの投稿ページに追加されます。"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:21
+msgid ""
+"If none of the below are selected, default WordPress comments will only be "
+"visible. Only selecting Default WordPress Comments will not result in any "
+"changes"
+msgstr ""
+"以下のいずれも選択されていない場合、デフォルトのWordPressコメントのみが表示さ"
+"れます。デフォルトのWordPressコメントのみを選択しても、変更は発生しません。"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:28
+msgid "Default WordPress Comments"
+msgstr "デフォルトのWordPressコメント"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:39
+msgid "Facebook Comments"
+msgstr "Facebookコメント"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:55
+msgid "Social Comments"
+msgstr "ソーシャルコメント"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:9
+msgid "Configure Social Comments in the Social Comments tab of the plugin"
+msgstr "プラグインの[ソーシャルコメント]タブでソーシャルコメントを構成する"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:10
+msgid "Keep both the display options checked and Save"
+msgstr "表示オプションの両方をオンにして保存します"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:11
+msgid "Enable Comments for the post/page you want to add"
+msgstr "追加する投稿/ページのコメントを有効にします"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:12
+msgid "Pages-> Quick Edit-> Allow Comments"
+msgstr "ページ->クイック編集->コメントを許可"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:12
+msgid "(Skip this step if you already have Comments enabled.)"
+msgstr ""
+"（既にコメントを有効にしている場合は、この手順をスキップしてください。）"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:13
+msgid "Add the shortcode "
+msgstr "ショートコードを追加する"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:13
+msgid "to an individual page/post"
+msgstr "個々のページ/投稿へ"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:16
+msgid "Social Comments Shortcodes"
+msgstr "ソーシャルコメントショートコード"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:20
+msgid "Customize Sharing Icons"
+msgstr "共有アイコンをカスタマイズする"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:21
+msgid "Customize shape, size and background for sharing icons"
+msgstr "アイコンを共有するための形状、サイズ、背景をカスタマイズする"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:71
+msgid "Custom background"
+msgstr "カスタム背景"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:81
+msgid "No background"
+msgstr "背景なし"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:107
+msgid "Custom background: This will change the background color of share icons"
+msgstr "カスタム背景：これは共有アイコンの背景色を変更します"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:107
+msgid "No background:This will remove the background color of share icons"
+msgstr "背景なし：共有アイコンの背景色を削除します"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:112
+msgid "Preview"
+msgstr "プレビュー"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:199
+msgid "Customize Text For Social Share Icons"
+msgstr "ソーシャル共有アイコンのテキストをカスタマイズする"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:207
+msgid "Select color for share heading"
+msgstr "共有見出しの色を選択"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:210
+msgid "Enter text to show above share widget"
+msgstr "共有ウィジェットの上に表示するテキストを入力してください"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:213
+msgid "Enter your twitter Username (without @)"
+msgstr "ツイッターのユーザー名を入力します（@なし）"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:217
+msgid "Enter the Email subject (email share)"
+msgstr "メールの件名（メール共有）を入力してください"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:221
+msgid "Enter the Email body (add ##url## to place the URL)"
+msgstr "メール本文を入力します（## url ##を追加してURLを配置します"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:385
+msgid "Customize text for Social Share Icons"
+msgstr "ソーシャル共有アイコンのテキストをカスタマイズする"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:46
+msgid "Select the options where you want to display social share icons"
+msgstr "ソーシャル共有アイコンを表示するオプションを選択します"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:57
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:81
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:105
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:140
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:160
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:185
+msgid "Before content"
+msgstr "コンテンツの前"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:61
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:85
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:109
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:144
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:164
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:189
+msgid "After content"
+msgstr "コンテンツの後"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:65
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:91
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:114
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:149
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:169
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:194
+msgid "Both before and after content"
+msgstr "コンテンツの前後両方"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:120
+msgid " WooCommerce Individual Product Page(Top)"
+msgstr "WooCommerce個別製品ページ（トップ）"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:130
+msgid "WooCommerce Individual Product Page"
+msgstr "WooCommerce個別製品ページ"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:135
+msgid "BBPress Forums Page"
+msgstr "BBPressフォーラムページ"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:155
+msgid "BBPress Topic Page"
+msgstr "BBPressトピックページ"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:178
+msgid "BBPress Reply Page"
+msgstr "BBPress返信ページ"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:201
+msgid ""
+"The icons in above pages will be placed horizontally. For vertical icons, "
+"add "
+msgstr "上記のページのアイコンは水平に配置されます。垂直アイコンの場合、追加"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:201
+msgid "miniOrange Sharing - Vertical"
+msgstr "ミニオレンジ共有-垂直"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:201
+msgid "widget from Appearance->Widgets."
+msgstr "外観->ウィジェットからのウィジェット"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:17
+msgid ""
+"Share counts are supported for Facebook, Vkontakte, Stumble Upon and "
+"Pinterest"
+msgstr ""
+"共有カウントは、Facebook、Vkontakte、Stumble Upon、Pinterestでサポートされて"
+"います"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:19
+msgid "Enable share counts"
+msgstr "共有カウントを有効にする"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:24
+msgid "Delete Count Session"
+msgstr "カウントセッションの削除"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:47
+msgid "Facebook Access Token"
+msgstr "Facebookアクセストークン"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:48
+msgid "Instructions to configure Facebook Share Counts"
+msgstr "Facebookの共有カウントを構成する手順"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:50
+msgid "Sign in with your Facebook account"
+msgstr "Facebookアカウントでサインインする"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:52
+msgid ""
+"Use an existing app if you already have one or create a new facebook\n"
+"                                        app by clicking on "
+msgstr ""
+"既存のアプリを既にお持ちの場合は使用するか、新しいFacebookを作成します\n"
+"                                        クリックしてアプリ"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:53
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:54
+msgid "Create App"
+msgstr "アプリを作成"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:53
+msgid "My Apps"
+msgstr "私のアプリ"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:53
+msgid ""
+"and\n"
+"                                        select"
+msgstr ""
+"そして\n"
+"                                        選択する"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:54
+msgid ""
+" Enter Display Name i.e App Name and click\n"
+"                                        on"
+msgstr ""
+"表示名、つまりアプリ名を入力してクリックします\n"
+"                                        オン"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:55
+msgid "Create App ID"
+msgstr "アプリIDを作成"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "Tools"
+msgstr "Tools"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "select"
+msgstr "選択する"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "Graph API Explorer"
+msgstr "グラフAPI冒険者"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "and click on"
+msgstr "をクリックしますon"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid ""
+"Get\n"
+"                                            Access Token"
+msgstr ""
+"取得する\n"
+"                                            アクセストークン"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "Now, go to"
+msgstr "Now, go to"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "Access Token Tool"
+msgstr "アクセストークンツール"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "and press"
+msgstr "and press"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "Debug"
+msgstr "デバッグ"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "option at right side for the "
+msgstr "右側のオプション"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "User Token"
+msgstr "ユーザートークン"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:61
+msgid "Now copy the"
+msgstr "今すぐコピー"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:61
+msgid "Access Token"
+msgstr "アクセストークン"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:61
+msgid ""
+"and paste it in the above field and\n"
+"                                        click on"
+msgstr ""
+"上記のフィールドに貼り付けて\n"
+"                                        クリック"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:62
+msgid "save"
+msgstr "セーブ"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:65
+msgid ""
+"According to the new updates of\n"
+"                                        Facebook API it will expires after "
+"every 60 days. So to avoid any\n"
+"                                        issues update it again before 60 days"
+msgstr ""
+"の新しい更新によると\n"
+"                                        Facebook APIは60日ごとに有効期限が切"
+"れます。したがって、\n"
+"                                        問題は60日前に再度更新します"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:101
+msgid "Share Counts"
+msgstr "共有数"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:10
+msgid "Horizontal"
+msgstr "横"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:15
+msgid "For Sharing Icons"
+msgstr "アイコンを共有するため"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:16
+msgid ""
+" You can use  different attribute to customize social sharing icons. All "
+"attributes are optional"
+msgstr ""
+"別の属性を使用して、ソーシャル共有アイコンをカスタマイズできます。すべての属"
+"性はオプションです"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:20
+msgid "Common attributes - Horizontal and Vertical"
+msgstr "共通の属性-水平および垂直"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:21
+msgid " round, roundededges, square"
+msgstr "丸い、丸い角、正方形"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:22
+msgid "default, custombackground, nobackground"
+msgstr "デフォルト、custombackground, nobackground"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:24
+msgid "Any value between 0 to 50"
+msgstr "0〜50の任意の値"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:25
+msgid "url"
+msgstr "url"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:25
+msgid "Enter custom URL for sharing"
+msgstr "共有するカスタムURLを入力してください"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:26
+msgid "fontcolor"
+msgstr "フォントカラー"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:26
+msgid "Enter custom color for icons (only works with no background theme"
+msgstr "アイコンのカスタム色を入力します（背景テーマなしでのみ機能します"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:27
+msgid "sharecnt"
+msgstr "sharecnt"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:27
+msgid " yes, no "
+msgstr "はい・いいえ"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:27
+msgid "To see social share count*"
+msgstr "ソーシャルシェア数を確認するには*"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:28
+msgid "Horizontal attributes"
+msgstr "水平属性"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:29
+msgid "Enter custom heading text"
+msgstr "カスタム見出しテキストを入力してください"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:30
+msgid ""
+" Enter custom text color for heading eg: cyan, red, blue, orange, yellow"
+msgstr ""
+"見出しのカスタムテキストの色を入力します。例：シアン、赤、青、オレンジ、黄色"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:32
+msgid "Vertical attributes"
+msgstr "垂直属性"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:33
+msgid "alignment"
+msgstr "アライメント"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:33
+msgid "left,right"
+msgstr "左、右"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:34
+msgid "topoffset"
+msgstr "トップオフセット"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:34
+msgid "Any value(height from top) between 0 to 1000"
+msgstr "0〜1000の任意の値（上からの高さ）"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:35
+msgid "rightoffset(Applicable if alignment is right)"
+msgstr "rightoffset（配置が正しい場合に適用可能）"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:35
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:36
+msgid "Any value between 0 to 200"
+msgstr "0〜200の任意の値"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:36
+msgid "leftoffset(Applicable if alignment is left)"
+msgstr "leftoffset（配置が左の場合に適用可能）"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:45
+msgid "Social Sharing Shortcode"
+msgstr "ソーシャルシェアリングショートコード"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:18
+msgid "Select Social Apps"
+msgstr "ソーシャルアプリを選択"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:20
+msgid "Select applications to enable social sharing"
+msgstr "ソーシャル共有を有効にするアプリケーションを選択してください"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:28
+msgid "Facebook"
+msgstr "フェイスブック"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:36
+msgid "Twitter"
+msgstr "ツイッター"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:47
+msgid "Google"
+msgstr "グーグル"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:61
+msgid "Vkontakte"
+msgstr "ヴコンタクテ"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:74
+msgid "Tumblr"
+msgstr "タンブラー"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:91
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:105
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:134
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:148
+msgid "Pocket"
+msgstr "ポケット"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:165
+msgid "Digg"
+msgstr "ディグ"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:178
+msgid "Delicious"
+msgstr "おいしい"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:191
+msgid "Odnoklassniki"
+msgstr "Odnoklassniki"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:214
+msgid "Print"
+msgstr "印刷する"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:228
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:249
+msgid "No apps selected"
+msgstr "アプリが選択されていません"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:556
+msgid ""
+"Custom background: This will\n"
+"                        change the background color of sharing icons"
+msgstr ""
+"カスタム背景：これは\n"
+"                        共有アイコンの背景色を変更する"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:558
+msgid ""
+"No background: This will change the font color of icons without background"
+msgstr "背景なし：これにより、背景のないアイコンのフォントの色が変更されます"

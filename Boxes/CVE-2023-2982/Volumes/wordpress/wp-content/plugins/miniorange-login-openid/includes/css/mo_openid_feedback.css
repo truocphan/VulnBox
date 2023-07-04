@@ -1,0 +1,46 @@
+.mo_openid_modal1 {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+
+}
+.mo_openid_modal1-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 30%;
+}
+
+.mo_openid_close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.mo_openid_close:hover,
+.mo_openid_close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.alert{
+	padding:5px;
+	margin-bottom:10px;
+	border:1px solid transparent;
+	border-radius:4px
+}
+.alert-info{
+	color:#31708f;
+	background-color:#d9edf7;
+	border-color:#bce8f1
+}

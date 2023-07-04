@@ -1,0 +1,3056 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: miniorange-login-openid\n"
+"POT-Creation-Date: 2020-03-04 17:23+0530\n"
+"PO-Revision-Date: 2020-03-04 17:34+0530\n"
+"Last-Translator: \n"
+"Language-Team: miniOrange\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: mo_sl;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-mo-openid-login-widget.php:42
+msgid ""
+"Login using Social Apps like Google, Facebook, LinkedIn, Microsoft, "
+"Instagram."
+msgstr "使用社交应用（如谷歌、Facebook、LinkedIn、微软、Instagram）登录。"
+
+#: class-mo-openid-login-widget.php:544 class-mo-openid-login-widget.php:552
+msgid "Logout"
+msgstr "注销"
+
+#: class-mo-openid-login-widget.php:1359
+msgid ""
+"Share using horizontal widget. Lets you share with Social Apps like Google, "
+"Facebook, LinkedIn, Pinterest, Reddit."
+msgstr ""
+"使用水平小部件共享。让您与Google，Facebook，LinkedIn，Pinterest，Reddit等社交"
+"应用共享。"
+
+#: class-mo-openid-login-widget.php:1404
+msgid ""
+"Share using a vertical floating widget. Lets you share with Social Apps like "
+"Google, Facebook, LinkedIn, Pinterest, Reddit."
+msgstr ""
+"使用垂直浮动窗口小部件共享。让您与Google，Facebook，LinkedIn，Pinterest，"
+"Reddit等社交应用共享。"
+
+#: miniorange_openid_sso_settings.php:98
+msgid "Login with"
+msgstr "登录"
+
+#: miniorange_openid_sso_settings.php:267
+msgid "Configure OpenID"
+msgstr "配置OpenID"
+
+#: miniorange_openid_sso_settings_page.php:55
+#: miniorange_openid_sso_settings_page.php:492
+#: miniorange_openid_sso_settings_page.php:635
+#: miniorange_openid_sso_settings_page.php:820
+msgid "miniOrange Social Login"
+msgstr "迷你橙色社交登录"
+
+#: miniorange_openid_sso_settings_page.php:56
+#: miniorange_openid_sso_settings_page.php:493
+#: miniorange_openid_sso_settings_page.php:636
+#: miniorange_openid_sso_settings_page.php:821
+#: view/profile/mo_openid_profile.php:23 view/profile/mo_openid_profile.php:51
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: miniorange_openid_sso_settings_page.php:57
+#: miniorange_openid_sso_settings_page.php:494
+#: miniorange_openid_sso_settings_page.php:637
+#: miniorange_openid_sso_settings_page.php:822
+msgid "FAQs"
+msgstr "常见问题"
+
+#: miniorange_openid_sso_settings_page.php:58
+#: miniorange_openid_sso_settings_page.php:495
+#: miniorange_openid_sso_settings_page.php:638
+#: miniorange_openid_sso_settings_page.php:823
+msgid "Forum"
+msgstr "论坛"
+
+#: miniorange_openid_sso_settings_page.php:59
+#: miniorange_openid_sso_settings_page.php:98
+#: miniorange_openid_sso_settings_page.php:496
+#: miniorange_openid_sso_settings_page.php:639
+msgid "Add On"
+msgstr "添加在"
+
+#: miniorange_openid_sso_settings_page.php:60
+#: miniorange_openid_sso_settings_page.php:497
+#: miniorange_openid_sso_settings_page.php:640
+#: miniorange_openid_sso_settings_page.php:825
+msgid "Upgrade Now"
+msgstr "现在升级"
+
+#: miniorange_openid_sso_settings_page.php:61
+msgid "What's new in miniOrange"
+msgstr "迷你橙色的新增功能"
+
+#: miniorange_openid_sso_settings_page.php:63
+msgid "Rate us"
+msgstr "评价我们"
+
+#: miniorange_openid_sso_settings_page.php:66
+msgid "Restart Tour"
+msgstr "重新开始游览"
+
+#: miniorange_openid_sso_settings_page.php:68
+msgid "Setup Plugin"
+msgstr "设定插入"
+
+#: miniorange_openid_sso_settings_page.php:81
+#: miniorange_openid_sso_settings_page.php:509
+#: miniorange_openid_sso_settings_page.php:652
+#: miniorange_openid_sso_settings_page.php:835
+msgid "miniOrange"
+msgstr "迷你橙"
+
+#: miniorange_openid_sso_settings_page.php:84
+msgid "Configure Apps"
+msgstr "配置应用"
+
+#: miniorange_openid_sso_settings_page.php:85
+msgid "Customise Social Login Icons"
+msgstr "自定义社交登录图标"
+
+#: miniorange_openid_sso_settings_page.php:86
+#: view/disp_options/mo_openid_dispopt.php:98
+#: view/disp_options/mo_openid_dispopt.php:131
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:10
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:12
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:41
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:214
+msgid "Display Options"
+msgstr "显示选项"
+
+#: miniorange_openid_sso_settings_page.php:87
+msgid "Redirect Options"
+msgstr "重定向选项"
+
+#: miniorange_openid_sso_settings_page.php:88
+msgid "Registration"
+msgstr "注册选项"
+
+#: miniorange_openid_sso_settings_page.php:89
+msgid "GDPR"
+msgstr "GDPR设置"
+
+#: miniorange_openid_sso_settings_page.php:89
+#: miniorange_openid_sso_settings_page.php:90
+#: miniorange_openid_sso_settings_page.php:91
+#: miniorange_openid_sso_settings_page.php:93
+#: miniorange_openid_sso_settings_page.php:94
+#: miniorange_openid_sso_settings_page.php:95
+#: miniorange_openid_sso_settings_page.php:96
+#: view/disp_options/mo_openid_dispopt.php:28
+#: view/disp_options/mo_openid_dispopt.php:46
+#: view/disp_options/mo_openid_dispopt.php:94
+#: view/premium_features/mo_openid_prem_feat.php:90
+#: view/premium_features/mo_openid_prem_feat.php:105
+#: view/premium_features/mo_openid_prem_feat.php:121
+#: view/premium_features/mo_openid_prem_feat.php:135
+#: view/premium_features/mo_openid_prem_feat.php:149
+#: view/premium_features/mo_openid_prem_feat.php:160
+#: view/profile/mo_openid_profile.php:84
+msgid "PRO"
+msgstr "专业版"
+
+#: miniorange_openid_sso_settings_page.php:90
+#: view/restrict_domain/mo_openid_restrict_dom.php:11
+#: view/restrict_domain/mo_openid_restrict_dom.php:41
+msgid "Domain Restriction"
+msgstr "域限制"
+
+#: miniorange_openid_sso_settings_page.php:91
+#: view/link_social_account/mo_openid_Acclink.php:72
+msgid "Link Social Account"
+msgstr "连结社交帐户"
+
+#: miniorange_openid_sso_settings_page.php:92
+#: view/profile_completion/mo_openid_prof_comp.php:60
+msgid "Profile Completion"
+msgstr "侧面像完成"
+
+#: miniorange_openid_sso_settings_page.php:93
+#: view/email_settings/mo_openid_set_email.php:74
+msgid "Email Notification"
+msgstr "电子邮件通知"
+
+#: miniorange_openid_sso_settings_page.php:94
+msgid "Recaptcha"
+msgstr "启用reCAPTCHA"
+
+#: miniorange_openid_sso_settings_page.php:95
+#: view/premium_features/mo_openid_prem_feat.php:159
+msgid "Premium Features"
+msgstr "高级功能"
+
+#: miniorange_openid_sso_settings_page.php:96
+#: view/integration/mo_openid_integrate.php:116
+msgid "Integrations"
+msgstr "整合方式"
+
+#: miniorange_openid_sso_settings_page.php:97
+#: miniorange_openid_sso_settings_page.php:528
+#: miniorange_openid_sso_settings_page.php:659
+msgid "Shortcodes"
+msgstr "简码"
+
+#: miniorange_openid_sso_settings_page.php:99
+msgid "User Profile"
+msgstr "用户个人资料详细信息"
+
+#: miniorange_openid_sso_settings_page.php:184
+#: miniorange_openid_sso_settings_page.php:580
+#: miniorange_openid_sso_settings_page.php:715
+#: miniorange_openid_sso_settings_page.php:887
+msgid "NEED HELP"
+msgstr "需要帮忙"
+
+#: miniorange_openid_sso_settings_page.php:514
+msgid ""
+"Select\n"
+"                    Social Apps"
+msgstr ""
+"选择\n"
+"                    社交应用"
+
+#: miniorange_openid_sso_settings_page.php:518
+#: miniorange_openid_sso_settings_page.php:657
+msgid "Customization"
+msgstr "客制化"
+
+#: miniorange_openid_sso_settings_page.php:521
+msgid ""
+"Social\n"
+"                    Share Counts"
+msgstr ""
+"社会的\n"
+"                    共享计数"
+
+#: miniorange_openid_sso_settings_page.php:525
+msgid ""
+"Display\n"
+"                    Option"
+msgstr ""
+"显示\n"
+"                    选项"
+
+#: miniorange_openid_sso_settings_page.php:655
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:10
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:20
+msgid "Select Applications"
+msgstr "选择应用"
+
+#: miniorange_openid_sso_settings_page.php:656
+msgid "Display options"
+msgstr "显示选项"
+
+#: miniorange_openid_sso_settings_page.php:658
+msgid "Enable and Add Social Comments"
+msgstr "启用和添加社交评论"
+
+#: miniorange_openid_sso_settings_page.php:824 view/faq/mo_openid_faq.php:108
+#: view/faq/mo_openid_faq.php:117
+msgid "Social Login"
+msgstr "社交登录"
+
+#: miniorange_openid_sso_settings_page.php:838
+#: view/add_on/custom_registration_form.php:9
+#: view/mo_new/mo_openid_whats_new.php:65
+msgid "Custom Registration Form"
+msgstr "海关登记表"
+
+#: miniorange_openid_sso_settings_page.php:839
+msgid "Go to Social Login"
+msgstr "转到社交登录"
+
+#: miniorange_openid_sso_settings_page.php:840
+msgid "Licensing Plans"
+msgstr "许可计划"
+
+#: view/add_on/custom_registration_form.php:10
+msgid "Purchase"
+msgstr "采购"
+
+#: view/add_on/custom_registration_form.php:15
+msgid "Verify Key"
+msgstr "校验键"
+
+#: view/add_on/custom_registration_form.php:21
+msgid ""
+"Custom Registration Form Add-On helps you to integrate details of new as "
+"well as existing users. You\n"
+"                        can add as many fields as you want including the one "
+"which are returned by\n"
+"                        social sites at time of registration"
+msgstr ""
+"自定义注册表单附加组件可帮助您集成新用户和现有用户的详细信息。您\n"
+"                        可以根据需要添加任意多个字段，包括由返回的字段\n"
+"                        注册时的社交网站"
+
+#: view/add_on/custom_registration_form.php:46
+msgid "Customization Fields"
+msgstr "自定义字段"
+
+#: view/add_on/custom_registration_form.php:49
+msgid "Enable Auto Field Registration Form"
+msgstr "启用自动字段注册表格"
+
+#: view/add_on/custom_registration_form.php:71
+msgid "Registration page link"
+msgstr "注册页面链接"
+
+#: view/add_on/custom_registration_form.php:77
+msgid "Existing Field"
+msgstr "现有领域"
+
+#: view/add_on/custom_registration_form.php:78
+#: view/add_on/custom_registration_form.php:145
+msgid "Field"
+msgstr "领域"
+
+#: view/add_on/custom_registration_form.php:79
+#: view/add_on/custom_registration_form.php:150
+msgid "Custom name"
+msgstr "自定义名称"
+
+#: view/add_on/custom_registration_form.php:80
+#: view/add_on/custom_registration_form.php:146
+#: view/add_on/custom_registration_form.php:151
+msgid "Field Type"
+msgstr "栏位类型"
+
+#: view/add_on/custom_registration_form.php:81
+msgid "Field Options"
+msgstr "栏位选项"
+
+#: view/add_on/custom_registration_form.php:82
+#: view/add_on/custom_registration_form.php:156
+msgid "Required Field"
+msgstr "必填项目"
+
+#: view/add_on/custom_registration_form.php:94
+msgid "Select Field"
+msgstr "选择栏位"
+
+#: view/add_on/custom_registration_form.php:102
+msgid "Select Type"
+msgstr "选择类型"
+
+#: view/add_on/custom_registration_form.php:109
+msgid "No"
+msgstr "没有"
+
+#: view/add_on/custom_registration_form.php:124
+#: view/integration/mo_openid_integrate.php:29
+msgid "Cancel"
+msgstr "取消"
+
+#: view/add_on/custom_registration_form.php:129
+msgid "Instructions to setup"
+msgstr "设置说明"
+
+#: view/add_on/custom_registration_form.php:132
+msgid "Create a page and use shortcode"
+msgstr "创建一个页面并使用简码"
+
+#: view/add_on/custom_registration_form.php:133
+msgid "where you want your form to be displayed"
+msgstr "您希望在哪里显示表单"
+
+#: view/add_on/custom_registration_form.php:135
+msgid ""
+"Copy the page link and paste it in the above field <b>Registration page\n"
+"                                                    link"
+msgstr ""
+"复制页面链接并将其粘贴到以上字段<b>注册页面中\n"
+"                                                    链接"
+
+#: view/add_on/custom_registration_form.php:138
+msgid ""
+"If you have any existing wp_usermeta field then enter that field's name in"
+msgstr "如果您有任何现有的wp_usermeta字段，请在以下位置输入该字段的名称"
+
+#: view/add_on/custom_registration_form.php:139
+msgid ""
+"Existing\n"
+"                                                    Field"
+msgstr ""
+"现有\n"
+"                                                    领域"
+
+#: view/add_on/custom_registration_form.php:140
+msgid "column. For example, if you are saving"
+msgstr "柱。例如，如果您要保存"
+
+#: view/add_on/custom_registration_form.php:140
+msgid "First Name"
+msgstr "名字"
+
+#: view/add_on/custom_registration_form.php:140
+#: view/add_on/custom_registration_form.php:156
+msgid "as"
+msgstr "如"
+
+#: view/add_on/custom_registration_form.php:141
+msgid "fname"
+msgstr "f名"
+
+#: view/add_on/custom_registration_form.php:142
+msgid ""
+"in wp_usermeta field then enter fname in Existing Field\n"
+"                                                column."
+msgstr ""
+"在wp_usermeta字段中，然后在“现有字段”中输入fname\n"
+"                                                柱。"
+
+#: view/add_on/custom_registration_form.php:145
+msgid "Select field name under the "
+msgstr "在下方选择字段名称"
+
+#: view/add_on/custom_registration_form.php:145
+msgid "dropdown"
+msgstr "落向下"
+
+#: view/add_on/custom_registration_form.php:146
+msgid "If selected field is other than custom, then"
+msgstr "如果选择的字段不是自定义字段，则"
+
+#: view/add_on/custom_registration_form.php:146
+msgid ""
+"will\n"
+"                                                automatically be"
+msgstr ""
+"将\n"
+"                                                自动成为"
+
+#: view/add_on/custom_registration_form.php:147
+msgid "Textbox"
+msgstr "文本框"
+
+#: view/add_on/custom_registration_form.php:147
+msgid "and there is no need to enter"
+msgstr "无需输入"
+
+#: view/add_on/custom_registration_form.php:147
+msgid ""
+"Custom\n"
+"                                                    name"
+msgstr ""
+"自订\n"
+"                                                    名称"
+
+#: view/add_on/custom_registration_form.php:148 view/faq/mo_openid_faq.php:81
+#: view/profile/mo_openid_profile.php:51
+msgid "and"
+msgstr "和"
+
+#: view/add_on/custom_registration_form.php:148
+msgid "Field options"
+msgstr "栏位选项"
+
+#: view/add_on/custom_registration_form.php:150
+msgid "If selected field is custom, then enter"
+msgstr "如果选择的字段是自定义字段，则输入"
+
+#: view/add_on/custom_registration_form.php:151
+#: view/add_on/custom_registration_form.php:156
+msgid "Select"
+msgstr "选择"
+
+#: view/add_on/custom_registration_form.php:151
+msgid "if selected"
+msgstr "如果选择"
+
+#: view/add_on/custom_registration_form.php:151
+msgid "is"
+msgstr "是"
+
+#: view/add_on/custom_registration_form.php:152
+msgid "Checkbox"
+msgstr "复选框"
+
+#: view/add_on/custom_registration_form.php:152
+msgid "or"
+msgstr "要么"
+
+#: view/add_on/custom_registration_form.php:152
+msgid "Dropdown"
+msgstr "落向下"
+
+#: view/add_on/custom_registration_form.php:152
+#: view/add_on/custom_registration_form.php:153
+msgid ""
+"Field\n"
+"                                                    Options"
+msgstr ""
+"领域\n"
+"                                                    选件"
+
+#: view/add_on/custom_registration_form.php:153
+msgid "seprated by semicolon "
+msgstr "用分号分隔"
+
+#: view/add_on/custom_registration_form.php:153
+msgid "otherwise leave"
+msgstr "否则离开"
+
+#: view/add_on/custom_registration_form.php:154
+msgid "blank."
+msgstr "空白。"
+
+#: view/add_on/custom_registration_form.php:156
+msgid "Yes"
+msgstr "是"
+
+#: view/add_on/custom_registration_form.php:156
+msgid ""
+"if you want to make that field\n"
+"                                                compulsory for user"
+msgstr ""
+"如果你想做那个领域\n"
+"                                                用户必须"
+
+#: view/add_on/custom_registration_form.php:159
+msgid "If you want to add more than 1 fields at a time click on"
+msgstr "如果您想一次添加多个字段，请点击 me"
+
+#: view/add_on/custom_registration_form.php:160
+msgid "Last click on"
+msgstr "最后点击"
+
+#: view/add_on/custom_registration_form.php:160
+#: view/customise_social_icons/mo_openid_cust_icons.php:119
+#: view/disp_options/mo_openid_dispopt.php:92
+#: view/email_settings/mo_openid_set_email.php:66
+#: view/gdpr/mo_openid_gdpr.php:33 view/integration/mo_openid_integrate.php:108
+#: view/link_social_account/mo_openid_Acclink.php:65
+#: view/profile_completion/mo_openid_prof_comp.php:52
+#: view/redirect_options/mo_openid_redirect_op.php:121
+#: view/registration/mo_openid_registration.php:48
+#: view/restrict_domain/mo_openid_restrict_dom.php:33
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:23
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:36
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:49
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:227
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:205
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:74
+msgid "Save"
+msgstr "保存"
+
+#: view/add_on/custom_registration_form.php:160
+msgid "button"
+msgstr "纽扣"
+
+#: view/add_on/custom_registration_form.php:192
+msgid "Social Login Add On"
+msgstr "社交登录附加"
+
+#: view/config_apps/mo_openid_config_apps.php:33
+msgid "Active"
+msgstr "活性"
+
+#: view/config_apps/mo_openid_config_apps.php:63
+msgid "Premium Applications"
+msgstr "选择应用"
+
+#: view/config_apps/mo_openid_config_apps.php:98
+msgid "Configure Applications"
+msgstr "选择应用"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:13
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:28
+msgid "Shape"
+msgstr "形状"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:14
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:39
+msgid "Round"
+msgstr "回合"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:17
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:45
+msgid "Rounded Edges"
+msgstr "圆边"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:21
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:50
+msgid "Square"
+msgstr "广场"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:24
+msgid "Long Button"
+msgstr "长按钮"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:31
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:29
+msgid "Theme"
+msgstr "主题"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:34
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:59
+msgid "Default"
+msgstr "默认"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:40
+msgid "Custom background*"
+msgstr "自定义背景*"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:49
+msgid "*Custom background:"
+msgstr "*自定义背景："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:49
+msgid "This will change the background color of login icons"
+msgstr "这将更改登录图标的背景颜色"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:52
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:31
+msgid "Size of Icons"
+msgstr "图标大小"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:54
+msgid "Width:"
+msgstr "宽度："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:57
+msgid "Height:"
+msgstr "高度："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:60
+msgid "Curve:"
+msgstr "曲线："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:71
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:30
+msgid "Space between Icons"
+msgstr "图标之间的空间"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:79
+msgid "Customize Text For Social Login Buttons / Icons"
+msgstr "自定义社交登录按钮/图标的文本"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:82
+msgid "Select color for customize text:"
+msgstr "选择颜色以自定义文本："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:90
+msgid "Enter text to show above login widget:"
+msgstr "输入文本以显示在登录小部件上方："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:96
+msgid "Enter text to show on your login buttons:"
+msgstr "输入要显示在登录按钮上的文本："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:103
+msgid "Customize Text to show user after Login"
+msgstr "自定义文本以在登录后显示用户"
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:106
+msgid ""
+"Enter text to show before the logout link. Use ##username## to display "
+"current username:"
+msgstr "输入要在注销链接之前显示的文本。使用## username ##显示当前用户名："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:113
+msgid "Enter text to show as logout link:"
+msgstr "输入文本以显示为注销链接："
+
+#: view/customise_social_icons/mo_openid_cust_icons.php:215
+msgid "Customize Login Icons"
+msgstr "自定义登录图标"
+
+#: view/disp_options/mo_openid_dispopt.php:10
+msgid "Select the options where you want to display the social login icons"
+msgstr "选择要在其中显示社交登录图标的选项"
+
+#: view/disp_options/mo_openid_dispopt.php:11
+msgid "Default Login Form [wp-admin]"
+msgstr "默认登录表单[wp-admin]"
+
+#: view/disp_options/mo_openid_dispopt.php:16
+msgid "Default Registration Form"
+msgstr "默认注册表格"
+
+#: view/disp_options/mo_openid_dispopt.php:22
+msgid "Comment Form"
+msgstr "评论表格"
+
+#: view/disp_options/mo_openid_dispopt.php:26
+msgid "Don't find your login page in above options use"
+msgstr "在上述选项中找不到您的登录页面"
+
+#: view/disp_options/mo_openid_dispopt.php:26
+msgid "to display social icons or"
+msgstr "显示社交图标或"
+
+#: view/disp_options/mo_openid_dispopt.php:26
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: view/disp_options/mo_openid_dispopt.php:28
+msgid "BuddyPress display options"
+msgstr "BuddyPress显示选项"
+
+#: view/disp_options/mo_openid_dispopt.php:30
+msgid "Before BuddyPress Registration Form"
+msgstr "在BuddyPress注册表格之前"
+
+#: view/disp_options/mo_openid_dispopt.php:35
+msgid "Before BuddyPress Account Details"
+msgstr "BuddyPress之前的帐户详细信息"
+
+#: view/disp_options/mo_openid_dispopt.php:40
+msgid "After BuddyPress Registration Form"
+msgstr "在BuddyPress注册表格之后"
+
+#: view/disp_options/mo_openid_dispopt.php:46
+msgid "Woocommerce display options"
+msgstr "Woocommerce显示选项"
+
+#: view/disp_options/mo_openid_dispopt.php:48
+msgid "Before WooCommerce Login Form"
+msgstr "在WooCommerce登录表单之前"
+
+#: view/disp_options/mo_openid_dispopt.php:53
+msgid "Before 'Remember Me' of WooCommerce Login Form"
+msgstr "在WooCommerce登录表单的“记住我”之前"
+
+#: view/disp_options/mo_openid_dispopt.php:57
+msgid "After WooCommerce Login Form"
+msgstr "WooCommerce登录后表格"
+
+#: view/disp_options/mo_openid_dispopt.php:62
+msgid "Before WooCommerce Registration Form"
+msgstr "在WooCommerce注册表格之前"
+
+#: view/disp_options/mo_openid_dispopt.php:66
+msgid "Before 'Register button' of WooCommerce Registration Form"
+msgstr "在WooCommerce注册表格的“注册按钮”之前"
+
+#: view/disp_options/mo_openid_dispopt.php:71
+msgid "After WooCommerce Registration Form"
+msgstr "WooCommerce注册表格之后"
+
+#: view/disp_options/mo_openid_dispopt.php:76
+msgid "Before WooCommerce Checkout Form"
+msgstr "WooCommerce结帐表格之前"
+
+#: view/disp_options/mo_openid_dispopt.php:81
+msgid "After WooCommerce Checkout Form"
+msgstr "WooCommerce结帐表格之后"
+
+#: view/disp_options/mo_openid_dispopt.php:87
+msgid "Display miniOrange logo with social login icons on selected form"
+msgstr "在选定的表单上显示带有社交登录图标的miniOrange徽标"
+
+#: view/disp_options/mo_openid_dispopt.php:94
+msgid ""
+"These features are available in premium version only. To know more about the "
+"premium plugin "
+msgstr "这些功能仅在高级版本中可用。进一步了解高级插件"
+
+#: view/disp_options/mo_openid_dispopt.php:94
+msgid "click here"
+msgstr "点击这里"
+
+#: view/disp_options/mo_openid_dispopt.php:95
+msgid "Add Login Icons"
+msgstr "添加登录图标"
+
+#: view/disp_options/mo_openid_dispopt.php:98
+msgid "You can add login icons in the following areas from"
+msgstr "您可以在以下区域中添加登录图标"
+
+#: view/disp_options/mo_openid_dispopt.php:98
+msgid "For other areas(widget areas), use Login widget"
+msgstr "对于其他区域（小部件区域），请使用“登录”小部件"
+
+#: view/disp_options/mo_openid_dispopt.php:100
+msgid ""
+"Default Login Form: This option places login icons below the default login "
+"form on wp-login"
+msgstr "默认登录表单：此选项将登录图标放在wp-login的默认登录表单下方"
+
+#: view/disp_options/mo_openid_dispopt.php:101
+msgid ""
+"Default Registration Form: This option places login icons below the default "
+"registration form"
+msgstr "默认注册表单：此选项将登录图标放在默认注册表单下方"
+
+#: view/disp_options/mo_openid_dispopt.php:103
+msgid ""
+"Comment Form: This option places login icons above the comment section of "
+"all your posts"
+msgstr "评论表格：此选项将登录图标放在所有帖子的评论部分上方"
+
+#: view/disp_options/mo_openid_dispopt.php:108
+msgid "Add Login Icons as Widget"
+msgstr "将登录图标添加为小部件"
+
+#: view/disp_options/mo_openid_dispopt.php:111
+msgid ""
+"Go to Widgets. Among the available widgets you\n"
+"                            will find miniOrange Social Login Widget, drag "
+"it to the widget area where\n"
+"                            you want it to appear"
+msgstr ""
+"转到小部件。在可用的小部件中，\n"
+"                            将找到miniOrange Social Login Widget，将其拖到小"
+"部件区域，其中\n"
+"                            你想要它出现"
+
+#: view/disp_options/mo_openid_dispopt.php:114
+msgid ""
+"Now logout and go to your site. You will see Social Login icon for which you "
+"enabled login."
+msgstr "现在注销并转到您的站点。您将看到启用了登录的“社交登录”图标。"
+
+#: view/disp_options/mo_openid_dispopt.php:115
+msgid ""
+"Click that app icon and login with your existing app account to wordpress"
+msgstr "单击该应用程序图标，然后使用您现有的应用程序帐户登录以进行wordpress"
+
+#: view/disp_options/mo_openid_dispopt.php:119
+msgid "Using Shortcode"
+msgstr "使用简码"
+
+#: view/disp_options/mo_openid_dispopt.php:122
+msgid ""
+"You can use this shortcode <code id='2'>[miniorange_social_login]</code><i "
+"style= \"width: 11px;height: 9px;padding-left:2px;padding-top:3px\" class="
+"\"far fa-fw fa-lg fa-copy mo_copy mo_copytooltip\" onclick="
+"\"copyToClipboard(this, '#2', '#shortcode_url2_copy')\"><span id="
+"\"shortcode_url2_copy\" class=\"mo_copytooltiptext\">Copy to Clipboard</"
+"span></i> to display social icons on any login page, post, popup and PHP "
+"pages."
+msgstr ""
+"您可以使用此简码<code id ='2'> [miniorange_social_login] </ code> <i style "
+"=“”宽度：11px；高度：9px;左上角：2px；左上角：3px“ class =” fa fa -fw "
+"fa-lg fa-copy mo_copy mo_copytooltip“ onclick =” "
+"copyToClipboard（this，'＃2'，'＃shortcode_url2_copy'）“> <span id =” "
+"shortcode_url2_copy“ class =” mo_copytooltiptext“>复制到剪贴板</ span> </ i>"
+"可以在任何登录页面，帖子，弹出窗口和PHP页面上显示社交图标。"
+
+#: view/disp_options/mo_openid_dispopt.php:123
+msgid "* Detailed information about how to use shortcode is given in <a href="
+msgstr "*有关如何使用简码的详细信息，请参见<a href ="
+
+#: view/email_settings/mo_openid_set_email.php:11
+msgid "Send mail to Admin"
+msgstr "发送邮件给管理员"
+
+#: view/email_settings/mo_openid_set_email.php:21
+msgid "*NOTE: This feature requires SMTP to be setup."
+msgstr "*注意：此功能需要设置SMTP。"
+
+#: view/email_settings/mo_openid_set_email.php:22
+msgid "Enable Email Notification to Admin - on User Registration*"
+msgstr "在用户注册时启用向管理员发送电子邮件通知*"
+
+#: view/email_settings/mo_openid_set_email.php:26
+msgid ""
+"If you want to send Email Notification to multiple admins, enter emails of "
+"all admins here:"
+msgstr ""
+"如果要将电子邮件通知发送给多个管理员，请在此处输入所有管理员的电子邮件："
+
+#: view/email_settings/mo_openid_set_email.php:29
+#: view/email_settings/mo_openid_set_email.php:57
+msgid "Email Subject:"
+msgstr "电子邮件主题："
+
+#: view/email_settings/mo_openid_set_email.php:40
+msgid "Send mail to User"
+msgstr "发送邮件给用户"
+
+#: view/email_settings/mo_openid_set_email.php:51
+msgid "*NOTE: This feature requires SMTP to be setup"
+msgstr "*注意：此功能需要设置SMTP"
+
+#: view/email_settings/mo_openid_set_email.php:52
+msgid "Email Notification to User on User Registration"
+msgstr "通过电子邮件向用户发送有关用户注册的通知"
+
+#: view/faq/mo_openid_faq.php:9
+msgid "If you are unable to open any section, press CTRL + F5 to clear cache"
+msgstr "如果您无法打开任何部分，请按CTRL + F5清除缓存"
+
+#: view/faq/mo_openid_faq.php:10
+msgid "Site Issue"
+msgstr "网站问题"
+
+#: view/faq/mo_openid_faq.php:12
+msgid ""
+"I installed the plugin and my website stopped working. How can I recover my "
+"site?"
+msgstr "我安装了插件，但我的网站停止了工作。如何恢复我的网站？"
+
+#: view/faq/mo_openid_faq.php:14
+msgid ""
+"There must have been a server error on your website. To get your website "
+"back online:"
+msgstr "您的网站上肯定存在服务器错误。使您的网站恢复在线："
+
+#: view/faq/mo_openid_faq.php:16
+msgid "Open FTP access and look for plugins folder under wp-content."
+msgstr "打开FTP访问，然后在wp-content下查找plugins文件夹。"
+
+#: view/faq/mo_openid_faq.php:17
+msgid ""
+"Change the extension folder name miniorange-login-openid to miniorange-login-"
+"openid"
+msgstr "将扩展文件夹名称miniorange-login-openid更改为miniorange-login-openid"
+
+#: view/faq/mo_openid_faq.php:18
+msgid "Check your website. It must have started working"
+msgstr "检查您的网站。它一定已经开始工作了"
+
+#: view/faq/mo_openid_faq.php:19
+msgid "Change the folder name back to miniorange-login-openid."
+msgstr "将文件夹名称更改回miniorange-login-openid。"
+
+#: view/faq/mo_openid_faq.php:22 view/faq/mo_openid_faq.php:35
+#: view/faq/mo_openid_faq.php:52
+msgid ""
+"For any further queries, please submit a query on right hand side in our"
+msgstr "如有其他查询，请在我们的右侧提交查询"
+
+#: view/faq/mo_openid_faq.php:22 view/faq/mo_openid_faq.php:35
+#: view/faq/mo_openid_faq.php:52
+msgid "Support Section"
+msgstr "支援科"
+
+#: view/faq/mo_openid_faq.php:29
+msgid "Change email"
+msgstr "更改电子邮件"
+
+#: view/faq/mo_openid_faq.php:31
+msgid ""
+"I want to change the email address with which I access my account. How can I "
+"do that?"
+msgstr "我想更改用于访问我的帐户的电子邮件地址。我怎样才能做到这一点？"
+
+#: view/faq/mo_openid_faq.php:33
+msgid "You will have to register in miniOrange again with your new email id."
+msgstr "您将必须使用新的电子邮件ID重新在miniOrange中注册。"
+
+#: view/faq/mo_openid_faq.php:34
+msgid "Please deactivate and activate the plugin by going to"
+msgstr "请通过以下方式停用并激活插件 going to"
+
+#: view/faq/mo_openid_faq.php:34
+msgid "Plugins -> Installed Plugins"
+msgstr "插件->已安装的插件"
+
+#: view/faq/mo_openid_faq.php:34
+msgid ""
+"and then go to the Social Login Plugin to register again. This will enable "
+"you to access miniOrange dashboard with new email address."
+msgstr ""
+"然后转到社交登录插件重新注册。这将使您能够使用新的电子邮件地址访问miniOrange"
+"仪表板。"
+
+#: view/faq/mo_openid_faq.php:42
+msgid "cURL"
+msgstr "cURL"
+
+#: view/faq/mo_openid_faq.php:44
+msgid "How to enable PHP cURL extension? (Pre-requisite)"
+msgstr "如何启用PHP cURL扩展？ （前提条件）"
+
+#: view/faq/mo_openid_faq.php:46
+msgid ""
+"cURL is enabled by default but in case you have disabled it, follow the "
+"steps to enable it"
+msgstr "cURL默认情况下处于启用状态，但是如果您已将其禁用，请按照以下步骤启用它"
+
+#: view/faq/mo_openid_faq.php:48
+msgid "Open php.ini(it's usually in /etc/ or in php folder on the server)."
+msgstr "打开php.ini（通常在/ etc /或服务器上的php文件夹中）。"
+
+#: view/faq/mo_openid_faq.php:49
+msgid ""
+"Search for extension=php_curl.dll. Uncomment it by removing the semi-"
+"colon( ; ) in front of it."
+msgstr "搜索extension = php_curl.dll。通过删除前面的分号（;）取消注释。"
+
+#: view/faq/mo_openid_faq.php:50
+msgid "Restart the Apache Server."
+msgstr "重新启动Apache服务器。"
+
+#: view/faq/mo_openid_faq.php:55
+msgid ""
+"I am getting error - curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be "
+"activated when an open_basedir is set"
+msgstr ""
+"我遇到错误-curl_setopt（）：设置open_basedir时无法激活CURLOPT_FOLLOWLOCATION"
+
+#: view/faq/mo_openid_faq.php:57
+msgid ""
+"Just setsafe_mode = Off in your php.ini file (it's usually in /etc/ on the "
+"server). If that's already off, then look around for the open_basedir in the "
+"php.ini file, and change it to open_basedir = ."
+msgstr ""
+"只需在您的php.ini文件中设置setsafe_mode = Off（通常在服务器上的/ etc /中）即"
+"可。如果已经关闭，则在php.ini文件中四处寻找open_basedir，并将其更改为"
+"open_basedir =。"
+
+#: view/faq/mo_openid_faq.php:65
+msgid "OTP and Forgot Password"
+msgstr "OTP和忘记密码"
+
+#: view/faq/mo_openid_faq.php:67
+msgid "I did not recieve OTP. What should I do?"
+msgstr "我没有收到OTP。我该怎么办？"
+
+#: view/faq/mo_openid_faq.php:69
+msgid ""
+"The OTP is sent as an email to your email address with which you have "
+"registered with miniOrange. If you can't see the email from miniOrange in "
+"your mails, please make sure to check your SPAM folder."
+msgstr ""
+"OTP将作为电子邮件发送到您在miniOrange上注册的电子邮件地址。如果您在邮件中看不"
+"到来自miniOrange的电子邮件，请确保检查您的SPAM文件夹。"
+
+#: view/faq/mo_openid_faq.php:69
+msgid ""
+"If you don't see an email even in SPAM folder, please verify your account "
+"using your mobile number. You will get an OTP on your mobile number which "
+"you need to enter on the page. If none of the above works, please contact us "
+"using the Support form on the right."
+msgstr ""
+"如果您甚至在SPAM文件夹中都没有看到电子邮件，请使用您的手机号码验证您的帐户。"
+"您将在您的手机号码上获得一个OTP，您需要在该页面上输入该密码。如果以上方法均无"
+"效，请使用右侧的支持表格与我们联系。"
+
+#: view/faq/mo_openid_faq.php:72
+msgid "After entering OTP, I get Invalid OTP. What should I do?"
+msgstr "输入OTP后，我得到了无效的OTP。我该怎么办？"
+
+#: view/faq/mo_openid_faq.php:74
+msgid "Use the "
+msgstr "使用 the"
+
+#: view/faq/mo_openid_faq.php:74
+msgid "Resend OTP"
+msgstr "重新发送OTP"
+
+#: view/faq/mo_openid_faq.php:74
+msgid ""
+"option to get an additional OTP. Plese make sure you did not enter the first "
+"OTP you recieved if you selected"
+msgstr "选择以获得额外的OTP。请确保您没有输入您选择的第一个OTP"
+
+#: view/faq/mo_openid_faq.php:74
+msgid ""
+"option to get an additional OTP. Enter the latest OTP since the previous "
+"ones expire once you click on Resend OTP."
+msgstr ""
+"选择以获得额外的OTP。输入最新的OTP，因为一旦单击“重新发送OTP”，先前的OTP将过"
+"期。"
+
+#: view/faq/mo_openid_faq.php:74
+msgid ""
+"If OTP sent on your email address are not working, please verify your "
+"account using your mobile number. You will get an OTP on your mobile number "
+"which you need to enter on the page. If none of the above works, please "
+"contact us using the Support form on the right."
+msgstr ""
+"如果通过您的电子邮件地址发送的OTP无效，请使用您的手机号码验证您的帐户。您将在"
+"您的手机号码上获得一个OTP，您需要在该页面上输入该密码。如果以上方法均无效，请"
+"使用右侧的支持表格与我们联系。"
+
+#: view/faq/mo_openid_faq.php:77
+msgid "I forgot the password of my miniOrange account. How can I reset it?"
+msgstr "我忘记了我的miniOrange帐户的密码。如何重置？"
+
+#: view/faq/mo_openid_faq.php:79
+msgid "There are two cases according to the page you see"
+msgstr "根据您看到的页面有两种情况"
+
+#: view/faq/mo_openid_faq.php:80 view/faq/mo_openid_faq.php:81
+msgid "Login with miniOrange"
+msgstr "用miniOrange登录"
+
+#: view/faq/mo_openid_faq.php:80
+msgid "screen: You should click on"
+msgstr "屏幕：您应该单击"
+
+#: view/faq/mo_openid_faq.php:80
+msgid "forgot password"
+msgstr "忘记密码"
+
+#: view/faq/mo_openid_faq.php:80
+msgid ""
+"link. You will get your new password on your email address which you have "
+"registered with miniOrange . Now you can login with the new password"
+msgstr ""
+"链接。您将在通过miniOrange注册的电子邮件地址上获得新密码。现在您可以使用新密"
+"码登录"
+
+#: view/faq/mo_openid_faq.php:81 view/profile/mo_openid_profile.php:19
+msgid "Register with miniOrange"
+msgstr "在miniOrange注册"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "screen: Enter your email ID and any random password in "
+msgstr "屏幕：在中输入您的电子邮件ID和任何随机密码"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "password"
+msgstr "密码"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "confirm password"
+msgstr "确认密码"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "input box. This will redirect you to"
+msgstr "输入框。这会将您重定向到"
+
+#: view/faq/mo_openid_faq.php:81
+msgid "screen. Now follow first step"
+msgstr "屏幕。现在按照第一步"
+
+#: view/faq/mo_openid_faq.php:89
+msgid "Social login"
+msgstr "社交登录"
+
+#: view/faq/mo_openid_faq.php:91
+msgid "How to add login icons to frontend login page?"
+msgstr "如何在前端登录页面添加登录图标？"
+
+#: view/faq/mo_openid_faq.php:93
+msgid ""
+"You can add social login icons to frontend login page using our shortcode "
+"[miniorange_social_login]. Refer to 'Shortcode' tab to add customizations to "
+"Shortcode."
+msgstr ""
+"您可以使用我们的简码[miniorange_social_login]将社交登录图标添加到前端登录页"
+"面。请参考“短代码”标签，以将自定义设置添加到短代码中。"
+
+#: view/faq/mo_openid_faq.php:96
+msgid "How can I put social login icons on a page without using widgets?"
+msgstr "如何在不使用小部件的情况下将社交登录图标放在页面上？"
+
+#: view/faq/mo_openid_faq.php:98
+msgid ""
+"You can add social login icons to any page or custom login page using "
+"'social login shortcode' [miniorange_social_login]. Refer to 'Shortcode' tab "
+"to add customizations to Shortcode."
+msgstr ""
+"您可以使用“社交登录简码” [miniorange_social_login]将社交登录图标添加到任何页"
+"面或自定义登录页面。请参考“短代码”标签，以将自定义设置添加到短代码中。"
+
+#: view/faq/mo_openid_faq.php:101
+msgid "Social Login icons are not added to login/registration form."
+msgstr "社交登录图标未添加到登录/注册表单。"
+
+#: view/faq/mo_openid_faq.php:103
+msgid ""
+"Your login/registration form may not be wordpress's default login/"
+"registration form. In this case you can add social login icons to custom "
+"login/registration form using 'social login "
+"shortcode' [miniorange_social_login]. Refer to 'Shortcode' tab to add "
+"customizations to Shortcode."
+msgstr ""
+"您的登录/注册表格可能不是wordpress的默认登录/注册表格。在这种情况下，您可以使"
+"用“社交登录简码” [miniorange_social_login]将社交登录图标添加到自定义登录/注册"
+"表单。请参考“短代码”标签，以将自定义设置添加到短代码中。"
+
+#: view/faq/mo_openid_faq.php:106
+msgid "How can I redirect to my blog page after login?"
+msgstr "登录后如何重定向到我的博客页面？"
+
+#: view/faq/mo_openid_faq.php:108
+msgid "You can select one of the options from"
+msgstr "您可以从以下选项中选择一种"
+
+#: view/faq/mo_openid_faq.php:108
+msgid "Redirect URL after login"
+msgstr "登录后重定向URL："
+
+#: view/faq/mo_openid_faq.php:108 view/faq/mo_openid_faq.php:117
+msgid "of"
+msgstr "的"
+
+#: view/faq/mo_openid_faq.php:108 view/faq/mo_openid_faq.php:117
+msgid "Display Option"
+msgstr "显示选项"
+
+#: view/faq/mo_openid_faq.php:108
+msgid " section under"
+msgstr "节下"
+
+#: view/faq/mo_openid_faq.php:108
+msgid "tab."
+msgstr "标签。"
+
+#: view/faq/mo_openid_faq.php:109
+#: view/redirect_options/mo_openid_redirect_op.php:13
+msgid "Same page where user logged in"
+msgstr "用户登录的页面相同"
+
+#: view/faq/mo_openid_faq.php:110
+#: view/redirect_options/mo_openid_redirect_op.php:21
+msgid "Homepage"
+msgstr "主页"
+
+#: view/faq/mo_openid_faq.php:111
+msgid "Account Dsahboard"
+msgstr "帐户仪表板"
+
+#: view/faq/mo_openid_faq.php:115
+msgid "After logout I am redirected to blank page"
+msgstr "注销后，我被重定向到空白页"
+
+#: view/faq/mo_openid_faq.php:117
+msgid ""
+"Your theme and Social Login plugin may conflict during logout. To resolve it "
+"you need to uncheck"
+msgstr ""
+"您的主题和“社交登录”插件在注销期间可能会发生冲突。要解决它，您需要取消选中"
+
+#: view/faq/mo_openid_faq.php:117
+msgid "Enable Logout Redirection"
+msgstr "启用注销重定向"
+
+#: view/faq/mo_openid_faq.php:117
+msgid "checkbox under"
+msgstr "下的复选框"
+
+#: view/faq/mo_openid_faq.php:117
+msgid "tab"
+msgstr "标签"
+
+#: view/faq/mo_openid_faq.php:120
+msgid ""
+"My users get the following message -\"Registration has been disabled for "
+"this site. Please contact your administrator.\" What should I do?"
+msgstr ""
+"我的用户收到以下消息-“此网站的注册已被禁用。请与您的管理员联系。”我该怎么办？"
+
+#: view/faq/mo_openid_faq.php:122
+msgid ""
+"This means you must have unchecked the check-box of auto-register in the "
+"Social Login tab. Please check it. This will allow new users to be able to "
+"register to your site."
+msgstr ""
+"这意味着您必须取消选中“社交登录”选项卡中的自动注册复选框。请检查一下。这将使"
+"新用户能够注册到您的站点。"
+
+#: view/faq/mo_openid_faq.php:125
+msgid "Why do my users get a message that it is not secure to proceed?"
+msgstr "为什么我的用户收到一条消息，提示继续操作不安全？"
+
+#: view/faq/mo_openid_faq.php:126
+msgid ""
+"Your website must be starting with http://. Now generally that's not an "
+"issue but our service uses https://( s stands for secure). You get a warning "
+"from the browser that the information is being passed insecurely. This "
+"happens after you log in to social media application and are coming back to "
+"your website. The warning is triggered from the browser since the data "
+"passes from https:// to http://, i.e. from a secure site to non-secure site."
+"<br><br>We make sure that the information(email, name, username) getting "
+"passed from social media application to your website is encrypted with a key "
+"which is unique to you. So, even if the there is a warning of sending "
+"information without security, that information is encrypted."
+msgstr ""
+"您的网站必须以http：//开头。现在通常这不是问题，但是我们的服务使用https：//"
+"（s表示安全）。您从浏览器中收到一条警告，指出信息传递不安全。在您登录社交媒体"
+"应用程序并返回您的网站后，就会发生这种情况。由于数据是从https：//传递到"
+"http：//，即从安全站点传递到非安全站点，因此浏览器会触发警告。<br> <br>我们确"
+"保信息（电子邮件，名称，从社交媒体应用程序传递到您的网站的用户名）使用您唯一"
+"的密钥进行加密。因此，即使有警告发送不安全的信息，该信息也会被加密。"
+
+#: view/faq/mo_openid_faq.php:127
+msgid ""
+"To remove this warning, you can add an SSL certificate to your website to "
+"change it to https OR use your own"
+msgstr ""
+"要删除此警告，您可以将SSL证书添加到您的网站以将其更改为https或使用自己的证书"
+
+#: view/faq/mo_openid_faq.php:127 view/shrtco/mo_openid_shrtco.php:111
+#: view/shrtco/mo_openid_shrtco.php:112
+msgid "Custom App"
+msgstr "自定义应用"
+
+#: view/faq/mo_openid_faq.php:130
+msgid ""
+"My users get the following message -\"There was an error in registration. "
+"Please contact your administrator.\" What should I do?"
+msgstr "我的用户收到以下消息-“注册时出错。请与管理员联系。”我该怎么办？"
+
+#: view/faq/mo_openid_faq.php:132
+msgid ""
+"This message is thrown by WordPress when there is an error in user-"
+"registration"
+msgstr "当用户注册错误时，WordPress会抛出此消息"
+
+#: view/faq/mo_openid_faq.php:133
+msgid ""
+"To see the actual error thrown by WordPress, go to \\wordpress\\wp-content"
+"\\plugins\\miniorange-login-openid\\class-mo-openid-login-widget.php file"
+msgstr ""
+"要查看WordPress引发的实际错误，请转到\\ wordpress \\ wp-content \\ plugins "
+"\\ miniorange-login-openid \\ class-mo-openid-login-widget.php文件"
+
+#: view/faq/mo_openid_faq.php:134
+msgid "Search for the line"
+msgstr "搜索线"
+
+#: view/faq/mo_openid_faq.php:135
+msgid "Change it to"
+msgstr "更改为"
+
+#: view/faq/mo_openid_faq.php:136
+msgid ""
+"Save the file and try logging again. Please send us the error you see while "
+"logging in through the support forum to your right."
+msgstr ""
+"保存文件，然后尝试再次登录。通过右侧的支持论坛登录时，请将您看到的错误发送给"
+"我们。"
+
+#: view/faq/mo_openid_faq.php:138
+msgid "How do I centre the social login icons?"
+msgstr "如何将社交登录图标居中？"
+
+#: view/faq/mo_openid_faq.php:140
+msgid "If you are making changes to a PHP file"
+msgstr "如果您要更改PHP文件"
+
+#: view/faq/mo_openid_faq.php:141
+msgid ""
+"Go to the PHP file which invokes your page/post and insert the following "
+"html snippet. Also, increase the margin-left value as per your requirement. "
+"Save the file."
+msgstr ""
+"转到调用您的页面/帖子的PHP文件，然后插入以下html代码段。另外，根据您的要求增"
+"加左页边距值。保存文件。"
+
+#: view/faq/mo_openid_faq.php:144
+msgid "If you are making changes to an HTML file."
+msgstr "如果要更改HTML文件。"
+
+#: view/faq/mo_openid_faq.php:145
+msgid ""
+"Go to the HTML file which invokes your page/post and insert the following "
+"html snippet. Also, increase the margin-left value as per your requirement. "
+"Save the file."
+msgstr ""
+"转到调用您的页面/帖子的HTML文件，然后插入以下html代码段。另外，根据您的要求增"
+"加左页边距值。保存文件。"
+
+#: view/faq/mo_openid_faq.php:155
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:570
+msgid "Social Sharing"
+msgstr "社交分享"
+
+#: view/faq/mo_openid_faq.php:157
+msgid "Is it possible to show sharing icons below the post content?"
+msgstr "可以在帖子内容下方显示共享图标吗？"
+
+#: view/faq/mo_openid_faq.php:159
+msgid ""
+"You can put social sharing icons before the content, after the content or "
+"both before and after the content."
+msgstr "您可以将社交共享图标放在内容之前，之后或内容之前和之后。"
+
+#: view/faq/mo_openid_faq.php:159
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:50
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:53
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "Go to"
+msgstr "走至"
+
+#: view/faq/mo_openid_faq.php:159
+msgid "Sharing tab"
+msgstr "分享 tab"
+
+#: view/faq/mo_openid_faq.php:159
+msgid "check"
+msgstr "校验"
+
+#: view/faq/mo_openid_faq.php:159
+msgid "Blog post"
+msgstr "博客文章"
+
+#: view/faq/mo_openid_faq.php:159
+msgid ""
+"checkbox and select one of three(before, after, both) options available. "
+"Save settings"
+msgstr "复选框，然后选择三个（之前，之后，两个）可用选项之一。保存设置"
+
+#: view/faq/mo_openid_faq.php:162
+msgid "Why is sharing with some applications not working?"
+msgstr "为什么与某些应用程序共享不起作用？"
+
+#: view/faq/mo_openid_faq.php:164
+msgid ""
+"This issue arises if your website is not publicly hosted. Facebook, for "
+"example looks for the URL to generate its preview for sharing. That does not "
+"work on localhost or any privately hosted URL."
+msgstr ""
+"如果您的网站未公开托管，则会出现此问题。例如，Facebook查找URL以生成其预览以进"
+"行共享。这不适用于localhost或任何私有托管的URL。"
+
+#: view/faq/mo_openid_faq.php:167
+msgid "Facebook sharing is showing the wrong image. How do I change the image?"
+msgstr "Facebook分享显示错误的图像。如何更改图像？"
+
+#: view/faq/mo_openid_faq.php:169
+msgid ""
+"The image is selected by Facebook and it is a part of Facebook sharing "
+"feature. We provide Facebook with webpage URL. It generates the entire "
+"preview of webpage using that URL."
+msgstr ""
+"该图像由Facebook选择，并且是Facebook共享功能的一部分。我们为Facebook提供网页"
+"URL。它使用该URL生成网页的整个预览。"
+
+#: view/faq/mo_openid_faq.php:170
+msgid "To set an image for the page, set it as a meta tag in"
+msgstr "要为页面设置图片，请将其设置为"
+
+#: view/faq/mo_openid_faq.php:170
+msgid "of your webpage."
+msgstr "您的网页。"
+
+#: view/faq/mo_openid_faq.php:172
+msgid "You can further debug the issue with Facebook's tool"
+msgstr "您可以使用Facebook的工具进一步调试问题"
+
+#: view/faq/mo_openid_faq.php:174
+msgid ""
+"If the problem still persists, please contact us using the Support form on "
+"the right."
+msgstr "如果问题仍然存在，请使用右侧的支持表格与我们联系。"
+
+#: view/faq/mo_openid_faq.php:177
+msgid "There is no option of Instagram in Social Sharing. Why?"
+msgstr "社交共享中没有Instagram选项。为什么？"
+
+#: view/faq/mo_openid_faq.php:179
+msgid ""
+"Instagram has made a conscious effort to not allow sharing from external "
+"sources to fight spam and low quality photos."
+msgstr ""
+"Instagram做出了有意识的努力，不允许外部来源共享以打击垃圾邮件和低质量的照片。"
+
+#: view/faq/mo_openid_faq.php:180
+msgid ""
+"At this point of time, uploading via Instagram's API from external sources "
+"is not possible"
+msgstr "目前，无法通过Instagram的API从外部来源上传"
+
+#: view/faq/mo_openid_faq.php:184
+msgid "Email share is not working. Why?"
+msgstr "电子邮件共享不起作用。为什么？"
+
+#: view/faq/mo_openid_faq.php:186
+msgid "Email share in the plugin is enabled through"
+msgstr "插件中的电子邮件共享通过以下方式启用"
+
+#: view/faq/mo_openid_faq.php:186
+msgid "mailto"
+msgstr "邮寄to"
+
+#: view/faq/mo_openid_faq.php:186
+msgid ""
+"mailto is generally configured through desktop or browser so if it is not "
+"working, mailto is not setup or improperly configured"
+msgstr ""
+"mailto通常是通过台式机或浏览器配置的，因此，如果不起作用，则表明mailto没有设"
+"置或配置不正确"
+
+#: view/faq/mo_openid_faq.php:187
+msgid ""
+"To set it up properly, search for mailto settings followed by your Operating "
+"System's name where you have your browser installed."
+msgstr "要正确设置，请搜索mailto设置，然后搜索安装浏览器的操作系统名称。"
+
+#: view/faq/mo_openid_faq.php:190
+msgid ""
+"I cannot see some icons in preview or on blog even though I have selected "
+"them in the plugin settings."
+msgstr "即使在插件设置中选择了某些图标，也无法在预览或博客中看到它们。"
+
+#: view/faq/mo_openid_faq.php:192
+msgid ""
+"Please check if you have an Adblock extension installed on your browser "
+"where you are checking the plugin. If you do, the Adblock extension will "
+"have a setting to block Social buttons. Uncheck this option."
+msgstr ""
+"请检查要检查插件的浏览器上是否安装了Adblock扩展程序。如果您这样做，则Adblock"
+"扩展程序将具有阻止社交按钮的设置。取消选中此选项。"
+
+#: view/faq/mo_openid_faq.php:194
+msgid ""
+"If you don't have Adblock installed and still face this issue, please "
+"contact us using the Support form on the right or mail us at info@xecurify."
+"com."
+msgstr ""
+"如果您尚未安装Adblock，但仍然遇到此问题，请使用右侧的支持表格与我们联系，或通"
+"过info@xecurify.com向我们发送邮件。"
+
+#: view/faq/mo_openid_faq.php:206
+msgid "Frequently Asked Questions"
+msgstr "经常问的问题"
+
+#: view/gdpr/mo_openid_gdpr.php:13
+msgid ""
+"If GDPR check is enabled, users will be asked to give consent before using "
+"Social Login. Users who will not give consent will not be able to log in. "
+"This setting stands true only when users are registering using Social Login. "
+"This will not interfere with users registering through the regular WordPress"
+msgstr ""
+"如果启用了GDPR检查，则在使用社交登录之前，将要求用户给予同意。未同意的用户将"
+"无法登录。此设置仅在用户使用社交登录进行注册时才适用。这不会干扰用户通过常规"
+"WordPress注册"
+
+#: view/gdpr/mo_openid_gdpr.php:13
+msgid "Click"
+msgstr "请点击"
+
+#: view/gdpr/mo_openid_gdpr.php:13
+msgid "here"
+msgstr "这里"
+
+#: view/gdpr/mo_openid_gdpr.php:13
+msgid ""
+"to read miniOrange Social Login Privacy Policy. Please update your website's "
+"privacy policy accordingly and enter the URL to your privacy policy below."
+msgstr ""
+"阅读miniOrange社交登录隐私政策。请相应地更新您的网站的隐私政策，然后在下面输"
+"入您的隐私政策的URL。"
+
+#: view/gdpr/mo_openid_gdpr.php:15
+msgid "Take consent from users"
+msgstr "征得用户同意"
+
+#: view/gdpr/mo_openid_gdpr.php:25
+msgid "Enter the Consent message:"
+msgstr "输入同意消息："
+
+#: view/gdpr/mo_openid_gdpr.php:28
+msgid "Enter the text to be displayed for the Privacy Policy URL"
+msgstr "输入要显示在隐私策略URL中的文本"
+
+#: view/gdpr/mo_openid_gdpr.php:31
+msgid "Enter Privacy Policy URL"
+msgstr "输入隐私权政策网址"
+
+#: view/gdpr/mo_openid_gdpr.php:38
+msgid "GDPR Settings"
+msgstr "GDPR设置"
+
+#: view/integration/mo_openid_integrate.php:7
+msgid "Custom Attributes Mapping"
+msgstr "自定义属性映射"
+
+#: view/integration/mo_openid_integrate.php:12
+#: view/integration/mo_openid_integrate.php:46
+#: view/integration/mo_openid_integrate.php:56
+#: view/integration/mo_openid_integrate.php:67
+msgid ""
+"This feature is available in premium version only. To use this feature, "
+"please upgrade to premium plugin."
+msgstr "此功能仅在高级版本中可用。要使用此功能，请升级到高级插件。"
+
+#: view/integration/mo_openid_integrate.php:18
+msgid "Select Attribute"
+msgstr "选择属性"
+
+#: view/integration/mo_openid_integrate.php:43
+msgid "BuddyPress Extended Attributes Mapping"
+msgstr "BuddyPress扩展属性映射"
+
+#: view/integration/mo_openid_integrate.php:54
+msgid "Paid Memberships Pro"
+msgstr "已付会员资格亲"
+
+#: view/integration/mo_openid_integrate.php:64
+msgid "MailChimp Integration"
+msgstr "MailChimp集成"
+
+#: view/integration/mo_openid_integrate.php:68
+msgid ""
+"A user is added as a subscriber to a mailing list in MailChimp when that "
+"user registers using social login. First name, last name and email are also "
+"captured for that user in the Mailing List."
+msgstr ""
+"当用户使用社交登录名注册时，该用户将作为订户添加到MailChimp中的邮件列表。还可"
+"以在“邮件列表”中为该用户捕获名字，姓氏和电子邮件。"
+
+#: view/integration/mo_openid_integrate.php:69
+msgid ""
+"(List ID in MailChimp : Lists -> Select your List -> Settings -> List Name "
+"and Defaults -> List ID)"
+msgstr ""
+"（MailChimp中的列表ID：列表->选择列表->设置->列表名称和默认设置->列表ID）"
+
+#: view/integration/mo_openid_integrate.php:70
+msgid "(API Key in MailChimp : Profile -> Extras -> API Keys -> Your API Key )"
+msgstr "（MailChimp中的API密钥：配置文件->其他-> API密钥->您的API密钥）"
+
+#: view/integration/mo_openid_integrate.php:71
+msgid "List Id"
+msgstr "清单 id"
+
+#: view/integration/mo_openid_integrate.php:72
+msgid "API Key:"
+msgstr "API密钥："
+
+#: view/integration/mo_openid_integrate.php:75
+msgid "Ask user for permission to be added in MailChimp Subscriber list"
+msgstr "询问用户是否要在MailChimp订户列表中添加权限"
+
+#: view/integration/mo_openid_integrate.php:80
+msgid "If unchecked, user will get subscribed during registration."
+msgstr "如果未选中，则用户将在注册期间得到订阅。"
+
+#: view/integration/mo_openid_integrate.php:82
+msgid ""
+"Click on Download button to get a list of emails of WordPress users "
+"registered on your site. You can import this file in MailChimp."
+msgstr ""
+"单击下载按钮以获取在您的站点上注册的WordPress用户的电子邮件列表。您可以在"
+"MailChimp中导入此文件。"
+
+#: view/integration/mo_openid_integrate.php:85
+msgid "Download emails of users"
+msgstr "下载用户的电子邮件"
+
+#: view/integration/mo_openid_integrate.php:95
+msgid "Woocommerce Integration"
+msgstr "Woocommerce整合"
+
+#: view/integration/mo_openid_integrate.php:98
+msgid ""
+"This feature is available in premium version only. To use this feature, "
+"please upgrade to  premium plugin."
+msgstr "此功能仅在高级版本中可用。要使用此功能，请升级到高级插件。"
+
+#: view/integration/mo_openid_integrate.php:99
+msgid ""
+"If enabled, first name, last name and email are pre-filled in billing "
+"details of a user and on the Woocommerce checkout page."
+msgstr ""
+"如果启用，则在用户的帐单详细信息中以及Woocommerce结帐页面上预先填写名字，姓氏"
+"和电子邮件。"
+
+#: view/integration/mo_openid_integrate.php:102
+msgid "Sync Woocommerce checkout fields"
+msgstr "同步Woocommerce结帐字段"
+
+#: view/licensing_plans/mo_openid_lic_plans.php:1868
+msgid "Licensing Plan For Social Login"
+msgstr "社交登录许可计划"
+
+#: view/link_social_account/mo_openid_Acclink.php:19
+msgid ""
+"Enable account linking to let your users link their Social accounts with "
+"existing WordPress account. Users will be prompted with the option to either "
+"link to any existing account using WordPress login page or register as a new "
+"user."
+msgstr ""
+"启用帐户链接，以使您的用户将其社交帐户与现有WordPress帐户链接。系统将提示用户"
+"使用WordPress登录页面链接到任何现有帐户或注册为新用户的选项。"
+
+#: view/link_social_account/mo_openid_Acclink.php:20
+msgid "Enable linking of Social Accounts"
+msgstr "启用社交帐户关联"
+
+#: view/link_social_account/mo_openid_Acclink.php:33
+msgid "Customize Text for Account Linking"
+msgstr "自定义用于帐户链接的文本"
+
+#: view/link_social_account/mo_openid_Acclink.php:33
+msgid "Preview Account Linking form"
+msgstr "预览帐户关联表单"
+
+#: view/link_social_account/mo_openid_Acclink.php:35
+msgid "Enter title of Account linking form"
+msgstr "输入帐户链接表格的标题"
+
+#: view/link_social_account/mo_openid_Acclink.php:36
+msgid " Enter button text for create new user"
+msgstr "输入按钮文字以创建新用户"
+
+#: view/link_social_account/mo_openid_Acclink.php:39
+msgid "Enter button text for Link to existing user:"
+msgstr "输入用于链接到现有用户的按钮文本："
+
+#: view/link_social_account/mo_openid_Acclink.php:41
+msgid "Enter instruction to Create New Account :"
+msgstr "输入创建新帐户的说明："
+
+#: view/link_social_account/mo_openid_Acclink.php:47
+msgid " Enter instructions to link to an existing account :"
+msgstr "输入说明以链接到现有帐户："
+
+#: view/link_social_account/mo_openid_Acclink.php:51
+msgid "Enter extra instructions for account linking "
+msgstr "输入有关帐户关联的其他说明"
+
+#: view/link_social_account/mo_openid_Acclink.php:55
+msgid ""
+"Display miniOrange logo with social login icons on account completion forms"
+msgstr "在帐户完成表单上显示带有社交登录图标的miniOrange徽标"
+
+#: view/mo_new/mo_openid_whats_new.php:9
+msgid "Do you want to make your <b>website more secure"
+msgstr "您想使您的<b>网站更安全吗？"
+
+#: view/mo_new/mo_openid_whats_new.php:9
+msgid "by Brute Force attack, Spam Protection etc? Try out our Plugin."
+msgstr "通过蛮力攻击，垃圾邮件防护等？试用我们的插件。"
+
+#: view/mo_new/mo_openid_whats_new.php:22
+#: view/mo_new/mo_openid_whats_new.php:50
+#: view/mo_new/mo_openid_whats_new.php:89
+msgid "Looking for"
+msgstr "寻找一个"
+
+#: view/mo_new/mo_openid_whats_new.php:22
+msgid "WordPress REST API Authentication?"
+msgstr "WordPress REST API身份验证？"
+
+#: view/mo_new/mo_openid_whats_new.php:22
+msgid ""
+"Try out our new Plugin which secures rest API access for unauthorized users "
+"using OAuth 2.0, Basic Auth, jwt, Bearer Token."
+msgstr ""
+"尝试使用我们的新插件，该插件使用OAuth 2.0，基本身份验证，jwt，承载令牌来保护"
+"未经授权的用户的其余API访问。"
+
+#: view/mo_new/mo_openid_whats_new.php:37
+msgid "Looking for "
+msgstr "寻找一个"
+
+#: view/mo_new/mo_openid_whats_new.php:37
+msgid "WordPress OAuth Single Sign On?"
+msgstr "WordPress OAuth单一登录？"
+
+#: view/mo_new/mo_openid_whats_new.php:37
+msgid ""
+"Try out our new Plugin which allows login (Single Sign On) into WordPress "
+"with your Azure AD, AWS Cognito, Invision Community, Slack, Discord or other "
+"custom OAuth 2.0 / OpenID Connect providers"
+msgstr ""
+"试用我们的新插件，该插件允许使用您的Azure AD，AWS Cognito，Invision社区，"
+"Slack，Discord或其他自定义OAuth 2.0 / OpenID Connect提供程序登录（单点登录）"
+"到WordPress"
+
+#: view/mo_new/mo_openid_whats_new.php:50
+msgid "WordPress Two Factor Authentication"
+msgstr "WordPress两因素认证"
+
+#: view/mo_new/mo_openid_whats_new.php:50
+msgid ""
+"Try out our 2FA Plugin which is simple & easy 2FA setup with any App "
+"supporting TOTP algorithm like Google, Authy, LastPass Authenticator & other "
+"2FA methods."
+msgstr ""
+"尝试使用我们的2FA插件，它简单易用，可通过任何支持TOTP算法的应用（例如Google，"
+"Authy，LastPass Authenticator和其他2FA方法）进行2FA设置。"
+
+#: view/mo_new/mo_openid_whats_new.php:65
+msgid "Looking for a"
+msgstr "寻找一个"
+
+#: view/mo_new/mo_openid_whats_new.php:65
+msgid "Try our new <b>Social Login Integration Add-on"
+msgstr "试试我们新的<b>社交登录集成插件"
+
+#: view/mo_new/mo_openid_whats_new.php:71
+msgid "Social Login Integration Add-on"
+msgstr "社交登录集成添加在"
+
+#: view/mo_new/mo_openid_whats_new.php:72
+msgid "by"
+msgstr "通过"
+
+#: view/mo_new/mo_openid_whats_new.php:73
+msgid "miniorange"
+msgstr "迷你橙"
+
+#: view/mo_new/mo_openid_whats_new.php:77
+msgid ""
+"Custom Registration Form Add-On helps you to integrate details of new as "
+"well as existing users. You can add as many fields as you want including the "
+"one which are returned by social sites at time of registration"
+msgstr ""
+"自定义注册表单附加组件可帮助您集成新用户和现有用户的详细信息。您可以根据需要"
+"添加任意多个字段，包括注册时社交网站返回的字段"
+
+#: view/mo_new/mo_openid_whats_new.php:79
+msgid "Tested with 5.3"
+msgstr "经过测试5.3"
+
+#: view/mo_new/mo_openid_whats_new.php:81
+msgid "Get this plugin"
+msgstr "获取此插件"
+
+#: view/mo_new/mo_openid_whats_new.php:89
+msgid "OTP Verification"
+msgstr "OTP验证"
+
+#: view/mo_new/mo_openid_whats_new.php:89
+msgid "along with Social Login? Try our OTP Plugin."
+msgstr "以及社交登录？试试我们的OTP插件。"
+
+#: view/mo_new/mo_openid_whats_new.php:102
+msgid "What\\'s new in miniOrange"
+msgstr "什么是新在miniorange"
+
+#: view/premium_features/mo_openid_prem_feat.php:89
+msgid "Force Admin To Login Using Password"
+msgstr "强制管理员使用密码登录"
+
+#: view/premium_features/mo_openid_prem_feat.php:91
+msgid ""
+"Admin user tries to login using social login then he will need to enter "
+"WordPress admin login credentials to login."
+msgstr ""
+"管理员用户尝试使用社交登录名登录，那么他将需要输入WordPress管理员登录凭据才能"
+"登录。"
+
+#: view/premium_features/mo_openid_prem_feat.php:104
+msgid "User Moderation"
+msgstr "用户审核"
+
+#: view/premium_features/mo_openid_prem_feat.php:106
+msgid ""
+"Enable this feature to restrict the access of newly registered users. User "
+"created through social login will not be able to access your website until "
+"admin will not allow them by activating their accounts else"
+msgstr ""
+"启用此功能可以限制新注册用户的访问。通过社交登录创建的用户将无法访问您的网"
+"站，除非管理员不允许通过激活其他帐户来允许他们"
+
+#: view/premium_features/mo_openid_prem_feat.php:107
+msgid "Notice: SMTP should be configured to send activation emails. "
+msgstr "注意：SMTP应该配置为发送激活电子邮件。"
+
+#: view/premium_features/mo_openid_prem_feat.php:120
+msgid "Reset Password"
+msgstr "重设密码"
+
+#: view/premium_features/mo_openid_prem_feat.php:122
+msgid "Send password reset link to user after registration"
+msgstr "注册后向用户发送密码重置链接"
+
+#: view/premium_features/mo_openid_prem_feat.php:123
+msgid "Notice: SMTP should be configured to send activation emails"
+msgstr "注意：SMTP应该配置为发送激活电子邮件"
+
+#: view/premium_features/mo_openid_prem_feat.php:134
+msgid "Extended User Attribute"
+msgstr "扩展用户属性"
+
+#: view/premium_features/mo_openid_prem_feat.php:136
+msgid ""
+"Mainly the required data(name,lastname,email) is mapped and use after the "
+"user gets login. If you want to use more data that is provided from the app "
+"you can enable this feature.(The data is depend on app to app)"
+msgstr ""
+"用户登录后，主要映射并使用了所需的数据（名称，姓氏，电子邮件）。如果您想使用"
+"应用程序提供的更多数据，则可以启用此功能。（数据取决于应用程序之间的差异）"
+
+#: view/premium_features/mo_openid_prem_feat.php:137
+msgid "Custom App of should be set for this feature"
+msgstr "应为此功能设置“自定义应用”"
+
+#: view/premium_features/mo_openid_prem_feat.php:148
+msgid "Redirect to social in a new window"
+msgstr "在新窗口中重定向到社交"
+
+#: view/premium_features/mo_openid_prem_feat.php:150
+msgid ""
+"While login with social login. The login page opens in a new tab. After the "
+"login process the tab gets closed."
+msgstr ""
+"使用社交登录时登录。登录页面将在新选项卡中打开。登录过程结束后，选项卡将关"
+"闭。"
+
+#: view/profile/mo_openid_profile.php:20
+msgid "Why should I register?"
+msgstr "我为什么要注册？"
+
+#: view/profile/mo_openid_profile.php:22
+msgid ""
+"By registering with miniOrange we take care of creating applications for you "
+"so that you don’t have to worry about creating applications in each social "
+"network."
+msgstr ""
+"通过向miniOrange注册，我们将为您创建应用程序，因此您不必担心在每个社交网络中"
+"创建应用程序。"
+
+#: view/profile/mo_openid_profile.php:23
+msgid "Please Note"
+msgstr "请注意"
+
+#: view/profile/mo_openid_profile.php:23
+msgid ""
+"We do not store any information except the email that you will use to "
+"register with us. You can go through our "
+msgstr ""
+"除了您将用来向我们注册的电子邮件之外，我们不存储任何其他信息。您可以通过我们"
+"的"
+
+#: view/profile/mo_openid_profile.php:23
+msgid ""
+"for how we use your information. We don’t sell your information to any third-"
+"party organization"
+msgstr "了解我们如何使用您的信息。我们不会将您的信息出售给任何第三方组织"
+
+#: view/profile/mo_openid_profile.php:27
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:202
+msgid "Email"
+msgstr "电子邮件"
+
+#: view/profile/mo_openid_profile.php:33
+msgid "Password"
+msgstr "密码"
+
+#: view/profile/mo_openid_profile.php:38
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: view/profile/mo_openid_profile.php:51
+msgid "By clicking Submit, you agree to our"
+msgstr "点击提交，即表示您同意我们的"
+
+#: view/profile/mo_openid_profile.php:51
+msgid "User Agreement"
+msgstr "用户协议"
+
+#: view/profile/mo_openid_profile.php:72
+msgid "Thank you for registering with miniOrange"
+msgstr "感谢您向miniOrange注册"
+
+#: view/profile/mo_openid_profile.php:75
+msgid "miniOrange Account Email"
+msgstr "miniOrange帐户电子邮件"
+
+#: view/profile/mo_openid_profile.php:79
+msgid "Customer ID"
+msgstr "客户ID"
+
+#: view/profile/mo_openid_profile.php:84 view/recaptcha/mo_openid_recap.php:13
+msgid "Click here"
+msgstr "点击这里"
+
+#: view/profile/mo_openid_profile.php:84
+msgid " to check our"
+msgstr "检查我们的"
+
+#: view/profile/mo_openid_profile.php:84
+msgid "plans"
+msgstr "计划"
+
+#: view/profile/mo_openid_profile.php:91
+msgid "User Profile Details"
+msgstr "用户个人资料详细信息"
+
+#: view/profile_completion/mo_openid_prof_comp.php:10
+msgid ""
+"Prompt users for username &amp; email when unavailable (profile completion)"
+msgstr "提示用户输入用户名＆amp;不可用时发送电子邮件（配置文件完成）"
+
+#: view/profile_completion/mo_openid_prof_comp.php:11
+msgid ""
+"In case of unavailability of username or email from the social media "
+"application, user is prompted to input the same"
+msgstr ""
+"如果无法使用社交媒体应用程序中的用户名或电子邮件，则会提示用户输入相同的用户"
+"名或电子邮件"
+
+#: view/profile_completion/mo_openid_prof_comp.php:16
+msgid "*NOTE:"
+msgstr "*注意："
+
+#: view/profile_completion/mo_openid_prof_comp.php:16
+msgid ""
+"Disabling profile completion is not recommended. Instagram and Twitter don't "
+"return email address. Please keep this enabled if you are using Instagram or "
+"Twitter. This feature requires SMTP to be setup for your WordPress website "
+"since we send a code to users over email to verify their email address."
+msgstr ""
+"不建议禁用配置文件完成。 Instagram和Twitter不返回电子邮件地址。如果您使用的是"
+"Instagram或Twitter，请保持启用状态。此功能需要为您的WordPress网站设置SMTP，因"
+"为我们通过电子邮件向用户发送代码以验证其电子邮件地址。"
+
+#: view/profile_completion/mo_openid_prof_comp.php:19
+msgid "Customize Text for Profile Completion"
+msgstr "自定义文本以完成配置文件"
+
+#: view/profile_completion/mo_openid_prof_comp.php:19
+msgid "Preview Profile Completion form"
+msgstr "预览配置文件完成表格"
+
+#: view/profile_completion/mo_openid_prof_comp.php:21
+msgid "Enter title of Profle Completion"
+msgstr "输入Profle完成的标题"
+
+#: view/profile_completion/mo_openid_prof_comp.php:22
+msgid "Enter Username Label text"
+msgstr "输入用户名标签文本"
+
+#: view/profile_completion/mo_openid_prof_comp.php:23
+msgid "Enter Email Label text"
+msgstr "输入电子邮件标签文字"
+
+#: view/profile_completion/mo_openid_prof_comp.php:24
+msgid "Enter Submit button text"
+msgstr "输入提交按钮文字"
+
+#: view/profile_completion/mo_openid_prof_comp.php:25
+msgid "Enter instruction for Profile Completion"
+msgstr "输入配置文件填写说明"
+
+#: view/profile_completion/mo_openid_prof_comp.php:27
+msgid "Enter extra instruction for Profile Completion "
+msgstr "输入补充说明以完成配置文件"
+
+#: view/profile_completion/mo_openid_prof_comp.php:29
+msgid "Enter username already exists warning message text "
+msgstr "输入用户名已存在警告消息文本"
+
+#: view/profile_completion/mo_openid_prof_comp.php:30
+msgid "Customize Text for Email Verification"
+msgstr "自定义文本以进行电子邮件验证"
+
+#: view/profile_completion/mo_openid_prof_comp.php:30
+msgid "Preview Email Verification form"
+msgstr "预习电子邮件验证形成"
+
+#: view/profile_completion/mo_openid_prof_comp.php:32
+msgid "Enter title of Email Verification form"
+msgstr "输入电子邮件验证表单的标题"
+
+#: view/profile_completion/mo_openid_prof_comp.php:33
+msgid "Enter Resend OTP button text"
+msgstr "输入重新发送OTP按钮文本"
+
+#: view/profile_completion/mo_openid_prof_comp.php:34
+msgid "Enter Back button text"
+msgstr "输入返回按钮文字"
+
+#: view/profile_completion/mo_openid_prof_comp.php:35
+msgid "Enter instruction for Email Verification form"
+msgstr "输入电子邮件验证表单的说明"
+
+#: view/profile_completion/mo_openid_prof_comp.php:37
+msgid "Enter verification code in Email Verification form"
+msgstr "在“电子邮件验证”表单中输入验证码"
+
+#: view/profile_completion/mo_openid_prof_comp.php:39
+msgid "Enter Message for wrong OTP"
+msgstr "输入错误的OTP消息"
+
+#: view/profile_completion/mo_openid_prof_comp.php:40
+msgid "Customized E-mail Message"
+msgstr "定制的电子邮件"
+
+#: view/profile_completion/mo_openid_prof_comp.php:41
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:107
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:201
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:556
+msgid "NOTE"
+msgstr "注意"
+
+#: view/profile_completion/mo_openid_prof_comp.php:41
+msgid "Please enter"
+msgstr "请输入"
+
+#: view/profile_completion/mo_openid_prof_comp.php:41
+msgid "in message where you want to show one time password."
+msgstr "在您想要显示一次密码的消息中。"
+
+#: view/profile_completion/mo_openid_prof_comp.php:43
+msgid ""
+"Display miniOrange logo with social login icons on profile completion forms"
+msgstr "在配置文件完成表单上显示带有社交登录图标的miniOrange徽标"
+
+#: view/recaptcha/mo_openid_recap.php:8
+msgid "Enable reCAPTCHA"
+msgstr "启用reCAPTCHA"
+
+#: view/recaptcha/mo_openid_recap.php:13
+msgid "Prerequisite"
+msgstr "先决条件"
+
+#: view/recaptcha/mo_openid_recap.php:13
+msgid "Before you can use reCAPTCHA, you need to register your domain/website."
+msgstr "在使用reCAPTCHA之前，您需要注册您的域/网站。"
+
+#: view/recaptcha/mo_openid_recap.php:14
+msgid "Enter Site key and Secret key that you get after registration."
+msgstr "输入注册后获得的站点密钥和秘密密钥。"
+
+#: view/recaptcha/mo_openid_recap.php:17
+msgid "Select type of reCAPTCHA "
+msgstr "选择reCAPTCHA的类型"
+
+#: view/recaptcha/mo_openid_recap.php:19
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: view/recaptcha/mo_openid_recap.php:26
+msgid "reCAPTCHA v2"
+msgstr "reCAPTCHA v2"
+
+#: view/recaptcha/mo_openid_recap.php:34
+msgid "Site key"
+msgstr "网站金钥"
+
+#: view/recaptcha/mo_openid_recap.php:38
+msgid "Secret key"
+msgstr "密钥"
+
+#: view/recaptcha/mo_openid_recap.php:42
+msgid "Enable reCAPTCHA for "
+msgstr "启用reCAPTCHA"
+
+#: view/recaptcha/mo_openid_recap.php:46
+msgid "WordPress Login form"
+msgstr "WordPress登录表单"
+
+#: view/recaptcha/mo_openid_recap.php:57
+msgid "WordPress Registration form"
+msgstr "WordPress注册表格"
+
+#: view/recaptcha/mo_openid_recap.php:71
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: view/recaptcha/mo_openid_recap.php:72
+msgid "Test reCAPTCHA Configuration"
+msgstr "测试reCAPTCHA配置"
+
+#: view/recaptcha/mo_openid_recap.php:78
+msgid "Configure reCAPTCHA Settings"
+msgstr "配置reCAPTCHA设置"
+
+#: view/redirect_options/mo_openid_redirect_op.php:9
+msgid "Redirect URL after login:"
+msgstr "登录后重定向URL："
+
+#: view/redirect_options/mo_openid_redirect_op.php:32
+msgid "Account dashboard"
+msgstr "帐户信息中心"
+
+#: view/redirect_options/mo_openid_redirect_op.php:40
+msgid "Custom URL"
+msgstr "自定义网址"
+
+#: view/redirect_options/mo_openid_redirect_op.php:51
+#: view/redirect_options/mo_openid_redirect_op.php:110
+msgid "Relative URL"
+msgstr "相对网址"
+
+#: view/redirect_options/mo_openid_redirect_op.php:62
+msgid ""
+"*NOTE: If you login through WordPress default login page after login you "
+"will be redirected to Homepage"
+msgstr "*注意：如果登录后通过WordPress默认登录页面登录，您将被重定向到首页"
+
+#: view/redirect_options/mo_openid_redirect_op.php:69
+msgid "Redirect URL after logout:"
+msgstr "注销后重定向URL："
+
+#: view/redirect_options/mo_openid_redirect_op.php:78
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:51
+msgid "Home Page"
+msgstr "主页"
+
+#: view/redirect_options/mo_openid_redirect_op.php:90
+msgid "Current Page"
+msgstr "当前页面"
+
+#: view/redirect_options/mo_openid_redirect_op.php:100
+msgid "Login Page"
+msgstr "登录页面"
+
+#: view/redirect_options/mo_openid_redirect_op.php:128
+msgid "Redirection Options"
+msgstr "重定向选项"
+
+#: view/registration/mo_openid_registration.php:9
+msgid "Auto Registration"
+msgstr "自动注册"
+
+#: view/registration/mo_openid_registration.php:11
+msgid "Auto-register users"
+msgstr "自动注册用户"
+
+#: view/registration/mo_openid_registration.php:15
+msgid "Registration disabled message"
+msgstr "注册已禁用消息"
+
+#: view/registration/mo_openid_registration.php:17
+msgid ""
+"If Auto-register users is unchecked, users will not be able to register "
+"using Social Login. The users who already have an account will be able to "
+"login.  This setting stands true only when users are registering using "
+"Social Login. This will not interfere with users registering through the "
+"regular WordPress registration form."
+msgstr ""
+"如果未选中“自动注册用户”，则用户将无法使用“社交登录”进行注册。已经拥有帐户的"
+"用户将能够登录。仅当用户使用社交登录进行注册时，此设置才适用。这不会干扰用户"
+"通过常规WordPress注册表单进行注册。"
+
+#: view/registration/mo_openid_registration.php:20
+msgid "Role Mapping"
+msgstr "角色映射"
+
+#: view/registration/mo_openid_registration.php:22
+msgid "Universal Role"
+msgstr "普遍角色"
+
+#: view/registration/mo_openid_registration.php:30
+msgid ""
+"Use Role Mapping to assign this role to the all users registering through "
+"Social Login. According to the role mapped user will be granted role on the "
+"website."
+msgstr ""
+"使用角色映射可将此角色分配给通过“社交登录”注册的所有用户。根据角色映射，用户"
+"将被授予网站角色。"
+
+#: view/registration/mo_openid_registration.php:32
+msgid "Enable Email Notification to Admin"
+msgstr "启用向管理员发送电子邮件通知"
+
+#: view/registration/mo_openid_registration.php:34
+msgid "Enable Email Notification to Admin - on User Registration"
+msgstr "启用向管理员发送电子邮件通知-用户注册时"
+
+#: view/registration/mo_openid_registration.php:38
+msgid "This feature requires SMTP to be configured"
+msgstr "此功能需要配置SMTP"
+
+#: view/registration/mo_openid_registration.php:41
+msgid "Set Display Picture for User"
+msgstr "为用户设置显示图片"
+
+#: view/registration/mo_openid_registration.php:43
+msgid "Set Display Picture for User - on User Registration"
+msgstr "设置用户的显示图片-用户注册时"
+
+#: view/registration/mo_openid_registration.php:53
+msgid "Registration Options"
+msgstr "注册选项"
+
+#: view/restrict_domain/mo_openid_restrict_dom.php:17
+msgid "Users with these domains will not be able to register"
+msgstr "具有这些域的用户将无法注册"
+
+#: view/restrict_domain/mo_openid_restrict_dom.php:24
+msgid "Allow Domain"
+msgstr "允许网域"
+
+#: view/restrict_domain/mo_openid_restrict_dom.php:29
+msgid "Only users with these domains will be able to register"
+msgstr "只有具有这些域的用户才能注册"
+
+#: view/shrtco/mo_openid_shrtco.php:9
+msgid ""
+"Use social login Shortcode in the content of required page/post where you "
+"want to display Social Login Icons."
+msgstr "在您想要显示社交登录图标的页面/帖子的内容中使用社交登录简码。"
+
+#: view/shrtco/mo_openid_shrtco.php:10
+msgid "Default Social Login Shortcode"
+msgstr "默认社交登录简码"
+
+#: view/shrtco/mo_openid_shrtco.php:11
+msgid "This will display Social Login Icons with same default settings"
+msgstr "这将显示具有相同默认设置的社交登录图标"
+
+#: view/shrtco/mo_openid_shrtco.php:14
+msgid "For Icons"
+msgstr "对于图标"
+
+#: view/shrtco/mo_openid_shrtco.php:15
+msgid ""
+"You can use  different attribute to customize social login icons. All "
+"attributes are optional except view."
+msgstr "您可以使用其他属性来自定义社交登录图标。除视图外，所有属性都是可选的。"
+
+#: view/shrtco/mo_openid_shrtco.php:16
+msgid "Square Shape Example"
+msgstr "方形示例"
+
+#: view/shrtco/mo_openid_shrtco.php:23
+msgid "Round Shape Example"
+msgstr "圆形示例"
+
+#: view/shrtco/mo_openid_shrtco.php:30
+msgid "For Long-Buttons"
+msgstr "对于长按钮"
+
+#: view/shrtco/mo_openid_shrtco.php:31
+msgid ""
+"You can use different attribute to customize social login buttons. All "
+"attributes are optional"
+msgstr "您可以使用其他属性来自定义社交登录按钮。所有属性都是可选的"
+
+#: view/shrtco/mo_openid_shrtco.php:32
+msgid "Vertical View Example"
+msgstr "垂直视图示例"
+
+#: view/shrtco/mo_openid_shrtco.php:37
+msgid "Horizontal View Example"
+msgstr "水平视图示例"
+
+#: view/shrtco/mo_openid_shrtco.php:41
+msgid "Note:"
+msgstr "注意"
+
+#: view/shrtco/mo_openid_shrtco.php:41
+msgid "By default Long-Button view is"
+msgstr "默认情况下，长按钮视图为"
+
+#: view/shrtco/mo_openid_shrtco.php:41
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:11
+msgid "Vertical"
+msgstr "垂直"
+
+#: view/shrtco/mo_openid_shrtco.php:43
+msgid "For Selected Applications"
+msgstr "对于选定的应用"
+
+#: view/shrtco/mo_openid_shrtco.php:44
+msgid ""
+"If you want to show selected applications without setting up default "
+"settings then use this shortcode. You can use different attribute to "
+"customize social login buttons. All attributes are optional"
+msgstr ""
+"如果要显示选定的应用程序而不设置默认设置，请使用此短代码。您可以使用其他属性"
+"来自定义社交登录按钮。所有属性都是可选的"
+
+#: view/shrtco/mo_openid_shrtco.php:45
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:17
+msgid "Example"
+msgstr "例"
+
+#: view/shrtco/mo_openid_shrtco.php:110
+msgid "Note"
+msgstr "注意"
+
+#: view/shrtco/mo_openid_shrtco.php:111
+msgid "1. If you are not registered with miniOrange and "
+msgstr "1.如果您尚未在miniOrange中注册，并且"
+
+#: view/shrtco/mo_openid_shrtco.php:111
+msgid "is also not set up then please register with us first or set up"
+msgstr "还没有设置，请先向我们注册或设置"
+
+#: view/shrtco/mo_openid_shrtco.php:111
+msgid "otherwise the buttons will be"
+msgstr "否则按钮将是"
+
+#: view/shrtco/mo_openid_shrtco.php:111 view/shrtco/mo_openid_shrtco.php:112
+msgid "disabled"
+msgstr "残障人士"
+
+#: view/shrtco/mo_openid_shrtco.php:112
+msgid "2. If Facebook is selected then please set up "
+msgstr "2.如果选择了Facebook，请进行设置"
+
+#: view/shrtco/mo_openid_shrtco.php:112
+msgid "first otherwise the buttons will be "
+msgstr "首先否则按钮将是"
+
+#: view/shrtco/mo_openid_shrtco.php:123
+msgid "Available values for attributes"
+msgstr "属性的可用值"
+
+#: view/shrtco/mo_openid_shrtco.php:127
+msgid "view"
+msgstr "视图"
+
+#: view/shrtco/mo_openid_shrtco.php:128
+msgid "horizontal, vertical"
+msgstr "水平，垂直"
+
+#: view/shrtco/mo_openid_shrtco.php:132
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:21
+msgid "shape"
+msgstr "形状"
+
+#: view/shrtco/mo_openid_shrtco.php:133
+msgid "round, roundededges, square, longbuttonwithtext"
+msgstr "圆形，圆边，方形，长按钮"
+
+#: view/shrtco/mo_openid_shrtco.php:137
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:22
+msgid "theme"
+msgstr "主题"
+
+#: view/shrtco/mo_openid_shrtco.php:138
+msgid "default, custombackground"
+msgstr "默认，custombackground"
+
+#: view/shrtco/mo_openid_shrtco.php:142
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:23
+msgid "size"
+msgstr "尺寸"
+
+#: view/shrtco/mo_openid_shrtco.php:143
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:23
+msgid "Any value between 20 to 100"
+msgstr "20至100之间的任何值"
+
+#: view/shrtco/mo_openid_shrtco.php:147
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:24
+msgid "space"
+msgstr "空间"
+
+#: view/shrtco/mo_openid_shrtco.php:148
+msgid "Any value between 0 to 100"
+msgstr "0至100之间的任何值"
+
+#: view/shrtco/mo_openid_shrtco.php:152
+msgid "width"
+msgstr "宽度"
+
+#: view/shrtco/mo_openid_shrtco.php:153
+msgid "Any value between 200 to 1000"
+msgstr "200至1000之间的任何值"
+
+#: view/shrtco/mo_openid_shrtco.php:157
+msgid "height"
+msgstr "高度"
+
+#: view/shrtco/mo_openid_shrtco.php:158
+msgid "Any value between 35 to 50"
+msgstr "35至50之间的任何值"
+
+#: view/shrtco/mo_openid_shrtco.php:162
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:30
+msgid "color"
+msgstr "颜色"
+
+#: view/shrtco/mo_openid_shrtco.php:163
+msgid "Enter color code for example"
+msgstr "输入颜色代码，例如"
+
+#: view/shrtco/mo_openid_shrtco.php:167
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:29
+msgid "heading"
+msgstr "标题"
+
+#: view/shrtco/mo_openid_shrtco.php:168
+msgid "Enter custom heading"
+msgstr "输入自定义标题"
+
+#: view/shrtco/mo_openid_shrtco.php:172
+msgid "appcnt"
+msgstr "约"
+
+#: view/shrtco/mo_openid_shrtco.php:173
+msgid "Any value for number of icons in one row"
+msgstr "一行中图标数量的任何值"
+
+#: view/shrtco/mo_openid_shrtco.php:187
+msgid "Social Login Shortcodes"
+msgstr "社交登录简码"
+
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:11
+msgid "Comment Section Heading"
+msgstr "评论部分标题"
+
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:15
+msgid "Comments - Default Label"
+msgstr "评论-默认标签"
+
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:19
+msgid "Comments - Facebook Label"
+msgstr "评论-Facebook标签"
+
+#: view/soc_com/com_Cust/mo_openid_comm_cust.php:30
+msgid "Customize Text For Social Comment Labels"
+msgstr "自定义社交评论标签的文本"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:9
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:23
+msgid "Enable Social Comments"
+msgstr "启用社交评论"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:10
+msgid "To enable Social Comments, please select Facebook Comments from"
+msgstr "要启用社交评论，请从以下位置选择Facebook评论："
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:10
+msgid " Also select one or both of the options from"
+msgstr "同时从中选择一个或两个选项"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:11
+msgid "Add Social Comments"
+msgstr "添加社交评论"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:12
+msgid "You can add social comments in the following areas from "
+msgstr "您可以在以下区域中添加社交评论："
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:12
+msgid ""
+"If you require a shortcode, please contact us from the Support form on the "
+"right."
+msgstr "如果您需要输入简码，请通过右侧的支持表格与我们联系。"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:14
+msgid "Blog Post: This option enables Social Comments on Posts / Blog Post"
+msgstr "博客帖子：此选项启用对帖子/博客帖子的社交评论"
+
+#: view/soc_com/com_Enable/mo_openid_comm_enable.php:15
+msgid ""
+"Static pages: This option places Social Comments on Pages / Static Pages "
+"with comments enabled"
+msgstr "静态页面：此选项在启用评论的页面/静态页面上放置社交评论"
+
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:14
+msgid "Select the options where you want to add social comments"
+msgstr "选择要在其中添加社交评论的选项"
+
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:20
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:74
+msgid "Blog Post"
+msgstr "博客文章"
+
+#: view/soc_com/com_display_options/mo_openid_comm_disp_opt.php:28
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:98
+msgid "Static Pages"
+msgstr "静态页面"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:9
+msgid ""
+"Select applications to add Social Comments. These commenting applications "
+"will be added to your blog post pages at the location of your comments."
+msgstr ""
+"选择应用程序以添加社交评论。这些评论应用程序将添加到您的评论位置的博客文章页"
+"面。"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:21
+msgid ""
+"If none of the below are selected, default WordPress comments will only be "
+"visible. Only selecting Default WordPress Comments will not result in any "
+"changes"
+msgstr ""
+"如果未选择以下任何一项，则默认的WordPress注释将仅可见。仅选择默认WordPress注"
+"释不会导致任何更改"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:28
+msgid "Default WordPress Comments"
+msgstr "默认WordPress注释"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:39
+msgid "Facebook Comments"
+msgstr "Facebook评论"
+
+#: view/soc_com/com_select_app/mo_openid_comm_select_app.php:55
+msgid "Social Comments"
+msgstr "社会评论"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:9
+msgid "Configure Social Comments in the Social Comments tab of the plugin"
+msgstr "在插件的“社交评论”标签中配置社交评论"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:10
+msgid "Keep both the display options checked and Save"
+msgstr "保持选中两个显示选项并保存"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:11
+msgid "Enable Comments for the post/page you want to add"
+msgstr "为要添加的帖子/页面启用评论"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:12
+msgid "Pages-> Quick Edit-> Allow Comments"
+msgstr "页面->快速编辑->允许评论"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:12
+msgid "(Skip this step if you already have Comments enabled.)"
+msgstr "（如果您已经启用了注释，请跳过此步骤。）"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:13
+msgid "Add the shortcode "
+msgstr "添加简码"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:13
+msgid "to an individual page/post"
+msgstr "到单个页面/帖子"
+
+#: view/soc_com/com_shrtco/comm_shrtco.php:16
+msgid "Social Comments Shortcodes"
+msgstr "社会评论简码"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:20
+msgid "Customize Sharing Icons"
+msgstr "自定义共享图标"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:21
+msgid "Customize shape, size and background for sharing icons"
+msgstr "自定义形状，大小和背景以共享图标"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:71
+msgid "Custom background"
+msgstr "自订背景"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:81
+msgid "No background"
+msgstr "没有背景"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:107
+msgid "Custom background: This will change the background color of share icons"
+msgstr "自定义背景：这将更改共享图标的背景颜色"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:107
+msgid "No background:This will remove the background color of share icons"
+msgstr "无背景：这将删除共享图标的背景颜色"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:112
+msgid "Preview"
+msgstr "预习"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:199
+msgid "Customize Text For Social Share Icons"
+msgstr "自定义社交共享图标的文本"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:207
+msgid "Select color for share heading"
+msgstr "选择颜色作为标题"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:210
+msgid "Enter text to show above share widget"
+msgstr "输入文字以显示在共享小部件上方"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:213
+msgid "Enter your twitter Username (without @)"
+msgstr "输入您的Twitter用户名（不带@）"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:217
+msgid "Enter the Email subject (email share)"
+msgstr "输入电子邮件主题（电子邮件共享）"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:221
+msgid "Enter the Email body (add ##url## to place the URL)"
+msgstr "输入电子邮件正文（添加## url ##来放置URL）"
+
+#: view/soc_sha/cust_text/mo_openid_cust_shricon.php:385
+msgid "Customize text for Social Share Icons"
+msgstr "自定义社交共享图标的文本"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:46
+msgid "Select the options where you want to display social share icons"
+msgstr "选择要在其中显示社交共享图标的选项"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:57
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:81
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:105
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:140
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:160
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:185
+msgid "Before content"
+msgstr "内容前"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:61
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:85
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:109
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:144
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:164
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:189
+msgid "After content"
+msgstr "内容后"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:65
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:91
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:114
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:149
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:169
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:194
+msgid "Both before and after content"
+msgstr "内容前后"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:120
+msgid " WooCommerce Individual Product Page(Top)"
+msgstr "WooCommerce个人产品页面（顶部）"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:130
+msgid "WooCommerce Individual Product Page"
+msgstr "WooCommerce个人产品页面"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:135
+msgid "BBPress Forums Page"
+msgstr "BBPress论坛页面"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:155
+msgid "BBPress Topic Page"
+msgstr "BBPress主题页面"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:178
+msgid "BBPress Reply Page"
+msgstr "BBPress回复页面"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:201
+msgid ""
+"The icons in above pages will be placed horizontally. For vertical icons, "
+"add "
+msgstr "以上页面中的图标将水平放置。对于垂直图标，添加"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:201
+msgid "miniOrange Sharing - Vertical"
+msgstr "miniOrange共享-垂直"
+
+#: view/soc_sha/disp_shropt/mo_openid_disp_shropt.php:201
+msgid "widget from Appearance->Widgets."
+msgstr "外观->小部件中的小部件。"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:17
+msgid ""
+"Share counts are supported for Facebook, Vkontakte, Stumble Upon and "
+"Pinterest"
+msgstr "Facebook，Vkontakte，Stumble On和Pinterest支持股票计数"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:19
+msgid "Enable share counts"
+msgstr "启用共享计数"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:24
+msgid "Delete Count Session"
+msgstr "删除计数会话"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:47
+msgid "Facebook Access Token"
+msgstr "Facebook访问令牌"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:48
+msgid "Instructions to configure Facebook Share Counts"
+msgstr "有关配置Facebook分享计数的说明"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:50
+msgid "Sign in with your Facebook account"
+msgstr "使用您的Facebook帐户登录"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:52
+msgid ""
+"Use an existing app if you already have one or create a new facebook\n"
+"                                        app by clicking on "
+msgstr ""
+"使用现有的应用程序（如果已有）或创建一个新的Facebook\n"
+"app 通过点击 on"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:53
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:54
+msgid "Create App"
+msgstr "建立应用程式"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:53
+msgid "My Apps"
+msgstr "我的应用程式"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:53
+msgid ""
+"and\n"
+"                                        select"
+msgstr ""
+"而\n"
+"                                    选择"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:54
+msgid ""
+" Enter Display Name i.e App Name and click\n"
+"                                        on"
+msgstr ""
+"输入显示名称，即应用名称，然后单击\n"
+"                                    上"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:55
+msgid "Create App ID"
+msgstr "创建应用ID"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "Tools"
+msgstr "工具类"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "select"
+msgstr "选择"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "Graph API Explorer"
+msgstr "Graph API资源管理器"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid "and click on"
+msgstr "点击"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:57
+msgid ""
+"Get\n"
+"                                            Access Token"
+msgstr ""
+"得到\n"
+"                                        访问令牌"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "Now, go to"
+msgstr "现在，去"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "Access Token Tool"
+msgstr "访问令牌工具"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "and press"
+msgstr "然后按"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "Debug"
+msgstr "除错"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "option at right side for the "
+msgstr "右侧的选项side"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:60
+msgid "User Token"
+msgstr "用户令牌"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:61
+msgid "Now copy the"
+msgstr "现在复制"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:61
+msgid "Access Token"
+msgstr "访问令牌"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:61
+msgid ""
+"and paste it in the above field and\n"
+"                                        click on"
+msgstr ""
+"并将其粘贴到上述字段中，\n"
+"                                    点击"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:62
+msgid "save"
+msgstr "保存"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:65
+msgid ""
+"According to the new updates of\n"
+"                                        Facebook API it will expires after "
+"every 60 days. So to avoid any\n"
+"                                        issues update it again before 60 days"
+msgstr ""
+"根据最新更新\n"
+"                                    Facebook API每60天就会过期。所以要避免任"
+"何\n"
+"                                    问题会在60天之前再次更新。"
+
+#: view/soc_sha/share_cnt/mo_openid_shrcnt.php:101
+msgid "Share Counts"
+msgstr "共享计数"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:10
+msgid "Horizontal"
+msgstr "卧式"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:15
+msgid "For Sharing Icons"
+msgstr "用于共享图标"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:16
+msgid ""
+" You can use  different attribute to customize social sharing icons. All "
+"attributes are optional"
+msgstr "您可以使用其他属性来自定义社交共享图标。所有属性都是可选的"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:20
+msgid "Common attributes - Horizontal and Vertical"
+msgstr "共同属性-水平和垂直"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:21
+msgid " round, roundededges, square"
+msgstr "圆形，圆角，正方形"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:22
+msgid "default, custombackground, nobackground"
+msgstr "默认，custombackground，nobackground"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:24
+msgid "Any value between 0 to 50"
+msgstr "0至50之间的任何值"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:25
+msgid "url"
+msgstr "网址"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:25
+msgid "Enter custom URL for sharing"
+msgstr "输入自定义网址以进行共享"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:26
+msgid "fontcolor"
+msgstr "字体颜色"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:26
+msgid "Enter custom color for icons (only works with no background theme"
+msgstr "输入图标的自定义颜色（仅适用于无背景主题"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:27
+msgid "sharecnt"
+msgstr "共享"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:27
+msgid " yes, no "
+msgstr "是的，没有"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:27
+msgid "To see social share count*"
+msgstr "查看社交分享计数*"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:28
+msgid "Horizontal attributes"
+msgstr "水平属性"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:29
+msgid "Enter custom heading text"
+msgstr "输入自定义标题文本"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:30
+msgid ""
+" Enter custom text color for heading eg: cyan, red, blue, orange, yellow"
+msgstr "输入标题的自定义文本颜色，例如：青色，红色，蓝色，橙色，黄色"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:32
+msgid "Vertical attributes"
+msgstr "垂直属性"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:33
+msgid "alignment"
+msgstr "对准"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:33
+msgid "left,right"
+msgstr "左右"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:34
+msgid "topoffset"
+msgstr "顶偏移"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:34
+msgid "Any value(height from top) between 0 to 1000"
+msgstr "0到1000之间的任何值（从顶部开始的高度）"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:35
+msgid "rightoffset(Applicable if alignment is right)"
+msgstr "rightoffset（如果对齐正确，则适用）"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:35
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:36
+msgid "Any value between 0 to 200"
+msgstr "0至200之间的任何值"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:36
+msgid "leftoffset(Applicable if alignment is left)"
+msgstr "leftoffset（如果左对齐，则适用）"
+
+#: view/soc_sha/shrt_co/mo_openid_shrtco.php:45
+msgid "Social Sharing Shortcode"
+msgstr "社交分享简码"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:18
+msgid "Select Social Apps"
+msgstr "选择社交应用"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:20
+msgid "Select applications to enable social sharing"
+msgstr "选择应用程序以启用社交共享"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:28
+msgid "Facebook"
+msgstr "脸书"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:36
+msgid "Twitter"
+msgstr "推特"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:47
+msgid "Google"
+msgstr "谷歌"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:61
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:74
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:91
+msgid "StumbleUpon"
+msgstr "偶然发现"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:105
+msgid "LinkedIn"
+msgstr "领英"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:134
+msgid "Pinterest"
+msgstr "Pinterest的"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:148
+msgid "Pocket"
+msgstr "口袋"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:165
+msgid "Digg"
+msgstr "掘客"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:178
+msgid "Delicious"
+msgstr "美味的"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:191
+msgid "Odnoklassniki"
+msgstr "同学们"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:214
+msgid "Print"
+msgstr "打印"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:228
+msgid "Whatsapp"
+msgstr "Whatsapp的"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:249
+msgid "No apps selected"
+msgstr "未选择任何应用"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:556
+msgid ""
+"Custom background: This will\n"
+"                        change the background color of sharing icons"
+msgstr ""
+"自定义背景：这将\n"
+"                        更改共享图标的背景颜色"
+
+#: view/soc_sha/soc_apps/mo_openid_sharing.php:558
+msgid ""
+"No background: This will change the font color of icons without background"
+msgstr "没有背景：这将更改没有背景的图标的字体颜色"
