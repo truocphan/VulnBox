@@ -1,0 +1,123 @@
+/* Sale Notification */
+.wcsales-notification-content {
+  position: fixed;
+  bottom: 10px;
+  background: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  left: -150px;
+  align-items: center;
+  box-shadow: 0 0 10px #ccc;
+  width: 550px;
+  border-radius: 10px;
+  z-index: 999;
+}
+.wcsales-notification-content.topleft {
+  left: 10px;
+  top:10px;
+  bottom: auto;
+}
+.wcsales-notification-content.topright {
+  left: auto;
+  right:10px;
+  top:10px;
+  bottom: auto;
+}
+.logged-in .wcsales-notification-content.topleft,.logged-in .wcsales-notification-content.topright {
+  top:45px;
+}
+.wcsales-notification-content.bottomleft {
+  left: 10px;
+}
+.wcsales-notification-content.bottomright {
+  right: 10px;
+  left: auto;
+}
+.wcsales-notification-content.imageright {
+  flex-direction: row-reverse;
+  padding-right: 0;
+  padding-left: 20px;
+}
+.wcnotification_image {
+  padding-right: 15px;
+  flex: 0 0 25%;
+}
+.wcnotification_image img{
+  border-radius: 5px;
+}
+.wcsales-notification-content.imageright .wcnotification_image {
+  padding-right: 0;
+  padding-left: 15px;
+}
+.wcnotification_content {
+  flex: 0 0 75%;
+}
+.imageright .wcnotification_content {
+  text-align: right;
+}
+.wcnotification_content h4,.wlnotification_content h6{
+  margin: 0;
+  color: #000;
+}
+.wcnotification_content h4{
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.wcnotification_content h6{
+  font-size: 14px;
+}
+.wcnotification_content p {
+  margin-bottom: 3px;
+  max-width: 450px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #7e7e7e;
+}
+.wcsales-buyername {
+  font-size: 12px;
+  float: right;
+}
+.imageright .wcsales-buyername {
+  float: left;
+}
+.wccross {
+  position: absolute;
+  right: 0px;
+  top: 4px;
+  color: #000;
+  font-size: 20px;
+  line-height: 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.wccross:hover{
+  color: #f05b64;
+}
+
+/* Normal  :1366px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .wcsales-notification-content {
+      width: 90%;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

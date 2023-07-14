@@ -1,0 +1,183 @@
+.htm-api-notice{
+    background: #edd7da;
+    padding: 20px;
+}
+.htm-api-notice a{
+    text-decoration: underline;
+    color: #d35959;
+}
+.htm-api-notice p{
+    margin: 0px;
+}
+.htm-weather-wraper{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    background-color: #ff7a5a;
+    color: #fff;
+    position: relative;
+}
+.htm-weather-wraper:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.htm-weather-wraper p, .htm-weather-wraper h3{
+    margin-bottom: 0px;
+}
+.htm-weather-wraper h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.htm-current-weather{
+    margin-bottom: 35px;
+}
+.htm-current-weather .week-days{
+    font-size: 24px;
+}
+.htm-weather-title{
+    position: relative;
+    z-index: 11111;
+}
+.htm-current-weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 11111;
+}
+
+.htm-current-weather .temp-num{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.htm-current-weather .temp-type{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.htm-current-weather .week-days{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.htm-current-weather .current-date{
+    font-size: 20px;
+}
+
+.htm-current-weather .humidity{
+    font-size: 30px;
+}
+.htm-current-weather .humidity i:before{
+    font-size: 35px;
+    vertical-align: middle;
+}
+.htm-current-weather .humidity .humidity-percent{
+    margin-left: 8px;
+}
+.htm-current-weather .htm-current-2{
+    text-align: center;
+}
+.htm-current-weather .htm-current-2 i{
+    margin-bottom: 10px;
+}
+.htm-current-weather i:before, .htm-weather-forcast .forcast-day i:before{
+    font-size: 50px;
+}
+.htm-weather-sun{
+    margin-bottom: 35px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    z-index: 11111;
+}
+.htm-weather-sun-wraper{
+    width: 100%;
+    padding: 30px 0px;
+}
+.htm-weather-sun-wraper .sun-rise{
+    margin-bottom: 6px;
+}
+.htm-weather-sun-wraper .sun-forcast{
+    display: flex;
+    justify-content: space-between;
+}
+
+.htm-weather-sun-wraper .sun-forcast span img{
+    margin-right: 10px;
+    margin-top: -7px;
+}
+.htm-weather-forcast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 11111;
+}
+.htm-weather-forcast .forcast-day{
+    text-align: center;
+    display: inline-block;
+}
+.htm-weather-forcast .forcast-day i{
+    margin-bottom: 10px;
+}
+.htm-weather-forcast .forcast-day .week-day{
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+.htm-weather-forcast .forcast-temp{
+    font-size: 24px;
+}
+
+/* layout 2 */
+
+.htm-weather-wraper.layout-2{
+    background-color: #2a48df;
+}
+
+.htm-weather-wraper.layout-2 .htm-current-weather{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #fff;
+}
+
+/* layout 4 */
+
+.htm-weather-wraper.layout-4 .htm-weather-forcast{
+    border-top: 1px solid #fff;
+    padding-top: 35px;
+}
+.htm-weather-wraper.layout-4{
+    background: linear-gradient(to bottom, #da0c5d, #d2007e, #bb00a1, #8f2dc3, #2a48e0);
+}
+
+
+@media only screen and (max-width: 650px) {
+    .htm-weather-forcast{
+        justify-content: normal;
+    }
+
+    .htm-current-weather .temp-num{
+        font-size: 38px;
+    }
+
+    .htm-weather-sun-wraper{
+        width: 100%;
+    }
+
+    .htm-weather-forcast .forcast-day{
+        width: 33.33%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+

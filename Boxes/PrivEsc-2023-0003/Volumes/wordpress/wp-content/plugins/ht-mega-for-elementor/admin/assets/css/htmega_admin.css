@@ -1,0 +1,510 @@
+.metabox-holder .htmega_label_none th{
+    display: none;
+}
+#htmega_element_tabs h2, #htmega_thirdparty_element_tabs h2{
+  display: none;
+}
+#htmega_element_tabs, #htmega_thirdparty_element_tabs{
+  margin-top: 15px;
+}
+
+#htmega_element_tabs table tr, #htmega_thirdparty_element_tabs table tr, #htmega_element_pro_tabs table tr, #htmega_advance_element_tabs table tr, #htmega_themebuilder_element_tabs table tr {
+  border: 1px solid #ddd;
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 0 20px;
+}
+
+#htmega_element_tabs table tr td, #htmega_element_tabs table tr th, #htmega_thirdparty_element_tabs table tr td,#htmega_thirdparty_element_tabs table tr th,#htmega_element_pro_tabs table tr td, #htmega_element_pro_tabs table tr th{
+    padding-right: 0;
+}
+
+#htmega_element_tabs table tr.htmega_title_row,#htmega_thirdparty_element_tabs table tr.htmega_title_row,#htmega_element_pro_tabs table tr.htmega_title_row {
+  border: medium none;
+  display: block;
+  width: 100%;
+}
+
+#htmega_element_tabs table tr.htmega_title_row h2,#htmega_thirdparty_element_tabs table tr.htmega_title_row h2,#htmega_element_pro_tabs table tr.htmega_title_row h2{
+    margin: 0;
+}
+
+#htmega_element_tabs table tr.htmega_title_row td,#htmega_thirdparty_element_tabs table tr.htmega_title_row td,#htmega_element_pro_tabs table tr.htmega_title_row td {
+  padding: 0;
+}
+
+/* Check box */
+.htmega_element_checkbox label {
+    padding: 2px;
+    width: 43px;
+    height: 15px;
+    background-color: #2c3e50;
+    border-radius: 60px;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    position: relative;
+    text-indent: -99999px;
+}
+.htmega_element_checkbox label::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+}
+.htmega_element_checkbox label::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    width: 18px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    -webkit-transition: margin 0.2s, background 0.2s;
+    transition: margin 0.2s, background 0.2s;
+}
+.htmega_element_checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.htmega_element_checkbox input:checked + label {
+    background-color: #22b9ff;
+}
+.htmega_element_checkbox input:checked + label::after {
+    background-color: #22b9ff;
+    margin-left: 23px;
+}
+
+/* 
+* Element Toggler
+*/
+.htmega-open-element-toggle,.htmega-fb-clear-cache-btn {
+  display: inline-block;
+  padding: 7px 15px;
+  background: #428bfa none repeat scroll 0 0;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.4s;
+  border: none;
+}
+.htmega-open-element-toggle:hover,.htmega-fb-clear-cache-btn:hover{
+  background: #2c3e50;
+}
+
+/* PopUp Notice */
+.htmega-content{
+  text-align: center;
+}
+.htmega-content > p {
+  font-size: 20px;
+}
+.htmega-content > span i {
+  font-size: 30px;
+}
+.htmega_table_row.pro span,.htmegapro .description span {
+  color: #FF0000;
+}
+.htmega_table_row >th{
+  min-width: 200px;
+  width: auto;
+}
+
+/* 
+* General Tab HTML 
+*/
+#htmega_pro_vs_free_tabs h2,#htmega_pro_vs_free_tabs .submit{
+  display: none;
+}
+.htmega-column {
+  float: left;
+  padding: 0 15px;
+}
+.htmega-document-section {
+  margin-top: 25px;
+  overflow: hidden;
+}
+.htmega-section-title {
+  font-size: 20px;
+  padding-left: 15px;
+}
+.htmega-admin-row {
+  display: flex;
+  overflow: hidden;
+}
+.features-list-area {
+  border: 1px solid #ddd;
+  float: left;
+  margin: 0 15px;
+  padding: 0 15px;
+}
+.features-list-area li {
+  font-size: 16px;
+  padding: 4px 0 4px 5px;
+  position: relative;
+}
+.features-list-area li::before {
+  content: "";
+  font-family: dashicons;
+  left: -5px;
+  position: relative;
+  top: 2px;
+}
+.features-list-area li.fedel::before{
+  content: "\f335";
+}
+.features-list-area .button.button-primary,.woolentor-price-plan .button.button-primary{
+  margin: 5px 0 20px;
+}
+
+/* Tab panel */
+.htmega-admin-tab-pane{
+  display: none;
+}
+.htmega-admin-tab-pane.httabactive{
+  display: block;
+}
+.httemplate-row .htmega-admin-tab-pane{
+  margin-left: -15px;
+  overflow: hidden;
+}
+.htmega-admin-tabs li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.htmega-admin-tabs li:last-child{
+    margin-right: 0;
+}
+.httemplate-row .htmega-admin-tabs li a {
+  background: #428bfa none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  font-weight: 600;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  border: none;
+}
+.httemplate-row .htmega-admin-tabs li a:focus{
+  box-shadow: none;
+}
+.httemplate-row .htmega-admin-tabs li a:hover, .httemplate-row .htmega-admin-tabs li a.httabactive{
+  background: #d30c5c;
+  border-color: #d30c5c;
+}
+.htmega-admin-tab-area {
+  margin: 20px 0 15px;
+}
+
+.spinner.loading {
+  visibility: visible;
+}
+/*============Menu option=================*/
+ul#menu-to-edit li.menu-item-depth-6 .hidn,
+ul#menu-to-edit li.menu-item-depth-5 .hidn,
+ul#menu-to-edit li.menu-item-depth-4 .hidn,
+ul#menu-to-edit li.menu-item-depth-3 .hidn,
+ul#menu-to-edit li.menu-item-depth-2 .field-enablemegamenu,
+ul#menu-to-edit li.menu-item-depth-2 .field-menuposition,
+ul#menu-to-edit li.menu-item-depth-2 .field-template ,
+ul#menu-to-edit li.menu-item-depth-2 .field-menuwidth ,
+ul#menu-to-edit li.menu-item-depth-1 .field-template ,
+ul#menu-to-edit li.menu-item-depth-1 .field-menuwidth ,
+ul#menu-to-edit li.menu-item-depth-1 .cs-fieldset,
+ul#menu-to-edit li.menu-item-depth-1 .field-menuposition,
+ul#menu-to-edit li.menu-item-depth-1 .field-enablemegamenu ,
+ul#menu-to-edit li.menu-item-depth-0 .cs-fieldset ,
+ul#menu-to-edit li.menu-item-depth-0 .field-columntitle{
+    display: none;
+}
+.menu-settings {
+  clear: both;
+}
+.menu-item-edit-active .menu-item-settings {
+  float: left;
+  margin-bottom: 10px;
+}
+.htmenu-pro-badge {
+  color: red;
+}
+
+/* Sidebar Add banner */
+.htoptions-area {
+  width: 75%;
+  float: left;
+}
+.htoptions-area + .htoptions-sidebar-adds-area {
+  width: 22%;
+  float: right;
+}
+.htoptions-sidebar-adds-area .htoptions-banner-img{
+  width: 100%;
+}
+.htoptions-sidebar-adds-area > a{
+  display: block;
+  line-height: 0;
+  margin-bottom: 40px;
+}
+.htoption-banner-area {
+  background: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 30px 50px;
+  box-shadow: 0 0 28px rgba(0,0,0,0.1);
+  background-image: url(../images/side-add-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-color: #13177D;
+}
+
+.htoption-banner-pricing .htoption-old-price {
+  color: #fff;
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.htoption-banner-pricing .htoption-new-price {
+  color: #01C6E3;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+p.htoption-save-amount {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid #01c6e378;
+  border-top: 1px solid #01c6e378;
+  margin: 0;
+  font-weight: 300;
+}
+.htoption-coupon {
+  display: inline-block;
+  background: #fff;
+  padding: 8px 11px;
+  border: 2px dashed #13177D;
+  width: 100%;
+}
+.htoption-coupon-box h4 {
+  font-size: 16px;
+  color: #01C6E3;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.htoption-coupon input {
+  border: none;
+  padding: 0;
+  border-right: 2px solid #01C6E3;
+  border-radius: 0;
+  margin-right: 6px;
+  padding-right: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #13177D;
+  min-height: auto;
+  min-width: auto;
+  line-height: 1;
+  width: calc(100% - 74px);
+  background: transparent;
+}
+.htoption-coupon input:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-right: 2px solid #01C6E3;
+}
+.htoption-coupon .htoption-coupon-btn {
+  font-size: 13px;
+  color: #13177D;
+  border: none;
+  background: no-repeat;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+  min-width: 63px;
+}
+.htoption-coupon .htoption-coupon-btn img {
+  position: relative;
+  top: 2px;
+}
+.htoption-banner-area .htoption-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.htoption-logo img {
+  width: 90px;
+}
+.htoption-banner-area .htoption-intro {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.htoption-banner-area .htoption-intro p {
+  line-height: 25px;
+  font-size: 22px;
+}
+
+ul.htoption-feature{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.htoption-feature li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+ul.htoption-feature li::before {
+  position: absolute;
+  content: url(../images/icon/check.png);
+  width: 15px;
+  height: 20px;
+  top: 4px;
+  left: 0;
+  margin: 0;
+}
+ul.htoption-feature li + li {
+  margin-top: 15px;
+}
+.htoption-action-btn {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.htoption-action-btn a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 1px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  background-image: linear-gradient(100deg, #1DAEFF 0%, #303AFF 100%);
+  color: #fff;
+  text-decoration: none!important;
+  max-width: 250px;
+  width: 100%;
+}
+.htoption-action-btn a span {
+  width: 100%;
+  background:transparent;
+  height: 100%;
+  display: block;
+  padding: 8px 25px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-align:center;
+  transition: all 0.3s ease-in-out;
+}
+.htoption-action-btn:hover span{
+  background:#fff;
+  color:#027EFF;
+}
+.htoption-coupon-copy-content,.htoption-coupon-copied-content{
+  display: none;
+} 
+.htoption-btn-copy-status-copy .htoption-coupon-copy-content,.htoption-btn-copy-status-copied .htoption-coupon-copied-content{
+  display: block;
+}
+
+.htoption-rating-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 28px rgba(0,0,0,0.1);
+}
+.htoption-rating-area .htoption-rating-icon {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+  padding-right: 20px;
+}
+.htoption-rating-area .htoption-rating-intro {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 100%;
+}
+
+/*Template Library Warning Box*/
+
+.htmega-template-library{
+    background: #eee;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px 0px rgb(0 0 0 / 31%);
+    padding-bottom: 30px;
+
+}
+.htmega-library-warning-image{
+    background: #d50000;
+    margin-bottom: 30px;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 12px;
+}
+.htmega-template-library h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.htmega-template-library{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.htmega-template-library p{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px 30px;
+}
+
+/* Facebook review */
+tr.fb_page_id {
+  border-top: 1px solid #ddd;
+}
+tr.schedule_update_days {
+  border-bottom: 1px solid #ddd;
+}
+/* admin footer sticky */
+.htmega-admin-sticky {
+  position: sticky;
+  bottom: 0;
+  background-color: #f0f0f1;
+  z-index: 99;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
