@@ -1,0 +1,94 @@
+{
+  "apiVersion": 2,
+  "name": "kadence/advanced-form-radio",
+  "category": "kadence-blocks",
+  "textdomain": "kadence-blocks",
+  "attributes": {
+    "uniqueID": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string",
+      "default": ""
+    },
+    "placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "showLabel": {
+      "type": "boolean",
+      "default": true
+    },
+    "required": {
+      "type": "boolean",
+      "default": false
+    },
+    "defaultValue": {
+      "type": "string"
+    },
+    "defaultParameter": {
+      "type": "string"
+    },
+    "ariaDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "helpText": {
+      "type": "string",
+      "default": ""
+    },
+    "options": {
+      "type": "array",
+      "default": [
+        {
+          "value": "",
+          "label": "",
+          "selected": false
+        }
+      ]
+    },
+    "maxWidth": {
+      "type": "array",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "maxWidthUnit": {
+      "type": "string",
+      "default": "%"
+    },
+    "minWidth": {
+      "type": "array",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "minWidthUnit": {
+      "type": "string",
+      "default": "px"
+    },
+    "inputName": {
+      "type": "string"
+    },
+    "requiredMessage": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "reusable": false,
+    "kbMetadata": true,
+    "kbContentLabel": "label"
+  },
+  "parent": [
+    "kadence/advanced-form"
+  ]
+}

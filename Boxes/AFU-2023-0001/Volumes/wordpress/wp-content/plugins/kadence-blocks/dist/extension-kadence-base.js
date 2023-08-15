@@ -1,0 +1,1 @@
+(()=>{"use strict";var e={};(e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})})(e);const n=window.kadence.icons;wp.blocks.updateCategory("kadence-blocks",{icon:n.kadenceCatNewIcon}),(this.kadence=this.kadence||{})["extension-kadence-base"]=e})();

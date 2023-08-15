@@ -1,0 +1,8229 @@
+# Copyright (C) 2023 Kadence WP
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kadence Blocks – Gutenberg Blocks for Page Builder Features 3.0.15\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kadence-blocks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-23T22:55:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: kadence-blocks\n"
+
+#. Plugin Name of the plugin
+msgid "Kadence Blocks – Gutenberg Blocks for Page Builder Features"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.kadencewp.com/product/kadence-gutenberg-blocks/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Advanced Page Building Blocks for Gutenberg. Create custom column layouts, backgrounds, dual buttons, icons etc."
+msgstr ""
+
+#. Author of the plugin
+msgid "Kadence WP"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.kadencewp.com"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:63
+#: includes/form-ajax.php:440
+msgid "Submission rejected, invalid security token. Reload the page and try again."
+msgstr ""
+
+#: includes/advanced-form-ajax.php:63
+#: includes/form-ajax.php:440
+msgid "Token invalid"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:76
+#: includes/form-ajax.php:101
+msgid "Submission Rejected"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:76
+#: includes/form-ajax.php:101
+msgid "Spam Detected"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:84
+#: includes/advanced-form-ajax.php:87
+#: includes/advanced-form-ajax.php:91
+#: includes/form-ajax.php:108
+#: includes/form-ajax.php:111
+#: includes/form-ajax.php:115
+msgid "reCAPTCHA Failed"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:109
+#: includes/form-ajax.php:434
+msgid "Third Party Failed"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:116
+#: includes/form-ajax.php:443
+msgid "Submission failed"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:116
+#: includes/form-ajax.php:443
+msgid "No Data"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:152
+#: includes/form-ajax.php:478
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Accept"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:232
+#: includes/advanced-form-ajax.php:244
+msgid "Missing a required field"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:234
+#: includes/advanced-form-ajax.php:246
+#: includes/advanced-form-ajax.php:256
+#: includes/advanced-form-ajax.php:261
+#: includes/advanced-form-ajax.php:271
+#: includes/advanced-form-ajax.php:281
+#: includes/advanced-form-ajax.php:301
+#: includes/advanced-form-ajax.php:575
+#: includes/advanced-form-ajax.php:608
+#: includes/form-ajax.php:55
+#: includes/form-ajax.php:75
+#: includes/form-ajax.php:701
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Submission Failed"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:256
+msgid "File too large"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:261
+msgid "File was not uploaded"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:271
+msgid "File type not allowed"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:281
+msgid "Not enough disk space on the server."
+msgstr ""
+
+#: includes/advanced-form-ajax.php:301
+msgid "Failed to upload file"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:575
+#: includes/form-ajax.php:701
+msgid "Data not found"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:607
+#: includes/form-ajax.php:74
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Submission Success, Thanks for getting in touch!"
+msgstr ""
+
+#: includes/advanced-form-ajax.php:609
+#: includes/form-ajax.php:76
+msgid "Submission Failed, reCaptcha spam prevention. Please reload your page and try again."
+msgstr ""
+
+#: includes/advanced-form/advanced-form-cpt.php:44
+#: includes/advanced-form/advanced-form-cpt.php:52
+msgid "You do not have permission to view these posts."
+msgstr ""
+
+#: includes/advanced-form/advanced-form-submit-actions.php:14
+#: includes/form-ajax.php:65
+#: includes/form-ajax.php:207
+msgid "Submission"
+msgstr ""
+
+#: includes/advanced-form/advanced-form-submit-actions.php:182
+#: includes/form-ajax.php:359
+msgid "No Response from MailerLite"
+msgstr ""
+
+#: includes/advanced-form/advanced-form-submit-actions.php:186
+#: includes/form-ajax.php:363
+msgid "MailerLite Misconfiguration"
+msgstr ""
+
+#: includes/advanced-form/advanced-form-submit-actions.php:186
+#: includes/form-ajax.php:363
+msgid "MailerLite Failed"
+msgstr ""
+
+#: includes/advanced-form/advanced-form-submit-actions.php:755
+msgid "Not Collected"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:794
+msgid "See more"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:623
+#: dist/blocks-countdown.js:1
+msgid "Days"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:624
+#: dist/blocks-countdown.js:1
+msgid "Hrs"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:625
+#: dist/blocks-countdown.js:1
+msgid "Mins"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:626
+#: dist/blocks-countdown.js:1
+msgid "Secs"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-form-block.php:760
+msgid "Please enable JavaScript in your browser to submit the form"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-form-block.php:799
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Please fix the errors to proceed"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-form-block.php:801
+#: dist/blocks-form.js:1
+msgid "is required"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-form-block.php:802
+msgid "does not match"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-form-block.php:803
+#: dist/blocks-form.js:1
+msgid "is not valid"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-form-block.php:804
+msgid "requires a unique entry and this value has already been used"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-form-block.php:805
+msgid "Item"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-posts-block.php:256
+msgid "No posts"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1224
+#: dist/blocks-rowlayout.js:11
+msgid "Play"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1225
+#: dist/blocks-rowlayout.js:11
+msgid "Pause"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1227
+#: dist/blocks-rowlayout.js:11
+msgid "Unmute"
+msgstr ""
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1228
+#: dist/blocks-rowlayout.js:11
+msgid "Mute"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:84
+msgid "Name Prefix"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:88
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "First Name"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:92
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Last Name"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:96
+msgid "Full Name"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:100
+msgid "Timezone"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:104
+#: dist/blocks-form.js:1
+msgid "Address Line 1"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:108
+msgid "Address Line 2"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:112
+msgid "City"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:116
+msgid "State"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:120
+#: dist/blocks-form.js:1
+msgid "Postal Code"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:124
+msgid "Country"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:128
+#: dist/blocks-advanced-form.js:1
+msgid "Phone"
+msgstr ""
+
+#: includes/class-fluentcrm-form-rest-api.php:132
+msgid "Source"
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:325
+msgid "Limit results to items of a specific post type."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:344
+msgid "Include posts by ID."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:350
+msgid "Number of results to return."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:356
+msgid "Define Type of Query."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:360
+msgid "Define Query Order."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:364
+#: includes/class-kadence-blocks-posts-rest-api.php:392
+msgid "Define Query Order By."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:368
+msgid "Allow Sticky in Query."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:373
+msgid "Exclude Category."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:377
+msgid "Number of items to offset in query."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:383
+msgid "The Current Post ID."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:387
+msgid "Check if using a custom Taxonomy"
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:396
+msgid "Include posts category."
+msgstr ""
+
+#: includes/class-kadence-blocks-posts-rest-api.php:401
+msgid "Include posts tags."
+msgstr ""
+
+#: includes/class-kadence-blocks-prebuilt-library.php:443
+msgid "No Connection data"
+msgstr ""
+
+#: includes/class-kadence-blocks-prebuilt-library.php:512
+#: includes/class-kadence-blocks-prebuilt-library.php:535
+#: includes/class-kadence-blocks-prebuilt-library.php:569
+#: includes/class-kadence-blocks-prebuilt-library.php:830
+msgid "No library data"
+msgstr ""
+
+#: includes/class-kadence-blocks-prebuilt-library.php:639
+#: includes/class-kadence-blocks-prebuilt-library.php:645
+msgid "No data"
+msgstr ""
+
+#: includes/class-kadence-blocks-table-of-contents.php:369
+#: includes/class-kadence-blocks-table-of-contents.php:826
+#: includes/class-kadence-blocks-table-of-contents.php:835
+msgid "Expand Table of Contents"
+msgstr ""
+
+#: includes/class-kadence-blocks-table-of-contents.php:370
+#: includes/class-kadence-blocks-table-of-contents.php:826
+#: includes/class-kadence-blocks-table-of-contents.php:835
+msgid "Collapse Table of Contents"
+msgstr ""
+
+#: includes/class-kadence-blocks-table-of-contents.php:821
+#: includes/class-kadence-blocks-table-of-contents.php:829
+#: includes/settings/class-kadence-blocks-settings.php:1085
+#: dist/blocks-tableofcontents.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Table of Contents"
+msgstr ""
+
+#: includes/class-lottieanimation-post-rest-api.php:61
+msgid "Lottie animation contains invalid JSON"
+msgstr ""
+
+#: includes/class-lottieanimation-post-rest-api.php:67
+msgid "Please enter an animation title"
+msgstr ""
+
+#: includes/form-ajax.php:55
+msgid "Data not Found"
+msgstr ""
+
+#: includes/form-ajax.php:182
+msgid "Required Field Empty"
+msgstr ""
+
+#: includes/init.php:181
+msgid "%s and higher"
+msgstr ""
+
+#: includes/init.php:376
+#: includes/init.php:404
+#: includes/init.php:448
+#: includes/init.php:477
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-singlebtn.js:1
+#: dist/components.js:14
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Inherit"
+msgstr ""
+
+#: includes/init.php:379
+#: includes/init.php:405
+#: includes/init.php:451
+#: includes/init.php:478
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Thin 100"
+msgstr ""
+
+#: includes/init.php:381
+#: includes/init.php:406
+#: includes/init.php:453
+#: includes/init.php:479
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Extra-Light 200"
+msgstr ""
+
+#: includes/init.php:383
+#: includes/init.php:407
+#: includes/init.php:455
+#: includes/init.php:480
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Light 300"
+msgstr ""
+
+#: includes/init.php:385
+#: includes/init.php:387
+#: includes/init.php:408
+#: includes/init.php:457
+#: includes/init.php:459
+#: includes/init.php:481
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Regular"
+msgstr ""
+
+#: includes/init.php:389
+#: includes/init.php:409
+#: includes/init.php:461
+#: includes/init.php:482
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Medium 500"
+msgstr ""
+
+#: includes/init.php:391
+#: includes/init.php:410
+#: includes/init.php:463
+#: includes/init.php:483
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: includes/init.php:393
+#: includes/init.php:411
+#: includes/init.php:465
+#: includes/init.php:484
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Bold 700"
+msgstr ""
+
+#: includes/init.php:395
+#: includes/init.php:412
+#: includes/init.php:467
+#: includes/init.php:485
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: includes/init.php:397
+#: includes/init.php:413
+#: includes/init.php:469
+#: includes/init.php:486
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: includes/init.php:735
+#: includes/init.php:762
+#: includes/settings/class-kadence-blocks-settings.php:503
+#: includes/settings/class-kadence-blocks-site-health.php:150
+msgid "Kadence Blocks"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:150
+msgid "I couldn't understand how to make it work."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:155
+msgid "I found a better plugin."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:160
+msgid "I need a specific feature kadence blocks doesn't provide."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:165
+msgid "Something is broken."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:170
+msgid "Other"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:194
+msgid "Help us make Kadence Blocks even better."
+msgstr ""
+
+#. translators: placeholder: username.
+#: includes/settings/class-kadence-blocks-settings.php:197
+msgid "Hi, %1$s! At KadenceWP, we're always looking for more ways to make our products better for you. If you opt into sharing some data on your usage of Kadence Blocks, it helps us identify key areas where we can improve. In return, we'll also email helpful articles and guides to get more out of Kadence, WordPress, and more. If you skip this, that's okay. Kadence Blocks will work just fine. We hope you love building with Kadence."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:328
+msgid "Pale pink"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:333
+msgid "Vivid red"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:338
+msgid "Luminous vivid orange"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:343
+msgid "Luminous vivid amber"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:348
+msgid "Light green cyan"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:353
+msgid "Vivid green cyan"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:358
+msgid "Pale cyan blue"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:363
+msgid "Vivid cyan blue"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:368
+msgid "Very light gray"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:373
+msgid "Cyan bluish gray"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:378
+msgid "Very dark gray"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:503
+#: includes/settings/class-kadence-blocks-settings.php:504
+msgid "Kadence Blocks -  Gutenberg Page Builder Blocks"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:512
+#: dist/extension-block-css.js:3
+#: dist/plugin-kadence-control.js:3
+msgid "Close"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:513
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/components.js:18
+#: dist/plugin-kadence-control.js:3
+msgid "Save"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:514
+msgid "Updating"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:515
+msgid "Updated"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:516
+msgid "Config"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:517
+msgid "Default Settings"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:523
+#: includes/settings/class-kadence-blocks-settings.php:529
+#: includes/settings/class-kadence-blocks-settings.php:535
+#: includes/settings/class-kadence-blocks-settings.php:541
+#: includes/settings/class-kadence-blocks-settings.php:547
+#: includes/settings/class-kadence-blocks-settings.php:553
+#: includes/settings/class-kadence-blocks-settings.php:559
+#: includes/settings/class-kadence-blocks-settings.php:565
+#: includes/settings/class-kadence-blocks-settings.php:571
+#: includes/settings/class-kadence-blocks-settings.php:577
+msgid "Setting defaults has moved into Gutenberg, click on the top right corner settings and go to Kadence Blocks Controls"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:605
+msgid "Config Kadence Block Defaults"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:616
+msgid "Config Kadence Block Settings View"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:627
+msgid "Config Kadence Blocks Color Palette"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:638
+msgid "Config Kadence Blocks Global Settings"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:649
+msgid "Google reCaptcha Site Key"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:660
+msgid "Google reCaptcha Secret Key"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:671
+msgid "Google reCaptcha Language"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:704
+msgid "Config Kadence Blocks Cloud"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:715
+msgid "Subscribe to Wireframe library"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:764
+msgid "Small Template"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:765
+msgid "Large Template"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:767
+msgid "Post default"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:768
+msgid "Page Default"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:770
+msgid "Enable Editor Width"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:779
+msgid "Allows for changes to the editor width on per page/post basis with preset defaults."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:781
+#: includes/settings/class-kadence-blocks-settings.php:794
+msgid "False"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:782
+#: includes/settings/class-kadence-blocks-settings.php:795
+msgid "True"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:792
+msgid "Experimental editor CSS for less excess margins in Gutenberg in an attempt to get a closer WYSIWYG editing experience."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:805
+#: includes/settings/class-kadence-blocks-settings.php:814
+msgid "px"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:824
+#: includes/settings/class-kadence-blocks-settings.php:836
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+#: dist/plugin-kadence-control.js:1
+msgid "Small"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:825
+#: includes/settings/class-kadence-blocks-settings.php:837
+#: dist/blocks-column.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+#: dist/plugin-kadence-control.js:1
+msgid "Large"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:826
+#: includes/settings/class-kadence-blocks-settings.php:838
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:919
+#: includes/settings/class-kadence-blocks-settings.php:920
+msgid "Activate"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:920
+#: includes/settings/class-kadence-blocks-settings.php:922
+msgid "Deactivate"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:920
+msgid "Activating..."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:920
+msgid "Activated"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:920
+msgid "Deactivating..."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:920
+msgid "Deactivated"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:926
+msgid "Manage Lottie Animations"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:935
+msgid "Editor Max Widths"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:935
+msgid "Match the editor width to your sites width."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:937
+msgid "Note: The current active themes \"content_width\" is set to:"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:944
+msgid "Save Changes"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:957
+msgid "Web Creators Community"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:958
+msgid "Join our community of fellow kadence users creating effective websites! Share your site, ask a question and help others."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:959
+msgid "Join our Facebook Group"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:964
+msgid "Documentation"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:965
+msgid "Need help? We have a knowledge base full of articles to get you started."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:966
+msgid "Browse Docs"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:971
+msgid "Support"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:972
+msgid "Have a question, we are happy to help! Get in touch with our support team."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:973
+msgid "Submit a Ticket"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:992
+msgid "Kadence Blocks Pro"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:994
+msgid "10 Pro Blocks"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:995
+msgid "Pro Block Addons"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:996
+#: dist/components.js:7
+msgid "Dynamic Content"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:997
+msgid "Custom Icons"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:998
+#: dist/components.js:16
+msgid "Custom Fonts"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:999
+msgid "Premium Design Library"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1001
+msgid "Upgrade Kadence Blocks"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1014
+#: dist/blocks-rowlayout.js:11
+#: dist/plugin-kadence-control.js:3
+msgid "Row Layout"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1015
+msgid "Create rows with nested blocks either in columns or as a container. Give style to your rows with background, overlay, padding, etc."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1020
+#: dist/blocks-form.js:1
+#: dist/blocks-rowlayout.js:1
+msgid "Form"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1021
+msgid "Create a contact form or marketing form and style it within the block editor."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1026
+#: dist/blocks-advancedgallery.js:3
+#: dist/plugin-kadence-control.js:3
+msgid "Advanced Gallery"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1027
+msgid "Photo galleries, carousels, and sliders! Enable custom links, captions, and more. Plus, you can select image sizes."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1032
+#: dist/plugin-kadence-control.js:3
+msgid "Advanced Button"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1033
+msgid "Create an advanced button or a row of buttons. Style each one including hover controls plus you can use an icon and display them side by side"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1038
+msgid "Lottie Animations"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1039
+msgid "Add an extra \"wow\" factor to your site with engaging Lottie animations."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1043
+#: dist/blocks-icon.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Icon"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1044
+msgid "Choose from over 1500+ SVG Icons to add into your page and style the size, colors, background, border, etc."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1049
+#: dist/blocks-spacer.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Spacer/Divider"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1050
+msgid "Easily create a divider and determine the space around it or just create some space in your content."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1055
+#: dist/blocks-advancedheading.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Advanced Text"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1056
+#: dist/blocks-advancedheading.js:1
+msgid "Create a heading or paragraph and define sizes for desktop, tablet and mobile along with font family, colors, etc."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1061
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-tabs.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Tabs"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1062
+msgid "Create custom vertical or horizontal tabs with advanced styling controls. Each tab content is an empty canvas able to contain any other blocks."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1067
+#: dist/blocks-infobox.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Info Box"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1068
+msgid "Create a box containing an icon or image and, optionally, a title, description, and learn more text. Style static and hover separately."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1073
+#: dist/blocks-accordion.js:1
+#: dist/blocks-rowlayout.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Accordion"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1074
+#: dist/blocks-accordion.js:1
+msgid "Create beautiful accordions! Each pane can contain any other block, customize title styles, content background, and borders."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1079
+#: dist/blocks-iconlist.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Icon List"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1080
+msgid "Add beautiful icons to your lists and make them more engaging. Over 1500 icons to choose from and unlimited styles."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1086
+msgid "Allow your readers to navigate your content easily with a table of contents block. Includes smooth scroll to anchor."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1090
+#: dist/blocks-posts.js:9
+#: dist/plugin-kadence-control.js:3
+msgid "Posts"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1091
+msgid "Display a clean grid of posts anywhere on your site, great for your home page where you want to tease your blog."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1095
+#: dist/blocks-countdown.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Countdown"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1096
+msgid "Increase your conversions by adding a sense of urgency to your offering. Pro includes evergreen campaigns as well."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1100
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:5
+#: dist/blocks-testimonials.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Testimonials"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1101
+msgid "Create confidence in your brand or product by showing off beautiful unique testimonials, add as a carousel or a grid."
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1112
+msgid "Invalid nonce"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1115
+msgid "Missing Content"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1121
+msgid "Nothing to Save"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-settings.php:1239
+#: dist/blocks-form.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Settings"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:195
+msgid "Version"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:199
+msgid "Last updated"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:200
+msgid "Unknown"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:204
+msgid "Previous version"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:208
+msgid "Has Pro"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:212
+msgid "Deactivated Blocks"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:213
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-countup.js:1
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:14
+#: dist/components.js:18
+#: dist/helpers.js:1
+msgid "None"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:216
+msgid "Has Block Defaults"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:220
+msgid "Using Setting Visibility"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:224
+msgid "Has Custom Colors"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:228
+msgid "Has reCAPTCHA key"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:232
+msgid "Has a maps API key"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:236
+msgid "Has MailerLite key"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:240
+msgid "Has Cloud Library"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:309
+#: includes/settings/class-kadence-blocks-site-health.php:311
+#: includes/settings/class-kadence-blocks-site-health.php:313
+#: includes/settings/class-kadence-blocks-site-health.php:336
+msgid "No"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:315
+#: includes/settings/class-kadence-blocks-site-health.php:336
+msgid "Yes"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:325
+msgid "On"
+msgstr ""
+
+#: includes/settings/class-kadence-blocks-site-health.php:325
+#: dist/blocks-form.js:1
+msgid "Off"
+msgstr ""
+
+#: includes/templates/entry-loop-footer.php:16
+#: dist/blocks-posts.js:9
+msgid "Read More"
+msgstr ""
+
+#: includes/templates/entry-loop-meta.php:19
+#: dist/blocks-posts.js:9
+msgid "By"
+msgstr ""
+
+#: includes/templates/entry-loop-meta.php:22
+msgid "Posted on"
+msgstr ""
+
+#: includes/templates/entry-loop-meta.php:25
+msgid "Updated on"
+msgstr ""
+
+#: includes/templates/entry-loop-meta.php:28
+msgid "Posted in"
+msgstr ""
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-meta.php:138
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: includes/templates/entry-loop-meta.php:155
+#: dist/blocks-posts.js:9
+msgid "Comment"
+msgstr ""
+
+#: includes/templates/entry-loop-meta.php:157
+#: dist/blocks-posts.js:9
+msgid "Comments"
+msgstr ""
+
+#. translators: %s - link to a site.
+#: includes/templates/form-email.php:156
+msgid "Sent from %s"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Pane"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Title Icon Settings"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Icon Side"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-tabs.js:1
+#: dist/components.js:14
+#: dist/components.js:16
+msgid "Right"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-tabs.js:1
+#: dist/components.js:14
+#: dist/components.js:16
+msgid "Left"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Show only Icon"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Button Label Attribute for Accessibility"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Add Title"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Panes close when another opens"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Start with all panes collapsed"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Initial Open Accordion"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Accordion Pane"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Pane Title Trigger Icon"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Show Icon"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-tableofcontents.js:1
+msgid "Icon Style"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-tableofcontents.js:1
+msgid "Select Icon Set"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Hover Icon Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Active Icon Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Icon Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Pane Title Colors"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-tabs.js:1
+msgid "Hover Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-tabs.js:1
+msgid "Hover Background"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-tabs.js:1
+msgid "Active Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-tabs.js:1
+msgid "Active Background"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-countup.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-tabs.js:1
+msgid "Title Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-tabs.js:1
+msgid "Title Background"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Pane Title Border"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Hover Border"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Active Border"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Border"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Border Radius"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Pane Title Font Settings"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Inner Content Styling"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Text Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-column.js:1
+msgid "Text Link Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-column.js:1
+msgid "Text Link Hover Color"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Background"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Pane Title Sizing"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-countup.js:1
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-lottie.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-show-more.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Padding"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Pane Space Between"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Inner Content Padding"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Title Tag Settings"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Title Tag"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Structure Settings"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-tabs.js:1
+msgid "Content Minimum Height"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-lottie.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-tabs.js:1
+msgid "Max Width"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "FAQ Schema"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Enable FAQ Schema"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Initial Style"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Add Accordion Item"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Remove Accordion Item"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "accordion"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "pane"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "First Heading"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "This is an example of an accordion. You can add any block to the accordion pane. You can also add multiple panes to the accordion."
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Second Heading"
+msgstr ""
+
+#: dist/blocks-accordion.js:1
+msgid "Hello World"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Field label"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Kadence Form accept input"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:5
+msgid "Field Controls"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:5
+msgid "Required"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:1
+msgid "Show Label"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Default Checked"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:1
+msgid "Help Text"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:1
+msgid "Input aria description"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Opt me in!"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Checkbox"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Kadence Form checkbox"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-form.js:1
+msgid "Option"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+msgid "Value"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-form.js:1
+msgid "Add Option"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Select an existing post or create a new one."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Select Post"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Give your form a title"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Contact Us"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Create"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Enable Basic Honey Pot Spam Check"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "This adds a hidden field that if filled out prevents the form from submitting."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Enable Google reCAPTCHA"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Recaptcha Version"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "V2"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "V3"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Get keys"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Get help"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Site Key"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Secret Key"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Saving"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Remove"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Success Message"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Success Message Colors"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Success Message Color"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Success Message Background"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Success Message Border"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Pre Submit Form Validation Error Message"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Error Message"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Recapcha Error Message"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Submission Failed, reCaptcha spam prevention."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Error Message Colors"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Error Message Color"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Error Message Background"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Error Message Border"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-rowlayout.js:11
+msgid "Border Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-form.js:3
+msgid "Border Width"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Advanced Message Font Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "20%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "25%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "33%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "40%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "50%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "60%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "66%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "75%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "80%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "100%"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "Unset"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "S"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "M"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "L"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-spacer.js:1
+#: dist/components.js:14
+msgid "Solid"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/components.js:7
+msgid "Gradient"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Size"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Padding"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Mobile Padding"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Tablet Padding"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Desktop Padding"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Colors"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Normal"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Focus"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Focus Color"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Background Type"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Focus Background"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Gradient Color 1"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-googlemaps.js:1
+msgid "Location"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Gradient Color 2"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Gradient Type"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Gradient Angle"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Gradient Position"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Center Top"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Center Center"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Center Bottom"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Left Top"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Left Center"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Left Bottom"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Right Top"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Right Center"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Right Bottom"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Focus Border"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Focus Box Shadow"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Color"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Background"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Border"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Input Box Shadow"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Field Row Gap"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Placeholder Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Placeholder Color"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Label Color"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Show Required?"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "If off required asterisk is removed."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Required Color"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Advanced Label Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "Column Width"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-singlebtn.js:1
+msgid "Button Size"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Button Colors"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-infobox.js:1
+msgid "Hover"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Text Hover Color"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Button Hover Background"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Button Hover Border"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Button Hover Box Shadow"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Button Background"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Button Border"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Button Box Shadow"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Advanced Button Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Margin Type"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Margin Unit"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-countup.js:1
+#: dist/blocks-form.js:3
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-lottie.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-show-more.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Margin"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Mobile Margin"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Tablet Margin"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Desktop Margin"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:3
+msgid "Submit aria description"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-form.js:3
+msgid "Provide more context for screen readers"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Email"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Redirect"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Mailerlite"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Add User to MailerLite list"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "FluentCRM"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Add User to FluentCRM list"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "ConvertKit (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Add user to ConvertKit"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "ActiveCampaign (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Add user to ActiveCampaign"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Auto Respond Email (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Send instant response to form entrant"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Database Entry (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Log each form submission"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "SendInBlue (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Add user to SendInBlue list"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "MailChimp (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Add user to MailChimp list"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "WebHook (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Send form information to any third party webhook"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-googlemaps.js:1
+msgid "API Key"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Select a Group"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Select Group"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Map Fields"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Form Field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Select List"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Select Tags"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Require Double Opt In?"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "API Key (v3)"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Select Groups"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Select Sequence"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "ActiveCampaign Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "API URL"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "No Lists found."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Select Automation"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "No Groups found."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "No Tags found."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "No Fields found."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Webhook Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Webhook URL"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Enter the URL that will receive the form submitted data."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Webhook Field Name"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Auto Respond Email Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Email Subject"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Thanks for contacting us!"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Email Message"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Thanks for getting in touch, we will respond within the next 24 hours."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "From Email"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "From Name"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Reply To"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Cc"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Bcc"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Send as HTML email?"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "If off plain text is used."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Override Email to Address"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "By default email is sent to the email field, you can use this to override."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Database Entry Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Form Name"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Save User IP Address"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Saves the entrants IP address with the form data"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Save User Device"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Saves the entrants device with form data"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-countdown.js:1
+msgid "Date"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Kadence Form date"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:5
+msgid "Default Value"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Email Field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Kadence Form email input field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:1
+msgid "Field Placeholder"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "File"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Kadence Form file upload"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "File Options"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "File Size Limit"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "WordPress max upload size: "
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Allowed File Types"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Images"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "PDF"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Audio"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/components.js:7
+msgid "Video"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Documents"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Zip Archive"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Hidden Field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Kadence Form hidden field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:1
+msgid "Field Name"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Field Value"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-infobox.js:1
+msgid "Number"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Kadence Form number input"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Maximum Value"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Minimum Value"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+msgid "Radio"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Kadence Form radio input"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+msgid "Label"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:1
+#: dist/blocks-form.js:1
+#: dist/blocks-posts.js:9
+msgid "Select"
+msgstr ""
+
+#. translators: block description
+#: dist/blocks-advanced-form.js:3
+msgid "Kadence Form select input"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:3
+msgid "Multi Select"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:3
+msgid "Telephone Field"
+msgstr ""
+
+#. translators: block description
+#: dist/blocks-advanced-form.js:5
+msgid "Kadence Form telephone input field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Text Field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Kadence Form text input field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "This is the name attribute that is applied to the html input tag."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Text Area"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Time"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Kadence Form time input field"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Submit Actions"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Spam Prevention"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Email Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Email To Address"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "name@example.com"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Seperate with comma for more then one email address."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Redirect Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Redirect to"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Fields"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-countdown.js:1
+msgid "Labels"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Submit Button"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+#: dist/blocks-form.js:3
+msgid "Message Settings"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Kadence Form"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Select an existing form or create a new one."
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "Select Form"
+msgstr ""
+
+#: dist/blocks-advanced-form.js:5
+msgid "The selected from is in the trash."
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+msgid "Duplicate Previous Button"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-spacer.js:1
+msgid "Alignment"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+msgid "Vertical Alignment"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+msgid "Orientation"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+msgid "Button Gap"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+msgid "Advanced Buttons"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+msgid "Create an advanced button or a row of buttons. Style each one, including hover controls"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+msgid "button"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-single-icon.js:1
+msgid "icon"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Click Me!"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Single Button"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Single button within a button block"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Button"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "btn"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "SM"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "MD"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "LG"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "XL"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:7
+msgid "Auto"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/components.js:7
+msgid "Fixed"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-singlebtn.js:1
+msgid "Full"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Fill"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Outline"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Theme"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Link"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Button Settings"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Button Link"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Button Inherit Styles"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Button Width"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Fixed Width"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Button Styles"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Color Hover"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Hover Type"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Background Color"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Box Shadow"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:18
+msgid "Color"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-singlebtn.js:1
+msgid "Type"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Icon Settings"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Icon and Text Display"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Show Icon and Text"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Show Only Icon"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-tabs.js:1
+msgid "Icon Location"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Icon Size"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-singlebtn.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Icon Padding"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Typography Settings"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Add Aria Label"
+msgstr ""
+
+#: dist/blocks-advancedbtn.js:1
+#: dist/blocks-singlebtn.js:1
+msgid "Button..."
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Write caption…"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Move Image Backward"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Move Image Forward"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:7
+#: dist/components.js:14
+msgid "Remove Image"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/components.js:7
+msgid "URL"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/components.js:7
+msgid "Paste or type URL"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-image.js:3
+msgid "Link Settings"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/components.js:16
+msgid "Open in New Tab"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/components.js:16
+msgid "Sponsored"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Attachment Page"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Media File"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Custom"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Masonry"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Grid"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Carousel"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Fluid Carousel"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/components.js:7
+msgid "Slider"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Thumbnail Slider (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Tiles (Pro addon)"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:14
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Linked"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:14
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Individual"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Edit/Add gallery images"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-infobox.js:1
+msgid "Image ratio"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Landscape 4:3"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Landscape 3:2"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+msgid "Landscape 16:9"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+msgid "Landscape 2:1"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+msgid "Landscape 3:1"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+msgid "Landscape 4:1"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Portrait 3:4"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Portrait 2:3"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Square 1:1"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Thumbnail Image ratio"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Column Control Type"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Columns"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Screen Above 1500px"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Screen 1200px - 1499px"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Screen 992px - 1199px"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Screen 768px - 991px"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Screen 544px - 767px"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Screen Below 543px"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Thumb Column Control Type"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Thumbnail Columns"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-tabs.js:1
+msgid "Gutter"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Row Height"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Carousel Height"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Carousel Center Mode"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Thumbnail Image Sizes"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Carousel Settings"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Carousel Auto Play"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Autoplay Speed"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Carousel Slide Transition Speed"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Slides to Scroll"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Arrow Style"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "White on Dark"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Black on Light"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Outline Black"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Outline White"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Dot Style"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Dark"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Light"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Outline Dark"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Outline Light"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Link To"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Link Image Size"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Link Triggers?"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Lightbox"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "New Tab"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Show Caption in Lightbox"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Caption Settings"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Show Captions"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Caption Placement"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Bottom of Image - Show on Hover"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Bottom of Image - Show always"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Below Image - Show always"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Cover Image - Show on Hover"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Force hover effect always for mobile"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Caption Color"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Caption Background"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Image Style"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Image Filter"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Not supported in Internet Explorer"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-image.js:3
+msgid "Grayscale"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-image.js:3
+msgid "Sepia"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+msgid "Saturation"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Vintage"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Earlybird"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Toaster"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+#: dist/blocks-image.js:3
+msgid "Mayfair"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Image Shadow"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Enable Shadow"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Gallery"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Drag images, upload new ones or select files from your library."
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Dynamic source failed to load array of images."
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:1
+msgid "Select Images"
+msgstr ""
+
+#. translators: %1$d is the order number of the image, %2$d is the total number of images.
+#: dist/blocks-advancedgallery.js:3
+msgid "image %1$d of %2$d in gallery"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:3
+msgid "Photo galleries, carousels, and sliders! Enable custom links, captions, and more."
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:3
+msgid "gallery"
+msgstr ""
+
+#: dist/blocks-advancedgallery.js:3
+msgid "image"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Typed Text"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Cursor"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Loop Typing"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Additional Strings"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Shuffle Strings"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Smart Backspace"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Only backspace what doesn't match the previous string."
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Add String"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Remove String"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Speed Settings"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Start Delay (ms)"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Back Delay (ms)"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Type Speed (ms)"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Backspace Speed (ms)"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "title"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "heading"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "text"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+msgid "Heading 1"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+msgid "Heading 2"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+msgid "Heading 3"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+msgid "Heading 4"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+msgid "Heading 5"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+msgid "Heading 6"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+#: dist/components.js:18
+msgid "Paragraph"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+#: dist/components.js:18
+msgid "Span"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:14
+msgid "div"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Write something…"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Change heading tag"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "HTML Tag"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-column.js:1
+#: dist/blocks-countup.js:1
+#: dist/blocks-infobox.js:1
+msgid "Text Alignment"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Link Color"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Link Style"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Underline"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Underline on Hover"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Text Wrap Link"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "Font Size"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "Line Height"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "Letter Case"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "-"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "AB"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "Uppercase"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "ab"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "Lowercase"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "Ab"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/components.js:18
+msgid "Capitalize"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Advanced Typography Settings"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Text Shadow Settings"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Text Shadow"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Highlight Settings"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+#: dist/blocks-tabs.js:1
+msgid "HTML Anchor"
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Anchors lets you link directly to a section on a page."
+msgstr ""
+
+#: dist/blocks-advancedheading.js:1
+msgid "Example Heading"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Multiply"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Screen"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Overlay"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Darken"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Lighten"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Color Dodge"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Color Burn"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Difference"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Exclusion"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Hue"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Luminosity"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "XXS"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "2X Small"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "XS"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "X Small"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "Medium"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "X Large"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "XXL"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "2X Large"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "3XL"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "3X Large"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "4XL"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "4X Large"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "5XL"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+#: dist/helpers.js:1
+msgid "5X Large"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Section"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "A container to style a section of content."
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "column"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "section"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Align Top"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Align Middle"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Align Bottom"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Vertical Align"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Flex Align Settings"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Inner Block Direction"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Vertical"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Horizontal"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Justify Content"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Start"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Center"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "End"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Space Between"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Space Around"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Space Evenly"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Wrap Content"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "No Wrap"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Wrap"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Wrap Reverse"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Content Max Width"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Overlay Link"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Please note, If a link is added nothing else inside of the section will be selectable."
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Link entire section"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Container HTML tag"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-infobox.js:1
+msgid "Min Height"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Z Index Control"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Sticky Settings"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Make sticky"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "This will stick the section to viewport for the height of outer row block."
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Sticky Header Offset"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-spacer.js:1
+msgid "Visibility Settings"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-spacer.js:1
+msgid "Hide on Desktop"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-spacer.js:1
+msgid "Hide on Tablet"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-countdown.js:1
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-spacer.js:1
+msgid "Hide on Mobile"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Background Image"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Background Overlay"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Overlay Opacity"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Notice: Blend Mode not supported in all browsers"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Border Styles"
+msgstr ""
+
+#: dist/blocks-column.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "Text Color Settings"
+msgstr ""
+
+#: dist/blocks-column.js:1
+msgid "Section content"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Countdown Timer"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "The countdown timer"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "countdown"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "timer"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Countdown Content"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Inner Container for Countdown Block"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Evergreen (Pro addon)"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Show Timer at Zero"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Hide (Pro addon)"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Replace with Content (Pro addon)"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Redirect (Pro addon)"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Live"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Expired"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Countdown Time Settings Synced to Parent Block"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Edit Settings"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Countdown Type"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Date set according to your sites timezone"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Evergreen Hours"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Evergreen Minutes"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Create a unique ID. To reset the timer for everyone change this id. To link with other timers give them all the same ID."
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Amount of days to wait until the evergreen is reset for visitors"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Verify by IP Address"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "This will add a delay to the rendering of the countdown if no cookie found as it will query the server database to see if the user can be found by their IP address"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Action on Expire"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Redirect URL"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Reveal onLoad"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Countdown Layout"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Display Countdown"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Countdown Alignment"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Block"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Inline"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+#: dist/blocks-spacer.js:1
+msgid "Enable Divider"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Enable 00 Number format"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Display Days Unit"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Hours"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Minutes"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Count Item Settings"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Border Color"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+#: dist/blocks-countup.js:1
+msgid "Number Settings"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Label Settings"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Pre Text"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Post Text"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Container Padding"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+msgid "Container Margin"
+msgstr ""
+
+#: dist/blocks-countdown.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Container Settings"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Starting Number"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Ending Number"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Number Prefix"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Number Suffix"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Animation Duration"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Thousand Separator"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Decimal"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Decimal Spaces"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-tableofcontents.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Title Settings"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Show Title"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+#: dist/blocks-tabs.js:1
+msgid "Title Padding"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+#: dist/blocks-tabs.js:1
+msgid "Title Margin"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+#: dist/blocks-infobox.js:1
+msgid "Number Color"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "Type Here..."
+msgstr ""
+
+#: dist/blocks-countup.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Count Up"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "An animated count up or down to a specific value."
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "count down"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "count up"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "counter"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "number"
+msgstr ""
+
+#: dist/blocks-countup.js:1
+msgid "My count up title"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Create a contact or marketing form for your website."
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "contact"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "marketing"
+msgstr ""
+
+#: dist/blocks-form.js:1
+#: dist/components.js:14
+msgid "Linear"
+msgstr ""
+
+#: dist/blocks-form.js:1
+#: dist/components.js:14
+msgid "Radial"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Field"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Field Type"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Text"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Textarea"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Telephone"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Checkboxes"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Hidden"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Field Input"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Required?"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Textarea Rows"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Show inline?"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Show Policy Link"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Link Text"
+msgstr ""
+
+#: dist/blocks-form.js:1
+#: dist/blocks-rowlayout.js:9
+msgid "View Privacy Policy"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Link URL"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Start checked?"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Field Label"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Input Default"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Field Auto Fill"
+msgstr ""
+
+#: dist/blocks-form.js:1
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/plugin-kadence-control.js:1
+msgid "Default"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Name"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Organization"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Street Address"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Country Name"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Field error message when required"
+msgstr ""
+
+#: dist/blocks-form.js:1
+msgid "Field error message when invalid"
+msgstr ""
+
+#. translators: %1$d: field number %2$d: max amount of fields
+#: dist/blocks-form.js:3
+msgid "Field %1$d of %2$d in form"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Move Field Up"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Move Field Down"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Duplicate Field"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Remove Field"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Add Field"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Actions After Submit"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Basic Spam Check"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Language Codes"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Force Specific Language"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Field Styles"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Field Column Gutter"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Label Styles"
+msgstr ""
+
+#: dist/blocks-form.js:3
+msgid "Submit Styles"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Google Maps"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Display google maps on your site."
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "google"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "maps"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Could not find location"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Map Location"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Show Marker"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Zoom"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Map Type"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Road Map"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Satellite"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Map Filter"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Invert"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Saturate"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Map Filter Strength "
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Map Style"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Apple Maps Esque"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Avocado"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Clean Interface"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Cobalt"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Midnight Commander"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Night Mode"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "No labels, Bright Colors"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Shades of Grey"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Custom Snazzy Map"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Custom Map Style"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Copy the \"Javascript Style Array\" from a Snazzy Maps style"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Visit Snazzy Maps"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "API Settings"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "This block includes an API key, but a custom key can be used. A custom key is required to use the Javascript API."
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "How to create an API Key"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Use Javascript API"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Container Size"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-spacer.js:1
+#: dist/components.js:7
+#: dist/components.js:18
+msgid "Height"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Google Maps Javascript API"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "The Google Maps Javascript API is paid service and costs per request."
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Click here to view the latest pricing"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "This API key you enter is here visible by users, so make sure to restrict the key to specific endpoints and web addresses."
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "More informaiton on that can be found here"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+#: dist/blocks-lottie.js:1
+#: dist/components.js:7
+#: dist/components.js:18
+msgid "Cancel"
+msgstr ""
+
+#: dist/blocks-googlemaps.js:1
+msgid "Continue"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+msgid "Add Another Icon"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+msgid "Icon Alignment"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+msgid "Icons Gap"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+msgid "Create engaging lists with icons for bullets."
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-single-icon.js:1
+msgid "svg"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Spacing Settings"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-single-icon.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Icon Margin"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Single Icon"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Single icon within Icon block"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Stacked"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Border Size (px)"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Border Radius (%)"
+msgstr ""
+
+#: dist/blocks-icon.js:1
+#: dist/blocks-single-icon.js:1
+msgid "Title for Accessibility"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "List item"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "Icon list item"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "Outdent"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "Outdent list item"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "Indent"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "Indent list item"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "Item Settings"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+#: dist/components.js:18
+msgid "Select Icon"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Style"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Line Width"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Icon Background"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+#: dist/components.js:18
+msgid "Padding (px)"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "List Item"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-posts.js:9
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:14
+#: dist/components.js:16
+msgid "Top"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Middle"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:14
+#: dist/components.js:16
+msgid "Bottom"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "Add Another List Item"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "List Columns"
+msgstr ""
+
+#: dist/blocks-iconlist.js:1
+msgid "Icon Styling"
+msgstr ""
+
+#. translators: 1. Error message
+#: dist/blocks-image.js:3
+msgid "Image uploaded."
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Upload external image"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-image.js:5
+msgid "Image settings"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-image.js:5
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Image"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+msgid "Image File Size"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Use fixed ratio instead of image ratio"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Size Ratio"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-infobox.js:1
+msgid "Max Image Width"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Describe the purpose of the image"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Leave empty if the image is purely decorative."
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Title attribute"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Describe the role of this image on the page."
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "(Note: many devices and browsers do not display this text.)"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Image Link"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Shadow Settings"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Drop Shadow"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Learn about the differences:"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Box Shadow vs. Drop Shadow"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Mask Settings"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Mask Shape"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/components.js:14
+msgid "Circle"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Diamond"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Hexagon"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Rounded"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Blob 1"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Blob 2"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Blob 3"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Custom Mask Image"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Mask Size"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:7
+msgid "Contain"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:7
+msgid "Cover"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Mask Position"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Mask Repeat"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:7
+msgid "No Repeat"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:7
+msgid "Repeat"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:7
+msgid "Repeat-x"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:7
+msgid "Repeat-y"
+msgstr ""
+
+#: dist/blocks-image.js:3
+msgid "Show Caption"
+msgstr ""
+
+#: dist/blocks-image.js:3
+#: dist/blocks-rowlayout.js:11
+msgid "Z-Index Control"
+msgstr ""
+
+#. translators: %s: file name
+#: dist/blocks-image.js:5
+msgid "Image caption text"
+msgstr ""
+
+#: dist/blocks-image.js:5
+msgid "Add caption"
+msgstr ""
+
+#: dist/blocks-image.js:5
+msgid "Advanced Image"
+msgstr ""
+
+#: dist/blocks-image.js:5
+#: dist/blocks-infobox.js:1
+#: dist/components.js:7
+#: dist/components.js:14
+msgid "Select Image"
+msgstr ""
+
+#: dist/blocks-image.js:5
+#: dist/blocks/image/block.json
+msgctxt "block title"
+msgid "Advanced Image"
+msgstr ""
+
+#: dist/blocks-image.js:5
+#: dist/blocks/image/block.json
+msgctxt "block description"
+msgid "Image block with greater controls and advanced features"
+msgstr ""
+
+#. translators: Caption accompanying an image of the Mont Blanc, which serves as an example for the Image block.
+#: dist/blocks-image.js:7
+msgid "Mont Blanc appears—still, snowy, and serene."
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Create beautiful information boxes using icons or images."
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "info"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Basic"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Left Above"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Overlay Left"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Edit Media"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "InfoBox Quick Layout Presets"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "InfoBox Style"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Link Content"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Entire Box"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Only Learn More Text"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Content Align"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Media Settings"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Media Align"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Media Vertical Align"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Media Type"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Image Hover Animation"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Grayscale to Color"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Border Spin In"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Grayscale to Color & Border Spin In"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Flip to Another Image"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Flip Image (Use same size as start image"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Image Border"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Image Border Radius (px)"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "SVG Hover Color"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "*you must force inline svg for this to have effect."
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Image Hover Background"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Image Hover Border"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "SVG Color"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Image Background"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Icon Line Width"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Icon Border"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Icon Border Radius (px)"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Icon Hover Animation"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Flip to Another Icon"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Icon Hover Color"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Icon Hover Background"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Icon Hover Border"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Icon Border Color"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Icon Title for Accessibility"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+#: dist/components.js:18
+msgid "Size"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Number Border"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Number Border Radius (px)"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Number Hover Animation"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Number Hover Color"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Number Hover Background"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Number Hover Border"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Number Background"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Number Border Color"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Media Padding"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Media Margin"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Text Settings"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Show Text"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Learn More Settings"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Show Learn More"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Learn More Border Width (px)"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Learn More Border Radius (px)"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+#: dist/components.js:16
+msgid "Title"
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean diam dolor, accumsan sed rutrum vel, dapibus et leo."
+msgstr ""
+
+#: dist/blocks-infobox.js:1
+msgid "Learn More"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+#: dist/blocks/lottie/block.json
+msgctxt "block title"
+msgid "Lottie Animations"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgctxt "block description"
+msgid "Display lottie animations on your site"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "lottie"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "animation"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Source File"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "File Source"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Remote URL"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Local File"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Lottie Animation URL"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Select Lottie File"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Upload a Lottie file"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Upload Lottie JSON file"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Animation title"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Browse"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Select a file"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Invalid JSON file"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "An error occurred when uploading your file"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Upload"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Aria Label"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Describe the purpose of this animation on the page."
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Playback Settings"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Show Controls"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Autoplay"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Only play on hover"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Only play on page scroll"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "This will override most settings such as autoplay, playback speed, bounce, loop, and play on hover. This will not work when previewing in the block editor"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Does not show in preview"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Don't play until in view"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Prevent playback from starting until animation is in view"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Playback Speed"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Loop Settings"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Loop playback"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Bounce playback"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Delay between loops (seconds)"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Limit Loops"
+msgstr ""
+
+#: dist/blocks-lottie.js:1
+msgid "Size Controls"
+msgstr ""
+
+#: dist/blocks-posts.js:1
+msgid "Select Posts Type:"
+msgstr ""
+
+#: dist/blocks-posts.js:1
+msgid "Order by"
+msgstr ""
+
+#: dist/blocks-posts.js:1
+msgid "Newest to Oldest"
+msgstr ""
+
+#: dist/blocks-posts.js:1
+msgid "Oldest to Newest"
+msgstr ""
+
+#: dist/blocks-posts.js:1
+msgid "Modified Ascending"
+msgstr ""
+
+#: dist/blocks-posts.js:1
+msgid "Modified Decending"
+msgstr ""
+
+#. translators: label for ordering posts by title in ascending order
+#: dist/blocks-posts.js:3
+msgid "A → Z"
+msgstr ""
+
+#. translators: label for ordering posts by title in descending order
+#: dist/blocks-posts.js:5
+msgid "Z → A"
+msgstr ""
+
+#. translators: label for ordering posts by title in descending order
+#: dist/blocks-posts.js:7
+msgid "Menu Order"
+msgstr ""
+
+#. translators: label for ordering posts by title in descending order
+#: dist/blocks-posts.js:9
+msgid "Random"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Number of items"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Offset Starting Post"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Select Taxonomy"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Select Terms"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Whether to include or exclude items from selected terms."
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Include"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Exclude"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Select the post Taxonomy"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Filter by Category"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Filter by Tag"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Show Unique"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Exclude posts in this block from showing in others on the same page."
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Allow Sticky Posts?"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Layout Settings"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+#: dist/blocks-tabs.js:1
+msgid "Tablet Columns"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Align Image"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Boxed"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Unboxed"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Title Size"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Image Settings"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Image"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+#: dist/blocks-testimonials.js:1
+msgid "Image Ratio"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "1:1"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "4:3"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "3:2"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "16:9"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "2:1"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "4:5"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "3:4"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "2:3"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+#: dist/blocks-testimonials.js:1
+msgid "Image Size"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Thumbnail"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Medium Large"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Category Settings"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Above Title Category"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Category Style"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Pill"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Category Divider"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Meta Settings"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Meta Info"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Author"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Author Image"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Author Link"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Author Label"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Date"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Date Label"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Posted On"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Modified Date"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Modified Date Label"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Updated On"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Categories"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Categories Label"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Posted In"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Comments"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Content Settings"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Excerpt"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Custom Excerpt Length"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Max number of words in excerpt"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "Enable Read More"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "No posts found."
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "(Untitled)"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "posts"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "latest posts"
+msgstr ""
+
+#: dist/blocks-posts.js:9
+msgid "blog"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:5
+msgid "Category"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:3
+#: dist/blocks-rowlayout.js:5
+#: dist/blocks-rowlayout.js:7
+#: dist/blocks-rowlayout.js:9
+msgid "Pro"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:11
+msgid "New"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:5
+msgid "Feature"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:5
+msgid "Hero"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+msgid "Pricing Table"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:3
+#: dist/blocks-rowlayout.js:9
+msgid "All"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:9
+msgid "Search"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:3
+#: dist/blocks-rowlayout.js:5
+#: dist/blocks-rowlayout.js:7
+#: dist/blocks-rowlayout.js:9
+msgid "Preparing Content..."
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:3
+#: dist/blocks-rowlayout.js:5
+#: dist/blocks-rowlayout.js:7
+#: dist/blocks-rowlayout.js:9
+msgid "Error, Unable to access library database, please try re-syncing"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:1
+#: dist/blocks-rowlayout.js:3
+#: dist/blocks-rowlayout.js:5
+#: dist/blocks-rowlayout.js:7
+#: dist/blocks-rowlayout.js:9
+msgid " Sync with Cloud"
+msgstr ""
+
+#. translators: %s is Prebuilt Name
+#: dist/blocks-rowlayout.js:3
+#: dist/blocks-rowlayout.js:5
+#: dist/blocks-rowlayout.js:7
+#: dist/blocks-rowlayout.js:9
+#: dist/blocks-rowlayout.js:11
+msgid "Add %s"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:3
+#: dist/blocks-rowlayout.js:9
+#: dist/components.js:7
+#: dist/components.js:16
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:5
+msgid "Pro required for this item"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:5
+msgid "Call To Action"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:5
+msgid "Staff"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:7
+msgid "Back to Starter Packs"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Remove Connection"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Connection URL"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Connection Access Key"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Add Connection"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Learn about connecting libraries at:"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Kadence Cloud"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Join the Kadence WP Mailing List for Free Access to Wireframe Sections."
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Wireframe sections give you the ability to build out clean layout-focused designs within the WordPress editor. Enter your email to join our product updates email list and get instant access to our exclusive wireframe library."
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Email:"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "example@example.com"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Invalid Email, Please enter a valid email."
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Accept Privacy Policy"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "We do not spam, unsubscribe anytime."
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Please Accept Privacy Policy"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Subscribe for Access"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:9
+msgid "Error attempting to subscribe, please reload our page and try again."
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Subscribe to Kadence WP Product Updates for Instant Access"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Sections"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Starter Packs"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Wireframe"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+#: dist/plugin-kadence-control.js:3
+msgid "Design Library"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Cloud Connect"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Sync with Cloud"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Close Dialog"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Equal"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Left Heavy 66/33"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Right Heavy 33/66"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Collapse to Rows"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Left Heavy 50/25/25"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Right Heavy 25/25/50"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Center Heavy 25/50/25"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Wide Center 20/60/20"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Wider Center 15/70/15"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "First Row, Next Columns 100 - 50/50"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Last Row, Previous Columns 50/50 - 100"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Left Heavy 40/20/20/20"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Right Heavy 20/20/20/40"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Two Column Grid"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Three Column Grid"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Single Row"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-tabs.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Layout"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1
+msgid "Column Gutter"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Row Gutter"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Sm"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Md"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Lg"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Collapse Order"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Normal ->"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Reverse <-"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Inherit Max Width from Theme?"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Custom Content Max Width"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Top Divider"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Select Divider"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-spacer.js:1
+msgid "Divider Height"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-spacer.js:1
+msgid "Divider Width"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Bottom Divider"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+#: dist/blocks-spacer.js:1
+msgid "Divider Color"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Overlay Color"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Overlay Image"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Set custom background for Mobile?"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Force no image for mobile"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Set custom background overlay for mobile?"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Overlay Type"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Blend Mode"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Set custom background for tablets?"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Force no image/gradient for tablet"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Set custom background overlay for tablets?"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slider Item Count"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slide"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slide Background Color"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slide Background Image"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slider Image Size"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slider Image Position"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slider Image Repeat"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slider Auto Play"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Transition Style"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Fade"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Slider Transition Speed"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Background Video"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "HTML5 Video File URL"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "YouTube ID ( example: Sv_hGITmNuo )"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Background Video Ratio"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Mute Video"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Loop Video"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Show Play Pause Buttons?"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Select Video Poster"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Background Settings"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Background Overlay Settings"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Switch to 5% step resizing"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Switch to fluid resizing"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Row"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Two: Equal"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Two: Left Heavy 66/33"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Two: Right Heavy 33/66"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Three: Equal"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Three: Left Heavy 50/25/25"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Three: Right Heavy 25/25/50"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Three: Center Heavy 25/50/25"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Three: Wide Center 20/60/20"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Three: Wider Center 15/70/15"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Four: Equal"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Four: Left Heavy 40/20/20/20"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Four: Right Heavy 20/20/20/40"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Five: Equal"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Six: Equal"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Inner Content Width"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Use Theme Content Inner Width?"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Add Another Section"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+#: dist/components.js:14
+msgid "Advanced"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Minimum Height"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Inner Column Height 100%"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "User Visibility Settings"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Hide from Logged in Users"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Optional: Hide from Specific User Roles"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Optional: Show Only to Specific User Roles"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Hide from Loggedout Users"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Restrict based on Membership"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Minimum Access Level"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Specific Memberships"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Row Content Only Editing"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Select Your Layout"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Column Layout"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "A container to hold a grid layout."
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "row/layout"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Column 1"
+msgstr ""
+
+#: dist/blocks-rowlayout.js:11
+msgid "Column 2"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+#: dist/blocks/show-more/block.json
+msgctxt "block title"
+msgid "Show More"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgctxt "block description"
+msgid "Hide content and enable a show more button to reveal"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "show"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "hide"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Show More"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Show Less"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Show More Settings"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Display \"hide\" button once expanded"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Maximum Preview Height"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Fade out preview"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Fade Size"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Expand Settings"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Default Expanded on Desktop"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Default Expanded on Tablet"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "Default Expanded on Mobile"
+msgstr ""
+
+#: dist/blocks-show-more.js:1
+msgid "This content will be partially hidden. Click the button below to reveal more."
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "Spacer Settings"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "Divider Settings"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "Divider Style"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+#: dist/components.js:14
+msgid "Dashed"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+#: dist/components.js:14
+msgid "Dotted"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "Stripe"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "Stripe Angle"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "Stripe Width"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "Stripe Gap"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "spacer"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "divider"
+msgstr ""
+
+#: dist/blocks-spacer.js:1
+msgid "separator"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "One Column"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Two columns"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Three Columns"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Bullets"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Numbered"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Select List Columns"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Select List Style"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Allowed Headers"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Collapsible Settings"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Enable Collapsible Content"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Start Collapsed"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Enable title to toggle as well as icon"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Non static content"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Search for Headings in Non static post content?"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Search for Headings in Template?"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Expands heading search to use dynamic template from elements."
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Scroll Settings"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Enable Smooth Scroll to ID"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Scroll Offset"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Enable Highlighting Heading when scrolling in active area."
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "List Items Active Color"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Enable Title"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "List Settings"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "List Item Gap"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "List Items Color"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Normal Color"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "List Link Style"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Optional Title"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "Start adding Heading blocks to create a table of contents."
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "table of contents"
+msgstr ""
+
+#: dist/blocks-tableofcontents.js:1
+msgid "summary"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "tabs"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+#: dist/components.js:14
+msgid "tab"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Mobile Layout"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tablet Layout"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Select an initial tab"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab Title"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab subtitle"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Move Item Up"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Move Item Back"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Move Item Down"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Move Item Forward"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Remove Item"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Title Border Color"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Hover Border Color"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Active Border Color"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tablet Gutter"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Mobile Columns"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Mobile Gutter"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab %d"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Add Tab"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Set Initial Open Tab"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Initial Open Tab"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Content Background"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab Title Color Settings"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab Title Width/Spacing/Border"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab Title Width"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Left & right title margins are ignored in % width tabs"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Title Border Width"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Title Border Radius"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab Title Font Settings"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab Title Icon Settings"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Show Only Icon?"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab Subtitle Settings"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Show Subtitles?"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab Anchor Settings"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Anchor"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Anchors lets you link directly to a tab."
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab 1"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab 2"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab 3"
+msgstr ""
+
+#: dist/blocks-tabs.js:1
+msgid "Tab 1 Content"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Testimonial"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "testimonial"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "rating"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+#: dist/components.js:7
+#: dist/components.js:14
+msgid "Edit Image"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Add Image"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Individual Settings"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Rating"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Best product I have ever used!"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "I have been looking for a product like this for years. I have tried everything and nothing did what I wanted until using this product. I am so glad I found it!"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "Sophia Reily"
+msgstr ""
+
+#: dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1
+msgid "CEO of Company"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Card"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Bubble"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Image In Content"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Skip"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Add Testimonial"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Testimonial Style"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Show Top Icon"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Icon Border Radius"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Color Settings"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Title Min Height"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Rating Settings"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Show Rating"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Rating Padding"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Rating Margin"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Show Content"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Content Min Height"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Show Media"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Media Max Size"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Media Border"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Media Border Radius"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Media Background"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Landscape 4:2"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Name Settings"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Show Name"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Occupation Settings"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Show Occupation"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Container Max Width (px)"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Container Min Height"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Inner Content Align"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Wrapper"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Wrapper Padding"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "Select Initial Style"
+msgstr ""
+
+#: dist/blocks-testimonials.js:1
+msgid "testimonials"
+msgstr ""
+
+#. translators: %s: The name of the color e.g: "vivid red".
+#: dist/components.js:3
+#: dist/components.js:6
+#: dist/components.js:10
+#: dist/components.js:13
+msgid "Color: %s"
+msgstr ""
+
+#. translators: %s: color hex code e.g: "#f00".
+#: dist/components.js:4
+#: dist/components.js:7
+#: dist/components.js:11
+#: dist/components.js:14
+msgid "Color code: %s"
+msgstr ""
+
+#: dist/components.js:4
+msgid "Select Color"
+msgstr ""
+
+#: dist/components.js:7
+#: dist/components.js:14
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Device"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Dynamic Image"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Create dynamic sites by populating images from various sources."
+msgstr ""
+
+#: dist/components.js:7
+msgid "Dynamic Background Image"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Dynamic Gallery"
+msgstr ""
+
+#: dist/components.js:7
+#: dist/components.js:14
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Set custom size"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Width"
+msgstr ""
+
+#: dist/components.js:7
+#: dist/components.js:14
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Use size preset"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Apply"
+msgstr ""
+
+#: dist/components.js:7
+msgid "To edit this block, you need permission to upload media."
+msgstr ""
+
+#: dist/components.js:7
+msgid "Upload a media file or pick one from your media library."
+msgstr ""
+
+#: dist/components.js:7
+msgid "Upload an audio file, pick one from your media library, or add one with a URL."
+msgstr ""
+
+#: dist/components.js:7
+msgid "Upload an image file, pick one from your media library, or add one with a URL."
+msgstr ""
+
+#: dist/components.js:7
+msgid "Upload a video file, pick one from your media library, or add one with a URL."
+msgstr ""
+
+#: dist/components.js:7
+msgid "Insert from URL"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Scroll"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Parallax"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Background Image Size"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Background Image Repeat"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Background Image Attachment"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Note: Attachment Fixed works only on desktop."
+msgstr ""
+
+#: dist/components.js:7
+msgid "Force Background Image inline?"
+msgstr ""
+
+#: dist/components.js:7
+msgid "Classic"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Position"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Set custom position"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Set standard position"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Shape"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Ellipse"
+msgstr ""
+
+#: dist/components.js:14
+#: dist/components.js:18
+msgid "Mobile:"
+msgstr ""
+
+#: dist/components.js:14
+#: dist/components.js:18
+msgid "Tablet:"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Select Video"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Edit Video"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Desktop"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Tablet"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Mobile"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Double"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Border Style"
+msgstr ""
+
+#: dist/components.js:14
+#: dist/components.js:16
+msgid "Target Device"
+msgstr ""
+
+#: dist/components.js:14
+msgid "General"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Hover Styles"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Active Styles"
+msgstr ""
+
+#: dist/components.js:14
+msgid "Change HTML Tag"
+msgstr ""
+
+#. translators: %d: heading level e.g: "1", "2", "3"
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Heading %d"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Copy/Paste Styles"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Copy Styles"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Paste Styles"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Dynamic Link"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Dynamic links"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Create dynamic sites by populating links from various sources."
+msgstr ""
+
+#: dist/components.js:16
+msgid "Link Target"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Same Window"
+msgstr ""
+
+#: dist/components.js:16
+msgid "New Window"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Video Popup"
+msgstr ""
+
+#: dist/components.js:16
+msgid "NOTE: Video popup only works with youtube and vimeo links."
+msgstr ""
+
+#: dist/components.js:16
+msgid "No Follow"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Download"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Link CSS Class"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Paste URL or type to search"
+msgstr ""
+
+#: dist/components.js:16
+msgid "URL Input or Search"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Edit"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Clear"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Submit"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Link settings"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Choose a Preset Size"
+msgstr ""
+
+#: dist/components.js:16
+msgid "auto"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Standard Fonts"
+msgstr ""
+
+#: dist/components.js:16
+msgid "Google Fonts"
+msgstr ""
+
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Bold"
+msgstr ""
+
+#: dist/components.js:16
+#: dist/components.js:18
+msgid "Italic"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Div"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Font Family"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Select a font family"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Font Weight"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Font Style"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Load Google Font on Frontend"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Load Italic Styles Also"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Letter Spacing"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Margin (px)"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Weight"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Select a Unit"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Block Defaults"
+msgstr ""
+
+#: dist/components.js:18
+msgid "This will set the current block attributes as the default styles for this block type."
+msgstr ""
+
+#: dist/components.js:18
+msgid "This will not modify any blocks that have already been created."
+msgstr ""
+
+#: dist/components.js:18
+msgid "Block content is not included."
+msgstr ""
+
+#: dist/components.js:18
+msgid " Save as default"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Modify attributes"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Reset defaults"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Block default saved"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Are you sure you'd like to reset this blocks default attributes?"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Are you sure you'd like to save this as the blocks default attributes?"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Modify Block Defaults"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Show All"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Search Icons"
+msgstr ""
+
+#: dist/components.js:18
+msgid "Filter Icons"
+msgstr ""
+
+#: dist/components.js:18
+msgid "No icons found"
+msgstr ""
+
+#. translators: The %s is for selector code
+#: dist/extension-block-css.js:3
+#: dist/extension-block-css.js:5
+msgid "Use %s rule to change block styles."
+msgstr ""
+
+#: dist/extension-block-css.js:3
+msgid "Custom CSS"
+msgstr ""
+
+#: dist/extension-block-css.js:3
+msgid "Edit in Modal"
+msgstr ""
+
+#: dist/helpers.js:1
+msgid "2XL"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:1
+msgid "Full Screen Width"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:1
+msgid "Editor Max Width"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:1
+msgid "*Note: You can define these widths in your Kadence Blocks settings."
+msgstr ""
+
+#. translators: %s: color hex code e.g: "#f00".
+#: dist/plugin-kadence-control.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Block defaults saved!"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Control All Block Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enabled All Settings For"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "All Users"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Minimum User Role Contributor"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Minimum User Role Author"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Minimum User Role Editor"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Minimum User Role Admin"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "No Users"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Control Individual Settings Groups"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Block visibility saved!"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Create an export of block default settings that can be imported into another site."
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Include Block Defaults"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "No custom defaults to export."
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Include Block Visibility"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "No custom visibility settings to export."
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Download Export"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Import settings from an export file."
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Select File"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Invalid file"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Invalid JSON"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Invalid File. No block defaults or visibility settings."
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Block defaults imported"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Block visbility imported"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Import"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Reset all custom block defaults or visability settings. This will not modify any existing blocks."
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Reset Block Visibility Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Reset Block Defaults"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Block defaults reset"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Block visibility reset"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Are you sure you'd like to reset these settings?"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Kadence Blocks Controls"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Color Palette"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Block Visibility"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Pane Close/Open Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Color Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Trigger Icon Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Spacing Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Border Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Font Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Inner Content Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Tag Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Structure Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Count Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Size Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Color Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Icon Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Font Family Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Gutter Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Lightbox Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Image Style Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Caption Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Image Shadow Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Gallery Spacing Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Typography Settings in Toolbar"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Color Settings in Toolbar"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Advanced Typography Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Highlight Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Margin Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Container Style Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Item Style Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Number Style Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Label Style Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Visibility Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Style Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable API Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Map Location Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Icon Spacing Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable List Column Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable List Spacing Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Text Style Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable All List Icon Control"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable individual List Item Control"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Container Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Media Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Text Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Learn More Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Shadow Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Lottie"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Source File Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Playback Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Size Control Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Layout Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Image Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Category Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Meta Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Content Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Basic Layout Controls"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Padding/Margin Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Background Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Background Overlay Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Border Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Dividers Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Text Color Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Text Align Control"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Text Color Control"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Padding/Margin Control"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Show More Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Spacing Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Expand Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Height Units"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Height Control"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Divider Toggle Control"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Divider Styles Control"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Allowed Headers Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Collapsible Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable List Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Scroll Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Non static Content"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Spacing/Border Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Title Icon Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Style Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Column Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Carousel Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Top Icon Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Rating Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Name Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Occupation Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Enable Individual Item Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Components"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Show Design Library Button For"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Show Wireframe Library For"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Show Sections Library For"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Show Starter Packs Library For"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Import/Export Block Settings"
+msgstr ""
+
+#: dist/plugin-kadence-control.js:3
+msgid "Editor Width"
+msgstr ""
+
+#: dist/blocks/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr ""
+
+#: dist/blocks/accordion/pane/block.json
+msgctxt "block title"
+msgid "Pane"
+msgstr ""
+
+#: dist/blocks/advanced-form/block.json
+msgctxt "block title"
+msgid "Advanced Form"
+msgstr ""
+
+#: dist/blocks/advanced-form/block.json
+msgctxt "block description"
+msgid "Kadence advanced form"
+msgstr ""
+
+#: dist/blocks/advanced-form/block.json
+#: dist/blocks/image/block.json
+#: dist/blocks/infobox/block.json
+msgctxt "block keyword"
+msgid "kb"
+msgstr ""
+
+#: dist/blocks/advanced-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr ""
+
+#: dist/blocks/advanced-form/block.json
+#: dist/blocks/form/block.json
+msgctxt "block keyword"
+msgid "contact"
+msgstr ""
+
+#: dist/blocks/advancedbtn/block.json
+msgctxt "block title"
+msgid "Advanced Button"
+msgstr ""
+
+#: dist/blocks/advancedgallery/block.json
+msgctxt "block title"
+msgid "Advanced Gallery"
+msgstr ""
+
+#: dist/blocks/advancedheading/block.json
+msgctxt "block title"
+msgid "Advanced Text"
+msgstr ""
+
+#: dist/blocks/column/block.json
+msgctxt "block title"
+msgid "Section"
+msgstr ""
+
+#: dist/blocks/countdown/block.json
+msgctxt "block title"
+msgid "Countdown"
+msgstr ""
+
+#: dist/blocks/countdown/countdown-inner/block.json
+msgctxt "block title"
+msgid "Countdown Content"
+msgstr ""
+
+#: dist/blocks/countdown/countdown-timer/block.json
+msgctxt "block title"
+msgid "Countdown Timer"
+msgstr ""
+
+#: dist/blocks/countup/block.json
+msgctxt "block title"
+msgid "Count Up"
+msgstr ""
+
+#: dist/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr ""
+
+#: dist/blocks/form/block.json
+msgctxt "block keyword"
+msgid "marketing"
+msgstr ""
+
+#: dist/blocks/form/block.json
+msgctxt "block keyword"
+msgid "KB"
+msgstr ""
+
+#: dist/blocks/icon/block.json
+msgctxt "block title"
+msgid "Icon"
+msgstr ""
+
+#: dist/blocks/iconlist/block.json
+msgctxt "block title"
+msgid "Icon List"
+msgstr ""
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr ""
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr ""
+
+#: dist/blocks/infobox/block.json
+msgctxt "block title"
+msgid "Info Box"
+msgstr ""
+
+#: dist/blocks/infobox/block.json
+msgctxt "block description"
+msgid "Create beautiful information boxes using icons or images."
+msgstr ""
+
+#: dist/blocks/infobox/block.json
+msgctxt "block keyword"
+msgid "info"
+msgstr ""
+
+#: dist/blocks/infobox/block.json
+msgctxt "block keyword"
+msgid "icon"
+msgstr ""
+
+#: dist/blocks/listitem/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr ""
+
+#: dist/blocks/posts/block.json
+msgctxt "block title"
+msgid "Posts"
+msgstr ""
+
+#: dist/blocks/rowlayout/block.json
+msgctxt "block title"
+msgid "Row Layout"
+msgstr ""
+
+#: dist/blocks/single-icon/block.json
+msgctxt "block title"
+msgid "Single Icon"
+msgstr ""
+
+#: dist/blocks/singlebtn/block.json
+msgctxt "block title"
+msgid "Single Button"
+msgstr ""
+
+#: dist/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer/Divider"
+msgstr ""
+
+#: dist/blocks/tableofcontents/block.json
+msgctxt "block title"
+msgid "Table of Contents"
+msgstr ""
+
+#: dist/blocks/tabs/block.json
+msgctxt "block title"
+msgid "Tabs"
+msgstr ""
+
+#: dist/blocks/tabs/tab/block.json
+msgctxt "block title"
+msgid "Tab"
+msgstr ""
+
+#: dist/blocks/testimonial/block.json
+msgctxt "block title"
+msgid "Testimonial"
+msgstr ""
+
+#: dist/blocks/testimonials/block.json
+msgctxt "block title"
+msgid "Testimonials"
+msgstr ""
