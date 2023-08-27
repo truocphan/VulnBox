@@ -1,0 +1,69 @@
+// WordPress theme requirement
+//
+// Every WordPress theme requires styles.
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.alignleft {
+    display: block;
+    margin-right: 1rem;
+    float: left;
+}
+
+.alignright {
+    display: block;
+    margin-left: 1rem;
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption,
+.wp-caption img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.wp-caption-text {
+    font-size: @font-size-sm;
+    color: @secondary;
+    margin: 3px 0;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+
+.kirki-customizer-loading-wrapper {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='65px' height='62px' viewBox='0 0 500 500' style='enable-background:new 0 0 500 500;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%239CA1A8;%7d %3c/style%3e%3cpath class='st0' d='M485,3.6H362.5L249.7,163.3l61.2,86.7l-61.2,86.7l-61.2-86.7L14.4,496.3h122.5l112.8-159.7l112.8,159.7H485 L310.9,249.9L485,3.6z M136.9,3.6H14.4l174.1,246.4l61.2-86.7L136.9,3.6z'/%3e%3c/svg%3e ") !important;
+}

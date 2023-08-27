@@ -1,0 +1,92 @@
+//
+// Sidebar
+//
+
+.jupiterx-sidebar {
+    .jupiterx-widget {
+        .jupiterx-spacing('sidebar-widgets-container');
+        background: @sidebar-widgets-container-background;
+        .jupiterx-border('sidebar-widgets-container-border');
+        border-radius: @sidebar-widgets-container-border-radius;
+        text-align: @sidebar-widgets-container-align;
+
+        a:not(.jupiterx-widget-social-share-link) {
+            color: @sidebar-widgets-link-color;
+            text-decoration: @sidebar-widgets-link-text-decoration;
+
+            &:hover {
+                color: @sidebar-widgets-link-color-hover;
+                text-decoration: @sidebar-widgets-link-text-decoration-hover;
+            }
+        }
+
+        .card-title {
+            .jupiterx-spacing('sidebar-widgets-title');
+            .jupiterx-typography('sidebar-widgets-title');
+            .jupiterx-align('sidebar-widgets-title-align', text-align);
+        }
+
+        .jupiterx-widget-content {
+            .jupiterx-spacing('sidebar-widgets-text');
+
+            &,
+            p {
+                .jupiterx-typography('sidebar-widgets-text');
+            }
+        }
+
+        ul li,
+        .jupiterx-widget-posts-item {
+            .jupiterx-spacing('sidebar-divider-items');
+            .jupiterx-border-bottom('sidebar-divider-items');
+
+            &:first-of-type {
+                padding-top: 0;
+            }
+        }
+    }
+
+    .jupiterx-widget-posts-image img,
+    .woocommerce ul.product_list_widget li img {
+        width: @sidebar-widgets-thumbnail-size;
+        height: @sidebar-widgets-thumbnail-size;
+        .jupiterx-border('sidebar-widgets-thumbnail-border');
+        .jupiterx-spacing('sidebar-widgets-thumbnail');
+    }
+
+    .jupiterx-widget-divider {
+        width: @sidebar-divider-widgets-size;
+        .jupiterx-border-top('sidebar-divider-widgets');
+
+        &:last-child {
+            display: none;
+        }
+    }
+
+    .jupiterx-recent-comment {
+        .comment-author-link {
+            color: @sidebar-widgets-link-color;
+        }
+
+        .comment-author-link:before {
+            color: @sidebar-widgets-link-color;
+        }
+
+        &:hover .comment-author-link:before {
+            color: @sidebar-widgets-link-color-hover;
+        }
+    }
+}
+
+@media @md-up {
+    .jupiterx-sidebar:not(.order-lg-first):not(.elementor-widget),
+    .jupiterx-sidebar.order-lg-last {
+        .jupiterx-border-left('sidebar-divider-sidebar');
+    }
+
+    .jupiterx-sidebar.order-lg-first,
+    .jupiterx-primary.order-lg-last ~ .jupiterx-sidebar {
+        .jupiterx-border-right('sidebar-divider-sidebar');
+        border-left: none;
+    }
+}

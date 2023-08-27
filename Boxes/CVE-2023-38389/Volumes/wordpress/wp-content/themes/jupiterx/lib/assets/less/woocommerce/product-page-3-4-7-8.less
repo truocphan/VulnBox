@@ -1,0 +1,232 @@
+//
+// Template 3, 4, 7, 8.
+
+.jupiterx-product-template-3,
+.jupiterx-product-template-4,
+.jupiterx-product-template-7,
+.jupiterx-product-template-8 {
+    div.product {
+        div.images {
+            width: 100% !important;
+            float: none;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+
+// Template 3, 4.
+
+.jupiterx-product-template-3,
+.jupiterx-product-template-4 {
+    div.product {
+        div.summary {
+            float: none;
+        }
+
+        .accordion {
+            margin-top: 1.3rem;
+        }
+
+        .woocommerce-product-gallery__wrapper {
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 960px) {
+        div.product {
+            div.summary {
+                float: left;
+            }
+        }
+
+        .accordion {
+            width: 49%;
+            float: right;
+        }
+    }
+}
+
+//
+// Template 4, 8.
+
+.jupiterx-product-template-4,
+.jupiterx-product-template-8 {
+    .jupiterx-main-content {
+        padding-top: 0;
+
+        > div {
+            > .row {
+                margin-left: 0;
+                margin-right: 0;
+
+                > .jupiterx-primary {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+
+    div.product {
+        div.woocommerce-product-gallery {
+            .flex-direction-nav {
+                top: ~"calc(50% - 18px)";
+            }
+
+            .flex-control-thumbs {
+                position: absolute;
+                right: 0;
+                bottom: 45px;
+                left: 0;
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        div.jupiterx-product-gallery-vertical {
+            .flex-control-thumbs {
+                top: 20px;
+                right: auto;
+                bottom: auto;
+                left: 75px;
+                margin: 0;
+                width: 11%;
+                max-height: 650px;
+                height: 90%;
+            }
+
+            .flex-direction-nav {
+                left: 0 !important;
+            }
+        }
+
+        @media @xs-up {
+            div.jupiterx-product-gallery-vertical {
+                .flex-control-thumbs {
+                    top: 45px;
+                    left: 90px;
+                }
+            }
+        }
+    }
+}
+
+//
+// Template 7, 8.
+
+.jupiterx-product-template-7,
+.jupiterx-product-template-8 {
+    div.product {
+        .entry-summary,
+        .wc-tabs-wrapper {
+            max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.images {
+            width: 100% !important;
+            float: none;
+        }
+
+        div.summary {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+
+        div.woocommerce-product-rating .star-rating {
+            display: inline-block;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .woocommerce-review-link {
+            float: none;
+        }
+
+        .social-share ul {
+            text-align: center;
+        }
+
+        form.cart {
+            table {
+                td {
+                    width: 100%;
+                    display: block;
+
+                    &.label {
+                        text-align: center;
+                        padding-bottom: .5rem;
+                    }
+
+                    &.value {
+                        padding-top: 0;
+                    }
+                }
+
+                &.variations td {
+                    text-align: center;
+                }
+            }
+
+            .group_table {
+                margin-left: auto;
+                margin-right: auto;
+
+                td:first-child {
+                    width: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .woocommerce-grouped-product-list-item__label {
+                    padding-bottom: 0;
+                }
+
+                .woocommerce-grouped-product-list-item__price {
+                    padding-bottom: 1.5rem;
+                }
+            }
+
+            .variations select {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            .button {
+                display: block;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none;
+            }
+
+            div.quantity {
+                display: inline-block;
+
+                &.hidden {
+                    display: none;
+                }
+            }
+
+            .mk-quantity-label {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .mk-product-quantity {
+                width: 102px;
+                margin-left: auto !important;
+                margin-right: auto;
+                float: none;
+            }
+        }
+
+        .jupiterx-social-share-inner {
+            justify-content: center;
+        }
+    }
+}

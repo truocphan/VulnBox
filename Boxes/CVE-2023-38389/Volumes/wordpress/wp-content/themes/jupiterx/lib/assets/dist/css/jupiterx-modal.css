@@ -1,0 +1,234 @@
+body.jupiterx-modal-active {
+  height: 100%;
+  overflow: hidden;
+}
+
+.jupiterx-modal * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.jupiterx-modal-overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 9999999;
+}
+
+.jupiterx-modal {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 500px;
+  margin-left: -250px;
+  background-color: #ffffff;
+  z-index: 9999999;
+  opacity: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: .3rem;
+  outline: 0;
+}
+
+.jupiterx-modal-close,
+.jupiterx .jupiterx-modal-close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.rtl .jupiterx-modal-close, .rtl
+.jupiterx .jupiterx-modal-close {
+  float: left;
+}
+
+.jupiterx-modal-close:hover, .jupiterx-modal-close:focus {
+  color: #000;
+  text-decoration: none;
+  opacity: .75;
+}
+
+button.jupiterx-modal-close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.jupiterx-modal-icon {
+  display: none;
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+
+.rtl .jupiterx-modal-icon {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.jupiterx-modal--success .jupiterx-modal-icon {
+  display: inline-block;
+  background: url(../../../admin/control-panel/assets/images/success.svg) no-repeat center center;
+  background-size: contain;
+}
+
+.jupiterx-modal--warning .jupiterx-modal-icon {
+  display: inline-block;
+  background: url(../../../admin/control-panel/assets/images/warning.svg) no-repeat center center;
+  background-size: contain;
+}
+
+.jupiterx-modal--error .jupiterx-modal-icon {
+  display: inline-block;
+  background: url(../../../admin/control-panel/assets/images/error.svg) no-repeat center center;
+  background-size: contain;
+}
+
+.jupiterx-modal-icon-custom {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 13px;
+  font-size: 24px;
+}
+
+.jupiterx-modal-icon-custom.jupiterx-icon-info-circle {
+  color: #F5C343;
+}
+
+.jupiterx-modal .jupiterx-modal-title {
+  color: #444444;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: 0;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.jupiterx-modal-header {
+  padding: 1.3rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.jupiterx-modal-desc {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.6;
+  padding: 1.6rem;
+}
+
+.jupiterx-modal-footer {
+  padding: 1.3rem;
+  border-top: 1px solid #e9ecef;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.rtl .jupiterx-modal-footer {
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.jupiterx-modal-footer > :not(:first-child) {
+  margin-left: .25rem;
+}
+
+.jupiterx-modal-footer > :not(:last-child) {
+  margin-right: .25rem;
+}
+
+.rtl .jupiterx-modal-footer > :not(:last-child) {
+  margin-right: 0;
+  margin-left: .25rem;
+}
+
+.jupiterx-modal-ok-btn, .jupiterx-modal-cancel-btn {
+  min-width: 110px;
+}
+
+.jupiterx-modal .jupiterx-modal-readmore-btn {
+  float: left;
+  color: #15b2fa;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-decoration: none;
+  margin-top: 9px;
+}
+
+.jupiterx-modal .jupiterx-modal-readmore-btn:hover {
+  border-bottom: 1px solid #15b2fa;
+  padding-bottom: 2px;
+}
+
+.jupiterx-modal .jupiterx-modal-step-list {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jupiterx-modal .jupiterx-modal-step-list li {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 5px 0;
+  padding: 0;
+  padding-left: 22px;
+  background: url(../../../admin/control-panel/assets/images/little-circle.svg) no-repeat left center;
+  background-size: 12px 12px;
+}
+
+.rtl .jupiterx-modal .jupiterx-modal-step-list li {
+  padding-right: 22px;
+  padding-left: 0;
+  background-position: right center;
+}
+
+.jupiterx-modal .jupiterx-modal-step-list li:last-child {
+  margin-bottom: 0;
+}
+
+.jupiterx-modal .jupiterx-modal-step-list li.jupiterx-modal-step--done,
+.jupiterx-modal .jupiterx-modal-step-list li.step-done {
+  background: url(../../../admin/control-panel/assets/images/check.svg) no-repeat left center;
+  background-size: 15px 15px;
+}
+
+.rtl .jupiterx-modal .jupiterx-modal-step-list li.jupiterx-modal-step--done, .rtl
+.jupiterx-modal .jupiterx-modal-step-list li.step-done {
+  background-position: right center !important;
+}
+
+.jupiterx-modal .jupiterx-modal-step-list span {
+  display: inline;
+  vertical-align: initial;
+  margin-left: 5px;
+  font-size: 11px;
+  color: #a6a6a6;
+}

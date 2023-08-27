@@ -1,0 +1,63 @@
+// Woocomerce Notice Messages
+
+.woocommerce {
+    .woocommerce-notices-wrapper {
+        a.button {
+            .jupiterx-typography('notice-messages-button');
+            .jupiterx-border('notice-messages-button-border');
+            background-color: @notice-messages-button-background-color;
+            box-shadow: @notice-messages-button-box-shadow;
+
+            &:hover,
+            &:focus {
+                color: @notice-messages-button-color-hover;
+                background-color: @notice-messages-button-background-color-hover;
+                border-color: @notice-messages-button-border-hover;
+                box-shadow: @notice-messages-button-box-shadow-hover-horizontal+px
+                @notice-messages-button-box-shadow-hover-vertical+px
+                @notice-messages-button-box-shadow-hover-blur+px
+                @notice-messages-button-box-shadow-hover-spread+px
+                @notice-messages-button-box-shadow-color;
+            }
+        }
+
+        // Success
+        .woocommerce-message {
+            .jupiterx-typography('notice-messages-box-success-text');
+            .jupiterx-border-top('notice-messages-box-success-container-border');
+            .jupiterx-spacing('notice-messages-box-success-container');
+            background-color: @notice-messages-box-success-container-background-color;
+            border-radius: @notice-messages-box-success-container-border-radius;
+
+            &::before{
+                .jupiterx-typography('notice-messages-box-success-icon');
+            }
+        }
+
+        // Info
+        .woocommerce-info {
+            .jupiterx-typography('notice-messages-box-info-text');
+            .jupiterx-border-top('notice-messages-box-info-container-border');
+            .jupiterx-spacing('notice-messages-box-info-container');
+            background-color: @notice-messages-box-info-container-background-color;
+            border-radius: @notice-messages-box-info-container-border-radius;
+
+            &::before{
+                .jupiterx-typography('notice-messages-box-info-icon');
+            }
+        }
+
+        // Error
+        .woocommerce-error {
+            .jupiterx-typography('notice-messages-box-error-text');
+            .jupiterx-border-top('notice-messages-box-error-container-border');
+            .jupiterx-spacing('notice-messages-box-error-container');
+            background-color: @notice-messages-box-error-container-background-color;
+            border-radius: @notice-messages-box-error-container-border-radius;
+
+            &::before{
+                .jupiterx-typography('notice-messages-box-error-icon');
+            }
+        }
+    }
+ }

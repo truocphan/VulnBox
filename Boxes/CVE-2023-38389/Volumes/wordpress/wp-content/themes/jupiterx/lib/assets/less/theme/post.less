@@ -1,0 +1,234 @@
+// Post
+//
+// Post, meta, author box, related posts.
+
+.jupiterx-post {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.jupiterx-post-loop {
+    margin-bottom: 3rem;
+}
+
+// Title
+
+.jupiterx-post-title {
+
+    body:not(.single) & {
+        margin-bottom: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a,
+    a:hover {
+        color: @headings-color;
+    }
+}
+
+// Post image
+
+.jupiterx-post-image {
+    margin-bottom: 1rem;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border: 0 solid;
+        border-radius: @border-radius;
+    }
+}
+
+// More link
+
+.jupiterx-post-more-link {
+    margin-top: 1rem;
+}
+
+// Meta
+
+.jupiterx-post-meta {
+    font-size: @font-size-sm;
+    color: @secondary;
+
+    .list-inline-item + .list-inline-item:before {
+        padding-right: .5rem;
+        content: '|';
+    }
+}
+
+.jupiterx-post-tags {
+    margin: 2rem 0 0;
+
+    .jupiterx-post-tags {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .btn {
+        margin: 0 5px 5px 5px;
+        padding: .22rem .75rem;
+        font-size: @font-size-sm;
+        color: @secondary;
+    }
+}
+
+.jupiterx-post-meta-author-avatar .avatar {
+    border-radius: @border-radius;
+}
+
+// Navigation
+
+.jupiterx-post-navigation {
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: @border-radius;
+    }
+}
+
+.jupiterx-post-navigation-link {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+
+    &:hover {
+        color: @body-color;
+        text-decoration: none;
+
+        .jupiterx-post-navigation-title {
+            text-decoration: underline;
+        }
+    }
+}
+
+.jupiterx-post-navigation-previous img {
+    margin-right: 1rem;
+}
+
+.jupiterx-post-navigation-next {
+    text-align: right;
+    justify-content: flex-end;
+
+    img {
+        margin-left: 1rem;
+    }
+}
+
+.jupiterx-post-navigation-title {
+    color: @body-color;
+}
+
+.jupiterx-post-navigation-label {
+    margin-top: .5rem;
+    display: block;
+    font-size: @font-size-sm;
+    color: @secondary;
+}
+
+// Author box
+
+.jupiterx-post-author-box {
+    display: flex;
+    margin: 5rem 0 0;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: @border-radius;
+}
+
+.jupiterx-post-author-box-avatar {
+    margin-right: 1.5rem;
+
+    img {
+        border-radius: @border-radius;
+    }
+}
+
+.jupiterx-post-author-box-link {
+    display: block;
+    margin: 0 0 .5rem;
+    font-weight: bold;
+    color: @body-color;
+}
+
+.jupiterx-post-author-icons {
+    margin-bottom: 0;
+
+    .list-inline-item {
+        margin-right: 1rem;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    a {
+        color: @secondary;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+// Related
+
+.jupiterx-post-related-label {
+    margin-bottom: 1.5rem;
+    font-size: @h5-font-size;
+}
+
+.jupiterx-post-related {
+    margin-top: 5rem;
+
+    [class^=col-] {
+        margin-bottom: 30px;
+    }
+
+    .card {
+        height: 100%;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover,
+        &:focus {
+            .card-title {
+                text-decoration: @link-hover-decoration;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        margin-bottom: 0;
+        color: @body-color;
+    }
+}
+
+// Pagination
+
+.jupiterx-posts-pagination {
+    justify-content: center;
+}

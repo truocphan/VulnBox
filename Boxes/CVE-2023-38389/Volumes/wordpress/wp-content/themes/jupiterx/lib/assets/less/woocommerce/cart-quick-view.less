@@ -1,0 +1,104 @@
+// Cart Quick View
+.jupiterx-cart-quick-view {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    right: -300px;
+    top: 0;
+    background: #fff;
+    z-index: 11000;
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: @gray-300;
+    transition: right @transition-duration, left @transition-duration;
+
+    &[data-position="left"] {
+        left: -300px;
+        border-left-width: 0;
+        border-right-width: 1px;
+
+        & .jupiterx-mini-cart-close {
+            transform: rotate(180deg);
+        }
+    }
+
+    .jupiterx-mini-cart-header {
+        display: flex;
+        flex-grow: 0;
+        flex-shrink: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 16px;
+        border-width: 0 0 1px 0;
+        border-style: solid;
+        border-color: @gray-300;
+    }
+
+    .jupiterx-mini-cart-title {
+        margin: 0;
+        font-size: @h5-font-size;
+    }
+
+    .jupiterx-mini-cart-close {
+        color: @secondary;
+        background-color: transparent;
+        border-width: 0;
+        padding: 0;
+    }
+
+    .rtl &[data-position="left"] .jupiterx-mini-cart-close {
+        transform: rotate(0);
+    }
+
+    .rtl &[data-position="right"] .jupiterx-mini-cart-close {
+        transform: rotate(180deg);
+    }
+
+    .woocommerce {
+        display: flex;
+        flex-grow: 1;
+        overflow-y: auto;
+
+        div.widget_shopping_cart_content {
+            display: flex;
+            flex-flow: column;
+            flex-grow: 1;
+            width: 100%;
+            border: none;
+            border-radius: 0;
+
+            .woocommerce-mini-cart {
+                flex-grow: 1;
+                flex-shrink: 1;
+                overflow-y: auto;
+            }
+
+            .woocommerce-mini-cart__total {
+                flex-grow: 0;
+                flex-shrink: 0;
+                padding: 15px 16px;
+            }
+
+            .button {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.jupiterx-cart-quick-view-overlay {
+    .jupiterx-cart-quick-view {
+        right: 0;
+
+        &[data-position="left"] {
+            left: 0;
+        }
+    }
+}
+
+.admin-bar .jupiterx-cart-quick-view {
+    top: 32px;
+    height: ~"calc(100vh - 32px)";
+}

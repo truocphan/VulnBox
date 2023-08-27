@@ -1,0 +1,64 @@
+.woocommerce {
+    ul.products li.product,
+    div.product {
+
+        .jupiterx-sale-badge,
+        .jupiterx-out-of-stock {
+            display: inline-block;
+            z-index: 10;
+            position: absolute;
+            margin: 0;
+            padding: .8em 1em;
+            min-width: auto;
+            min-height: auto;
+            top: 1em;
+            right: 1em;
+            font-size: .85em;
+            font-weight: normal;
+            line-height: 1;
+            border-radius: @border-radius;
+            background-color: @success;
+        }
+        .jupiterx-out-of-stock {
+            background-color: @light;
+            color: @secondary;
+            display: none;
+        }
+    }
+
+    div.product {
+
+        .jupiterx-product-badges {
+            text-align: right;
+
+            .jupiterx-sale-badge,
+            .jupiterx-out-of-stock {
+                position: relative;
+                right: auto;
+                top: 0;
+                left: 0;
+                line-height: 1.35;
+            }
+
+            .jupiterx-sale-badge {
+                .jupiterx-spacing('product-page-sale-badge');
+                .jupiterx-border('product-page-sale-badge-border');
+                .jupiterx-typography('product-page-sale-badge');
+                background-color: @product-page-sale-badge-background-color;
+            }
+
+            .jupiterx-out-of-stock {
+                .jupiterx-spacing('pproduct-page-outstock-badge');
+                .jupiterx-border('product-page-outstock-badge-border');
+                .jupiterx-typography('product-page-outstock-badge');
+                background-color: @product-page-outstock-badge-background-color;
+            }
+        }
+
+        &.outofstock .jupiterx-sale-badge {
+            display: none;
+        }
+
+    }
+
+}

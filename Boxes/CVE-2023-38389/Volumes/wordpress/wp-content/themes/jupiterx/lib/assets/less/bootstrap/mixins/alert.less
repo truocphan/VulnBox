@@ -1,0 +1,17 @@
+.alert-variant(@state) {
+	@background: mix(@white, @state, @theme-color-interval * @alert-bg-level);
+	@border: mix(@white, @state, @theme-color-interval * @alert-border-level);
+	@color: mix(@black, @state, @theme-color-interval * @alert-color-level);
+
+	color: @color;
+	background: @background;
+	border-color: @border;
+
+	hr {
+		border-top-color: darken(@border, 5%);
+	}
+
+	.alert-link {
+		color: darken(@color, 10%);
+	}
+}

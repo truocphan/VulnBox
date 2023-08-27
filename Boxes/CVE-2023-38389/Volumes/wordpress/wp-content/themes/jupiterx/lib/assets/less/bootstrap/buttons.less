@@ -1,0 +1,198 @@
+//
+// Base styles
+//
+
+.btn {
+	display: inline-block;
+	font-weight: @btn-font-weight;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: @btn-border-width solid transparent;
+	.button-size(@btn-padding-y, @btn-padding-x, @body-font-size, @btn-line-height, @btn-border-radius);
+	transition: @btn-transition;
+
+	// Share hover and focus styles
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	} ;
+
+	&:focus,
+	&.focus {
+		outline: 0;
+		box-shadow: @btn-focus-box-shadow;
+	}
+
+	// Disabled comes first so active can properly restyle
+	&.disabled,
+	&:disabled {
+		opacity: @btn-disabled-opacity;
+		box-shadow: none;
+	}
+
+	// Opinionated: add "hand" cursor to non-disabled .btn elements
+	&:not(:disabled):not(.disabled) {
+		cursor: pointer;
+	}
+
+	&:not(:disabled):not(.disabled):active,
+	&:not(:disabled):not(.disabled).active {
+		background-image: none;
+		box-shadow: @btn-active-box-shadow;
+
+		&:focus {
+			box-shadow: @btn-focus-box-shadow, @btn-active-box-shadow;
+		}
+	}
+}
+
+// Future-proof disabling of clicks on `<a>` elements
+a.btn.disabled,
+fieldset:disabled a.btn {
+	pointer-events: none;
+}
+
+
+//
+// Alternate buttons
+//
+
+.btn-primary {
+	.button-variant(@primary, @primary, @white);
+}
+
+.btn-secondary {
+	.button-variant(@secondary, @secondary, @white);
+}
+
+.btn-success {
+	.button-variant(@success, @success, @white);
+}
+
+.btn-danger {
+	.button-variant(@danger, @danger, @white);
+}
+
+.btn-warning {
+	.button-variant(@warning, @warning, @dark);
+}
+
+.btn-info {
+	.button-variant(@info, @info, @white);
+}
+
+.btn-light {
+	.button-variant(@light, @light, @dark);
+}
+
+.btn-dark {
+	.button-variant(@dark, @dark, @white);
+}
+
+.btn-outline-primary {
+	.button-outline-variant(@primary, @white);
+}
+
+.btn-outline-secondary {
+	.button-outline-variant(@secondary, @white);
+}
+
+.btn-outline-success {
+	.button-outline-variant(@success, @white);
+}
+
+.btn-outline-danger {
+	.button-outline-variant(@danger, @white);
+}
+
+.btn-outline-warning {
+	.button-outline-variant(@warning, @dark);
+}
+
+.btn-outline-info {
+	.button-outline-variant(@info, @white);
+}
+
+.btn-outline-light {
+	.button-outline-variant(@light, @dark);
+}
+
+.btn-outline-dark {
+	.button-outline-variant(@dark, @white);
+}
+
+
+//
+// Link buttons
+//
+
+// Make a button look and behave like a link
+.btn-link {
+	font-weight: @font-weight-normal;
+	color: @link-color;
+	background-color: transparent;
+
+	&:hover {
+		color: @link-hover-color;
+		text-decoration: @link-hover-decoration;
+		background-color: transparent;
+		border-color: transparent;
+	};
+
+	&:focus,
+	&.focus {
+		text-decoration: @link-hover-decoration;
+		border-color: transparent;
+		box-shadow: none;
+	}
+
+	&:disabled,
+	&.disabled {
+		color: @btn-link-disabled-color;
+		pointer-events: none;
+	}
+
+	// No need for an active state here
+}
+
+
+//
+// Button Sizes
+//
+
+.btn-lg {
+	.button-size(@btn-padding-y-lg, @btn-padding-x-lg, @font-size-lg, @btn-line-height-lg, @btn-border-radius-lg);
+}
+
+.btn-sm {
+	.button-size(@btn-padding-y-sm, @btn-padding-x-sm, @font-size-sm, @btn-line-height-sm, @btn-border-radius-sm);
+}
+
+
+//
+// Block button
+//
+
+.btn-block {
+	display: block;
+	width: 100%;
+
+	// Vertically space out multiple block buttons
+	+ .btn-block {
+		margin-top: @btn-block-spacing-y;
+	}
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	&.btn-block {
+		width: 100%;
+	}
+}

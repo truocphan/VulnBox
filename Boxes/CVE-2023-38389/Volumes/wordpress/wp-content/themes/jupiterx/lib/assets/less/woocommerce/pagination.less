@@ -1,0 +1,127 @@
+// Default pagination styles.
+.woocommerce {
+    nav.woocommerce-pagination {
+        .jupiterx-align('product-list-pagination-align', text-align);
+
+        ul {
+            .jupiterx-spacing('product-list-pagination-margin');
+            border-width: 0;
+
+            .page-numbers {
+                position: relative;
+                display: block;
+                padding: .5rem .75rem;
+                line-height: 1.25;
+                color: @primary;
+                background-color: #fff;
+                border: 1px solid #dee2e6;
+
+                &.current {
+                    z-index: 1;
+                    color: #fff;
+                    background-color: @primary;
+                    border-color: @primary;
+                }
+
+                &:not(.current):hover {
+                    z-index: 2;
+                    color: @primary;
+                    text-decoration: none;
+                    background-color: #e9ecef;
+                    border-color: #dee2e6;
+                }
+
+                &:focus {
+                    z-index: 2;
+                    outline: 0;
+                    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+                }
+            }
+
+            li {
+                margin-left: -1px;
+                overflow: unset;
+                border-width: 0;
+
+                &:first-child {
+                    .page-numbers {
+                        margin-left: 0;
+                        border-top-left-radius: @border-radius;
+                        border-bottom-left-radius: @border-radius;
+                    }
+                }
+                &:last-child {
+                    .page-numbers {
+                        border-top-right-radius: @border-radius;
+                        border-bottom-right-radius: @border-radius;
+                    }
+                }
+
+                .rtl& {
+                    &:first-child {
+                        .prev {
+                            transform: rotate(180deg);
+                            border-radius: 0;
+                            border-top-right-radius: @border-radius;
+                            border-bottom-right-radius: @border-radius;
+                        }
+                    }
+
+                    &:last-child {
+                        .next {
+                            transform: rotate(180deg);
+                            border-radius: 0;
+                            border-top-left-radius: @border-radius;
+                            border-bottom-left-radius: @border-radius;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// Customizer styles.
+.woocommerce {
+    nav.woocommerce-pagination {
+        ul {
+            .page-numbers {
+                .jupiterx-spacing('product-list-pagination-padding');
+                .jupiterx-background('product-list-pagination-background');
+                .jupiterx-typography('product-list-pagination-typography');
+
+                &.current {
+                    .jupiterx-background('product-list-pagination-background-active');
+                    color: @product-list-pagination-color-active;
+                }
+
+                &:not(.current):hover {
+                    .jupiterx-background('product-list-pagination-background-hover');
+                    color: @product-list-pagination-color-hover;
+                }
+            }
+
+            li {
+                margin-left: calc(jupiterx_value(@product-list-pagination-gutter-space, '-2px') / 2);
+                margin-right: calc(jupiterx_value(@product-list-pagination-gutter-space, '0px') / 2);
+
+                &,
+                &:first-child,
+                &:last-child {
+                    .page-numbers {
+                        .jupiterx-border('product-list-pagination-border');
+
+                        &.current {
+                            border-color: @product-list-pagination-border-color-active;
+                        }
+
+                        &:not(.current):hover {
+                            border-color: @product-list-pagination-border-color-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,142 @@
+.woocommerce-page .jupiterx-primary,
+.woocommerce form {
+    input:not(.jet-range__slider__input),
+    textarea,
+    select {
+        width: 100%;
+        padding: .55rem .7rem;
+        color: #495057;
+        background: #fff;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: all .15s ease-in-out;
+
+        &:focus {
+            color: #495057;
+            background-color: #fff;
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        }
+
+       // Unstyle the caret on `<select>`s in IE10+.
+        &::-ms-expand {
+            background-color: transparent;
+            border: 0;
+        }
+
+        // Disabled
+        &:disabled,
+        &[readonly] {
+            background-color: @gray-200;
+            // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655.
+            opacity: 1;
+        }
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: auto;
+    }
+
+    .select2-container--default {
+        .select2-selection--single {
+            height: auto;
+            border: 1px solid #ced4da;
+
+            .select2-selection__rendered {
+                padding: .55rem .7rem;
+                line-height: normal;
+            }
+
+            .select2-selection__placeholder {
+                display: inline-block;
+            }
+
+            .select2-selection__arrow {
+                height: 100%;
+                top: 2px;
+                right: 5px;
+            }
+        }
+    }
+}
+
+.woocommerce-page .jupiterx-primary {
+    form {
+        .form-row {
+            padding: 0;
+            margin: 0 0 1rem;
+        }
+
+        .form-row-first {
+            padding-right: .5rem;
+        }
+    }
+}
+
+
+.woocommerce form {
+    .form-row {
+        input.input-text,
+        textarea,
+        select {
+            .jupiterx-typography('checkout-cart-field');
+            .jupiterx-spacing('checkout-cart-field');
+            .jupiterx-border('checkout-cart-field-border');
+            background-color: @checkout-cart-field-background-color;
+
+            &:focus {
+                color: @checkout-cart-field-color-focus;
+                background-color: @checkout-cart-field-background-color-focus;
+                border-color: @checkout-cart-field-border-color-focus;
+            }
+        }
+
+        select {
+            line-height: normal;
+        }
+
+        .select2-container--default {
+            .jupiterx-margin('checkout-cart-field', '', '', '', '');
+
+            .select2-selection--single {
+                .jupiterx-border('checkout-cart-field-border');
+
+                .select2-selection__rendered {
+                    .jupiterx-typography('checkout-cart-field');
+                   .jupiterx-padding('checkout-cart-field', '', '', '', '');
+                    background-color: @checkout-cart-field-background-color;
+                }
+            }
+        }
+    }
+}
+
+.woocommerce-cart:not(.raven-cart-wiget-cart-page) {
+    table.cart {
+        td.actions {
+            .coupon {
+                .input-text {
+                    .jupiterx-typography('checkout-cart-field');
+                    .jupiterx-spacing('checkout-cart-field');
+                    .placeholder(@checkout-cart-field-color);
+
+                    &:focus {
+                        color: @checkout-cart-field-color-focus;
+                        background-color: @checkout-cart-field-background-color-focus;
+                        border-color: @checkout-cart-field-border-color-focus;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Checkout
+.woocommerce-checkout .woocommerce {
+    .form-row label {
+        .jupiterx-typography('checkout-cart-field-label');
+        .jupiterx-spacing('checkout-cart-field-label');
+    }
+}

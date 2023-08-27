@@ -1,0 +1,201 @@
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce .jupiterx-wc-loadmore {
+    display: inline-block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    transition: all .15s ease-in-out;
+
+    &:hover,&:focus {
+        color: #fff;
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
+
+    &:focus,
+    &.focus {
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+    }
+
+    // Disabled
+    &.disabled,
+    &:disabled,
+    &:disabled[disabled] {
+        padding: .375rem .75rem;
+        color: #fff;
+        pointer-events: none;
+    }
+
+    &.disabled:hover,
+    &:disabled:hover,
+    &:disabled[disabled]:hover {
+        color: #fff;
+        background-color: #007bff;
+    }
+
+    // Loading icon
+    &.loading {
+        padding-right: .75rem;
+
+        &::after {
+            font-family: "jupiterx";
+            content: "\EA39";
+            top: .4em ;
+            margin-left: .5em;
+            position: static;
+        }
+    }
+
+    &::after {
+        display: inline-flex;
+    }
+
+    // Button
+    &::before {
+        display: inline-flex;
+        margin-right: .3em;
+        vertical-align: -2px;
+    }
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    &,
+    &.disabled,
+    &:disabled,
+    &:disabled[disabled] {
+        &,
+        &:hover {
+            background-color: #007bff;
+        }
+    }
+
+    &:hover,&:focus {
+        background-color: #0069d9;
+    }
+}
+
+// Product page
+
+.single-product {
+    div.product {
+        .single_add_to_cart_button {
+            .jupiterx-spacing('product-page-add-cart-button');
+            .jupiterx-typography('product-page-add-cart-button');
+            .jupiterx-border('product-page-add-cart-button-border');
+            background-color: @product-page-add-cart-button-background-color;
+            box-shadow: @product-page-add-cart-button-shadow;
+
+            &:hover,
+            &:focus {
+                color: @product-page-add-cart-button-text-color-hover;
+                background-color: @product-page-add-cart-button-background-color-hover;
+                border-color: @product-page-add-cart-button-border-color-hover;
+                box-shadow: @product-page-add-cart-button-shadow-hover;
+
+                &:before {
+                    color: @product-page-add-cart-button-icon-color-hover;
+                }
+            }
+        }
+
+        .alt.single_add_to_cart_button {
+            background-color: @product-page-add-cart-button-background-color;
+
+            &:hover,
+            &:focus {
+                background-color: @product-page-add-cart-button-background-color-hover;
+            }
+        }
+
+        .jupiterx-hide-toggle(@product-page-add-cart-button-icon, 'single_add_to_cart_button:before');
+        .jupiterx-full-width(@product-page-add-cart-button-full-width, single_add_to_cart_button);
+    }
+}
+
+// Checkout & cart
+
+.woocommerce-checkout {
+    .woocommerce {
+        .jupiterx-continue-shopping {
+            float: right;
+        }
+    }
+}
+
+.woocommerce-cart:not(.raven-cart-wiget-cart-page),
+.woocommerce-checkout {
+    .woocommerce {
+        button.button,
+        button.button:disabled,
+        button.button:disabled[disabled],
+        a.button.alt {
+            .jupiterx-spacing('checkout-cart-button');
+            .jupiterx-typography('checkout-cart-button');
+            .jupiterx-border('checkout-cart-button-border');
+            background-color: @checkout-cart-button-background-color;
+            box-shadow: @checkout-cart-button-shadow;
+
+            &:hover,&:focus {
+                color: @checkout-cart-button-text-color-hover;
+                background-color: @checkout-cart-button-background-color-hover;
+                border-color: @checkout-cart-button-border-color-hover;
+                box-shadow: @checkout-cart-button-shadow-hover;
+            }
+        }
+
+        .jupiterx-continue-shopping {
+            .jupiterx-spacing('checkout-cart-back-button');
+            .jupiterx-typography('checkout-cart-back-button');
+            .jupiterx-border('checkout-cart-back-button-border');
+            background-color: @checkout-cart-back-button-background-color;
+            box-shadow: @checkout-cart-back-button-shadow;
+
+            &:hover,
+            &:focus{
+                color: @checkout-cart-back-button-text-color-hover;
+                background-color: @checkout-cart-back-button-background-color-hover;
+                border-color: @checkout-cart-back-button-border-color-hover;
+                box-shadow: @checkout-cart-back-button-shadow-hover;
+            }
+        }
+    }
+}
+
+.woocommerce {
+    div.jupiterx-wc-loadmore-wrapper {
+        text-align: center;
+        .jupiterx-full-width(@product-list-loadmore-button-full-width, jupiterx-wc-load-more);
+        a.jupiterx-wc-load-more {
+            .jupiterx-spacing('product-list-loadmore-button-spacing');
+            .jupiterx-typography('product-list-loadmore-button-typography');
+            .jupiterx-border('product-list-loadmore-button-border');
+            background-color: @product-list-loadmore-button-background-color;
+            box-shadow: @product-list-loadmore-button-shadow;
+
+            &:hover,
+            &:focus {
+                color: @product-list-loadmore-button-text-color-hover;
+                background-color: @product-list-loadmore-button-background-color-hover;
+                border-color: @product-list-loadmore-button-border-color-hover;
+                box-shadow: @product-list-loadmore-button-shadow-hover;
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.woocommerce {
+    form.cart,
+    .product-quantity {
+        div.quantity {
+            .input-group {
+                width: 128px;
+                flex-wrap: initial;
+            }
+
+            .btn {
+                width: 36px;
+                border-color: #ced4da;
+            }
+
+            input {
+                width: 60px;
+                height: 36px;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .input-group {
+                flex-wrap: nowrap;
+            }
+        }
+    }
+
+    // Single Page
+    div.product {
+        form.cart {
+            div.quantity {
+                .jupiterx-spacing('product-page-quantity');
+
+                &.hidden {
+                    display: none;
+                }
+
+                .btn {
+                    width: auto;
+                    .jupiterx-spacing('product-page-quantity-input');
+                }
+
+                input {
+                    height: auto;
+                }
+
+                input,
+                .btn {
+                    background: @product-page-quantity-input-background-color;
+                    .jupiterx-border('product-page-quantity-input-border');
+                    .jupiterx-typography('product-page-quantity-input');
+                }
+
+                .input-group input {
+                    border-radius: 0;
+                }
+
+                .input-group-prepend .btn {
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    border-right: 0;
+                }
+
+                .input-group-append .btn {
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                    border-left: 0;
+                }
+            }
+        }
+    }
+}

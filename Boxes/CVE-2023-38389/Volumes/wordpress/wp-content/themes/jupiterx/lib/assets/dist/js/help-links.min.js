@@ -1,0 +1,1 @@
+"use strict";!function(e){"undefined"!=typeof acf&&acf.addAction("ready",function(){e(".acf-fields .acf-tab-wrap").append('<a href="https://themes.artbees.net/docs/overriding-theme-customizations-inside-the-pages" class="jupiterx-help-link jupiterx-help-link-light jupiterx-icon-question" target="_blank"></a>')})}(jQuery);

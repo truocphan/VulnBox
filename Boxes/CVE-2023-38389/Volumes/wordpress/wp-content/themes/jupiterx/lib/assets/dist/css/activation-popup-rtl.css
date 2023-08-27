@@ -1,0 +1,118 @@
+.themes-php .jupiterx-modal-title {
+  color: #222222;
+}
+
+.themes-php .jupiterx-onboarding-inner-title {
+  display: block;
+  font-size: 24px;
+  color: #222222;
+}
+
+.themes-php .jupiterx-onboarding-inner-learn-more {
+  display: inline-block;
+  color: #0077ff;
+}
+
+.themes-php .jupiterx-onboarding-inner-learn-more a {
+  text-decoration: none;
+}
+
+.themes-php .jupiterx-onboarding-inner-learn-more .jupiterx-icon-question-circle::before {
+  vertical-align: -2px;
+}
+
+.themes-php .btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.themes-php .btn:before {
+  vertical-align: -2px;
+  margin-left: 10px;
+}
+
+.themes-php .btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.themes-php .btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.themes-php .jupiterx-modal-footer {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.themes-php .jupiterx-modal-footer .btn {
+  margin: 0 5px;
+}
+
+.themes-php .jupiterx-modal-desc {
+  color: #222222;
+}
+
+.themes-php .jupiterx-modal-desc img {
+  display: block;
+  margin: 0 auto 2rem;
+  width: 100%;
+}
+
+.themes-php .jupiterx-modal-desc strong {
+  display: block;
+}
+
+.themes-php .jupiterx-onboarding-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.themes-php .jupiterx-onboarding-list-num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 24px;
+  flex: 0 0 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #9aa7b3;
+  border-radius: 50%;
+  margin-left: 10px;
+}

@@ -1,0 +1,54 @@
+// Nav
+
+// Nav expand.
+
+.nav-expand(@breakpoint) {
+	@up: ~"@{@{breakpoint}-up}";
+	@down: ~"@{@{breakpoint}-down}";
+
+	@media @up {
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+
+		.navbar-nav {
+			flex-direction: row;
+
+			.dropdown-menu {
+				position: absolute;
+			}
+
+			.nav-link {
+				padding-right: @navbar-nav-link-padding-x;
+				padding-left: @navbar-nav-link-padding-x;
+			}
+		}
+
+		// For nesting containers, have to redeclare for alignment purposes
+		> .container,
+		> .container-fluid {
+			flex-wrap: nowrap;
+		}
+
+		.navbar-collapse {
+			display: flex !important;
+
+			// Changes flex-bases to auto because of an IE10 bug
+			flex-basis: auto;
+		}
+
+		.navbar-toggler {
+			display: none;
+		}
+	};
+}
+
+// Horizontal dividers
+//
+// Dividers (basically an hr) within dropdowns and nav lists
+
+.nav-divider(@color: @nav-divider-color, @margin-y: @nav-divider-margin-y) {
+	height: 0;
+	margin: @margin-y 0;
+	overflow: hidden;
+	border-top: 1px solid @color;
+}

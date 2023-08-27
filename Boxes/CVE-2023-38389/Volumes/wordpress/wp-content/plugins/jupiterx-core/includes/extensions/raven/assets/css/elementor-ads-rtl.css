@@ -1,0 +1,62 @@
+/** Hide Elementor teaser in editor **/
+.elementor-tags-list__teaser {
+  display: none !important;
+}
+
+/** Hide Elementor pro widgets in search result **/
+#elementor-panel-elements .elementor-element--promotion {
+  display: none !important;
+}
+
+/** Remove page transition, wasn't able to do it with PHP **/
+.elementor-panel-menu-item-settings-page-transitions {
+  display: none !important;
+}
+
+/** Elementor editor > template library > move jupiterX to first **/
+#elementor-template-library-header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#elementor-template-library-header-menu > [data-tab="library/templatesJX"] {
+  -webkit-box-ordinal-group: -4;
+  -ms-flex-order: -5;
+  order: -5;
+}
+
+/** Elementor panel hide get pro widgets **/
+#elementor-panel-get-pro-elements {
+  display: none !important;
+}
+
+/** Elementor editor hide pro widget ads **/
+#elementor-panel-category-pro-elements,
+#elementor-panel-category-woocommerce-elements,
+#elementor-panel-category-theme-elements {
+  display: none !important;
+}
+
+/** Elementor editor hide custom attribute and custom css */
+.elementor-control-section_custom_attributes_pro,
+.elementor-control-custom_css_pro,
+.elementor-control-section_custom_css_pro {
+  display: none !important;
+}
+
+/** Hide Elementor dashboard overview **/
+#e-dashboard-overview .e-overview__feed,
+#e-dashboard-overview .e-overview__footer {
+  display: none !important;
+}
+
+/** Hide Elementor dashboard menu items : theme builder **/
+#menu-posts-elementor_library li.elementor-app-link {
+  display: none !important;
+}
+
+/** Hide Elementor role manager go pro sections **/
+#elementor-role-manager .elementor-role-go-pro {
+  display: none !important;
+}

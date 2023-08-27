@@ -1,0 +1,110 @@
+// Portfolio
+//
+// Portfolio single
+
+.single-portfolio {
+    .jupiterx-post-title {
+        .jupiterx-spacing('portfolio-single-title');
+        .jupiterx-typography('portfolio-single-title');
+        .jupiterx-align('portfolio-single-title-align', text-align);
+    }
+
+    .jupiterx-post-content {
+        .jupiterx-spacing('portfolio-single-post-content');
+        .jupiterx-typography('portfolio-single-post-content');
+        .jupiterx-align('portfolio-single-post-content-align', text-align);
+    }
+
+    .jupiterx-post-image {
+        .jupiterx-spacing('portfolio-single-featured-image');
+
+        img {
+            width: 100%;
+            min-height: @portfolio-single-featured-image-min-height;
+            max-height: @portfolio-single-featured-image-max-height;
+            object-fit: cover;
+            .jupiterx-border('portfolio-single-featured-image-border');
+        }
+
+        &.jupiterx-post-image-full-width {
+            img {
+                border-radius: 0;
+            }
+        }
+
+        &:not(.jupiterx-post-image-full-width) {
+            img {
+                border-radius: @portfolio-single-featured-image-border-radius;
+            }
+        }
+    }
+
+    // Social share
+
+    .jupiterx-social-share {
+        .jupiterx-spacing('portfolio-single-social-share');
+    }
+
+    .jupiterx-social-share-inner {
+        .jupiterx-align('portfolio-single-social-share-align', justify-content);
+    }
+
+    .jupiterx-social-share-link {
+        .jupiterx-spacing('portfolio-single-social-share-link');
+    }
+
+    // Meta
+
+    .jupiterx-post-meta {
+        .jupiterx-spacing('portfolio-single-meta');
+        .jupiterx-typography('portfolio-single-meta');
+        .jupiterx-align('portfolio-single-meta-align', text-align);
+
+        a {
+            color: @portfolio-single-meta-links-color;
+        }
+
+        .list-inline-item + .list-inline-item:before {
+            padding-right: .5rem;
+            content: @portfolio-single-meta-breadcrumb-divider;
+            color: @portfolio-single-meta-divider-color;
+        }
+    }
+
+    // Navigation
+
+    .jupiterx-post-navigation-link img {
+        border-radius: @portfolio-single-navigation-image-border-radius;
+    }
+
+    .jupiterx-post-navigation-title {
+        .jupiterx-typography('portfolio-single-navigation-title');
+    }
+
+    .jupiterx-post-navigation-label {
+        .jupiterx-typography('portfolio-single-navigation-label');
+    }
+
+    .jupiterx-post-navigation {
+        .jupiterx-spacing('portfolio-single-navigation');
+    }
+
+    // Related
+
+    .jupiterx-post-related {
+        .jupiterx-spacing('portfolio-single-related-posts-container');
+
+        .card {
+            .jupiterx-border('portfolio-single-related-posts-border');
+        }
+
+        .card-title {
+            .jupiterx-typography('portfolio-single-related-posts');
+        }
+
+        .card-body {
+            .jupiterx-spacing('portfolio-single-related-posts');
+            background-color: @portfolio-single-related-posts-background-color;
+        }
+    }
+}

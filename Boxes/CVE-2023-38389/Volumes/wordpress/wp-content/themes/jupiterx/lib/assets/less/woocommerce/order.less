@@ -1,0 +1,33 @@
+.woocommerce-order-received  {
+    ul.woocommerce-order-overview {
+        padding: 1rem 0;
+        display: flex;
+        border-top: 1px solid @gray-300;
+
+        li {
+            margin-right: 0;
+            width: 100%;
+            text-transform: unset;
+            border-right-width: 0;
+            font-size: @body-font-size;
+
+            strong {
+                font-size: @body-font-size;
+                line-height: 2.5;
+            }
+        }
+    }
+
+    @media( max-width: 768px ) {
+        ul.woocommerce-order-overview {
+            flex-direction: column;
+        }
+    }
+
+    .woocommerce-customer-details address {
+        padding: 1rem 1.5rem;
+        border-radius: @border-radius;
+        border-bottom-width: 1px;
+        border-right-width: 1px;
+    }
+}

@@ -1,0 +1,21 @@
+.post-types-archive(@post-type) {
+    .post-type-archive-@{post-type} .jupiterx-main-content {
+        .jupiterx-spacing(~"@{post-type}-archive-spacing");
+    }
+}
+
+.post-types-single( @post-type ) {
+    .single-@{post-type} .jupiterx-post-content {
+        .jupiterx-spacing(~"@{post-type}-single-post-content");
+        .jupiterx-typography(~"@{post-type}-single-post-content");
+        .jupiterx-align(~"@{post-type}-single-post-content-align", text-align);
+    }
+}
+
+.post-types (@index) when (@index < @post-types-length) {
+    .post-types-archive(~"@{post-type-@{index}}");
+    .post-types-single(~"@{post-type-@{index}}");
+    .post-types(@index + 1);
+}
+
+.post-types(0);

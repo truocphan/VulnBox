@@ -1,0 +1,356 @@
+html,
+body {
+  height: auto;
+}
+
+body {
+  margin: 65px auto;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  font-size: 16px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  color: #212529;
+}
+
+.alert {
+  width: 100%;
+}
+
+.fa-spin {
+  margin-right: 8px;
+}
+
+.jupiterx-logo {
+  margin-bottom: 45px;
+}
+
+.jupiterx-logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.jupiterx-nav {
+  max-width: 620px;
+  min-height: 32px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.jupiterx-nav .owl-stage-outer {
+  overflow: visible;
+}
+
+.jupiterx-nav .active .jupiterx-nav-item {
+  opacity: 0.2;
+}
+
+.jupiterx-nav .center .jupiterx-nav-item {
+  opacity: 1;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+
+.jupiterx-nav .jupiterx-nav-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0;
+  -webkit-transition: .35s;
+  transition: .35s;
+  color: #212529;
+}
+
+.jupiterx-nav .h2 {
+  display: block;
+  margin: 0;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.jupiterx-notice {
+  max-width: 610px;
+  margin: 0 auto 25px;
+  color: #231f20;
+  line-height: 1.625;
+  text-align: center;
+}
+
+.jupiterx-form {
+  margin: 25px 0;
+}
+
+.jupiterx-skip-wizard {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.jupiterx-skip-wizard .jupiterx-skip-link {
+  font-size: 14px;
+}
+
+.jupiterx-help-button {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.jupiterx-help-button .jupiterx-btn-info {
+  color: #007bff;
+  background-color: #DFECFC;
+  border: 1px solid #007bff;
+  font-size: 0.875rem;
+}
+
+.jupiterx-help-button .jupiterx-btn-info img {
+  vertical-align: -3px;
+  margin-left: 0.5rem;
+}
+
+.jupiterx-container {
+  max-width: 650px;
+}
+
+.jupiterx-help-links li {
+  position: relative;
+  margin-bottom: 8px;
+  padding: 0 25px 0 0;
+}
+
+.jupiterx-help-links li.jupiterx-help-link-image-icon {
+  padding: 0;
+}
+
+.jupiterx-help-links a .fa {
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+
+.jupiterx-help-links a:hover {
+  text-decoration: none;
+}
+
+.jupiterx-social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jupiterx-social-links li {
+  margin-left: 25px;
+}
+
+.jupiterx-social-links a {
+  font-size: 28px;
+}
+
+.jupiterx-social-links .fa-facebook {
+  color: #4a6ea8;
+}
+
+.jupiterx-social-links .fa-twitter {
+  color: #1da1f2;
+}
+
+.jupiterx-social-links .fa-instagram {
+  color: #060606;
+}
+
+.jupiterx-intro .jupiterx-form {
+  margin-top: 50px;
+}
+
+.jupiterx-intro .btn {
+  margin: 0 5px;
+}
+
+.jupiterx-api-activation .jupiterx-notice {
+  max-width: 630px;
+}
+
+.jupiterx-api-activation .jupiterx-form {
+  width: 100%;
+  max-width: 495px;
+  margin: 0 auto;
+}
+
+.jupiterx-api-activation .jupiterx-form-control {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-left: 7px;
+}
+
+.jupiterx-plugins .alert {
+  max-width: 495px;
+}
+
+.jupiterx-plugins .jupiterx-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.jupiterx-plugins-list {
+  margin: 0 0 25px;
+  padding-right: 10%;
+}
+
+.jupiterx-plugins-list .jupiterx-pro-badge {
+  width: auto;
+  height: 18px;
+}
+
+.jupiterx-plugins-list .custom-checkbox {
+  margin-bottom: 4px;
+}
+
+.jupiterx-plugins-list .custom-checkbox .custom-control-input:not(:disabled) ~ .custom-control-label {
+  color: #41474c;
+}
+
+.jupiterx-plugins-list .custom-checkbox .custom-control-input:checked:disabled ~ .custom-control-label:before {
+  background-color: #9b9b9b;
+}
+
+.jupiterx-completed h6 {
+  margin-bottom: 16px;
+  color: #212529;
+  font-weight: bold;
+}
+
+.jupiterx-completed .jupiterx-container {
+  max-width: 650px;
+  margin-top: 50px;
+}
+
+.jupiterx-block-ui {
+  pointer-events: none;
+}
+
+.jupiterx-spinner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.jupiterx-spinner-container .jupiterx-spinner {
+  -webkit-animation: jupiterx-rotator 1.4s linear infinite;
+  animation: jupiterx-rotator 1.4s linear infinite;
+}
+
+.jupiterx-spinner-container .jupiterx-spinner-path {
+  stroke-dasharray: 187px;
+  stroke-dashoffset: 0px;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: jupiterx-dash 1.4s ease-in-out infinite;
+  animation: jupiterx-dash 1.4s ease-in-out infinite;
+  stroke: #b3b3b3;
+}
+
+.jupiterx-overlay-spinner {
+  position: relative;
+}
+
+.jupiterx-overlay-spinner .jupiterx-spinner-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.jupiterx-rate-link {
+  font-size: 21px;
+}
+
+.jupiterx-rate-link:hover {
+  text-decoration: none;
+}
+
+@-webkit-keyframes jupiterx-rotator {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+  }
+}
+
+@keyframes jupiterx-rotator {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+  }
+}
+
+@-webkit-keyframes jupiterx-dash {
+  0% {
+    stroke-dashoffset: 187px;
+  }
+  50% {
+    stroke-dashoffset: 46.75px;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  100% {
+    stroke-dashoffset: 187px;
+    -webkit-transform: rotate(-450deg);
+    transform: rotate(-450deg);
+  }
+}
+
+@keyframes jupiterx-dash {
+  0% {
+    stroke-dashoffset: 187px;
+  }
+  50% {
+    stroke-dashoffset: 46.75px;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  100% {
+    stroke-dashoffset: 187px;
+    -webkit-transform: rotate(-450deg);
+    transform: rotate(-450deg);
+  }
+}

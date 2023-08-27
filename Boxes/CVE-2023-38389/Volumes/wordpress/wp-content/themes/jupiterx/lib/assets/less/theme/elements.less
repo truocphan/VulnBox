@@ -1,0 +1,39 @@
+// Elements
+//
+// Global element styles.
+
+.jupiterx-corner-buttons {
+    position: fixed;
+    bottom: 0;
+    right: -100px;
+    z-index: 990;
+    transition: right @transition-duration;
+
+    &.jupiterx-scrolled {
+        right: 0;
+    }
+}
+
+.jupiterx-scroll-top {
+    .jupiterx-border('go-to-top-border');
+    .jupiterx-spacing('go-to-top');
+    display: inline-block;
+    background-color: @go-to-top-background-color;
+    font-size: 1.3rem;
+    color: @go-to-top-icon-color;
+    cursor: pointer;
+    line-height: .8;
+    transition: color @transition-duration;
+
+    &:hover,
+    &:focus {
+        background-color: @go-to-top-background-color-hover;
+        color: @go-to-top-icon-color-hover;
+        border-color: @go-to-top-border-color-hover;
+    }
+
+    &:focus {
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(180,180,180, 0.5);
+    }
+}

@@ -1,0 +1,90 @@
+.woocommerce,
+.woocommerce-page {
+
+    h1 {
+        font-size: @h2-font-size;
+    }
+
+    h2 {
+        font-size: @h4-font-size;
+        padding-bottom: .5rem;
+    }
+
+    h3 {
+        font-size: @h4-font-size;
+        margin: 0 0 .8em;
+    }
+
+    .form-row {
+        display: inherit;
+    }
+
+    .col2-set {
+        margin-bottom: 1em;
+
+        > div {
+            flex: unset;
+            max-width: none;
+            padding: 0;
+        }
+    }
+
+    // Loop price
+    ul.products li.product .price {
+        color: @body-color;
+    }
+
+    // Field spacing
+    form .form-row-first,
+    form .form-row-last {
+        width: 49.5%;
+    }
+
+    .product img,
+    .woocommerce-product-gallery__image {
+        border-radius: @border-radius;
+    }
+
+    // Tables
+    table.shop_table {
+        border-radius: @border-radius;
+        border-spacing: 0;
+        overflow: hidden;
+
+        td,
+        th {
+            padding: .7rem 1.5rem;
+            border-bottom-width: 0;
+        }
+
+        th {
+            border-top: 0;
+        }
+
+        img {
+            width: 80px;
+            border-radius: @border-radius;
+            margin-right: 1rem;
+            /* float: left; */
+        }
+    }
+
+    .pswp__caption__center {
+        text-align: center;
+    }
+
+    html.firefox & .woocommerce-ordering {
+        select.orderby {
+            padding: .25rem .7rem;
+        }
+    }
+}
+
+// Loop title
+.woocommerce-loop-product__title {
+    color: @body-color;
+
+    &:hover,&:focus {
+        text-decoration: underline;
+    }
+}

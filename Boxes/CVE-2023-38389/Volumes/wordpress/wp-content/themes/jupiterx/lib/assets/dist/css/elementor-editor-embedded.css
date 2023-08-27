@@ -1,0 +1,8 @@
+#elementor-panel-saver-button-preview,
+#elementor-panel-saver-menu-save-draft,
+#elementor-panel-footer-saver-preview,
+#elementor-panel-footer-sub-menu-item-save-draft,
+.elementor-control.elementor-control-post_status,
+#elementor-panel-page-menu .elementor-panel-menu-group:last-of-type {
+  display: none !important;
+}

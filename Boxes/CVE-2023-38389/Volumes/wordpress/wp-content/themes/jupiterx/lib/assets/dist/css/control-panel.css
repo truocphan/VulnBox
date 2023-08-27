@@ -1,0 +1,1822 @@
+.jupiterx-switch {
+  font-size: 1rem;
+  position: relative;
+}
+
+.jupiterx-switch input {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  background: none;
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  overflow: hidden;
+  padding: 0;
+}
+
+.jupiterx-switch input + label {
+  position: relative;
+  min-width: calc(calc(2.375rem * .8) * 2);
+  border-radius: calc(2.375rem * .8);
+  height: calc(2.375rem * .8);
+  line-height: calc(2.375rem * .8);
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  text-indent: calc(calc(calc(2.375rem * .8) * 2) + .5rem);
+  margin-bottom: 0;
+}
+
+.jupiterx-switch input + label::before,
+.jupiterx-switch input + label::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(calc(2.375rem * .8) * 2);
+  bottom: 0;
+  display: block;
+}
+
+.jupiterx-switch input + label::before {
+  right: 0;
+  background-color: #dee2e6;
+  border-radius: calc(2.375rem * .8);
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.jupiterx-switch input + label::after {
+  top: 2px;
+  left: 2px;
+  width: calc(calc(2.375rem * .8) - calc(2px * 2));
+  height: calc(calc(2.375rem * .8) - calc(2px * 2));
+  border-radius: 50%;
+  background-color: white;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.jupiterx-switch input:checked + label::before {
+  background-color: #08d;
+}
+
+.jupiterx-switch input:checked + label::after {
+  margin-left: calc(2.375rem * .8);
+}
+
+.jupiterx-switch input:focus + label::before {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 136, 221, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 136, 221, 0.25);
+}
+
+.jupiterx-switch input:disabled + label {
+  color: #868e96;
+  cursor: not-allowed;
+}
+
+.jupiterx-switch input:disabled + label::before {
+  background-color: #e9ecef;
+}
+
+.jupiterx-switch.jupiterx-switch-sm {
+  font-size: 0.875rem;
+}
+
+.jupiterx-switch.jupiterx-switch-sm input + label {
+  min-width: calc(calc(1.9375rem * .8) * 2);
+  height: calc(1.9375rem * .8);
+  line-height: calc(1.9375rem * .8);
+  text-indent: calc(calc(calc(1.9375rem * .8) * 2) + .5rem);
+}
+
+.jupiterx-switch.jupiterx-switch-sm input + label::before {
+  width: calc(calc(1.9375rem * .8) * 2);
+}
+
+.jupiterx-switch.jupiterx-switch-sm input + label::after {
+  width: calc(calc(1.9375rem * .8) - calc(2px * 2));
+  height: calc(calc(1.9375rem * .8) - calc(2px * 2));
+}
+
+.jupiterx-switch.jupiterx-switch-sm input:checked + label::after {
+  margin-left: calc(1.9375rem * .8);
+}
+
+.jupiterx-switch.jupiterx-switch-lg {
+  font-size: 1.25rem;
+}
+
+.jupiterx-switch.jupiterx-switch-lg input + label {
+  min-width: calc(calc(3rem * .8) * 2);
+  height: calc(3rem * .8);
+  line-height: calc(3rem * .8);
+  text-indent: calc(calc(calc(3rem * .8) * 2) + .5rem);
+}
+
+.jupiterx-switch.jupiterx-switch-lg input + label::before {
+  width: calc(calc(3rem * .8) * 2);
+}
+
+.jupiterx-switch.jupiterx-switch-lg input + label::after {
+  width: calc(calc(3rem * .8) - calc(2px * 2));
+  height: calc(calc(3rem * .8) - calc(2px * 2));
+}
+
+.jupiterx-switch.jupiterx-switch-lg input:checked + label::after {
+  margin-left: calc(3rem * .8);
+}
+
+.jupiterx-switch + .jupiterx-switch {
+  margin-left: 1rem;
+}
+
+#wrap {
+  margin-top: 20px;
+}
+
+#wrap > h1 {
+  display: none;
+}
+
+.jupiterx-cp-wrap {
+  margin: 20px 0 20px 0;
+  overflow-x: hidden;
+  max-width: 1200px;
+  min-width: 850px;
+  display: block !important;
+}
+
+.jupiterx-cp-wrap .btn-primary.disabled,
+.jupiterx-cp-wrap .btn-primary:disabled {
+  color: #ffffff !important;
+}
+
+.jupiterx-cp-wrap div {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.jupiterx-cp-wrap a, .jupiterx-cp-plugin-item {
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+}
+
+.jupiterx-cp-wrap p {
+  font-size: 16px;
+}
+
+.jupiterx-modal-textarea {
+  width: 100%;
+  height: 150px;
+  margin: 10px 0;
+}
+
+.jupiterx-tooltip {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../../admin/control-panel/assets/images/tip.svg) no-repeat center center;
+  background-size: contain;
+  position: relative;
+}
+
+.jupiterx-tip-wrap {
+  display: none !important;
+}
+
+/*
+*  Control panel Header
+*/
+.jupiterx-cp-header {
+  background: #222222;
+  width: 100%;
+  padding: 0 20px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.jupiterx-cp-jupiterx-logo {
+  display: inline-block;
+  margin-top: 5px;
+  background: url(../../../admin/control-panel/assets/images/logo.svg) no-repeat center center;
+  float: left;
+  width: 120px;
+  height: 50px;
+}
+
+.rtl .jupiterx-cp-jupiterx-logo {
+  float: right;
+}
+
+.jupiterx-cp-branding strong {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 55px;
+  vertical-align: middle;
+  padding-left: 15px;
+  display: inline-block;
+  float: left;
+}
+
+.rtl .jupiterx-cp-branding strong {
+  float: right;
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.jupiterx-cp-theme-version {
+  color: #b2b2b2;
+  float: right;
+  font-size: 16px;
+  line-height: 55px;
+  display: inline-block;
+}
+
+.rtl .jupiterx-cp-theme-version {
+  float: left;
+}
+
+/***/
+.jupiterx-cp-container {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #e5e5e5;
+}
+
+.jupiterx-cp-sidebar {
+  background-color: #f8f9fa;
+  border-right: 1px solid #e5e5e5;
+  width: 200px;
+  float: left;
+  height: 100%;
+  padding-bottom: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rtl .jupiterx-cp-sidebar {
+  left: initial;
+  right: 0;
+  float: right;
+  border-left: 1px solid #e5e5e5;
+  border-right: 0;
+}
+
+.jupiterx-cp-sidebar-list {
+  display: block;
+  list-style: none;
+  padding-top: 5px;
+}
+
+.jupiterx-cp-sidebar-list-items {
+  margin: 0;
+}
+
+a.jupiterx-cp-sidebar-link {
+  color: #6c757d;
+  text-transform: capitalize;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 15px 30px;
+}
+
+a.jupiterx-cp-sidebar-link:focus {
+  text-decoration: underline;
+}
+
+.jupiterx-cp-sidebar-link:hover {
+  color: #343a40;
+}
+
+.jupiterx-cp-sidebar-list-items.jupiterx-is-active .jupiterx-cp-sidebar-link {
+  color: #007bff;
+}
+
+/* Panes */
+.jupiterx-cp-panes {
+  background-color: #fff;
+  float: left;
+  min-height: 700px;
+  padding-bottom: 50px;
+  position: relative;
+  margin-left: 200px;
+  width: calc(100% - 200px);
+}
+
+.rtl .jupiterx-cp-panes {
+  margin-left: initial;
+  margin-right: 200px;
+  float: right;
+}
+
+.jupiterx-cp-panes.loading-pane {
+  opacity: 0.7;
+}
+
+.jupiterx-cp-pane-box {
+  padding: 35px 40px;
+}
+
+.jupiterx-cp-pane-box:first-of-type {
+  display: block;
+}
+
+.jupiterx-cp-pane-box > h3 {
+  font-size: 26px;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/*------------------------------------------------*/
+/* Control Panel Templates Page
+/*------------------------------------------------*/
+.jupiterx-restore-template-wrap {
+  position: relative;
+  display: none;
+  text-align: right;
+}
+
+.jupiterx-restore-template-wrap.is-active {
+  display: block;
+  float: right;
+}
+
+.jupiterx-restore-template-wrap .btn {
+  margin-bottom: 30px;
+}
+
+.jupiterx-cp-installed-template {
+  margin: 0 0 50px 0;
+  display: none;
+}
+
+.jupiterx-cp-install-template {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.jupiterx-cp-install-template h3 {
+  margin-bottom: 35px;
+}
+
+#js__installed-template,
+.jupiterx-cp-template-items {
+  margin-right: -10px;
+  margin-left: -10px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+}
+
+/* Template Item */
+.jupiterx-cp-template-item {
+  width: 33.33%;
+  display: inline-block;
+  float: left;
+}
+
+.rtl .jupiterx-cp-template-item {
+  float: right;
+}
+
+.jupiterx-cp-installed-template .jupiterx-cp-template-item {
+  width: 50%;
+}
+
+.jupiterx-cp-template-item-fig {
+  margin: 0 0 15px;
+  line-height: 4px;
+}
+
+.jupiterx-cp-template-item-fig img {
+  width: 100%;
+  height: auto;
+}
+
+.jupiterx-cp-template-item-inner {
+  position: relative;
+  margin: 10px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.jupiterx-cp-template-item-inner .jupiterx-pro-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.jupiterx-cp-template-item-inner:hover {
+  -webkit-box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.05), 0px 3px 7px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.05), 0px 3px 7px rgba(0, 0, 0, 0.07);
+  -webkit-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+}
+
+h4.jupiterx-cp-template-item-name {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.jupiterx .jupiterx-cp-template-search {
+  top: 14px;
+  width: 400px;
+}
+
+.abb-template-page-load-more {
+  display: block;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.abb-template-page-load-more svg {
+  display: none;
+}
+
+.abb-template-page-load-more.is-active svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.jupiterx-missed-plugins-list > strong {
+  display: block;
+}
+
+.rtl .jupiterx-cp-template-item-btn {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+/*------------------------------------------------*/
+/* Control Panel Install Plugins
+/*------------------------------------------------*/
+#js__jupiterx-plugins {
+  position: relative;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  margin-left: -11px;
+  margin-right: -11px;
+  min-height: 200px;
+}
+
+#js__jupiterx-plugins::after {
+  content: ' ';
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 290px;
+  flex: 0 0 290px;
+  height: 0;
+  margin: 11px;
+}
+
+.jupiterx-cp-plugins-list .btn.btn-warning {
+  background-color: #ffd200;
+  border: 1px solid #b68d1f;
+  color: #222;
+}
+
+.jupiterx-cp-plugins-list .btn.btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.jupiterx-cp-plugins-header {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.jupiterx-cp-plugins-notices {
+  margin-bottom: 30px;
+}
+
+.jupiterx-cp-plugins-notices .alert {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.jupiterx-cp-plugins-notices .btn {
+  margin-right: 10px;
+}
+
+.jupiterx-cp-plugin-item {
+  -ms-flex-preferred-size: 290px;
+  flex-basis: 290px;
+  width: 290px;
+  margin: 11px;
+}
+
+.jupiterx-cp-plugin-item .btn {
+  margin-right: 7px;
+}
+
+.jupiterx-cp-plugin-item .btn.network-active {
+  background-color: #F8F9FA;
+  color: #6C757D;
+  border-color: #C5D2DF;
+  cursor: default;
+}
+
+.jupiterx-cp-plugin-item .btn:last-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.rtl .jupiterx-cp-plugin-item .btn {
+  margin-right: 0;
+  margin-left: 7px;
+}
+
+.jupiterx-cp-plugin-item[data-filter=active] .jupiterx-card {
+  background-color: #EDF0F5;
+}
+
+.jupiterx-cp-plugin-item-inner {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  position: relative;
+}
+
+.jupiterx-cp-plugin-item-inner .jupiterx-pro-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.jupiterx-cp-plugin-item-thumb {
+  position: relative;
+  display: inline-block !important;
+  line-height: 4px;
+}
+
+.jupiterx-cp-plugin-item-thumb img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+.jupiterx-cp-plugin-item-meta {
+  width: 100%;
+  display: block;
+  clear: both;
+  min-height: 170px;
+}
+
+.jupiterx-cp-plugin-item-name {
+  color: #212529;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.jupiterx-cp-plugin-item-desc {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.jupiterx-cp-plugin-item-desc a {
+  font-weight: 400;
+}
+
+.rtl .jupiterx-cp-plugin-item-desc a {
+  padding-right: 5px;
+}
+
+.jupiterx-cp-plugin-update-tag {
+  font-size: 11px;
+  line-height: 14px;
+  color: #6c757d;
+  background-color: #fffbe5;
+  border-radius: 3px;
+  border: 1px solid #e9e2ba;
+  padding: 2px 5px;
+  font-weight: 300;
+  position: absolute;
+  top: 45px;
+  right: 20px;
+}
+
+.jupiterx-cp-plugin-meta-wrapper {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120px;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.rtl .jupiterx-cp-plugin-meta-wrapper {
+  right: initial;
+  left: 20px;
+}
+
+.jupiterx-cp-plugin-item-required {
+  color: #f90303;
+  border: 1px solid #f90303;
+  padding: 3px 4px;
+  border-radius: 3px;
+  line-height: 12px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.h3 > .jupiterx-help-link {
+  vertical-align: 6px;
+}
+
+.jupiterx-cp-plugin-item-required.is-active-true {
+  display: inline-block;
+}
+
+.jupiterx-cp-plugin-item-label {
+  margin-bottom: 6px;
+  padding: 4px 6px;
+  font-size: 12px;
+  line-height: 12px;
+  border-radius: 3px;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+}
+
+.jupiterx-cp-plugin-item-label.label-required {
+  border-color: #ff4d4d;
+  color: #ff4d4d;
+}
+
+.jupiterx-cp-plugin-item-label.label-recommended {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.jupiterx-cp-plugin-item-version {
+  font-size: 12px;
+  line-height: 12px;
+  color: #6c757d;
+  background: #f8f9fa;
+  padding: 2px 7px;
+  border-radius: 20px;
+}
+
+.jupiterx-modal .jupiterx-plugins-step-list li.step-error {
+  background: url(../../../admin/control-panel/assets/images/error.svg) no-repeat left 6px;
+  background-size: 15px 15px;
+}
+
+#js__jupiterx-plugins-2 {
+  display: block !important;
+  position: relative;
+  min-height: 200px;
+}
+
+#js__jupiterx-plugins-2 .alert {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#js__jupiterx-plugins-2 .jupiterx-cp-plugins-required,
+#js__jupiterx-plugins-2 .jupiterx-cp-plugins-optional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 60px;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+
+#js__jupiterx-plugins-2 .jupiterx-cp-plugin-item {
+  -ms-flex-preferred-size: 291px;
+  flex-basis: 291px;
+  width: 291px;
+}
+
+/*------------------------------------------------*/
+/* Control Panel System Status
+/*------------------------------------------------*/
+.table td:first-child {
+  width: 33%;
+}
+
+.table td.help {
+  width: 20px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.status-state {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.status-state .spinner {
+  float: none;
+  margin: 0;
+}
+
+.status-true {
+  background: url(../../../admin/control-panel/assets/images/check-mark.svg) no-repeat;
+  background-size: contain;
+}
+
+.status-false {
+  background: url(../../../admin/control-panel/assets/images/x-mark.svg) no-repeat;
+  background-size: contain;
+}
+
+.status-invisible {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#jupiterx-mods-cleanup {
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+#jupiterx-mods-cleanup:hover {
+  text-decoration: none;
+}
+
+#jupiterx-textarea--get-system-report {
+  display: none;
+  margin: 10px 0;
+  padding: 0;
+  position: relative;
+}
+
+#jupiterx-textarea--get-system-report textarea {
+  font-family: monospace;
+  width: 100%;
+  margin: 0;
+  height: 300px;
+  padding: 20px;
+  border-radius: 0;
+  resize: none;
+  font-size: 12px;
+  line-height: 20px;
+  outline: 0;
+  margin-bottom: 15px;
+}
+
+.jupiterx-button--get-system-report {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.rtl .jupiterx-button--get-system-report {
+  left: 25px;
+  right: initial;
+}
+
+.jupiterx-cp-inline-text {
+  vertical-align: inherit;
+}
+
+tr.jupiterx-sysinfo-warning td {
+  background-color: #fbeaec;
+}
+
+tr.jupiterx-sysinfo-warning .jupiterx-sysinfo-value {
+  color: #dc3545;
+}
+
+.jupiterx-sysinfo-warning-msg {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #dc3545;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.jupiterx-sysinfo-warning-msg i {
+  font-size: 16px;
+}
+
+.jupiterx-sysinfo-warning-msg a {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.rtl .jupiterx-sysinfo-warning-msg a {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.rtl .jupiterx-sysinfo-warning-msg {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.toplevel_page_jupiterx.rtl .popover .arrow {
+  display: none !important;
+}
+
+/*------------------------------------------------*/
+/* Control Panel Register Product
+/*------------------------------------------------*/
+.heading-with-icon {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 32px 32px;
+  padding-left: 45px;
+  margin-bottom: 1.2rem;
+}
+
+.rtl .heading-with-icon {
+  padding-left: 0;
+  padding-right: 45px;
+  background-position: right center;
+}
+
+.icon-lock {
+  background-image: url(../../../admin/control-panel/assets/images/lock.svg);
+}
+
+.icon-learn {
+  background-image: url(../../../admin/control-panel/assets/images/graduation-cap.svg);
+}
+
+.icon-download {
+  background-image: url(../../../admin/control-panel/assets/images/download.svg);
+}
+
+.icon-comments-solid-lightgrey {
+  background-image: url(../../../admin/control-panel/assets/images/comments-solid-lightgrey.svg);
+}
+
+.icon-checkmark {
+  background-image: url(../../../admin/control-panel/assets/images/check-mark.svg);
+}
+
+.rtl .icon-checkmark {
+  background-position-x: right;
+}
+
+.list-with-icon {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 16px 16px;
+  padding-left: 24px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.rtl .list-with-icon {
+  margin-left: 0;
+  margin-right: 10px;
+  padding-left: 0;
+  padding-right: 24px;
+  background-position: right center;
+}
+
+.icon-video {
+  background-image: url(../../../admin/control-panel/assets/images/video-camera.svg);
+}
+
+.icon-docs {
+  background-image: url(../../../admin/control-panel/assets/images/book.svg);
+}
+
+.icon-community {
+  background-image: url(../../../admin/control-panel/assets/images/community.svg);
+}
+
+.icon-history {
+  background-image: url(../../../admin/control-panel/assets/images/history.svg);
+}
+
+/* FTP credential Modal */
+#jupiterx-install-template-credential {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+#jupiterx-install-template-credential fieldset label {
+  margin-right: 15px;
+}
+
+#jupiterx-install-template-credential input {
+  height: 30px;
+  margin-top: 0;
+  width: 100%;
+}
+
+#jupiterx-install-template-credential input[type=radio] {
+  display: inline-block !important;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+}
+
+#jupiterx-install-template-credential #request-filesystem-credentials-desc {
+  padding: 0;
+}
+
+#jupiterx-install-template-credential .ftp-username, #jupiterx-install-template-credential .ftp-password {
+  margin-top: 10px;
+}
+
+#jupiterx-install-template-credential #request-filesystem-credentials-desc {
+  line-height: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/*------------------------------------------------*/
+/* Control Panel Image Sizes
+/*------------------------------------------------*/
+.jupiterx-img-size-item {
+  width: 33.3%;
+  display: inline-block;
+  float: left;
+}
+
+.rtl .jupiterx-img-size-item {
+  float: right;
+}
+
+.jupiterx-img-size-item:nth-child(3n):after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.jupiterx-img-size-item-inner {
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.jupiterx-img-size-wrap {
+  width: 100%;
+}
+
+.jupiterx-img-size-item .status-state {
+  vertical-align: bottom;
+  margin-left: 5px;
+}
+
+.image-size-add-new-btn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.rtl .image-size-add-new-btn {
+  right: initial;
+  left: 30px;
+}
+
+/*------------------------------------------------*/
+/* Control Panel Theme Updates
+/*------------------------------------------------*/
+.jupiterx-cp-new-version-content ul ul {
+  padding-left: 20px;
+}
+
+.jupiterx-cp-new-version-title {
+  margin-bottom: 15px;
+}
+
+.jupiterx-cp-version-date {
+  font-size: 16px;
+  color: #343a40;
+  font-weight: bold;
+}
+
+.jupiterx-cp-new-version-content {
+  color: #666;
+}
+
+/*------------------------------------------------*/
+/* Control Panel Export & Import
+/*------------------------------------------------*/
+.jupiterx-cp-export-form label, .jupiterx-cp-import-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.jupiterx-cp-import-form {
+  margin-top: 1rem;
+}
+
+/*---------------------------------------------------------------------------------*/
+/* Show more content for updates pane
+/*---------------------------------------------------------------------------------*/
+.dynamic-wrap {
+  -webkit-transition: max-height 0.35s ease-in-out;
+  transition: max-height 0.35s ease-in-out;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+body:not(.jupiterx-premium) .dynamic-wrap .jupiterx-changelog-pro {
+  display: none;
+}
+
+.height-active .dynamic-wrap:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 249, 255, 0)), to(white));
+  background: linear-gradient(to bottom, rgba(240, 249, 255, 0) 0%, white 100%);
+  z-index: 1;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*  Loading Spinner
+/*---------------------------------------------------------------------------------*/
+.jupiterx-spinner {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  -webkit-animation: jupiterx-rotator 1.4s linear infinite;
+  animation: jupiterx-rotator 1.4s linear infinite;
+}
+
+@-webkit-keyframes jupiterx-rotator {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+
+@keyframes jupiterx-rotator {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+
+.jupiterx-spinner-path {
+  stroke-dasharray: 187px;
+  stroke-dashoffset: 0px;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: jupiterx-dash 1.4s ease-in-out infinite;
+  animation: jupiterx-dash 1.4s ease-in-out infinite;
+  stroke: #b3b3b3;
+}
+
+@-webkit-keyframes jupiterx-dash {
+  0% {
+    stroke-dashoffset: 187px;
+  }
+  50% {
+    stroke-dashoffset: 46.75px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: 187px;
+    -webkit-transform: rotate(450deg);
+    transform: rotate(450deg);
+  }
+}
+
+@keyframes jupiterx-dash {
+  0% {
+    stroke-dashoffset: 187px;
+  }
+  50% {
+    stroke-dashoffset: 46.75px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: 187px;
+    -webkit-transform: rotate(450deg);
+    transform: rotate(450deg);
+  }
+}
+
+.jupiterx-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+}
+
+.jupiterx-callout a:focus {
+  text-decoration: underline;
+}
+
+.jupiterx-callout h4 {
+  margin-top: 0;
+  margin-bottom: .45rem;
+}
+
+.jupiterx-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.bd-callout-danger h4 {
+  color: #dc3545;
+}
+
+.bd-callout-danger .dashicons {
+  color: #6C757D;
+  vertical-align: baseline;
+}
+
+.jupiterx-btn-info {
+  vertical-align: baseline;
+}
+
+.jupiterx-btn-info img {
+  vertical-align: -3px;
+}
+
+.bd-callout-danger {
+  border-left-color: #dc3545;
+}
+
+.bd-callout-info h4 {
+  color: #5bc0de;
+}
+
+.bd-callout-info {
+  border-left-color: #5bc0de;
+}
+
+/*---------------------------------------------------------------------------------*/
+/* Loading button
+/*---------------------------------------------------------------------------------*/
+.btn:not(.loading) .jupiterx-icon {
+  display: none;
+}
+
+.btn .jupiterx-icon {
+  display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  vertical-align: -3px;
+  -webkit-animation: jupiterx-full-rotate 1s infinite linear;
+  animation: jupiterx-full-rotate 1s infinite linear;
+}
+
+.btn .jupiterx-icon:before, .btn .jupiterx-icon:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  border: .125em solid transparent;
+  border-radius: 50%;
+  content: '';
+}
+
+.btn .jupiterx-icon:before {
+  border-color: initial;
+  opacity: .2;
+}
+
+.btn .jupiterx-icon:after {
+  border-top-color: initial;
+}
+
+@-webkit-keyframes jupiterx-full-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes jupiterx-full-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*---------------------------------------------------------------------------------*/
+/* Setup Wizard
+/*---------------------------------------------------------------------------------*/
+.jupiterx-setup-wizard-message {
+  margin: 0 0 35px;
+}
+
+.jupiterx-setup-wizard-message p {
+  margin: 0;
+}
+
+/*---------------------------------------------------------------------------------*/
+/* Help Links
+/*---------------------------------------------------------------------------------*/
+.jupiterx .jupiterx-help-link:hover {
+  text-decoration: none;
+}
+
+.jupiterx-cp-wrap .form-group .jupiterx-help-link {
+  margin-bottom: 0.5rem;
+}
+
+h3 > .jupiterx-help-link {
+  vertical-align: 5px;
+}
+
+/* Pro Banner */
+.jupiterx-pro-banner {
+  position: relative;
+  margin-bottom: 45px;
+  padding: 46px 32px 28px;
+  background: #fafafa url(../../../admin/control-panel/assets/images/pro-banner.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.jupiterx-pro-banner .jupiterx-icon-pro {
+  position: absolute;
+  top: 29px;
+  right: 31px;
+  font-size: 23px;
+}
+
+.jupiterx-pro-banner h1 {
+  margin-bottom: 36px;
+  font-size: 38px;
+  font-weight: 300;
+}
+
+.jupiterx-pro-banner .btn {
+  margin-bottom: 25px;
+}
+
+.jupiterx-pro-banner .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.jupiterx-pro-banner ul {
+  margin: 0;
+  font-size: 16px;
+}
+
+.jupiterx-pro-banner ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jupiterx-pro-banner ul .jupiterx-icon-check-solid {
+  margin: 1px 9px 0 0;
+  opacity: 0.5;
+}
+
+.rtl .jupiterx-pro-banner ul .jupiterx-icon-check-solid {
+  margin: 1px 0 0 9px;
+}
+
+/* Icons */
+.jupiterx-cp-wrap [class^="jupiterx-icon-"]:before,
+.jupiterx-cp-wrap [class*=" jupiterx-icon-"]:before {
+  margin-right: 5px;
+  vertical-align: -2px;
+}
+
+.rtl .jupiterx-cp-wrap [class^="jupiterx-icon-"]:before, .rtl
+.jupiterx-cp-wrap [class*=" jupiterx-icon-"]:before {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.jupiterx-modal-learn-more {
+  display: block;
+  text-decoration: none;
+}
+
+.jupiterx-modal-learn-more:hover {
+  text-decoration: none;
+}
+
+.jupiterx-modal-learn-more:before {
+  vertical-align: -3px;
+  vertical-align: -2px;
+  margin-right: 5px;
+}
+
+/* Settings */
+.jupiterx-cp-settings-form .jupiterx-pro-badge {
+  margin-left: 4px;
+  vertical-align: sub;
+}
+
+.jupiterx-cp-settings-form .form-row > .col,
+.jupiterx-cp-settings-form .form-row > [class*="col-"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.jupiterx-cp-settings-form .form-group > label {
+  padding: 5px 0;
+}
+
+.custom-checkbox .custom-control-label:before, .custom-checkbox .custom-control-label:after {
+  top: 0.15rem;
+}
+
+.jupiterx-settings-no-post-type .jupiterx-icon-info-circle {
+  position: relative;
+  bottom: -2px;
+  color: #9ba8b5;
+  font-size: 16px;
+}
+
+.jupiterx-image-uploader.has-image .remove-button {
+  display: inline-block;
+}
+
+.jupiterx-image-uploader .remove-button {
+  display: none;
+}
+
+.rtl .jupiterx-cp-settings-flush-feedback,
+.rtl .jupiterx-cp-settings-save-feedback {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+/* Free vs Pro */
+.jupiterx-cp-sidebar-link.jupiterx-sidebar-item-colored {
+  color: #f23c97;
+}
+
+#jupiterx-cp-comparison table, #jupiterx-cp-comparison th, #jupiterx-cp-comparison td {
+  border: 1px solid #dfdfdf;
+}
+
+#jupiterx-cp-comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #212529;
+  line-height: normal;
+}
+
+#jupiterx-cp-comparison table th, #jupiterx-cp-comparison table td {
+  padding: 15px 20px;
+}
+
+#jupiterx-cp-comparison table tr {
+  height: 48px;
+}
+
+#jupiterx-cp-comparison table th {
+  height: 88px;
+  background: #f7f7f7;
+  line-height: 1.75;
+}
+
+#jupiterx-cp-comparison table th.jupiterx-ct-first-col {
+  width: 330px;
+}
+
+#jupiterx-cp-comparison table th.jupiterx-ct-free {
+  width: 275px;
+}
+
+#jupiterx-cp-comparison table th.jupiterx-ct-free .jupiterx-ct-desc {
+  color: #9aa7b3;
+}
+
+#jupiterx-cp-comparison table th.jupiterx-ct-pro {
+  position: relative;
+  width: 275px;
+  background: #f23c97;
+}
+
+#jupiterx-cp-comparison table th.jupiterx-ct-pro .jupiterx-ct-title {
+  color: #ffffff;
+}
+
+#jupiterx-cp-comparison table th.jupiterx-ct-pro .jupiterx-ct-desc {
+  color: #ffbfe1;
+}
+
+#jupiterx-cp-comparison table th.jupiterx-ct-pro .jupiterx-icon-pro {
+  position: absolute;
+  color: #ffbfe1;
+  font-size: 24px;
+  top: 15px;
+  right: 20px;
+}
+
+.rtl #jupiterx-cp-comparison table th.jupiterx-ct-pro .jupiterx-icon-pro {
+  right: initial;
+  left: 20px;
+}
+
+#jupiterx-cp-comparison table th .jupiterx-ct-title {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+#jupiterx-cp-comparison table th .jupiterx-ct-desc {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+#jupiterx-cp-comparison table td {
+  font-size: 16px;
+}
+
+#jupiterx-cp-comparison table td:last-of-type {
+  background: #fff7fb;
+}
+
+#jupiterx-cp-comparison table td i {
+  font-size: 20px;
+}
+
+#jupiterx-cp-comparison table td .jupiterx-icon-times {
+  color: #DF2E3F;
+  font-size: 26px;
+}
+
+#jupiterx-cp-comparison table td .jupiterx-icon-check {
+  color: #0ACB82;
+}
+
+#jupiterx-cp-comparison table td.jupiterx-ct-feature-label {
+  font-weight: bold;
+}
+
+#jupiterx-cp-comparison table td.jupiterx-ct-bg-normal {
+  background: #ffffff;
+}
+
+#jupiterx-cp-comparison a.jupiterx-btn-upgrade-pro {
+  width: 180px;
+  height: 49px;
+  padding-top: 8px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 49px;
+  padding: 0;
+}
+
+#jupiterx-cp-comparison .jupiterx-ct-learn-more {
+  font-size: 14px;
+  display: block;
+}
+
+#jupiterx-cp-comparison .jupiterx-ct-learn-more:focus {
+  text-decoration: underline;
+}
+
+#jupiterx-cp-comparison .jupiterx-ct-text-center {
+  text-align: center;
+}
+
+a.jupiterx-btn-upgrade-pro {
+  background-color: #f23c97;
+  color: #ffffff;
+}
+
+a.jupiterx-btn-upgrade-pro:hover {
+  background-color: #f23c97;
+  color: #ffffff;
+}
+
+a.jupiterx-btn-upgrade-pro:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(242, 60, 151, 0.25) !important;
+  box-shadow: 0 0 0 0.2rem rgba(242, 60, 151, 0.25) !important;
+}
+
+@media screen and (max-width: 1400px) {
+  .jupiterx-cp-template-item {
+    width: 50%;
+  }
+  .jupiterx-cp-plugin-item {
+    width: calc( 50% - 22px);
+    -ms-flex-preferred-size: calc( 50% - 22px);
+    flex-basis: calc( 50% - 22px);
+  }
+}
+
+.jupiterx-cp-help-section a:focus,
+.jupiterx-cp-message a:focus {
+  text-decoration: underline;
+}
+
+/* Pro badge tooltip */
+.jupiterx-pro-badge-tooltip {
+  top: -5px !important;
+}
+
+.jupiterx-pro-badge-tooltip .arrow {
+  margin: auto !important;
+}
+
+/* Plugins update conflicts table*/
+.jupiterx_update_plugin_conflicts_table {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.jupiterx_update_plugin_conflicts_table th, .jupiterx_update_plugin_conflicts_table td {
+  text-align: left;
+}
+
+.jupiterx_update_plugin_conflicts_table th:first-child, .jupiterx_update_plugin_conflicts_table td:first-child {
+  width: 50%;
+}
+
+.jupiterx_update_plugin_conflicts_table th:last-child, .jupiterx_update_plugin_conflicts_table td:last-child {
+  width: 50%;
+}
+
+.jupiterx_update_plugin_conflicts_table th p, .jupiterx_update_plugin_conflicts_table td p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Support */
+.jupiterx-cp-support-item {
+  border-radius: 4px;
+  border: solid 1px #dfdfdf;
+  margin-bottom: 30px;
+}
+
+.jupiterx-cp-support-item-header {
+  padding: 20px 20px 0 20px;
+}
+
+.jupiterx-cp-support-item-header img {
+  width: 21px;
+  height: 24px;
+  margin-bottom: 15px;
+}
+
+.jupiterx-cp-support-item-header .jupiterx-icon-pro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f23c97;
+  width: 36px;
+  height: 36px;
+  color: white;
+  font-size: 16px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.jupiterx-cp-support-item-header .jupiterx-icon-pro:before {
+  margin: 0;
+}
+
+.jupiterx-cp-support-item h2 {
+  color: #343a40;
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: bold;
+}
+
+.jupiterx-cp-support-item-content {
+  padding: 0 20px 20px 20px;
+}
+
+.jupiterx-cp-support-item-content p {
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 1.57;
+}
+
+.jupiterx-cp-support-item-content p:last-child {
+  margin: 0;
+}
+
+.jupiterx-cp-support-item-content a {
+  font-size: 14px;
+  line-height: 1.57;
+}
+
+.jupiterx-cp-support-item-hot-topics {
+  margin-top: 10px;
+  padding: 20px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.jupiterx-cp-support-item-hot-topics h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #222222;
+  line-height: 1.57;
+  margin-bottom: 15px;
+}
+
+.jupiterx-cp-support-item-hot-topics ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.jupiterx-cp-support-item-hot-topics ul li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.jupiterx-cp-support-item-hot-topics ul li a {
+  font-size: 14px;
+}
+
+.jupiterx-templates-toggle-filters {
+  min-width: 100%;
+  width: auto;
+  margin: 0 -40px 40px;
+  padding: 0 16px 19px;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .jupiterx-templates-filters-container {
+    position: static;
+    min-width: 100%;
+    width: auto;
+    margin: 0 -40px 40px;
+    padding: 0 16px 19px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+  }
+}
+
+.jupiterx-templates-search {
+  width: 100%;
+}
+
+.jupiterx-templates-filters .jupiterx-templates-filter {
+  padding: 4px;
+}
+
+@media (min-width: 768px) {
+  .jupiterx-templates-filters {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .admin-bar .jupiterx-templates-filters {
+    top: 32px;
+  }
+  .jupiterx-templates-filters .jupiterx-templates-filter {
+    width: 25.25%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .jupiterx-templates-filters .jupiterx-templates-filter-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50.5%;
+    margin-top: 0;
+  }
+  .jupiterx-templates-filters .jupiterx-templates-filter-category {
+    width: 49.5%;
+    margin-top: 0;
+  }
+  .jupiterx-templates-filters .jupiterx-templates-search-field {
+    border-top: 0;
+  }
+}
+
+.jupiterx-templates-results {
+  margin: 2rem -1.25rem;
+}
+
+@media (min-width: 992px) {
+  .jupiterx-templates-results .jupiterx-templates-template {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .jupiterx-templates-results .jupiterx-templates-template {
+    width: 33.3333333%;
+  }
+}
+
+.jupiterx-templates-search-field .form-control {
+  padding: 0.75rem calc(1.25rem + 68px) 0.75rem 1.1875rem;
+}
+
+.jupiterx-templates-search-field .search-icon {
+  right: 0;
+  width: 68px;
+  background-color: #222;
+  color: #fff;
+}
+
+.rtl .jupiterx-cp-plugins-filter {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}

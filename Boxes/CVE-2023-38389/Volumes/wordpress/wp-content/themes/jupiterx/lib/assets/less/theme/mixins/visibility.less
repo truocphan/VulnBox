@@ -1,0 +1,25 @@
+// Visibility
+//
+// Hide/show based on class
+
+.jupiterx-hide(@var, @selector) when not (@var = true) {
+    @select: ~"@{selector}";
+
+    .@{select} {
+        display: none;
+    }
+}
+
+.jupiterx-hide-toggle(@var, @selector) when not (@var = 1) {
+    @select: ~"@{selector}";
+
+    .@{select} {
+        display: none;
+    }
+}
+
+.jupiterx-show(@var, @selector, @display: block) when (@var = true) {
+    .@{selector} {
+        display: @display;
+    }
+}

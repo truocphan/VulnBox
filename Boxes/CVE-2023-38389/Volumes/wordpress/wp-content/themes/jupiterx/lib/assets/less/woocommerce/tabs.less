@@ -1,0 +1,155 @@
+.woocommerce:not(.jupiterx-product-template-3):not(.jupiterx-product-template-4):not(.jupiterx-product-template-7):not(.jupiterx-product-template-8) {
+    div.product {
+        .woocommerce-tabs {
+            display: inline-block;
+            width: 100%;
+        }
+    }
+}
+
+.woocommerce {
+    div.product {
+        .woocommerce-tabs {
+            .jupiterx-spacing('product-page-tabs');
+
+            ul.tabs {
+                display: flex;
+                flex-flow: row wrap;
+                margin: 0;
+                padding: 0;
+
+                &:before {
+                    border-top: none !important;
+                    border-left: none !important;
+                    border-right: none !important;
+                    .jupiterx-border('product-page-tabs-box-border');
+                }
+
+                li {
+                    margin: 0;
+                    background-color: @product-page-tabs-title-background-color;
+                    .jupiterx-border('product-page-tabs-box-border');
+                    border-radius: 0;
+
+                    &.active {
+                        border-bottom: none !important;
+                        background-color: @product-page-tabs-title-background-color-active;
+                        a {
+                            color: @product-page-tabs-title-color-active;
+                            font-weight: bold;
+                        }
+                    }
+
+                    a {
+                        font-weight: normal;
+                        color: @secondary;
+
+                        &,
+                        li:not(.active) &:hover {
+                            .jupiterx-typography('product-page-tabs-title');
+                        }
+                    }
+
+                    &::before,
+                    &::after {
+                        display: none;
+                    }
+                }
+
+                @media @sm-up {
+                    li {
+                        &:not(:first-child) {
+                            border-left: none !important;
+                        }
+                    }
+                }
+            }
+
+            .panel {
+                margin: 0;
+                padding: 1em;
+                border-top: none !important;
+                .jupiterx-spacing('product-page-tabs-box');
+                .jupiterx-border('product-page-tabs-box-border');
+                background-color: @product-page-tabs-box-background-color;
+
+                &,
+                p {
+                    .jupiterx-typography('product-page-tabs-text');
+                }
+            }
+
+            .woocommerce-Reviews-title {
+                display: none;
+            }
+        }
+
+        .woocommerce-tabs.accordion {
+            clear: none !important;
+            .jupiterx-spacing('product-page-tabs-box');
+
+            .card {
+                .jupiterx-border('product-page-tabs-box-border');
+                overflow: hidden;
+
+                &:first-of-type,
+                &:not(:first-of-type):not(:last-of-type) {
+                    border-bottom: none !important;
+                }
+            }
+
+            .card-header {
+                background-color: @product-page-tabs-title-background-color;
+                border-top: none !important;
+                border-left: none !important;
+                border-right: none !important;
+                padding: 1rem 1.2rem;
+                cursor: pointer;
+                .jupiterx-border('product-page-tabs-box-border');
+
+                &.collapsed {
+                    border-bottom: 0;
+
+                    [class^='jupiterx-icon'] {
+                        transform: rotate(-90deg);
+                        color: @gray-300;
+                    }
+                }
+            }
+
+            .card-title {
+                margin: 0;
+                .jupiterx-typography('product-page-tabs-title');
+            }
+
+            .card-header:not(.collapsed) {
+                background-color: @product-page-tabs-title-background-color-active;
+
+                .card-title {
+                    color: @product-page-tabs-title-color-active;
+                }
+            }
+
+            .card-body {
+                .jupiterx-spacing('product-page-tabs-box');
+                background-color: @product-page-tabs-box-background-color;
+
+                &,
+                p {
+                    .jupiterx-typography('product-page-tabs-text');
+                }
+            }
+
+            [class^='jupiterx-icon'] {
+                float: right;
+                top: .1rem;
+                position: relative;
+                font-size: inherit;
+                color: @product-page-tabs-title-icon-color-active;
+                transform: rotate(0);
+                transform-origin: center;
+                transition: all @transition-duration;
+            }
+        }
+    }
+}

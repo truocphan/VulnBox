@@ -1,0 +1,53 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">portfolio_category</taxonomy>
+    <taxonomy translate="1">portfolio_tag</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="copy-once">jupiterx_header</custom-field>
+    <custom-field action="copy-once">jupiterx_header_overlap</custom-field>
+    <custom-field action="copy-once">jupiterx_header_type</custom-field>
+    <custom-field action="copy-once">jupiterx_header_behavior</custom-field>
+    <custom-field action="copy-once">jupiterx_layout</custom-field>
+    <custom-field action="copy-once">jupiterx_content_full_width</custom-field>
+    <custom-field action="copy-once">jupiterx_post_paddings</custom-field>
+    <custom-field action="copy-once">jupiterx_sidebar_primary</custom-field>
+    <custom-field action="copy-once">jupiterx_sidebar_secondary</custom-field>
+    <custom-field action="copy-once">jupiterx_post_featured_image</custom-field>
+    <custom-field action="copy-once">jupiterx_post_comments</custom-field>
+    <custom-field action="copy-once">jupiterx_main_background_color</custom-field>
+    <custom-field action="copy-once">jupiterx_main_background_image</custom-field>
+    <custom-field action="copy-once">jupiterx_main_background_position</custom-field>
+    <custom-field action="copy-once">jupiterx_main_background_repeat</custom-field>
+    <custom-field action="copy-once">jupiterx_main_background_attachment</custom-field>
+    <custom-field action="copy-once">jupiterx_main_background_size</custom-field>
+    <custom-field action="copy-once">jupiterx_main_background</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing_padding_top</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing_padding_right</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing_padding_bottom</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing_padding_left</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing_margin_top</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing_margin_right</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing_margin_bottom</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing_margin_left</custom-field>
+    <custom-field action="copy-once">jupiterx_main_spacing</custom-field>
+    <custom-field action="copy-once">jupiterx_title_bar_title</custom-field>
+    <custom-field action="copy-once">jupiterx_title_bar_breadcrumb</custom-field>
+    <custom-field action="translate">jupiterx_title_bar_subtitle</custom-field>
+    <custom-field action="copy-once">jupiterx_footer_type</custom-field>
+    <custom-field action="copy-once">jupiterx_footer_widget_area</custom-field>
+    <custom-field action="copy-once">jupiterx_footer_sub</custom-field>
+    <custom-field action="copy-once">jupiterx_footer_behavior</custom-field>
+    <custom-field action="copy-once">jupiterx_header_template</custom-field>
+    <custom-field action="copy-once">jupiterx_header_sticky_template</custom-field>
+    <custom-field action="copy-once">jupiterx_content_spacing</custom-field>
+    <custom-field action="copy-once">jupiterx_post_meta</custom-field>
+    <custom-field action="copy-once">jupiterx_post_tags</custom-field>
+    <custom-field action="copy-once">jupiterx_post_social_share</custom-field>
+    <custom-field action="copy-once">jupiterx_post_author_box</custom-field>
+    <custom-field action="copy-once">jupiterx_post_related_posts</custom-field>
+  </custom-fields>
+</wpml-config>

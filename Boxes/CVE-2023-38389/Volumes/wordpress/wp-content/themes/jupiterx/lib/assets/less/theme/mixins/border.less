@@ -1,0 +1,106 @@
+// Border
+//
+// Generate border properties.
+
+.jupiterx-border(@var) {
+    border-width: ~"@{@{var}-width}";
+    border-color: ~"@{@{var}-color}";
+    border-style: solid; // Default
+    border-style: ~"@{@{var}-style}";
+    border-radius: ~"@{@{var}-radius}";
+
+    @media @md-down {
+        border-width: ~"@{@{var}-width-tablet}";
+        border-color: ~"@{@{var}-color-tablet}";
+    }
+
+    @media @sm-down {
+        border-width: ~"@{@{var}-width-mobile}";
+        border-color: ~"@{@{var}-color-mobile}";
+    }
+}
+
+.jupiterx-border-new(@var) {
+    border-width: jupiterx_value( ~"@{@{var}-width}", '0' );
+    border-color: ~"@{@{var}-color}";
+    border-style: jupiterx_value( ~"@{@{var}-solid}", 'solid' );
+    border-radius: ~"@{@{var}-radius}";
+
+    @media @md-down {
+        border-width: ~"@{@{var}-width-tablet}";
+        border-color: ~"@{@{var}-color-tablet}";
+    }
+
+    @media @sm-down {
+        border-width: ~"@{@{var}-width-mobile}";
+        border-color: ~"@{@{var}-color-mobile}";
+    }
+}
+
+.jupiterx-border-top(@var) {
+    border-top-width: ~"@{@{var}-width}";
+    border-top-color: ~"@{@{var}-color}";
+    border-top-style: solid;
+    border-top-style: ~"@{@{var}-style}";
+
+    @media @md-down {
+        border-top-width: ~"@{@{var}-width-tablet}";
+        border-top-color: ~"@{@{var}-color-tablet}";
+    }
+
+    @media @sm-down {
+        border-top-width: ~"@{@{var}-width-mobile}";
+        border-top-color: ~"@{@{var}-color-mobile}";
+    }
+}
+
+.jupiterx-border-right(@var) {
+    border-right-width: ~"@{@{var}-width}";
+    border-right-color: ~"@{@{var}-color}";
+    border-right-style: solid;
+    border-right-style: ~"@{@{var}-style}";
+
+    @media @md-down {
+        border-right-width: ~"@{@{var}-width-tablet}";
+        border-right-color: ~"@{@{var}-color-tablet}";
+    }
+
+    @media @sm-down {
+        border-right-width: ~"@{@{var}-width-mobile}";
+        border-right-color: ~"@{@{var}-color-mobile}";
+    }
+}
+
+.jupiterx-border-bottom(@var) {
+    border-bottom-width: ~"@{@{var}-width}";
+    border-bottom-color: ~"@{@{var}-color}";
+    border-bottom-style: solid;
+    border-bottom-style: ~"@{@{var}-style}";
+
+    @media @md-down {
+        border-bottom-width: ~"@{@{var}-width-tablet}";
+        border-bottom-color: ~"@{@{var}-color-tablet}";
+    }
+
+    @media @sm-down {
+        border-bottom-width: ~"@{@{var}-width-mobile}";
+        border-bottom-color: ~"@{@{var}-color-mobile}";
+    }
+}
+
+.jupiterx-border-left(@var) {
+    border-left-width: ~"@{@{var}-width}";
+    border-left-color: ~"@{@{var}-color}";
+    border-left-style: solid;
+    border-left-style: ~"@{@{var}-style}";
+
+    @media @md-down {
+        border-left-width: ~"@{@{var}-width-tablet}";
+        border-left-color: ~"@{@{var}-color-tablet}";
+    }
+
+    @media @sm-down {
+        border-left-width: ~"@{@{var}-width-mobile}";
+        border-left-color: ~"@{@{var}-color-mobile}";
+    }
+}

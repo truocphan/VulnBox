@@ -1,0 +1,695 @@
+// Widgets
+//
+
+.jupiterx-widget {
+    margin-bottom: 1.5rem;
+    font-size: @font-size-sm;
+    overflow: hidden;
+    list-style: none;
+
+    .card-title,
+    .widgettitle {
+        font-size: 1.25rem;
+    }
+
+    &:after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    .wp-caption-text {
+        margin-top: .3em;
+        color: @secondary;
+        font-size: @font-size-sm;
+    }
+
+    img[class*='attachment'] {
+        border-radius: @border-radius;
+    }
+
+    &.widget_mod_vikbooking_horizontalsearch {
+        overflow: initial;
+    }
+}
+
+.jupiterx-widget ul {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+        margin-bottom: .6em;
+    }
+
+    [class*=jupiterx-icon]::before {
+        opacity: .15;
+        margin-right: .4em;
+        vertical-align: -.1em;
+    }
+
+    .children {
+        margin-top: .6em;
+
+        > li {
+            padding-left: 1.3em;
+        }
+    }
+
+    .menu-item,
+    .cat-parent {
+        position: relative;
+        cursor: pointer;
+
+        &:before {
+            position: absolute;
+            right: 0;
+            top: .7em;
+            font-size: .5em;
+            cursor: pointer;
+        }
+    }
+}
+
+.jupiterx-widget-divider {
+    display: block;
+    max-width: 100%;
+    margin: 1rem 0;
+}
+
+// Calender
+
+.widget_calendar .calendar_wrap {
+    text-align: center;
+
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    caption {
+        text-align: center;
+        color: @secondary;
+        margin-top: -2.1rem;
+    }
+
+    thead {
+
+        th {
+            padding-bottom: 1em;
+        }
+    }
+
+    tbody {
+        color: @secondary;
+
+        td {
+            padding: .4em;
+            background: @gray-100;
+            border: 1px solid #fff;
+        }
+
+        td:hover {
+            background: #fff;
+        }
+
+        .pad {
+            background: none;
+        }
+    }
+
+    tfoot {
+        #next,
+        #prev {
+            padding-top: 1em;
+            text-align: right;
+        }
+
+        #prev {
+            text-align: left;
+        }
+    }
+}
+
+// Tag cloud
+
+.widget_tag_cloud {
+    .tag-cloud-link {
+        margin: 0 0 .3em;
+    }
+}
+
+// Image
+
+.widget_media_image {
+    a {
+        transition: @transition-fade;
+
+        &:hover,
+        &:focus {
+            opacity: .5;
+        }
+    }
+}
+
+// Gallery
+.gallery {
+    margin-right: -3px;
+    margin-left: -3px;
+
+    .gallery-item {
+        padding-right: 3px;
+        padding-left: 3px;
+        margin-bottom: 6px;
+
+        a {
+            display: block;
+            transition: @transition-fade;
+
+            &:hover,&:focus {
+                opacity: .5;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .gallery-caption {
+        font-size: 13px;
+        margin: 0;
+    }
+}
+
+// Elementor gallery default spacing
+.elementor-widget-image-gallery:not(.gallery-spacing-custom) .gallery .gallery-item {
+    margin-bottom: 6px;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+// Search
+
+.jupiterx-search-form {
+    position: relative;
+
+    .form-control {
+        width: 100%;
+        padding-right: 2em;
+    }
+
+    button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: @secondary;
+        font-size: @font-size-sm;
+        padding-top: .65rem;
+        background-color: transparent;
+
+        &:focus {
+            outline: 1px auto -webkit-focus-ring-color;
+        }
+
+        &:hover{
+            color: @secondary;
+            outline: 0;
+            box-shadow: none;
+        }
+
+        &:focus:active {
+            color: @secondary;
+            outline: 0;
+            box-shadow: none;
+        }
+
+        &:before {
+            line-height: 0;
+        }
+    }
+}
+
+// Menu
+
+.widget_nav_menu {
+    .menu > .menu-item {
+       & {
+            display: block;
+        }
+    }
+
+    .sub-menu {
+        display: none;
+        padding-top: .5em;
+
+        > .menu-item {
+            padding: .1em 0 .1em 1.3em;
+        }
+    }
+
+    a {
+        display: block;
+        .text-truncate();
+    }
+
+    .menu-item-has-children a {
+        width: 90%;
+    }
+
+    .current_page_item {
+        text-decoration: @link-hover-decoration;
+    }
+}
+
+// RSS
+
+.widget_rss {
+    li::before {
+        font-size: .75em;
+    }
+
+    .rss-date,
+    cite {
+        display: block;
+        margin: .5em 0;
+        color: @secondary;
+        font-size: @font-size-sm;
+    }
+
+    .rssSummary {
+        margin: .5em 0;
+    }
+}
+
+// Comments
+
+.jupiterx-recent-comment {
+    .comment-author-link {
+        display: inline-block;
+        color: @link-color;
+    }
+
+    .comment-author-link:before {
+        color: @link-color;
+    }
+
+    &:hover .comment-author-link:before {
+        color: @link-hover-color;
+    }
+}
+
+// Recent posts
+
+.widget_recent-posts {
+    .post-date {
+        display: block;
+        margin: .3em 0 .5em;
+        color: @secondary;
+        font-size: @font-size-sm;
+    }
+}
+
+// Social Networks
+
+.jupiterx-social-widget-wrapper {
+    margin-right: -.1em;
+    margin-left: -.1em;
+    font-size: 2rem;
+    line-height: 0;
+
+    .jupiterx-widget-social-share-link {
+        margin-right: .1em;
+        margin-left: .1em;
+        margin-bottom: .2em;
+        padding: 0.5rem;
+        color: #ffffff;
+        font-size: 2rem;
+        line-height: 1;
+        text-align: center;
+        text-decoration: none;
+
+        &.btn {
+            &:focus,
+            &:active,
+            &:active:focus,
+            &:not(:disabled):not(.disabled):active:focus {
+                box-shadow: none;
+            }
+        }
+
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .jupiterx-social-icon {
+            display: block;
+            position: relative;
+            height: 1em;
+            width: 1em;
+            font-size: .5em;
+            line-height: 1;
+            transition: 0.15s;
+        }
+    }
+}
+
+.jupiterx-widget-social-icon-android {
+    background-color: #a4c639
+}
+
+.jupiterx-widget-social-icon-apple {
+    background-color: #999
+}
+
+.jupiterx-widget-social-icon-behance {
+    background-color: #1769ff
+}
+
+.jupiterx-widget-social-icon-bitbucket {
+    background-color: #205081
+}
+
+.jupiterx-widget-social-icon-delicious {
+    background-color: #39f
+}
+
+.jupiterx-widget-social-icon-dribbble {
+    background-color: #ea4c89
+}
+
+.jupiterx-widget-social-icon-facebook {
+    background-color: #3b5998
+}
+
+.jupiterx-widget-social-icon-flickr {
+    background-color: #0063dc
+}
+
+.jupiterx-widget-social-icon-foursquare {
+    background-color: #2d5be3
+}
+
+.jupiterx-widget-social-icon-github {
+    background-color: #333
+}
+
+.jupiterx-widget-social-icon-google-plus {
+    background-color: #dd4b39
+}
+
+.jupiterx-widget-social-icon-instagram {
+    background-color: #262626
+}
+
+.jupiterx-widget-social-icon-jsfiddle {
+    background-color: #487aa2
+}
+
+.jupiterx-widget-social-icon-linkedin {
+    background-color: #0077b5
+}
+
+.jupiterx-widget-social-icon-medium {
+    background-color: #00ab6b
+}
+
+.jupiterx-widget-social-icon-pinterest {
+    background-color: #bd081c
+}
+
+.jupiterx-widget-social-icon-product-hunt {
+    background-color: #da552f
+}
+
+.jupiterx-widget-social-icon-reddit {
+    background-color: #ff4500
+}
+
+.jupiterx-widget-social-icon-rss {
+    background-color: #f26522
+}
+
+.jupiterx-widget-social-icon-skype {
+    background-color: #00aff0
+}
+
+.jupiterx-widget-social-icon-snapchat {
+    background-color: #fffc00
+}
+
+.jupiterx-widget-social-icon-soundcloud {
+    background-color: #f80
+}
+
+.jupiterx-widget-social-icon-spotify {
+    background-color: #2ebd59
+}
+
+.jupiterx-widget-social-icon-stack-overflow {
+    background-color: #fe7a15
+}
+
+.jupiterx-widget-social-icon-steam {
+    background-color: #00adee
+}
+
+.jupiterx-widget-social-icon-stumbleupon {
+    background-color: #eb4924
+}
+
+.jupiterx-widget-social-icon-telegram {
+    background-color: #2ca5e0
+}
+
+.jupiterx-widget-social-icon-tripadvisor {
+    background-color: #589442
+}
+
+.jupiterx-widget-social-icon-tumblr {
+    background-color: #35465c
+}
+
+.jupiterx-widget-social-icon-twitch {
+    background-color: #6441a5
+}
+
+.jupiterx-widget-social-icon-twitter {
+    background-color: #1da1f2
+}
+
+.jupiterx-widget-social-icon-vimeo {
+    background-color: #1ab7ea
+}
+
+.jupiterx-widget-social-icon-vk {
+    background-color: #45668e
+}
+
+.jupiterx-widget-social-icon-weibo {
+    background-color: #df2029
+}
+
+.jupiterx-widget-social-icon-weixin {
+    background-color: #7bb32e
+}
+
+.jupiterx-widget-social-icon-whatsapp {
+    background-color: #25d366
+}
+
+.jupiterx-widget-social-icon-wordpress {
+    background-color: #21759b
+}
+
+.jupiterx-widget-social-icon-xing {
+    background-color: #026466
+}
+
+.jupiterx-widget-social-icon-yelp {
+    background-color: #af0606
+}
+
+.jupiterx-widget-social-icon-youtube {
+    background-color: #cd201f
+}
+
+.jupiterx-widget-social-icon-500px {
+    background-color: #0099e5
+}
+
+// Posts Widget
+
+.jupiterx-widget-posts-item {
+    display: flex;
+}
+
+.jupiterx-widget-posts-item.no-thumbnail {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jupiterx-widget-posts-item.has-thumbnail {
+    margin-bottom: 10px;
+}
+
+.jupiterx-widget-posts-image {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.jupiterx-widget-posts-image img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.jupiterx-widget-posts-main {
+    width: 100%;
+}
+
+.jupiterx-widget-posts-post-title {
+    font-size: 1rem;
+}
+
+.jupiterx-widget-posts-post-title a {
+    color: @headings-color;
+}
+
+.jupiterx-widget-posts-meta {
+    font-size: @font-size-sm;
+}
+
+.jupiterx-widget-posts-item.has-thumbnail .jupiterx-widget-posts-comments-num {
+    display: block;
+    margin-left: 0;
+}
+
+.jupiterx-widget-posts-date {
+    margin-right: .75rem;
+}
+
+.jupiterx-widget-posts-comments-num::before {
+    color: currentColor;
+    opacity: .15;
+    font-size: @font-size-sm;
+    margin-right: 0.5em;
+    vertical-align: -1.5px;
+}
+
+.jupiterx-widget-posts-wrapper [class^=jupiterx-icon]:before {
+    vertical-align: middle;
+}
+
+// Posts Widget (Portfolio)
+
+.jupiterx-widget-posts-portfolio-item {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-top: 64.3%;
+    margin-bottom: 10px;
+}
+
+.jupiterx-widget-posts-portfolio-item img,
+.elementor .jupiterx-widget-posts-portfolio-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .85;
+    object-fit: cover;
+    border-radius: @border-radius;
+}
+
+.jupiterx-widget-posts-portfolio-item:hover img {
+    opacity: 1;
+}
+
+.jupiterx-widget-posts-portfolio-title {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba( 0, 0, 0, 0.3 );
+    text-align: center;
+    opacity: 0;
+    transition: @transition-fade;
+    font-size: 1rem;
+    border-radius: @border-radius;
+}
+
+.jupiterx-widget-posts-portfolio-title a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.jupiterx-widget-posts-portfolio-item:hover .jupiterx-widget-posts-portfolio-title {
+    opacity: 1;
+}
+
+// Navigation menu widget
+.jupiterx-widget-nav-menu-vertical .menu-item:last-child {
+    margin-bottom: 0;
+}
+
+.jupiterx-widget-nav-menu-horizontal .menu-item {
+    display: inline-block !important;
+}
+
+.jupiterx-widget-nav-menu-horizontal .menu-item:last-child {
+    margin-right: 0;
+}
+
+.jupiterx-widget-nav-menu-horizontal .menu-item-has-children a {
+    width: 100%;
+}
+
+.jupiterx-widget-nav-menu-horizontal .menu-item-has-children::before {
+    content: '';
+}
+

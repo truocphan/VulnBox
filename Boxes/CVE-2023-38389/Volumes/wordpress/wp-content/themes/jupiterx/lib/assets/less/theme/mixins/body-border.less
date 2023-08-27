@@ -1,0 +1,43 @@
+// Body Border
+//
+// Body border properties.
+
+.jupiter-body-border-default-tablet(@var) when not (ispixel(@@var)) {
+    top: @body-border-width;
+    right: @body-border-width;
+    left: @body-border-width;
+
+    .admin-bar& {
+        top: ~"calc(@{body-border-width} + 46px)";
+    }
+}
+
+.jupiter-body-border-tablet(@var) when (ispixel(@@var)) {
+    top: @body-border-width-tablet;
+    right: @body-border-width-tablet;
+    left: @body-border-width-tablet;
+
+    .admin-bar& {
+        top: ~"calc(@{body-border-width-tablet} + 46px)";
+    }
+}
+
+.jupiter-body-border-default-mobile(@var) when not (ispixel(@@var)) {
+    top: @body-border-width;
+    right: @body-border-width;
+    left: @body-border-width;
+
+    .admin-bar& {
+        top: ~"calc(@{body-border-width} + 46px)";
+    }
+}
+
+.jupiter-body-border-mobile(@var) when (ispixel(@@var)) {
+    top: @body-border-width-mobile;
+    right: @body-border-width-mobile;
+    left: @body-border-width-mobile;
+
+    .admin-bar& {
+        top: ~"calc(@{body-border-width-mobile} + 46px)";
+    }
+}

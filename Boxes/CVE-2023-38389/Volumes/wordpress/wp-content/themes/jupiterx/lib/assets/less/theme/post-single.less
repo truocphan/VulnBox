@@ -1,0 +1,326 @@
+// Post single.
+//
+// Post, meta, author box, related posts.
+
+.single-post {
+
+    // Title
+
+    .jupiterx-post-title {
+        .jupiterx-spacing('post-single-title');
+        .jupiterx-typography('post-single-title');
+        .jupiterx-align('post-single-title-align', text-align);
+
+        a {
+            color: @post-title-color;
+        }
+    }
+
+    .jupiterx-post-content {
+        .jupiterx-spacing('post-single-post-content');
+        .jupiterx-typography('post-single-post-content');
+        .jupiterx-align('post-single-post-content-align', text-align);
+    }
+
+    // Post image
+
+    .jupiterx-post-image-full-width .jupiterx-post-image img {
+        border-radius: 0;
+    }
+
+    // Meta
+
+    .jupiterx-post-meta {
+        .jupiterx-spacing('post-single-meta');
+        .jupiterx-typography('post-single-meta');
+        .jupiterx-align('post-single-meta-align', text-align);
+
+        a {
+            color: @post-single-meta-links-color;
+        }
+
+        .list-inline-item + .list-inline-item:before {
+            content: @post-single-meta-breadcrumb-divider;
+            color: @post-single-meta-divider-color;
+        }
+    }
+
+    // Tags
+
+    .jupiterx-post-tags {
+        .jupiterx-align('post-single-tags-align', text-align);
+        .jupiterx-spacing('post-single-tags');
+
+        .jupiterx-post-tags-row {
+            margin-left: jupiterx_value_pattern(-1 * @post-single-tags-links-gap, 'calc(%s / 2)');
+            margin-right: jupiterx_value_pattern(-1 * @post-single-tags-links-gap, 'calc(%s / 2)');
+        }
+
+        .btn {
+            margin-left: jupiterx_value_pattern(@post-single-tags-links-gap, 'calc(%s / 2)');
+            margin-right: jupiterx_value_pattern(@post-single-tags-links-gap, 'calc(%s / 2)');
+            .jupiterx-spacing('post-single-tags-links');
+            background-color: @post-single-tags-links-background-color;
+            .jupiterx-border('post-single-tags-links-border');
+            border-radius: @post-single-tags-links-border-radius;
+            .jupiterx-typography('post-single-tags-links');
+
+            &:hover,
+            &:focus {
+                color: @post-single-tags-links-color-hover;
+                background-color: @post-single-tags-links-background-color-hover;
+                border-color: @post-single-tags-links-border-color-hover;
+            }
+        }
+    }
+
+    // Social share
+
+    .jupiterx-social-share {
+        .jupiterx-spacing('post-single-social-share');
+    }
+
+    .jupiterx-social-share-inner {
+        .jupiterx-align('post-single-social-share-align', justify-content);
+    }
+
+    .jupiterx-social-share-link {
+        .jupiterx-spacing('post-single-social-share-link');
+    }
+
+    // Navigation
+
+    .jupiterx-post-navigation-link img {
+        border-radius: @post-single-navigation-image-border-radius;
+    }
+
+    .jupiterx-post-navigation-title {
+        .jupiterx-typography('post-single-navigation-title');
+    }
+
+    .jupiterx-post-navigation-label {
+        .jupiterx-typography('post-single-navigation-label');
+    }
+
+    .jupiterx-post-navigation {
+        .jupiterx-spacing('post-single-navigation');
+    }
+
+    // Author box
+
+    .jupiterx-post-author-box {
+        .jupiterx-spacing('post-single-author-box');
+        .jupiterx-border('post-single-author-box-border');
+        background-color: @post-single-author-box-background-color;
+        .jupiterx-align-author-box-center(@post-single-author-box-align);
+        .jupiterx-align-author-box-center-tablet(@post-single-author-box-align-tablet);
+        .jupiterx-align-author-box-center-mobile(@post-single-author-box-align-mobile);
+        .jupiterx-align-author-box-right(@post-single-author-box-align);
+        .jupiterx-align-author-box-right-tablet(@post-single-author-box-align-tablet);
+        .jupiterx-align-author-box-right-mobile(@post-single-author-box-align-mobile);
+    }
+
+    .jupiterx-post-author-box-avatar {
+        img {
+            border-radius: @post-single-author-box-avatar-border-radius;
+        }
+    }
+
+    .jupiterx-post-author-box-link {
+        .jupiterx-typography('post-single-author-box-name');
+    }
+
+    .jupiterx-post-author-box-content p {
+        .jupiterx-typography('post-single-author-box-description');
+    }
+
+    .jupiterx-post-author-icons li {
+        margin-right: @post-single-author-box-icons-gap;
+    }
+
+    .jupiterx-post-author-icons a {
+        font-size: @post-single-author-box-icons-size;
+        color: @post-single-author-box-icons-color;
+    }
+
+    // Related posts
+
+    .jupiterx-post-related {
+        .jupiterx-spacing('post-single-related-posts-container');
+
+        .card {
+            .jupiterx-border('post-single-related-posts-border');
+        }
+
+        .card-title {
+            .jupiterx-typography('post-single-related-posts');
+        }
+
+        .card-body {
+            .jupiterx-spacing('post-single-related-posts');
+            background-color: @post-single-related-posts-background-color;
+        }
+    }
+}
+
+// Template 1, 2
+
+.jupiterx-post-template-1,
+.jupiterx-post-template-2 {
+    .jupiterx-post-meta {
+        .jupiterx-align('post-single-meta-align');
+    }
+}
+
+// Template 1, 3
+
+.jupiterx-post-template-1,
+.jupiterx-post-template-3 {
+    .jupiterx-post-image {
+        .jupiterx-spacing('post-single-featured-image');
+
+        img {
+            min-height: @post-single-featured-image-min-height;
+            max-height: @post-single-featured-image-max-height;
+            .jupiterx-border('post-single-featured-image-border');
+        }
+    }
+}
+
+// Template 2
+
+.jupiterx-post-template-2 {
+    .jupiterx-main-content {
+        padding-top: 0;
+    }
+
+    .jupiterx-post-header {
+        border: 0 solid;
+    }
+
+    .jupiterx-post-header {
+        .jupiterx-spacing('post-single-template-2-featured-image');
+        min-height: @post-single-featured-image-template-2-min-height;
+        max-height: @post-single-featured-image-template-2-max-height;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .jupiterx-border('post-single-featured-image-border');
+        border-left: none;
+        border-right: none;
+        text-align: center;
+
+        .container {
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+            z-index: 2;
+        }
+    }
+
+    // Image
+
+    .jupiterx-post-image {
+        margin-bottom: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    // Overlay.
+
+    .jupiterx-post-image-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: @post-single-featured-image-overlay-color;
+    }
+
+    // Title
+
+    .jupiterx-post-title {
+        margin-bottom: 2rem;
+    }
+
+    // Avatar */
+
+    .jupiterx-post-meta-author-avatar {
+        margin-bottom: 1rem;
+
+        img {
+            width: @post-single-avatar-width;
+            height: auto;
+            .jupiterx-spacing('post-single-avatar');
+            .jupiterx-border('post-single-avatar-border');
+        }
+    }
+}
+
+// Template 3
+
+.jupiterx-post-template-3 {
+    .jupiterx-main-content.jupiterx-post-image-full-width {
+        padding-top: 0;
+    }
+
+    @media @md-down {
+        .jupiterx-post {
+            display: flex;
+            flex-flow: column;
+        }
+
+        .jupiterx-post-header {
+            order: -1;
+        }
+    }
+
+    @media @md-up {
+        .jupiterx-post-header,
+        .jupiterx-post-body {
+            margin-left: 230px;
+        }
+
+        .jupiterx-post-meta {
+            max-width: 200px;
+            float: left;
+        }
+    }
+
+    // Avatar
+
+    .jupiterx-post-meta-author-avatar {
+        float: left;
+    }
+
+    // Meta
+
+    .jupiterx-post-meta {
+        .list-inline-item {
+            display: block;
+
+            @media @md-up {
+                margin-bottom: 1rem;
+            }
+
+            &:before {
+                display: none;
+            }
+
+            @media @md-up {
+                & > span {
+                    display: block;
+                }
+            }
+        }
+
+        .jupiterx-post-meta-author-avatar ~ .list-inline-item {
+            margin-left: ~"calc(50px + 1rem)";
+        }
+    }
+}

@@ -1,0 +1,317 @@
+@font-face {
+	font-family: "jupiterx";
+	src: url('../../fonts/jupiterx.eot');
+	src: url('../../fonts/jupiterx.eot?#iefix') format('eot'),
+		url('../../fonts/jupiterx.woff2') format('woff2'),
+		url('../../fonts/jupiterx.woff') format('woff'),
+		url('../../fonts/jupiterx.ttf') format('truetype'),
+		url('../../fonts/jupiterx.svg#jupiterx') format('svg');
+}
+
+[class^="jupiterx-icon-"]:before, [class*=" jupiterx-icon-"]:before {
+	font-family: "jupiterx";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	speak: none;
+	text-decoration: none;
+    text-transform: none;
+    line-height: 1;
+}
+
+.jupiterx-icon-creative-market:before {
+    content: "\EA01"
+}
+.jupiterx-icon-long-arrow:before {
+    content: "\EA02"
+}
+.jupiterx-icon-pro-badge:before {
+    content: "\EA03"
+}
+.jupiterx-icon-search-1:before {
+    content: "\EA04"
+}
+.jupiterx-icon-search-2:before {
+    content: "\EA05"
+}
+.jupiterx-icon-search-3:before {
+    content: "\EA06"
+}
+.jupiterx-icon-search-4:before {
+    content: "\EA07"
+}
+.jupiterx-icon-share-email:before {
+    content: "\EA08"
+}
+.jupiterx-icon-shopping-cart-1:before {
+    content: "\EA09"
+}
+.jupiterx-icon-shopping-cart-10:before {
+    content: "\EA0A"
+}
+.jupiterx-icon-shopping-cart-2:before {
+    content: "\EA0B"
+}
+.jupiterx-icon-shopping-cart-3:before {
+    content: "\EA0C"
+}
+.jupiterx-icon-shopping-cart-4:before {
+    content: "\EA0D"
+}
+.jupiterx-icon-shopping-cart-5:before {
+    content: "\EA0E"
+}
+.jupiterx-icon-shopping-cart-6:before {
+    content: "\EA0F"
+}
+.jupiterx-icon-shopping-cart-7:before {
+    content: "\EA10"
+}
+.jupiterx-icon-shopping-cart-8:before {
+    content: "\EA11"
+}
+.jupiterx-icon-shopping-cart-9:before {
+    content: "\EA12"
+}
+.jupiterx-icon-zillow:before {
+    content: "\EA13"
+}
+.jupiterx-icon-zomato:before {
+    content: "\EA14"
+}
+.jupiterx-icon-pro:before {
+    content: "\EA4C"
+}
+.jupiterx-icon-500px:before {
+    content: "\EA15"
+}
+.jupiterx-icon-android:before {
+    content: "\EA16"
+}
+.jupiterx-icon-angle-down:before {
+    content: "\EA17"
+}
+.jupiterx-icon-angle-left:before {
+    content: "\EA18"
+}
+.jupiterx-icon-angle-right:before {
+    content: "\EA19"
+}
+.jupiterx-icon-angle-up:before {
+    content: "\EA1A"
+}
+.jupiterx-icon-apple:before {
+    content: "\EA1B"
+}
+.jupiterx-icon-behance:before {
+    content: "\EA1C"
+}
+.jupiterx-icon-bitbucket:before {
+    content: "\EA1D"
+}
+.jupiterx-icon-delicious:before {
+    content: "\EA1E"
+}
+.jupiterx-icon-dribbble:before {
+    content: "\EA20"
+}
+.jupiterx-icon-facebook-f:before {
+    content: "\EA21"
+}
+.jupiterx-icon-facebook:before {
+    content: "\EA22"
+}
+.jupiterx-icon-flickr:before {
+    content: "\EA23"
+}
+.jupiterx-icon-foursquare:before {
+    content: "\EA24"
+}
+.jupiterx-icon-github:before {
+    content: "\EA25"
+}
+.jupiterx-icon-google-plus:before {
+    content: "\EA26"
+}
+.jupiterx-icon-instagram:before {
+    content: "\EA27"
+}
+.jupiterx-icon-jsfiddle:before {
+    content: "\EA28"
+}
+.jupiterx-icon-linkedin-in:before {
+    content: "\EA29"
+}
+.jupiterx-icon-linkedin:before {
+    content: "\EA2A"
+}
+.jupiterx-icon-medium:before {
+    content: "\EA2B"
+}
+.jupiterx-icon-minus:before {
+    content: "\EA2C"
+}
+.jupiterx-icon-pinterest-p:before {
+    content: "\EA2D"
+}
+.jupiterx-icon-pinterest:before {
+    content: "\EA2E"
+}
+.jupiterx-icon-plus:before {
+    content: "\EA2F"
+}
+.jupiterx-icon-product-hunt:before {
+    content: "\EA30"
+}
+.jupiterx-icon-reddit-alien:before {
+    content: "\EA31"
+}
+.jupiterx-icon-reddit:before {
+    content: "\EA32"
+}
+.jupiterx-icon-rss:before {
+    content: "\EA33"
+}
+.jupiterx-icon-skype:before {
+    content: "\EA34"
+}
+.jupiterx-icon-snapchat:before {
+    content: "\EA35"
+}
+.jupiterx-icon-solid-comment:before {
+    content: "\EA36"
+}
+.jupiterx-icon-solid-times-circle:before {
+    content: "\EA37"
+}
+.jupiterx-icon-soundcloud:before {
+    content: "\EA38"
+}
+.jupiterx-icon-spinner:before {
+    content: "\EA39"
+}
+.jupiterx-icon-spotify:before {
+    content: "\EA3A"
+}
+.jupiterx-icon-stack-overflow:before {
+    content: "\EA3B"
+}
+.jupiterx-icon-steam:before {
+    content: "\EA3C"
+}
+.jupiterx-icon-stumbleupon:before {
+    content: "\EA3D"
+}
+.jupiterx-icon-telegram:before {
+    content: "\EA3E"
+}
+.jupiterx-icon-tripadvisor:before {
+    content: "\EA3F"
+}
+.jupiterx-icon-tumblr:before {
+    content: "\EA40"
+}
+.jupiterx-icon-twitch:before {
+    content: "\EA41"
+}
+.jupiterx-icon-twitter:before {
+    content: "\EA42"
+}
+.jupiterx-icon-vimeo:before {
+    content: "\EA43"
+}
+.jupiterx-icon-vk:before {
+    content: "\EA44"
+}
+.jupiterx-icon-weibo:before {
+    content: "\EA45"
+}
+.jupiterx-icon-weixin:before {
+    content: "\EA46"
+}
+.jupiterx-icon-whatsapp:before {
+    content: "\EA47"
+}
+.jupiterx-icon-wordpress:before {
+    content: "\EA48"
+}
+.jupiterx-icon-xing:before {
+    content: "\EA49"
+}
+.jupiterx-icon-yelp:before {
+    content: "\EA4A"
+}
+.jupiterx-icon-youtube:before {
+    content: "\EA4B"
+}
+.jupiterx-icon-arrow-down-solid:before {
+    content: "\EA4D"
+}
+.jupiterx-icon-arrow-left-solid:before {
+    content: "\EA4E"
+}
+.jupiterx-icon-arrow-left:before {
+    content: "\EA4F"
+}
+.jupiterx-icon-arrow-right-solid:before {
+    content: "\EA50"
+}
+.jupiterx-icon-arrow-up-solid:before {
+    content: "\EA51"
+}
+.jupiterx-icon-check-solid:before {
+    content: "\EA52"
+}
+.jupiterx-icon-cloud:before {
+    content: "\EA53"
+}
+.jupiterx-icon-plus-circle-solid:before {
+    content: "\EA54"
+}
+.jupiterx-icon-question-circle:before {
+    content: "\EA55"
+}
+.jupiterx-icon-rocket:before {
+    content: "\EA57"
+}
+.jupiterx-icon-sync-alt:before {
+    content: "\EA58"
+}
+.jupiterx-icon-times-circle:before {
+    content: "\EA59"
+}
+.jupiterx-icon-question:before {
+    content: "\EA5A"
+}
+.jupiterx-icon-circle-notch:before {
+    content: "\EA60"
+}
+.jupiterx-icon-external-link-alt:before {
+    content: "\EA61"
+}
+.jupiterx-icon-check:before {
+    content: "\EA62"
+}
+.jupiterx-icon-times:before {
+    content: "\EA63"
+}
+.jupiterx-icon-key:before {
+    content: "\EA64"
+}
+.jupiterx-icon-info-circle:before {
+    content: "\EA65"
+}
+.jupiterx-icon-credit-card:before {
+    content: "\EA66"
+}
+.jupiterx-icon-eye-regular:before {
+    content: "\EA67"
+}
+.jupiterx-icon-eye-slash:before {
+    content: "\EA68"
+}
+.jupiterx-icon-telegram-paper-plane:before {
+    content: "\EA69"
+}

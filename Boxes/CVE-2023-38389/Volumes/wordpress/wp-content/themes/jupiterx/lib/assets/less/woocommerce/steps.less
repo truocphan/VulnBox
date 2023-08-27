@@ -1,0 +1,103 @@
+.jupiterx-wc-steps {
+    background-color: @checkout-cart-steps-container-bg-color;
+    .jupiterx-border-new('checkout-cart-steps-container-border');
+    .jupiterx-spacing('checkout-cart-steps-container');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media @sm-down {
+        flex-direction: column;
+    }
+}
+
+.jupiterx-wc-step {
+    position: relative;
+    background-color: @checkout-cart-steps-step-bg-color;
+    .jupiterx-spacing('checkout-cart-steps');
+    .jupiterx-border-new('checkout-cart-steps-step-border');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media @sm-up {
+        &:first-of-type {
+            margin-left: 0;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+
+.jupiterx-wc-step-number {
+    margin-right: .7em;
+    padding: .1em;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 2;
+    text-align: center;
+    background-color: @checkout-cart-steps-number-bg-color;
+    .jupiterx-typography('checkout-cart-steps-number');
+
+    .jupiterx-wc-step-text {
+        width: 2em;
+        height: 2em;
+        display: block;
+    }
+}
+
+.jupiterx-wc-step-icon {
+    margin-right: .7em;
+    line-height: .8;
+    color: @checkout-cart-steps-icon-color;
+    font-size: @checkout-cart-steps-icon-size;
+}
+
+.jupiterx-wc-step-title {
+    font-size: @checkout-cart-steps-title-font-size;
+    color: @checkout-cart-steps-title-color;
+    .jupiterx-typography('checkout-cart-steps-title');
+}
+
+.jupiterx-wc-step-active {
+    &.jupiterx-wc-step {
+        background-color: @checkout-cart-steps-step-bg-color-active;
+        border-color: @checkout-cart-steps-step-border-color-active;
+        border-width: @checkout-cart-steps-step-border-width-active;
+    }
+
+    .jupiterx-wc-step-number {
+        background-color: @checkout-cart-steps-number-bg-color-active;
+        color: @checkout-cart-steps-number-color-active;
+    }
+
+    .jupiterx-wc-step-title {
+        color: @checkout-cart-steps-title-color-active;
+    }
+
+    .jupiterx-wc-step-icon {
+        color: @checkout-cart-steps-icon-color-active;
+    }
+}
+
+.jupiterx-wc-step-divider {
+    width: @checkout-cart-steps-step-divider-size;
+    border-top-width: @checkout-cart-steps-step-divider-width;
+    border-right-width: 0 !important;
+    border-bottom-width: 0 !important;
+    border-color: @checkout-cart-steps-step-divider-color;
+    border-style: @checkout-cart-steps-step-divider-style;
+
+    @media @sm-up {
+        height: auto !important;
+    }
+
+    @media @sm-down {
+        width: auto !important;
+        height: @checkout-cart-steps-step-divider-size;
+        border-top-width: 0 !important;
+        border-left-width: @checkout-cart-steps-step-divider-width;
+    }
+}

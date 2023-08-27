@@ -1,0 +1,90 @@
+// Single product layout 9, 10.
+//
+
+.jupiterx-product-template-9,
+.jupiterx-product-template-10 {
+    @media @md-up {
+        div.product {
+            div.images,
+            section.products {
+                width: 61%;
+                display: inline-block;
+                float: none;
+            }
+
+            div.images {
+                .woocommerce-product-gallery__image:nth-child(n + 2) {
+                    margin-top: 1rem;
+                }
+            }
+
+            .jupiterx-product-sticky-info& {
+                div.summary {
+                    position: sticky;
+                }
+            }
+
+            .flex-viewport {
+                height: auto !important;
+                max-height: initial;
+                border-width: 0 !important;
+                background-color: transparent;
+            }
+
+            .woocommerce-product-gallery__image {
+                float: none !important;
+                width: 100% !important;
+            }
+
+            .flex-control-nav,
+            .flex-direction-nav {
+                display: none;
+            }
+
+            .woocommerce-product-gallery {
+                padding-left: 0 !important;
+
+                .woocommerce-product-gallery__wrapper {
+                    margin-left: 0 !important;
+                    width: auto !important;
+                    transform: translate3d(0px, 0px, 0px) !important;
+                }
+            }
+
+            div.images {
+                .woocommerce-product-gallery__image {
+                    border-style: solid;
+                    border-width: 0;
+
+                    &:nth-child(n + 2) {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+
+            div.summary {
+                width: 35%;
+                transition: top .4s;
+            }
+        }
+
+        #review_form #respond {
+            .comment-form-author,
+            .comment-form-email {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+// Template 10
+.jupiterx-product-template-10 {
+    @media @lg-up {
+        .jupiterx-main-content {
+            padding-left: 15%;
+            padding-right: 5%;
+        }
+    }
+}

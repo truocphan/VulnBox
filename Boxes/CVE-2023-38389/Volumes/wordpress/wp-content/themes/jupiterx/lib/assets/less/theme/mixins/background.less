@@ -1,0 +1,39 @@
+// Background
+//
+// Generate background properties.
+
+.jupiterx-background(@var) {
+    background: @@var;
+    background-size: ~"@{@{var}-size}";
+
+    @media @md-down {
+        background-color: ~"@{@{var}-color-tablet}";
+    }
+
+    @media @sm-down {
+        background-color: ~"@{@{var}-color-mobile}";
+    }
+}
+
+.jupiterx-background-classic(@type, @var) when (@@type = classic) {
+    @background-position: ~"@{var}-position";
+
+    background-color: ~"@{@{var}-color}";
+    background-image: ~"@{@{var}-image}";
+    background-position: @@background-position;
+    background-repeat: ~"@{@{var}-repeat}";
+    background-attachment: ~"@{@{var}-attachment}";
+    background-size: ~"@{@{var}-size}";
+
+    @media @md-down {
+        background-color: ~"@{@{var}-color-tablet}";
+    }
+
+    @media @sm-down {
+        background-color: ~"@{@{var}-color-mobile}";
+    }
+}
+
+.jupiterx-background-gradient(@type, @var) when (@@type = gradient) {
+    background: @@var;
+}

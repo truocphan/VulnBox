@@ -1,0 +1,39 @@
+// Blocks
+//
+// Style of Gutenberg blocks.
+.wp-block-media-text,
+.wp-block-table {
+    margin-bottom: 1rem;
+    th,
+    td {
+        padding: .75rem;
+        vertical-align: top;
+        border: none;
+        border-top: 1px solid #dee2e6;
+    }
+}
+
+.wp-block-embed {
+    &:not(.wp-block-embed-twitter):not(.wp-block-embed-instagram):not(.wp-block-embed-wordpress):not(.wp-block-embed-flickr):not(.wp-block-embed-reddit) {
+        .jupiterx-oembed {
+            position: relative;
+            padding: 0;
+            width: 100%;
+            padding-top: 56.25%; // Default 16:9
+
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &.wp-embed-aspect-4-3 {
+            .jupiterx-oembed {
+                padding-top: 75%;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+// Search
+
+body {
+
+    // Shared
+    &.search {
+        .jupiterx-primary .jupiterx-search-form {
+            max-width: 33.3333%;
+            margin: 0 auto;
+        }
+
+        .jupiterx-search-post-title {
+            font-size: 1.25rem;
+        }
+    }
+
+    // No result page
+    &.search-no-results {
+        .jupiterx-post {
+            margin: 1rem 0;
+            text-align: center;
+        }
+    }
+
+    // Page with results
+    &.search-results {
+        .jupiterx-post {
+            margin: 0 0 1.5rem;
+        }
+
+        .jupiterx-post-image {
+            position: relative;
+            border-radius: .25rem;
+            padding-left: 0;
+
+            @media @md-up {
+                padding-right: 1.4rem;
+            }
+
+            img {
+                height: 170px;
+            }
+        }
+
+        .jupiterx-post-body {
+            padding: 0;
+        }
+
+        .jupiterx-new-search {
+            padding-bottom: 2.5rem;
+            margin: 1rem 0 2rem;
+            border-bottom: 1px solid @gray-300;
+            text-align: center;
+        }
+
+        .jupiterx-search-secondary-subtitle {
+            margin-bottom: 2.3rem;
+        }
+
+        .jupiterx-content .products {
+            margin-bottom: 0;
+        }
+
+        .jupiterx-content .woocommerce ~ .jupiterx-post:first-of-type {
+            padding-top: 2rem;
+            border-top: 1px solid @gray-300;
+        }
+    }
+}

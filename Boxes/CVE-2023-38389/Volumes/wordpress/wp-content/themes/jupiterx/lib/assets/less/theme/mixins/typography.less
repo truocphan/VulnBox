@@ -1,0 +1,24 @@
+// Typography
+//
+// Generate font and related properties.
+
+.jupiterx-typography(@var) {
+    @font-family: "@{var}-font-family";
+
+    font-family: @@font-family;
+    font-size: ~"@{@{var}-font-size}";
+    color: ~"@{@{var}-color}";
+    font-weight: ~"@{@{var}-font-weight}";
+    font-style: ~"@{@{var}-font-style}";
+    line-height: ~"@{@{var}-line-height}";
+    letter-spacing: ~"@{@{var}-letter-spacing}";
+    text-transform: ~"@{@{var}-text-transform}";
+
+    @media @md-down {
+        font-size: ~"@{@{var}-font-size-tablet}";
+    }
+
+    @media @sm-down {
+        font-size: ~"@{@{var}-font-size-mobile}";
+    }
+}
