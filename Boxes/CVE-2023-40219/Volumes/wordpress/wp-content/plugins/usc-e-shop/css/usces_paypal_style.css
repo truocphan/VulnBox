@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+#paypal_dialog .error_message {
+	padding: 0;
+}
+#paypal_dialog .use_point_button {
+	width: 100%;
+	text-align: center;
+}
+#paypal_purchase,
+#paypal_dialog .send {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+#paypal_purchase .send {
+	width: 100%;
+}
+#paypal_dialog #paypal_close {
+	width: 80%;
+}
+#paypal_dialog table {
+	margin-bottom: 20px;
+	width: 100%;
+}
+#paypal_dialog table,
+#paypal_dialog th,
+#paypal_dialog td {
+	border: 1px solid #E6E6E6;
+	border-collapse: collapse;
+}
+#paypal_dialog th,
+#paypal_dialog td {
+	padding: 5px 10px;
+}
+#paypal_dialog th {
+	background: #f3f3f3;
+	width: 40%;
+}
+#paypal_dialog .used_point {
+	margin-right: 5px;
+	width: 100px;
+}
+#paypal_dialog .confirm_usedpoint {
+	color: #FF0000;
+}
+#usces-cart .send {
+	text-align: center;
+}

@@ -1,0 +1,229 @@
+#item-main-pict .inside {
+	padding: 0;
+}
+
+#item-main-pict .uscestabs.ui-tabs .ui-tabs-panel {
+	margin: 5px 0 0;
+}
+
+#item-main-pict #uscestabs_item_images {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 6px 0;
+}
+
+#uscestabs_item_images .wel-item-image-notes {
+	display: flex;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	box-sizing: border-box;
+	align-items: center;
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	padding: 1.5rem;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	background-color: #fff;
+	color: #b32d2e;
+	filter: drop-shadow(0 5px 5px rgba(0, 0, 0, .4));
+}
+
+#item-main-pict #uscestabs_item_images .ui-tabs-nav li {
+	display: inline-block;
+	flex: 1 100%;
+	margin: 0;
+	font-size: 11px;
+}
+
+#item-main-pict .max-upload-size {
+	font-size: 11px;
+}
+
+#item-main-pict #uscestabs_item_upload .drag-drop #drag-drop-area {
+	height: 230px;
+}
+
+#item-main-pict li.wel-tab-item-apply {
+	border: 1px solid #aaa;
+	border-bottom: none;
+}
+
+#item-main-pict li .custom-show-modal {
+	width: 98%;
+	height: 28px;
+	border: none;
+	background: #e5e5e5;
+}
+
+#item-main-pict li .custom-show-modal:hover {
+	background: #f1f1f1;
+}
+
+#item-main-pict .item-main-pict #item-select-pict {
+	width: 270px;
+	max-width: 100%;
+	min-height: 170px;
+	max-height: 270px;
+	padding: 0 4px;
+}
+
+#item-main-pict #uscestabs_item_file {
+	position: relative;
+	height: 270px;
+	max-height: 270px;
+}
+
+#item-main-pict #uscestabs_item_file #wrapper_tab_file_item_pict {
+	position: relative;
+	height: 240px;
+	max-height: 240px;
+	margin-bottom: 30px;
+	overflow-y: auto;
+}
+
+#item-main-pict #uscestabs_item_file .tab_file_item_pict {
+	margin: 5px;
+	font-size: 13px;
+}
+
+#item-main-pict #uscestabs_item_file .tab_file_item_pict > label {
+	cursor: move;
+}
+
+#item-main-pict #uscestabs_item_file .file_action {
+	position: absolute;
+	bottom: 0;
+	left: 70px;
+}
+
+#item-main-pict #uscestabs_item_file .file_action {
+	font-size: 13px;
+}
+
+#item-main-pict .file_action .button-primary.wel-item-pict-del {
+	border-color: #b32d2e;
+	background: #b32d2e;
+}
+
+#item-main-pict .file_action .button-primary:focus {
+	border-color: none;
+	box-shadow: none;
+}
+
+#item-main-pict li.ui-state-active {
+	background: white;
+}
+
+#item-main-pict #wrap_img_icon_loading {
+	display: inline-block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+}
+
+#item-main-pict #wrap_img_icon_loading > img {
+	position: absolute;
+	top: 10px;
+}
+
+#item-main-pict .item-main-pict .subpict {
+	width: 51px;
+	height: 51px;
+	cursor: pointer;
+}
+
+#uscestabs_item_upload .wel-loading-upload {
+	background-color: #eee;
+}
+
+#item-main-pict #wel-item-image-loading {
+	display: block;
+	width: 270px;
+	height: 270px;
+}
+
+#item-main-pict #wel-loading-image {
+	display: block;
+	width: 40px;
+	margin: 0 auto;
+	padding-top: 105px;
+}
+
+#item-main-pict #wel-tab-file-loading {
+	display: block;
+	width: 14px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+
+#item-main-pict .inside {
+	display: contents;
+}
+
+#item-main-pict #uscestabs_item_images ul {
+	display: inline-flex;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#item-main-pict #uscestabs_item_images ul li a {
+	width: 100%;
+	padding: .5em 0;
+	text-align: center;
+}
+
+#item-main-pict .item-main-pict .clearfix {
+	padding: 0 6px 0 6px;
+}
+
+#item-main-pict .item-main-pict .div-item-img-loading {
+	opacity: .6;
+}
+
+#item-main-pict .wel_wrap_img {
+	position: relative;
+}
+
+#item-main-pict .mask {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30%;
+	margin-top: 5px;
+	-webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+	opacity: 1;
+	background-color: rgba(0, 0, 0, .3);
+	font-size: 11px;
+}
+
+#item-main-pict .mask .wel-img-item-edit {
+	display: flex;
+	padding: 2px;
+}
+
+#item-main-pict .mask .wel-img-alt-text {
+	padding-top: 3px;
+}
+
+#item-main-pict .mask .wel-img-item-edit label {
+	width: 25%;
+	color: #fff;
+	font-size: 10px;
+	line-height: 30px;
+}
+
+#item-main-pict .mask .wel-img-item-edit input,
+#item-main-pict .mask .wel-img-item-edit textarea {
+	width: 72%;
+}
+

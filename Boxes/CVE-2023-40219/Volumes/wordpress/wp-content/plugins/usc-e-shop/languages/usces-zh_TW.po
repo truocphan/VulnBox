@@ -1,0 +1,3782 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: usconsort\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-20 00:00+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Welcart <info@welcart.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: wp-content/themes/ucart_default\n"
+"Language: ja_JP\n"
+"X-Generator: Poedit 1.6.3\n"
+
+msgid "This month"
+msgstr "這個月"
+
+msgid "Last month"
+msgstr "上個月"
+
+msgid "The past one week"
+msgstr "過去1週"
+
+msgid "Last 30 days"
+msgstr "過去30天"
+
+msgid "Last 90days"
+msgstr "過去90天"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Show the Operation field"
+msgstr "顯示作業欄位"
+
+msgid "hide the Operation field"
+msgstr "隱藏作業欄位"
+
+msgid "updates it to latest information"
+msgstr "更新至最新資訊"
+
+msgid "Pattern List"
+msgstr "樣式清單"
+
+msgid "Display Search"
+msgstr "顯示搜尋"
+
+msgid "Hide Search"
+msgstr "隱藏搜尋"
+
+msgid "CSV format is invalid!"
+msgstr "CSV格式錯誤！"
+
+msgid "Published"
+msgstr "已發表"
+
+msgid "Draft"
+msgstr "草稿"
+
+msgid "Pending Review"
+msgstr "審核中"
+
+msgid "Scheduled"
+msgstr "已預約"
+
+msgid "Trash"
+msgstr "回收桶"
+
+msgid "Closed"
+msgstr "私密"
+
+msgid "unpaid"
+msgstr "未入帳"
+
+msgid "payment confirmed"
+msgstr "已入帳"
+
+msgid "temporaly out of stock"
+msgstr "調貨中"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "It has sent it out."
+msgstr "已出貨"
+
+msgid "An estimate"
+msgstr "報價單"
+
+msgid "Management of Note"
+msgstr "訂單管理"
+
+msgid "new order"
+msgstr "新規受付"
+
+msgid "Welcart shop"
+msgstr "Welcart商店"
+
+msgid "Home"
+msgstr "首頁"
+
+msgid "Master Items"
+msgstr "商品管理"
+
+msgid "Add New Item"
+msgstr "新增商品"
+
+msgid "General Setting"
+msgstr "基本設定"
+
+msgid "Business Days Setting"
+msgstr "營業日設定"
+
+msgid "Shipping Setting"
+msgstr "配送設定"
+
+msgid "E-mail Setting"
+msgstr "電子郵件設定"
+
+msgid "System Setting"
+msgstr "系統設定"
+
+msgid "Backup"
+msgstr "備份"
+
+msgid "Welcart Management"
+msgstr "uCart管理"
+
+msgid "Order List"
+msgstr "訂單列表"
+
+msgid "New Order or Estimate"
+msgstr "登錄新訂單或新報價單"
+
+msgid "List of Members"
+msgstr "會員名單"
+
+msgid "order date is updated"
+msgstr "已更新訂單資料。"
+
+msgid "back to the summary"
+msgstr "返回項目一覽"
+
+msgid "failure in update"
+msgstr "無法更新。"
+
+msgid "New date is add"
+msgstr "資料已新增。"
+
+msgid "failure in addition"
+msgstr "無法新增。"
+
+msgid "the order date is deleted"
+msgstr "已刪除訂單資料。"
+
+msgid "failure in delete"
+msgstr "無法刪除。"
+
+msgid "Membership information is updated"
+msgstr "已更新會員資料。"
+
+msgid "options are updated"
+msgstr "已更新選項。"
+
+msgid "Chose the %s"
+msgstr "請選擇%s。"
+
+msgid "Input the %s"
+msgstr "請輸入%s"
+
+msgid "temporaly out of stock now"
+msgstr "目前沒有庫存。"
+
+msgid "enter the correct amount"
+msgstr "請正確輸入數量。"
+
+msgid "'enter the correct amount for the No.' + (i+1) + ' item'"
+msgstr "請正確輸入第(i+1) + '號的商品數量。'"
+
+msgid "enter in between 1 to num"
+msgstr "請輸入介於1至num之間的值。"
+
+msgid "Import is cmpleted"
+msgstr "匯入完成。"
+
+msgid "Import was not completed."
+msgstr "錯誤：匯入失敗。"
+
+msgid "Failed in update due to time-out"
+msgstr "連線逾時，無法更新密碼。"
+
+msgid "Error: failure in updating password"
+msgstr "錯誤：無法更新密碼。"
+
+msgid "Error:failure in update"
+msgstr "錯誤：無法更新。"
+
+msgid "This e-mail address has been already registered."
+msgstr "此電子信箱已被註冊。"
+
+msgid "<b>Error:</b> Enter the password."
+msgstr "<b>錯誤：</b> 請輸入密碼。"
+
+msgid "<b>Error:</b> E-mail address is not correct."
+msgstr "<b>錯誤：</b>  電子信箱錯誤。"
+
+msgid "<b>Error:</b> Password is not correct."
+msgstr "<b>錯誤：</b>  密碼錯誤。"
+
+msgid "Item genre"
+msgstr "商品分類"
+
+msgid "guest"
+msgstr "訪客"
+
+msgid "Sold Out"
+msgstr "已售完"
+
+msgid "Out Of Stock"
+msgstr "無現貨"
+
+msgid "Out of print"
+msgstr "絕版"
+
+msgid "Sorry, this item is sold out."
+msgstr "商品已售完，敬請見諒。"
+
+msgid "Sorry, stock is insufficient."
+msgstr "庫存不足，敬請見諒。"
+
+msgid "Password is not correct."
+msgstr "密碼錯誤。"
+
+msgid "e-mail address is not correct"
+msgstr "電子信箱錯誤。"
+
+msgid "E-mail address is not correct"
+msgstr "※電子信箱錯誤。"
+
+msgid "Name is not correct"
+msgstr "姓名錯誤。"
+
+msgid "Invalid CANNAT pretend."
+msgstr "Furigana錯誤。"
+
+msgid "postal code is not correct"
+msgstr "郵遞區號錯誤。"
+
+msgid "enter the prefecture"
+msgstr "請選擇縣市。"
+
+msgid "enter the city name"
+msgstr "請輸入鄉鎮市區。"
+
+msgid "enter house numbers"
+msgstr "請輸入路街段。"
+
+msgid "enter phone numbers"
+msgstr "請輸入電話號碼。"
+
+msgid "chose one from delivery method."
+msgstr "請選擇配送方式。"
+
+msgid "chose one from payment options."
+msgstr "請選擇付款方式。"
+
+msgid "Invalid value. Please enter in the numbers."
+msgstr "數值錯誤。請輸入半形數字。"
+
+msgid "You have exceeded the maximum available."
+msgstr "超過可使用的上限值。"
+
+msgid "There are no items in your cart."
+msgstr "目前您的購物車中沒有商品。"
+
+msgid "It is the e-mail address that there is not."
+msgstr "不存在的電子信箱。"
+
+msgid "Dummy page for fotter nabigation"
+msgstr "頁尾導覽用空白模組網頁"
+
+msgid "Dummy page for maine nabigation"
+msgstr "首頁導覽用空白模組網頁"
+
+msgid "Items"
+msgstr "商品"
+
+msgid "Items recommended"
+msgstr "推薦商品"
+
+msgid "items recommended"
+msgstr "推薦商品"
+
+msgid "(Excl. Tax)"
+msgstr "（未稅）"
+
+msgid "(Incl. Tax)"
+msgstr "（含稅）"
+
+msgid "Mr/Mrs %s"
+msgstr "%s 先生／小姐"
+
+msgid "Request of"
+msgstr "訂購者"
+
+msgid "estimate number"
+msgstr "報價單編號"
+
+msgid "** content of ordered items **"
+msgstr "訂單內容"
+
+msgid "Unit price"
+msgstr "單價"
+
+msgid "dollars"
+msgstr "元"
+
+msgid "total items"
+msgstr "商品總數"
+
+msgid "use of points"
+msgstr "欲使用點數"
+
+msgid "Special Price"
+msgstr "特價品"
+
+msgid "Shipping"
+msgstr "運費"
+
+msgid "C.O.D"
+msgstr "貨到付款手續費"
+
+msgid "consumption tax"
+msgstr "消費稅"
+
+msgid "Payment amount"
+msgstr "付款金額"
+
+msgid "** A shipping address **"
+msgstr "收件人"
+
+msgid "A destination name"
+msgstr "收件人姓名"
+
+msgid "Zip/Postal Code"
+msgstr "郵遞區號"
+
+msgid "Address"
+msgstr "地址"
+
+msgid "Phone number"
+msgstr "電話號碼"
+
+msgid "Delivery Time"
+msgstr "希望配送時間"
+
+msgid "Delivery Method"
+msgstr "配送方式"
+
+msgid ""
+"** WE may not always be able to deliver the items on time which you desire."
+msgstr "部分區域可能無法指定於上午時段送達。"
+
+msgid ""
+"** For some region, to deliver the items in the morning is not possible."
+msgstr "※可能無法在您希望的時段送達。"
+
+msgid "Failure in deleting in bulk"
+msgstr "無法完成批次刪除。"
+
+msgid "option name"
+msgstr "選項名稱"
+
+msgid "selected amount"
+msgstr "選單值"
+
+msgid "normal price"
+msgstr "一般價格"
+
+msgid "Sale price"
+msgstr "售價"
+
+msgid "SKU display name "
+msgstr "SKU顯示名稱"
+
+msgid "unit"
+msgstr "單位"
+
+msgid "Apply business package"
+msgstr "適用批發優待方案"
+
+msgid "A payment method name"
+msgstr "付款方式名稱"
+
+msgid "explanation"
+msgstr "說明"
+
+msgid "Type of payment"
+msgstr "結帳形式"
+
+msgid "Payment module"
+msgstr "結帳模組"
+
+msgid "Single-select"
+msgstr "單選"
+
+msgid "Multi-select"
+msgstr "複選"
+
+msgid "Text"
+msgstr "內文"
+
+msgid "Required"
+msgstr "必填項目"
+
+msgid "Add a new option"
+msgstr "新增選項"
+
+msgid "Add common options"
+msgstr "增加通用選項"
+
+msgid "Applicable product options"
+msgstr "適用商品選項"
+
+msgid "Please create a common option."
+msgstr "請建立通用選項。"
+
+msgid "Apply an option"
+msgstr "適用選項"
+
+msgid "Add new SKU"
+msgstr "新增SKU"
+
+msgid "Apply"
+msgstr "適用"
+
+msgid "Not apply"
+msgstr "不適用"
+
+msgid "Add SKU"
+msgstr "增加SKU"
+
+msgid "Add a new method forpayment "
+msgstr "新增付款方式"
+
+msgid "Add method for shipping"
+msgstr "增加付款方式"
+
+msgid "order number"
+msgstr "訂單編號"
+
+msgid "List price"
+msgstr "定價"
+
+msgid "Add to Whish List"
+msgstr "增加至清單"
+
+msgid "Choose"
+msgstr "請選擇"
+
+msgid "Business package discount"
+msgstr "批發優待方案折扣"
+
+msgid "**par 1unit for more than ~"
+msgstr "～每1單位○○以上"
+
+msgid "**par 1unit for ~"
+msgstr "～每1單位○○"
+
+msgid "size"
+msgstr "尺寸"
+
+msgid "Price"
+msgstr "價格"
+
+msgid "Add to Shopping Cart"
+msgstr "放入購物車"
+
+msgid "Quantity"
+msgstr "數量"
+
+msgid "No preference"
+msgstr "不指定"
+
+msgid "Non-request"
+msgstr "不指定"
+
+msgid "sending completed"
+msgstr "已發送"
+
+msgid "Failure in sending"
+msgstr "無法發送"
+
+msgid ""
+"All the personal information which you are sending with this form will be "
+"treated with maximum care. Your information is entrusted to us for the "
+"purpose of providing information and respond to your requests, but to be "
+"used for any other purpose. More information, please visit our Privacy  "
+"Notice. All the items are required to be filled. Please use Alphanumeric "
+"characters for numbers."
+msgstr ""
+"使用此詢問表單送出的個人資料將會受到妥善的保護。<br>本網站保存的客戶資料僅用"
+"於回覆客戶本人的洽詢內容及提供資訊，不使用於其他目的。詳情請閱覽「<a href="
+"\"privacy\">隱私權政策</a>」。<br>全部欄位皆為必填，請勿漏填。<br>請以半形英"
+"數字填寫。"
+
+msgid "Please use Alphanumeric characters for numbers."
+msgstr "請以半形英數字填寫。"
+
+msgid "Full name"
+msgstr "姓名"
+
+msgid "e-mail adress"
+msgstr "電子信箱"
+
+msgid "contents"
+msgstr "內容"
+
+msgid "Admit to send it with this information."
+msgstr "發送以上內容"
+
+msgid "Log-in"
+msgstr "登入"
+
+msgid "Log out"
+msgstr "登出"
+
+msgid "Export"
+msgstr "匯出"
+
+msgid "Start Exporting"
+msgstr "開始匯出"
+
+msgid "Import"
+msgstr "匯入"
+
+msgid "Start importing"
+msgstr "開始匯入"
+
+msgid "Back-up functions is now under testing."
+msgstr "備份功能尚在測試中。"
+
+msgid "Please set the shipping price"
+msgstr "請設定運費。"
+
+msgid "Add"
+msgstr "增加"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "update"
+msgstr "更新"
+
+msgid "Are you sure of deleting the shipping option 'Delname'?"
+msgstr "確定刪除配送方式「delname」嗎？"
+
+msgid "Not fixing shipping."
+msgstr "不固定運費"
+
+msgid "'Are you sure of deleting shipping [' + delname + ']?'"
+msgstr "'確定刪除運費「'+delname+'」嗎？'"
+
+msgid ""
+"'Are you sure of setting shiping to %s' + charge + ' for all the prefecture?'"
+msgstr "'確定批次設定各縣市的運費為%s' + charge + '嗎？'"
+
+msgid "shipping option"
+msgstr "配送方式"
+
+msgid "(Explain)"
+msgstr "（說明）"
+
+msgid "New item"
+msgstr "新商品"
+
+msgid "New addition"
+msgstr "新增"
+
+msgid "Shipping charge name"
+msgstr "運費名稱"
+
+msgid "You can choose the shipping every item."
+msgstr "您可選擇每項商品的運費。"
+
+msgid "Deliverly time"
+msgstr "指定時段"
+
+msgid "Raise the priority"
+msgstr "提高優先順序"
+
+msgid "Lower the priority"
+msgstr "降低優先順序"
+
+msgid "Postage fixation"
+msgstr "固定運費"
+
+msgid "Please make entry of appointment time to a party by one."
+msgstr "每行輸入一家配送業者的指定時段。"
+
+msgid ""
+"It is fixed for above rate setting when I choose postage fixation. The "
+"postage set by an article is applied in the case of 'non-fixation'."
+msgstr ""
+"若選擇固定運費，將會套用以上運費設定。若選擇「不固定」，則套用您自行設定的商"
+"品運費。"
+
+msgid ""
+"This is an e-mail which will be sent aytomatically to your customers at the "
+"contact from customer."
+msgstr "此為客戶洽詢時，系統自動發送給客戶之電子郵件。"
+
+msgid "Conformation e-mail of membership registeration."
+msgstr "成功加入會員的確認信（系統自動發送）"
+
+msgid ""
+"This is an e-mail which will be snnt automatically to your customers when "
+"their membership registration is completed."
+msgstr "此為會員註冊成功時，系統自動發送之電子郵件。"
+
+msgid "Shipping complete email (sent from the admin)"
+msgstr "出貨通知信（從後台管理畫面發送）"
+
+msgid "Order confirmation email (sent from the admin)"
+msgstr "訂單確認信（從後台管理畫面發送）"
+
+msgid "Confirmation mail for change of orders. (sent by admin.)"
+msgstr "訂單內容更改確認信（從後台管理畫面發送）"
+
+msgid ""
+"This is an e-mail which will be sent manually from admin screen, when there "
+"is changes of order."
+msgstr "此為在後台管理畫面更改訂單內容時，手動發送之電子郵件。"
+
+msgid "Mail for Confirmation of payment. ( sent from admin)"
+msgstr "入帳確認聯絡信（從後台管理畫面發送）"
+
+msgid ""
+"This is an e-mail which will be sent to customers when their transfer "
+"payment is confirmed."
+msgstr "此為確認轉帳款項已入帳時，手動發送之電子郵件。"
+
+msgid "Estimate email (sent from the admin)"
+msgstr "報價確認信（從後台管理畫面發送）"
+
+msgid "E-mail for confirmation of cancellation. (sent from admin)"
+msgstr "訂單取消確認信（從後台管理畫面發送）"
+
+msgid "This is an e-mail which will be sent when order has been canselled."
+msgstr "此為取消訂單時，手動發送之電子郵件。"
+
+msgid "Other e-mails(sent from admin)"
+msgstr "其他通知信（從後台管理畫面發送）"
+
+msgid "e-mail which will be sent on temporaly basis"
+msgstr "臨時發送之電子郵件。"
+
+msgid "change decision"
+msgstr "更新設定"
+
+msgid "Campaign Schedule"
+msgstr "優惠活動日程管理"
+
+msgid "starting time"
+msgstr "開始日期時間"
+
+msgid "year"
+msgstr "年"
+
+msgid "month"
+msgstr "月"
+
+msgid "day"
+msgstr "日"
+
+msgid "hour"
+msgstr "點"
+
+msgid "min"
+msgstr "分"
+
+msgid "%2$s/%1$s"
+msgstr "%1$s年%2$s月"
+
+msgid "%2$s %3$s, %1$s"
+msgstr "%1$s年%2$s月%3$s日"
+
+msgid "date and time of termination"
+msgstr "結束日期時間"
+
+msgid "reserve the period of campaign."
+msgstr "預訂優惠活動的舉行期間。"
+
+msgid "Business Calendar"
+msgstr "營業日行事曆"
+
+msgid "Sun"
+msgstr "日"
+
+msgid "Mon"
+msgstr "一"
+
+msgid "Tue"
+msgstr "二"
+
+msgid "Wed"
+msgstr "三"
+
+msgid "Thu"
+msgstr "四"
+
+msgid "Fri"
+msgstr "五"
+
+msgid "Sat"
+msgstr "六"
+
+msgid "Working day"
+msgstr "營業日"
+
+msgid "Holiday for Shipping Operations"
+msgstr "出貨業務休息日"
+
+msgid "Next month"
+msgstr "次月"
+
+msgid "Month after next month"
+msgstr "次次月"
+
+msgid "Business settings"
+msgstr "營業設定"
+
+msgid "Display Modes"
+msgstr "顯示模式"
+
+msgid "<strong>Normal operating</strong> -Normal display"
+msgstr "<strong>・正常營業</strong> --- 顯示正常模式"
+
+msgid "<strong>Campaign</strong>--Showing the campaige mode"
+msgstr "<strong>・優惠活動</strong> --- 顯示正常模式"
+
+msgid ""
+"<strong>Maintenance</strong> ---Showing  maintenance page. Administrater is "
+"able to see the page with normal display."
+msgstr ""
+"<strong>・維護</strong> --- 顯示系統維護頁面。管理員登入後可以正常模式查看頁"
+"面。"
+
+msgid "Campaign target items"
+msgstr "優惠活動商品"
+
+msgid ""
+"This is a category of the objects to add a privilege to in the case of a "
+"campaign mode. You can choose a campaign object article freely by installing "
+"a 'campaign' category for an article."
+msgstr ""
+"此為優惠活動模式時，將提供特惠的商品分類。只要建立「優惠活動」類別，即可自由"
+"選擇加入優惠活動的商品。"
+
+msgid "Example)"
+msgstr "範例："
+
+msgid "all the items"
+msgstr "所有商品"
+
+msgid "Campaign Award"
+msgstr "優惠活動特惠"
+
+msgid "Points"
+msgstr "點數"
+
+msgid "times"
+msgstr "倍"
+
+msgid ""
+"'Points' award applies only for monmbers. You specify the ratio of rate "
+"points. <br />'Discount'is specified in the discount rate applies to all "
+"buyers."
+msgstr ""
+"「點數」為會員專屬特惠，可設定點數倍率。<br />「折扣」可設定對全部買家的折扣"
+"率。"
+
+msgid "%"
+msgstr "%"
+
+msgid "Configuration of management and display mode of shop."
+msgstr "設定商店的顯示模式及營運方式等"
+
+msgid "Shop setting"
+msgstr "商店設定"
+
+msgid "The company name"
+msgstr "公司名稱"
+
+msgid "Fill out this if you are a corporation."
+msgstr "若為法人請輸入。"
+
+msgid "FAX number"
+msgstr "傳真號碼"
+
+msgid "E-mail address for ordering"
+msgstr "訂單用電子信箱"
+
+msgid ""
+"<em>[Required]</em> the administrator's e-mail address to receive the order"
+msgstr "<em>【必填】</em>接收訂單內容用的管理員電子信箱。"
+
+msgid "Contact e-mail address"
+msgstr "洽詢用電子信箱"
+
+msgid ""
+"<em>[Required]</em> the administrator's e-mail address to receive the "
+"contact meils."
+msgstr "<em>【必填】</em>接收洽詢內容用的管理員電子信箱。"
+
+msgid "Sender's e-mail address"
+msgstr "寄信人電子信箱"
+
+msgid ""
+"<em>[Required]</em> the sender's e-mail address to send 'thank you e-mail' "
+"to cuscomers."
+msgstr "<em>【必填】</em>發送感謝訂購信給買家時的寄信人電子信箱。"
+
+msgid ""
+"<em>[Required]</em>The transmission of a message ahead of the error email."
+msgstr "<em>【必填】</em>電子郵件發送失敗時，接收錯誤訊息的電子信箱。"
+
+msgid "Address for Error mail"
+msgstr "錯誤訊息用電子信箱"
+
+msgid "copy rights"
+msgstr "著作權"
+
+msgid "Conditions for free shipping"
+msgstr "免運費條件"
+
+msgid "Above"
+msgstr "以上"
+
+msgid ""
+"Total purchase prise to have free shipping. Leave it blank if it is not "
+"necessary."
+msgstr "免運費的總計購買金額。若不需要請保持空白"
+
+msgid "default limitation number of purchase"
+msgstr "購買限制數量初始值"
+
+msgid "maximum amount"
+msgstr "個為止"
+
+msgid ""
+"initial value at registration of items. Leave it blank if it is not "
+"necessary."
+msgstr "商品刊登時的初始值。若不需要請保持空白"
+
+msgid "initial value of date of sending out."
+msgstr "出貨日的初始值"
+
+msgid ""
+"initial value at registration of items. Do not chose this if it does not "
+"apply to you."
+msgstr "商品刊登時的初始值。若不需要則無須選擇"
+
+msgid "Percentage of Consumption tax"
+msgstr "營業稅稅率"
+
+msgid "method of Calculation of the tax"
+msgstr "稅金計算方式"
+
+msgid "drop fractions"
+msgstr "無條件捨去"
+
+msgid "raise to a unit"
+msgstr "無條件進位"
+
+msgid "round up numbers of five and above and round down anything under"
+msgstr "四捨五入"
+
+msgid "Leave it as blank if tax is included"
+msgstr "若已含稅請保持空白"
+
+msgid "Cost for C.O.D. leave it blank if it in not necessary."
+msgstr "貨到付款時的手續費。若不需要請保持空白"
+
+msgid "Account information for transfer"
+msgstr "匯款帳戶資料"
+
+msgid ""
+"The acount number for bank transfer. You can enter the information as you "
+"wish.  The contents will apear in the mail."
+msgstr ""
+"以匯款方式付款時的匯款帳戶。可換行自由填寫。所填內容將顯示於電子郵件中。"
+
+msgid "membership syetem"
+msgstr "會員系統"
+
+msgid "to use"
+msgstr "使用"
+
+msgid "not to use"
+msgstr "不使用"
+
+msgid "Would you like to use membership system or not?"
+msgstr "選擇是否使用會員系統。"
+
+msgid "membership points"
+msgstr "會員點數"
+
+msgid "to grant"
+msgstr "贈與"
+
+msgid "not to grant"
+msgstr "不贈與"
+
+msgid ""
+"Would you like to use 'points granting syetem' when you choose to use "
+"membership system?"
+msgstr "若使用會員系統，選擇是否使用贈與點數功能。"
+
+msgid "The initial value of point rate"
+msgstr "點數比率初始值"
+
+msgid "Point at the registration of membership"
+msgstr "註冊會員時點數"
+
+msgid "Points granted  at the first membersip registration."
+msgstr "初次註冊會員時贈與的點數"
+
+msgid "the initial rate of the shop"
+msgstr "商店的初期設定"
+
+msgid "payment method"
+msgstr "付款方式"
+
+msgid "** Payment method **"
+msgstr "付款方式"
+
+msgid "<em>[Required]</em>possible payment method"
+msgstr "<em>【必填】</em>可接受的付款方式"
+
+msgid "Common Options"
+msgstr "通用選項"
+
+msgid ""
+"Conditions which will be selected at the purchase. You can use the options "
+"which you hve registered here, as an option in the master items."
+msgstr "購買時提供選擇的條件。在此設定的選項將用作商品管理的選項。"
+
+msgid "Special Benefits"
+msgstr "特惠"
+
+msgid " times (limited to members)"
+msgstr "倍，僅限會員"
+
+msgid "applied material"
+msgstr "適用商品"
+
+msgid "Period"
+msgstr "期間"
+
+msgid "Cart page"
+msgstr "購物車頁面"
+
+msgid "Membership page"
+msgstr "會員頁面"
+
+msgid "Membership"
+msgstr "會員"
+
+msgid "There is no news for this moment."
+msgstr "目前沒有新消息。"
+
+msgid "number & amount of order"
+msgstr "訂單數量、金額"
+
+msgid "number of order"
+msgstr "訂單數量"
+
+msgid "amount of order"
+msgstr "訂單金額"
+
+msgid "today"
+msgstr "今天"
+
+msgid "Same date in last year"
+msgstr "去年同月份"
+
+msgid "information for registration of items"
+msgstr "商品刊登資訊"
+
+msgid "number of item"
+msgstr "商品數量"
+
+msgid "SKU total number"
+msgstr "SKU總數量"
+
+msgid "In Stock"
+msgstr "尚有庫存"
+
+msgid "OK"
+msgstr "有"
+
+msgid "List of items without stock"
+msgstr "庫存量為0的商品一覽"
+
+msgid "Your environment"
+msgstr "您的作業環境"
+
+msgid "Software Version"
+msgstr "軟體版本"
+
+msgid "Server"
+msgstr "伺服器"
+
+msgid "Safe mode"
+msgstr "安全模式"
+
+msgid "Amount"
+msgstr "金額"
+
+msgid "Used points"
+msgstr "使用點數"
+
+msgid "Campaign disnount"
+msgstr "優惠活動折扣"
+
+msgid "Disnount"
+msgstr "折扣"
+
+msgid "Total Amount"
+msgstr "總計金額"
+
+msgid "The current point"
+msgstr "現在點數"
+
+msgid "Points you are using here"
+msgstr "欲使用點數"
+
+msgid "Use the points"
+msgstr "使用點數"
+
+msgid "Re-input"
+msgstr "再次輸入"
+
+msgid "Familly name"
+msgstr "姓"
+
+msgid "Given name"
+msgstr "名"
+
+msgid "furigana"
+msgstr "Furigana"
+
+msgid "Province"
+msgstr "縣市"
+
+msgid "city"
+msgstr "鄉鎮市區"
+
+msgid "numbers"
+msgstr "地址"
+
+msgid "building name"
+msgstr "大樓名稱"
+
+msgid "This mark shows the required items."
+msgstr "此標記為必填項目。"
+
+msgid "Please make sure that your e-mail address is correct."
+msgstr "電子信箱時常輸入錯誤。請再次確認。"
+
+msgid "Press the `update` button when you change the amount of items."
+msgstr "更改數量時請務必點擊更新按鈕。"
+
+msgid "The price with this mark applys to Business pack discount."
+msgstr "有此標記的價格適用於批發優待方案折扣。"
+
+msgid "Save the data"
+msgstr "儲存資料"
+
+msgid "Item image"
+msgstr "商品圖片"
+
+msgid "This excerpt is a summary of the product description."
+msgstr "文章摘要為商品說明的概要。"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "item code"
+msgstr "商品編號"
+
+msgid "item name"
+msgstr "商品名稱"
+
+msgid "SKU code"
+msgstr "SKU編號"
+
+msgid "Limited amount for purchase"
+msgstr "購買限制數量"
+
+msgid "Percentage of points"
+msgstr "點數比率"
+
+msgid "Integer"
+msgstr "整數"
+
+msgid "limit by%s%s%s"
+msgstr "%s%s%s個為止"
+
+msgid "in more than%s%s%s%s%s %s%s%s,"
+msgstr "%s%s%s%s%s %s%s%s個以上"
+
+msgid "%discount"
+msgstr "%折扣"
+
+msgid "estimated shipping date"
+msgstr "預計出貨日期"
+
+msgid "SKU price"
+msgstr "SKU價格"
+
+msgid "options for items"
+msgstr "商品選項"
+
+msgid "Title of detail page"
+msgstr "詳細頁面標題"
+
+msgid "A Few Stock"
+msgstr "庫存稀少"
+
+msgid "notmal member"
+msgstr "一般會員"
+
+msgid "good member"
+msgstr "優良會員"
+
+msgid "bad member"
+msgstr "不良會員"
+
+msgid "VIP member"
+msgstr "VIP會員"
+
+msgid "Transfer (prepayment)"
+msgstr "匯款（預付）"
+
+msgid "Transfer (postpay)"
+msgstr "匯款（後付）"
+
+msgid "COD"
+msgstr "貨到付款"
+
+msgid "COD fee"
+msgstr "貨到付款手續費"
+
+msgid "During the campaign"
+msgstr "優惠活動期間"
+
+msgid "Under Maintenance"
+msgstr "網站維護中"
+
+msgid "-- Select --"
+msgstr "-- Select --"
+
+msgid "immediately"
+msgstr "當天"
+
+msgid "1-2 days"
+msgstr "1～2天後"
+
+msgid "2-3days"
+msgstr "2～3天後"
+
+msgid "3-5days"
+msgstr "3～5天後"
+
+msgid "4-6days"
+msgstr "4～6天後"
+
+msgid "about 1 week later"
+msgstr "約1週後"
+
+msgid "about 2 weeks later"
+msgstr "約2週後"
+
+msgid "about 3 weeks later"
+msgstr "約3週後"
+
+msgid "after we get new items"
+msgstr "商品到貨後"
+
+msgid "Confirmation of order details"
+msgstr "【訂單內容確認】"
+
+msgid "An order report"
+msgstr "【訂單報告】"
+
+msgid "Your question is sent"
+msgstr "【已受理您的洽詢】"
+
+msgid "About your question"
+msgstr "【洽詢事項】"
+
+msgid "Comfirmation of your registration for membership"
+msgstr "【成功加入會員通知】"
+
+msgid "Information for shipping of your ordered items"
+msgstr "【商品出貨通知】"
+
+msgid "Confirmation of change for your order details"
+msgstr "【確認更改訂單內容】"
+
+msgid "Confirmation mail for your transfer"
+msgstr "【確認入帳通知】"
+
+msgid "Estimate"
+msgstr "報價單"
+
+msgid "Confirmatin of your cancellation"
+msgstr "【確認取消訂單】"
+
+msgid "Thank you for choosing %s."
+msgstr "本次非常感謝您使用 %s 。"
+
+msgid "We have received your order. Please check following information."
+msgstr "已收到您的訂單如下，敬請確認。"
+
+msgid ""
+"We will inform you by e-mail when we are ready to ship ordered items to you."
+msgstr "當商品準備妥當後，我們將以電子郵件通知出貨的相關資訊。謝謝。"
+
+msgid "There is new order by %s."
+msgstr "您有一筆%s 的新訂單。"
+
+msgid "We have received following e-mail."
+msgstr "已受理以下洽詢內容。"
+
+msgid "We will contact you by e-mail soon."
+msgstr "我們將儘速以電子郵件回覆您，請耐心等候。"
+
+msgid "Than you for registrating as %s membership."
+msgstr "本次非常感謝您註冊成為 %s 的會員。"
+
+msgid "You can chek your purchase status at section 'membership information'."
+msgstr "您可於「會員資料」確認購買商品的紀錄。"
+
+msgid "Your ordered items have been sent today."
+msgstr "您所訂購的商品今日已出貨。"
+
+msgid "It will be delivered by company xxx in couple of days."
+msgstr "配送業者為○○。"
+
+msgid ""
+"Please contact us in case you have any problems with receiving your items."
+msgstr "預計1～2天送達，萬一沒有收到請聯絡我們。謝謝。"
+
+msgid "You have changed your order as following."
+msgstr "以下訂單內容已變更，敬請確認。"
+
+msgid "We will inform you by e-mail when we are ready to send your items."
+msgstr "商品準備妥當後，我們將以電子郵件通知您出貨的相關資訊。謝謝。"
+
+msgid "Your transfer have been made successfully."
+msgstr "已確認收到您的匯款，特此通知。"
+
+msgid "We will send you following estimate for your items."
+msgstr "以下為報價明細，敬請確認。"
+
+msgid "This estimate is valid for one week."
+msgstr "本報價有效期限為一週。謝謝。"
+
+msgid "We have received your cancellationfor your order."
+msgstr "已受理您取消的訂單。歡迎再度光臨。"
+
+msgid "zip code"
+msgstr "郵遞區號"
+
+msgid "contact"
+msgstr "洽詢"
+
+msgid "Categories"
+msgstr "分類"
+
+msgid "Registration date"
+msgstr "註冊日期"
+
+msgid "Edit membership data"
+msgstr "編輯會員資料"
+
+msgid ""
+"When you change amount, please click 'Edit' before you finish your process."
+msgstr "若您更改了數值，最後請務必點擊「更新設定」按鈕。"
+
+msgid "membership number"
+msgstr "會員編號"
+
+msgid "Rank"
+msgstr "等級"
+
+msgid "name"
+msgstr "姓名"
+
+msgid "current point"
+msgstr "現有點數"
+
+msgid "Strated date"
+msgstr "加入會員日期"
+
+msgid "There is no purchase history for this moment."
+msgstr "目前尚未有購買紀錄。"
+
+msgid "Purchase history"
+msgstr "購買紀錄"
+
+msgid "Purchase date"
+msgstr "購買日期"
+
+msgid "Purchase price"
+msgstr "購買金額"
+
+msgid "Acquired points"
+msgstr "獲得點數"
+
+msgid "e-mail"
+msgstr "電子郵件"
+
+msgid "'Are you sure of deleting your membership number ' + member_id + ' ?'"
+msgstr "'確定要刪除會員No ' + member_id + '嗎？'"
+
+msgid "search fields"
+msgstr "搜尋項目"
+
+msgid "key words"
+msgstr "關鍵字"
+
+msgid "Transfer"
+msgstr "匯款帳戶"
+
+msgid "transfer statement"
+msgstr "入帳情形"
+
+msgid "close"
+msgstr "關閉"
+
+msgid "Mail for Shipping"
+msgstr "出貨通知信"
+
+msgid "Mail for confirmation of order"
+msgstr "訂單確認信"
+
+msgid "Mail for confiemation of change"
+msgstr "變更確認信"
+
+msgid "Mail for confirmation of transter"
+msgstr "入帳確認信"
+
+msgid "estimate mail"
+msgstr "報價確認信"
+
+msgid "Cancelling mail"
+msgstr "訂單取消通知信"
+
+msgid "Other mail"
+msgstr "其他通知信"
+
+msgid "E-mail has been sent."
+msgstr "電子郵件已發送。"
+
+msgid "Failure in sending e-mails."
+msgstr "電子郵件無法發送。"
+
+msgid "Are you sure of deleting items?"
+msgstr "確定刪除商品嗎？"
+
+msgid "Edit order data"
+msgstr "編輯訂單資料"
+
+msgid "show the mail/print field"
+msgstr "顯示電子郵件‧列印欄位"
+
+msgid "print out the estimate"
+msgstr "列印報價單"
+
+msgid "print out Delivery Statement"
+msgstr "列印出貨明細"
+
+msgid ""
+"When there is any change, please press the 'change decision' before you send "
+"or print."
+msgstr "※如有變更，請點擊「更新設定」後再發送或列印。"
+
+msgid "order details"
+msgstr "訂單明細"
+
+msgid "order date"
+msgstr "訂單日期時間"
+
+msgid "shpping date"
+msgstr "出貨日期"
+
+msgid "Date Modified"
+msgstr "處理日期"
+
+msgid "shipping address"
+msgstr "收件人"
+
+msgid "delivery time"
+msgstr "配送時段"
+
+msgid "Shipping date"
+msgstr "預定出貨日期"
+
+msgid "Not notified"
+msgstr "不通知"
+
+msgid "The correspondence situation"
+msgstr "處理情形"
+
+msgid "normal sale"
+msgstr "折扣季"
+
+msgid "Sale Campaign"
+msgstr "優惠活動"
+
+msgid "% Discount"
+msgstr "%折扣"
+
+msgid "Notes"
+msgstr "備註"
+
+msgid "Current stock"
+msgstr "目前庫存"
+
+msgid "Add item"
+msgstr "追加商品"
+
+msgid "granted points"
+msgstr "回饋點數"
+
+msgid "Discounted amount should be shown by -(Minus)"
+msgstr "※折扣請以-（負數）輸入。"
+
+msgid "It will be not caluculated automatically."
+msgstr "※將不會自動計算。"
+
+msgid "Enter the item code, then press 'Obtain'"
+msgstr "請輸入商品編號並按下「取得」。"
+
+msgid "Obtain"
+msgstr "取得"
+
+msgid "Check the mail and click 'send'"
+msgstr "請確認電子郵件內容並按下「發送」。"
+
+msgid "Client name"
+msgstr "客戶名稱"
+
+msgid "subject"
+msgstr "標題"
+
+msgid "send"
+msgstr "發送"
+
+msgid "date"
+msgstr "日期"
+
+msgid "Region"
+msgstr "地區"
+
+msgid "Processing"
+msgstr "處理情形"
+
+msgid "Choose the data."
+msgstr "未選取任何資料。"
+
+msgid ""
+"'Transfer status of the items which you have checked will be changed in to ' "
+"+ %s + '. %sDo you agree?'"
+msgstr "'已選取資料之入帳情形將變更為「' + %s + '」。確定%s？'"
+
+msgid ""
+"'Data status which you have cheked will be changed in to ' + %s + '. %sDo "
+"you agree?'"
+msgstr "'已選取資料之處理狀態將全部變更為「' + %s + '」。確定%s？'"
+
+msgid "Are you sure of deleting all the checked data in bulk?"
+msgstr "確定將已選取資料批次刪除嗎？"
+
+msgid "'Are you sure of deleting an order number ' + order_id + ' ?'"
+msgstr "'確定刪除訂單編號 ' + order_id + ' 嗎？'"
+
+msgid "Oparation in bulk"
+msgstr "批次管理"
+
+msgid "Edit the receiving money status"
+msgstr "變更入帳情形"
+
+msgid "Edit of status process"
+msgstr "變更處理情形"
+
+msgid "Delete in bulk"
+msgstr "批次刪除"
+
+msgid "start"
+msgstr "開始"
+
+msgid "Thank you for choosing '%s' we send you following estimate. "
+msgstr "本次非常感謝您使用 %s 。以下為報價明細。"
+
+msgid "Valid:7days"
+msgstr "有效期間：7天"
+
+msgid "Delivery Statement"
+msgstr "出貨明細"
+
+msgid "Thak you for choosing '%s'. We deliver your items as following."
+msgstr "本次非常感謝您使用 %s 。以下為出貨明細。"
+
+msgid "date of receiving the order"
+msgstr "訂單日期"
+
+msgid "payment division"
+msgstr "付款方式類別"
+
+msgid "Mj, Y"
+msgstr "Y年m月d日"
+
+msgid "Edit item"
+msgstr "編輯商品資訊"
+
+msgid "display status"
+msgstr "顯示狀態"
+
+msgid "no items are selected"
+msgstr "尚未選取任何商品。"
+
+msgid ""
+"'Stock status of items which you have checked will be changed into ' + %s + "
+"' Stock status of each SKU will be all shown as ' + %s + ' Do you agree with "
+"this oparation?'"
+msgstr ""
+"'將已選取商品的庫存情形全部變更為「' + %s + '」。各SKU的庫存狀態將會全部變成"
+"「' + %s + '」，確定變更？'"
+
+msgid ""
+"'Are you sure of changing all the items you have checked in to ' + %s + ' ?'"
+msgstr "'確定將已選取商品的顯示情形全部變更為「' + %s + '」嗎？'"
+
+msgid "'Are you sure of deleting all the items you have checked in bulk?'"
+msgstr "'確定刪除已選取商品批次嗎？'"
+
+msgid "'Are you sure of deleting the item, item code ' + item_id + ' ?'"
+msgstr "'確定刪除商品編號 ' + item_id + '的商品嗎？'"
+
+msgid "'Are you sure of deleting the delivery method ' + delname + ' ?'"
+msgstr "'確定刪除配送方式「'+delname+'」嗎？'"
+
+msgid "Item list"
+msgstr "商品列表"
+
+msgid "items without stock"
+msgstr "庫存量0的商品"
+
+msgid "Changes in stock status"
+msgstr "變更庫存狀態"
+
+msgid "Edit the display status"
+msgstr "變更顯示狀態"
+
+msgid "edit"
+msgstr "編輯"
+
+msgid "now loading"
+msgstr "讀取中"
+
+msgid "top page"
+msgstr "首頁"
+
+msgid "New items"
+msgstr "新商品"
+
+msgid "Special price"
+msgstr "特價品"
+
+msgid "Membership information"
+msgstr "會員訊息"
+
+msgid "Proceed to checkout"
+msgstr "結帳"
+
+msgid "Product Details"
+msgstr "至「商品詳細」"
+
+msgid "Visit/Contact Us"
+msgstr "建議‧洽詢"
+
+msgid "artist"
+msgstr "藝術家"
+
+msgid "keyword search"
+msgstr "關鍵字搜尋"
+
+msgid "best seller"
+msgstr "暢銷商品"
+
+msgid "diary"
+msgstr "日記"
+
+msgid "Information"
+msgstr "最新資訊"
+
+msgid "Product Search"
+msgstr "商品進階搜尋"
+
+msgid "Categories: AND Search"
+msgstr "分類：AND搜尋"
+
+msgid "Search"
+msgstr "開始搜尋"
+
+msgid "Cancellation"
+msgstr "取消"
+
+msgid "Search results"
+msgstr "搜尋結果"
+
+msgid "Search Results"
+msgstr "搜尋結果"
+
+msgid "&laquo; Previous page"
+msgstr "&laquo; 上一頁"
+
+msgid "next page &raquo;"
+msgstr "下一頁 &raquo;"
+
+msgid "Next article &raquo;"
+msgstr "下一頁 &raquo;"
+
+msgid "&laquo; Previous article"
+msgstr "&laquo; 上一頁"
+
+msgid "Cart"
+msgstr "購物車"
+
+msgid "Customer Information"
+msgstr "客戶資料"
+
+msgid "Shipping / Payment options"
+msgstr "出貨‧付款方式"
+
+msgid "Confirmation"
+msgstr "確認內容"
+
+msgid "continue shopping"
+msgstr "繼續購物"
+
+msgid "Enter customer information as mentioned above."
+msgstr "以上述內容輸入客戶資料"
+
+msgid "It has been sent succesfully."
+msgstr "已發送"
+
+msgid "Thank you for shopping."
+msgstr "感謝您的購買。"
+
+msgid "If you have any questions, please contact us by 'Contact'."
+msgstr "如有不明白之處，請由「洽詢」與我們聯繫。"
+
+msgid "Back to the top page."
+msgstr "回首頁"
+
+msgid "Back to payment method page."
+msgstr "返回"
+
+msgid "Shipping address information"
+msgstr "收件人資料"
+
+msgid "Others"
+msgstr "其他"
+
+msgid "Sipping/Payment Option"
+msgstr "配送‧付款方式選項"
+
+msgid "same as customer information"
+msgstr "與客戶資料相同"
+
+msgid "Chose another shipping address."
+msgstr "選擇其他收件人"
+
+msgid "Confirm your order."
+msgstr "確認上述訂購內容"
+
+msgid "Your order has not been completed"
+msgstr "您尚未完成訂購手續。"
+
+msgid ""
+"Thank you for contacting us. Please wait for our answer to your questions."
+msgstr "謝謝您的提問，我們將盡速回覆。"
+
+msgid "password"
+msgstr "密碼"
+
+msgid "Password (confirm)"
+msgstr "密碼（確認用）"
+
+msgid "Register"
+msgstr "註冊"
+
+msgid "Thank you in new membership."
+msgstr "感謝您的加入。"
+
+msgid "Membership information has been updated."
+msgstr "會員資料已更新。"
+
+msgid "I transmitted an email."
+msgstr "電子郵件已發送。"
+
+msgid "Change your password by following the instruction in this mail."
+msgstr "請按照電子郵件內容變更密碼。"
+
+msgid "Password has been changed."
+msgstr "密碼已更改。"
+
+msgid "to vist membership information page"
+msgstr "前往會員資料頁面"
+
+msgid "Log-in for members"
+msgstr "會員登入"
+
+msgid "New enrollment for membership."
+msgstr "前往加入會員頁面"
+
+msgid "Membership Registration"
+msgstr "會員註冊"
+
+msgid "Obtain new password"
+msgstr "取得新密碼"
+
+msgid "Registered membership information"
+msgstr "會員註冊資料"
+
+msgid "member number"
+msgstr "會員編號"
+
+msgid "Leave it blank in case of no change."
+msgstr "※如不更改請保持空白"
+
+msgid "update it"
+msgstr "更新"
+
+msgid "New enrollment form"
+msgstr "加入會員表單"
+
+msgid ""
+"All your personal information  will be protected and handled with carefull "
+"attention."
+msgstr "使用此加入會員表單送出的個人資料將會受到妥善的保護。"
+
+msgid ""
+"Your information is entrusted to us for the purpose of providing information "
+"and respond to your requests, but to be used for any other purpose. More "
+"information, please visit our Privacy  Notice."
+msgstr ""
+"本網站保存的客戶資料僅用於回覆客戶本人的洽詢內容及提供資訊，不使用於其他目"
+"的。詳情請閱覽「<a href=\"privacy\">隱私權政策</a>」。"
+
+msgid "The items marked with *, are mandatory. Please complete."
+msgstr "註有*記號之欄位皆為必填，請勿漏填。"
+
+msgid "E-mail address (for verification)"
+msgstr "電子信箱（確認用）"
+
+msgid "transmit a message"
+msgstr "快速註冊"
+
+msgid "list"
+msgstr "列表"
+
+msgid "tag"
+msgstr "標籤"
+
+msgid "Next item"
+msgstr "下一個商品"
+
+msgid "previous item"
+msgstr "上一個商品"
+
+msgid "～in not yet registered"
+msgstr "還沒有新商品。"
+
+msgid "Data for this date is not yet registered."
+msgstr "此日期的資料尚未登錄。"
+
+msgid "Data by ~is not yet registered."
+msgstr "～的資料尚未登錄。"
+
+msgid "next article"
+msgstr "下一篇"
+
+msgid "Previous aorticle"
+msgstr "上一篇"
+
+msgid "selling price"
+msgstr "售價"
+
+msgid "stock"
+msgstr "庫存數量"
+
+msgid "stock status"
+msgstr "庫存狀態"
+
+msgid "Add to a cart"
+msgstr "放入購物車"
+
+msgid "to the cart"
+msgstr "前往購物車"
+
+msgid "In the cart"
+msgstr "購物車內容"
+
+msgid "see the details"
+msgstr "查看詳細內容"
+
+msgid "page title"
+msgstr "頁面標題"
+
+msgid "Cart Page Setting"
+msgstr "購物車頁面設定"
+
+msgid "Explanation in a Cart page"
+msgstr "揷入購物車頁面的說明"
+
+msgid "You can set additional explanation to insert in a cart page."
+msgstr "您可以設定插入購物車頁面的追加說明。"
+
+msgid "Explanation in a Customer Info page"
+msgstr "插入客戶資料頁面的說明"
+
+msgid ""
+"You can set additional explanation to insert in a customer information page."
+msgstr "您可以設定插入客戶資料頁面的追加說明。"
+
+msgid "Explanation in Delivery and Payment method page"
+msgstr "插入配送‧付款方式頁面的說明"
+
+msgid ""
+"You can set additional explanation to insert in a delivery and a payment "
+"method page."
+msgstr "您可以設定插入配送‧付款方式頁面的追加說明。"
+
+msgid "Explanation in a Confirm page"
+msgstr "插入內容確認頁面的說明"
+
+msgid "You can set additional explanation to insert in a confirm page."
+msgstr "您可以設定插入內容確認頁面的追加說明。"
+
+msgid "Explanation in a Completion page"
+msgstr "插入購物完成頁面的說明"
+
+msgid "You can set additional explanation to insert in a completion page."
+msgstr "您可以設定插入購物完成頁面的追加說明。"
+
+msgid "Explanation in Member page"
+msgstr "插入會員相關頁面的說明"
+
+msgid "Member Page Setting"
+msgstr "會員頁面設定"
+
+msgid "Login Page"
+msgstr "登入"
+
+msgid "header"
+msgstr "頁首"
+
+msgid "footer"
+msgstr "頁尾"
+
+msgid "1.Cart"
+msgstr "購物車內容"
+
+msgid "2.Customer Info"
+msgstr "會員資料"
+
+msgid "3.Deli. & Pay."
+msgstr "出貨‧付款方式"
+
+msgid "4.Confirm"
+msgstr "確認訂單內容"
+
+msgid " Next "
+msgstr "　　下一步　　"
+
+msgid "Quantity renewal"
+msgstr "更新數量"
+
+msgid "** Article order contents **"
+msgstr "【商品訂購內容】"
+
+msgid "Buyer"
+msgstr "買家"
+
+msgid "** Others / a demand **"
+msgstr "其他‧附註"
+
+msgid "I will inform it of shipment completion by an email."
+msgstr "出貨完成後將發送通知信至您的電子信箱。"
+
+msgid "Please inform it of any questions from [an inquiry]."
+msgstr "如有不明白之處請由「洽詢」與我們連絡。"
+
+msgid "** An inquiry **"
+msgstr "洽詢"
+
+msgid "An inquiry email"
+msgstr "洽詢郵件"
+
+msgid "Change password"
+msgstr "變更密碼"
+
+msgid "The new password acquisition"
+msgstr "取得新密碼"
+
+msgid "Please, click the following URL, and please change a password."
+msgstr "請點擊以下連結變更密碼。"
+
+msgid ""
+"If you have not requested this email please kindly ignore and delete it."
+msgstr "若您對這封電子郵件沒有印象，請刪除。"
+
+msgid "Error: I was not able to transmit an email."
+msgstr "錯誤：電子郵件無法發送"
+
+msgid "Explanation in a Login page"
+msgstr "揷入登入頁面的說明"
+
+msgid "You can set additional explanation to insert in a login page."
+msgstr "您可以設定揷入登入確認頁面的追加說明。"
+
+msgid "Explanation in a New Member page"
+msgstr "插入加入會員頁面的說明"
+
+msgid "You can set additional explanation to insert in a new member page."
+msgstr "您可以設定揷入加入會員頁面的追加說明。"
+
+msgid "Explanation in New Password page"
+msgstr "插入獲得新密碼頁面的說明"
+
+msgid "You can set additional explanation to insert in a new password page."
+msgstr "您可以設定插入獲得新密碼頁面的追加說明。"
+
+msgid "Explanation in a Change Password page"
+msgstr "插入變更密碼頁面的說明"
+
+msgid "You can set additional explanation to insert in a change password page."
+msgstr "您可以設定插入變更密碼頁面的追加說明。"
+
+msgid "Explanation in a Member Information page"
+msgstr "插入會員資料頁面的說明"
+
+msgid ""
+"You can set additional explanation to insert in a member information page."
+msgstr "您可以設定插入會員資料頁面的追加說明。"
+
+msgid "Did you forget your password?"
+msgstr "忘記密碼？"
+
+msgid "memorize login information"
+msgstr "記住登入資訊"
+
+msgid "To member information editing"
+msgstr "前往編輯會員資料頁面>>"
+
+msgid "Member information editing"
+msgstr "編輯會員資料"
+
+msgid "An article category keyword search"
+msgstr "商品分類複合式搜尋"
+
+msgid "The representation supplier settlement"
+msgstr "代行業者決済"
+
+msgid "Payment in installments"
+msgstr "分期付款"
+
+msgid "Normal business"
+msgstr "正常營業中"
+
+msgid ""
+"I send a reply email to a visitor. I ask in a few minutes to be able to have "
+"you refer in there being the fear that e-mail address is different again "
+"when the email from this shop does not arrive."
+msgstr ""
+"系統已發送回信。若您沒有收到本店的回信，則可能是電子信箱錯誤，麻煩您再度與我"
+"們洽詢。"
+
+msgid "<span class=%6$s>%5$s%1$s</span>%2$s par 1%3$s for more than %4$s%3$s"
+msgstr "%4$s%3$s以上每1%3$sあたり<span class=%6$s>%5$s%1$s</span>%2$s"
+
+msgid "<span class=%7$s>%6$s%1$s</span>%2$s par 1%3$s for %4$s-%5$s%3$s"
+msgstr "%4$s～%5$s%3$sで1%3$s每<span class=%7$s>%6$s%1$s</span>%2$s"
+
+msgid "$"
+msgstr "元"
+
+msgid "NT$"
+msgstr "元"
+
+msgid "TWD"
+msgstr "元"
+
+msgid "cases"
+msgstr "件"
+
+msgid "Completion"
+msgstr "完成"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "'AND' search by categories"
+msgstr "商品分類複合式搜尋"
+
+msgid "'This article is limited by '+checknum+' at a time.'"
+msgstr "'本商品一次最多可購買'+checknum+'個。'"
+
+msgid ""
+"'This article is limited by '+checknum+' at a time for the No.' + (i+1) + ' "
+"item.'"
+msgstr "(i+1) + '號商品一次最多可購買'+checknum+'個。'"
+
+msgid "'Stock is remainder '+checknum+'.'"
+msgstr "'本商品的剩餘庫存量為'+checknum+'。'"
+
+msgid "'Stock of No.' + (i+1) + ' item is remainder '+checknum+'.'"
+msgstr "(i+1) + '號商品的剩餘庫存量為'+checknum+'。'"
+
+msgid ""
+"* A shipment due date is a day to ship an article, and it's not the arrival "
+"day."
+msgstr "※預定出貨日期為商品出貨的日期，並非到貨日期。"
+
+msgid "The file was not uploaded."
+msgstr "檔案無法上傳。"
+
+msgid "The file is not supported."
+msgstr "不支援的檔案格式。"
+
+msgid "The log file was not prepared for."
+msgstr "無法寫入系統記錄檔。"
+
+msgid "A file does not open."
+msgstr "檔案無法開啟。"
+
+msgid "The number of the columns is abnormal."
+msgstr "行數錯誤"
+
+msgid "An item cord is non-input."
+msgstr "未輸入商品編號"
+
+msgid "An item name is non-input."
+msgstr "未輸入商品名稱"
+
+msgid "A value of the purchase limit number is abnormal."
+msgstr "購買限制數量的數值錯誤"
+
+msgid "A value of the point rate is abnormal."
+msgstr "點數比率的數值錯誤"
+
+msgid "umerical value is abnormality."
+msgstr "數量的數值錯誤"
+
+msgid "rate is abnormal."
+msgstr "比率錯誤"
+
+msgid "A value of the shipment day is abnormal."
+msgstr "預計出貨日期的數值錯誤"
+
+msgid "A value of the postage individual charging is abnormal."
+msgstr "運費個別收費的數值錯誤"
+
+msgid "A value of the display status is abnormal."
+msgstr "顯示狀態的數值錯誤"
+
+msgid "A value of the schedule is abnormal."
+msgstr "發表日期的數值錯誤"
+
+msgid "A category is non-input."
+msgstr "未輸入分類"
+
+msgid "A SKU cord is non-input."
+msgstr "未輸入SKU編號"
+
+msgid "A SKU cord repeats."
+msgstr "SKU編號重複"
+
+msgid "A value of the sale price is abnormal."
+msgstr "售價的數值錯誤"
+
+msgid "A value of the normal price is abnormal."
+msgstr "一般價格的數值錯誤"
+
+msgid "A value of the stock status is abnormal."
+msgstr "庫存狀態的數值錯誤"
+
+msgid "A value of the stock amount is abnormal."
+msgstr "庫存量的數值錯誤"
+
+msgid "The value of the duties pack application is abnormal."
+msgstr "適用批發優待方案的數值錯誤"
+
+msgid "Option name of No.%s option is non-input."
+msgstr "未輸入第%s選項之選項名稱"
+
+msgid "Option-entry-field of No.%s option is abnormal."
+msgstr "第%s選項之輸入欄位錯誤"
+
+msgid "Option-required-item of No.%s option is abnormal."
+msgstr "第%s選項之必填項目錯誤"
+
+msgid "Option-select of No.%s option is non-input."
+msgstr "未輸入第%s選項之選單值"
+
+msgid "The data were not registered with a database."
+msgstr "資料未登錄於資料庫中"
+
+msgid "%2$s of %1$s lines registration completion, %3$s lines error."
+msgstr "%1$s行中 %2$s行完成登錄、%3$s行未登錄。'"
+
+msgid "SMTP server host"
+msgstr "SMTP伺服器主機"
+
+msgid "Host name"
+msgstr "主機名稱"
+
+msgid ""
+"This is a field setting the host name of a server for email transmission of "
+"a message. When the transmission of a message is not possible in localhost, "
+"a SMTP server is necessary."
+msgstr ""
+"設定發送電子郵件用伺服器的主機名稱。若無法以localhost發送，則必須使用SMTP伺服"
+"器。"
+
+msgid "Thanks email(automatic transmission)"
+msgstr "感謝訂購信（系統自動發送）"
+
+msgid "Order email(automatic transmission)"
+msgstr "訂單通知信（系統自動發送）"
+
+msgid "Inquiry receptionist email(automatic transmission)"
+msgstr "洽詢受理通知信（系統自動發送）"
+
+msgid "Title"
+msgstr "標題"
+
+msgid ""
+"This is an email transmitting a message for a visitor at the time of an "
+"order."
+msgstr "收到訂單後自動發送給客戶之電子郵件。"
+
+msgid "This is an email transmitting a message for owner of shop(%s)."
+msgstr "收到訂單後發送至訂單專用信箱（%s）之電子郵件。"
+
+msgid ""
+"This is an email transmitted manual operation to than a management screen, "
+"when the shipment of the article was completed."
+msgstr "從後台管理畫面登錄已出貨時手動發送之電子郵件。"
+
+msgid ""
+"This is an email transmitted manual operation to than a management screen, "
+"when you registered a new order."
+msgstr "從後台管理畫面登錄新訂單時手動發送之電子郵件。"
+
+msgid ""
+"This is an email transmitted manual operation to than a management screen, "
+"when you  registered an estimate."
+msgstr "從後台管理畫面登錄報價單時手動發送之電子郵件。"
+
+msgid "The district where sale is possible"
+msgstr "銷售地區"
+
+msgid "One line one by one."
+msgstr "換行輸入，1行各輸入一個。<br />初始值設定為全縣市。"
+
+msgid "Not display an article in blog"
+msgstr "採用迴圈顯示時，商品分別顯示"
+
+msgid ""
+"In the case of the loop indication that plural contributions are displayed "
+"in a shop, you can be decided display or non-display the item."
+msgstr "當商店採用顯示複數商品之迴圈顯示時，設定是否顯示商品資料。"
+
+msgid "rel attribute"
+msgstr "rel屬性"
+
+msgid ""
+"In item details page, you can appoint a rel attribute for anchor tag to "
+"display an image, sach as Lightbox plugin."
+msgstr ""
+"在商品詳細資料頁面中，使用Lightbox等外掛程式設定可顯示圖片的連結標籤（Anchor "
+"Tag）之rel屬性。"
+
+msgid "compound category sort item"
+msgstr "綜合分類排序項目"
+
+msgid "category ID"
+msgstr "分類ID"
+
+msgid "category name"
+msgstr "分類名稱"
+
+msgid ""
+"In a category to display in a compound category search page, you can choose "
+"an object to sort."
+msgstr "於綜合分類搜尋頁面內顯示的分類中，選擇欲排序的對象。"
+
+msgid "compound category sort order"
+msgstr "綜合分類排序項目"
+
+msgid "Ascending"
+msgstr "遞增"
+
+msgid "Descendin"
+msgstr "遞減"
+
+msgid ""
+"In a category to display in a compound category search page, you can choose "
+"sort order."
+msgstr "於綜合分類搜尋頁面內顯示的分類中，選擇欲排序的對象。"
+
+msgid "settlement module path"
+msgstr "結帳模組路徑"
+
+msgid ""
+"This is Field appointing the setting path of the settlement module. The "
+"initial value is a place same as a sample, but it is deleted at the time of "
+"automatic upgrading. Therefore you must arrange a module outside a plugin "
+"folder."
+msgstr ""
+"設定結帳模組的建立處。預設值與範本位於同一處，自動更新的同時即會刪除。若要避"
+"免此情況，請將模組建立在外掛資料夾的外面。"
+
+msgid "The hierarchy category of the item"
+msgstr "商品階層式分類"
+
+msgid "Postage individual charging"
+msgstr "運費個別收費"
+
+msgid "Options for EX-plugin"
+msgstr "EX外掛選項"
+
+msgid "Push 'change decision' button, to be settled with an order number."
+msgstr "請點擊「更新設定」鍵，確定訂單編號。"
+
+msgid "Order number"
+msgstr "訂單編號"
+
+msgid "Status"
+msgstr "狀態"
+
+msgid "estimate order"
+msgstr "報價單‧訂單"
+
+msgid "Collective registration item"
+msgstr "商品批次刊登"
+
+msgid ""
+"Upload prescribed CSV or an Excel file and perform the collective "
+"registration of the article.<br />Please choose a file, and push the "
+"registration start."
+msgstr ""
+"上傳規定的CSV檔或Excel檔，批次刊登商品。<br />請選擇檔案並點擊開始刊登鍵。"
+
+msgid ""
+"Upload prescribed CSV file and perform the collective registration of the "
+"article.<br />Please choose a file, and push the registration start."
+msgstr "上傳規定的CSV檔，批次刊登商品。<br />請選擇檔案並點擊開始刊登鍵。"
+
+msgid "Indication is updated after upload completion."
+msgstr "上傳完畢後顯示畫面將會更新。"
+
+msgid ""
+"Look at log to know the registration situation.(usc-e-shop/logs/itemcsv_log."
+"txt)<br />The log is updated, overwrite, every upload."
+msgstr ""
+"如欲確認註冊情形，請瀏覽系統記錄檔（usc-e-shop/logs/itemcsv_log.txt）。<br />"
+"系統記錄檔會於每次上傳時覆蓋更新。"
+
+msgid "IPN Start"
+msgstr "啟用交易狀態更新（IPN）"
+
+msgid "IPN Connection Error"
+msgstr "交易狀態更新（IPN）連線錯誤"
+
+msgid "PDT Refusal"
+msgstr "付款資料傳輸（PDT）未經授權"
+
+msgid "IPN Refusal"
+msgstr "IPN未經授權"
+
+msgid "PayPal gives back 'FAIL'. Please confirm setting."
+msgstr "PayPal回應「FAIL」，請確認設定內容。"
+
+msgid ""
+"<p>The settlement is not completed.<br />Please remit the price from the "
+"PayPal Maia count page.After receipt of money confirmation, I will prepare "
+"for the article shipment.</p>"
+msgstr ""
+"<p>交易未完成。<br />請從PayPal我的帳戶頁面匯出款項。待確認入帳成功後，即準備"
+"出貨。</p>"
+
+msgid "Checkout"
+msgstr "確認購買"
+
+msgid "and others"
+msgstr "、其他"
+
+msgid "The member please enter at here."
+msgstr "會員請由此進入▼"
+
+msgid "The nonmember please enter at here."
+msgstr "非會員請由此進入▼"
+
+msgid "When you enroll newly, please fill it out."
+msgstr "欲註冊新會員，請填寫資料。"
+
+msgid "To the next while enrolling"
+msgstr "註冊並繼續"
+
+msgid "Revise member information, and to next"
+msgstr "修改會員資料並前往下一步"
+
+msgid "Maintaining now"
+msgstr "系統維護中"
+
+msgid "Please wait for a while."
+msgstr "煩請稍候。"
+
+msgid "Please appoint an option."
+msgstr "請指定選項。"
+
+msgid "An article concerned"
+msgstr "相關商品"
+
+msgid "display of icon"
+msgstr "顯示圖示"
+
+msgid "number of indication"
+msgstr "顯示件數"
+
+msgid "automatic count"
+msgstr "自動計數"
+
+msgid "Indication"
+msgstr "顯示"
+
+msgid "Non-indication"
+msgstr "隱藏"
+
+msgid "automatic list"
+msgstr "顯示計數表單"
+
+msgid "handwriting list"
+msgstr "顯示手動輸入表單"
+
+msgid "Please input an article cord."
+msgstr "請輸入商品編號"
+
+msgid "Calendar"
+msgstr "行事曆"
+
+msgid ""
+"The setting of the business day, In a 'business day setting' page of the "
+"admin screen."
+msgstr "可於Welcart商店的「營業日設定」中設定營業日"
+
+msgid "parent category(slug)"
+msgstr "父分類（代稱）"
+
+msgid "category slug"
+msgstr "分類（代稱）"
+
+msgid "Pssword Lost and Found"
+msgstr "密碼遺失處理"
+
+msgid "Lost your password?"
+msgstr "忘記密碼？"
+
+msgid "Remember Me"
+msgstr "記住登入資訊"
+
+msgid "Page"
+msgstr "頁面"
+
+msgid "Page ID(comma separate)"
+msgstr "頁面ID（複數ID時請以逗號分隔）"
+
+msgid "Post"
+msgstr "文章"
+
+msgid "The article was not found."
+msgstr "找不到符合的商品。"
+
+msgid "No posts found."
+msgstr "找不到符合的項目。"
+
+msgid "make a copy"
+msgstr "複製並新增"
+
+msgid "back to item list"
+msgstr "返回商品列表"
+
+msgid "same as"
+msgstr "批次設定"
+
+msgid "Rule of the column for a item name"
+msgstr "商品名稱的顯示規則"
+
+msgid ""
+"You can appoint indication, non-indication, sort of the item name to show "
+"the cart.<br />This rule is applied as brand names such as a cart page, "
+"contents confirmation page, a member information purchase history, an email, "
+"a written estimate, the statement of delivery."
+msgstr ""
+"設定購物車等頁面中商品名稱的顯示、隱藏，以及顯示時的排序。<br />此規則可適用"
+"於購物車頁面、內容確認頁面、會員資料消費紀錄、電子郵件、報價單、出貨明細等的"
+"商品名稱。"
+
+msgid "Indication of item name"
+msgstr "商品名稱顯示"
+
+msgid "Position of item name"
+msgstr "商品名稱位置"
+
+msgid "Indication of item code"
+msgstr "商品編號顯示"
+
+msgid "Position of item code"
+msgstr "商品編號位置"
+
+msgid "Indication of SKU name"
+msgstr "SKU名稱顯示"
+
+msgid "Position of SKU name"
+msgstr "SKU名稱位置"
+
+msgid "Indication of SKU code"
+msgstr "SKU編號顯示"
+
+msgid "Position of SKU code"
+msgstr "SSKU編號位置"
+
+msgid "WordPress address (SSL)"
+msgstr "WordPress位址（SSL）"
+
+msgid "Blog address (SSL)"
+msgstr "網誌位址（SSL）"
+
+msgid "https://*WordPress address*<br />You can use common use SSL."
+msgstr ""
+"對WordPress一般設定中的「WordPress位址（URL）」進行設定時，請以https://作為開"
+"頭。亦可使用共同網域。"
+
+msgid "https://*Blog address*<br />You can use common use SSL."
+msgstr ""
+"對WordPress一般設定中的「網誌位址（URL）」進行設定時，請以https://作為開頭。"
+"亦可使用共同網域。"
+
+msgid "Please decide whether you use SSL"
+msgstr "若要使用SSL，請勾選。"
+
+msgid "Shipping name"
+msgstr "配送方式名稱"
+
+msgid "There is not a choice."
+msgstr "無法選擇"
+
+msgid "Please input your name."
+msgstr "※請輸入姓名。"
+
+msgid "Please input your e-mail address."
+msgstr "※請輸入電子信箱。"
+
+msgid "E-mail address is not correct."
+msgstr "※メ電子信箱不正確。"
+
+msgid "Please input contents."
+msgstr "※請輸入內容。"
+
+msgid " - "
+msgstr "～"
+
+msgid ""
+"* It is necessary to perform the delivery setting before than the item "
+"registration."
+msgstr "※ 商品刊登前必須先完成配送設定。"
+
+msgid ""
+"* When you performed the addition and deletion of the delivery method after "
+"item registration, please be careful because the update of all items is "
+"necessary."
+msgstr "※ 商品刊登後若要新增或刪除出貨方式，全部商品皆必須更新，請多加留意。"
+
+msgid "* Please register an item, after you finished delivery setting!"
+msgstr "※ 請先完成配送設定再刊登商品！"
+
+msgid "[ASC]"
+msgstr "▲"
+
+msgid "[DESC]"
+msgstr "▼"
+
+msgid " * "
+msgstr " × "
+
+msgid "I completed collective operation."
+msgstr "完成批次管理。"
+
+msgid "ERROR: I was not able to complete collective operation"
+msgstr "錯誤：無法正常完成處理程序。"
+
+msgid "*"
+msgstr "＊"
+
+msgid "Kitakami Yokohama"
+msgstr "大安區"
+
+msgid "tuhanbuild 4F"
+msgstr "信義大樓"
+
+msgid "numeric"
+msgstr "數值"
+
+msgid "Header Navigation"
+msgstr "頁首導覽"
+
+msgid "Sidebar Navigation"
+msgstr "側邊欄導覽"
+
+msgid "Footer Navigation"
+msgstr "頁尾導覽"
+
+msgid "Please be settled for a fee in spite of Update."
+msgstr "點擊「更新」確定手續費。"
+
+msgid "Type of the fee"
+msgstr "手續費類型"
+
+msgid "Fee"
+msgstr "手續費"
+
+msgid "A purchase amount"
+msgstr "消費金額"
+
+msgid "Fixation C.O.D."
+msgstr "固定費用"
+
+msgid "Variable C.O.D."
+msgstr "變動費用"
+
+msgid "Add row"
+msgstr "插入列"
+
+msgid "Delete row"
+msgstr "刪除列"
+
+msgid "C.O.D. Detailed setting"
+msgstr "貨到付款手續費　進階設定"
+
+msgid "Detailed setting"
+msgstr "進階設定"
+
+msgid "There is the item where a value is dirty."
+msgstr "有數值不正確的項目。"
+
+msgid "The page_id of the inquiry-form"
+msgstr "洽詢表單的頁面ID"
+
+msgid ""
+"When you want to use the inquiry-form through SSL, please input the page_id."
+"<br />When you use a permanent link, you have need to set the permanent link "
+"of this page in usces-inquiry."
+msgstr ""
+"若要使用透過SSL連線的Welcart洽詢表單，請指定page_id。必須設定上述SSL。<br />"
+"若毋須透過SSL，請保持空白。<br />若使用固定網址，則此頁面的固定網址必須是　"
+"usces-inquiry　。"
+
+msgid "Tags:"
+msgstr "標籤："
+
+msgid "Comments Closed"
+msgstr "不開放迴響"
+
+msgid "Posted in %s"
+msgstr "發表在%s"
+
+msgid "No Comments &#187;"
+msgstr "找不到迴響 &#187;"
+
+msgid "1 Comment &#187;"
+msgstr "1件迴響 &#187;"
+
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "屬於標籤 &#8216;%s&#8217; 的迴響;"
+
+# Daily archive page
+msgctxt "Daily archive page"
+msgid "Archive for %s"
+msgstr "%s 的文章"
+
+# Daily archive page
+msgctxt "Monthly archive page"
+msgid "Archive for %s"
+msgstr "%s 的文章"
+
+# Daily archive page
+msgctxt "Yearly archive page"
+msgid "Archive for %s"
+msgstr "%s 的文章"
+
+msgid "Settlement Setting"
+msgstr "信用卡結帳設定"
+
+msgid "Custom order field"
+msgstr "自訂訂單欄位"
+
+msgid "Custom customer field"
+msgstr "自訂客戶欄位"
+
+msgid "Custom delivery field"
+msgstr "自訂出貨欄位"
+
+msgid "Custom member field"
+msgstr "自訂會員欄位"
+
+msgid "key name"
+msgstr "欄位鍵值"
+
+msgid "field name"
+msgstr "欄位名稱"
+
+msgid "Add a new custom order field"
+msgstr "新增自訂訂單欄位"
+
+msgid "Add a new custom customer field"
+msgstr "新增自訂客戶欄位"
+
+msgid "Add a new custom delivery field"
+msgstr "新增自訂出貨欄位"
+
+msgid "Add a new custom member field"
+msgstr "新增自訂會員欄位"
+
+msgid "Add custom order field"
+msgstr "增加自訂訂單欄位"
+
+msgid "Add custom customer field"
+msgstr "增加自訂客戶欄位"
+
+msgid "Add custom delivery field"
+msgstr "增加自訂出貨欄位"
+
+msgid "Add custom member field"
+msgstr "增加自訂會員欄位"
+
+msgid "Radio-button"
+msgstr "選項按鈕"
+
+msgid "Check-box"
+msgstr "核取方塊"
+
+msgid "Previous the name"
+msgstr "插入於名稱前方"
+
+msgid "After the name"
+msgstr "插入於名稱後方"
+
+msgid "After the fax"
+msgstr "插入於傳真號碼後方"
+
+msgid "You can add an arbitrary field to customer information."
+msgstr "於客戶資料中增加任意欄位。"
+
+msgid "You can add an arbitrary field to the page of the payment method."
+msgstr "於付款方式頁面中增加任意欄位。"
+
+msgid "You can add an arbitrary field to delivery information."
+msgstr "於收件人資料中增加任意欄位。"
+
+msgid "You can add an arbitrary field to the member information page."
+msgstr "於會員資料頁面中增加任意欄位。"
+
+msgid "cannot use this payment method now."
+msgstr "目前無法使用此付款方式。"
+
+msgid "Charging type"
+msgstr "收費類型"
+
+msgid "Continuation"
+msgstr "持續收費"
+
+msgid "Termination"
+msgstr "取消持續收費"
+
+msgid "Setting"
+msgstr "設定"
+
+msgid "Text-area"
+msgstr "留言文字框"
+
+msgid "M j, Y"
+msgstr "Y年m月d日"
+
+msgid "Header Information"
+msgstr "頁首資訊"
+
+msgid "Product Information"
+msgstr "商品資訊"
+
+msgid "Order Infomation"
+msgstr "訂單資訊"
+
+msgid "Download"
+msgstr "下載"
+
+msgid "Download Member List"
+msgstr "匯出會員資料"
+
+msgid "Download Product List"
+msgstr "匯出訂單明細列表"
+
+msgid "Download Order List"
+msgstr "匯出訂單列表"
+
+msgid "delete it"
+msgstr "刪除會員資料"
+
+msgid "All information about the member is deleted. Are you all right?"
+msgstr "確定刪除會員的所有相關資料嗎？"
+
+msgid "This article is limited by %d at a time."
+msgstr "該套商品一次購買數量限制為 %d 。"
+
+msgid "Enter the correct amount for the No.%d item."
+msgstr "請輸入%d號商品的正確數量。"
+
+msgid "This article is limited by %1$d at a time for the No.%2$d item."
+msgstr "%2$d號商品數量一次僅限 %1$d 。"
+
+msgid "Stock of No.%1$d item is remainder %2$d."
+msgstr "%1$d號商品庫存量剩下 %2$d 。"
+
+msgid "Sorry, No.%d item is sold out."
+msgstr "很抱歉，%d號商品已售完。"
+
+msgid "The language of the front-end"
+msgstr "前台介面語言"
+
+msgid ""
+"You can choose the language of the front-end.The language of the admin panel "
+"obeys config.php."
+msgstr "可選擇前台介面語言，管理面板的顯示語言會依照config.php的設定值。"
+
+msgid "Order of Item SKU"
+msgstr "商品SKU排序"
+
+msgid "Order of Item Option"
+msgstr "商品選項排序"
+
+msgid ""
+"You can appoint equal thing order of SKU. When I want to make it registered "
+"order, choose 'Registration Order'. The initial state becomes 'SKU cord "
+"Order'."
+msgstr ""
+"指定商品SKU排序。欲以刊登的先後順序顯示時，請選擇「刊登順序」。預設值為「SKU"
+"編號順序」。"
+
+msgid ""
+"You can appoint a common option and the equal thing order of the item "
+"option. When You want to make it registered order, choose 'Registration "
+"Order'. The initial state becomes 'Optional excellent Order'."
+msgstr ""
+"指定共通選項與商品選項的排序。欲以刊登的先後順序顯示時，請選擇「刊登順序」。"
+"預設值為「選項名稱順序」。"
+
+msgid "Registration Order"
+msgstr "刊登順序"
+
+msgid "Optional excellent Order"
+msgstr "選項名稱順序"
+
+msgid "SKU cord Order"
+msgstr "SKU編號順序"
+
+msgid "Download Item List"
+msgstr "匯出商品資料"
+
+msgid "excerpt"
+msgstr "文章摘要"
+
+msgid "Field type"
+msgstr "欄位類型"
+
+msgid "No COD"
+msgstr "不提供貨到付款"
+
+msgid "Registration start"
+msgstr "開始刊登"
+
+msgid "Choose the file format, and push the download."
+msgstr "請選擇欲匯出的格式，並點擊下載鍵。"
+
+msgid "Not yet ready for the payment method. Please refer to a manager."
+msgstr "付款方式尚未準備完成。<br />請洽詢管理員。"
+
+msgid "Your payment has been received."
+msgstr "已確實查收上述款項。"
+
+# 請款單訊息
+msgid "Please remit payment at your earliest convenience."
+msgstr "來信向您請款以下款項。"
+
+# 各憑證的消費明細主旨
+msgid "Statement"
+msgstr "明細表"
+
+# 客戶為法人時的聯絡人標籤
+msgid "Attn"
+msgstr "聯絡人"
+
+msgid "Receipt"
+msgstr "收據"
+
+msgid "Invoice"
+msgstr "請款單"
+
+msgid "Shipping Name"
+msgstr "收件人姓名"
+
+msgid "Shipping Furigana"
+msgstr "收件人Furigana"
+
+msgid "Shipping Zip"
+msgstr "收件人郵遞區號"
+
+msgid "Shipping State"
+msgstr "收件人縣市"
+
+msgid "Shipping City"
+msgstr "收件人鄉鎮市區"
+
+msgid "Shipping Address1"
+msgstr "收件人路街段"
+
+msgid "Shipping Address2"
+msgstr "收件人巷弄號"
+
+msgid "Shipping Phone"
+msgstr "收件人電話號碼"
+
+msgid "Shipping FAX"
+msgstr "收件人傳真號碼"
+
+msgid "num"
+msgstr "數"
+
+msgid "rate"
+msgstr "率"
+
+msgid "Areas of Point Redemption"
+msgstr "點數適用範圍"
+
+msgid "Limited Only to Total Merchandise Price"
+msgstr "僅限於商品總額"
+
+msgid "Applicable to Total Merchandise Price and Handling Fee"
+msgstr "亦適用於商品總額以及手續費等"
+
+msgid "To add a subject title at the first line"
+msgstr "於第1列新增項目名稱"
+
+msgid "The member data is deleted"
+msgstr "會員資料已刪除"
+
+msgid "Delivery date"
+msgstr "希望配送日期"
+
+msgid "JPY"
+msgstr "元"
+
+msgid "Japan"
+msgstr "日本(Japan)"
+
+msgid "Currency"
+msgstr "貨幣"
+
+msgid "No Preference"
+msgstr "不指定"
+
+msgid "Unit"
+msgstr "單位"
+
+msgid "Quant"
+msgstr "數量"
+
+msgid "Country"
+msgstr "國家"
+
+msgid "Target Market"
+msgstr "銷售國家"
+
+msgid "COD is not available."
+msgstr "選擇此配送方式將無法使用「貨到付款」。"
+
+msgid "Argentina"
+msgstr "阿根廷"
+
+msgid "Australia"
+msgstr "澳洲(Australia)"
+
+msgid "Austria"
+msgstr "奧地利"
+
+msgid "Belgium"
+msgstr "比利時"
+
+msgid "Brazil"
+msgstr "巴西"
+
+msgid "Canada"
+msgstr "加拿大(Canada)"
+
+msgid "Chile"
+msgstr "智利"
+
+msgid "China"
+msgstr "中國(China)"
+
+msgid "Costa Rica"
+msgstr "哥斯大黎加"
+
+msgid "Czech Republic"
+msgstr "捷克共和國"
+
+msgid "Denmark"
+msgstr "丹麥"
+
+msgid "Dominican Republic"
+msgstr "多明尼加共和國"
+
+msgid "Finland"
+msgstr "芬蘭"
+
+msgid "France"
+msgstr "法國"
+
+msgid "Germany"
+msgstr "德國"
+
+msgid "Greece"
+msgstr "希臘"
+
+msgid "Guatemala"
+msgstr "瓜地馬拉"
+
+msgid "Hong Kong"
+msgstr "香港(Hong Kong)"
+
+msgid "Hungary"
+msgstr "匈牙利"
+
+msgid "India"
+msgstr "印度(India)"
+
+msgid "Indonesia"
+msgstr "印尼(Indonesia)"
+
+msgid "Ireland"
+msgstr "愛爾蘭"
+
+msgid "Israel"
+msgstr "以色列(Israel)"
+
+msgid "Italy"
+msgstr "義大利"
+
+msgid "Macau"
+msgstr "澳門(Macau)"
+
+msgid "Malaysia"
+msgstr "馬來西亞(Malaysia)"
+
+msgid "Mexico"
+msgstr "墨西哥"
+
+msgid "Netherlands"
+msgstr "荷蘭"
+
+msgid "New Zealand"
+msgstr "紐西蘭(New Zealand)"
+
+msgid "Norway"
+msgstr "挪威"
+
+msgid "Panama"
+msgstr "巴拿馬"
+
+msgid "Philippines"
+msgstr "菲律賓(Philippines)"
+
+msgid "Poland"
+msgstr "波蘭"
+
+msgid "Portugal"
+msgstr "葡萄牙"
+
+msgid "Puerto Rico"
+msgstr "波多黎各"
+
+msgid "Romania"
+msgstr "羅馬尼亞"
+
+msgid "Russia"
+msgstr "俄羅斯"
+
+msgid "Singapore"
+msgstr "新加坡(Singapore)"
+
+msgid "South Korea"
+msgstr "韓國(South Korea)"
+
+msgid "Spain"
+msgstr "西班牙"
+
+msgid "Sweden"
+msgstr "瑞典"
+
+msgid "Switzerland"
+msgstr "瑞士"
+
+msgid "Taiwan"
+msgstr "台灣(Taiwan)"
+
+msgid "Thailand"
+msgstr "泰國(Thailand)"
+
+msgid "Turkey"
+msgstr "土耳其(Turkey)"
+
+msgid "United Kingdom"
+msgstr "英國(United Kingdom)"
+
+msgid "United States"
+msgstr "美國(United States)"
+
+msgid "Vietnam"
+msgstr "越南(Vietnam)"
+
+msgid "Print Invoice"
+msgstr "列印請款單"
+
+msgid "Print Receipt"
+msgstr "列印收據"
+
+msgid "Order ID"
+msgstr "訂單ID"
+
+msgid "Member ID"
+msgstr "會員ID"
+
+msgid "Name"
+msgstr "姓名"
+
+msgid "International Shipment"
+msgstr "國際郵寄"
+
+msgid "Domestic Shipment"
+msgstr "國內郵寄"
+
+msgid "Delivery Date Not Specified"
+msgstr "不使用希望配送日期"
+
+msgid "'Okay to Delete Delivery Days Setting ' + delname + '?'"
+msgstr "'確定刪除配達天數設定「' + delname + '」嗎？'"
+
+msgid "'Okay to Change All Delivery Days to ' + days + '?'"
+msgstr "'確定將配達天數全部變更為 ' + days + ' 天嗎？'"
+
+msgid "Deadline for Delivery"
+msgstr "配送期限"
+
+msgid ""
+"Set deadline for merchandise delivery. This number is used to calculate the "
+"earliest delivery date."
+msgstr "指定商品出貨期限。這項數值用於計算最快出貨日期。"
+
+msgid "Morning Delivery Option"
+msgstr "上午配達選項"
+
+msgid "Do Not Apply"
+msgstr "不指定"
+
+msgid "Morning Delivery"
+msgstr "可上午配達"
+
+msgid "No Morning Delivery"
+msgstr "不可上午配達"
+
+msgid ""
+"Set if the merchandise can be delivered on the morning of earliest possible "
+"delivery date."
+msgstr "設定商品是否可在最快出貨日期的上午送達。"
+
+msgid "Set Delivery Dates"
+msgstr "希望配送日期顯示數"
+
+msgid "Set the choices of possible delivery dates for the customer."
+msgstr "設定客戶可選擇的希望配送日期數量。"
+
+msgid "Possible Delivery Area"
+msgstr "配送地區"
+
+msgid "Choose possible delivery area for this shipment method."
+msgstr "選擇適用此種運送方式的可配送地區。"
+
+msgid "Applied Module"
+msgstr "適用模組"
+
+msgid "No possible Module"
+msgstr "無可用模組"
+
+msgid ""
+"When delivery module is chosen, the module overrules all rules including "
+"shipping fee."
+msgstr "若已選擇配送模組，包含運費在內，全部規則皆以模組優先。"
+
+msgid ""
+"Input possible delivery hours. Leave it blank when the customer cannot "
+"choose delivery time. <br />example）<br />morning<br />12：00～14：00<br /"
+">14：00～16：00<br />16：00～18：00"
+msgstr ""
+"輸入可配送時段。若不讓客戶選擇時段，請將此欄位保持空白。<br />範例：<br />上"
+"午<br />12：00～14：00<br />14：00～16：00<br />16：00～18：00"
+
+msgid "Weight Added"
+msgstr "加算重量"
+
+msgid "Add shipment fee by the total weight of merchandise."
+msgstr "按商品總重量加算運費。"
+
+msgid "Delivery Days"
+msgstr "配達天數"
+
+msgid ""
+"Choose the Name of 'Delivery Days' registered in Delivery Days setting "
+"below. To be used to calculate the fastest delivery date. If you're not "
+"letting the customer set the delivery date, set to 'Delivery Date Not "
+"Specified'."
+msgstr ""
+"選擇下列登錄於配達天數設定的配達天數名。其用於計算最快配送天數。若不讓客戶選"
+"擇希望配送日期，請設定為「不使用希望配送日期」。"
+
+msgid "Check for no COD."
+msgstr "無法提供貨到付款時請勾選本項。"
+
+msgid "Choose countries to apply this shipment fee."
+msgstr "選擇適用這筆運費的國家。"
+
+msgid "Name of 'Delivery Days'"
+msgstr "配達天數名稱"
+
+msgid "Choose countries to apply this Delivery Days."
+msgstr "選擇適用此配達天數的國家。"
+
+msgid "You can choose Delivery Days for each merchandise."
+msgstr "可依照各商品選擇配達天數。"
+
+msgid "Name of the Additional Fee"
+msgstr "加算規則名稱"
+
+msgid "Amount of the Additional Fee"
+msgstr "加算金額"
+
+msgid ""
+"Calculate the shipping fee based on the total weight of the merchandises."
+msgstr "按商品總重量加算運費。"
+
+msgid "PayPal Express Checkout"
+msgstr "PayPal快速結帳服務"
+
+msgid "Test thoroughly before use."
+msgstr "使用前，請充分進行測試。"
+
+# 各憑證的消費明細主旨
+msgid "PayPal Settlement"
+msgstr "PayPal結帳"
+
+msgid "Use"
+msgstr "使用"
+
+msgid "Do not Use"
+msgstr "不使用"
+
+msgid "Choose if to use PayPal settlement."
+msgstr "選擇是否使用PayPal結帳。"
+
+msgid "Operation Environment"
+msgstr "作業環境"
+
+msgid "Test (Sandbox)"
+msgstr "測試環境（Sandbox）"
+
+msgid "Formal Installment"
+msgstr "正式啟用"
+
+msgid "Choose 'Test (Sandbox)' when testing payment settlement by Sandbox."
+msgstr "使用Sandbox進行結帳測試時，請選擇「測試環境（Sandbox）」。"
+
+msgid "API User Name"
+msgstr "API用戶名"
+
+msgid ""
+"Type in the API user name from API credential. User name will be different "
+"in the formal installment of Sandbox."
+msgstr "輸入API憑證中的API用戶名。在Sandbox與正式啟用時的用戶名將會不同。"
+
+msgid "API Password"
+msgstr "API密碼"
+
+msgid ""
+"Type in the API password from API credential. Password will be different in "
+"formal installment of Sandbox."
+msgstr "輸入API憑證中的API密碼。在Sandbox與正式啟用的密碼將會不同。"
+
+msgid "Signature"
+msgstr "簽名"
+
+msgid ""
+"Type in the signature from API credential. Signature will be different in "
+"the formal installment of Sandbox."
+msgstr "輸入PayPal核發之API憑證中的簽名。在Sandbox與正式啟用的簽名將會不同。"
+
+msgid "Recurring Payment"
+msgstr "定期付款"
+
+msgid ""
+"It is a function that enables the automation of tedious payment settlement "
+"such as monthly membership fee that occurs regularly. <br /> For details, "
+"contact PayPal."
+msgstr ""
+"此功能可讓定期收取的每月會費等繁瑣的付款處理自動化。<br />詳情請向「PayPal」"
+"洽詢。"
+
+msgid "Update PayPal Settings"
+msgstr "更新PayPal設定"
+
+msgid "For the details on PayPal settlement service, click here >>"
+msgstr "欲瞭解PayPal結帳服務詳情，請點擊這裡＞＞"
+
+msgid "This settlement uses 'Express Checkout'."
+msgstr "此結帳採用「快速結帳」。"
+
+msgid ""
+"If the 'OpenSSL' module is not installed in the server you're using, you "
+"cannot settle payments by 'ExpressCheckout'."
+msgstr "若您使用的伺服器未安裝「OpenSSL」模組，將無法利用「快速結帳」結帳。"
+
+msgid "ZEUS"
+msgstr "ZEUS"
+
+msgid "Remise"
+msgstr "REMISE"
+
+msgid "ZEUS Japanese Settlement"
+msgstr "ZEUS結帳服務"
+
+msgid "Remise Japanese Settlement"
+msgstr "REMISE結帳服務"
+
+msgid "J-Payment Japanese Settlement"
+msgstr "J-Payment結帳服務"
+
+msgid "State"
+msgstr "縣"
+
+msgid "Address Line1"
+msgstr "路街段"
+
+msgid "Address Line2"
+msgstr "巷弄號"
+
+msgid "Zip"
+msgstr "郵遞區號"
+
+msgid "Please select one of the country."
+msgstr "選擇您所在的國家。"
+
+msgid "Language Currency Country"
+msgstr "國家‧語言‧貨幣"
+
+msgid ""
+"You can select the Front-end language. The Back-end language follows setting "
+"config.php."
+msgstr ""
+"您可選擇前台介面（商店方）的語言。後台介面（管理面板）的語言則按照config.php"
+"之設定。"
+
+msgid "Currencies"
+msgstr "貨幣顯示"
+
+msgid ""
+"Displays the currency symbol for each country, the amount separator, the "
+"decimal digits. This is a common item in both front end and back end."
+msgstr ""
+"顯示所選國家貨幣代號、金額分隔符號以及小數位數。此為前台介面（商店方）及後台"
+"介面（管理面板）通用的項目。"
+
+msgid "The name and address form"
+msgstr "姓名地址格式"
+
+msgid "For entry form style, choose your country."
+msgstr "選擇姓名地址等的輸入表單之國家格式。"
+
+msgid "All countries"
+msgstr "所有國家"
+
+msgid ""
+"Select the number of possible areas within the country. Allows multiple "
+"selections."
+msgstr "以國家為單位選擇可販售、出貨的地區。可複選。"
+
+msgid "Product sub-image rule"
+msgstr "產品小圖適用規則"
+
+msgid "not apply the new rule<br />(Truncation Product Code)"
+msgstr "不適用新規則<br />（商品編碼開頭一致）"
+
+msgid ""
+"apply the new rule<br />(Tow hyphens between the Product Code and serial "
+"number)"
+msgstr "適用新規則<br />（商品編碼與序號之間置入兩個連字號【例：a001--01】）"
+
+msgid ""
+"If the sub-images are not applied correctly, please apply the new rules.<br /"
+">And insert Tow hyphens between the Product Code and serial number."
+msgstr ""
+"若小圖無法正常適用，請適用新規則。<br />小圖的檔名是商品編碼與連號之間置入兩"
+"個連字號。（例：a001--01.jpg）"
+
+msgid "To disable usces_cart.css"
+msgstr "使usces_cart.css 無效"
+
+msgid ""
+"When checked, Welcart will not output the usces_cart.css. If you want to "
+"make own usces_cart.css file, please copy and paste it in your theme folder "
+"currently in use."
+msgstr ""
+"若要使Welcart適用之usces_cart.css 無效，請勾選本項。藉由在目前使用的主題資料"
+"夾製作usces_cart.css 檔案，即可編輯成專屬於自己的格式。"
+
+msgid "Rules of order-ID numbering"
+msgstr "訂單編號規則"
+
+msgid "Sequential number"
+msgstr "連號（數值）"
+
+msgid "Random string"
+msgstr "隨機字串（英文）"
+
+msgid "The initial value is a sequential number starting from 1000."
+msgstr "初始值是從1000開始的連號。"
+
+msgid "Prefix of order-ID"
+msgstr "訂單編號字首"
+
+msgid "If you do not need it, leave it blank."
+msgstr "【半角英字】若不需要請保持空白。"
+
+msgid "Digits of order-ID"
+msgstr "訂單編號位數"
+
+msgid "This value must be at least six digits. The prefix is ​​not included."
+msgstr "【數值（6以上）】位數最好在10左右。前綴位數不包含在內。"
+
+msgid "Use SSL"
+msgstr "使用SSL"
+
+msgid "Select the item you want, please press the download."
+msgstr "選擇您欲匯出的項目後，請點擊下載。"
+
+msgid "Payment information"
+msgstr "付款資訊"
+
+msgid "100-100-10000"
+msgstr "例如：100-100-10000"
+
+msgid "100-1001"
+msgstr "100-1001"
+
+msgid ""
+"Select the scope of the point that customers can use.<br />Default is "
+"'Limited Only to Total Merchandise Price'. 'Applicable to Total Merchandise "
+"Price and Handling Fee' If you choose, you can pay shipping and COD fee in "
+"points."
+msgstr ""
+"選擇客戶可使用點數的適用範圍。<br />初始值「限定為商品總金額」。若選擇「亦適"
+"用於商品總金額及手續費等」，亦可用點數支付運費或貨到付款手續費。"
+
+msgid "No valid shipping methods."
+msgstr "找不到有效的配送方式。"
+
+msgid "The same product cord is registered."
+msgstr "商品編號重複登錄。"
+
+msgid "The file was not stored."
+msgstr "無法儲存檔案。"
+
+msgid "CSV file does not exist."
+msgstr "CSV檔案不存在。"
+
+msgid "This file is not in the CSV file."
+msgstr "此檔案並非CSV檔案。"
+
+msgid "Processing..."
+msgstr "處理中……"
+
+msgid "Remaining time:"
+msgstr "剩餘時間："
+
+msgid "sec"
+msgstr "秒"
+
+msgid "Finished"
+msgstr "完成。"
+
+msgid "Data have deficiency."
+msgstr "尚有資料未填。"
+
+msgid "Please input a phone number with a half size number."
+msgstr "請以半形數字輸入電話號碼。"
+
+msgid ""
+"Please do not change product addition and amount of it with the other window "
+"with displaying this page."
+msgstr "※本頁面尚未關閉時，請勿在另一視窗追加商品或變更商品數量。"
+
+msgid "Send"
+msgstr "發送"
+
+msgid "Don't send"
+msgstr "不發送"
+
+msgid "New sign-in completion email"
+msgstr "通知管理員新會員註冊之電子郵件"
+
+msgid "When there is a new sign-in, I transmit a report email to a manager."
+msgstr "若有新會員註冊，也會發送報告郵件給管理員。"
+
+msgid "New sign-in processing was completed."
+msgstr "有新會員註冊。"
+
+msgid "Registration contents"
+msgstr "【註冊資訊】"
+
+msgid "Notice of new sign-in"
+msgstr "新會員註冊通知"
+
+msgid "A value of the amount of upper limit is dirty."
+msgstr "最高金額的數值不正確。"
+
+msgid ""
+"A total products amount of money surpasses the upper limit(%s) that I can "
+"purchase in C.O.D."
+msgstr "商品總金額超過以貨到付款方式所能購買的最高金額（%s）。"
+
+msgid "The upper limit of the C.O.D."
+msgstr "最高金額"
+
+msgid "Setup data backup"
+msgstr "備份設定資料"
+
+msgid "Backup options"
+msgstr "備份"
+
+msgid "Restoring a Backup"
+msgstr "還原已設定資料"
+
+msgid "You can take the backup of the Welcart setup data."
+msgstr "可取得Welcart設定資料之備份。"
+
+msgid "My Account"
+msgstr "我的帳號"
+
+msgid "in not yet registered"
+msgstr " 目前無商品"
+
+msgid "Delivery method is incorrect. Specify the international flights."
+msgstr "配送方式有誤，請重新選擇。"
+
+msgid "Internal tax"
+msgstr "稅金"
+
+msgid "3 times"
+msgstr "3 期"
+
+#, fuzzy
+#~ msgid "Transmit"
+#~ msgstr "發送"
+
+#, fuzzy
+#~ msgid "Don't transmit"
+#~ msgstr "不發送"
+
+#~ msgid "Archive for %s|Daily archive page"
+#~ msgstr "%s 的文章"
+
+#~ msgid "print the invoice"
+#~ msgstr "列印出貨明細"
+
+#~ msgid "Invoices"
+#~ msgstr "出貨明細"
+
+#~ msgid ""
+#~ "I seem to have you cancel it when the body does not have memorizing to "
+#~ "this email."
+#~ msgstr "若您對這封電子郵件沒有印象，請刪除。"
+
+#~ msgid "Period(months)"
+#~ msgstr "契約期間（月數）"
+
+#~ msgid "% Comments &#187;"
+#~ msgstr "迴響 %件 &#187;"
+
+#~ msgid "〜％ discount at the purchase of more then 〜units."
+#~ msgstr "購入～項以上商品，享有～％折扣（單價）"
+
+#~ msgid "Only few stocks left for this item."
+#~ msgstr "庫存稀少"
+
+#~ msgid "Sellout"
+#~ msgstr "已售完"
+
+#~ msgid "Temporarily out of stock"
+#~ msgstr "調貨中"
+
+#~ msgid "(Tax included)"
+#~ msgstr "（含稅）"
+
+#~ msgid "Special discount"
+#~ msgstr "特别折扣"
+
+#~ msgid "OK-stocks"
+#~ msgstr "尚有庫存"
+
+#~ msgid "h"
+#~ msgstr "點"
+
+#~ msgid "new item"
+#~ msgstr "新商品"
+
+#~ msgid "cart"
+#~ msgstr "購物車"
+
+#~ msgid "chose the value"
+#~ msgstr "請選擇value。"
+
+#~ msgid "<em>【必須】</em>メールが不達の場合のエラーメールの送信先。"
+#~ msgstr "<em>【必填】</em>電子郵件發送失敗時，接收錯誤訊息的電子信箱。"
+
+#~ msgid "new arrival"
+#~ msgstr "新商品"
+
+#~ msgid "～yen"
+#~ msgstr "元"
+
+#~ msgid "number of the stock"
+#~ msgstr "庫存量"
+
+#~ msgid "Start Start importing"
+#~ msgstr "開始匯入"
+
+#~ msgid "yen"
+#~ msgstr "元"
+
+#~ msgid "uCart shop shipping option"
+#~ msgstr "uCart shop 配送設定"
+
+#~ msgid "edit the setting"
+#~ msgstr "更新設定"
+
+#~ msgid "set the uCart buisiness days"
+#~ msgstr "uCart shop 營業日設定"
+
+#~ msgid "general setting of ucart shop"
+#~ msgstr "uCart shop 基本設定"
+
+#~ msgid "Home for uCart shop"
+#~ msgstr "uCart shop 首頁"
+
+#~ msgid "item amount"
+#~ msgstr "商品數量"
+
+#~ msgid "There are stocks for this item."
+#~ msgstr "尚有庫存"
+
+#~ msgid "MySQL"
+#~ msgstr "MySQL"
+
+#~ msgid "PHP"
+#~ msgstr "PHP"
+
+#~ msgid "Total items"
+#~ msgstr "商品總數"
+
+#~ msgid "e-mail address(confirmation)"
+#~ msgstr "電子信箱（再次輸入）"
+
+#~ msgid "[]"
+#~ msgstr "【】"
+
+#~ msgid "SKU"
+#~ msgstr "SKU"
+
+#~ msgid "Update Confirmed"
+#~ msgstr "確定更新"
+
+#~ msgid "Your current PT"
+#~ msgstr "現有點數"
+
+#~ msgid "Building name"
+#~ msgstr "巷弄號"
+
+#~ msgid "points"
+#~ msgstr "獲得點數"
+
+#~ msgid "A list of uCart management members."
+#~ msgstr "uCart management 會員清單"
+
+#~ msgid "Search Items"
+#~ msgstr "搜尋項目"
+
+#~ msgid "Bank transfer"
+#~ msgstr "銀行匯款"
+
+#~ msgid "edit the uCart management order data"
+#~ msgstr "編輯uCart management 訂單資料"
+
+#~ msgid "on sale"
+#~ msgstr "折扣季"
+
+#~ msgid "〜times more. Limited to members."
+#~ msgstr "～倍，僅限會員"
+
+#~ msgid "A list of received order for uCart management"
+#~ msgstr "uCart management 訂單列表"
+
+#~ msgid "mmddyyyy"
+#~ msgstr "Y年m月d日"
+
+#~ msgid "edit information of uCart shop items"
+#~ msgstr "編輯uCart shop 商品資訊"
+
+#~ msgid "Previous page"
+#~ msgstr "上一頁"
+
+#~ msgid "next page"
+#~ msgstr "下一頁"
+
+#~ msgid "inside of the cart"
+#~ msgstr "購物車內容"
+
+#~ msgid "To ～"
+#~ msgstr "～先生／小姐"
+
+#~ msgid "** A password change **"
+#~ msgstr "變更密碼"
+
+#~ msgid ""
+#~ "Than you for registrating as 'blog name' membership. You can chek your "
+#~ "purchase status at section 'membership information'."
+#~ msgstr ""
+#~ "本次感謝您註冊成為blogname會員。您可在「會員資料」頁面確認購物紀錄。"
+
+#, fuzzy
+#~ msgid "We will inform you by e-mail when we are ready to send you items."
+#~ msgstr "商品準備妥當後，我們將以電子郵件通知您出貨的相關資訊，謝謝。"
+
+#~ msgid ""
+#~ "Thank you for chosing 'blogname'. We have received following e-mail. We "
+#~ "will contact you by e-mail soon."
+#~ msgstr ""
+#~ "本次感謝您使用blogname的服務。以下洽詢內容已受理。我們將儘速以電子郵件回覆"
+#~ "您，請耐心等候。謝謝"
+
+#~ msgid ""
+#~ "Thank you for chosing 'blogname'. You have changed your order as "
+#~ "following. We will inform you by e-mail when we are ready to send your "
+#~ "items."
+#~ msgstr ""
+#~ "本次感謝您使用blogname的服務。以下訂單內容已變更，敬請確認。商品準備妥當"
+#~ "後，我們將以電子郵件通知您出貨的相關資訊，謝謝。"
+
+#~ msgid ""
+#~ "Thank you for chosing 'blogname'. Your transfer have been made "
+#~ "successfully. We will inform you by e-mail when we are ready to send you "
+#~ "items."
+#~ msgstr ""
+#~ "本次感謝您使用blogname的服務。已確認收到您的匯款，特此通知。商品準備妥當"
+#~ "後，我們將以電子郵件通知您出貨的相關資訊，謝謝。"
+
+#~ msgid ""
+#~ "Thank you for chosing 'blogname'. We will send you following estimate for "
+#~ "your items. This estimate is valid for one week. "
+#~ msgstr ""
+#~ "本次感謝您使用blogname的服務。以下為報價明細，敬請確認。本報價有效期限為一"
+#~ "週。謝謝。"
+
+#~ msgid "Thank you for chosing 'blogname'."
+#~ msgstr "本次感謝您使用blogname的服務。"
+
+#~ msgid "TEL"
+#~ msgstr "TEL"
+
+#~ msgid "FAX"
+#~ msgstr "FAX"
+
+#~ msgid "Sales tax"
+#~ msgstr "營業稅"
+
+#~ msgid "about three weeks later"
+#~ msgstr "約3週後"
+
+#~ msgid "** estimate **"
+#~ msgstr "報價單"
+
+#~ msgid "～pt"
+#~ msgstr "～點"
+
+#~ msgid "Yen"
+#~ msgstr "元"
+
+#~ msgid "～Point"
+#~ msgstr "～點"
+
+#~ msgid "～%"
+#~ msgstr "～%"
+
+#~ msgid "adds new items"
+#~ msgstr "新增商品"
+
+#~ msgid "Stock status"
+#~ msgstr "庫存狀況"
+
+#, fuzzy
+#~ msgid "e-mail set up"
+#~ msgstr "電子郵件設定"
+
+#~ msgid "【estimate】"
+#~ msgstr "【報價】"
+
+#~ msgid "Data by"
+#~ msgstr "透過～"
+
+#~ msgid "is not yet registered."
+#~ msgstr "～尚未登錄。"
+
+#~ msgid "par"
+#~ msgstr "每"
+
+#~ msgid "A buyer"
+#~ msgstr "買家"
+
+#~ msgid "An order email"
+#~ msgstr "訂單明細"
+
+#~ msgid "I ask."
+#~ msgstr "麻煩您了。"
+
+#~ msgid "ken"
+#~ msgstr "件"

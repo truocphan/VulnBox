@@ -1,0 +1,25 @@
+.sbps_registerd_card_area, .sbps_new_card_area {
+	margin: 0 0 5px 2em;
+}
+
+.sbps_registerd_card_area {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.cc_number {
+	width: 16em;
+	ime-mode: disabled;
+}
+
+.cc_seccd {
+	width: 4em;
+	ime-mode: disabled;
+}
+
+.cc_cardlast4 {
+	border: solid 1px #c1c1c4;
+	padding: 5px;
+	margin-left: 10px;
+}
+

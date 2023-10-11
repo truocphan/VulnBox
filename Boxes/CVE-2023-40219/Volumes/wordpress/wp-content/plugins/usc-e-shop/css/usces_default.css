@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+input.hidden {
+	display: none;
+}
+.welcart-btn {
+	font-size: 14px;
+	width: 60%;
+	margin-bottom: .357143em;
+	padding: .714286em 1.42857em;
+	background-color: #eee;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.welcart-btn.orange{
+	color: #fff;
+	background-color: #ff8c00;
+}
+.usces_filter_history {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.usces_filter_history label,
+.usces_filter_history select {
+	cursor: pointer;
+}
+.usces_filter_history input[type="checkbox"] {
+	width: 1rem;
+	height: 1rem;
+	margin: 0 .5rem 0 0;
+	vertical-align: middle;
+}
+.usces_filter_history .exclude_cancel {
+	margin-right: 2em;
+}
+.usces_filter_history .usce_period span {
+	margin: 0 .5rem 0 0;
+}
