@@ -1,0 +1,3636 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-07 17:34+0400\n"
+"PO-Revision-Date: 2020-01-07 17:35+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/controllers/Blocked_ips_fm.php:25 admin/controllers/Manage_fm.php:42
+#: admin/controllers/Submissions_fm.php:61 admin/controllers/Themes_fm.php:46
+msgid "Delete"
+msgstr ""
+
+#: admin/controllers/Blocked_ips_fm.php:26 admin/controllers/Manage_fm.php:43
+#: admin/controllers/Themes_fm.php:47
+msgid "deleted"
+msgstr ""
+
+#: admin/controllers/Checkpaypal.php:168
+msgid "Payment information"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:30 admin/views/Manage_fm.php:155
+msgid "Publish"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:31
+msgid "published"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:34 admin/views/Manage_fm.php:155
+msgid "Unpublish"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:35
+msgid "unpublished"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:38 admin/controllers/Themes_fm.php:42
+msgid "Duplicate"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:39 admin/controllers/Themes_fm.php:43
+msgid "duplicated"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:290 admin/controllers/Themes_fm.php:191
+msgid "Copy"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:387
+msgid "Create new form"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:544
+msgid "options"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:873 admin/models/Manage_fm.php:57
+#: admin/models/Manage_fm.php:64 admin/models/Manage_fm.php:127
+#: admin/models/Manage_fm.php:148 admin/models/Manage_fm.php:155
+#: admin/models/Manage_fm.php:238 frontend/models/form_maker.php:1431
+#: frontend/models/form_maker.php:1438 frontend/views/form_maker.php:255
+msgid ""
+"I consent collecting this data and processing it according to "
+"{{privacy_policy}} of this website."
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:949
+msgid "layout"
+msgstr ""
+
+#: admin/controllers/Manage_fm.php:999
+msgid "display options"
+msgstr ""
+
+#: admin/controllers/Submissions_fm.php:53
+msgid "Block IPs"
+msgstr ""
+
+#: admin/controllers/Submissions_fm.php:54
+msgid "Blocked"
+msgstr ""
+
+#: admin/controllers/Submissions_fm.php:57
+msgid "Unblock IPs"
+msgstr ""
+
+#: admin/controllers/Submissions_fm.php:58
+msgid "Unblocked"
+msgstr ""
+
+#: admin/controllers/Submissions_fm.php:62
+msgid "Deleted"
+msgstr ""
+
+#: admin/controllers/Submissions_fm.php:155
+#: admin/controllers/Submissions_fm.php:173 form-maker.php:368
+#: form-maker.php:460 form-maker.php:1364
+msgid "Submissions"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:84 form-maker.php:464 form-maker.php:1372
+msgid "Themes"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:226 admin/controllers/Themes_fm.php:1411
+#: admin/controllers/Themes_fm.php:2077
+msgid "Global Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:227
+msgid "Header"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:228
+msgid "Content"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:229
+msgid "Inputbox"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:230
+msgid "Choices"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:231
+msgid "General Buttons"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:232
+msgid "Pagination"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:233
+msgid "Buttons"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:234
+msgid "Close(Minimize) Button"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:235
+msgid "Minimize Text"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:236
+msgid "Other"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:237 admin/controllers/Themes_fm.php:2942
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:256 admin/controllers/Themes_fm.php:2471
+#, fuzzy
+#| msgid "To"
+msgid "Top"
+msgstr "אל"
+
+#: admin/controllers/Themes_fm.php:257 admin/controllers/Themes_fm.php:276
+#: admin/controllers/Themes_fm.php:2480
+msgid "Right"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:258 admin/controllers/Themes_fm.php:2489
+msgid "Bottom"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:259 admin/controllers/Themes_fm.php:276
+#: admin/controllers/Themes_fm.php:2498
+msgid "Left"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:276
+#, fuzzy
+#| msgid "Cents"
+msgid "Center"
+msgstr "סנט"
+
+#: admin/controllers/Themes_fm.php:331
+msgid "Font Family"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:340 admin/controllers/Themes_fm.php:452
+#: admin/controllers/Themes_fm.php:608 admin/controllers/Themes_fm.php:659
+#: admin/controllers/Themes_fm.php:909 admin/controllers/Themes_fm.php:1114
+#: admin/controllers/Themes_fm.php:1205 admin/controllers/Themes_fm.php:1253
+#: admin/controllers/Themes_fm.php:1376 admin/controllers/Themes_fm.php:1443
+#: admin/controllers/Themes_fm.php:1628 admin/controllers/Themes_fm.php:2051
+#: admin/controllers/Themes_fm.php:2066 admin/controllers/Themes_fm.php:2117
+#: admin/controllers/Themes_fm.php:2293
+msgid "Width"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:348
+msgid "Width (for scrollbox, popup form types)"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:356 admin/controllers/Themes_fm.php:468
+#: admin/controllers/Themes_fm.php:736 admin/controllers/Themes_fm.php:828
+#: admin/controllers/Themes_fm.php:861 admin/controllers/Themes_fm.php:885
+#: admin/controllers/Themes_fm.php:917 admin/controllers/Themes_fm.php:987
+#: admin/controllers/Themes_fm.php:1485 admin/controllers/Themes_fm.php:1670
+#: admin/controllers/Themes_fm.php:1857 admin/controllers/Themes_fm.php:1975
+#: admin/controllers/Themes_fm.php:2150 admin/controllers/Themes_fm.php:2326
+#: admin/controllers/Themes_fm.php:2542 admin/controllers/Themes_fm.php:2713
+msgid "Padding"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:360
+msgid "e.g. 3px 5px or 3% 5%"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:365 admin/controllers/Themes_fm.php:477
+#: admin/controllers/Themes_fm.php:745 admin/controllers/Themes_fm.php:837
+#: admin/controllers/Themes_fm.php:870 admin/controllers/Themes_fm.php:894
+#: admin/controllers/Themes_fm.php:926 admin/controllers/Themes_fm.php:996
+#: admin/controllers/Themes_fm.php:1130 admin/controllers/Themes_fm.php:1221
+#: admin/controllers/Themes_fm.php:1269 admin/controllers/Themes_fm.php:1392
+#: admin/controllers/Themes_fm.php:1494 admin/controllers/Themes_fm.php:1679
+#: admin/controllers/Themes_fm.php:1866 admin/controllers/Themes_fm.php:1984
+#: admin/controllers/Themes_fm.php:2159 admin/controllers/Themes_fm.php:2335
+#: admin/controllers/Themes_fm.php:2551 admin/controllers/Themes_fm.php:2722
+msgid "Margin"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:370
+msgid "e.g. 5px 10px or 5% 10%"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:374 admin/controllers/Themes_fm.php:495
+#: admin/controllers/Themes_fm.php:754 admin/controllers/Themes_fm.php:1005
+#: admin/controllers/Themes_fm.php:1139 admin/controllers/Themes_fm.php:1278
+#: admin/controllers/Themes_fm.php:1503 admin/controllers/Themes_fm.php:1578
+#: admin/controllers/Themes_fm.php:1688 admin/controllers/Themes_fm.php:1763
+#: admin/controllers/Themes_fm.php:1875 admin/controllers/Themes_fm.php:1993
+#: admin/controllers/Themes_fm.php:2168 admin/controllers/Themes_fm.php:2243
+#: admin/controllers/Themes_fm.php:2344 admin/controllers/Themes_fm.php:2419
+#: admin/controllers/Themes_fm.php:2560 admin/controllers/Themes_fm.php:2626
+#: admin/controllers/Themes_fm.php:2731 admin/controllers/Themes_fm.php:2797
+msgid "Border"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:382 admin/controllers/Themes_fm.php:503
+#: admin/controllers/Themes_fm.php:762 admin/controllers/Themes_fm.php:1013
+#: admin/controllers/Themes_fm.php:1147 admin/controllers/Themes_fm.php:1286
+#: admin/controllers/Themes_fm.php:1511 admin/controllers/Themes_fm.php:1586
+#: admin/controllers/Themes_fm.php:1696 admin/controllers/Themes_fm.php:1771
+#: admin/controllers/Themes_fm.php:1883 admin/controllers/Themes_fm.php:2001
+#: admin/controllers/Themes_fm.php:2176 admin/controllers/Themes_fm.php:2251
+#: admin/controllers/Themes_fm.php:2352 admin/controllers/Themes_fm.php:2427
+#: admin/controllers/Themes_fm.php:2568 admin/controllers/Themes_fm.php:2634
+#: admin/controllers/Themes_fm.php:2739 admin/controllers/Themes_fm.php:2805
+msgid "Border Color"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:386 admin/controllers/Themes_fm.php:421
+#: admin/controllers/Themes_fm.php:447 admin/controllers/Themes_fm.php:472
+#: admin/controllers/Themes_fm.php:482 admin/controllers/Themes_fm.php:507
+#: admin/controllers/Themes_fm.php:565 admin/controllers/Themes_fm.php:588
+#: admin/controllers/Themes_fm.php:637 admin/controllers/Themes_fm.php:707
+#: admin/controllers/Themes_fm.php:720 admin/controllers/Themes_fm.php:740
+#: admin/controllers/Themes_fm.php:750 admin/controllers/Themes_fm.php:823
+#: admin/controllers/Themes_fm.php:832 admin/controllers/Themes_fm.php:841
+#: admin/controllers/Themes_fm.php:856 admin/controllers/Themes_fm.php:865
+#: admin/controllers/Themes_fm.php:874 admin/controllers/Themes_fm.php:889
+#: admin/controllers/Themes_fm.php:898 admin/controllers/Themes_fm.php:921
+#: admin/controllers/Themes_fm.php:930 admin/controllers/Themes_fm.php:973
+#: admin/controllers/Themes_fm.php:982 admin/controllers/Themes_fm.php:991
+#: admin/controllers/Themes_fm.php:1000 admin/controllers/Themes_fm.php:1017
+#: admin/controllers/Themes_fm.php:1052 admin/controllers/Themes_fm.php:1067
+#: admin/controllers/Themes_fm.php:1109 admin/controllers/Themes_fm.php:1134
+#: admin/controllers/Themes_fm.php:1151 admin/controllers/Themes_fm.php:1185
+#: admin/controllers/Themes_fm.php:1200 admin/controllers/Themes_fm.php:1248
+#: admin/controllers/Themes_fm.php:1273 admin/controllers/Themes_fm.php:1290
+#: admin/controllers/Themes_fm.php:1325 admin/controllers/Themes_fm.php:1340
+#: admin/controllers/Themes_fm.php:1368 admin/controllers/Themes_fm.php:1396
+#: admin/controllers/Themes_fm.php:1438 admin/controllers/Themes_fm.php:1480
+#: admin/controllers/Themes_fm.php:1489 admin/controllers/Themes_fm.php:1498
+#: admin/controllers/Themes_fm.php:1515 admin/controllers/Themes_fm.php:1549
+#: admin/controllers/Themes_fm.php:1564 admin/controllers/Themes_fm.php:1573
+#: admin/controllers/Themes_fm.php:1590 admin/controllers/Themes_fm.php:1623
+#: admin/controllers/Themes_fm.php:1665 admin/controllers/Themes_fm.php:1674
+#: admin/controllers/Themes_fm.php:1683 admin/controllers/Themes_fm.php:1700
+#: admin/controllers/Themes_fm.php:1734 admin/controllers/Themes_fm.php:1749
+#: admin/controllers/Themes_fm.php:1758 admin/controllers/Themes_fm.php:1775
+#: admin/controllers/Themes_fm.php:1810 admin/controllers/Themes_fm.php:1836
+#: admin/controllers/Themes_fm.php:1861 admin/controllers/Themes_fm.php:1870
+#: admin/controllers/Themes_fm.php:1887 admin/controllers/Themes_fm.php:1928
+#: admin/controllers/Themes_fm.php:1954 admin/controllers/Themes_fm.php:1979
+#: admin/controllers/Themes_fm.php:1988 admin/controllers/Themes_fm.php:2005
+#: admin/controllers/Themes_fm.php:2070 admin/controllers/Themes_fm.php:2112
+#: admin/controllers/Themes_fm.php:2145 admin/controllers/Themes_fm.php:2154
+#: admin/controllers/Themes_fm.php:2163 admin/controllers/Themes_fm.php:2180
+#: admin/controllers/Themes_fm.php:2214 admin/controllers/Themes_fm.php:2229
+#: admin/controllers/Themes_fm.php:2238 admin/controllers/Themes_fm.php:2255
+#: admin/controllers/Themes_fm.php:2288 admin/controllers/Themes_fm.php:2321
+#: admin/controllers/Themes_fm.php:2330 admin/controllers/Themes_fm.php:2339
+#: admin/controllers/Themes_fm.php:2356 admin/controllers/Themes_fm.php:2390
+#: admin/controllers/Themes_fm.php:2405 admin/controllers/Themes_fm.php:2414
+#: admin/controllers/Themes_fm.php:2431 admin/controllers/Themes_fm.php:2475
+#: admin/controllers/Themes_fm.php:2484 admin/controllers/Themes_fm.php:2493
+#: admin/controllers/Themes_fm.php:2502 admin/controllers/Themes_fm.php:2511
+#: admin/controllers/Themes_fm.php:2537 admin/controllers/Themes_fm.php:2546
+#: admin/controllers/Themes_fm.php:2555 admin/controllers/Themes_fm.php:2572
+#: admin/controllers/Themes_fm.php:2612 admin/controllers/Themes_fm.php:2621
+#: admin/controllers/Themes_fm.php:2638 admin/controllers/Themes_fm.php:2673
+#: admin/controllers/Themes_fm.php:2699 admin/controllers/Themes_fm.php:2717
+#: admin/controllers/Themes_fm.php:2726 admin/controllers/Themes_fm.php:2743
+#: admin/controllers/Themes_fm.php:2783 admin/controllers/Themes_fm.php:2792
+#: admin/controllers/Themes_fm.php:2843 admin/controllers/Themes_fm.php:2911
+msgid "e.g."
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:391 admin/controllers/Themes_fm.php:512
+#: admin/controllers/Themes_fm.php:770 admin/controllers/Themes_fm.php:1022
+#: admin/controllers/Themes_fm.php:1156 admin/controllers/Themes_fm.php:1295
+#: admin/controllers/Themes_fm.php:1520 admin/controllers/Themes_fm.php:1595
+#: admin/controllers/Themes_fm.php:1705 admin/controllers/Themes_fm.php:1780
+#: admin/controllers/Themes_fm.php:1892 admin/controllers/Themes_fm.php:2010
+#: admin/controllers/Themes_fm.php:2185 admin/controllers/Themes_fm.php:2260
+#: admin/controllers/Themes_fm.php:2361 admin/controllers/Themes_fm.php:2436
+#: admin/controllers/Themes_fm.php:2577 admin/controllers/Themes_fm.php:2643
+#: admin/controllers/Themes_fm.php:2748 admin/controllers/Themes_fm.php:2813
+msgid "Border Type"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:400 admin/controllers/Themes_fm.php:521
+#: admin/controllers/Themes_fm.php:779 admin/controllers/Themes_fm.php:1031
+#: admin/controllers/Themes_fm.php:1165 admin/controllers/Themes_fm.php:1304
+#: admin/controllers/Themes_fm.php:1529 admin/controllers/Themes_fm.php:1604
+#: admin/controllers/Themes_fm.php:1714 admin/controllers/Themes_fm.php:1789
+#: admin/controllers/Themes_fm.php:1901 admin/controllers/Themes_fm.php:2019
+#: admin/controllers/Themes_fm.php:2194 admin/controllers/Themes_fm.php:2269
+#: admin/controllers/Themes_fm.php:2370 admin/controllers/Themes_fm.php:2445
+#: admin/controllers/Themes_fm.php:2586 admin/controllers/Themes_fm.php:2652
+#: admin/controllers/Themes_fm.php:2757 admin/controllers/Themes_fm.php:2822
+msgid "Border Width"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:408 admin/controllers/Themes_fm.php:529
+#: admin/controllers/Themes_fm.php:787 admin/controllers/Themes_fm.php:1039
+#: admin/controllers/Themes_fm.php:1173 admin/controllers/Themes_fm.php:1229
+#: admin/controllers/Themes_fm.php:1313 admin/controllers/Themes_fm.php:1401
+#: admin/controllers/Themes_fm.php:1537 admin/controllers/Themes_fm.php:1722
+#: admin/controllers/Themes_fm.php:1909 admin/controllers/Themes_fm.php:2027
+#: admin/controllers/Themes_fm.php:2202 admin/controllers/Themes_fm.php:2378
+#: admin/controllers/Themes_fm.php:2594 admin/controllers/Themes_fm.php:2765
+msgid "Border Radius"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:416 admin/controllers/Themes_fm.php:1047
+#: admin/controllers/Themes_fm.php:1181 admin/controllers/Themes_fm.php:1321
+#: admin/controllers/Themes_fm.php:1545 admin/controllers/Themes_fm.php:1730
+#: admin/controllers/Themes_fm.php:2210 admin/controllers/Themes_fm.php:2386
+msgid "Box Shadow"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:427 admin/controllers/Themes_fm.php:626
+msgid "General Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:434 admin/controllers/Themes_fm.php:599
+#: admin/controllers/Themes_fm.php:675 admin/controllers/Themes_fm.php:1418
+#: admin/controllers/Themes_fm.php:2042
+msgid "Alignment"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:443 admin/controllers/Themes_fm.php:633
+#: admin/controllers/Themes_fm.php:852 admin/controllers/Themes_fm.php:969
+#: admin/controllers/Themes_fm.php:1105 admin/controllers/Themes_fm.php:1196
+#: admin/controllers/Themes_fm.php:1244 admin/controllers/Themes_fm.php:1336
+#: admin/controllers/Themes_fm.php:1434 admin/controllers/Themes_fm.php:1560
+#: admin/controllers/Themes_fm.php:1619 admin/controllers/Themes_fm.php:1745
+#: admin/controllers/Themes_fm.php:1806 admin/controllers/Themes_fm.php:1924
+#: admin/controllers/Themes_fm.php:2108 admin/controllers/Themes_fm.php:2225
+#: admin/controllers/Themes_fm.php:2284 admin/controllers/Themes_fm.php:2401
+#: admin/controllers/Themes_fm.php:2507 admin/controllers/Themes_fm.php:2608
+#: admin/controllers/Themes_fm.php:2669 admin/controllers/Themes_fm.php:2779
+msgid "Background Color"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:460 admin/controllers/Themes_fm.php:667
+msgid "Width (for topbar form type)"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:486 admin/controllers/Themes_fm.php:2704
+msgid "Text Align"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:537
+msgid "Title Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:544 admin/controllers/Themes_fm.php:576
+#: admin/controllers/Themes_fm.php:642 admin/controllers/Themes_fm.php:802
+#: admin/controllers/Themes_fm.php:952 admin/controllers/Themes_fm.php:1459
+#: admin/controllers/Themes_fm.php:1644 admin/controllers/Themes_fm.php:1815
+#: admin/controllers/Themes_fm.php:1933 admin/controllers/Themes_fm.php:2084
+#: admin/controllers/Themes_fm.php:2516 admin/controllers/Themes_fm.php:2678
+msgid "Font Size"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:552 admin/controllers/Themes_fm.php:650
+#: admin/controllers/Themes_fm.php:810 admin/controllers/Themes_fm.php:960
+#: admin/controllers/Themes_fm.php:1467 admin/controllers/Themes_fm.php:1652
+#: admin/controllers/Themes_fm.php:1823 admin/controllers/Themes_fm.php:1941
+#: admin/controllers/Themes_fm.php:2092 admin/controllers/Themes_fm.php:2524
+#: admin/controllers/Themes_fm.php:2686
+msgid "Font Weight"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:561 admin/controllers/Themes_fm.php:584
+#: admin/controllers/Themes_fm.php:728 admin/controllers/Themes_fm.php:819
+#: admin/controllers/Themes_fm.php:978 admin/controllers/Themes_fm.php:1476
+#: admin/controllers/Themes_fm.php:1569 admin/controllers/Themes_fm.php:1661
+#: admin/controllers/Themes_fm.php:1754 admin/controllers/Themes_fm.php:1832
+#: admin/controllers/Themes_fm.php:1950 admin/controllers/Themes_fm.php:2141
+#: admin/controllers/Themes_fm.php:2234 admin/controllers/Themes_fm.php:2317
+#: admin/controllers/Themes_fm.php:2410 admin/controllers/Themes_fm.php:2533
+#: admin/controllers/Themes_fm.php:2617 admin/controllers/Themes_fm.php:2695
+#: admin/controllers/Themes_fm.php:2788 admin/controllers/Themes_fm.php:2839
+#: admin/controllers/Themes_fm.php:2862
+msgid "Color"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:570
+msgid "Description Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:593
+msgid "Image Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:616 admin/controllers/Themes_fm.php:944
+#: admin/controllers/Themes_fm.php:1122 admin/controllers/Themes_fm.php:1213
+#: admin/controllers/Themes_fm.php:1261 admin/controllers/Themes_fm.php:1384
+#: admin/controllers/Themes_fm.php:1451 admin/controllers/Themes_fm.php:1636
+#: admin/controllers/Themes_fm.php:1841 admin/controllers/Themes_fm.php:1959
+#: admin/controllers/Themes_fm.php:2125 admin/controllers/Themes_fm.php:2301
+msgid "Height"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:684 admin/controllers/Themes_fm.php:1072
+#: admin/controllers/Themes_fm.php:1345 admin/controllers/Themes_fm.php:2888
+msgid "Background URL"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:693 admin/controllers/Themes_fm.php:1081
+#: admin/controllers/Themes_fm.php:1354 admin/controllers/Themes_fm.php:2897
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:702 admin/controllers/Themes_fm.php:1363
+#: admin/controllers/Themes_fm.php:2906
+msgid "Background Position"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:715
+msgid "Background Size"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:795
+msgid "Mini labels (name, phone, address, checkbox, radio) Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:846
+msgid "Section Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:879
+msgid "Section Column Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:903
+msgid "Footer Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1056
+msgid "Dropdown additional"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1063
+msgid "Appearance"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1098 admin/views/Manage_fm.php:1074
+msgid "Single Choice"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1190 admin/controllers/Themes_fm.php:1330
+msgid "Checked Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1237 admin/views/Manage_fm.php:1075
+msgid "Multiple Choice"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1427 admin/views/Manage_fm.php:1077
+msgid "Submit"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1554 admin/controllers/Themes_fm.php:1739
+#: admin/controllers/Themes_fm.php:2219 admin/controllers/Themes_fm.php:2395
+#: admin/controllers/Themes_fm.php:2602 admin/controllers/Themes_fm.php:2773
+msgid "Hover Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1612
+msgid "Reset"
+msgstr "איפוס "
+
+#: admin/controllers/Themes_fm.php:1799
+msgid "Active"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1849 admin/controllers/Themes_fm.php:1967
+#: admin/controllers/Themes_fm.php:2133 admin/controllers/Themes_fm.php:2309
+msgid "Line Height"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:1917
+msgid "Inactive"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2035
+msgid "Steps"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2059
+msgid "Percentage"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2101
+msgid "Next Button Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2277
+msgid "Previous Button Parameters"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2462
+msgid "Position"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2832
+msgid "Inactive Text"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2848
+msgid "Font Style"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2856
+msgid "Required"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2870
+msgid "Shake effect"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2874 admin/views/Themes_fm.php:304
+msgid "Yes"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2875 admin/views/Themes_fm.php:306
+msgid "No"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2882 admin/views/Manage_fm.php:1091
+msgid "File Upload"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2919
+msgid "Grading"
+msgstr ""
+
+#: admin/controllers/Themes_fm.php:2925
+msgid "Text Width"
+msgstr ""
+
+#: admin/controllers/Uninstall_fm.php:52 admin/views/Options_fm.php:171
+#, php-format
+msgid "Uninstall %s"
+msgstr ""
+
+#: admin/controllers/Widget.php:18
+#, php-format
+msgid "Add %s widget."
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:24
+#: admin/controllers/elementorWidget.php:52
+msgid "Form"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:68
+msgid "Select the form to display."
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:68
+msgid "Edit form"
+msgstr ""
+
+#: admin/models/Manage_fm.php:384
+msgid "Section Break"
+msgstr ""
+
+#: admin/models/Manage_fm.php:395
+msgid "Custom HTML"
+msgstr ""
+
+#: admin/models/Manage_fm.php:2240 form-maker.php:697
+#: frontend/views/form_maker.php:1333
+msgid "No preview available for reCAPTCHA."
+msgstr ""
+
+#: admin/models/Submissions_fm.php:359
+msgid "Street Address"
+msgstr "כתובת רחוב"
+
+#: admin/models/Submissions_fm.php:362
+msgid "Street Address Line 2"
+msgstr "רחוב שורת כתובת 2"
+
+#: admin/models/Submissions_fm.php:365
+msgid "City"
+msgstr "עיר"
+
+#: admin/models/Submissions_fm.php:368
+msgid "State / Province / Region"
+msgstr "אזור / מדינה / אזור"
+
+#: admin/models/Submissions_fm.php:371
+msgid "Postal / Zip Code"
+msgstr "מיקוד / מיקוד"
+
+#: admin/models/Submissions_fm.php:374
+msgid "Country"
+msgstr "ארץ"
+
+#: admin/views/Blocked_ips_fm.php:59 form-maker.php:463
+msgid "Blocked IPs"
+msgstr ""
+
+#: admin/views/Blocked_ips_fm.php:80 framework/WDW_FM_Library.php:5368
+msgid "IP"
+msgstr ""
+
+#: admin/views/Blocked_ips_fm.php:120 admin/views/Manage_fm.php:159
+#: admin/views/Submissions_fm.php:536 admin/views/Themes_fm.php:104
+msgid "Do you want to delete selected item?"
+msgstr ""
+
+#: admin/views/FMSelectDataFromDb.php:166
+msgid "Connection type"
+msgstr ""
+
+#: admin/views/FMShortocde.php:46 admin/views/FMShortocde.php:90
+#: framework/WDW_FM_Library.php:5389 framework/WDW_FM_Library.php:5608
+msgid "Unpublished"
+msgstr ""
+
+#: admin/views/FMShortocde.php:74
+msgid "Front end submissions are available in Premium version"
+msgstr ""
+
+#: admin/views/FMSqlMapping.php:832 admin/views/FMSqlMapping.php:1815
+#: admin/views/Manage_fm.php:93
+msgid "Type"
+msgstr ""
+
+#: admin/views/FMSqlMapping.php:835 admin/views/FMSqlMapping.php:1818
+msgid "Null"
+msgstr ""
+
+#: admin/views/FMSqlMapping.php:838 admin/views/FMSqlMapping.php:1821
+msgid "Key"
+msgstr ""
+
+#: admin/views/FMSqlMapping.php:841 admin/views/FMSqlMapping.php:1824
+#: admin/views/Themes_fm.php:79
+msgid "Default"
+msgstr ""
+
+#: admin/views/FMSqlMapping.php:844 admin/views/FMSqlMapping.php:1827
+msgid "Extra"
+msgstr ""
+
+#: admin/views/FormMakerSubmits.php:51 admin/views/Manage_fm.php:1072
+msgid "Date"
+msgstr ""
+
+#: admin/views/LibSubscribe.php:12
+msgid ""
+"Hey! I know how hard and time-consuming creating a well-structured form can "
+"be."
+msgstr ""
+
+#: admin/views/Manage_fm.php:68 admin/views/view.php:442 form-maker.php:459
+msgid "Forms"
+msgstr ""
+
+#: admin/views/Manage_fm.php:92 admin/views/Themes_fm.php:78
+#: admin/views/Themes_fm.php:153
+msgid "Title"
+msgstr "כותרת"
+
+#: admin/views/Manage_fm.php:95
+msgid "Shortcode"
+msgstr ""
+
+#: admin/views/Manage_fm.php:317
+#, php-format
+msgid ""
+"You need to click the \"Restore this revision\" button to save the changes. "
+"Revision number %u %s"
+msgstr ""
+
+#: admin/views/Manage_fm.php:496
+msgid "Current"
+msgstr ""
+
+#: admin/views/Manage_fm.php:668 admin/views/Manage_fm.php:673
+msgid "Loading..."
+msgstr ""
+
+#: admin/views/Manage_fm.php:1068 admin/views/Manage_fm.php:1147
+msgid "BASIC FIELDS"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1069
+msgid "Single Line Text"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1070
+msgid "Paragraph Text"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1071
+#, fuzzy
+#| msgid "November"
+msgid "Number"
+msgstr "נובמבר"
+
+#: admin/views/Manage_fm.php:1073
+#, fuzzy
+#| msgid "Select a Date"
+msgid "Select"
+msgstr "בחר תאריך"
+
+#: admin/views/Manage_fm.php:1076
+msgid "Recaptcha"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1078
+msgid "Simple Captcha"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1080
+msgid "USER INFO FIELDS"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1081
+msgid "Name"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1082
+msgid "Email"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1083
+msgid "Phone"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1084
+msgid "Address"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1085
+msgid "Mark on Map"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1086
+#, fuzzy
+#| msgid "Country"
+msgid "Country List"
+msgstr "ארץ"
+
+#: admin/views/Manage_fm.php:1087
+msgid "Date of Birth"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1089
+msgid "ADVANCED"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1090
+msgid "HTML"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1092
+#, fuzzy
+#| msgid "May"
+msgid "Map"
+msgstr "מאי"
+
+#: admin/views/Manage_fm.php:1093
+msgid "Time"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1094
+msgid "Receive Copy"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1095
+msgid "Date Range"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1096
+msgid "Stars"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1097
+msgid "Rating"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1098
+msgid "Slider"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1099
+msgid "Range"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1100
+msgid "Grades"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1101
+#, fuzzy
+#| msgid "Select a Field"
+msgid "Table of Fields"
+msgstr "בחר שדה "
+
+#: admin/views/Manage_fm.php:1102
+msgid "Hidden Input"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1103
+msgid "Custom Button"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1104
+msgid "Password"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1105
+#, fuzzy
+#| msgid "Area Code"
+msgid "Phone-Area Code"
+msgstr "קידומת"
+
+#: admin/views/Manage_fm.php:1106
+msgid "Arithmetic Captcha"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1108
+msgid "PAYMENT"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1109
+msgid "Price"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1110
+msgid "Payment Select"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1111
+msgid "Payment Single Choice"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1112
+msgid "Payment Multiple Choice"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1113
+msgid "Shipping"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1114 frontend/views/form_maker.php:4554
+#: frontend/views/form_submissions.php:646
+msgid "Total"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1115
+msgid "Stripe"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1149 admin/views/Manage_fm.php:2093
+msgid "Toggle panel:"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1176
+msgid "This field type is available in Premium version"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1181 admin/views/Manage_fm.php:1575
+msgid "STRIPE extension compatible with Premium version only"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1186 admin/views/Manage_fm.php:1583
+msgid "This feature is available only in the Premium version"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1186 admin/views/Manage_fm.php:1583
+msgid "Requires STRIPE extension."
+msgstr ""
+
+#: admin/views/Manage_fm.php:1189 admin/views/Manage_fm.php:1586
+msgid "This feature requires STRIPE extension"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1189 admin/views/Manage_fm.php:1586
+msgid "Buy"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1351
+msgid "This functionality is available in Premium version"
+msgstr ""
+
+#: admin/views/Manage_fm.php:1521
+msgid "PAYPAL is available in Premium version"
+msgstr ""
+
+#: admin/views/Manage_fm.php:2018
+#, php-format
+msgid "You can manage your privacy settings %s."
+msgstr ""
+
+#: admin/views/Manage_fm.php:2018
+msgid "here"
+msgstr ""
+
+#: admin/views/Manage_fm.php:2091 framework/WDW_FM_Library.php:5365
+#: framework/WDW_FM_Library.php:5375
+msgid "Misc"
+msgstr ""
+
+#: admin/views/Manage_fm.php:2451
+msgid "All categories"
+msgstr ""
+
+#: admin/views/Options_fm.php:30 form-maker.php:465
+msgid "Options"
+msgstr ""
+
+#: admin/views/Options_fm.php:36 admin/views/Themes_fm.php:151
+msgid "Save"
+msgstr ""
+
+#: admin/views/Options_fm.php:87
+#, php-format
+msgid "%s for your site from ReCaptcha website and copy the provided here."
+msgstr ""
+
+#: admin/views/Options_fm.php:87
+msgid "Get ReCaptcha Site and Secret Keys"
+msgstr ""
+
+#: admin/views/Options_fm.php:94
+#, php-format
+msgid ""
+"ReCaptcha v3 returns a score based on the user interactions with your forms. "
+"Scores range from 0.0 to 1.0, with 0.0 indicating abusive traffic and 1.0 "
+"indicating good traffic. %sVisit%s ReCaptcha admin to review verification "
+"statistics."
+msgstr ""
+
+#: admin/views/Submissions_fm.php:106
+#, php-format
+msgid ""
+"An unexpected error occurred while exporting data. %s Please contact 10Web "
+"Customer Care. %s"
+msgstr ""
+
+#: admin/views/Submissions_fm.php:212
+msgid ""
+"Form maker Export will not work correctly, as XML PHP extension is disabled "
+"on your website. Please contact your hosting provider and ask them to enable "
+"it."
+msgstr ""
+
+#: admin/views/Submissions_fm.php:227
+msgid "Show Filters"
+msgstr ""
+
+#: admin/views/Submissions_fm.php:227
+msgid "Hide Filters"
+msgstr ""
+
+#: admin/views/Submissions_fm.php:564
+msgid "Successfully Sent"
+msgstr ""
+
+#: admin/views/Submissions_fm.php:569 frontend/views/form_submissions.php:481
+msgid "Failed"
+msgstr ""
+
+#: admin/views/Themes_fm.php:159
+#, fuzzy
+#| msgid "Title"
+msgid "Title: "
+msgstr "כותרת"
+
+#: admin/views/Themes_fm.php:243
+msgid ""
+"This theme is outdated. Theme Options are only available in new themes "
+"provided by Form Maker. You can use Custom CSS panel to edit form styling, "
+"or alternatively select a new theme for your form."
+msgstr ""
+
+#: admin/views/Uninstall_fm.php:55
+msgid "support team"
+msgstr ""
+
+#: admin/views/Uninstall_fm.php:56
+msgid "Contact us"
+msgstr ""
+
+#: admin/views/Uninstall_fm.php:57
+#, php-format
+msgid ""
+"Before uninstalling the plugin, please Contact our %s. We'll do our best to "
+"help you out with your issue. We value each and every user and value what's "
+"right for our users in everything we do.<br />\n"
+"      However, if anyway you have made a decision to uninstall the plugin, "
+"please take a minute to %s and tell what you didn't like for our plugins "
+"further improvement and development. Thank you !!!"
+msgstr ""
+
+#: admin/views/Uninstall_fm.php:61
+#, php-format
+msgid ""
+"Deactivating %s plugin does not remove any data that may have been created. "
+"To completely remove this plugin, you can uninstall it here."
+msgstr ""
+
+#: admin/views/Uninstall_fm.php:89
+#, php-format
+msgid "Do you really want to uninstall %s?"
+msgstr ""
+
+#: admin/views/Uninstall_fm.php:99
+msgid "UNINSTALL"
+msgstr ""
+
+#: admin/views/Uninstall_fm.php:101
+#, php-format
+msgid ""
+"You are About to Uninstall %s from WordPress. This Action Is Not Reversible."
+msgstr ""
+
+#: admin/views/view.php:447
+msgid "Extensions"
+msgstr ""
+
+#: admin/views/view.php:452
+msgid "Premium Version"
+msgstr ""
+
+#: admin/views/view.php:452 admin/views/view.php:491
+msgid "Upgrade"
+msgstr ""
+
+#: banner_class.php:378
+msgid "Activate"
+msgstr ""
+
+#: banner_class.php:378
+msgid "Install"
+msgstr ""
+
+#: banner_class.php:382
+msgid "Activation failed, please try again."
+msgstr ""
+
+#: banner_class.php:382
+msgid "Installation failed, please try again."
+msgstr ""
+
+#: form-maker.php:110
+msgid "Contact Form"
+msgstr ""
+
+#: form-maker.php:110
+msgid "Form Maker"
+msgstr ""
+
+#: form-maker.php:281
+msgid "Help"
+msgstr ""
+
+#: form-maker.php:309
+msgid "10WEB Plugins"
+msgstr ""
+
+#: form-maker.php:319
+msgid ""
+"When you leave a comment on this site, we send your name, email\n"
+"        address, IP address and comment text to example.com. Example.com "
+"does\n"
+"        not retain your personal data."
+msgstr ""
+
+#: form-maker.php:375 form-maker.php:383
+#, fuzzy, php-format
+#| msgid "Select a Date"
+msgid "Select %s"
+msgstr "בחר תאריך"
+
+#: form-maker.php:410
+#, fuzzy
+#| msgid "Nothing was submitted."
+msgid "Nothing selected."
+msgstr "שום דבר לא הוגשה."
+
+#: form-maker.php:411
+#, fuzzy
+#| msgid "Select a Date"
+msgid "- Select -"
+msgstr "בחר תאריך"
+
+#: form-maker.php:466
+msgid "Uninstall"
+msgstr ""
+
+#: form-maker.php:473 form-maker.php:1603
+msgid "Ask a question"
+msgstr ""
+
+#: form-maker.php:527
+msgid "Number of items per page:"
+msgstr ""
+
+#: form-maker.php:661 form-maker.php:684
+msgid "Add Field"
+msgstr ""
+
+#: form-maker.php:662
+msgid "Add Column"
+msgstr ""
+
+#: form-maker.php:663
+#, fuzzy
+msgid "Field is required."
+msgstr "שדה חובה."
+
+#: form-maker.php:664
+#, fuzzy
+msgid "Enter a valid value."
+msgstr "זו אינה כתובת דאל חוקית."
+
+#: form-maker.php:665 frontend/models/form_maker.php:2198
+#, fuzzy
+#| msgid "This is not a valid email address."
+msgid "Enter a valid email address."
+msgstr "זו אינה כתובת דאל חוקית."
+
+#: form-maker.php:670
+msgid "Do you want to delete selected items?"
+msgstr ""
+
+#: form-maker.php:671
+msgid "You must select at least one item."
+msgstr ""
+
+#: form-maker.php:672
+msgid "Add placeholder"
+msgstr ""
+
+#: form-maker.php:680
+#, fuzzy
+#| msgid "Nothing was submitted."
+msgid "Nothing found."
+msgstr "שום דבר לא הוגשה."
+
+#: form-maker.php:681
+msgid "The captcha already has been created."
+msgstr ""
+
+#: form-maker.php:682 form-maker.php:796
+msgid "Update"
+msgstr ""
+
+#: form-maker.php:683
+msgid "Add"
+msgstr ""
+
+#: form-maker.php:685
+msgid "Edit Field"
+msgstr ""
+
+#: form-maker.php:686
+msgid ""
+"To use this feature, please go to Settings > Payment Options and select "
+"\"Stripe\" as the Payment Method."
+msgstr ""
+
+#: form-maker.php:687 framework/WDW_FM_Library.php:4841
+msgid "Sunday"
+msgstr ""
+
+#: form-maker.php:688 framework/WDW_FM_Library.php:4841
+msgid "Monday"
+msgstr ""
+
+#: form-maker.php:689 framework/WDW_FM_Library.php:4841
+msgid "Tuesday"
+msgstr ""
+
+#: form-maker.php:690 framework/WDW_FM_Library.php:4841
+msgid "Wednesday"
+msgstr ""
+
+#: form-maker.php:691 framework/WDW_FM_Library.php:4841
+msgid "Thursday"
+msgstr ""
+
+#: form-maker.php:692 framework/WDW_FM_Library.php:4841
+msgid "Friday"
+msgstr ""
+
+#: form-maker.php:693 framework/WDW_FM_Library.php:4841
+msgid "Saturday"
+msgstr ""
+
+#: form-maker.php:694
+msgid "Leave empty to set the width to 100%."
+msgstr ""
+
+#: form-maker.php:696
+msgid ""
+"The free version is limited up to 7 fields to add. If you need this "
+"functionality, you need to buy the commercial version."
+msgstr ""
+
+#: form-maker.php:698
+#, php-format
+msgid ""
+"%s Old reCAPTCHA keys will not work for %s. Please make sure to enable the "
+"API keys for Invisible reCAPTCHA."
+msgstr ""
+
+#: form-maker.php:698
+msgid "Note:"
+msgstr ""
+
+#: form-maker.php:698
+msgid "Invisible reCAPTCHA"
+msgstr ""
+
+#: form-maker.php:699
+msgid "This field is a single line text input."
+msgstr ""
+
+#: form-maker.php:699 form-maker.php:701 form-maker.php:708 form-maker.php:709
+#: form-maker.php:730
+msgid "To set a default value, just fill the field above."
+msgstr ""
+
+#: form-maker.php:699 form-maker.php:700
+msgid ""
+"You can set the text input as Required, making sure the submitter provides a "
+"value for it."
+msgstr ""
+
+#: form-maker.php:699
+msgid ""
+"Validation (RegExp.) option in Advanced options lets you configure Regular "
+"Expression for your Single Line Text field. Use Common Regular Expressions "
+"select box to use built-in validation patterns. For instance, in case you "
+"can add a validation for decimal number, IP address or zip code by selecting "
+"corresponding options of Common Regular Expressions drop-down."
+msgstr ""
+
+#: form-maker.php:699
+msgid ""
+"Additionally, you can add HTML attributes to your form fields with "
+"Additional Attributes."
+msgstr ""
+
+#: form-maker.php:700
+msgid ""
+"This field adds a textarea box to your form. Users can write alphanumeric "
+"text, special characters and line breaks."
+msgstr ""
+
+#: form-maker.php:700
+msgid "Set the width and height of the textarea box using Size(px) option."
+msgstr ""
+
+#: form-maker.php:701
+msgid ""
+"This is an input text that accepts only numbers. Users can type a number "
+"directly, or use the spinner arrows to specify it."
+msgstr ""
+
+#: form-maker.php:701
+msgid ""
+"Step option defines the number to increment/decrement the spinner value, "
+"when the users press up or down arrows."
+msgstr ""
+
+#: form-maker.php:701
+msgid ""
+"Use Min Value and Max Value options to set lower and upper limitation for "
+"the value of this Number field."
+msgstr ""
+
+#: form-maker.php:702
+msgid ""
+"This field allows the submitter to choose values from select box. Just click "
+"(+) Option button and fill in all options you will need or click  (+) From "
+"Database to fill the options from a database table."
+msgstr ""
+
+#: form-maker.php:702 form-maker.php:703 form-maker.php:704
+msgid ""
+"In case you need to have option values to be different from option names, "
+"mark Enable option's value from Advanced options as checked."
+msgstr ""
+
+#: form-maker.php:703
+msgid ""
+"Using this field you can add a list of Radio buttons to your form. Just "
+"click (+) Option button and fill in all options you will need or click  (+) "
+"From Database to fill the options from a database table."
+msgstr ""
+
+#: form-maker.php:703 form-maker.php:704
+msgid ""
+"Relative Position lets you choose the position of options in relation to "
+"each other. Whereas Option Label Position lets you select the position of "
+"radio button label."
+msgstr ""
+
+#: form-maker.php:703 form-maker.php:704
+msgid ""
+"And by enabling Allow other, you can let the user to write their own "
+"specific value."
+msgstr ""
+
+#: form-maker.php:704
+msgid ""
+"Multiple Choice field lets you have a list of Checkboxes. This field allows "
+"the submitter to choose more than one values."
+msgstr ""
+
+#: form-maker.php:704
+msgid ""
+"Just click (+) Option button and fill in all options you will need or click  "
+"(+) From Database to fill the options from a database table."
+msgstr ""
+
+#: form-maker.php:705
+#, php-format
+msgid ""
+"Form Maker is integrated with Google ReCaptcha, which protects your forms "
+"from spam bots. Before adding ReCaptcha to your form, you need to configure "
+"Site and Secret Keys by registering your website on %s"
+msgstr ""
+
+#: form-maker.php:705
+msgid "Google ReCaptcha website"
+msgstr ""
+
+#: form-maker.php:705
+msgid ""
+"After registering and creating the keys, copy them to Form Maker > Options "
+"page."
+msgstr ""
+
+#: form-maker.php:706
+msgid ""
+"The Submit button validates all form field values, saves them on MySQL "
+"database of your website, sends emails and performs other actions configured "
+"in Form Options. You can have more than one submit button in your form."
+msgstr ""
+
+#: form-maker.php:707
+msgid ""
+"You can use this field as an alternative to ReCaptcha to protect your forms "
+"against spambots. It’s a random combination of numbers and letters, and "
+"users need to type them in correctly to submit the form."
+msgstr ""
+
+#: form-maker.php:707
+msgid ""
+"You can specify the number of symbols in Simple Captcha using Symbols (3 - "
+"9) option."
+msgstr ""
+
+#: form-maker.php:708
+msgid "This field lets the user write their name."
+msgstr ""
+
+#: form-maker.php:708
+msgid ""
+"Enabling Autofill with user name setting will automatically fill in Name "
+"field with the name of the logged in user."
+msgstr ""
+
+#: form-maker.php:708
+msgid ""
+"In case you do not wish to receive the same data for the same Name field "
+"twice, activate Allow only unique values option."
+msgstr ""
+
+#: form-maker.php:709
+#, fuzzy
+#| msgid "This is not a valid email address."
+msgid "This field is an input field that accepts an email address."
+msgstr "זו אינה כתובת דאל חוקית."
+
+#: form-maker.php:709
+msgid ""
+"Using Confirmation Email setting in Advanced Options you can require the "
+"submitter to re-type their email address."
+msgstr ""
+
+#: form-maker.php:709
+msgid ""
+"Autofill with user email will autofill Email field with the email address of "
+"the logged in user."
+msgstr ""
+
+#: form-maker.php:709
+msgid ""
+"Upon successful submission of the Form, you have the option to send the "
+"submitted data (or just a confirmation message) to the email address entered "
+"here. To do this you need to set the corresponding options on Form Options > "
+"Email Options page."
+msgstr ""
+
+#: form-maker.php:710
+msgid ""
+"This field is an input for a phone number. It provides a list of country "
+"flags, which users can select and have their country code automatically "
+"added to the phone number."
+msgstr ""
+
+#: form-maker.php:710
+msgid ""
+"In case you do not wish to receive the same data for the same Phone field "
+"more than once, activate Allow only unique values setting from Advanced "
+"options."
+msgstr ""
+
+#: form-maker.php:711
+msgid ""
+"This field lets you skip a few steps and quickly add one set for requesting "
+"the address of the submitter. Use Overall size(px) option to set the width "
+"of Address field."
+msgstr ""
+
+#: form-maker.php:711
+msgid ""
+"You can enable or disable elements of Address field using Disable Field(s) "
+"setting in Advanced Options."
+msgstr ""
+
+#: form-maker.php:711
+msgid ""
+"You can turn State/Province/Region field into a list of US states by "
+"activating Use list for US states setting from Advanced Options. Note: This "
+"only works in case United States is selected for Country select box."
+msgstr ""
+
+#: form-maker.php:712
+msgid ""
+"Mark on Map field lets users to drag the map pin and drop it on their "
+"selected location. You can specify a default address for the location pin "
+"with Address option."
+msgstr ""
+
+#: form-maker.php:712
+msgid ""
+"In addition, Marker Info setting allows you to provide additional details "
+"about the location. It will appear after users click on the location pin."
+msgstr ""
+
+#: form-maker.php:713
+msgid ""
+"Country List is a select box which provides a list of all countries in "
+"alphabetical order."
+msgstr ""
+
+#: form-maker.php:713
+msgid ""
+"You can include/exclude specific countries from the list using the Edit "
+"country list setting in Advanced Options."
+msgstr ""
+
+#: form-maker.php:714
+msgid "Users can specify their birthday or any date with this field."
+msgstr ""
+
+#: form-maker.php:714
+msgid ""
+"Use Fields separator setting in Advanced options to change the divider "
+"between day, month and year boxes."
+msgstr ""
+
+#: form-maker.php:714
+msgid ""
+"You can set the fields to be text inputs or select boxes using Day field "
+"type, Month field type and Year field type options."
+msgstr ""
+
+#: form-maker.php:714
+msgid ""
+"In addition, you can specify the width of day, month and year fields using "
+"Day field size(px), Month field size(px) and Year field size(px) settings."
+msgstr ""
+
+#: form-maker.php:715
+msgid ""
+"You can allow users to upload single or multiple documents, images and "
+"various files through your form."
+msgstr ""
+
+#: form-maker.php:715
+msgid ""
+"Use Allowed file extensions option to specify all acceptable file formats. "
+"Make sure to separate them with commas."
+msgstr ""
+
+#: form-maker.php:715
+msgid ""
+"Mark Allow Uploading Multiple Files option in Advanced Options to allow "
+"users to select and upload multiple files."
+msgstr ""
+
+#: form-maker.php:716
+msgid ""
+"Map field can be used for pinning one or more locations on Google Map and "
+"displaying them on your form."
+msgstr ""
+
+#: form-maker.php:716
+msgid "Press the small Plus icon to add a location pin."
+msgstr ""
+
+#: form-maker.php:717
+msgid ""
+"Time field of Form Maker plugin will allow users to specify time value. Set "
+"the time format of the field to 24-hour or 12-hour using Time Format option."
+msgstr ""
+
+#: form-maker.php:718
+msgid ""
+"When users fill in an email address using Email Field, this checkbox will "
+"allow them to choose if they wish to receive a copy of the submission email."
+msgstr ""
+
+#: form-maker.php:718
+msgid "Note: Make sure to configure Form Options > Email Options of your form."
+msgstr ""
+
+#: form-maker.php:719
+msgid ""
+"Add Star rating field to your form with this field. You can display as many "
+"stars, as you will need, set the number using Number of Stars option."
+msgstr ""
+
+#: form-maker.php:720
+msgid ""
+"Place Rating field on your form to have radio buttons, which indicate rating "
+"from worst to best. You can set many radio buttons to display using Scale "
+"Range option."
+msgstr ""
+
+#: form-maker.php:721
+msgid ""
+"Slider field lets users specify the field value by dragging its handle from "
+"Min Value to Max Value."
+msgstr ""
+
+#: form-maker.php:722
+msgid ""
+"You can use this field to let users choose a numeric range by providing "
+"values for 2 number inputs. Its Step option allows to set the increment/"
+"decrement of spinners’ values, when users click on up or down arrows."
+msgstr ""
+
+#: form-maker.php:723
+msgid ""
+"Users will be able to grade specified items with this field. The sum of all "
+"values will appear below the field with Total parameter."
+msgstr ""
+
+#: form-maker.php:723
+msgid "Items option allows you to add multiple options to your Grades field."
+msgstr ""
+
+#: form-maker.php:724
+msgid ""
+"Table of Fields lets you place a matrix on your form, which will let the "
+"submitter to answer a few questions with one field."
+msgstr ""
+
+#: form-maker.php:724
+msgid ""
+"It allows you to configure the matrix with radio buttons, checkboxes, text "
+"boxes or drop-downs. Use Input Type option to set this."
+msgstr ""
+
+#: form-maker.php:725
+msgid ""
+"Hidden Input field is similar to Single Line Text field, but it is not "
+"visible to users. Hidden Fields are handy, in case you need to run a custom "
+"Javascript and submit the result with the info on your form."
+msgstr ""
+
+#: form-maker.php:725
+msgid ""
+"Name option of this field is mandatory. Note: we highly recommend you to "
+"avoid using spaces or special characters in Hidden Input name. You can write "
+"the custom Javascript code using the editor on Form Options > Javascript "
+"page."
+msgstr ""
+
+#: form-maker.php:726
+msgid ""
+"In case you wish to run custom Javascript on your form, you can place Custom "
+"Button on your form. Its lets you call the script with its OnClick function."
+msgstr ""
+
+#: form-maker.php:726
+msgid ""
+"You can write the custom Javascript code using the editor on Form Options > "
+"Javascript page."
+msgstr ""
+
+#: form-maker.php:727
+msgid ""
+"Password input can be used to allow users provide secret text, such as "
+"passwords. All symbols written in this field are replaced with dots."
+msgstr ""
+
+#: form-maker.php:727
+msgid ""
+"You can activate Password Confirmation option to ask users to repeat the "
+"password."
+msgstr ""
+
+#: form-maker.php:728
+msgid ""
+"Phone-Area Code is a Phone type field, which allows users to write Area Code "
+"and Phone Number into separate inputs."
+msgstr ""
+
+#: form-maker.php:729
+msgid ""
+"Arithmetic Captcha is quite similar to Simple Captcha. However, instead of "
+"showing random symbols, it displays arithmetic operations."
+msgstr ""
+
+#: form-maker.php:729
+msgid ""
+"You can set the operations using Operations option. The field can use "
+"addition (+), subtraction (-), multiplication (*) and division (/)."
+msgstr ""
+
+#: form-maker.php:729
+msgid "Make sure to separate the operations with commas."
+msgstr ""
+
+#: form-maker.php:730
+msgid ""
+"Users can set a payment amount of their choice with Price field. Assigns "
+"minimum and maximum limits on its value using Range option."
+msgstr ""
+
+#: form-maker.php:730
+msgid ""
+"Additionally, you can activate Readonly attribute. This way, users will not "
+"be able to edit the value of Price."
+msgstr ""
+
+#: form-maker.php:730 form-maker.php:731 form-maker.php:732 form-maker.php:733
+msgid ""
+"Note: Make sure to configure Form Options > Payment Options of your form."
+msgstr ""
+
+#: form-maker.php:731
+msgid ""
+"Payment Select field lets you create lists of products, one of which the "
+"submitter can choose to buy through your form. Add or edit list items using "
+"Options setting of the fields."
+msgstr ""
+
+#: form-maker.php:731 form-maker.php:732 form-maker.php:733
+msgid ""
+"Enable Quantity property from Advanced Options, in case you would like the "
+"users to mention the quantity of items they purchase."
+msgstr ""
+
+#: form-maker.php:731 form-maker.php:732 form-maker.php:733
+msgid ""
+"Also, you can configure custom or built-in Product Properties for your "
+"products, such as Color, T-Shirt Size or Print Size."
+msgstr ""
+
+#: form-maker.php:732
+msgid ""
+"Payment Single Choice field lets you create lists of products, one of which "
+"the submitter can choose to buy through your form. Add or edit list items "
+"using Options setting of the fields."
+msgstr ""
+
+#: form-maker.php:733
+msgid ""
+"Payment Multiple Choice field lets you create lists of products, which the "
+"submitter can choose to buy through your form. Add or edit list items using "
+"Options setting of the fields."
+msgstr ""
+
+#: form-maker.php:734
+msgid ""
+"Shipping allows you to configure shipping types, set price for each of them "
+"and display them on your form as radio buttons."
+msgstr ""
+
+#: form-maker.php:735
+msgid ""
+"Please Total field to your payment form to sum up the values of Payment "
+"fields. "
+msgstr ""
+
+#: form-maker.php:736
+msgid ""
+"This field adds the credit card details inputs (card number, expiration "
+"date, etc.) and allows you to accept direct payments made by credit cards."
+msgstr ""
+
+#: form-maker.php:795
+msgid "You must select a form"
+msgstr ""
+
+#: form-maker.php:935
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: form-maker.php:1138
+#, fuzzy
+msgid "Can not upload this type of file"
+msgstr "מצטערים, אינך רשאי להעלות קובץ מסוג זה."
+
+#: form-maker.php:1139
+#, fuzzy
+msgid "Field is required"
+msgstr "שדה חובה."
+
+#: form-maker.php:1140
+msgid "The "
+msgstr ""
+
+#: form-maker.php:1141
+#, fuzzy
+msgid " value must be between "
+msgstr "ערך חייב להיות בין"
+
+#: form-maker.php:1142
+#, fuzzy
+msgid "Value must be between "
+msgstr "ערך חייב להיות בין"
+
+#: form-maker.php:1143
+msgid "Are you sure you want to clear saved data?"
+msgstr ""
+
+#: form-maker.php:1144 framework/WDW_FM_Library.php:3944
+msgid "Your score should be less than"
+msgstr "הציון שלך צריך להיות פחות מ"
+
+#: form-maker.php:1145
+#, fuzzy
+msgid "This is not a valid time value."
+msgstr "זו אינה כתובת דאל חוקית."
+
+#: form-maker.php:1146
+#, fuzzy
+#| msgid "This is not a valid email address."
+msgid "This is not a valid number value."
+msgstr "זו אינה כתובת דאל חוקית."
+
+#: form-maker.php:1147
+#, fuzzy
+msgid "This is not a valid date value."
+msgstr "זו אינה כתובת דאל חוקית."
+
+#: form-maker.php:1148
+#, fuzzy, php-format
+msgid "The year must be between %s and %s"
+msgstr "ערך חייב להיות בין"
+
+#: form-maker.php:1267
+msgid ""
+"Oops! Seems like you installed the update over a quite old version of Form "
+"Maker. Unfortunately, this version is deprecated.<br />Please contact 10Web "
+"support team at support@10web.io. We will take care of this issue as soon as "
+"possible."
+msgstr ""
+
+#: form-maker.php:1353
+msgid ""
+"WordPress Contact Form Maker is a simple contact form builder, which allows "
+"the user with almost no knowledge of programming to create and edit "
+"different type of contact forms."
+msgstr ""
+
+#: form-maker.php:1353
+msgid ""
+"Form Maker plugin is a modern and advanced tool for easy and fast creating "
+"of a WordPress Form. The backend interface is intuitive and user friendly "
+"which allows users far from scripting and programming to create WordPress "
+"Forms."
+msgstr ""
+
+#: form-maker.php:1356
+msgid "Easy to Use"
+msgstr ""
+
+#: form-maker.php:1357
+msgid ""
+"This responsive form maker plugin is one of the most easy-to-use form "
+"builder solutions available on the market. Simple, yet powerful plugin "
+"allows you to quickly and easily build any complex forms."
+msgstr ""
+
+#: form-maker.php:1360
+msgid "Customizable Fields"
+msgstr ""
+
+#: form-maker.php:1361
+msgid ""
+"All the fields of Form Maker plugin are highly customizable, which allows "
+"you to change almost every detail in the form and make it look exactly like "
+"you want it to be."
+msgstr ""
+
+#: form-maker.php:1365
+msgid ""
+"You can view the submissions for each form you have. The plugin allows to "
+"view submissions statistics, filter submission data and export in csv or xml "
+"formats."
+msgstr ""
+
+#: form-maker.php:1368
+msgid "Multi-Page Forms"
+msgstr ""
+
+#: form-maker.php:1369
+msgid ""
+"With the form builder plugin you can create muilti-page forms. Simply use "
+"the page break field to separate the pages in your forms."
+msgstr ""
+
+#: form-maker.php:1373
+msgid ""
+"The WordPress Form Maker plugin comes with a wide range of customizable "
+"themes. You can choose from a list of existing themes or simply create the "
+"one that better fits your brand and website."
+msgstr ""
+
+#: form-maker.php:1378
+msgid "Installing"
+msgstr ""
+
+#: form-maker.php:1383
+msgid "Creating a new Form"
+msgstr ""
+
+#: form-maker.php:1388
+msgid "Configuring Form Options"
+msgstr ""
+
+#: form-maker.php:1393
+msgid "Description of The Form Fields"
+msgstr ""
+
+#: form-maker.php:1397
+msgid "Selecting Options from Database"
+msgstr ""
+
+#: form-maker.php:1403
+msgid "Publishing the Created Form"
+msgstr ""
+
+#: form-maker.php:1408
+msgid "Blocking IPs"
+msgstr ""
+
+#: form-maker.php:1413
+msgid "Managing Submissions"
+msgstr ""
+
+#: form-maker.php:1418
+msgid "Publishing Submissions"
+msgstr ""
+
+#: form-maker.php:1522
+#, php-format
+msgid ""
+"The current version of %s extension is not compatible with Form Maker. Some "
+"functions may not work correctly. Please update the extension to fully use "
+"its features."
+msgstr ""
+
+#: form-maker.php:1523
+#, php-format
+msgid ""
+"The current version of %s extensions are not compatible with Form Maker. "
+"Some functions may not work correctly. Please update the extensions to fully "
+"use its features."
+msgstr ""
+
+#: form-maker.php:1604
+msgid "Rate"
+msgstr ""
+
+#: form-maker.php:1644
+#, php-format
+msgid ""
+"%s Form Maker advises:%s %sCheck your website’s performance, optimize images "
+"and improve the speed in just minutes.%s"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:2689
+msgid ""
+"You cannot select former dates. Choose a date starting from the current one."
+msgstr "אתה לא יכול לבחור את התאריכים לשעבר. בחר תאריך החל מנוכחי."
+
+#: framework/WDW_FM_Library.php:3267
+msgid "field is required."
+msgstr "שדה חובה."
+
+#: framework/WDW_FM_Library.php:3297
+msgid "The"
+msgstr "The"
+
+#: framework/WDW_FM_Library.php:3297
+msgid "value must be between"
+msgstr "ערך חייב להיות בין"
+
+#: framework/WDW_FM_Library.php:3434 framework/WDW_FM_Library.php:3514
+#: framework/WDW_FM_Library.php:3593 frontend/views/form_maker.php:2364
+#: frontend/views/form_maker.php:2559 frontend/views/form_maker.php:2762
+msgid "Quantity"
+msgstr "כמות "
+
+#: framework/WDW_FM_Library.php:4467
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4532
+msgid "Afghanistan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4533
+msgid "Albania"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4534
+msgid "Algeria"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4535
+msgid "Andorra"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4536
+msgid "Angola"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4537
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4538
+msgid "Argentina"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4539
+msgid "Armenia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4540
+msgid "Australia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4541
+msgid "Austria"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4542
+msgid "Azerbaijan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4543
+msgid "Bahamas"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4544
+msgid "Bahrain"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4545
+msgid "Bangladesh"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4546
+msgid "Barbados"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4547
+msgid "Belarus"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4548
+msgid "Belgium"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4549
+msgid "Belize"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4550
+msgid "Benin"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4551
+msgid "Bhutan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4552
+msgid "Bolivia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4553
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4554
+msgid "Botswana"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4555
+msgid "Brazil"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4556
+msgid "Brunei"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4557
+msgid "Bulgaria"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4558
+msgid "Burkina Faso"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4559
+msgid "Burundi"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4560
+msgid "Cambodia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4561
+msgid "Cameroon"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4562
+msgid "Canada"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4563
+msgid "Cape Verde"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4564
+msgid "Central African Republic"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4565
+msgid "Chad"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4566
+msgid "Chile"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4567
+msgid "China"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4568
+msgid "Colombia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4569
+msgid "Comoros"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4570
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4571
+msgid "Congo"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4572
+msgid "Costa Rica"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4573
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4574
+msgid "Croatia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4575
+msgid "Cuba"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4576
+msgid "Curacao"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4577
+msgid "Cyprus"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4578
+msgid "Czech Republic"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4579
+msgid "Denmark"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4580
+msgid "Djibouti"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4581
+msgid "Dominica"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4582
+msgid "Dominican Republic"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4583
+msgid "East Timor (Timor Timur)"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4584
+msgid "Ecuador"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4585
+msgid "Egypt"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4586
+msgid "El Salvador"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4587
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4588
+msgid "Eritrea"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4589
+msgid "Estonia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4590
+msgid "Ethiopia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4591
+msgid "Fiji"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4592
+msgid "Finland"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4593
+msgid "France"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4594
+msgid "Gabon"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4595
+msgid "Gambia, The"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4596 framework/WDW_FM_Library.php:4755
+msgid "Georgia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4597
+msgid "Germany"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4598
+msgid "Ghana"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4599
+msgid "Greece"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4600
+msgid "Grenada"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4601
+msgid "Guatemala"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4602
+msgid "Guinea"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4603
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4604
+msgid "Guyana"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4605
+msgid "Haiti"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4606
+msgid "Honduras"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4607
+msgid "Hong Kong"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4608
+msgid "Hungary"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4609
+msgid "Iceland"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4610
+msgid "India"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4611
+msgid "Indonesia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4612
+msgid "Iran"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4613
+msgid "Iraq"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4614
+msgid "Ireland"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4615
+msgid "Israel"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4616
+msgid "Italy"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4617
+msgid "Jamaica"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4618
+msgid "Japan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4619
+msgid "Jordan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4620
+msgid "Kazakhstan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4621
+msgid "Kenya"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4622
+msgid "Kiribati"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4623
+msgid "Korea, North"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4624
+msgid "Korea, South"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4625
+msgid "Kuwait"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4626
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4627
+msgid "Laos"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4628
+msgid "Latvia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4629
+msgid "Lebanon"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4630
+msgid "Lesotho"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4631
+msgid "Liberia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4632
+msgid "Libya"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4633
+msgid "Liechtenstein"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4634
+msgid "Lithuania"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4635
+msgid "Luxembourg"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4636
+msgid "North Macedonia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4637
+msgid "Madagascar"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4638
+msgid "Malawi"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4639
+msgid "Malaysia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4640
+msgid "Maldives"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4641
+msgid "Mali"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4642
+msgid "Malta"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4643
+msgid "Marshall Islands"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4644
+msgid "Mauritania"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4645
+msgid "Mauritius"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4646
+msgid "Mexico"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4647
+msgid "Micronesia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4648
+msgid "Moldova"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4649
+msgid "Monaco"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4650
+msgid "Mongolia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4651
+msgid "Morocco"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4652
+msgid "Mozambique"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4653
+msgid "Myanmar"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4654
+msgid "Namibia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4655
+msgid "Nauru"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4656
+msgid "Nepal"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4657
+msgid "Netherlands"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4658
+msgid "New Zealand"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4659
+msgid "Nicaragua"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4660
+msgid "Niger"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4661
+msgid "Nigeria"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4662
+msgid "Norway"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4663
+msgid "Oman"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4664
+msgid "Pakistan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4665
+msgid "Palau"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4666
+msgid "Palestine"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4667
+msgid "Panama"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4668
+msgid "Papua New Guinea"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4669
+msgid "Paraguay"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4670
+msgid "Peru"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4671
+msgid "Philippines"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4672
+msgid "Poland"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4673
+msgid "Portugal"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4674
+msgid "Puerto Rico"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4675
+msgid "Qatar"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4676
+msgid "Romania"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4677
+msgid "Russia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4678
+msgid "Rwanda"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4679
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4680
+msgid "Saint Lucia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4681
+msgid "Saint Vincent"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4682
+msgid "Samoa"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4683
+msgid "San Marino"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4684
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4685
+msgid "Saudi Arabia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4686
+msgid "Senegal"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4687
+msgid "Serbia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4688
+msgid "Montenegro"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4689
+msgid "Seychelles"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4690
+msgid "Sierra Leone"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4691
+msgid "Singapore"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4692
+msgid "Slovakia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4693
+msgid "Slovenia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4694
+msgid "Solomon Islands"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4695
+msgid "Somalia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4696
+msgid "South Africa"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4697
+msgid "South Sudan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4698
+msgid "Spain"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4699
+msgid "Sri Lanka"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4700
+msgid "Sudan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4701
+msgid "Suriname"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4702
+msgid "Eswatini"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4703
+msgid "Sweden"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4704
+msgid "Switzerland"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4705
+msgid "Syria"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4706
+msgid "Taiwan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4707
+msgid "Tajikistan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4708
+msgid "Tanzania"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4709
+msgid "Thailand"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4710
+msgid "Togo"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4711
+msgid "Tonga"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4712
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4713
+msgid "Tunisia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4714
+msgid "Turkey"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4715
+msgid "Turkmenistan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4716
+msgid "Tuvalu"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4717
+msgid "Uganda"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4718
+msgid "Ukraine"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4719
+msgid "United Arab Emirates"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4720
+msgid "United Kingdom"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4721
+msgid "United States"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4722
+msgid "Uruguay"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4723
+msgid "Uzbekistan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4724
+msgid "Vanuatu"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4725
+msgid "Vatican City"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4726
+msgid "Venezuela"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4727
+msgid "Vietnam"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4728
+msgid "Wales"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4729
+msgid "Yemen"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4730
+msgid "Zambia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4731
+msgid "Zimbabwe"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4745
+msgid "Alabama"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4746
+msgid "Alaska"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4747
+msgid "Arizona"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4748
+msgid "Arkansas"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4749
+msgid "California"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4750
+msgid "Colorado"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4751
+msgid "Connecticut"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4752
+msgid "Delaware"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4753
+msgid "District Of Columbia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4754
+msgid "Florida"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4756
+msgid "Hawaii"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4757
+msgid "Idaho"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4758
+msgid "Illinois"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4759
+msgid "Indiana"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4760
+msgid "Iowa"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4761
+msgid "Kansas"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4762
+msgid "Kentucky"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4763
+msgid "Louisiana"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4764
+msgid "Maine"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4765
+msgid "Maryland"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4766
+msgid "Massachusetts"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4767
+msgid "Michigan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4768
+msgid "Minnesota"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4769
+msgid "Mississippi"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4770
+msgid "Missouri"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4771
+msgid "Montana"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4772
+msgid "Nebraska"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4773
+msgid "Nevada"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4774
+msgid "New Hampshire"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4775
+msgid "New Jersey"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4776
+msgid "New Mexico"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4777
+msgid "New York"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4778
+msgid "North Carolina"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4779
+msgid "North Dakota"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4780
+msgid "Ohio"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4781
+msgid "Oklahoma"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4782
+msgid "Oregon"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4783
+msgid "Pennsylvania"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4784
+msgid "Rhode Island"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4785
+msgid "South Carolina"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4786
+msgid "South Dakota"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4787
+msgid "Tennessee"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4788
+msgid "Texas"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4789
+msgid "Utah"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4790
+msgid "Vermont"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4791
+msgid "Virginia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4792
+msgid "Washington"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4793
+msgid "West Virginia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4794
+msgid "Wisconsin"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4795
+msgid "Wyoming"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4809
+msgid "Alberta"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4810
+msgid "British Columbia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4811
+msgid "Manitoba"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4812
+msgid "New Brunswick"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4813
+msgid "Newfoundland and Labrador"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4814
+msgid "Northwest Territories"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4815
+msgid "Nova Scotia"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4816
+msgid "Nunavut"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4817
+msgid "Ontario"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4818
+msgid "Prince Edward Island"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4819
+msgid "Quebec"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4820
+msgid "Saskatchewan"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4821
+msgid "Yukon"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4835
+msgid "Done"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4836
+msgid "Prev"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4837
+msgid "Next"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4838
+msgid "Today"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "January"
+msgstr "ינואר"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "February"
+msgstr "פברואר"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "March"
+msgstr "מרץ"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "April"
+msgstr "אפריל"
+
+#: framework/WDW_FM_Library.php:4839 framework/WDW_FM_Library.php:4840
+#: frontend/views/form_maker.php:3750
+msgid "May"
+msgstr "מאי"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "June"
+msgstr "יוני"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "July"
+msgstr "יולי"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "August"
+msgstr "אוגוסט"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "September"
+msgstr "ספטמבר"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "October"
+msgstr "אוקטובר"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "November"
+msgstr "נובמבר"
+
+#: framework/WDW_FM_Library.php:4839 frontend/views/form_maker.php:3750
+msgid "December"
+msgstr "דצמבר"
+
+#: framework/WDW_FM_Library.php:4840
+#, fuzzy
+#| msgid "January"
+msgid "Jan"
+msgstr "ינואר"
+
+#: framework/WDW_FM_Library.php:4840
+msgid "Feb"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4840
+#, fuzzy
+#| msgid "March"
+msgid "Mar"
+msgstr "מרץ"
+
+#: framework/WDW_FM_Library.php:4840
+#, fuzzy
+#| msgid "April"
+msgid "Apr"
+msgstr "אפריל"
+
+#: framework/WDW_FM_Library.php:4840
+#, fuzzy
+#| msgid "June"
+msgid "Jun"
+msgstr "יוני"
+
+#: framework/WDW_FM_Library.php:4840
+#, fuzzy
+#| msgid "July"
+msgid "Jul"
+msgstr "יולי"
+
+#: framework/WDW_FM_Library.php:4840
+#, fuzzy
+#| msgid "August"
+msgid "Aug"
+msgstr "אוגוסט"
+
+#: framework/WDW_FM_Library.php:4840
+msgid "Sep"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4840
+#, fuzzy
+#| msgid "October"
+msgid "Oct"
+msgstr "אוקטובר"
+
+#: framework/WDW_FM_Library.php:4840
+msgid "Nov"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4840
+msgid "Dec"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4842
+msgid "Sun"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4842
+msgid "Mon"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4842
+#, fuzzy
+#| msgid "The"
+msgid "Tue"
+msgstr "The"
+
+#: framework/WDW_FM_Library.php:4842
+msgid "Wed"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4842
+#, fuzzy
+#| msgid "The"
+msgid "Thu"
+msgstr "The"
+
+#: framework/WDW_FM_Library.php:4842
+msgid "Fri"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4842
+msgid "Sat"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4843
+msgid "Su"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4843
+msgid "Mo"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4843
+msgid "Tu"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4843
+msgid "We"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:4843
+#, fuzzy
+#| msgid "The"
+msgid "Th"
+msgstr "The"
+
+#: framework/WDW_FM_Library.php:4843
+#, fuzzy
+#| msgid "From"
+msgid "Fr"
+msgstr "מן "
+
+#: framework/WDW_FM_Library.php:4843
+msgid "Sa"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5351
+msgid "All fields list"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5364
+msgid "Form fields"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5366 framework/WDW_FM_Library.php:5463
+#, fuzzy
+#| msgid "Title"
+msgid "Form Title"
+msgstr "כותרת"
+
+#: framework/WDW_FM_Library.php:5367
+msgid "Submission ID"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5369
+msgid "Admin Email"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5370
+msgid "User Email"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5371
+msgid "User Name"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5372
+msgid "Page Url"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5373
+#, fuzzy
+#| msgid "Verification link is invalid."
+msgid "Verification Link"
+msgstr "קישור אימות אינו חוקי."
+
+#: framework/WDW_FM_Library.php:5470
+msgid "Submitter Name"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5474
+msgid "Submitter Email"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5479
+msgid "Submitter IP"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5483
+msgid "Submission Date"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5498
+msgid " Submissions"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5520
+#, php-format
+msgid ""
+"All personal data and submissions of this user found in %s plugin were "
+"removed."
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5568
+msgid "Privacy Policy"
+msgstr ""
+
+#: framework/WDW_FM_Library.php:5605
+#, fuzzy
+#| msgid "Select a Date"
+msgid "Select a form"
+msgstr "בחר תאריך"
+
+#: frontend/models/form_maker.php:29
+msgid "There is no form selected or the form was deleted."
+msgstr ""
+
+#: frontend/models/form_maker.php:34
+msgid "The form you are trying to view does not have Embedded display type."
+msgstr ""
+
+#: frontend/models/form_maker.php:43
+msgid "The form you are trying to view has been unpublished."
+msgstr ""
+
+#: frontend/models/form_maker.php:1177 frontend/models/form_maker.php:1189
+#: frontend/models/form_maker.php:1247
+msgid "Error, incorrect Security code."
+msgstr "שגיאה, קוד אבטחה שגוי."
+
+#: frontend/models/form_maker.php:1210 frontend/models/form_maker.php:1235
+#: frontend/models/form_maker.php:1241
+msgid ""
+"Submission has failed due to the unsuccessful ReCaptcha verification. Please "
+"try to submit the form again."
+msgstr "השליחה נכשלה עקב האימות שלא הצליח לכידה. נא נסה לשלוח שוב את הטופס."
+
+#: frontend/models/form_maker.php:1288
+msgid "Error, something went wrong."
+msgstr ""
+
+#: frontend/models/form_maker.php:1313
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr "IP שלך הוא ברשימה שחורה. אנא צור קשר עם מנהל האתר. "
+
+#: frontend/models/form_maker.php:1500
+#, php-format
+msgid ""
+"%s Submission failed. Your consent to collect personal data is required."
+msgstr ""
+
+#: frontend/models/form_maker.php:1544
+#, fuzzy
+msgid "This is not a valid date format."
+msgstr "זו אינה כתובת דאל חוקית."
+
+#: frontend/models/form_maker.php:1629
+msgid "This functionality is disabled in demo."
+msgstr ""
+
+#: frontend/models/form_maker.php:1664
+#, fuzzy, php-format
+#| msgid "The file exceeds the allowed size of"
+msgid "The file exceeds the allowed size of %s KB."
+msgstr "הקובץ חורג מהגודל המותר"
+
+#: frontend/models/form_maker.php:1678
+#, fuzzy
+msgid "Can not upload this type of file."
+msgstr "מצטערים, אינך רשאי להעלות קובץ מסוג זה."
+
+#: frontend/models/form_maker.php:1785 frontend/models/form_maker.php:2704
+msgid "Error, file cannot be moved."
+msgstr "שגיאה, הקובץ לא ניתן להעביר."
+
+#: frontend/models/form_maker.php:2195
+#, fuzzy, php-format
+#| msgid "field is required."
+msgid "%s field is required."
+msgstr "שדה חובה."
+
+#: frontend/models/form_maker.php:2227
+#, fuzzy, php-format
+#| msgid ""
+#| "This field %s requires a unique entry and this value was already "
+#| "submitted."
+msgid "This field %s requires a unique entry."
+msgstr "שדה %s דורשת כניסה ייחודית ערך זה הוגשה כבר."
+
+#: frontend/models/form_maker.php:2268 frontend/models/form_maker.php:2371
+#: frontend/models/form_maker.php:2385 frontend/models/form_maker.php:2394
+#: frontend/models/form_maker.php:2464
+msgid "Database error occurred. Please try again."
+msgstr ""
+
+#: frontend/models/form_maker.php:2472
+msgid "Nothing was submitted."
+msgstr "שום דבר לא הוגשה."
+
+#: frontend/models/form_maker.php:2785 frontend/models/form_maker.php:2786
+msgid "Your chosen password."
+msgstr ""
+
+#: frontend/models/form_maker.php:3521 frontend/views/form_maker.php:107
+msgid "Your form was successfully submitted."
+msgstr "הטופס נשלח בהצלחה."
+
+#: frontend/models/form_maker.php:3527 frontend/views/form_maker.php:104
+msgid "Error, email was not sent."
+msgstr "שגיאה, דואר אלקטרוני לא נשלח."
+
+#: frontend/models/form_submissions.php:371
+msgid "You have no permissions to download"
+msgstr ""
+
+#: frontend/models/verify_email.php:32
+msgid "Your email address is already verified."
+msgstr "כתובת הדוא\"ל שלך כבר מאומתת."
+
+#: frontend/models/verify_email.php:46
+msgid "Your email verification has timed out."
+msgstr "אימות דוא\"ל שלך נגמרת זמן."
+
+#: frontend/models/verify_email.php:61
+msgid "Your email has been successfully verified."
+msgstr "הדואר האלקטרוני שלך אומת בהצלחה."
+
+#: frontend/models/verify_email.php:66
+msgid "Verification link is invalid."
+msgstr "קישור אימות אינו חוקי."
+
+#: frontend/views/form_maker.php:565
+msgid "Password values don't match"
+msgstr ""
+
+#: frontend/views/form_maker.php:1099
+msgid "The email addresses don't match"
+msgstr ""
+
+#: frontend/views/form_maker.php:1100
+msgid "This is not a valid email address."
+msgstr "זו אינה כתובת דאל חוקית."
+
+#: frontend/views/form_maker.php:4035
+msgid "AM"
+msgstr ""
+
+#: frontend/views/form_maker.php:4036
+msgid "PM"
+msgstr ""
+
+#: frontend/views/form_submissions.php:20
+msgid "You have no permission to view submissions."
+msgstr ""
+
+#: frontend/views/form_submissions.php:250
+#, php-format
+msgid ""
+"%s of %s submissions are not shown, as the field you sorted by is missing in "
+"those submissions."
+msgstr ""
+
+#: frontend/views/form_submissions.php:413
+msgid "From"
+msgstr "מן "
+
+#: frontend/views/form_submissions.php:420
+msgid "To"
+msgstr "אל"
+
+#: frontend/views/form_submissions.php:476
+msgid "Canceled"
+msgstr ""
+
+#: frontend/views/form_submissions.php:477
+msgid "Cleared"
+msgstr ""
+
+#: frontend/views/form_submissions.php:478
+msgid "Cleared by payment review"
+msgstr ""
+
+#: frontend/views/form_submissions.php:479
+msgid "Completed"
+msgstr ""
+
+#: frontend/views/form_submissions.php:480
+msgid "Denied"
+msgstr ""
+
+#: frontend/views/form_submissions.php:482
+msgid "Held"
+msgstr ""
+
+#: frontend/views/form_submissions.php:483
+msgid "In progress"
+msgstr ""
+
+#: frontend/views/form_submissions.php:484
+msgid "On hold"
+msgstr ""
+
+#: frontend/views/form_submissions.php:485
+msgid "Paid"
+msgstr ""
+
+#: frontend/views/form_submissions.php:486
+msgid "Partially refunded"
+msgstr ""
+
+#: frontend/views/form_submissions.php:487
+msgid "Pending verification"
+msgstr ""
+
+#: frontend/views/form_submissions.php:488
+msgid "Placed"
+msgstr ""
+
+#: frontend/views/form_submissions.php:489
+msgid "Processing"
+msgstr ""
+
+#: frontend/views/form_submissions.php:490
+msgid "Refunded"
+msgstr ""
+
+#: frontend/views/form_submissions.php:491
+msgid "Refused"
+msgstr ""
+
+#: frontend/views/form_submissions.php:492
+msgid "Removed"
+msgstr ""
+
+#: frontend/views/form_submissions.php:493
+msgid "Returned"
+msgstr ""
+
+#: frontend/views/form_submissions.php:494
+msgid "Reversed"
+msgstr ""
+
+#: frontend/views/form_submissions.php:495
+msgid "Temporary hold"
+msgstr ""
+
+#: frontend/views/form_submissions.php:496
+msgid "Unclaimed"
+msgstr ""
+
+#: frontend/views/form_submissions.php:607
+msgid "Show on Map"
+msgstr ""
+
+#: frontend/views/form_submissions.php:659
+msgid "Show Matrix"
+msgstr ""
+
+#: frontend/views/form_submissions.php:791
+msgid "Please select the field!"
+msgstr ""
+
+#: wd/includes/deactivate.php:37
+msgid "Technical problems / hard to use"
+msgstr ""
+
+#: wd/includes/deactivate.php:41
+msgid "Free version is limited"
+msgstr ""
+
+#: wd/includes/deactivate.php:45
+msgid "Upgrading to paid version"
+msgstr ""
+
+#: wd/includes/deactivate.php:49
+msgid "Temporary deactivation"
+msgstr ""
+
+#: wd/includes/notices.php:211
+msgid "Leave A Review?"
+msgstr ""
+
+#: wd/includes/notices.php:212
+#, php-format
+msgid ""
+"We hope you've enjoyed using WordPress %s! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+
+#: wd/includes/notices.php:213
+msgid "Sure! I'd love to!"
+msgstr ""
+
+#: wd/includes/notices.php:214
+msgid "I've already left a review"
+msgstr ""
+
+#: wd/includes/notices.php:215
+msgid "Maybe Later"
+msgstr ""
+
+#: wd/includes/notices.php:216
+msgid "Never show again"
+msgstr ""
+
+#: wd/templates/display_overview.php:10 wd/templates/display_overview.php:119
+#, php-format
+msgid "Get Premium %s and Other Solutions Essential for Your WordPress Site."
+msgstr ""
+
+#: wd/templates/display_subscribe.php:8
+#, php-format
+msgid ""
+"This will allow you to get more out of your plugin experience - get awesome "
+"customer support, receive exclusive deals and discounts on premium products "
+"and more. You can choose to skip this step, %s will still work just fine."
+msgstr ""
+
+#: wd/wd.php:72 wd/wd.php:76
+msgid "Premium"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Error, incorrect Security code."
+#~ msgid "Error, incorrect secret code."
+#~ msgstr "שגיאה, קוד אבטחה שגוי."
+
+#, fuzzy
+#~| msgid "Verification link is invalid."
+#~ msgid "Verification failed."
+#~ msgstr "קישור אימות אינו חוקי."
+
+#~ msgid "GO"
+#~ msgstr "ללכת "
+
+#, fuzzy
+#~ msgid "Error, file destination does not exist."
+#~ msgstr "שגיאה, דואר אלקטרוני לא נשלח."
+
+#~ msgid "First"
+#~ msgstr "ראשון"
+
+#~ msgid "Last"
+#~ msgstr "אחרון"
+
+#~ msgid "Middle"
+#~ msgstr "אמצעי"
+
+#~ msgid "Phone Number"
+#~ msgstr "מס' טלפון:"
+
+#~ msgid "Dollars"
+#~ msgstr "דולרים"

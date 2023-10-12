@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'fm-icons';
+  src:
+    url('fonts/fm-icons.ttf?wjdy97') format('truetype'),
+    url('fonts/fm-icons.woff?wjdy97') format('woff'),
+    url('fonts/fm-icons.svg?wjdy97#fm-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fm-ico-"], [class*=" fm-ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fm-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fm-ico-form-maker:before {
+  content: "\e908";
+  color: #6e7883;
+}
+.fm-ico-plus-circle:before {
+  content: "\e900";
+}
+.fm-ico-plus:before {
+  content: "\e901";
+}
+.fm-ico-collapse:before {
+  content: "\e902";
+}
+.fm-ico-expand:before {
+  content: "\e906";
+}
+.fm-ico-duplicate:before {
+  content: "\e904";
+}
+.fm-ico-edit:before {
+  content: "\e905";
+}
+.fm-ico-delete:before {
+  content: "\e907";
+}
+.fm-ico-draggable:before {
+  content: "\e903";
+}
+.fm-ico-close:before {
+  content: "\e909";
+}
+.fm-ico-spinner:before {
+  content: "\e90a";
+}

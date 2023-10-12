@@ -1,0 +1,191 @@
+.form_title {
+  padding:10px 0 20px 0; 
+  font-size:20px; 
+}
+.stats tr {
+  border: none !important;
+}
+.stats td {
+  border: none !important;
+  padding: 5px 3px;
+}
+.submission_params .reports {
+  display:inline-block;
+  border: 1px solid #A7A7A7 !important;
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 2px;
+}
+.submission_params .csv_xml {
+  width: 100%;
+  margin-top: -26px;
+  text-align:right;
+}
+.search_and_pagination {
+  margin-top:20px;
+}
+.submissions {
+  margin-top:20px;
+  border-top:1px solid #ccc !important;
+  table-layout: auto;
+}
+.submissions th {
+  padding: 3px;
+  text-align: center;
+}
+.submissions tr, .submissions tr table tr {
+  border:none !important;
+}
+.submissions tbody tr {
+  border-bottom: solid 1px #ddd !important;
+}
+.submissions td {
+  padding: 10px 4px;
+  border:none !important;
+  vertical-align:top;
+  max-width: 300px;
+  min-width: 200px;
+}
+.submissions td p{
+  font-family:inherit;
+  white-space: normal;
+  word-break: break-word;
+}
+.submissions tr.row1 {
+  background-color: #f0f0ee !important;
+}
+.submissions .simple_table td {
+  padding: 0px !important;
+}
+.submissions a {
+  color:#000 !important;
+  font-weight:bold;
+  text-decoration:none;
+}
+.submissions a:hover {
+  background:transparent !important;
+}
+.submissions a img {
+  margin-left: 2px;
+}
+.submissions input:focus, .stats .inputbox:focus {
+  border: 1px solid #A9A9A9 !important;
+  outline: none !important;
+  padding: 1px;
+}
+
+.submissions .inputbox:focus {
+  border: 1px solid #A9A9A9 !important;
+  outline: none;
+}
+.csv_xml input, .stats input[type="button"], .submission_params input[type="button"], .csv_xml input:hover, .stats input[type="button"]:hover, .csv_xml input:active, .stats input[type="button"]:active , .submissions .button, .submissions .button:hover, .submissions .button:active, .stats .button, .stats .button:hover, .stats .button:active {
+  padding: 4px !important;
+  background: transparent !important;
+  border: 1px solid #A7A7A7 !important;
+  border-radius: 2px !important;
+  box-shadow: 1px 1px 1px #E7E7E7 !important;
+  color: black !important;
+}
+.csv_xml input:hover, .stats input[type="button"]:hover {
+  cursor: pointer;
+}
+.payment_info_fc {
+  width: 72px;
+}
+.pagination_td ul {
+  list-style-type:none !important;
+}
+.pagination_td li {
+  display:inline-block;
+}
+.tablenav .tablenav-pages {
+  float: right;
+  display: flex;
+  cursor: default;
+  height: 30px;
+  color: #555;
+  line-height: 30px;
+  font-size: 13px;
+}
+.tablenav .tablenav-pages .pagination-links,
+.tablenav .tablenav-pages .paging-input {
+  display: flex;
+}
+.tablenav .tablenav-pages .pagination-links>a,
+.tablenav .tablenav-pages .paging-input,
+.tablenav .tablenav-pages .total-pages {
+  margin-left: 3px;
+  text-decoration: none;
+}
+.tablenav .tablenav-pages .total-pages {
+  margin-right: 3px;
+}
+
+.tablenav .displaying-num {
+  margin-right: 2px;
+  color: #777;
+  font-size: 13px;
+  font-style: italic;
+}
+.tablenav .tablenav-pages .current_page {
+	text-align: center;
+  line-height: 28px;
+  padding: 0;
+  font-size: 13px;
+}
+.tablenav .tablenav-pages a.disabled, 
+.tablenav .tablenav-pages a.disabled:active, 
+.tablenav .tablenav-pages a.disabled:focus, 
+.tablenav .tablenav-pages a.disabled:hover {
+  color: #aaa;
+  background: #eee;
+  background: rgba(0,0,0,.05);
+}
+.tablenav .tablenav-pages a {
+  padding: 0 10px 3px;
+  background: #eee;
+  background: rgba(0,0,0,.05);
+  font-size: 16px;
+  font-weight: 400;
+}
+.tablenav {
+  clear: both;
+  height: 30px;
+  margin: 6px 0 4px;
+  vertical-align: middle;
+}
+.inputbox {
+  padding: 0;
+  border: 1px solid #d4d0ba;
+  border-radius: 3px;
+}
+.submissions pre {
+  background: transparent;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.submissions pre {
+    vertical-align: middle !important
+}
+.wd_front_submissons_th {
+	min-width: 150px;
+}
+.container-wrap .submission_params input[type="text"],
+.container-wrap .stats input[type="text"] {
+	width: initial !important;
+	padding: 0 !important;
+}
+
+.submissions_top_scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.submissions_top_scroll_div {
+  height: 0;
+}
+
+.submissions_top_scroll_div::before {
+  content: '.';
+  display: block;
+}

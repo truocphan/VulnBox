@@ -1,0 +1,5782 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-26 18:46+0400\n"
+"PO-Revision-Date: 2021-01-30 22:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/controllers/Blocked_ips_fm.php:25 admin/controllers/Manage_fm.php:42
+#: admin/controllers/Submissions_fm.php:61 admin/controllers/Themes_fm.php:46
+#: admin/views/Blocked_ips_fm.php:120 admin/views/Manage_fm.php:159
+#: admin/views/Manage_fm.php:405 admin/views/Manage_fm.php:417
+#: admin/views/Manage_fm.php:1978 admin/views/Submissions_fm.php:535
+#: admin/views/Themes_fm.php:104
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: admin/controllers/Blocked_ips_fm.php:26 admin/controllers/Manage_fm.php:43
+#: admin/controllers/Themes_fm.php:47
+msgid "deleted"
+msgstr "odstránené"
+
+#: admin/controllers/Checkpaypal.php:184
+msgid "Payment information"
+msgstr "Platobné údaje"
+
+#: admin/controllers/Manage_fm.php:30 admin/views/Manage_fm.php:155
+#: admin/views/Manage_fm.php:346
+msgid "Publish"
+msgstr "Zverejniť"
+
+#: admin/controllers/Manage_fm.php:31
+msgid "published"
+msgstr "Zverejnené"
+
+#: admin/controllers/Manage_fm.php:34 admin/views/Manage_fm.php:155
+msgid "Unpublish"
+msgstr "Skryť"
+
+#: admin/controllers/Manage_fm.php:35
+msgid "unpublished"
+msgstr "skryté"
+
+#: admin/controllers/Manage_fm.php:38 admin/controllers/Themes_fm.php:42
+#: admin/views/Manage_fm.php:151 admin/views/Themes_fm.php:103
+msgid "Duplicate"
+msgstr "Kopírovať"
+
+#: admin/controllers/Manage_fm.php:39 admin/controllers/Themes_fm.php:43
+msgid "duplicated"
+msgstr "skopírované"
+
+#: admin/controllers/Manage_fm.php:290 admin/controllers/Themes_fm.php:191
+msgid "Copy"
+msgstr "Kopírovať"
+
+#: admin/controllers/Manage_fm.php:387
+msgid "Create new form"
+msgstr "Vytvoriť nový formulár"
+
+#: admin/controllers/Manage_fm.php:551
+msgid "options"
+msgstr "nastavení"
+
+#: admin/controllers/Manage_fm.php:882 admin/models/Manage_fm.php:57
+#: admin/models/Manage_fm.php:64 admin/models/Manage_fm.php:129
+#: admin/models/Manage_fm.php:150 admin/models/Manage_fm.php:157
+#: admin/models/Manage_fm.php:242 frontend/models/form_maker.php:1475
+#: frontend/models/form_maker.php:1482 frontend/views/form_maker.php:257
+msgid ""
+"I consent collecting this data and processing it according to "
+"{{privacy_policy}} of this website."
+msgstr ""
+"Súhlasím so zhromažďovaním týchto údajov a ich spracovaním "
+"{{privacy_policy}} tejto webovej stránky."
+
+#: admin/controllers/Manage_fm.php:958
+msgid "layout"
+msgstr "rozloženie"
+
+#: admin/controllers/Manage_fm.php:1008
+msgid "display options"
+msgstr "možnosti zobrazenia"
+
+#: admin/controllers/Manage_fm.php:1287 admin/controllers/Manage_fm.php:1434
+#: admin/models/Manage_fm.php:113 admin/models/Manage_fm.php:207
+msgid "The limit of submissions for this form has been reached."
+msgstr "Dosiahol sa limit na  zadanía tohto formulára."
+
+#: admin/controllers/Submissions_fm.php:53
+msgid "Block IPs"
+msgstr "Blokované IP adresy"
+
+#: admin/controllers/Submissions_fm.php:54
+msgid "Blocked"
+msgstr "Blokovaný"
+
+#: admin/controllers/Submissions_fm.php:57
+msgid "Unblock IPs"
+msgstr "Odblokovať IP adresy"
+
+#: admin/controllers/Submissions_fm.php:58
+msgid "Unblocked"
+msgstr "Odblokovaný"
+
+#: admin/controllers/Submissions_fm.php:62
+msgid "Deleted"
+msgstr "Odstránené"
+
+#: admin/controllers/Submissions_fm.php:155
+#: admin/controllers/Submissions_fm.php:173 admin/views/Manage_fm.php:94
+#: admin/views/Manage_fm.php:178 form-maker.php:380 form-maker.php:469
+#: form-maker.php:1404
+msgid "Submissions"
+msgstr "Objednávky"
+
+#: admin/controllers/Themes_fm.php:84 admin/views/Manage_fm.php:2247
+#: form-maker.php:473 form-maker.php:1412
+msgid "Themes"
+msgstr "Témy"
+
+#: admin/controllers/Themes_fm.php:225 admin/controllers/Themes_fm.php:1410
+#: admin/controllers/Themes_fm.php:2076
+msgid "Global Parameters"
+msgstr "Globálne parametre"
+
+#: admin/controllers/Themes_fm.php:226
+msgid "Header"
+msgstr "Hlavička"
+
+#: admin/controllers/Themes_fm.php:227
+msgid "Content"
+msgstr "Obsah"
+
+#: admin/controllers/Themes_fm.php:228
+msgid "Inputbox"
+msgstr "Pole pre vstup"
+
+#: admin/controllers/Themes_fm.php:229 admin/views/Submissions_fm.php:1147
+#: frontend/views/form_submissions.php:895
+msgid "Choices"
+msgstr "Voľby"
+
+#: admin/controllers/Themes_fm.php:230
+msgid "General Buttons"
+msgstr "Všeobecné tlačidlá"
+
+#: admin/controllers/Themes_fm.php:231 admin/views/FMShortocde.php:184
+msgid "Pagination"
+msgstr "Stránkovanie"
+
+#: admin/controllers/Themes_fm.php:232
+msgid "Buttons"
+msgstr "Tlačitko"
+
+#: admin/controllers/Themes_fm.php:233
+msgid "Close(Minimize) Button"
+msgstr "Tlačidlo Zavrieť(Minimalizovať)"
+
+#: admin/controllers/Themes_fm.php:234 admin/views/Manage_fm.php:2436
+msgid "Minimize Text"
+msgstr "Minimalizovať text"
+
+#: admin/controllers/Themes_fm.php:235 admin/views/Manage_fm.php:800
+#: admin/views/Manage_fm.php:876 admin/views/Options_fm.php:125
+msgid "Other"
+msgstr "Iné"
+
+#: admin/controllers/Themes_fm.php:236 admin/controllers/Themes_fm.php:2941
+msgid "Custom CSS"
+msgstr "Vlastné CSS"
+
+#: admin/controllers/Themes_fm.php:255 admin/controllers/Themes_fm.php:2470
+#: admin/views/Manage_fm.php:2356
+msgid "Top"
+msgstr "Hore"
+
+#: admin/controllers/Themes_fm.php:256 admin/controllers/Themes_fm.php:275
+#: admin/controllers/Themes_fm.php:2479 admin/views/Manage_fm.php:2387
+msgid "Right"
+msgstr "Vpravo"
+
+#: admin/controllers/Themes_fm.php:257 admin/controllers/Themes_fm.php:2488
+#: admin/views/Manage_fm.php:2358
+msgid "Bottom"
+msgstr "Dole"
+
+#: admin/controllers/Themes_fm.php:258 admin/controllers/Themes_fm.php:275
+#: admin/controllers/Themes_fm.php:2497 admin/views/Manage_fm.php:2385
+msgid "Left"
+msgstr "Vľavo"
+
+#: admin/controllers/Themes_fm.php:275
+msgid "Center"
+msgstr "Stred"
+
+#: admin/controllers/Themes_fm.php:330
+msgid "Font Family"
+msgstr "Skupina písma"
+
+#: admin/controllers/Themes_fm.php:339 admin/controllers/Themes_fm.php:451
+#: admin/controllers/Themes_fm.php:607 admin/controllers/Themes_fm.php:658
+#: admin/controllers/Themes_fm.php:908 admin/controllers/Themes_fm.php:1113
+#: admin/controllers/Themes_fm.php:1204 admin/controllers/Themes_fm.php:1252
+#: admin/controllers/Themes_fm.php:1375 admin/controllers/Themes_fm.php:1442
+#: admin/controllers/Themes_fm.php:1627 admin/controllers/Themes_fm.php:2050
+#: admin/controllers/Themes_fm.php:2065 admin/controllers/Themes_fm.php:2116
+#: admin/controllers/Themes_fm.php:2292
+msgid "Width"
+msgstr "Šírka"
+
+#: admin/controllers/Themes_fm.php:347
+msgid "Width (for scrollbox, popup form types)"
+msgstr "Šírka (pre posúvač, typy vyskakovacích formulárov)"
+
+#: admin/controllers/Themes_fm.php:355 admin/controllers/Themes_fm.php:467
+#: admin/controllers/Themes_fm.php:735 admin/controllers/Themes_fm.php:827
+#: admin/controllers/Themes_fm.php:860 admin/controllers/Themes_fm.php:884
+#: admin/controllers/Themes_fm.php:916 admin/controllers/Themes_fm.php:986
+#: admin/controllers/Themes_fm.php:1484 admin/controllers/Themes_fm.php:1669
+#: admin/controllers/Themes_fm.php:1856 admin/controllers/Themes_fm.php:1974
+#: admin/controllers/Themes_fm.php:2149 admin/controllers/Themes_fm.php:2325
+#: admin/controllers/Themes_fm.php:2541 admin/controllers/Themes_fm.php:2712
+msgid "Padding"
+msgstr "Odsadenie zvnútra"
+
+#: admin/controllers/Themes_fm.php:359
+msgid "e.g. 3px 5px or 3% 5%"
+msgstr "napríklad 3px 5px alebo 3% 5%"
+
+#: admin/controllers/Themes_fm.php:364 admin/controllers/Themes_fm.php:476
+#: admin/controllers/Themes_fm.php:744 admin/controllers/Themes_fm.php:836
+#: admin/controllers/Themes_fm.php:869 admin/controllers/Themes_fm.php:893
+#: admin/controllers/Themes_fm.php:925 admin/controllers/Themes_fm.php:995
+#: admin/controllers/Themes_fm.php:1129 admin/controllers/Themes_fm.php:1220
+#: admin/controllers/Themes_fm.php:1268 admin/controllers/Themes_fm.php:1391
+#: admin/controllers/Themes_fm.php:1493 admin/controllers/Themes_fm.php:1678
+#: admin/controllers/Themes_fm.php:1865 admin/controllers/Themes_fm.php:1983
+#: admin/controllers/Themes_fm.php:2158 admin/controllers/Themes_fm.php:2334
+#: admin/controllers/Themes_fm.php:2550 admin/controllers/Themes_fm.php:2721
+msgid "Margin"
+msgstr "Odsadenie"
+
+#: admin/controllers/Themes_fm.php:369
+msgid "e.g. 5px 10px or 5% 10%"
+msgstr "napríklad 5px 10px alebo 5% 10%"
+
+#: admin/controllers/Themes_fm.php:373 admin/controllers/Themes_fm.php:494
+#: admin/controllers/Themes_fm.php:753 admin/controllers/Themes_fm.php:1004
+#: admin/controllers/Themes_fm.php:1138 admin/controllers/Themes_fm.php:1277
+#: admin/controllers/Themes_fm.php:1502 admin/controllers/Themes_fm.php:1577
+#: admin/controllers/Themes_fm.php:1687 admin/controllers/Themes_fm.php:1762
+#: admin/controllers/Themes_fm.php:1874 admin/controllers/Themes_fm.php:1992
+#: admin/controllers/Themes_fm.php:2167 admin/controllers/Themes_fm.php:2242
+#: admin/controllers/Themes_fm.php:2343 admin/controllers/Themes_fm.php:2418
+#: admin/controllers/Themes_fm.php:2559 admin/controllers/Themes_fm.php:2625
+#: admin/controllers/Themes_fm.php:2730 admin/controllers/Themes_fm.php:2796
+msgid "Border"
+msgstr "Okraj"
+
+#: admin/controllers/Themes_fm.php:381 admin/controllers/Themes_fm.php:502
+#: admin/controllers/Themes_fm.php:761 admin/controllers/Themes_fm.php:1012
+#: admin/controllers/Themes_fm.php:1146 admin/controllers/Themes_fm.php:1285
+#: admin/controllers/Themes_fm.php:1510 admin/controllers/Themes_fm.php:1585
+#: admin/controllers/Themes_fm.php:1695 admin/controllers/Themes_fm.php:1770
+#: admin/controllers/Themes_fm.php:1882 admin/controllers/Themes_fm.php:2000
+#: admin/controllers/Themes_fm.php:2175 admin/controllers/Themes_fm.php:2250
+#: admin/controllers/Themes_fm.php:2351 admin/controllers/Themes_fm.php:2426
+#: admin/controllers/Themes_fm.php:2567 admin/controllers/Themes_fm.php:2633
+#: admin/controllers/Themes_fm.php:2738 admin/controllers/Themes_fm.php:2804
+msgid "Border Color"
+msgstr "Farba okraja"
+
+#: admin/controllers/Themes_fm.php:385 admin/controllers/Themes_fm.php:420
+#: admin/controllers/Themes_fm.php:446 admin/controllers/Themes_fm.php:471
+#: admin/controllers/Themes_fm.php:481 admin/controllers/Themes_fm.php:506
+#: admin/controllers/Themes_fm.php:564 admin/controllers/Themes_fm.php:587
+#: admin/controllers/Themes_fm.php:636 admin/controllers/Themes_fm.php:706
+#: admin/controllers/Themes_fm.php:719 admin/controllers/Themes_fm.php:739
+#: admin/controllers/Themes_fm.php:749 admin/controllers/Themes_fm.php:822
+#: admin/controllers/Themes_fm.php:831 admin/controllers/Themes_fm.php:840
+#: admin/controllers/Themes_fm.php:855 admin/controllers/Themes_fm.php:864
+#: admin/controllers/Themes_fm.php:873 admin/controllers/Themes_fm.php:888
+#: admin/controllers/Themes_fm.php:897 admin/controllers/Themes_fm.php:920
+#: admin/controllers/Themes_fm.php:929 admin/controllers/Themes_fm.php:972
+#: admin/controllers/Themes_fm.php:981 admin/controllers/Themes_fm.php:990
+#: admin/controllers/Themes_fm.php:999 admin/controllers/Themes_fm.php:1016
+#: admin/controllers/Themes_fm.php:1051 admin/controllers/Themes_fm.php:1066
+#: admin/controllers/Themes_fm.php:1108 admin/controllers/Themes_fm.php:1133
+#: admin/controllers/Themes_fm.php:1150 admin/controllers/Themes_fm.php:1184
+#: admin/controllers/Themes_fm.php:1199 admin/controllers/Themes_fm.php:1247
+#: admin/controllers/Themes_fm.php:1272 admin/controllers/Themes_fm.php:1289
+#: admin/controllers/Themes_fm.php:1324 admin/controllers/Themes_fm.php:1339
+#: admin/controllers/Themes_fm.php:1367 admin/controllers/Themes_fm.php:1395
+#: admin/controllers/Themes_fm.php:1437 admin/controllers/Themes_fm.php:1479
+#: admin/controllers/Themes_fm.php:1488 admin/controllers/Themes_fm.php:1497
+#: admin/controllers/Themes_fm.php:1514 admin/controllers/Themes_fm.php:1548
+#: admin/controllers/Themes_fm.php:1563 admin/controllers/Themes_fm.php:1572
+#: admin/controllers/Themes_fm.php:1589 admin/controllers/Themes_fm.php:1622
+#: admin/controllers/Themes_fm.php:1664 admin/controllers/Themes_fm.php:1673
+#: admin/controllers/Themes_fm.php:1682 admin/controllers/Themes_fm.php:1699
+#: admin/controllers/Themes_fm.php:1733 admin/controllers/Themes_fm.php:1748
+#: admin/controllers/Themes_fm.php:1757 admin/controllers/Themes_fm.php:1774
+#: admin/controllers/Themes_fm.php:1809 admin/controllers/Themes_fm.php:1835
+#: admin/controllers/Themes_fm.php:1860 admin/controllers/Themes_fm.php:1869
+#: admin/controllers/Themes_fm.php:1886 admin/controllers/Themes_fm.php:1927
+#: admin/controllers/Themes_fm.php:1953 admin/controllers/Themes_fm.php:1978
+#: admin/controllers/Themes_fm.php:1987 admin/controllers/Themes_fm.php:2004
+#: admin/controllers/Themes_fm.php:2069 admin/controllers/Themes_fm.php:2111
+#: admin/controllers/Themes_fm.php:2144 admin/controllers/Themes_fm.php:2153
+#: admin/controllers/Themes_fm.php:2162 admin/controllers/Themes_fm.php:2179
+#: admin/controllers/Themes_fm.php:2213 admin/controllers/Themes_fm.php:2228
+#: admin/controllers/Themes_fm.php:2237 admin/controllers/Themes_fm.php:2254
+#: admin/controllers/Themes_fm.php:2287 admin/controllers/Themes_fm.php:2320
+#: admin/controllers/Themes_fm.php:2329 admin/controllers/Themes_fm.php:2338
+#: admin/controllers/Themes_fm.php:2355 admin/controllers/Themes_fm.php:2389
+#: admin/controllers/Themes_fm.php:2404 admin/controllers/Themes_fm.php:2413
+#: admin/controllers/Themes_fm.php:2430 admin/controllers/Themes_fm.php:2474
+#: admin/controllers/Themes_fm.php:2483 admin/controllers/Themes_fm.php:2492
+#: admin/controllers/Themes_fm.php:2501 admin/controllers/Themes_fm.php:2510
+#: admin/controllers/Themes_fm.php:2536 admin/controllers/Themes_fm.php:2545
+#: admin/controllers/Themes_fm.php:2554 admin/controllers/Themes_fm.php:2571
+#: admin/controllers/Themes_fm.php:2611 admin/controllers/Themes_fm.php:2620
+#: admin/controllers/Themes_fm.php:2637 admin/controllers/Themes_fm.php:2672
+#: admin/controllers/Themes_fm.php:2698 admin/controllers/Themes_fm.php:2716
+#: admin/controllers/Themes_fm.php:2725 admin/controllers/Themes_fm.php:2742
+#: admin/controllers/Themes_fm.php:2782 admin/controllers/Themes_fm.php:2791
+#: admin/controllers/Themes_fm.php:2842 admin/controllers/Themes_fm.php:2910
+msgid "e.g."
+msgstr "napr."
+
+#: admin/controllers/Themes_fm.php:390 admin/controllers/Themes_fm.php:511
+#: admin/controllers/Themes_fm.php:769 admin/controllers/Themes_fm.php:1021
+#: admin/controllers/Themes_fm.php:1155 admin/controllers/Themes_fm.php:1294
+#: admin/controllers/Themes_fm.php:1519 admin/controllers/Themes_fm.php:1594
+#: admin/controllers/Themes_fm.php:1704 admin/controllers/Themes_fm.php:1779
+#: admin/controllers/Themes_fm.php:1891 admin/controllers/Themes_fm.php:2009
+#: admin/controllers/Themes_fm.php:2184 admin/controllers/Themes_fm.php:2259
+#: admin/controllers/Themes_fm.php:2360 admin/controllers/Themes_fm.php:2435
+#: admin/controllers/Themes_fm.php:2576 admin/controllers/Themes_fm.php:2642
+#: admin/controllers/Themes_fm.php:2747 admin/controllers/Themes_fm.php:2812
+msgid "Border Type"
+msgstr "Typ orámovania"
+
+#: admin/controllers/Themes_fm.php:399 admin/controllers/Themes_fm.php:520
+#: admin/controllers/Themes_fm.php:778 admin/controllers/Themes_fm.php:1030
+#: admin/controllers/Themes_fm.php:1164 admin/controllers/Themes_fm.php:1303
+#: admin/controllers/Themes_fm.php:1528 admin/controllers/Themes_fm.php:1603
+#: admin/controllers/Themes_fm.php:1713 admin/controllers/Themes_fm.php:1788
+#: admin/controllers/Themes_fm.php:1900 admin/controllers/Themes_fm.php:2018
+#: admin/controllers/Themes_fm.php:2193 admin/controllers/Themes_fm.php:2268
+#: admin/controllers/Themes_fm.php:2369 admin/controllers/Themes_fm.php:2444
+#: admin/controllers/Themes_fm.php:2585 admin/controllers/Themes_fm.php:2651
+#: admin/controllers/Themes_fm.php:2756 admin/controllers/Themes_fm.php:2821
+msgid "Border Width"
+msgstr "Hrúbka orámovania"
+
+#: admin/controllers/Themes_fm.php:407 admin/controllers/Themes_fm.php:528
+#: admin/controllers/Themes_fm.php:786 admin/controllers/Themes_fm.php:1038
+#: admin/controllers/Themes_fm.php:1172 admin/controllers/Themes_fm.php:1228
+#: admin/controllers/Themes_fm.php:1312 admin/controllers/Themes_fm.php:1400
+#: admin/controllers/Themes_fm.php:1536 admin/controllers/Themes_fm.php:1721
+#: admin/controllers/Themes_fm.php:1908 admin/controllers/Themes_fm.php:2026
+#: admin/controllers/Themes_fm.php:2201 admin/controllers/Themes_fm.php:2377
+#: admin/controllers/Themes_fm.php:2593 admin/controllers/Themes_fm.php:2764
+msgid "Border Radius"
+msgstr "Polomer okraja"
+
+#: admin/controllers/Themes_fm.php:415 admin/controllers/Themes_fm.php:1046
+#: admin/controllers/Themes_fm.php:1180 admin/controllers/Themes_fm.php:1320
+#: admin/controllers/Themes_fm.php:1544 admin/controllers/Themes_fm.php:1729
+#: admin/controllers/Themes_fm.php:2209 admin/controllers/Themes_fm.php:2385
+msgid "Box Shadow"
+msgstr "Tieň boxu"
+
+#: admin/controllers/Themes_fm.php:426 admin/controllers/Themes_fm.php:625
+msgid "General Parameters"
+msgstr "Všeobecné parametre"
+
+#: admin/controllers/Themes_fm.php:433 admin/controllers/Themes_fm.php:598
+#: admin/controllers/Themes_fm.php:674 admin/controllers/Themes_fm.php:1417
+#: admin/controllers/Themes_fm.php:2041
+msgid "Alignment"
+msgstr "Zarovnanie"
+
+#: admin/controllers/Themes_fm.php:442 admin/controllers/Themes_fm.php:632
+#: admin/controllers/Themes_fm.php:851 admin/controllers/Themes_fm.php:968
+#: admin/controllers/Themes_fm.php:1104 admin/controllers/Themes_fm.php:1195
+#: admin/controllers/Themes_fm.php:1243 admin/controllers/Themes_fm.php:1335
+#: admin/controllers/Themes_fm.php:1433 admin/controllers/Themes_fm.php:1559
+#: admin/controllers/Themes_fm.php:1618 admin/controllers/Themes_fm.php:1744
+#: admin/controllers/Themes_fm.php:1805 admin/controllers/Themes_fm.php:1923
+#: admin/controllers/Themes_fm.php:2107 admin/controllers/Themes_fm.php:2224
+#: admin/controllers/Themes_fm.php:2283 admin/controllers/Themes_fm.php:2400
+#: admin/controllers/Themes_fm.php:2506 admin/controllers/Themes_fm.php:2607
+#: admin/controllers/Themes_fm.php:2668 admin/controllers/Themes_fm.php:2778
+msgid "Background Color"
+msgstr "Farba pozadia"
+
+#: admin/controllers/Themes_fm.php:459 admin/controllers/Themes_fm.php:666
+msgid "Width (for topbar form type)"
+msgstr "Šírka (pre typ formulára horného panela)"
+
+#: admin/controllers/Themes_fm.php:485 admin/controllers/Themes_fm.php:2703
+msgid "Text Align"
+msgstr "Text Align"
+
+#: admin/controllers/Themes_fm.php:536
+msgid "Title Parameters"
+msgstr "Parametre názvu"
+
+#: admin/controllers/Themes_fm.php:543 admin/controllers/Themes_fm.php:575
+#: admin/controllers/Themes_fm.php:641 admin/controllers/Themes_fm.php:801
+#: admin/controllers/Themes_fm.php:951 admin/controllers/Themes_fm.php:1458
+#: admin/controllers/Themes_fm.php:1643 admin/controllers/Themes_fm.php:1814
+#: admin/controllers/Themes_fm.php:1932 admin/controllers/Themes_fm.php:2083
+#: admin/controllers/Themes_fm.php:2515 admin/controllers/Themes_fm.php:2677
+msgid "Font Size"
+msgstr "Veľkosť písma"
+
+#: admin/controllers/Themes_fm.php:551 admin/controllers/Themes_fm.php:649
+#: admin/controllers/Themes_fm.php:809 admin/controllers/Themes_fm.php:959
+#: admin/controllers/Themes_fm.php:1466 admin/controllers/Themes_fm.php:1651
+#: admin/controllers/Themes_fm.php:1822 admin/controllers/Themes_fm.php:1940
+#: admin/controllers/Themes_fm.php:2091 admin/controllers/Themes_fm.php:2523
+#: admin/controllers/Themes_fm.php:2685
+msgid "Font Weight"
+msgstr "Hrúbka písma"
+
+#: admin/controllers/Themes_fm.php:560 admin/controllers/Themes_fm.php:583
+#: admin/controllers/Themes_fm.php:727 admin/controllers/Themes_fm.php:818
+#: admin/controllers/Themes_fm.php:977 admin/controllers/Themes_fm.php:1475
+#: admin/controllers/Themes_fm.php:1568 admin/controllers/Themes_fm.php:1660
+#: admin/controllers/Themes_fm.php:1753 admin/controllers/Themes_fm.php:1831
+#: admin/controllers/Themes_fm.php:1949 admin/controllers/Themes_fm.php:2140
+#: admin/controllers/Themes_fm.php:2233 admin/controllers/Themes_fm.php:2316
+#: admin/controllers/Themes_fm.php:2409 admin/controllers/Themes_fm.php:2532
+#: admin/controllers/Themes_fm.php:2616 admin/controllers/Themes_fm.php:2694
+#: admin/controllers/Themes_fm.php:2787 admin/controllers/Themes_fm.php:2838
+#: admin/controllers/Themes_fm.php:2861
+msgid "Color"
+msgstr "Farba"
+
+#: admin/controllers/Themes_fm.php:569
+msgid "Description Parameters"
+msgstr "Parametre popisu"
+
+#: admin/controllers/Themes_fm.php:592
+msgid "Image Parameters"
+msgstr "Parametre obrázka"
+
+#: admin/controllers/Themes_fm.php:615 admin/controllers/Themes_fm.php:943
+#: admin/controllers/Themes_fm.php:1121 admin/controllers/Themes_fm.php:1212
+#: admin/controllers/Themes_fm.php:1260 admin/controllers/Themes_fm.php:1383
+#: admin/controllers/Themes_fm.php:1450 admin/controllers/Themes_fm.php:1635
+#: admin/controllers/Themes_fm.php:1840 admin/controllers/Themes_fm.php:1958
+#: admin/controllers/Themes_fm.php:2124 admin/controllers/Themes_fm.php:2300
+msgid "Height"
+msgstr "Výška"
+
+#: admin/controllers/Themes_fm.php:683 admin/controllers/Themes_fm.php:1071
+#: admin/controllers/Themes_fm.php:1344 admin/controllers/Themes_fm.php:2887
+msgid "Background URL"
+msgstr "Adresa URL pozadia"
+
+#: admin/controllers/Themes_fm.php:692 admin/controllers/Themes_fm.php:1080
+#: admin/controllers/Themes_fm.php:1353 admin/controllers/Themes_fm.php:2896
+msgid "Background Repeat"
+msgstr "Opakovanie pozadia"
+
+#: admin/controllers/Themes_fm.php:701 admin/controllers/Themes_fm.php:1362
+#: admin/controllers/Themes_fm.php:2905
+msgid "Background Position"
+msgstr "Pozícia pozadia"
+
+#: admin/controllers/Themes_fm.php:714
+msgid "Background Size"
+msgstr "Veľkosť pozadia"
+
+#: admin/controllers/Themes_fm.php:794
+msgid "Mini labels (name, phone, address, checkbox, radio) Parameters"
+msgstr ""
+"Mini štítky (meno, telefón, adresa, začiarkavacie políčko, rádio) Parametre"
+
+#: admin/controllers/Themes_fm.php:845
+msgid "Section Parameters"
+msgstr "Parametre sekcie"
+
+#: admin/controllers/Themes_fm.php:878
+msgid "Section Column Parameters"
+msgstr "Parametre stĺpca sekcie"
+
+#: admin/controllers/Themes_fm.php:902
+msgid "Footer Parameters"
+msgstr "Parametre päty"
+
+#: admin/controllers/Themes_fm.php:1055
+msgid "Dropdown additional"
+msgstr "Rozbaľovací zoznam ďalší"
+
+#: admin/controllers/Themes_fm.php:1062 admin/views/Manage_fm.php:366
+msgid "Appearance"
+msgstr "Vzhľad"
+
+#: admin/controllers/Themes_fm.php:1097 admin/views/Manage_fm.php:1075
+msgid "Single Choice"
+msgstr "Jedna možnosť"
+
+#: admin/controllers/Themes_fm.php:1189 admin/controllers/Themes_fm.php:1329
+msgid "Checked Parameters"
+msgstr "Skontrolované parametre"
+
+#: admin/controllers/Themes_fm.php:1236 admin/views/Manage_fm.php:1076
+msgid "Multiple Choice"
+msgstr "Viacero možností"
+
+#: admin/controllers/Themes_fm.php:1426 admin/views/Manage_fm.php:1078
+#: admin/views/Themes_fm.php:452
+msgid "Submit"
+msgstr "Odoslať"
+
+#: admin/controllers/Themes_fm.php:1553 admin/controllers/Themes_fm.php:1738
+#: admin/controllers/Themes_fm.php:2218 admin/controllers/Themes_fm.php:2394
+#: admin/controllers/Themes_fm.php:2601 admin/controllers/Themes_fm.php:2772
+msgid "Hover Parameters"
+msgstr "Parametre ukázaním"
+
+#: admin/controllers/Themes_fm.php:1611 admin/views/Submissions_fm.php:230
+#: admin/views/Themes_fm.php:453 frontend/views/form_submissions.php:246
+msgid "Reset"
+msgstr "Reset"
+
+#: admin/controllers/Themes_fm.php:1798
+msgid "Active"
+msgstr "Aktívny"
+
+#: admin/controllers/Themes_fm.php:1848 admin/controllers/Themes_fm.php:1966
+#: admin/controllers/Themes_fm.php:2132 admin/controllers/Themes_fm.php:2308
+msgid "Line Height"
+msgstr "Výška riadku"
+
+#: admin/controllers/Themes_fm.php:1916
+msgid "Inactive"
+msgstr "Neaktívny"
+
+#: admin/controllers/Themes_fm.php:2034
+msgid "Steps"
+msgstr "Kroky"
+
+#: admin/controllers/Themes_fm.php:2058 admin/views/Submissions_fm.php:1148
+#: admin/views/Themes_fm.php:345 frontend/views/form_submissions.php:896
+msgid "Percentage"
+msgstr "Percentá"
+
+#: admin/controllers/Themes_fm.php:2100
+msgid "Next Button Parameters"
+msgstr "Parametre ďalšieho tlačidla"
+
+#: admin/controllers/Themes_fm.php:2276
+msgid "Previous Button Parameters"
+msgstr "Predchádzajúce parametre tlačidla"
+
+#: admin/controllers/Themes_fm.php:2461 admin/views/Manage_fm.php:2354
+#: admin/views/Manage_fm.php:2383
+msgid "Position"
+msgstr "Pozícia"
+
+#: admin/controllers/Themes_fm.php:2831
+msgid "Inactive Text"
+msgstr "Neaktívny text"
+
+#: admin/controllers/Themes_fm.php:2847
+msgid "Font Style"
+msgstr "Štýl písma"
+
+#: admin/controllers/Themes_fm.php:2855
+msgid "Required"
+msgstr "Požadované"
+
+#: admin/controllers/Themes_fm.php:2869
+msgid "Shake effect"
+msgstr "Efekt chvenia"
+
+#: admin/controllers/Themes_fm.php:2873 admin/views/Manage_fm.php:559
+#: admin/views/Manage_fm.php:755 admin/views/Manage_fm.php:903
+#: admin/views/Manage_fm.php:911 admin/views/Manage_fm.php:1025
+#: admin/views/Manage_fm.php:1033 admin/views/Manage_fm.php:1321
+#: admin/views/Manage_fm.php:1328 admin/views/Manage_fm.php:1341
+#: admin/views/Manage_fm.php:2035 admin/views/Manage_fm.php:2049
+#: admin/views/Manage_fm.php:2057 admin/views/Manage_fm.php:2363
+#: admin/views/Manage_fm.php:2370 admin/views/Manage_fm.php:2407
+#: admin/views/Manage_fm.php:2424 admin/views/Manage_fm.php:2431
+#: admin/views/Manage_fm.php:2442 admin/views/Manage_fm.php:2551
+#: admin/views/Options_fm.php:136 admin/views/Options_fm.php:144
+#: admin/views/Options_fm.php:152 admin/views/Options_fm.php:160
+#: admin/views/Options_fm.php:168 admin/views/Options_fm.php:176
+#: admin/views/Options_fm.php:184 admin/views/Options_fm.php:192
+#: admin/views/Themes_fm.php:304 admin/views/Uninstall_fm.php:93
+msgid "Yes"
+msgstr "Áno"
+
+#: admin/controllers/Themes_fm.php:2874 admin/views/Manage_fm.php:561
+#: admin/views/Manage_fm.php:757 admin/views/Manage_fm.php:905
+#: admin/views/Manage_fm.php:913 admin/views/Manage_fm.php:1027
+#: admin/views/Manage_fm.php:1035 admin/views/Manage_fm.php:1323
+#: admin/views/Manage_fm.php:1330 admin/views/Manage_fm.php:1343
+#: admin/views/Manage_fm.php:2037 admin/views/Manage_fm.php:2051
+#: admin/views/Manage_fm.php:2059 admin/views/Manage_fm.php:2365
+#: admin/views/Manage_fm.php:2372 admin/views/Manage_fm.php:2409
+#: admin/views/Manage_fm.php:2426 admin/views/Manage_fm.php:2433
+#: admin/views/Manage_fm.php:2444 admin/views/Manage_fm.php:2553
+#: admin/views/Options_fm.php:138 admin/views/Options_fm.php:146
+#: admin/views/Options_fm.php:154 admin/views/Options_fm.php:162
+#: admin/views/Options_fm.php:170 admin/views/Options_fm.php:178
+#: admin/views/Options_fm.php:186 admin/views/Options_fm.php:194
+#: admin/views/Themes_fm.php:306
+msgid "No"
+msgstr "Nie"
+
+#: admin/controllers/Themes_fm.php:2881 admin/views/Manage_fm.php:1092
+msgid "File Upload"
+msgstr "Nahranie súboru"
+
+#: admin/controllers/Themes_fm.php:2918 admin/views/Submissions_fm.php:670
+msgid "Grading"
+msgstr "Triedenie"
+
+#: admin/controllers/Themes_fm.php:2924
+msgid "Text Width"
+msgstr "Šírka textu"
+
+#: admin/controllers/Uninstall_fm.php:53 admin/views/Options_fm.php:203
+#, php-format
+msgid "Uninstall %s"
+msgstr "Odinštalovať %s"
+
+#: admin/controllers/Widget.php:18
+#, php-format
+msgid "Add %s widget."
+msgstr "Pridajte %s miniaplikáciu."
+
+#: admin/controllers/elementorWidget.php:24
+#: admin/controllers/elementorWidget.php:52 admin/views/Submissions_fm.php:1242
+msgid "Form"
+msgstr "Formulár"
+
+#: admin/controllers/elementorWidget.php:68
+msgid "Select the form to display."
+msgstr "Vyberte formulár, ktorý sa má zobraziť."
+
+#: admin/controllers/elementorWidget.php:68
+msgid "Edit form"
+msgstr "Upraviť formulár"
+
+#: admin/models/Manage_fm.php:388
+msgid "Section Break"
+msgstr "Zlom sekcie"
+
+#: admin/models/Manage_fm.php:399
+msgid "Custom HTML"
+msgstr "Vlastné HTML"
+
+#: admin/models/Manage_fm.php:2279 form-maker.php:706
+#: frontend/views/form_maker.php:1352
+msgid "No preview available for reCAPTCHA."
+msgstr "Pre reCAPTCHA nie je k dispozícii žiadna ukážka."
+
+#: admin/models/Submissions_fm.php:359
+msgid "Street Address"
+msgstr "Ulica"
+
+#: admin/models/Submissions_fm.php:362
+msgid "Street Address Line 2"
+msgstr "Ulica riadok 2"
+
+#: admin/models/Submissions_fm.php:365 admin/views/FMIpinfoinPopup.php:47
+msgid "City"
+msgstr "Mesto"
+
+#: admin/models/Submissions_fm.php:368
+msgid "State / Province / Region"
+msgstr "Štát / provincia / región"
+
+#: admin/models/Submissions_fm.php:371
+msgid "Postal / Zip Code"
+msgstr "Poštové / PSČ"
+
+#: admin/models/Submissions_fm.php:374 admin/views/FMIpinfoinPopup.php:51
+msgid "Country"
+msgstr "Krajina"
+
+#: admin/views/Blocked_ips_fm.php:59 admin/views/Submissions_fm.php:77
+#: admin/views/Submissions_fm.php:215 form-maker.php:472
+msgid "Blocked IPs"
+msgstr "Bolokované IP adresy"
+
+#: admin/views/Blocked_ips_fm.php:77 admin/views/FMEditCountryinPopup.php:55
+#: admin/views/Manage_fm.php:89 admin/views/Submissions_fm.php:245
+#: admin/views/Themes_fm.php:75
+msgid "Select all"
+msgstr "Vyber všetky"
+
+#: admin/views/Blocked_ips_fm.php:80 admin/views/Blocked_ips_fm.php:87
+#: admin/views/Blocked_ips_fm.php:104 admin/views/FMIpinfoinPopup.php:43
+#: admin/views/Submissions_fm.php:1254 framework/WDW_FM_Library.php:5465
+msgid "IP"
+msgstr "IP"
+
+#: admin/views/Blocked_ips_fm.php:87
+msgid "Add IP"
+msgstr "Pridať IP adresu"
+
+#: admin/views/Blocked_ips_fm.php:115 admin/views/Manage_fm.php:144
+#: admin/views/Submissions_fm.php:531 admin/views/Themes_fm.php:102
+msgid "Edit"
+msgstr "Upraviť"
+
+#: admin/views/Blocked_ips_fm.php:120 admin/views/Manage_fm.php:159
+#: admin/views/Submissions_fm.php:535 admin/views/Themes_fm.php:104
+msgid "Do you want to delete selected item?"
+msgstr "Chcete odstrániť vybratú položku?"
+
+#: admin/views/Checkpaypal.php:24 frontend/views/form_submissions.php:1110
+msgid "Currency"
+msgstr "Mena"
+
+#: admin/views/Checkpaypal.php:28 admin/views/FormMakerSubmits.php:51
+#: admin/views/Manage_fm.php:481 admin/views/Manage_fm.php:1073
+#: admin/views/Submissions_fm.php:1250
+msgid "Date"
+msgstr "Dátum"
+
+#: admin/views/Checkpaypal.php:32 admin/views/FMPaypalInfo.php:61
+#: frontend/views/form_submissions.php:1118
+msgid "Status"
+msgstr "Stav"
+
+#: admin/views/Checkpaypal.php:36 admin/views/FMPaypalInfo.php:71
+#: frontend/views/form_submissions.php:1122
+msgid "Full name"
+msgstr "Celé meno"
+
+#: admin/views/Checkpaypal.php:40 admin/views/FMPaypalInfo.php:81
+#: admin/views/Manage_fm.php:1083 frontend/views/form_submissions.php:1126
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/views/Checkpaypal.php:44 admin/views/FMPaypalInfo.php:91
+#: admin/views/Manage_fm.php:1084 frontend/views/form_submissions.php:1130
+msgid "Phone"
+msgstr "Telefón"
+
+#: admin/views/Checkpaypal.php:48 admin/views/FMPaypalInfo.php:101
+#: frontend/views/form_submissions.php:1134
+msgid "Mobile phone"
+msgstr "Mobilné číslo"
+
+#: admin/views/Checkpaypal.php:52 admin/views/FMPaypalInfo.php:111
+#: frontend/views/form_submissions.php:1138
+msgid "Fax"
+msgstr "Fax"
+
+#: admin/views/Checkpaypal.php:56 admin/views/FMPaypalInfo.php:121
+#: admin/views/Manage_fm.php:1085 frontend/views/form_submissions.php:966
+#: frontend/views/form_submissions.php:1142
+msgid "Address"
+msgstr "Adresa"
+
+#: admin/views/Checkpaypal.php:60 admin/views/Submissions_fm.php:925
+#: frontend/views/form_submissions.php:1146
+msgid "Payment info"
+msgstr "Informácie o platbe"
+
+#: admin/views/Checkpaypal.php:64 admin/views/FMPaypalInfo.php:141
+#: frontend/views/form_submissions.php:1150
+msgid "IPN"
+msgstr "IPN"
+
+#: admin/views/Checkpaypal.php:68
+msgid "tax"
+msgstr "dph"
+
+#: admin/views/Checkpaypal.php:72
+msgid "shipping"
+msgstr "Doručenie"
+
+#: admin/views/Checkpaypal.php:76
+msgid "read"
+msgstr "čítania"
+
+#: admin/views/Checkpaypal.php:80
+msgid "Item total"
+msgstr "Súčet položiek"
+
+#: admin/views/Checkpaypal.php:84 admin/views/FMPaypalInfo.php:151
+#: admin/views/Manage_fm.php:1576 frontend/views/form_submissions.php:1154
+msgid "Tax"
+msgstr "DPH"
+
+#: admin/views/Checkpaypal.php:88
+msgid "Shipping and handling"
+msgstr "Preprava a manipulácia"
+
+#: admin/views/Checkpaypal.php:92 admin/views/FMPaypalInfo.php:181
+#: admin/views/Manage_fm.php:1115 admin/views/Submissions_fm.php:1196
+#: frontend/views/form_maker.php:4646 frontend/views/form_submissions.php:647
+#: frontend/views/form_submissions.php:941
+#: frontend/views/form_submissions.php:1162
+msgid "Total"
+msgstr "Celkom"
+
+#: admin/views/FMEditCountryinPopup.php:58
+msgid "Remove all"
+msgstr "Odstrániť všetky"
+
+#: admin/views/FMEditCountryinPopup.php:63 admin/views/Options_fm.php:36
+#: admin/views/Submissions_fm.php:1235 admin/views/Themes_fm.php:151
+msgid "Save"
+msgstr "Uložiť"
+
+#: admin/views/FMIpinfoinPopup.php:55
+msgid "CountryCode"
+msgstr "Krajina"
+
+#: admin/views/FMIpinfoinPopup.php:59
+msgid "Timezone"
+msgstr "Časové pásmo"
+
+#: admin/views/FMIpinfoinPopup.php:63 frontend/views/form_submissions.php:982
+msgid "Latitude"
+msgstr "Zemepisná šírka"
+
+#: admin/views/FMIpinfoinPopup.php:67 frontend/views/form_submissions.php:974
+msgid "Longitude"
+msgstr "Zemepisná dĺžka"
+
+#: admin/views/FMMapEditinPopup.php:20
+msgid "Address:"
+msgstr "Adresa:"
+
+#: admin/views/FMMapEditinPopup.php:24
+msgid "Longitude:"
+msgstr "Zem. dĺžka:"
+
+#: admin/views/FMMapEditinPopup.php:28
+msgid "Latitude:"
+msgstr "Zem. šírka:"
+
+#: admin/views/FMPaypalInfo.php:17 frontend/views/form_submissions.php:1100
+msgid "No information yet"
+msgstr "Zatiaľ žiadne informácie"
+
+#: admin/views/FMPaypalInfo.php:35 admin/views/Submissions_fm.php:365
+#: frontend/views/form_submissions.php:1107
+msgid "Payment Info"
+msgstr "Platobné informácie"
+
+#: admin/views/FMPaypalInfo.php:51 frontend/views/form_submissions.php:1114
+msgid "Last modified"
+msgstr "Posledná zmena"
+
+#: admin/views/FMPaypalInfo.php:131
+msgid "Info"
+msgstr "Informácie"
+
+#: admin/views/FMPaypalInfo.php:161 admin/views/Manage_fm.php:1114
+#: frontend/views/form_submissions.php:1158
+msgid "Shipping"
+msgstr "Doručenie"
+
+#: admin/views/FMPaypalInfo.php:171
+msgid "Read"
+msgstr "Prečítané"
+
+#: admin/views/FMSelectDataFromDb.php:166
+msgid "Connection type"
+msgstr "Typ pripojenia"
+
+#: admin/views/FMShortocde.php:41 admin/views/FMShortocde.php:85
+msgid "-Select a Form-"
+msgstr "-Vyberte formulár-"
+
+#: admin/views/FMShortocde.php:46 admin/views/FMShortocde.php:90
+#: admin/views/Manage_fm.php:134 framework/WDW_FM_Library.php:5486
+#: framework/WDW_FM_Library.php:5705
+msgid "Unpublished"
+msgstr "Nepublikované"
+
+#: admin/views/FMShortocde.php:54 admin/views/FMShortocde.php:199
+msgid "Insert"
+msgstr "Vložiť"
+
+#: admin/views/FMShortocde.php:74
+msgid "Front end submissions are available in Premium version"
+msgstr "Príspevky pre užívateľské rozhranie sú k dispozícii vo verzii Premium"
+
+#: admin/views/FMShortocde.php:98
+msgid "Select Date Range"
+msgstr "Vyberte rozsah dátumov"
+
+#: admin/views/FMShortocde.php:99 frontend/views/form_submissions.php:414
+#: frontend/views/form_submissions.php:750
+msgid "From"
+msgstr "Od"
+
+#: admin/views/FMShortocde.php:101 frontend/views/form_submissions.php:421
+#: frontend/views/form_submissions.php:751
+msgid "To"
+msgstr "Pre"
+
+#: admin/views/FMShortocde.php:111
+msgid "Select fields"
+msgstr "Vyberte pole "
+
+#: admin/views/FMShortocde.php:115
+msgid "Submit Date"
+msgstr "dátum odoslania"
+
+#: admin/views/FMShortocde.php:119
+msgid "Submitter's IP Address"
+msgstr "IP Adresa zadávateľa"
+
+#: admin/views/FMShortocde.php:123 admin/views/Submissions_fm.php:292
+#: admin/views/Submissions_fm.php:296 admin/views/Submissions_fm.php:551
+#: admin/views/Submissions_fm.php:1258
+msgid "Submitter's Username"
+msgstr "Používateľské meno zadávateľa"
+
+#: admin/views/FMShortocde.php:127 admin/views/Submissions_fm.php:305
+#: admin/views/Submissions_fm.php:309 admin/views/Submissions_fm.php:554
+#: admin/views/Submissions_fm.php:1262
+msgid "Submitter's Email Address"
+msgstr "E-mailová adresa zadávateľa"
+
+#: admin/views/FMShortocde.php:131
+msgid "Form Fields"
+msgstr "Pole formulára"
+
+#: admin/views/FMShortocde.php:134
+msgid "You can hide specific form fields from Form General Options."
+msgstr ""
+"Konkrétne polia formulára môžete skryť v časti Všeobecné možnosti formulára."
+
+#: admin/views/FMShortocde.php:139 frontend/views/form_submissions.php:201
+msgid "Export to"
+msgstr "Exportovať do"
+
+#: admin/views/FMShortocde.php:143
+msgid "CSV"
+msgstr "CSV"
+
+#: admin/views/FMShortocde.php:147
+msgid "XML"
+msgstr "XML"
+
+#: admin/views/FMShortocde.php:156 admin/views/Manage_fm.php:1751
+#: admin/views/Submissions_fm.php:815 frontend/views/form_submissions.php:757
+msgid "Show"
+msgstr "Zobraziť"
+
+#: admin/views/FMShortocde.php:160 admin/views/Manage_fm.php:92
+#: admin/views/Manage_fm.php:116 admin/views/Manage_fm.php:572
+#: admin/views/Themes_fm.php:78 admin/views/Themes_fm.php:97
+#: admin/views/Themes_fm.php:153
+msgid "Title"
+msgstr "Názov"
+
+#: admin/views/FMShortocde.php:164 admin/views/Submissions_fm.php:229
+#: admin/views/view.php:165
+msgid "Search"
+msgstr "Hľadať"
+
+#: admin/views/FMShortocde.php:168
+msgid "Ordering"
+msgstr "Objednávanie"
+
+#: admin/views/FMShortocde.php:172 admin/views/Submissions_fm.php:194
+#: frontend/views/form_submissions.php:170
+msgid "Entries"
+msgstr "Záznamy"
+
+#: admin/views/FMShortocde.php:176 admin/views/Submissions_fm.php:202
+#: frontend/views/form_submissions.php:178
+msgid "Views"
+msgstr "Zobrazení"
+
+#: admin/views/FMShortocde.php:180 admin/views/Submissions_fm.php:198
+#: frontend/views/form_submissions.php:186
+msgid "Conversion Rate"
+msgstr "Konverzný pomer"
+
+#: admin/views/FMShortocde.php:188 admin/views/Submissions_fm.php:785
+#: frontend/views/form_submissions.php:724
+msgid "Statistics"
+msgstr "Štatistiky"
+
+#: admin/views/FMSqlMapping.php:832 admin/views/FMSqlMapping.php:1815
+#: admin/views/Manage_fm.php:93 admin/views/Manage_fm.php:170
+msgid "Type"
+msgstr "Typ"
+
+#: admin/views/FMSqlMapping.php:835 admin/views/FMSqlMapping.php:1818
+msgid "Null"
+msgstr "Null"
+
+#: admin/views/FMSqlMapping.php:838 admin/views/FMSqlMapping.php:1821
+msgid "Key"
+msgstr "Kľúč"
+
+#: admin/views/FMSqlMapping.php:841 admin/views/FMSqlMapping.php:1824
+#: admin/views/Themes_fm.php:79 admin/views/Themes_fm.php:110
+msgid "Default"
+msgstr "Predvolený"
+
+#: admin/views/FMSqlMapping.php:844 admin/views/FMSqlMapping.php:1827
+msgid "Extra"
+msgstr "Extra"
+
+#: admin/views/LibSubscribe.php:12
+msgid ""
+"Hey! I know how hard and time-consuming creating a well-structured form can "
+"be."
+msgstr ""
+"Hej! Viem, aké ťažké a časovo náročné môže byť vytvorenie dobre "
+"štruktúrovaného formulára."
+
+#: admin/views/LibSubscribe.php:19
+msgid "Name is required."
+msgstr "Vyžaduje sa názov."
+
+#: admin/views/LibSubscribe.php:20
+msgid "Please enter a valid email."
+msgstr "Prosím, zadajte platnú e-mailovú adresu"
+
+#: admin/views/LibSubscribe.php:62
+msgid ""
+"So, I handcrafted a step-by-step ebook to make it super easy for you. Enjoy "
+msgstr ""
+"Tak som ručne krok-za-krokom eBook, aby bolo super ľahké pre vás. Vychutnať "
+
+#: admin/views/LibSubscribe.php:69
+msgid "NAME"
+msgstr "MENO"
+
+#: admin/views/LibSubscribe.php:74
+msgid "EMAIL ADDRESS"
+msgstr "EMAIL"
+
+#: admin/views/LibSubscribe.php:78
+msgid ""
+"Keep in mind that submitting this form will allow 10Web to store your name, "
+"email, and site URL. Being GDPR-compliant, we won’t ever share your info "
+"with third parties..."
+msgstr ""
+"Majte na pamäti, že odoslanie tohto formulára umožní 10Web uložiť vaše meno, "
+"e-mail a adresu URL lokality. Keďže sme v súlade s nariadením GDPR, vaše "
+"informácie nikdy nebudeme zdieľať s tretími stranami..."
+
+#: admin/views/LibSubscribe.php:83 wd/templates/display_subscribe.php:29
+msgid "Skip"
+msgstr "Preskočiť"
+
+#: admin/views/Manage_fm.php:68 admin/views/view.php:442 form-maker.php:468
+msgid "Forms"
+msgstr "Formuláre"
+
+#: admin/views/Manage_fm.php:95 admin/views/Manage_fm.php:197
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/views/Manage_fm.php:96 admin/views/Manage_fm.php:200
+msgid "PHP function"
+msgstr "PHP (funkcia)"
+
+#: admin/views/Manage_fm.php:163 admin/views/Manage_fm.php:351
+#: admin/views/Themes_fm.php:338
+msgid "Preview"
+msgstr "Náhľad"
+
+#: admin/views/Manage_fm.php:167 admin/views/Submissions_fm.php:537
+#: admin/views/Themes_fm.php:107
+msgid "Show more details"
+msgstr "Zobraziť ďalšie podrobnosti"
+
+#: admin/views/Manage_fm.php:174
+msgid "Set display options"
+msgstr "Nastavenie možností zobrazenia"
+
+#: admin/views/Manage_fm.php:182
+msgid "View sumbissions"
+msgstr "Zobraziť objednávky"
+
+#: admin/views/Manage_fm.php:317
+#, php-format
+msgid ""
+"You need to click the \"Restore this revision\" button to save the changes. "
+"Revision number %u %s"
+msgstr ""
+"Ak chcete uložiť zmeny, musíte kliknúť na tlačidlo Obnoviť túto revíziu. "
+"Číslo revízie %u %s"
+
+#: admin/views/Manage_fm.php:328 admin/views/Manage_fm.php:339
+#: framework/WDW_FM_Library.php:5463 framework/WDW_FM_Library.php:5560
+msgid "Form Title"
+msgstr "Názov formulára"
+
+#: admin/views/Manage_fm.php:334 admin/views/Manage_fm.php:442
+msgid "Revisions"
+msgstr "Revízie"
+
+#: admin/views/Manage_fm.php:342 form-maker.php:691 form-maker.php:806
+msgid "Update"
+msgstr "Aktualizovať"
+
+#: admin/views/Manage_fm.php:344
+msgid "Restore this revision"
+msgstr "Obnoviť túto revíziu"
+
+#: admin/views/Manage_fm.php:360
+msgid "Fields"
+msgstr "Polia"
+
+#: admin/views/Manage_fm.php:362
+msgid "Form Header"
+msgstr "Hlavička formulára"
+
+#: admin/views/Manage_fm.php:365
+msgid "Email Options"
+msgstr "Nastavenie e-mailu"
+
+#: admin/views/Manage_fm.php:368
+msgid "Layout"
+msgstr "Rozloženie"
+
+#: admin/views/Manage_fm.php:372
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: admin/views/Manage_fm.php:386
+msgid "You are about to delete a page from your form."
+msgstr "Chystáte sa odstrániť stránku z formulára."
+
+#: admin/views/Manage_fm.php:387
+msgid "Do you want to also Remove all the fields on that page?"
+msgstr "Chcete tiež odstrániť všetky polia na tejto stránke?"
+
+#: admin/views/Manage_fm.php:388
+msgid ""
+"If you decide to preserve the fields, they will be moved to the previous "
+"page."
+msgstr "Ak sa rozhodnete zachovať polia, presunú sa na predchádzajúcu stranu."
+
+#: admin/views/Manage_fm.php:391
+msgid "Delete page and preserve the fields"
+msgstr "Odstránenie strany a zachovanie polí"
+
+#: admin/views/Manage_fm.php:392
+msgid "Delete page and the fields"
+msgstr "Odstránenie strany a polí"
+
+#: admin/views/Manage_fm.php:393 admin/views/Manage_fm.php:406
+#: admin/views/Manage_fm.php:418 admin/views/Manage_fm.php:433
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: admin/views/Manage_fm.php:402
+msgid "Are you sure you want to delete this field?"
+msgstr "Naozaj chcete odstrániť toto pole?"
+
+#: admin/views/Manage_fm.php:414
+msgid "Are you sure you want to delete this column?"
+msgstr "Ste si istý, že chcete vymazať tento stĺpec?"
+
+#: admin/views/Manage_fm.php:426
+msgid "You are about to delete a column from your form."
+msgstr "Chystáte sa odstrániť stĺpec z formulára."
+
+#: admin/views/Manage_fm.php:427
+msgid "Do you want to also Remove all the fields in that column?"
+msgstr "Chcete tiež odstrániť všetky polia v tomto stĺpci?"
+
+#: admin/views/Manage_fm.php:428
+msgid ""
+"If you decide to preserve the fields, they will be moved to the previous "
+"column."
+msgstr ""
+"Ak sa rozhodnete zachovať polia, presunú sa do predchádzajúceho stĺpca."
+
+#: admin/views/Manage_fm.php:431
+msgid "Delete column and preserve the fields"
+msgstr "Odstránenie stĺpca a zachovanie polí"
+
+#: admin/views/Manage_fm.php:432
+msgid "Delete column and the fields"
+msgstr "Odstránenie stĺpca a polí"
+
+#: admin/views/Manage_fm.php:458
+msgid "Last saved:"
+msgstr "Naposledy uložené:"
+
+#: admin/views/Manage_fm.php:459 admin/views/Manage_fm.php:492
+msgid "Unknown date"
+msgstr "Neznámy dátum"
+
+#: admin/views/Manage_fm.php:470
+msgid "Go Back"
+msgstr "Naspäť"
+
+#: admin/views/Manage_fm.php:473 admin/views/Manage_fm.php:497
+msgid "Current"
+msgstr "Aktuálne"
+
+#: admin/views/Manage_fm.php:480 admin/views/Manage_fm.php:1072
+msgid "Number"
+msgstr "Číslo"
+
+#: admin/views/Manage_fm.php:482 admin/views/Manage_fm.php:1094
+msgid "Time"
+msgstr "Čas"
+
+#: admin/views/Manage_fm.php:503 admin/views/Submissions_fm.php:530
+msgid "View"
+msgstr "Zobraziť"
+
+#: admin/views/Manage_fm.php:525
+msgid "Edit page navigation."
+msgstr "Upravte navigáciu na stránke."
+
+#: admin/views/Manage_fm.php:535
+msgid "Drag icon to the form to add a field."
+msgstr "Presuňte ikonu do formulára a pridajte pole."
+
+#: admin/views/Manage_fm.php:539
+msgid "Drag icon to the form or click here to add a field."
+msgstr "Presuňte ikonu do formulára alebo kliknite sem a pridajte pole."
+
+#: admin/views/Manage_fm.php:541
+msgid "New Field"
+msgstr "Nové pole"
+
+#: admin/views/Manage_fm.php:546
+msgid "Add Page"
+msgstr "Pridať stranu"
+
+#: admin/views/Manage_fm.php:557
+msgid "Show header"
+msgstr "Zobraziť hlavičku"
+
+#: admin/views/Manage_fm.php:576
+msgid "Description"
+msgstr "Popis"
+
+#: admin/views/Manage_fm.php:588
+msgid "Image"
+msgstr "Obrázok"
+
+#: admin/views/Manage_fm.php:590
+msgid "Add Image"
+msgstr "Pridať obrázok"
+
+#: admin/views/Manage_fm.php:599
+msgid "Image Animation"
+msgstr "Animácia obrázka"
+
+#: admin/views/Manage_fm.php:610
+msgid "Hide Image on Mobile"
+msgstr "Skryť obrázok v mobile"
+
+#: admin/views/Manage_fm.php:669 admin/views/Manage_fm.php:674
+msgid "Loading..."
+msgstr "Načítavam…"
+
+#: admin/views/Manage_fm.php:753
+msgid "Send E-mail"
+msgstr "Odoslať e-mail"
+
+#: admin/views/Manage_fm.php:758
+msgid ""
+"Enable this setting to send submitted information to administrators and/or "
+"the submitter."
+msgstr ""
+"Povoľte toto nastavenie na odosielanie odoslaných informácií správcom alebo "
+"odosielateľovi."
+
+#: admin/views/Manage_fm.php:759
+msgid ""
+"In case you cannot find the submission email in your Inbox, make sure to "
+"check the Spam folder as well."
+msgstr ""
+"V prípade, že v priečinku Doručená pošta nemôžete nájsť e-mail na odoslanie, "
+"skontrolujte aj priečinok Spam."
+
+#: admin/views/Manage_fm.php:769
+msgid "Email to Administrator"
+msgstr "Poslať e-mail správcovi"
+
+#: admin/views/Manage_fm.php:773
+msgid "Email to send submissions to"
+msgstr "Odoslanie vyplneného formulára  na e-mail adresu:"
+
+#: admin/views/Manage_fm.php:776
+msgid ""
+"Specify the email address(es), to which submitted form information will be "
+"sent. For multiple email addresses separate with commas."
+msgstr ""
+"Zadajte e-mailovú adresu(-y), na ktorú sa odošlú odoslané informácie o "
+"formulári. Pre viaceré e-mailové adresy oddelené čiarkami."
+
+#: admin/views/Manage_fm.php:779 admin/views/Manage_fm.php:947
+msgid "Email From"
+msgstr "E-mail od"
+
+#: admin/views/Manage_fm.php:804
+msgid ""
+"Specify the email address from which the administrator will receive the "
+"email."
+msgstr "Zadajte e-mailovú adresu, z ktorej správca dostane e-mail."
+
+#: admin/views/Manage_fm.php:805 admin/views/Manage_fm.php:950
+msgid ""
+"We recommend you to use an email address belonging to your website domain."
+msgstr ""
+"Odporúčame vám použiť e-mailovú adresu patriacu doméne vašej webovej "
+"lokality."
+
+#: admin/views/Manage_fm.php:807 admin/views/Manage_fm.php:952
+msgid ""
+"If sender email address is not hosted on the same domain as your website, "
+"some hosting providers may not send the emails."
+msgstr ""
+"Ak e-mailová adresa odosielateľa nie je hosťovaná v rovnakej doméne ako vaša "
+"webová lokalita, niektorí poskytovatelia hostiteľských služieb nemusia "
+"odosielať e-maily."
+
+#: admin/views/Manage_fm.php:808 admin/views/Manage_fm.php:953
+msgid "In addition, relaying mail servers may consider the emails as phishing."
+msgstr ""
+"Okrem toho môže prenos poštových serverov považovať e-maily za phishing."
+
+#: admin/views/Manage_fm.php:812 admin/views/Manage_fm.php:957
+msgid "From Name"
+msgstr "Od koho"
+
+#: admin/views/Manage_fm.php:815 admin/views/Manage_fm.php:960
+msgid ""
+"Set the name or search for a form field which is shown as the sender’s name "
+"in submission or confirmation emails."
+msgstr ""
+"Nastavte meno alebo vyhľadajte pole formulára, ktoré sa zobrazí ako meno "
+"odosielateľa v e-mailoch s odoslaním alebo potvrdením."
+
+#: admin/views/Manage_fm.php:818 admin/views/Manage_fm.php:963
+msgid "Subject"
+msgstr "Predmet"
+
+#: admin/views/Manage_fm.php:821 admin/views/Manage_fm.php:966
+msgid ""
+"Add a custom subject or search for a form field for the submission email. In "
+"case it’s left blank, Form Title will be set as the subject of submission "
+"emails."
+msgstr ""
+"Pridajte vlastný predmet alebo vyberte pole z vášho formulára pre odosielaný "
+"e-mail. V prípade, že zostane prázdny, názov formulára sa nastaví ako "
+"predmet odosielaných e-mailov."
+
+#: admin/views/Manage_fm.php:824
+msgid "Custom Text in Email For Administrator"
+msgstr "Vlastný text v e-maile pre správcu"
+
+#: admin/views/Manage_fm.php:843
+msgid ""
+"Write custom content to the email message which is sent to administrator. "
+"Include All Fields List to forward all submitted information, or click on "
+"fields buttons to use individual field values in the content."
+msgstr ""
+"Napíšte vlastný obsah do e-mailovej správy, ktorá sa odošle správcovi. Ak "
+"chcete preposlať všetky odoslané informácie, zahrnú sa všetky polia alebo "
+"kliknite na tlačidlá polí, aby sa v obsahu používali hodnoty jednotlivých "
+"polí."
+
+#: admin/views/Manage_fm.php:847 admin/views/Manage_fm.php:992
+#: admin/views/Manage_fm.php:1150 admin/views/Manage_fm.php:2119
+msgid "Toggle panel:"
+msgstr "Prepínanie panela:"
+
+#: admin/views/Manage_fm.php:851 admin/views/Manage_fm.php:996
+msgid "Advanced"
+msgstr "Rozširené"
+
+#: admin/views/Manage_fm.php:855 admin/views/Manage_fm.php:1000
+msgid "Reply to (if different from \"Email From\")"
+msgstr "Odpovedať (ak sa líši od \"E-mail od\")"
+
+#: admin/views/Manage_fm.php:880
+msgid ""
+"Specify an alternative email address, to which the administrator will be "
+"able to reply upon receiving the message."
+msgstr ""
+"Vložte alternatívnu emailovú adresu cez ktorú budeme môcť s vami komunikovať."
+
+#: admin/views/Manage_fm.php:883 admin/views/Manage_fm.php:1005
+msgid "CC"
+msgstr "Cc"
+
+#: admin/views/Manage_fm.php:885 admin/views/Manage_fm.php:1007
+msgid ""
+"Provide additional email addresses to send the submission or confirmation "
+"email to. The receiver will be able to view all other recipients."
+msgstr ""
+"Zadajte ďalšie e-mailové adresy, na ktoré chcete odoslať e-mail s odoslaním "
+"alebo potvrdením. Prijímač bude môcť zobraziť všetkých ostatných príjemcov."
+
+#: admin/views/Manage_fm.php:888 admin/views/Manage_fm.php:1010
+msgid "BCC"
+msgstr "Skrytá kópia"
+
+#: admin/views/Manage_fm.php:890 admin/views/Manage_fm.php:1012
+msgid ""
+"Write additional email addresses to send the submission or confirmation "
+"email to. The receiver will not be able to view other recipients."
+msgstr ""
+"Napíšte ďalšie e-mailové adresy, na ktoré chcete odoslať e-mail s odoslaním "
+"alebo potvrdením. Prijímač nebude môcť zobraziť iných príjemcov."
+
+#: admin/views/Manage_fm.php:893 admin/views/Manage_fm.php:1015
+msgid "Mode"
+msgstr "Mód"
+
+#: admin/views/Manage_fm.php:895 admin/views/Manage_fm.php:1017
+#: admin/views/Manage_fm.php:1091
+msgid "HTML"
+msgstr "HTML"
+
+#: admin/views/Manage_fm.php:897 admin/views/Manage_fm.php:1019
+#: admin/views/Manage_fm.php:1483
+msgid "Text"
+msgstr "Text"
+
+#: admin/views/Manage_fm.php:898 admin/views/Manage_fm.php:1020
+msgid "Select the layout of the submission email, Text or HTML."
+msgstr "Vyberte rozloženie odosielaných e-mailov, textu alebo HTML."
+
+#: admin/views/Manage_fm.php:901 admin/views/Manage_fm.php:1023
+msgid "Attach File"
+msgstr "Priložiť súbor"
+
+#: admin/views/Manage_fm.php:906 admin/views/Manage_fm.php:1028
+msgid ""
+"If you have File Upload fields on your form, enable this setting to attach "
+"uploaded files to submission or confirmation email."
+msgstr ""
+"Ak máte vo formulári polia Nahrať súbor, povoľte toto nastavenie na "
+"priloženie nahraných súborov k odosielaniu alebo potvrdzovaciemu e-mailu."
+
+#: admin/views/Manage_fm.php:909
+msgid "Email empty fields"
+msgstr "Prázdne polia e-mailu"
+
+#: admin/views/Manage_fm.php:914
+msgid ""
+"Disable this setting, in case you do not want to include form fields, which "
+"are left empty by the submitter."
+msgstr ""
+"Toto nastavenie vypnite v prípade, že nechcete zahrnúť polia formulára, "
+"ktoré odosielateľ ponechá prázdne."
+
+#: admin/views/Manage_fm.php:922
+msgid "Email to User"
+msgstr "E-mail používateľovi"
+
+#: admin/views/Manage_fm.php:926
+msgid "Send to"
+msgstr "Odoslať do"
+
+#: admin/views/Manage_fm.php:931
+msgid "There is no email field"
+msgstr "Neexistuje žiadne e-mailové pole"
+
+#: admin/views/Manage_fm.php:944
+msgid ""
+"Use this setting to select the email field of your form, to which the "
+"submissions will be sent."
+msgstr ""
+"Toto nastavenie použite na výber e-mailového poľa formulára, do ktorého sa "
+"odošlú odoslané položky."
+
+#: admin/views/Manage_fm.php:949
+msgid ""
+"Specify the email address from which the submitter will receive the email."
+msgstr "Zadajte e-mailovú adresu, z ktorej odosielateľ dostane e-mail."
+
+#: admin/views/Manage_fm.php:969
+msgid "Custom Text in Email For User"
+msgstr "Vlastný text v e-maile pre používateľa"
+
+#: admin/views/Manage_fm.php:988
+msgid ""
+"Write custom content to the email message which is sent to submitter. "
+"Include All Fields List to forward all submitted information, or click on "
+"fields buttons to use individual field values in the content."
+msgstr ""
+"Napíšte vlastný obsah do e-mailovej správy, ktorá sa odošle odosielateľovi. "
+"Ak chcete preposlať všetky odoslané informácie, zahrnú sa všetky polia alebo "
+"kliknite na tlačidlá polí, aby sa v obsahu používali hodnoty jednotlivých "
+"polí."
+
+#: admin/views/Manage_fm.php:1002
+msgid ""
+"Specify an alternative email address, to which the submitter will be able to "
+"reply upon receiving the message."
+msgstr ""
+"Zadajte alternatívnu e-mailovú adresu, na ktorú bude môcť odosielateľ "
+"odpovedať po prijatí správy."
+
+#: admin/views/Manage_fm.php:1031
+msgid "Email verification"
+msgstr "Overenie emailu"
+
+#: admin/views/Manage_fm.php:1036
+msgid ""
+"Activate this option, in case you would like the users to verify their email "
+"addresses. After enabling, please add {verificationlink} into the content of "
+"Custom Text in Email to User option."
+msgstr ""
+"Aktivujte túto možnosť v prípade, že chcete, aby používatelia overili svoje "
+"e-mailové adresy. Po zapnutí pridajte {verificationlink} do obsahu vlastného "
+"textu v e-maile používateľovi."
+
+#: admin/views/Manage_fm.php:1039
+msgid "Verification link expires in"
+msgstr "Platnosť overovacieho odkazu vyprší"
+
+#: admin/views/Manage_fm.php:1041
+msgid " -- hours (0 - never expires)."
+msgstr " -- hodín (0 - nikdy nevyprší)."
+
+#: admin/views/Manage_fm.php:1046
+msgid "Edit post"
+msgstr "Upraviť príspevok"
+
+#: admin/views/Manage_fm.php:1047
+msgid ""
+"Use this option to specify a time period (hours), during which the user will "
+"be able to verify their email address."
+msgstr ""
+"Túto možnosť použite na určenie časového obdobia (hodín), počas ktorého bude "
+"môcť používateľ overiť svoju e-mailovú adresu."
+
+#: admin/views/Manage_fm.php:1069 admin/views/Manage_fm.php:1148
+msgid "BASIC FIELDS"
+msgstr "ZÁKLADNÉ POLIA"
+
+#: admin/views/Manage_fm.php:1070
+msgid "Single Line Text"
+msgstr "Text v jednom riadku"
+
+#: admin/views/Manage_fm.php:1071
+msgid "Paragraph Text"
+msgstr "Text odseku"
+
+#: admin/views/Manage_fm.php:1074
+msgid "Select"
+msgstr "Vybrať"
+
+#: admin/views/Manage_fm.php:1077 admin/views/Options_fm.php:79
+msgid "Recaptcha"
+msgstr "Recaptcha"
+
+#: admin/views/Manage_fm.php:1079
+msgid "Simple Captcha"
+msgstr "Jednoduchá Captcha"
+
+#: admin/views/Manage_fm.php:1081
+msgid "USER INFO FIELDS"
+msgstr "POLIA INFORMÁCIE O POUŽÍVATEĽOVI"
+
+#: admin/views/Manage_fm.php:1082
+msgid "Name"
+msgstr "Meno"
+
+#: admin/views/Manage_fm.php:1086
+msgid "Mark on Map"
+msgstr "Označiť na mape"
+
+#: admin/views/Manage_fm.php:1087
+msgid "Country List"
+msgstr "Zoznam krajín"
+
+#: admin/views/Manage_fm.php:1088
+msgid "Date of Birth"
+msgstr "Dátum narodenia"
+
+#: admin/views/Manage_fm.php:1090
+msgid "ADVANCED"
+msgstr "Advanced"
+
+#: admin/views/Manage_fm.php:1093
+msgid "Map"
+msgstr "Mapa"
+
+#: admin/views/Manage_fm.php:1095
+msgid "Receive Copy"
+msgstr "Chcem tiež prijať kópiu"
+
+#: admin/views/Manage_fm.php:1096
+msgid "Date Range"
+msgstr "Rozsah dátumov"
+
+#: admin/views/Manage_fm.php:1097
+msgid "Stars"
+msgstr "Hviezdičky"
+
+#: admin/views/Manage_fm.php:1098
+msgid "Rating"
+msgstr "Hodnotenie"
+
+#: admin/views/Manage_fm.php:1099
+msgid "Slider"
+msgstr "Slider"
+
+#: admin/views/Manage_fm.php:1100
+msgid "Range"
+msgstr "Rozsah"
+
+#: admin/views/Manage_fm.php:1101
+msgid "Grades"
+msgstr "Stupňov"
+
+#: admin/views/Manage_fm.php:1102
+msgid "Table of Fields"
+msgstr "Tabuľka polí"
+
+#: admin/views/Manage_fm.php:1103
+msgid "Hidden Input"
+msgstr "Skrytý zadanie ******"
+
+#: admin/views/Manage_fm.php:1104
+msgid "Custom Button"
+msgstr "Vlastné tlačidlo"
+
+#: admin/views/Manage_fm.php:1105
+msgid "Password"
+msgstr "Heslo"
+
+#: admin/views/Manage_fm.php:1106
+msgid "Phone-Area Code"
+msgstr "Kód oblasti"
+
+#: admin/views/Manage_fm.php:1107
+msgid "Arithmetic Captcha"
+msgstr "Aritmetická Captcha"
+
+#: admin/views/Manage_fm.php:1109
+msgid "PAYMENT"
+msgstr "PLATBY"
+
+#: admin/views/Manage_fm.php:1110
+msgid "Price"
+msgstr "Cena"
+
+#: admin/views/Manage_fm.php:1111
+msgid "Payment Select"
+msgstr "Výber platby"
+
+#: admin/views/Manage_fm.php:1112
+msgid "Payment Single Choice"
+msgstr "Platba jednotnou voľbou"
+
+#: admin/views/Manage_fm.php:1113
+msgid "Payment Multiple Choice"
+msgstr "Platba viacnásobný výber"
+
+#: admin/views/Manage_fm.php:1116 admin/views/Manage_fm.php:1530
+msgid "Stripe"
+msgstr "Stripe"
+
+#: admin/views/Manage_fm.php:1124
+msgid "Add field"
+msgstr "Pridať pole"
+
+#: admin/views/Manage_fm.php:1126
+msgid "Close"
+msgstr "Zatvoriť"
+
+#: admin/views/Manage_fm.php:1131
+msgid "FIELD TYPES"
+msgstr "TYPY POLÍ"
+
+#: admin/views/Manage_fm.php:1133 admin/views/Manage_fm.php:2106
+msgid "Filter"
+msgstr "Filter"
+
+#: admin/views/Manage_fm.php:1141
+msgid "Filtered fields"
+msgstr "Filtrované polia"
+
+#: admin/views/Manage_fm.php:1177
+msgid "This field type is available in Premium version"
+msgstr "Tento typ poľa je k dispozícii vo verzii Premium"
+
+#: admin/views/Manage_fm.php:1182 admin/views/Manage_fm.php:1597
+msgid "STRIPE extension compatible with Premium version only"
+msgstr "Rozšírenie STRIPE kompatibilné iba s verziou Premium"
+
+#: admin/views/Manage_fm.php:1187 admin/views/Manage_fm.php:1605
+msgid "This feature is available only in the Premium version"
+msgstr "Táto funkcia je k dispozícii iba vo verzii Premium"
+
+#: admin/views/Manage_fm.php:1187 admin/views/Manage_fm.php:1605
+msgid "Requires STRIPE extension."
+msgstr "Vyžaduje rozšírenie STRIPE."
+
+#: admin/views/Manage_fm.php:1190 admin/views/Manage_fm.php:1608
+msgid "This feature requires STRIPE extension"
+msgstr "Táto funkcia vyžaduje rozšírenie STRIPE"
+
+#: admin/views/Manage_fm.php:1190 admin/views/Manage_fm.php:1608
+#: admin/views/view.php:535
+msgid "Buy"
+msgstr "Kúpiť"
+
+#: admin/views/Manage_fm.php:1200 form-maker.php:692
+msgid "Add"
+msgstr "Pridať"
+
+#: admin/views/Manage_fm.php:1279
+msgid "General Options"
+msgstr "Všeobecné možnosti"
+
+#: admin/views/Manage_fm.php:1282
+msgid "Actions after Submission"
+msgstr "Akcie po odoslaní"
+
+#: admin/views/Manage_fm.php:1285
+msgid "Payment Options"
+msgstr "Dokončenie objednavky"
+
+#: admin/views/Manage_fm.php:1288
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: admin/views/Manage_fm.php:1291
+msgid "Conditional Fields"
+msgstr "Podmienené polia"
+
+#: admin/views/Manage_fm.php:1294
+msgid "MySQL Mapping"
+msgstr "Mapovanie MySQL"
+
+#: admin/views/Manage_fm.php:1297
+msgid "Privacy"
+msgstr "Súkromie"
+
+#: admin/views/Manage_fm.php:1319
+msgid "Published"
+msgstr "Zverejnené"
+
+#: admin/views/Manage_fm.php:1326
+msgid "Save data(to database)"
+msgstr "Uložiť údaje (do databázy)"
+
+#: admin/views/Manage_fm.php:1331
+msgid ""
+"IMPORTANT! If you disable this option, the information submitted through "
+"this form will not be saved in the database and will not be displayed on the "
+"Submissions page."
+msgstr ""
+"Dôležité! Ak túto možnosť vypnete, informácie odoslané prostredníctvom tohto "
+"formulára sa neuložia do databázy a nezošúchajú sa na stránke Odoslané "
+"položky."
+
+#: admin/views/Manage_fm.php:1334
+msgid "Required fields mark"
+msgstr "Značka povinných polí"
+
+#: admin/views/Manage_fm.php:1336
+msgid "Use this option to change the mark for required fields of your form."
+msgstr "Túto možnosť použite na zmenu značky pre povinné polia formulára."
+
+#: admin/views/Manage_fm.php:1339
+msgid "Save Uploads"
+msgstr "Uložiť nahrané súbor"
+
+#: admin/views/Manage_fm.php:1344
+msgid ""
+"IMPORTANT! If you disable this option, the files uploaded through your form "
+"will not be saved on your site. The files will still be sent to emails and "
+"saved in Google Drive or Dropbox, if configured."
+msgstr ""
+"Dôležité! Ak túto možnosť zakážete, súbory nahrané prostredníctvom formulára "
+"sa na vašu lokalitu neuložia. Súbory sa budú naďalej odosielať do e-mailov a "
+"ukladať na Disk Google alebo Dropbox, ak sú nakonfigurované."
+
+#: admin/views/Manage_fm.php:1347
+msgid "Submission Limit"
+msgstr "Limit odoslania"
+
+#: admin/views/Manage_fm.php:1349
+msgid ""
+"Limit number of submissions for form. In the case of a 0 (zero), submissions "
+"will be unlimited."
+msgstr ""
+"Obmedziť počet odoslaní do formulára. V prípade 0 (nula) budú podania "
+"neobmedzené."
+
+#: admin/views/Manage_fm.php:1352
+msgid "Submission Limit notification text"
+msgstr "Text oznámenia Limit na odoslanie"
+
+#: admin/views/Manage_fm.php:1354
+msgid "Text to displays when submission limit has been reached."
+msgstr "Text, ktorý sa zobrazí po dosiahnutí limitu na odoslanie."
+
+#: admin/views/Manage_fm.php:1362
+msgid "This functionality is available in Premium version"
+msgstr "Táto funkcia je k dispozícii vo verzii Premium"
+
+#: admin/views/Manage_fm.php:1366
+msgid "Allow User to see submissions"
+msgstr "Povoliť používateľovi zobrazenie odoslaných príspevkov"
+
+#: admin/views/Manage_fm.php:1381
+msgid ""
+"Mark all user roles which will be able to view front-end submissions, when "
+"you publish them on a post or page."
+msgstr ""
+"Označte všetky roly používateľov, ktoré budú môcť zobraziť klientne odoslané "
+"položky, keď ich publikujete na príspevku alebo stránke."
+
+#: admin/views/Manage_fm.php:1385
+msgid "Fields to hide in frontend submissions"
+msgstr "Polia, ktoré sa majú skryť v zobrazení zadaní pre uživateľov"
+
+#: admin/views/Manage_fm.php:1389 admin/views/Manage_fm.php:1411
+msgid "Select All"
+msgstr "Vybrať všetko"
+
+#: admin/views/Manage_fm.php:1403 admin/views/Manage_fm.php:1421
+msgid ""
+"Select fields of the form and Stats Fields which will not to be displayed "
+"within front-end submissions, when you publish them."
+msgstr ""
+"Vyberte polia formulára a polia štatistiky, ktoré sa pri publikovaní "
+"nezosunú v rámci klientových odoslaní."
+
+#: admin/views/Manage_fm.php:1407
+msgid "Stats fields:"
+msgstr "Polia Štatistiky:"
+
+#: admin/views/Manage_fm.php:1436
+msgid "Action type"
+msgstr "Typ akcie"
+
+#: admin/views/Manage_fm.php:1438
+msgid "Stay on Form"
+msgstr "Zostaňte vo formulári"
+
+#: admin/views/Manage_fm.php:1440 admin/views/Manage_fm.php:1449
+msgid "Post"
+msgstr "Príspevok"
+
+#: admin/views/Manage_fm.php:1442 admin/views/Manage_fm.php:1466
+msgid "Page"
+msgstr "Stránka"
+
+#: admin/views/Manage_fm.php:1444
+msgid "Custom Text"
+msgstr "Vlastný text"
+
+#: admin/views/Manage_fm.php:1446 admin/views/Manage_fm.php:1508
+#: admin/views/Submissions_fm.php:616
+msgid "URL"
+msgstr "URL"
+
+#: admin/views/Manage_fm.php:1524
+msgid "Payment Method"
+msgstr "Spôsob platby"
+
+#: admin/views/Manage_fm.php:1526 admin/views/Themes_fm.php:347
+msgid "None"
+msgstr "None"
+
+#: admin/views/Manage_fm.php:1528
+msgid "Paypal"
+msgstr "PayPal"
+
+#: admin/views/Manage_fm.php:1535
+msgid "PAYPAL is available in Premium version"
+msgstr "PayPal je k dispozícii v prémiovej verzii"
+
+#: admin/views/Manage_fm.php:1539
+msgid "Payment Currency"
+msgstr "Platba meny"
+
+#: admin/views/Manage_fm.php:1573
+msgid "Choose the currency to be used for the payments made through your form."
+msgstr ""
+"Vyberte menu, ktorá sa má použiť na platby uskutočnené prostredníctvom "
+"formulára."
+
+#: admin/views/Manage_fm.php:1578
+msgid ""
+"Specify the percentage of the tax. It will be calculated from the total "
+"payment amount of your form."
+msgstr "Zadajte percento dane. Vypočíta sa z celkovej výšky platby formulára."
+
+#: admin/views/Manage_fm.php:1581
+msgid "Checkout Mode"
+msgstr "Režim pokladne"
+
+#: admin/views/Manage_fm.php:1583
+msgid "Production"
+msgstr "Výroba"
+
+#: admin/views/Manage_fm.php:1585
+msgid "Testmode"
+msgstr "Testovacímode"
+
+#: admin/views/Manage_fm.php:1588
+msgid "Paypal email"
+msgstr "PayPal E-mail"
+
+#: admin/views/Manage_fm.php:1590
+msgid ""
+"Provide the email address of a valid PayPal account. It will receive the "
+"payments made through your form."
+msgstr ""
+"Zadajte e-mailovú adresu platného PayPal účtu. Dostane platby uskutočnené "
+"prostredníctvom formulára."
+
+#: admin/views/Manage_fm.php:1739
+msgid ""
+"Press Add Condition button to configure the first condition of your form. "
+"Show/Hide select box represents the action which will be completed, if all "
+"or any of the condition statements are fulfilled. Use the second drop-down "
+"menu to select the field which will be shown or hidden. Click the little "
+"Plus (+) icon to add the statement of your form condition."
+msgstr ""
+"Stlačením tlačidla Pridať podmienku nakonfigurujte prvú podmienku formulára. "
+"Pole Zobraziť alebo skryť predstavuje akciu, ktorá sa dokončí, ak sú splnené "
+"všetky alebo niektoré z vyhlásení podmienky. Pomocou druhej rozbaľovacej "
+"ponuky vyberte pole, ktoré sa zobrazí alebo skryje. Kliknutím na malú ikonu "
+"Plus (+) pridajte vyhlásenie o podmienke formulára."
+
+#: admin/views/Manage_fm.php:1741
+msgid "Add Condition"
+msgstr "Pridať podmienku"
+
+#: admin/views/Manage_fm.php:1754
+msgid "Hide"
+msgstr "Skryť"
+
+#: admin/views/Manage_fm.php:1773
+msgid "all"
+msgstr "Všetky"
+
+#: admin/views/Manage_fm.php:1776
+msgid "any"
+msgstr "všetky"
+
+#: admin/views/Manage_fm.php:1778
+msgid "of the following match:"
+msgstr "nasledujúcej zhody:"
+
+#: admin/views/Manage_fm.php:1961
+msgid ""
+"WordPress Form Maker stores the submitted information into "
+"[prefix]_formmaker_submits MySQL database table of your website by default. "
+"With MySQL Mapping functionality of Form Maker you can insert this data into "
+"any local or remote table of your choice, or perform other queries based on "
+"submitted values. Press Add Query button to configure the first query for "
+"this form."
+msgstr ""
+"WordPress Form Maker predvolene ukladá odoslané informácie do [predpony] "
+"_formmaker_submits tabuľke databázy MySQL vašej webovej stránky. Pomocou "
+"funkcie MySQL Mapping programu Form Maker môžete tieto údaje vložiť do "
+"ľubovoľnej lokálnej alebo vzdialenej tabuľky podľa vášho výberu alebo "
+"vykonať iné dotazy na základe odoslaných hodnôt. Stlačením tlačidla Pridať "
+"dotaz nakonfigurujte prvý dotaz pre tento formulár."
+
+#: admin/views/Manage_fm.php:1971
+msgid "Add Query"
+msgstr "Pridať dotaz"
+
+#: admin/views/Manage_fm.php:1977
+msgid "Query"
+msgstr "Dotaz"
+
+#: admin/views/Manage_fm.php:2033
+msgid "Enable GDPR compliance checkbox."
+msgstr "Povoľte začiarkavacie políčko súladu s nariadením GDPR."
+
+#: admin/views/Manage_fm.php:2038
+msgid "Use this setting to enable GDPR compliance checkbox on form."
+msgstr ""
+"Toto nastavenie použite na povolenie začiarkavacieho políčka súladu s "
+"nariadením GDPR vo formulári."
+
+#: admin/views/Manage_fm.php:2041
+msgid "GDPR compliance text."
+msgstr "Text súladu s nariadením GDPR."
+
+#: admin/views/Manage_fm.php:2043
+msgid ""
+"This text will be used for GDPR compliance checkbox. Place "
+"{{privacy_policy}} placeholder to place \"Privacy Policy page\" link."
+msgstr ""
+"Tento text sa použije pre začiarkavacie políčko súladu s nariadením GDPR. "
+"Umiestnite {{privacy_policy}} zástupný symbol a umiestnite prepojenie "
+"\"Stránka zásad ochrany osobných údajov\"."
+
+#: admin/views/Manage_fm.php:2044
+#, php-format
+msgid "You can manage your privacy settings %s."
+msgstr "Nastavenia ochrany osobných údajov môžete spravovať %s."
+
+#: admin/views/Manage_fm.php:2044
+msgid "here"
+msgstr "tu"
+
+#: admin/views/Manage_fm.php:2047
+msgid "Save User IP Address to Database"
+msgstr "Uložiť IP adresu používateľa do databázy"
+
+#: admin/views/Manage_fm.php:2052
+msgid ""
+"Use this setting to disable storing submitter IP address to the database of "
+"your website."
+msgstr ""
+"Toto nastavenie použite na zakázanie ukladania IP adresy odosielateľa do "
+"databázy vašej webovej lokality."
+
+#: admin/views/Manage_fm.php:2055
+msgid "Save User Data to Database"
+msgstr "Uložiť používateľské údaje do databázy"
+
+#: admin/views/Manage_fm.php:2060
+msgid ""
+"Disable this option to stop saving logged in username and email address to "
+"the database of your website."
+msgstr ""
+"Zakázaním tejto možnosti zastavíte ukladanie prihláseného používateľského "
+"mena a e-mailovej adresy do databázy webovej lokality."
+
+#: admin/views/Manage_fm.php:2104
+msgid "Select a field, the value of which will be used as the placeholder."
+msgstr "Vyberte pole, ktorého hodnota sa použije ako zástupný symbol."
+
+#: admin/views/Manage_fm.php:2110
+msgid "Filtered placeholders"
+msgstr "Filtrované nápovedy v poli"
+
+#: admin/views/Manage_fm.php:2117 framework/WDW_FM_Library.php:5462
+#: framework/WDW_FM_Library.php:5472
+msgid "Misc"
+msgstr "Rôzne"
+
+#: admin/views/Manage_fm.php:2176
+msgid ""
+"To customize the layout of the form fields uncheck the Auto-Generate Layout "
+"box and edit the HTML."
+msgstr ""
+"Ak chcete prispôsobiť rozloženie polí formulára, zrušte začiarknutie políčka "
+"Automaticky generovať rozloženie a upravte formát HTML."
+
+#: admin/views/Manage_fm.php:2177
+msgid ""
+"You can change positioning, add in-line styles and etc. Click on the "
+"provided buttons to add the corresponding field."
+msgstr ""
+"Môžete zmeniť umiestnenie, pridať štýly in-line atď. Kliknutím na poskytnuté "
+"tlačidlá pridáte príslušné pole."
+
+#: admin/views/Manage_fm.php:2178
+msgid "This will add the following line:"
+msgstr "Tým sa pridá nasledujúci riadok:"
+
+#: admin/views/Manage_fm.php:2179
+msgid "is used to set a row."
+msgstr "sa používa na nastavenie riadka."
+
+#: admin/views/Manage_fm.php:2181
+msgid "Notice"
+msgstr "Upozornenie"
+
+#: admin/views/Manage_fm.php:2182
+msgid ""
+"Make sure not to publish the same field twice. This will cause "
+"malfunctioning of the form."
+msgstr ""
+"Uistite sa, že ne publikovať rovnaké pole dvakrát. To spôsobí nefunkčnosť "
+"formulára."
+
+#: admin/views/Manage_fm.php:2185
+msgid "Auto Generate Layout?"
+msgstr "Automaticky generovať rozloženie?"
+
+#: admin/views/Manage_fm.php:2200
+msgid "Apply Source Formatting"
+msgstr "Použiť formátovanie zdroja"
+
+#: admin/views/Manage_fm.php:2200
+msgid "ctrl-enter"
+msgstr "ctrl-enter"
+
+#: admin/views/Manage_fm.php:2248
+msgid ""
+"The theme you have selected is outdated. Please choose one from New Themes "
+"section."
+msgstr "Vybratá téma je zastaraná. Vyberte jednu zo sekcie Nové motívy."
+
+#: admin/views/Manage_fm.php:2249
+msgid ""
+"The appearance of your forms is controlled by the theme you select with this "
+"option. Press Edit button to open and modify your form theme."
+msgstr ""
+"Vzhľad formulárov je ovládaný motívom, ktorý vyberiete s touto možnosťou. "
+"Stlačením tlačidla Upraviť otvorte a upravte motív formulára."
+
+#: admin/views/Manage_fm.php:2254
+msgid "New Themes"
+msgstr "Nové motívy"
+
+#: admin/views/Manage_fm.php:2255
+msgid "Inherit From Website Theme"
+msgstr "Motív Zdediť z webovej lokality"
+
+#: admin/views/Manage_fm.php:2263
+msgid "Outdated Themes"
+msgstr "Zastarané motívy"
+
+#: admin/views/Manage_fm.php:2272
+msgid "Edit Theme"
+msgstr "Upraviť motív"
+
+#: admin/views/Manage_fm.php:2284
+msgid "Form Type"
+msgstr "Typ formulára"
+
+#: admin/views/Manage_fm.php:2289
+msgid "Embedded"
+msgstr "Vložené"
+
+#: admin/views/Manage_fm.php:2295
+msgid "Popup"
+msgstr "Popup"
+
+#: admin/views/Manage_fm.php:2301
+msgid "Topbar"
+msgstr "Horný panel"
+
+#: admin/views/Manage_fm.php:2306
+msgid "Scrollbox"
+msgstr "Posúvač"
+
+#: admin/views/Manage_fm.php:2319
+msgid "Form Placement"
+msgstr "Umiestnenie formulára"
+
+#: admin/views/Manage_fm.php:2321
+msgid "Use"
+msgstr "Použiť"
+
+#: admin/views/Manage_fm.php:2323
+msgid "shortcode to display the form."
+msgstr "skratený kód na zobrazenie formulára."
+
+#: admin/views/Manage_fm.php:2327
+msgid "Animation Effect"
+msgstr "Efekt animácie"
+
+#: admin/views/Manage_fm.php:2338 admin/views/Manage_fm.php:2390
+msgid "Loading Delay"
+msgstr "Oneskorenie načítania"
+
+#: admin/views/Manage_fm.php:2341
+msgid ""
+"Define the amount of time before the form popup appears after the page loads."
+msgstr ""
+"Definujte čas, počas kým sa vyskakovacie okno formulára zobrazí po načítaní "
+"stránky."
+
+#: admin/views/Manage_fm.php:2342
+msgid "Set 0 for no delay."
+msgstr "Nastavte 0 bez oneskorenia."
+
+#: admin/views/Manage_fm.php:2346 admin/views/Manage_fm.php:2375
+#: admin/views/Manage_fm.php:2397
+msgid "Frequency"
+msgstr "Frekvencia"
+
+#: admin/views/Manage_fm.php:2349
+msgid ""
+"Display the popup to the same visitor (who has closed the popup/submitted "
+"the form) after this period."
+msgstr ""
+"Zobrazte vyskakovacie okno tomu istému návštevníkovi (ktorý zavrel "
+"vyskakovacie okno alebo formulár odoš odošli) po tomto období."
+
+#: admin/views/Manage_fm.php:2350 admin/views/Manage_fm.php:2379
+#: admin/views/Manage_fm.php:2401
+msgid "Set the value to 0 to always show."
+msgstr "Nastavte hodnotu na 0, aby sa vždy zobrazovať."
+
+#: admin/views/Manage_fm.php:2361
+msgid "Remain at top when scrolling"
+msgstr "Pri posúvaní zostanete navrchu"
+
+#: admin/views/Manage_fm.php:2368 admin/views/Manage_fm.php:2422
+msgid "Allow Closing the bar"
+msgstr "Povoliť zatvorenie panela"
+
+#: admin/views/Manage_fm.php:2378
+msgid ""
+"Display the topbar to the same visitor (who has closed the popup/submitted "
+"the form) after this period."
+msgstr ""
+"Zobrazte horný panel tomu istému návštevníkovi (ktorý po tomto období "
+"zatvoril vyskakovacie okno alebo formulár odoš odošla)."
+
+#: admin/views/Manage_fm.php:2393
+msgid ""
+"Define the amount of time before the form scrollbox appears after the page "
+"loads. Set 0 for no delay."
+msgstr ""
+"Definujte čas, počas ktorý sa zobrazí posúvač formulára po načítaní stránky. "
+"Nastavte 0 bez oneskorenia."
+
+#: admin/views/Manage_fm.php:2400
+msgid ""
+"Display the scrollbox to the same visitor (who has closed the popup/"
+"submitted the form) after this period."
+msgstr ""
+"Zobrazte posúvač tomu istému návštevníkovi (ktorý po tomto období zatvoril "
+"vyskakovacie okno alebo formulár odošli)."
+
+#: admin/views/Manage_fm.php:2405
+msgid "Always show for administrator"
+msgstr "Vždy zobrazovať pre správcu"
+
+#: admin/views/Manage_fm.php:2411
+msgid "If this option is enabled, website admins will always see the form."
+msgstr ""
+"Ak je táto možnosť zapnutá, správcovia webových stránok vždy uvidia formulár."
+
+#: admin/views/Manage_fm.php:2415
+msgid "Trigger Point"
+msgstr "Spúšťací bod"
+
+#: admin/views/Manage_fm.php:2418
+msgid ""
+"Set the percentage of the page height, where the scrollbox form will appear "
+"after scrolling down."
+msgstr ""
+"Nastavte percento výšky strany, kde sa po posúvaní nadol zobrazí formulár "
+"posúvača."
+
+#: admin/views/Manage_fm.php:2429
+msgid "Allow Minimize"
+msgstr "Povoliť minimalizáciu"
+
+#: admin/views/Manage_fm.php:2440
+msgid "Auto Hide"
+msgstr "Automatické skrytie"
+
+#: admin/views/Manage_fm.php:2446
+msgid "Hide the scrollbox form again when visitor scrolls back up."
+msgstr "Keď sa návštevník znova posunie nahor, formulár posúvača znova skryje."
+
+#: admin/views/Manage_fm.php:2450
+msgid "Display on"
+msgstr "Zobraziť na"
+
+#: admin/views/Manage_fm.php:2467
+msgid "Display on these categories' posts"
+msgstr "Zobraziť na príspevkoch týchto kategórií"
+
+#: admin/views/Manage_fm.php:2477
+msgid "All categories"
+msgstr "Všetky kategórie"
+
+#: admin/views/Manage_fm.php:2493
+msgid "Display on these posts"
+msgstr "Zobraziť v nasledujúcich článkoch"
+
+#: admin/views/Manage_fm.php:2495
+msgid "Click on input area to view the list of posts."
+msgstr "Kliknutím na vstupnú oblasť zobrazíte zoznam príspevkov."
+
+#: admin/views/Manage_fm.php:2496
+msgid "If left empty the form will appear on all posts."
+msgstr "Ak zostane prázdny, formulár sa zobrazí na všetkých príspevkoch."
+
+#: admin/views/Manage_fm.php:2522
+msgid "Display on these pages"
+msgstr "Zobraziť na nasledujúcich stránkach"
+
+#: admin/views/Manage_fm.php:2524
+msgid "Click on input area to view the list of pages. "
+msgstr "Kliknutím na vstupnú oblasť zobrazíte zoznam stránok. "
+
+#: admin/views/Manage_fm.php:2525
+msgid "If left empty the form will appear on all pages."
+msgstr "Ak zostane prázdny, formulár sa zobrazí na všetkých stranách."
+
+#: admin/views/Manage_fm.php:2549
+msgid "Hide on Mobile"
+msgstr "Skryť v mobile"
+
+#: admin/views/Options_fm.php:30 form-maker.php:474
+msgid "Options"
+msgstr "Nastavenia"
+
+#: admin/views/Options_fm.php:83
+msgid "Site key"
+msgstr "Site key"
+
+#: admin/views/Options_fm.php:87
+msgid "Secret key"
+msgstr "Secret key"
+
+#: admin/views/Options_fm.php:90
+#, php-format
+msgid "%s for your site from ReCaptcha website and copy the provided here."
+msgstr ""
+"%s pre svoje stránky z webovej stránky ReCaptcha a skopírujte poskytnuté tu."
+
+#: admin/views/Options_fm.php:90
+msgid "Get ReCaptcha Site and Secret Keys"
+msgstr "Získať lokalitu ReCaptcha a tajné kľúče"
+
+#: admin/views/Options_fm.php:94
+msgid "Minimum ReCaptcha v3 Score to allow submission"
+msgstr "Minimálne skóre ReCaptcha v3 na povolenie odosielať"
+
+#: admin/views/Options_fm.php:97
+#, php-format
+msgid ""
+"ReCaptcha v3 returns a score based on the user interactions with your forms. "
+"Scores range from 0.0 to 1.0, with 0.0 indicating abusive traffic and 1.0 "
+"indicating good traffic. %sVisit%s ReCaptcha admin to review verification "
+"statistics."
+msgstr ""
+"ReCaptcha v3 vráti skóre na základe interakcie používateľa s formulármi. "
+"Skóre sa pohybuje od 0,0 do 1,0, pričom 0,0 označuje zneužívajúcu premávku a "
+"1,0 označuje dobrú premávku. %sVisit% sReCaptcha na kontrolu štatistík "
+"overenia."
+
+#: admin/views/Options_fm.php:107
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: admin/views/Options_fm.php:111
+msgid "Map API Key"
+msgstr "Kľúč rozhrania API mapy"
+
+#: admin/views/Options_fm.php:114
+msgid "Get"
+msgstr "Získať"
+
+#: admin/views/Options_fm.php:115
+msgid "Google Map API key"
+msgstr "Kľúč rozhrania Google Map API"
+
+#: admin/views/Options_fm.php:116
+msgid ""
+" and copy them to this input. Make sure the key does not have restrictions."
+msgstr ""
+" a skopírujte ich do tohto vstupu. Uistite sa, že kľúč nemá obmedzenia."
+
+#: admin/views/Options_fm.php:129
+msgid "CSV Delimiter"
+msgstr "Oddeľovač CSV"
+
+#: admin/views/Options_fm.php:131
+msgid ""
+"This option sets the symbol, which will be used to separate the values in "
+"CSV file of form submissions."
+msgstr ""
+"Táto možnosť nastaví symbol, ktorý sa použije na oddelenie hodnôt v súbore "
+"CSV odoslaných formulárov."
+
+#: admin/views/Options_fm.php:134
+msgid "Enable Advanced Layout"
+msgstr "Povoliť rozšírené rozloženie"
+
+#: admin/views/Options_fm.php:139
+msgid ""
+"If you wish to build your form with HTML, instead of using Form Maker’s user-"
+"friendly interface, you can enable Advanced Layout. It can be accessed from "
+"the form editor."
+msgstr ""
+"Ak chcete vytvoriť formulár vo formáte HTML, namiesto používateľského "
+"rozhrania programu Form Maker môžete povoliť rozšírené rozloženie. Prístup k "
+"nim je k dispozícii z editora formulárov."
+
+#: admin/views/Options_fm.php:142
+msgid "Enable HTML editor"
+msgstr "Povoliť editor HTML"
+
+#: admin/views/Options_fm.php:147
+msgid ""
+"Form Header Description text and Layout fields boxes of Form Maker will use "
+"TinyMCE editor, in case this setting is enabled."
+msgstr ""
+"Text popisu formulára a polia rozloženia v zostave Form Maker budú používať "
+"editor TinyMCE pre prípad, že je toto nastavenie zapnuté."
+
+#: admin/views/Options_fm.php:150
+msgid "Referrer Spam Protection"
+msgstr "Ochrana proti nevyžiadanej pošte odkazovača"
+
+#: admin/views/Options_fm.php:155
+msgid "Enable protection against referrer spam submissions in your forms."
+msgstr ""
+"Povoľte ochranu pred odoslaním nevyžiadanej posudkov odkazovateľa vo "
+"formulároch."
+
+#: admin/views/Options_fm.php:158
+msgid "Anti-Bot Protection"
+msgstr "Ochrana proti botom"
+
+#: admin/views/Options_fm.php:163
+msgid "Enable protection against submissions from bots in your forms."
+msgstr "Povoľte ochranu pred odoslaním z robotov vo formulároch."
+
+#: admin/views/Options_fm.php:166
+msgid "Nonce Anti-Spam Protection"
+msgstr "Nonce Ochrana proti nevyžiadanej pošte"
+
+#: admin/views/Options_fm.php:171
+msgid "Enable nonce protection against junk submissions in your forms."
+msgstr "Povoľte ochranu pred nevyžiadanými príspevkami vo formulároch."
+
+#: admin/views/Options_fm.php:174
+msgid "Limit Single IP Submissions"
+msgstr "Obmedziť jednotlivé ip podania"
+
+#: admin/views/Options_fm.php:179
+msgid ""
+"Enable spam protection by limiting submissions from a single IP address "
+"within 20 seconds."
+msgstr ""
+"Povoľte ochranu pred nevyžiadanou pošte obmedzením odosielania z jednej "
+"adresy IP do 20 sekúnd."
+
+#: admin/views/Options_fm.php:182
+msgid "Developer mode"
+msgstr "Režim vývojára"
+
+#: admin/views/Options_fm.php:187
+msgid ""
+"Do not use minified JS and CSS files. Enable this option if You need to "
+"debug JS or CSS issues."
+msgstr ""
+"Nepoužívajte minified JS a CSS súbory. Povoľte túto možnosť, ak potrebujete "
+"ladiť problémy JS alebo CSS."
+
+#: admin/views/Options_fm.php:190
+msgid "Ajax submit"
+msgstr "Ajax predložiť"
+
+#: admin/views/Options_fm.php:195
+msgid "Enable AJAX submit to submit forms without reloading the page."
+msgstr ""
+"Povoliť odoslanie ajaxu na odoslanie formulárov bez opätovného načítania "
+"stránky."
+
+#: admin/views/Options_fm.php:198
+msgid "Dynamically created file cannot be read"
+msgstr "Dynamicky vytvorený súbor sa nedá čítať"
+
+#: admin/views/Options_fm.php:204 form-maker.php:475
+msgid "Uninstall"
+msgstr "Odinštalovať"
+
+#: admin/views/Submissions_fm.php:84
+msgid "Please select a form to view submissions"
+msgstr "Vyberte formulár na zobrazenie príspevkov"
+
+#: admin/views/Submissions_fm.php:106
+#, php-format
+msgid ""
+"An unexpected error occurred while exporting data. %s Please contact 10Web "
+"Customer Care. %s"
+msgstr ""
+"Počas exportu údajov sa vyskytla neočakávaná chyba. %s Kontaktujte prosím "
+"10Web Customer Care. %s"
+
+#: admin/views/Submissions_fm.php:212
+msgid ""
+"Form maker Export will not work correctly, as XML PHP extension is disabled "
+"on your website. Please contact your hosting provider and ask them to enable "
+"it."
+msgstr ""
+"Tvorca formulárov Export nebude fungovať správne, pretože rozšírenie XML PHP "
+"je na vašej webovej lokalite vypnuté. Obráťte sa na poskytovateľa "
+"hostiteľských služieb a požiadajte ho o jeho povolenie."
+
+#: admin/views/Submissions_fm.php:216
+msgid "Export to CSV"
+msgstr "Export do CSV"
+
+#: admin/views/Submissions_fm.php:217
+msgid "Export to XML"
+msgstr "Export do XML"
+
+#: admin/views/Submissions_fm.php:225
+msgid "Add/Remove Columns"
+msgstr "Pridanie alebo odstránenie stĺpcov"
+
+#: admin/views/Submissions_fm.php:227
+msgid "Show Filters"
+msgstr "Kategórie a filtre"
+
+#: admin/views/Submissions_fm.php:227
+msgid "Hide Filters"
+msgstr "Skryť filtre"
+
+#: admin/views/Submissions_fm.php:253 admin/views/Submissions_fm.php:257
+#: admin/views/Submissions_fm.php:498 admin/views/Submissions_fm.php:1246
+msgid "ID"
+msgstr "ID"
+
+#: admin/views/Submissions_fm.php:266 admin/views/Submissions_fm.php:270
+#: admin/views/Submissions_fm.php:501
+msgid "Submit date"
+msgstr "Dátum predloženia"
+
+#: admin/views/Submissions_fm.php:279 admin/views/Submissions_fm.php:283
+msgid "Submitter's IP"
+msgstr "IP adresa zadávateľa"
+
+#: admin/views/Submissions_fm.php:317 admin/views/Submissions_fm.php:560
+#: admin/views/Submissions_fm.php:933
+msgid "Webhook Status"
+msgstr "Stav webhooku"
+
+#: admin/views/Submissions_fm.php:530
+msgid "View submission"
+msgstr "Zobraziť odoslanie"
+
+#: admin/views/Submissions_fm.php:531 admin/views/Submissions_fm.php:535
+msgid "Edit submission"
+msgstr "Upraviť podanie"
+
+#: admin/views/Submissions_fm.php:533
+msgid "Download PDF"
+msgstr "Stiahnuť PDF"
+
+#: admin/views/Submissions_fm.php:539 admin/views/Submissions_fm.php:541
+msgid "Show submitter information"
+msgstr "Zobraziť informácie o zadavateľovi"
+
+#: admin/views/Submissions_fm.php:544
+msgid "Block IP"
+msgstr "Blokovať IP"
+
+#: admin/views/Submissions_fm.php:546
+msgid "Unblock IP "
+msgstr "Odblokovať IP "
+
+#: admin/views/Submissions_fm.php:546
+msgid "Unblock IP"
+msgstr "Odblokovať IP"
+
+#: admin/views/Submissions_fm.php:563
+msgid "Successfully Sent"
+msgstr "Úspešne odoslané"
+
+#: admin/views/Submissions_fm.php:568 admin/views/Submissions_fm.php:1302
+#: frontend/views/form_submissions.php:482
+msgid "Failed"
+msgstr "Neúspešné"
+
+#: admin/views/Submissions_fm.php:572
+msgid "Resend"
+msgstr "Opätovné odoslanie"
+
+#: admin/views/Submissions_fm.php:601 admin/views/Submissions_fm.php:610
+#: frontend/views/form_submissions.php:608
+msgid "Show on Map"
+msgstr "Zobraziť na mape"
+
+#: admin/views/Submissions_fm.php:642
+msgid "Star rating"
+msgstr "Hviezdičiek"
+
+#: admin/views/Submissions_fm.php:647
+msgid "Matrix"
+msgstr "Matice"
+
+#: admin/views/Submissions_fm.php:655 frontend/views/form_submissions.php:660
+msgid "Show Matrix"
+msgstr "Zobraziť maticu"
+
+#: admin/views/Submissions_fm.php:698
+msgid "Verified"
+msgstr "Overený"
+
+#: admin/views/Submissions_fm.php:740 admin/views/Submissions_fm.php:748
+msgid "Paypal information"
+msgstr "PayPal informácie"
+
+#: admin/views/Submissions_fm.php:790 form-maker.php:423
+msgid "- Select -"
+msgstr "- Vybrať -"
+
+#: admin/views/Submissions_fm.php:801 frontend/views/form_submissions.php:792
+msgid "Please select the field!"
+msgstr "Prosím, vyberte pole!"
+
+#: admin/views/Submissions_fm.php:806
+msgid "Date From:"
+msgstr "Dátum od:"
+
+#: admin/views/Submissions_fm.php:810
+msgid "To:"
+msgstr "Do:"
+
+#: admin/views/Submissions_fm.php:893
+msgid "Select columns"
+msgstr "Vyberte dátum"
+
+#: admin/views/Submissions_fm.php:896
+msgid "All"
+msgstr "Všetko"
+
+#: admin/views/Submissions_fm.php:941 framework/WDW_FM_Library.php:4955
+msgid "Done"
+msgstr "Hotovo"
+
+#: admin/views/Submissions_fm.php:1149 frontend/views/form_submissions.php:897
+msgid "Count"
+msgstr "Počet"
+
+#: admin/views/Submissions_fm.php:1189 frontend/views/form_submissions.php:930
+msgid "Unanswered"
+msgstr "Nezodpovedané"
+
+#: admin/views/Submissions_fm.php:1232
+msgid "Edit Submission"
+msgstr "Upraviť podanie"
+
+#: admin/views/Submissions_fm.php:1297 frontend/views/form_submissions.php:477
+msgid "Canceled"
+msgstr "Zrušené"
+
+#: admin/views/Submissions_fm.php:1298 frontend/views/form_submissions.php:478
+msgid "Cleared"
+msgstr "Vymazané"
+
+#: admin/views/Submissions_fm.php:1299 frontend/views/form_submissions.php:479
+msgid "Cleared by payment review"
+msgstr "Vymazané na kontrolu platieb"
+
+#: admin/views/Submissions_fm.php:1300 frontend/views/form_submissions.php:480
+msgid "Completed"
+msgstr "Dokončené"
+
+#: admin/views/Submissions_fm.php:1301 frontend/views/form_submissions.php:481
+msgid "Denied"
+msgstr "Zamietnuté"
+
+#: admin/views/Submissions_fm.php:1303 frontend/views/form_submissions.php:483
+msgid "Held"
+msgstr "Podržať"
+
+#: admin/views/Submissions_fm.php:1304 frontend/views/form_submissions.php:484
+msgid "In progress"
+msgstr "Prebieha"
+
+#: admin/views/Submissions_fm.php:1305 frontend/views/form_submissions.php:485
+msgid "On hold"
+msgstr "Podržané"
+
+#: admin/views/Submissions_fm.php:1306 frontend/views/form_submissions.php:486
+msgid "Paid"
+msgstr "Zaplatené"
+
+#: admin/views/Submissions_fm.php:1307 frontend/views/form_submissions.php:487
+msgid "Partially refunded"
+msgstr "Čiastočne vrátené"
+
+#: admin/views/Submissions_fm.php:1308 frontend/views/form_submissions.php:488
+msgid "Pending verification"
+msgstr "Čaká sa na overenie"
+
+#: admin/views/Submissions_fm.php:1309 frontend/views/form_submissions.php:489
+msgid "Placed"
+msgstr "Umiestnené"
+
+#: admin/views/Submissions_fm.php:1310 frontend/views/form_submissions.php:490
+msgid "Processing"
+msgstr "Spracováva sa"
+
+#: admin/views/Submissions_fm.php:1311 frontend/views/form_submissions.php:491
+msgid "Refunded"
+msgstr "Refundované"
+
+#: admin/views/Submissions_fm.php:1312 frontend/views/form_submissions.php:492
+msgid "Refused"
+msgstr "Zamietnuté"
+
+#: admin/views/Submissions_fm.php:1313 frontend/views/form_submissions.php:493
+msgid "Removed"
+msgstr "Odstránené"
+
+#: admin/views/Submissions_fm.php:1314 frontend/views/form_submissions.php:494
+msgid "Returned"
+msgstr "Vrátené"
+
+#: admin/views/Submissions_fm.php:1315 frontend/views/form_submissions.php:495
+msgid "Reversed"
+msgstr "Zvrátiť"
+
+#: admin/views/Submissions_fm.php:1316 frontend/views/form_submissions.php:496
+msgid "Temporary hold"
+msgstr "Dočasné zadržanie"
+
+#: admin/views/Submissions_fm.php:1317 frontend/views/form_submissions.php:497
+msgid "Unclaimed"
+msgstr "Nevyzdvihnuté"
+
+#: admin/views/Submissions_fm.php:1453
+msgid "- Select a form -"
+msgstr "- Vyberte formulár -"
+
+#: admin/views/Themes_fm.php:159
+msgid "Title: "
+msgstr "Názov"
+
+#: admin/views/Themes_fm.php:243
+msgid ""
+"This theme is outdated. Theme Options are only available in new themes "
+"provided by Form Maker. You can use Custom CSS panel to edit form styling, "
+"or alternatively select a new theme for your form."
+msgstr ""
+"Táto téma je zastaraná. Možnosti motívu sú k dispozícii iba v nových "
+"motívoch, ktoré poskytuje Form Maker. Na úpravu štýlu formulára môžete "
+"použiť vlastný panel CSS alebo môžete vybrať nový motív formulára."
+
+#: admin/views/Themes_fm.php:340
+msgid "Pagination Type: "
+msgstr "Typ stránkovania: "
+
+#: admin/views/Themes_fm.php:343
+msgid "Step"
+msgstr "Krok"
+
+#: admin/views/Themes_fm.php:378
+msgid "Subscribe to our newsletter "
+msgstr "Zaregistrovať sa na príjem nášho informátora "
+
+#: admin/views/Themes_fm.php:379 admin/views/Themes_fm.php:492
+msgid "Join our mailing list to receive the latest news from our team."
+msgstr ""
+"Pripojte sa k nášmu poštovému zoznamu a získajte najnovšie správy od nášho "
+"tímu."
+
+#: admin/views/Themes_fm.php:392
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: admin/views/Themes_fm.php:402
+msgid "Country:"
+msgstr "Krajina:"
+
+#: admin/views/Themes_fm.php:406 framework/WDW_FM_Library.php:4659
+msgid "Armenia"
+msgstr "Arménsko"
+
+#: admin/views/Themes_fm.php:415
+msgid "Radio:"
+msgstr "Výber:"
+
+#: admin/views/Themes_fm.php:423 admin/views/Themes_fm.php:441
+msgid "option 1"
+msgstr "možnosť 1"
+
+#: admin/views/Themes_fm.php:434
+msgid "Checkbox:"
+msgstr "Zaškrtavacie pole:"
+
+#: admin/views/Themes_fm.php:470
+msgid "Previous"
+msgstr "Predchádzajúci"
+
+#: admin/views/Themes_fm.php:476 framework/WDW_FM_Library.php:4957
+msgid "Next"
+msgstr "Ďalej"
+
+#: admin/views/Themes_fm.php:491
+msgid "Subscribe to our newsletter"
+msgstr "Zaregistrovať sa na príjem nášho informátora"
+
+#: admin/views/Uninstall_fm.php:55
+msgid "support team"
+msgstr "tím podpory"
+
+#: admin/views/Uninstall_fm.php:56
+msgid "Contact us"
+msgstr "Kontaktujte nás"
+
+#: admin/views/Uninstall_fm.php:57
+#, php-format
+msgid ""
+"Before uninstalling the plugin, please Contact our %s. We'll do our best to "
+"help you out with your issue. We value each and every user and value what's "
+"right for our users in everything we do.<br />\n"
+"      However, if anyway you have made a decision to uninstall the plugin, "
+"please take a minute to %s and tell what you didn't like for our plugins "
+"further improvement and development. Thank you !!!"
+msgstr ""
+"Pred odinštalovaním doplnku sa obráťte na náš %s . Urobíme všetko, čo bude v "
+"našich silách, aby sme vám pomohli s vaším problémom. Vážime si každého "
+"používateľa a vážime si to, čo je správne pre našich používateľov vo "
+"všetkom, čo robíme.<br />Avšak, ak ste sa aj tak rozhodli odinštalovať "
+"plugin, vezmite si minútu a povedzte, čo sa vám %s nepáčilo pre naše doplnky "
+"ďalšie zlepšenie a vývoj. Ďakujeme!!!"
+
+#: admin/views/Uninstall_fm.php:61
+#, php-format
+msgid ""
+"Deactivating %s plugin does not remove any data that may have been created. "
+"To completely remove this plugin, you can uninstall it here."
+msgstr ""
+"Deaktiváciou %s doplnku sa neodstránia žiadne údaje, ktoré mohli byť "
+"vytvorené. Ak chcete tento doplnok úplne odstrániť, môžete ho odinštalovať "
+"tu."
+
+#: admin/views/Uninstall_fm.php:64
+msgid "WARNING:"
+msgstr "UPOZORNENIE"
+
+#: admin/views/Uninstall_fm.php:65
+msgid ""
+"Once uninstalled, this can't be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first."
+msgstr ""
+"Po odinštalovaní sa to nedá vrátiť späť. Na zálohovanie všetkých údajov by "
+"ste mali najprv použiť doplnok Zálohovanie databázy WordPress."
+
+#: admin/views/Uninstall_fm.php:68
+msgid "The following Database Tables will be deleted:"
+msgstr "Odstránia sa nasledujúce databázové tabuľky:"
+
+#: admin/views/Uninstall_fm.php:73
+msgid "Database Tables"
+msgstr "Tabuľky databázy"
+
+#: admin/views/Uninstall_fm.php:89
+#, php-format
+msgid "Do you really want to uninstall %s?"
+msgstr "Naozaj chcete odinštalovať %s?"
+
+#: admin/views/Uninstall_fm.php:99
+msgid "UNINSTALL"
+msgstr "ODINŠTALOVAŤ"
+
+#: admin/views/Uninstall_fm.php:101
+#, php-format
+msgid ""
+"You are About to Uninstall %s from WordPress. This Action Is Not Reversible."
+msgstr "Chystáte sa odinštalovať %s z WordPress. Táto akcia nie je vratná."
+
+#: admin/views/view.php:96
+msgid "Add New"
+msgstr "Pridať nové"
+
+#: admin/views/view.php:228
+msgid "First page"
+msgstr "Prvá stránka"
+
+#: admin/views/view.php:229
+msgid "Previous page"
+msgstr "Predchádzajúca stránka"
+
+#: admin/views/view.php:234
+msgid "Current Page"
+msgstr "Aktuálna stánka"
+
+#: admin/views/view.php:237
+msgid "of"
+msgstr "z"
+
+#: admin/views/view.php:250
+msgid "Next page"
+msgstr "Ďalšia"
+
+#: admin/views/view.php:251
+msgid "Last page"
+msgstr "Posledná stránka"
+
+#: admin/views/view.php:275
+msgid "Select bulk action"
+msgstr "Vyberte hromadnú akciu"
+
+#: admin/views/view.php:277
+msgid "Bulk Actions"
+msgstr "Hromadné akcie"
+
+#: admin/views/view.php:286
+msgid "Apply"
+msgstr "Použiť"
+
+#: admin/views/view.php:393
+msgid "Form Maker Premium"
+msgstr "Form Maker Premium"
+
+#: admin/views/view.php:396
+msgid ""
+"Add unlimited fields, create multi-page forms with fully customizable themes "
+"and much more."
+msgstr ""
+"Pridajte neobmedzené polia, vytvárajte viacstranové formuláre s plne "
+"prispôsobiteľnými motívmi a oveľa viac."
+
+#: admin/views/view.php:400 admin/views/view.php:452 admin/views/view.php:491
+#: admin/views/view.php:526 admin/views/view.php:573
+msgid "Upgrade"
+msgstr "Aktualizácia"
+
+#: admin/views/view.php:412
+msgid "User guide"
+msgstr "Používateľská príručka"
+
+#: admin/views/view.php:427 form-maker.php:482 form-maker.php:1641
+msgid "Ask a question"
+msgstr "Položte otázku"
+
+#: admin/views/view.php:447
+msgid "Extensions"
+msgstr "Rozšírenia"
+
+#: admin/views/view.php:452
+msgid "Premium Version"
+msgstr "Prémiová verzia"
+
+#: admin/views/view.php:556
+msgid "The free version is limited up to 7 fields."
+msgstr "Bezplatná verzia je obmedzená až na 7 polí."
+
+#: admin/views/view.php:559
+msgid "Upgrade to Premium version to add unlimited fields."
+msgstr "Inovujte na verziu Premium a pridajte neobmedzené polia."
+
+#: admin/views/view.php:563
+msgid "Premium Plan also includes:"
+msgstr "Prémiový plán zahŕňa aj:"
+
+#: admin/views/view.php:566
+msgid "Payment integration fields"
+msgstr "Polia Integrácia platieb"
+
+#: admin/views/view.php:567
+msgid "File upload field"
+msgstr "Pole na odovzdanie súboru"
+
+#: admin/views/view.php:568
+msgid "Google Maps API Integration"
+msgstr "Integrácia rozhrania Google Maps API"
+
+#: admin/views/view.php:569
+msgid "Front-end Submissions"
+msgstr "Zadania formulárov uživateľov"
+
+#: form-maker.php:110
+msgid "Contact Form"
+msgstr "Kontaktný formulár"
+
+#: form-maker.php:110
+msgid "Form Maker"
+msgstr "Form Maker"
+
+#: form-maker.php:293
+msgid "Help"
+msgstr "Pomoc"
+
+#: form-maker.php:321
+msgid "10WEB Plugins"
+msgstr "10WEB pluginy"
+
+#: form-maker.php:331
+msgid ""
+"When you leave a comment on this site, we send your name, email\n"
+"        address, IP address and comment text to example.com. Example.com "
+"does\n"
+"        not retain your personal data."
+msgstr ""
+"Keď na tejto stránke zanecháte komentár, pošleme vám vaše meno, e-mail\n"
+"        adresu, IP adresu a text komentára example.com. Example.com robí\n"
+"        neuchovádnete svoje osobné údaje."
+
+#: form-maker.php:387 form-maker.php:395
+#, php-format
+msgid "Select %s"
+msgstr "Vyberte %s"
+
+#: form-maker.php:422
+msgid "Nothing selected."
+msgstr "Nič bol predložený."
+
+#: form-maker.php:536
+msgid "Number of items per page:"
+msgstr "Počet položiek na stránku:"
+
+#: form-maker.php:670 form-maker.php:693
+msgid "Add Field"
+msgstr "Pridať pole"
+
+#: form-maker.php:671
+msgid "Add Column"
+msgstr "Pridať stĺpec"
+
+#: form-maker.php:672
+msgid "Field is required."
+msgstr "Povinné pole."
+
+#: form-maker.php:673
+msgid "Enter a valid value."
+msgstr "Toto nie je platná e-mailová adresa."
+
+#: form-maker.php:674 frontend/models/form_maker.php:2284
+msgid "Enter a valid email address."
+msgstr "Toto nie je platná e-mailová adresa."
+
+#: form-maker.php:679
+msgid "Do you want to delete selected items?"
+msgstr "Chcete odstrániť vybraté položky?"
+
+#: form-maker.php:680
+msgid "You must select at least one item."
+msgstr "Musíte vybrať aspoň jednu položku."
+
+#: form-maker.php:681
+msgid "Add placeholder"
+msgstr "Pridanie nápovedy v poli"
+
+#: form-maker.php:689
+msgid "Nothing found."
+msgstr "Nič sa nenašlo."
+
+#: form-maker.php:690
+msgid "The captcha already has been created."
+msgstr "Captcha už bola vytvorená."
+
+#: form-maker.php:694
+msgid "Edit Field"
+msgstr "Upraviť pole"
+
+#: form-maker.php:695
+msgid ""
+"To use this feature, please go to Settings > Payment Options and select "
+"\"Stripe\" as the Payment Method."
+msgstr ""
+"Ak chcete použiť túto funkciu, prejdite na Nastavenia > možnosti platby a "
+"vyberte \"Prúžok\" ako spôsob platby."
+
+#: form-maker.php:696 framework/WDW_FM_Library.php:4961
+msgid "Sunday"
+msgstr "Nedeľa"
+
+#: form-maker.php:697 framework/WDW_FM_Library.php:4961
+msgid "Monday"
+msgstr "Pondelok"
+
+#: form-maker.php:698 framework/WDW_FM_Library.php:4961
+msgid "Tuesday"
+msgstr "Utorok"
+
+#: form-maker.php:699 framework/WDW_FM_Library.php:4961
+msgid "Wednesday"
+msgstr "Streda"
+
+#: form-maker.php:700 framework/WDW_FM_Library.php:4961
+msgid "Thursday"
+msgstr "Štvrtok"
+
+#: form-maker.php:701 framework/WDW_FM_Library.php:4961
+msgid "Friday"
+msgstr "Piatok"
+
+#: form-maker.php:702 framework/WDW_FM_Library.php:4961
+msgid "Saturday"
+msgstr "Sobota"
+
+#: form-maker.php:703
+msgid "Leave empty to set the width to 100%."
+msgstr "Ak chcete nastaviť šírku na 100 %, ponecháte prázdnu."
+
+#: form-maker.php:705
+msgid ""
+"The free version is limited up to 7 fields to add. If you need this "
+"functionality, you need to buy the commercial version."
+msgstr ""
+"Bezplatná verzia je obmedzená až na 7 polí na pridanie. Ak potrebujete túto "
+"funkciu, musíte si kúpiť komerčnú verziu."
+
+#: form-maker.php:707
+#, php-format
+msgid ""
+"%s Old reCAPTCHA keys will not work for %s. Please make sure to enable the "
+"API keys for Invisible reCAPTCHA."
+msgstr ""
+"%s Staré reCAPTCHA kľúče nebudú fungovať pre %s. Uistite sa, že povolíte API "
+"kľúče pre neviditeľné reCAPTCHA."
+
+#: form-maker.php:707
+msgid "Note:"
+msgstr "Poznámka:"
+
+#: form-maker.php:707
+msgid "Invisible reCAPTCHA"
+msgstr "Neviditeľná reKAPSCHA"
+
+#: form-maker.php:708
+msgid "This field is a single line text input."
+msgstr "Toto pole %s vyžaduje jedinečný prístup a táto hodnota bola už podaná."
+
+#: form-maker.php:708 form-maker.php:710 form-maker.php:717 form-maker.php:718
+#: form-maker.php:739
+msgid "To set a default value, just fill the field above."
+msgstr ""
+"Ak chcete nastaviť predvolenú hodnotu, stačí vyplniť vyššie uvedené pole."
+
+#: form-maker.php:708 form-maker.php:709
+msgid ""
+"You can set the text input as Required, making sure the submitter provides a "
+"value for it."
+msgstr ""
+"Textový vstup môžete nastaviť ako Požadovaný a uistite sa, že odosielateľ "
+"pre ne poskytuje hodnotu."
+
+#: form-maker.php:708
+msgid ""
+"Validation (RegExp.) option in Advanced options lets you configure Regular "
+"Expression for your Single Line Text field. Use Common Regular Expressions "
+"select box to use built-in validation patterns. For instance, in case you "
+"can add a validation for decimal number, IP address or zip code by selecting "
+"corresponding options of Common Regular Expressions drop-down."
+msgstr ""
+"Možnosť Validation (RegExp.) v rozšírených možnostiach umožňuje konfigurovať "
+"regulárny výraz pre pole Jeden riadok textu. Ak chcete použiť vstavané "
+"overovacie vzory, použite políčko Bežné regulárne výrazy. Napríklad v "
+"prípade, že môžete pridať overenie desatinného čísla, IP adresy alebo PSČ "
+"výberom zodpovedajúcich možností rozbaľovacieho zoznamu Bežné regulárne "
+"výrazy."
+
+#: form-maker.php:708
+msgid ""
+"Additionally, you can add HTML attributes to your form fields with "
+"Additional Attributes."
+msgstr ""
+"Okrem toho môžete pridať atribúty HTML do polí formulára s ďalšie atribúty."
+
+#: form-maker.php:709
+msgid ""
+"This field adds a textarea box to your form. Users can write alphanumeric "
+"text, special characters and line breaks."
+msgstr ""
+"Toto pole pridá do formulára pole textovej oblasti. Používatelia môžu písať "
+"alfanumerický text, špeciálne znaky a zlomy riadkov."
+
+#: form-maker.php:709
+msgid "Set the width and height of the textarea box using Size(px) option."
+msgstr "Nastavte šírku a výšku poľa textarea pomocou možnosti Size(px)."
+
+#: form-maker.php:710
+msgid ""
+"This is an input text that accepts only numbers. Users can type a number "
+"directly, or use the spinner arrows to specify it."
+msgstr ""
+"Ide o vstupný text, ktorý prijíma iba čísla. Používatelia môžu zadať číslo "
+"priamo alebo ho zadať pomocou šípok spinnera."
+
+#: form-maker.php:710
+msgid ""
+"Step option defines the number to increment/decrement the spinner value, "
+"when the users press up or down arrows."
+msgstr ""
+"Možnosť kroku definuje číslo na zvýšenie/decrement hodnoty spinnera, keď "
+"používatelia stlačia šípky nahor alebo nadol."
+
+#: form-maker.php:710
+msgid ""
+"Use Min Value and Max Value options to set lower and upper limitation for "
+"the value of this Number field."
+msgstr ""
+"Pomocou možností Min Value (Minimálna hodnota) a Max Value (Maximálna "
+"hodnota) nastavte dolné a horné obmedzenie pre hodnotu tohto poľa Číslo."
+
+#: form-maker.php:711
+msgid ""
+"This field allows the submitter to choose values from select box. Just click "
+"(+) Option button and fill in all options you will need or click  (+) From "
+"Database to fill the options from a database table."
+msgstr ""
+"Toto pole umožňuje odosielateľovi vybrať hodnoty z poľa výberu. Stačí "
+"kliknúť na tlačidlo možnosti (+) a vyplniť všetky možnosti, ktoré budete "
+"potrebovať, alebo kliknúť (+) z databázy a vyplniť možnosti z tabuľky "
+"databázy."
+
+#: form-maker.php:711 form-maker.php:712 form-maker.php:713
+msgid ""
+"In case you need to have option values to be different from option names, "
+"mark Enable option's value from Advanced options as checked."
+msgstr ""
+"V prípade, že potrebujete mať hodnoty možností, ktoré sa majú líšiť od "
+"názvov možností, označte hodnotu Povoliť možnosť z rozšírených možností, ako "
+"je začiarknuté."
+
+#: form-maker.php:712
+msgid ""
+"Using this field you can add a list of Radio buttons to your form. Just "
+"click (+) Option button and fill in all options you will need or click  (+) "
+"From Database to fill the options from a database table."
+msgstr ""
+"Pomocou tohto poľa môžete do formulára pridať zoznam prepínačov. Stačí "
+"kliknúť na tlačidlo možnosti (+) a vyplniť všetky možnosti, ktoré budete "
+"potrebovať, alebo kliknúť (+) z databázy a vyplniť možnosti z tabuľky "
+"databázy."
+
+#: form-maker.php:712 form-maker.php:713
+msgid ""
+"Relative Position lets you choose the position of options in relation to "
+"each other. Whereas Option Label Position lets you select the position of "
+"radio button label."
+msgstr ""
+"Relatívna pozícia vám umožňuje vybrať si pozíciu možností vo vzájomnom "
+"vzťahu. Zatiaľ čo pozícia označenia možnosti umožňuje vybrať polohu "
+"označenia rádiového tlačidla."
+
+#: form-maker.php:712 form-maker.php:713
+msgid ""
+"And by enabling Allow other, you can let the user to write their own "
+"specific value."
+msgstr ""
+"Povolením povoliť iným môžete používateľovi umožniť napísať vlastnú "
+"konkrétnu hodnotu."
+
+#: form-maker.php:713
+msgid ""
+"Multiple Choice field lets you have a list of Checkboxes. This field allows "
+"the submitter to choose more than one values."
+msgstr ""
+"Pole Viaceré voľby umožňuje zobraziť zoznam začiarkavacie políčka. Toto pole "
+"umožňuje odosielateľovi vybrať viac ako jednu hodnoty."
+
+#: form-maker.php:713
+msgid ""
+"Just click (+) Option button and fill in all options you will need or click  "
+"(+) From Database to fill the options from a database table."
+msgstr ""
+"Stačí kliknúť na tlačidlo možnosti (+) a vyplniť všetky možnosti, ktoré "
+"budete potrebovať, alebo kliknúť (+) z databázy a vyplniť možnosti z tabuľky "
+"databázy."
+
+#: form-maker.php:714
+#, php-format
+msgid ""
+"Form Maker is integrated with Google ReCaptcha, which protects your forms "
+"from spam bots. Before adding ReCaptcha to your form, you need to configure "
+"Site and Secret Keys by registering your website on %s"
+msgstr ""
+"Form Maker je integrovaný so spoločnosťou Google ReCaptcha, ktorá chráni "
+"vaše formuláre pred spamom. Pred pridaním ReCaptcha do formulára musíte "
+"nakonfigurovať stránky a tajné kľúče registráciou svojich webových stránok "
+"na %s"
+
+#: form-maker.php:714
+msgid "Google ReCaptcha website"
+msgstr "Webová lokalita spoločnosti Google ReCaptcha"
+
+#: form-maker.php:714
+msgid ""
+"After registering and creating the keys, copy them to Form Maker > Options "
+"page."
+msgstr ""
+"Po registrácii a vytvorení kľúčov ich skopírujte na stránku Možnosti > Form "
+"Maker."
+
+#: form-maker.php:715
+msgid ""
+"The Submit button validates all form field values, saves them on MySQL "
+"database of your website, sends emails and performs other actions configured "
+"in Form Options. You can have more than one submit button in your form."
+msgstr ""
+"Tlačidlo Odoslať overuje všetky hodnoty polí formulára, ukladá ich do "
+"databázy MySQL vašej webovej lokality, odosiela e-maily a vykonáva ďalšie "
+"akcie nakonfigurované v možnostiach formulára. Vo formulári môžete mať viac "
+"ako jedno tlačidlo odoslať."
+
+#: form-maker.php:716
+msgid ""
+"You can use this field as an alternative to ReCaptcha to protect your forms "
+"against spambots. It’s a random combination of numbers and letters, and "
+"users need to type them in correctly to submit the form."
+msgstr ""
+"Toto pole môžete použiť ako alternatívu k reCaptcha na ochranu formulárov "
+"pred nevyžiadanou poštovou. Je to náhodná kombinácia čísel a písmen a "
+"používatelia ich musia na odoslanie formulára zadať správne."
+
+#: form-maker.php:716
+msgid ""
+"You can specify the number of symbols in Simple Captcha using Symbols (3 - "
+"9) option."
+msgstr ""
+"Počet symbolov môžete zadať v možnosti Jednoduché captcha pomocou symbolov "
+"(3 - 9)."
+
+#: form-maker.php:717
+msgid "This field lets the user write their name."
+msgstr "Toto pole umožňuje používateľovi napísať svoje meno."
+
+#: form-maker.php:717
+msgid ""
+"Enabling Autofill with user name setting will automatically fill in Name "
+"field with the name of the logged in user."
+msgstr ""
+"Povolením automatického vypĺňanie s nastavením mena používateľa sa pole "
+"Názov automaticky vyplní menom prihláseného používateľa."
+
+#: form-maker.php:717
+msgid ""
+"In case you do not wish to receive the same data for the same Name field "
+"twice, activate Allow only unique values option."
+msgstr ""
+"V prípade, že nechcete dostávať rovnaké údaje pre rovnaké pole Názov "
+"dvakrát, aktivujte možnosť Povoliť iba jedinečné hodnoty."
+
+#: form-maker.php:718
+msgid "This field is an input field that accepts an email address."
+msgstr "Toto nie je platná e-mailová adresa."
+
+#: form-maker.php:718
+msgid ""
+"Using Confirmation Email setting in Advanced Options you can require the "
+"submitter to re-type their email address."
+msgstr ""
+"Pomocou nastavenia Potvrdzovací e-mail v rozšírených možnostiach môžete od "
+"odosielateľa požadovať, aby znova zadal svoju e-mailovú adresu."
+
+#: form-maker.php:718
+msgid ""
+"Autofill with user email will autofill Email field with the email address of "
+"the logged in user."
+msgstr ""
+"Automatické vypĺňanie pomocou e-mailu používateľa automaticky vyplní pole E-"
+"mail e-mailovou adresou prihláseného používateľa."
+
+#: form-maker.php:718
+msgid ""
+"Upon successful submission of the Form, you have the option to send the "
+"submitted data (or just a confirmation message) to the email address entered "
+"here. To do this you need to set the corresponding options on Form Options > "
+"Email Options page."
+msgstr ""
+"Po úspešnom odoslaní formulára máte možnosť zaslať odoslané údaje (alebo len "
+"potvrdzovaciu správu) na tu zadaná e-mailovú adresu. Ak to chcete urobiť, "
+"musíte nastaviť príslušné možnosti na stránke Možnosti formulára > možnosti "
+"e-mailu."
+
+#: form-maker.php:719
+msgid ""
+"This field is an input for a phone number. It provides a list of country "
+"flags, which users can select and have their country code automatically "
+"added to the phone number."
+msgstr ""
+"Toto pole je vstupom pre telefónne číslo. Poskytuje zoznam vlajok krajín, "
+"ktoré si používatelia môžu vybrať a automaticky pridať kód krajiny k "
+"telefónnemu číslu."
+
+#: form-maker.php:719
+msgid ""
+"In case you do not wish to receive the same data for the same Phone field "
+"more than once, activate Allow only unique values setting from Advanced "
+"options."
+msgstr ""
+"V prípade, že nechcete dostávať rovnaké údaje pre to isté pole Telefón "
+"viackrát, aktivujte možnosť Povoliť iba nastavenie jedinečných hodnôt z "
+"rozšírených možností."
+
+#: form-maker.php:720
+msgid ""
+"This field lets you skip a few steps and quickly add one set for requesting "
+"the address of the submitter. Use Overall size(px) option to set the width "
+"of Address field."
+msgstr ""
+"Toto pole umožňuje preskočiť niekoľko krokov a rýchlo pridať jednu množinu "
+"na vyžiadanie adresy odosielateľa. Ak chcete nastaviť šírku poľa Adresa, "
+"použite možnosť Celková veľkosť (px)."
+
+#: form-maker.php:720
+msgid ""
+"You can enable or disable elements of Address field using Disable Field(s) "
+"setting in Advanced Options."
+msgstr ""
+"Prvky poľa Adresa môžete zapnúť alebo vypnúť pomocou nastavenia Zakázať pole "
+"(ihriská) v rozšírených možnostiach."
+
+#: form-maker.php:720
+msgid ""
+"You can turn State/Province/Region field into a list of US states by "
+"activating Use list for US states setting from Advanced Options. Note: This "
+"only works in case United States is selected for Country select box."
+msgstr ""
+"Pole Štát/Provincia/Oblasť môžete zmeniť na zoznam štátov USA aktiváciou "
+"nastavenia Použiť zoznam štátov USA z rozšírených možností. Poznámka: "
+"Funguje to len v prípade, že je pre pole Výberu krajiny vybratá možnosť "
+"Spojené štáty."
+
+#: form-maker.php:721
+msgid ""
+"Mark on Map field lets users to drag the map pin and drop it on their "
+"selected location. You can specify a default address for the location pin "
+"with Address option."
+msgstr ""
+"Pole Označiť na mape umožňuje používateľom presunúť špendlík mapy a presunúť "
+"ho na vybraté miesto. Predvolenú adresu pre pin umiestnenia môžete zadať "
+"pomocou možnosti Adresa."
+
+#: form-maker.php:721
+msgid ""
+"In addition, Marker Info setting allows you to provide additional details "
+"about the location. It will appear after users click on the location pin."
+msgstr ""
+"Okrem toho nastavenie Informácie o značkovaní umožňuje poskytnúť ďalšie "
+"podrobnosti o polohe. Zobrazí sa po kliknutí používateľov na špendlík polohy."
+
+#: form-maker.php:722
+msgid ""
+"Country List is a select box which provides a list of all countries in "
+"alphabetical order."
+msgstr ""
+"Zoznam krajín je výberové pole, ktoré poskytuje zoznam všetkých krajín v "
+"abecednom poradí."
+
+#: form-maker.php:722
+msgid ""
+"You can include/exclude specific countries from the list using the Edit "
+"country list setting in Advanced Options."
+msgstr ""
+"Konkrétne krajiny môžete zahrnúť alebo vylúčiť zo zoznamu pomocou nastavenia "
+"Upraviť zoznam krajín v rozšírených možnostiach."
+
+#: form-maker.php:723
+msgid "Users can specify their birthday or any date with this field."
+msgstr ""
+"Používatelia môžu týmto poľom zadať dátum narodenia alebo ľubovoľný dátum."
+
+#: form-maker.php:723
+msgid ""
+"Use Fields separator setting in Advanced options to change the divider "
+"between day, month and year boxes."
+msgstr ""
+"Pomocou nastavenia Oddeľovač polí v rozšírených možnostiach zmeňte delenie "
+"medzi poľami deň, mesiac a rok."
+
+#: form-maker.php:723
+msgid ""
+"You can set the fields to be text inputs or select boxes using Day field "
+"type, Month field type and Year field type options."
+msgstr ""
+"Polia môžete nastaviť ako textové vstupy alebo začiarknite políčka pomocou "
+"možností typu poľa Deň, Typ poľa Mesiac a Typ poľa Rok."
+
+#: form-maker.php:723
+msgid ""
+"In addition, you can specify the width of day, month and year fields using "
+"Day field size(px), Month field size(px) and Year field size(px) settings."
+msgstr ""
+"Okrem toho môžete zadať šírku polí deň, mesiac a rok pomocou nastavení Day "
+"field size (px), Month (px) a Year (px)."
+
+#: form-maker.php:724
+msgid ""
+"You can allow users to upload single or multiple documents, images and "
+"various files through your form."
+msgstr ""
+"Používateľom môžete prostredníctvom formulára povoliť nahrávanie "
+"jednotlivých alebo viacerých dokumentov, obrázkov a rôznych súborov."
+
+#: form-maker.php:724
+msgid ""
+"Use Allowed file extensions option to specify all acceptable file formats. "
+"Make sure to separate them with commas."
+msgstr ""
+"Ak chcete zadať všetky prijateľné formáty súborov, použite možnosť Povolené "
+"prípony súborov. Nezabudnite ich oddeliť čiarkami."
+
+#: form-maker.php:724
+msgid ""
+"Mark Allow Uploading Multiple Files option in Advanced Options to allow "
+"users to select and upload multiple files."
+msgstr ""
+"Ak chcete používateľom povoliť výber a nahrávanie viacerých súborov, "
+"začiarknite možnosť Povoliť nahrávanie viacerých súborov v rozšírených "
+"možnostiach."
+
+#: form-maker.php:725
+msgid ""
+"Map field can be used for pinning one or more locations on Google Map and "
+"displaying them on your form."
+msgstr ""
+"Pole Mapy možno použiť na pripnutie jedného alebo viacerých miest v mape "
+"Google a ich zobrazenie vo formulári."
+
+#: form-maker.php:725
+msgid "Press the small Plus icon to add a location pin."
+msgstr "Stlačením malej ikony Plus pridajte špendlík polohy."
+
+#: form-maker.php:726
+msgid ""
+"Time field of Form Maker plugin will allow users to specify time value. Set "
+"the time format of the field to 24-hour or 12-hour using Time Format option."
+msgstr ""
+"Časové pole doplnku Form Maker umožní používateľom určiť časovú hodnotu. "
+"Pomocou možnosti Formát času nastavte formát času poľa na 24 hodín alebo 12 "
+"hodín."
+
+#: form-maker.php:727
+msgid ""
+"When users fill in an email address using Email Field, this checkbox will "
+"allow them to choose if they wish to receive a copy of the submission email."
+msgstr ""
+"Keď používatelia vyplnia e-mailovú adresu pomocou e-mailového poľa, toto "
+"začiarkavacie políčko im umožní vybrať si, či chcú dostať kópiu e-mailu "
+"odoslaného."
+
+#: form-maker.php:727
+msgid "Note: Make sure to configure Form Options > Email Options of your form."
+msgstr ""
+"Poznámka: Uistite sa, že nakonfigurujte možnosti formulára > možnosti e-"
+"mailu formulára."
+
+#: form-maker.php:728
+msgid ""
+"Add Star rating field to your form with this field. You can display as many "
+"stars, as you will need, set the number using Number of Stars option."
+msgstr ""
+"Pridajte pole hodnotenia hviezdičkami do formulára s týmto poľom. Môžete "
+"zobraziť toľko hviezd, koľko budete potrebovať, nastavte číslo pomocou "
+"možnosti Počet hviezdičiek."
+
+#: form-maker.php:729
+msgid ""
+"Place Rating field on your form to have radio buttons, which indicate rating "
+"from worst to best. You can set many radio buttons to display using Scale "
+"Range option."
+msgstr ""
+"Umiestnite pole Hodnotenie do formulára, aby ste mali prepínače, ktoré "
+"označujú hodnotenie od najhorších po najlepšie. Pomocou možnosti Rozsah "
+"mierky môžete nastaviť zobrazenie mnohých prepínačov."
+
+#: form-maker.php:730
+msgid ""
+"Slider field lets users specify the field value by dragging its handle from "
+"Min Value to Max Value."
+msgstr ""
+"Jazdec umožňuje používateľom určiť hodnotu poľa presunutím jeho popisovača z "
+"hodnoty Min na maximálnu hodnotu."
+
+#: form-maker.php:731
+msgid ""
+"You can use this field to let users choose a numeric range by providing "
+"values for 2 number inputs. Its Step option allows to set the increment/"
+"decrement of spinners’ values, when users click on up or down arrows."
+msgstr ""
+"Toto pole môžete použiť na to, aby používatelia mohli vybrať číselný rozsah "
+"poskytnutím hodnôt pre 2 číselné vstupy. Jeho krok možnosť umožňuje nastaviť "
+"prírastku / decrement spinners hodnoty, keď používatelia kliknú na šípky "
+"nahor alebo nadol."
+
+#: form-maker.php:732
+msgid ""
+"Users will be able to grade specified items with this field. The sum of all "
+"values will appear below the field with Total parameter."
+msgstr ""
+"Používatelia budú môcť za zadané položky zastupňovať pomocou tohto poľa. "
+"Súčet všetkých hodnôt sa zobrazí pod poľom s parametrom Celkom."
+
+#: form-maker.php:732
+msgid "Items option allows you to add multiple options to your Grades field."
+msgstr ""
+"Možnosť Items (Položky) umožňuje pridať do poľa Stupne viacero možností."
+
+#: form-maker.php:733
+msgid ""
+"Table of Fields lets you place a matrix on your form, which will let the "
+"submitter to answer a few questions with one field."
+msgstr ""
+"Tabuľka polí umožňuje umiestniť do formulára maticu, ktorá umožní "
+"odosielateľovi odpovedať na niekoľko otázok jedným poľom."
+
+#: form-maker.php:733
+msgid ""
+"It allows you to configure the matrix with radio buttons, checkboxes, text "
+"boxes or drop-downs. Use Input Type option to set this."
+msgstr ""
+"Umožňuje konfigurovať maticu pomocou prepínačov, začiarkavacích políčok, "
+"textových políčok alebo rozbaľovacích zoznamov. Ak chcete nastaviť túto "
+"možnosť, použite možnosť Typ vstupu."
+
+#: form-maker.php:734
+msgid ""
+"Hidden Input field is similar to Single Line Text field, but it is not "
+"visible to users. Hidden Fields are handy, in case you need to run a custom "
+"Javascript and submit the result with the info on your form."
+msgstr ""
+"Pole Skrytý vstup je podobné poľu Jeden riadok textu, ale používateľom sa "
+"nezobrazuje. Skryté polia sú poruke v prípade, že potrebujete spustiť "
+"vlastný Javascript a odoslať výsledok s informáciami vo formulári."
+
+#: form-maker.php:734
+msgid ""
+"Name option of this field is mandatory. Note: we highly recommend you to "
+"avoid using spaces or special characters in Hidden Input name. You can write "
+"the custom Javascript code using the editor on Form Options > Javascript "
+"page."
+msgstr ""
+"Možnosť názvu tohto poľa je povinná. Poznámka: Dôrazne odporúčame, aby ste "
+"sa v názve skrytého vstupu vyhli používaniu medzier alebo špeciálnych "
+"znakov. Vlastný kód Javascriptu môžete napísať pomocou editora na stránke "
+"Možnosti formulára > Javascriptu."
+
+#: form-maker.php:735
+msgid ""
+"In case you wish to run custom Javascript on your form, you can place Custom "
+"Button on your form. Its lets you call the script with its OnClick function."
+msgstr ""
+"V prípade, že chcete vo formulári spustiť vlastný Javascript, môžete do "
+"formulára umiestniť vlastné tlačidlo. To vám umožní volať skript s jeho "
+"OnClick funkcia."
+
+#: form-maker.php:735
+msgid ""
+"You can write the custom Javascript code using the editor on Form Options > "
+"Javascript page."
+msgstr ""
+"Vlastný kód Javascriptu môžete napísať pomocou editora na stránke Možnosti "
+"formulára > Javascriptu."
+
+#: form-maker.php:736
+msgid ""
+"Password input can be used to allow users provide secret text, such as "
+"passwords. All symbols written in this field are replaced with dots."
+msgstr ""
+"Zadanie hesla sa môže použiť na to, aby používatelia mohli poskytovať tajný "
+"text, napríklad heslá. Všetky symboly napísané v tomto poli sa nahradia "
+"bodkami."
+
+#: form-maker.php:736
+msgid ""
+"You can activate Password Confirmation option to ask users to repeat the "
+"password."
+msgstr ""
+"Môžete aktivovať možnosť potvrdenie hesla požiadať používateľov o opakovanie "
+"hesla."
+
+#: form-maker.php:737
+msgid ""
+"Phone-Area Code is a Phone type field, which allows users to write Area Code "
+"and Phone Number into separate inputs."
+msgstr ""
+"Telefónne číslo je pole typu Telefón, ktoré umožňuje používateľom písať "
+"utočte utočte a telefónne číslo do samostatných vstupov."
+
+#: form-maker.php:738
+msgid ""
+"Arithmetic Captcha is quite similar to Simple Captcha. However, instead of "
+"showing random symbols, it displays arithmetic operations."
+msgstr ""
+"Aritmetická Captcha je dosť podobná jednoduchej captche. Namiesto zobrazenia "
+"náhodných symbolov sa však zobrazujú aritmetické operácie."
+
+#: form-maker.php:738
+msgid ""
+"You can set the operations using Operations option. The field can use "
+"addition (+), subtraction (-), multiplication (*) and division (/)."
+msgstr ""
+"Operácie môžete nastaviť pomocou možnosti Operácie. Pole môže používať "
+"sčítanie (+), odčítanie (-), násobenie (*) a delenie (/)."
+
+#: form-maker.php:738
+msgid "Make sure to separate the operations with commas."
+msgstr "Operácie oddeľte čiarkami."
+
+#: form-maker.php:739
+msgid ""
+"Users can set a payment amount of their choice with Price field. Assigns "
+"minimum and maximum limits on its value using Range option."
+msgstr ""
+"Používatelia môžu nastaviť čiastku platby podľa vlastného výberu pomocou "
+"poľa Cena. Priradí minimálne a maximálne limity pre svoju hodnotu pomocou "
+"možnosti Rozsah."
+
+#: form-maker.php:739
+msgid ""
+"Additionally, you can activate Readonly attribute. This way, users will not "
+"be able to edit the value of Price."
+msgstr ""
+"Okrem toho môžete aktivovať Atribút Readonly. Používatelia tak nebudú môcť "
+"upravovať hodnotu Ceny."
+
+#: form-maker.php:739 form-maker.php:740 form-maker.php:741 form-maker.php:742
+msgid ""
+"Note: Make sure to configure Form Options > Payment Options of your form."
+msgstr ""
+"Poznámka: Uistite sa, že nakonfigurujte možnosti formulára > možnosti platby "
+"formulára."
+
+#: form-maker.php:740
+msgid ""
+"Payment Select field lets you create lists of products, one of which the "
+"submitter can choose to buy through your form. Add or edit list items using "
+"Options setting of the fields."
+msgstr ""
+"Pole Výber platby umožňuje vytvárať zoznamy produktov, z ktorých jeden si "
+"odosielateľ môže vybrať, či si ich kúpi prostredníctvom formulára. Pridajte "
+"alebo upravte položky zoznamu pomocou nastavenia možností polí."
+
+#: form-maker.php:740 form-maker.php:741 form-maker.php:742
+msgid ""
+"Enable Quantity property from Advanced Options, in case you would like the "
+"users to mention the quantity of items they purchase."
+msgstr ""
+"Povoľte vlastnosť Quantity z rozšírených možností v prípade, že chcete, aby "
+"používatelia uviedli množstvo tovaru, ktorý kupujú."
+
+#: form-maker.php:740 form-maker.php:741 form-maker.php:742
+msgid ""
+"Also, you can configure custom or built-in Product Properties for your "
+"products, such as Color, T-Shirt Size or Print Size."
+msgstr ""
+"Môžete tiež nakonfigurovať vlastné alebo vstavané vlastnosti produktu pre "
+"svoje produkty, ako napríklad Farba, Veľkosť trička alebo Veľkosť tlače."
+
+#: form-maker.php:741
+msgid ""
+"Payment Single Choice field lets you create lists of products, one of which "
+"the submitter can choose to buy through your form. Add or edit list items "
+"using Options setting of the fields."
+msgstr ""
+"Pole Payment Single Choice vám umožňuje vytvárať zoznamy produktov, z "
+"ktorých jeden si odosielateľ môže vybrať, či si ich kúpi prostredníctvom "
+"formulára. Pridajte alebo upravte položky zoznamu pomocou nastavenia "
+"možností polí."
+
+#: form-maker.php:742
+msgid ""
+"Payment Multiple Choice field lets you create lists of products, which the "
+"submitter can choose to buy through your form. Add or edit list items using "
+"Options setting of the fields."
+msgstr ""
+"Pole Payment Multiple Choice umožňuje vytvárať zoznamy produktov, ktoré si "
+"odosielateľ môže vybrať nakúpiť prostredníctvom formulára. Pridajte alebo "
+"upravte položky zoznamu pomocou nastavenia možností polí."
+
+#: form-maker.php:743
+msgid ""
+"Shipping allows you to configure shipping types, set price for each of them "
+"and display them on your form as radio buttons."
+msgstr ""
+"Doprava vám umožňuje konfigurovať typy zásielok, nastaviť cenu pre každý z "
+"nich a zobraziť ich vo formulári ako prepínače."
+
+#: form-maker.php:744
+msgid ""
+"Please Total field to your payment form to sum up the values of Payment "
+"fields. "
+msgstr ""
+"Ak chcete sčísťť hodnoty polí Platba, do platobného formulára zadajte pole "
+"Celkom. "
+
+#: form-maker.php:745
+msgid ""
+"This field adds the credit card details inputs (card number, expiration "
+"date, etc.) and allows you to accept direct payments made by credit cards."
+msgstr ""
+"Do tohto poľa sa pripočítajú údaje o kreditnej karte (číslo karty, dátum "
+"uplynutia platnosti atď.) a umožní vám prijímať priame platby uskutočnené "
+"kreditnými kartami."
+
+#: form-maker.php:746
+msgid "Your upload_max_filesize directive in php.ini is "
+msgstr "Vaša upload_max_filesize smernica v php.ini je "
+
+#: form-maker.php:805
+msgid "You must select a form"
+msgstr "Musíte vybrať formulár"
+
+#: form-maker.php:945
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Ľutujeme, prístup na túto stránku nie je povolený."
+
+#: form-maker.php:1148
+msgid "Can not upload this type of file"
+msgstr "Je nám ľúto, ale nemáte možnosť nahrať tento typ súboru."
+
+#: form-maker.php:1149
+msgid "Field is required"
+msgstr "Povinné pole."
+
+#: form-maker.php:1150
+msgid "The "
+msgstr "Komisia "
+
+#: form-maker.php:1151
+msgid " value must be between "
+msgstr "hodnota musí byť medzi "
+
+#: form-maker.php:1152
+msgid "Value must be between "
+msgstr "hodnota musí byť medzi "
+
+#: form-maker.php:1153
+msgid "Are you sure you want to clear saved data?"
+msgstr "Naozaj chcete vymazať uložené údaje?"
+
+#: form-maker.php:1154
+msgid "Your score should be less than"
+msgstr "Vaše skóre by mala byť menšia ako "
+
+#: form-maker.php:1155
+msgid "This is not a valid time value."
+msgstr "Toto nie je platná e-mailová adresa."
+
+#: form-maker.php:1156
+msgid "This is not a valid number value."
+msgstr "Toto nie je platná e-mailová adresa."
+
+#: form-maker.php:1157
+msgid "This is not a valid date value."
+msgstr "Toto nie je platná e-mailová adresa."
+
+#: form-maker.php:1158
+#, php-format
+msgid "The year must be between %s and %s"
+msgstr "hodnota musí byť medzi %s a %s"
+
+#: form-maker.php:1277
+msgid ""
+"Oops! Seems like you installed the update over a quite old version of Form "
+"Maker. Unfortunately, this version is deprecated.<br />Please contact 10Web "
+"support team at support@10web.io. We will take care of this issue as soon as "
+"possible."
+msgstr ""
+"Jejda! Zdá sa, že ste nainštalovali aktualizáciu cez pomerne starú verziu "
+"programu Form Maker. Bohužiaľ, táto verzia je zastaraná.<br />Prosím, "
+"kontaktujte tím podpory 10Web na support@10web.io. O túto otázku sa "
+"postaráme čo najskôr."
+
+#: form-maker.php:1393
+msgid ""
+"WordPress Contact Form Maker is a simple contact form builder, which allows "
+"the user with almost no knowledge of programming to create and edit "
+"different type of contact forms."
+msgstr ""
+"WordPress Contact Form Maker je jednoduchý tvorca kontaktných formulárov, "
+"ktorý umožňuje užívateľovi s takmer žiadnymi znalosťami programovania "
+"vytvárať a upravovať rôzne typy kontaktných formulárov."
+
+#: form-maker.php:1393
+msgid ""
+"Form Maker plugin is a modern and advanced tool for easy and fast creating "
+"of a WordPress Form. The backend interface is intuitive and user friendly "
+"which allows users far from scripting and programming to create WordPress "
+"Forms."
+msgstr ""
+"Doplnok Form Maker je moderný a pokročilý nástroj pre jednoduché a rýchle "
+"vytváranie formulára WordPress. Backendové rozhranie je intuitívne a "
+"užívateľsky prívetivé, čo umožňuje používateľom ďaleko od skriptovania a "
+"programovania vytvárať Formuláre WordPress."
+
+#: form-maker.php:1396
+msgid "Easy to Use"
+msgstr "Jednoduché použitie"
+
+#: form-maker.php:1397
+msgid ""
+"This responsive form maker plugin is one of the most easy-to-use form "
+"builder solutions available on the market. Simple, yet powerful plugin "
+"allows you to quickly and easily build any complex forms."
+msgstr ""
+"Tento responzívny doplnok na tvorbu formulárov je jedným z najuše "
+"najúčinnejších riešení na tvorbu formulárov dostupných na trhu. Jednoduchý, "
+"ale výkonný plugin vám umožňuje rýchlo a jednoducho vytvárať akékoľvek "
+"zložité formy."
+
+#: form-maker.php:1400
+msgid "Customizable Fields"
+msgstr "Prispôsobiteľné polia"
+
+#: form-maker.php:1401
+msgid ""
+"All the fields of Form Maker plugin are highly customizable, which allows "
+"you to change almost every detail in the form and make it look exactly like "
+"you want it to be."
+msgstr ""
+"Všetky polia doplnku Form Maker sú vysoko prispôsobiteľné, čo vám umožňuje "
+"zmeniť takmer každý detail vo formulári a urobiť ho tak, aby vyzeral presne "
+"tak, ako chcete."
+
+#: form-maker.php:1405
+msgid ""
+"You can view the submissions for each form you have. The plugin allows to "
+"view submissions statistics, filter submission data and export in csv or xml "
+"formats."
+msgstr ""
+"Môžete zobraziť odoslané položky pre každý formulár, ktorý máte. Plugin "
+"umožňuje zobraziť štatistiky odoslaných údajov, filtrovať údaje o odoslaní a "
+"exportovať vo formáte csv alebo xml."
+
+#: form-maker.php:1408
+msgid "Multi-Page Forms"
+msgstr "Viacstranové formuláre"
+
+#: form-maker.php:1409
+msgid ""
+"With the form builder plugin you can create muilti-page forms. Simply use "
+"the page break field to separate the pages in your forms."
+msgstr ""
+"Pomocou doplnku na tvorbu formulárov môžete vytvárať formuláre muilti-page. "
+"Jednoducho použite pole zlomu strany na oddelenie strán vo formulároch."
+
+#: form-maker.php:1413
+msgid ""
+"The WordPress Form Maker plugin comes with a wide range of customizable "
+"themes. You can choose from a list of existing themes or simply create the "
+"one that better fits your brand and website."
+msgstr ""
+"Doplnok WordPress Form Maker je dodávaný so širokou škálou prispôsobiteľných "
+"tém. Môžete si vybrať zo zoznamu existujúcich tém alebo jednoducho vytvoriť "
+"ten, ktorý lepšie vyhovuje vašej značke a webovej stránke."
+
+#: form-maker.php:1418
+msgid "Installing"
+msgstr "Inštalujem"
+
+#: form-maker.php:1423
+msgid "Creating a new Form"
+msgstr "Vytvorenie nového formulára"
+
+#: form-maker.php:1428
+msgid "Configuring Form Options"
+msgstr "Konfigurácia možností formulára"
+
+#: form-maker.php:1433
+msgid "Description of The Form Fields"
+msgstr "Popis polí formulára"
+
+#: form-maker.php:1437
+msgid "Selecting Options from Database"
+msgstr "Výber možností z databázy"
+
+#: form-maker.php:1443
+msgid "Publishing the Created Form"
+msgstr "Publikuje sa vytvorený formulár"
+
+#: form-maker.php:1448
+msgid "Blocking IPs"
+msgstr "Blokovanie IPs"
+
+#: form-maker.php:1453
+msgid "Managing Submissions"
+msgstr "Spravovanie objednávok"
+
+#: form-maker.php:1458
+msgid "Publishing Submissions"
+msgstr "Publikovanie odoslaných príspevkov"
+
+#: form-maker.php:1495
+msgid "Insert Form"
+msgstr "Vložiť formulár"
+
+#: form-maker.php:1497
+msgid "Add Form"
+msgstr "Pridať formuár"
+
+#: form-maker.php:1502
+msgid "Insert submissions"
+msgstr "Vloženie zadani=i"
+
+#: form-maker.php:1504
+msgid "Add Submissions"
+msgstr "Pridanie zadaní"
+
+#: form-maker.php:1560
+#, php-format
+msgid ""
+"The current version of %s extension is not compatible with Form Maker. Some "
+"functions may not work correctly. Please update the extension to fully use "
+"its features."
+msgstr ""
+"Aktuálna verzia rozšírenia %s nie je kompatibilná s programom Form Maker. "
+"Niektoré funkcie nemusia pracovať správne. Ak chcete plne využívať jeho "
+"funkcie, aktualizujte rozšírenie."
+
+#: form-maker.php:1561
+#, php-format
+msgid ""
+"The current version of %s extensions are not compatible with Form Maker. "
+"Some functions may not work correctly. Please update the extensions to fully "
+"use its features."
+msgstr ""
+"Aktuálna verzia rozšírenia %s nie je kompatibilná s programom Form Maker. "
+"Niektoré funkcie nemusia pracovať správne. Ak chcete plne využívať jeho "
+"funkcie, aktualizujte rozšírenia."
+
+#: form-maker.php:1642
+msgid "Rate"
+msgstr "Hodnotenie"
+
+#: framework/WDW_FM_Library.php:599
+msgid "Click to sort by this item"
+msgstr "Kliknite sem, ak chcete zoraďovať podľa tejto položky"
+
+#: framework/WDW_FM_Library.php:2754
+msgid ""
+"You cannot select former dates. Choose a date starting from the current one."
+msgstr "Nemôžete vybrať bývalej termín. Vyberte dátum počnúc aktuálne."
+
+#: framework/WDW_FM_Library.php:3332 frontend/models/form_maker.php:2281
+#, php-format
+msgid "%s field is required."
+msgstr "%s toto pole je nutné vyplniť."
+
+#: framework/WDW_FM_Library.php:3362
+#, php-format
+msgid "The %s value must be between %f - %f"
+msgstr "hodnota %s musí byť medzi %f - %f"
+
+#: framework/WDW_FM_Library.php:3499 framework/WDW_FM_Library.php:3579
+#: framework/WDW_FM_Library.php:3658 frontend/views/form_maker.php:2423
+#: frontend/views/form_maker.php:2621 frontend/views/form_maker.php:2827
+msgid "Quantity"
+msgstr "Množstvo"
+
+#: framework/WDW_FM_Library.php:4009
+#, php-format
+msgid "Your score should be less than %f"
+msgstr "Vaše skóre by malo byť menšia ako %f"
+
+#: framework/WDW_FM_Library.php:4587
+#, php-format
+msgid "No %s found."
+msgstr "%s sa nenašiel."
+
+#: framework/WDW_FM_Library.php:4652
+msgid "Afghanistan"
+msgstr "Afganistán"
+
+#: framework/WDW_FM_Library.php:4653
+msgid "Albania"
+msgstr "Albánsko"
+
+#: framework/WDW_FM_Library.php:4654
+msgid "Algeria"
+msgstr "Alžírsko"
+
+#: framework/WDW_FM_Library.php:4655
+msgid "Andorra"
+msgstr "Andora"
+
+#: framework/WDW_FM_Library.php:4656
+msgid "Angola"
+msgstr "Angola"
+
+#: framework/WDW_FM_Library.php:4657
+msgid "Antigua and Barbuda"
+msgstr "Antiqua a Babuda"
+
+#: framework/WDW_FM_Library.php:4658
+msgid "Argentina"
+msgstr "Argentína"
+
+#: framework/WDW_FM_Library.php:4660
+msgid "Australia"
+msgstr "Austrália"
+
+#: framework/WDW_FM_Library.php:4661
+msgid "Austria"
+msgstr "Rakúsko"
+
+#: framework/WDW_FM_Library.php:4662
+msgid "Azerbaijan"
+msgstr "Azerbajdžan"
+
+#: framework/WDW_FM_Library.php:4663
+msgid "Bahamas"
+msgstr "Bahamy"
+
+#: framework/WDW_FM_Library.php:4664
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: framework/WDW_FM_Library.php:4665
+msgid "Bangladesh"
+msgstr "Bangladéš"
+
+#: framework/WDW_FM_Library.php:4666
+msgid "Barbados"
+msgstr "Barbados"
+
+#: framework/WDW_FM_Library.php:4667
+msgid "Belarus"
+msgstr "Bielorusko"
+
+#: framework/WDW_FM_Library.php:4668
+msgid "Belgium"
+msgstr "Belgicko"
+
+#: framework/WDW_FM_Library.php:4669
+msgid "Belize"
+msgstr "Belize"
+
+#: framework/WDW_FM_Library.php:4670
+msgid "Benin"
+msgstr "Benin"
+
+#: framework/WDW_FM_Library.php:4671
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: framework/WDW_FM_Library.php:4672
+msgid "Bolivia"
+msgstr "Bolívia"
+
+#: framework/WDW_FM_Library.php:4673
+msgid "Bosnia and Herzegovina"
+msgstr "Bosna a Hercegovina"
+
+#: framework/WDW_FM_Library.php:4674
+msgid "Botswana"
+msgstr "Botswana"
+
+#: framework/WDW_FM_Library.php:4675
+msgid "Brazil"
+msgstr "Brazília"
+
+#: framework/WDW_FM_Library.php:4676
+msgid "Brunei"
+msgstr "Brunej"
+
+#: framework/WDW_FM_Library.php:4677
+msgid "Bulgaria"
+msgstr "Bulharsko"
+
+#: framework/WDW_FM_Library.php:4678
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: framework/WDW_FM_Library.php:4679
+msgid "Burundi"
+msgstr "Burundi"
+
+#: framework/WDW_FM_Library.php:4680
+msgid "Cambodia"
+msgstr "Kambodža"
+
+#: framework/WDW_FM_Library.php:4681
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: framework/WDW_FM_Library.php:4682
+msgid "Canada"
+msgstr "Kanada"
+
+#: framework/WDW_FM_Library.php:4683
+msgid "Cape Verde"
+msgstr "Kapverdy"
+
+#: framework/WDW_FM_Library.php:4684
+msgid "Central African Republic"
+msgstr "Stredoafrická republika"
+
+#: framework/WDW_FM_Library.php:4685
+msgid "Chad"
+msgstr "Čad"
+
+#: framework/WDW_FM_Library.php:4686
+msgid "Chile"
+msgstr "Čile"
+
+#: framework/WDW_FM_Library.php:4687
+msgid "China"
+msgstr "Čína"
+
+#: framework/WDW_FM_Library.php:4688
+msgid "Colombia"
+msgstr "Kolumbia"
+
+#: framework/WDW_FM_Library.php:4689
+msgid "Comoros"
+msgstr "Komory"
+
+#: framework/WDW_FM_Library.php:4690
+msgid "Congo (Brazzaville)"
+msgstr "Kongo (Brazaville)"
+
+#: framework/WDW_FM_Library.php:4691
+msgid "Congo"
+msgstr "Kongo"
+
+#: framework/WDW_FM_Library.php:4692
+msgid "Costa Rica"
+msgstr "Kosta Rika"
+
+#: framework/WDW_FM_Library.php:4693
+msgid "Cote d'Ivoire"
+msgstr "Pobrežie Slonoviny"
+
+#: framework/WDW_FM_Library.php:4694
+msgid "Croatia"
+msgstr "Chorvátsko"
+
+#: framework/WDW_FM_Library.php:4695
+msgid "Cuba"
+msgstr "Kuba"
+
+#: framework/WDW_FM_Library.php:4696
+msgid "Curacao"
+msgstr "Curacao"
+
+#: framework/WDW_FM_Library.php:4697
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: framework/WDW_FM_Library.php:4698
+msgid "Czech Republic"
+msgstr "Česká republika"
+
+#: framework/WDW_FM_Library.php:4699
+msgid "Denmark"
+msgstr "Dánsko"
+
+#: framework/WDW_FM_Library.php:4700
+msgid "Djibouti"
+msgstr "Džibutsko"
+
+#: framework/WDW_FM_Library.php:4701
+msgid "Dominica"
+msgstr "Dominika"
+
+#: framework/WDW_FM_Library.php:4702
+msgid "Dominican Republic"
+msgstr "Dominikánska republika"
+
+#: framework/WDW_FM_Library.php:4703
+msgid "East Timor (Timor Timur)"
+msgstr "Východný Timor (Timor Timur)"
+
+#: framework/WDW_FM_Library.php:4704
+msgid "Ecuador"
+msgstr "Ekvádor"
+
+#: framework/WDW_FM_Library.php:4705
+msgid "Egypt"
+msgstr "Egypt"
+
+#: framework/WDW_FM_Library.php:4706
+msgid "El Salvador"
+msgstr "Salvádor"
+
+#: framework/WDW_FM_Library.php:4707
+msgid "Equatorial Guinea"
+msgstr "Rovníková Guinea"
+
+#: framework/WDW_FM_Library.php:4708
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: framework/WDW_FM_Library.php:4709
+msgid "Estonia"
+msgstr "Estónsko"
+
+#: framework/WDW_FM_Library.php:4710
+msgid "Ethiopia"
+msgstr "Etiópia"
+
+#: framework/WDW_FM_Library.php:4711
+msgid "Fiji"
+msgstr "Fidži"
+
+#: framework/WDW_FM_Library.php:4712
+msgid "Finland"
+msgstr "Fínsko"
+
+#: framework/WDW_FM_Library.php:4713
+msgid "France"
+msgstr "Francúzsko"
+
+#: framework/WDW_FM_Library.php:4714
+msgid "Gabon"
+msgstr "Gabon"
+
+#: framework/WDW_FM_Library.php:4715
+msgid "Gambia, The"
+msgstr "Gambia, The"
+
+#: framework/WDW_FM_Library.php:4716 framework/WDW_FM_Library.php:4875
+msgid "Georgia"
+msgstr "Gruzínsko"
+
+#: framework/WDW_FM_Library.php:4717
+msgid "Germany"
+msgstr "Nemecko"
+
+#: framework/WDW_FM_Library.php:4718
+msgid "Ghana"
+msgstr "Ghana"
+
+#: framework/WDW_FM_Library.php:4719
+msgid "Greece"
+msgstr "Grécko"
+
+#: framework/WDW_FM_Library.php:4720
+msgid "Grenada"
+msgstr "Grenada"
+
+#: framework/WDW_FM_Library.php:4721
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: framework/WDW_FM_Library.php:4722
+msgid "Guinea"
+msgstr "Guinea"
+
+#: framework/WDW_FM_Library.php:4723
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: framework/WDW_FM_Library.php:4724
+msgid "Guyana"
+msgstr "Guyana"
+
+#: framework/WDW_FM_Library.php:4725
+msgid "Haiti"
+msgstr "Haiti"
+
+#: framework/WDW_FM_Library.php:4726
+msgid "Honduras"
+msgstr "Honduras"
+
+#: framework/WDW_FM_Library.php:4727
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: framework/WDW_FM_Library.php:4728
+msgid "Hungary"
+msgstr "Maďarsko"
+
+#: framework/WDW_FM_Library.php:4729
+msgid "Iceland"
+msgstr "Island"
+
+#: framework/WDW_FM_Library.php:4730
+msgid "India"
+msgstr "India"
+
+#: framework/WDW_FM_Library.php:4731
+msgid "Indonesia"
+msgstr "Indonézia"
+
+#: framework/WDW_FM_Library.php:4732
+msgid "Iran"
+msgstr "Irán"
+
+#: framework/WDW_FM_Library.php:4733
+msgid "Iraq"
+msgstr "Irak"
+
+#: framework/WDW_FM_Library.php:4734
+msgid "Ireland"
+msgstr "Írsko"
+
+#: framework/WDW_FM_Library.php:4735
+msgid "Israel"
+msgstr "Izrael"
+
+#: framework/WDW_FM_Library.php:4736
+msgid "Italy"
+msgstr "Taliansko"
+
+#: framework/WDW_FM_Library.php:4737
+msgid "Jamaica"
+msgstr "Jamaika"
+
+#: framework/WDW_FM_Library.php:4738
+msgid "Japan"
+msgstr "Japonsko"
+
+#: framework/WDW_FM_Library.php:4739
+msgid "Jordan"
+msgstr "Jordánsko"
+
+#: framework/WDW_FM_Library.php:4740
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+#: framework/WDW_FM_Library.php:4741
+msgid "Kenya"
+msgstr "Keňa"
+
+#: framework/WDW_FM_Library.php:4742
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: framework/WDW_FM_Library.php:4743
+msgid "Korea, North"
+msgstr "Kórea, Severná Kórea"
+
+#: framework/WDW_FM_Library.php:4744
+msgid "Korea, South"
+msgstr "Kórea, Južná Kórea"
+
+#: framework/WDW_FM_Library.php:4745
+msgid "Kuwait"
+msgstr "Kuvajt"
+
+#: framework/WDW_FM_Library.php:4746
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: framework/WDW_FM_Library.php:4747
+msgid "Laos"
+msgstr "Laos"
+
+#: framework/WDW_FM_Library.php:4748
+msgid "Latvia"
+msgstr "Lotyšsko"
+
+#: framework/WDW_FM_Library.php:4749
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: framework/WDW_FM_Library.php:4750
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: framework/WDW_FM_Library.php:4751
+msgid "Liberia"
+msgstr "Libéria"
+
+#: framework/WDW_FM_Library.php:4752
+msgid "Libya"
+msgstr "Líbia"
+
+#: framework/WDW_FM_Library.php:4753
+msgid "Liechtenstein"
+msgstr "Lichtenštajnsko"
+
+#: framework/WDW_FM_Library.php:4754
+msgid "Lithuania"
+msgstr "Litva"
+
+#: framework/WDW_FM_Library.php:4755
+msgid "Luxembourg"
+msgstr "Luxembursko"
+
+#: framework/WDW_FM_Library.php:4756
+msgid "North Macedonia"
+msgstr "Severné Macedónsko"
+
+#: framework/WDW_FM_Library.php:4757
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: framework/WDW_FM_Library.php:4758
+msgid "Malawi"
+msgstr "Malawi"
+
+#: framework/WDW_FM_Library.php:4759
+msgid "Malaysia"
+msgstr "Malajzia"
+
+#: framework/WDW_FM_Library.php:4760
+msgid "Maldives"
+msgstr "Meledivy"
+
+#: framework/WDW_FM_Library.php:4761
+msgid "Mali"
+msgstr "Mali"
+
+#: framework/WDW_FM_Library.php:4762
+msgid "Malta"
+msgstr "Malta"
+
+#: framework/WDW_FM_Library.php:4763
+msgid "Marshall Islands"
+msgstr "Marshall ostrovy"
+
+#: framework/WDW_FM_Library.php:4764
+msgid "Mauritania"
+msgstr "Mauretánia"
+
+#: framework/WDW_FM_Library.php:4765
+msgid "Mauritius"
+msgstr "Maurícius"
+
+#: framework/WDW_FM_Library.php:4766
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: framework/WDW_FM_Library.php:4767
+msgid "Micronesia"
+msgstr "Mikronézia"
+
+#: framework/WDW_FM_Library.php:4768
+msgid "Moldova"
+msgstr "Moldavsko"
+
+#: framework/WDW_FM_Library.php:4769
+msgid "Monaco"
+msgstr "Monako"
+
+#: framework/WDW_FM_Library.php:4770
+msgid "Mongolia"
+msgstr "Mongolsko"
+
+#: framework/WDW_FM_Library.php:4771
+msgid "Morocco"
+msgstr "Maroko"
+
+#: framework/WDW_FM_Library.php:4772
+msgid "Mozambique"
+msgstr "Mozambik"
+
+#: framework/WDW_FM_Library.php:4773
+msgid "Myanmar"
+msgstr "Myanmarsko"
+
+#: framework/WDW_FM_Library.php:4774
+msgid "Namibia"
+msgstr "Namíbia"
+
+#: framework/WDW_FM_Library.php:4775
+msgid "Nauru"
+msgstr "Nauru"
+
+#: framework/WDW_FM_Library.php:4776
+msgid "Nepal"
+msgstr "Nepál"
+
+#: framework/WDW_FM_Library.php:4777
+msgid "Netherlands"
+msgstr "Holandsko"
+
+#: framework/WDW_FM_Library.php:4778
+msgid "New Zealand"
+msgstr "Nový Zéland"
+
+#: framework/WDW_FM_Library.php:4779
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+#: framework/WDW_FM_Library.php:4780
+msgid "Niger"
+msgstr "Nigéria"
+
+#: framework/WDW_FM_Library.php:4781
+msgid "Nigeria"
+msgstr "Nigéria"
+
+#: framework/WDW_FM_Library.php:4782
+msgid "Norway"
+msgstr "Nórsko"
+
+#: framework/WDW_FM_Library.php:4783
+msgid "Oman"
+msgstr "Omán"
+
+#: framework/WDW_FM_Library.php:4784
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: framework/WDW_FM_Library.php:4785
+msgid "Palau"
+msgstr "Palau"
+
+#: framework/WDW_FM_Library.php:4786
+msgid "Palestine"
+msgstr "Palestíne"
+
+#: framework/WDW_FM_Library.php:4787
+msgid "Panama"
+msgstr "Panama"
+
+#: framework/WDW_FM_Library.php:4788
+msgid "Papua New Guinea"
+msgstr "Papua Nový Guinea"
+
+#: framework/WDW_FM_Library.php:4789
+msgid "Paraguay"
+msgstr "Paraguaj"
+
+#: framework/WDW_FM_Library.php:4790
+#, fuzzy
+msgid "Peru"
+msgstr "Peru"
+
+#: framework/WDW_FM_Library.php:4791
+msgid "Philippines"
+msgstr "Filipíny"
+
+#: framework/WDW_FM_Library.php:4792
+msgid "Poland"
+msgstr "Poľsko"
+
+#: framework/WDW_FM_Library.php:4793
+msgid "Portugal"
+msgstr "Portugalsko"
+
+#: framework/WDW_FM_Library.php:4794
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: framework/WDW_FM_Library.php:4795
+msgid "Qatar"
+msgstr "Katar"
+
+#: framework/WDW_FM_Library.php:4796
+msgid "Romania"
+msgstr "Rumunsko"
+
+#: framework/WDW_FM_Library.php:4797
+msgid "Russia"
+msgstr "Rusko"
+
+#: framework/WDW_FM_Library.php:4798
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: framework/WDW_FM_Library.php:4799
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+#: framework/WDW_FM_Library.php:4800
+msgid "Saint Lucia"
+msgstr "Svätá Lucia"
+
+#: framework/WDW_FM_Library.php:4801
+msgid "Saint Vincent"
+msgstr "Svätý Vincent"
+
+#: framework/WDW_FM_Library.php:4802
+msgid "Samoa"
+msgstr "Samoa"
+
+#: framework/WDW_FM_Library.php:4803
+msgid "San Marino"
+msgstr "San Marino"
+
+#: framework/WDW_FM_Library.php:4804
+msgid "Sao Tome and Principe"
+msgstr "São Tomé a Príncipe"
+
+#: framework/WDW_FM_Library.php:4805
+msgid "Saudi Arabia"
+msgstr "Saudská Arábia"
+
+#: framework/WDW_FM_Library.php:4806
+msgid "Senegal"
+msgstr "Senegal"
+
+#: framework/WDW_FM_Library.php:4807
+msgid "Serbia"
+msgstr "Srbsko"
+
+#: framework/WDW_FM_Library.php:4808
+msgid "Montenegro"
+msgstr "Čierna Hora"
+
+#: framework/WDW_FM_Library.php:4809
+msgid "Seychelles"
+msgstr "Seyšeli"
+
+#: framework/WDW_FM_Library.php:4810
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: framework/WDW_FM_Library.php:4811
+msgid "Singapore"
+msgstr "Singapur"
+
+#: framework/WDW_FM_Library.php:4812
+msgid "Slovakia"
+msgstr "Slovensko"
+
+#: framework/WDW_FM_Library.php:4813
+msgid "Slovenia"
+msgstr "Slovinsko"
+
+#: framework/WDW_FM_Library.php:4814
+msgid "Solomon Islands"
+msgstr "Solomonské ostrovy"
+
+#: framework/WDW_FM_Library.php:4815
+msgid "Somalia"
+msgstr "Somálsko"
+
+#: framework/WDW_FM_Library.php:4816
+msgid "South Africa"
+msgstr "Južná Afrika"
+
+#: framework/WDW_FM_Library.php:4817
+msgid "South Sudan"
+msgstr "Južný Sudán"
+
+#: framework/WDW_FM_Library.php:4818
+msgid "Spain"
+msgstr "Španielsko"
+
+#: framework/WDW_FM_Library.php:4819
+msgid "Sri Lanka"
+msgstr "Srí Lanka"
+
+#: framework/WDW_FM_Library.php:4820
+msgid "Sudan"
+msgstr "Sudán"
+
+#: framework/WDW_FM_Library.php:4821
+msgid "Suriname"
+msgstr "Surinam"
+
+#: framework/WDW_FM_Library.php:4822
+msgid "Eswatini"
+msgstr "Eswatini (Eswatini)"
+
+#: framework/WDW_FM_Library.php:4823
+msgid "Sweden"
+msgstr "Švédsko"
+
+#: framework/WDW_FM_Library.php:4824
+msgid "Switzerland"
+msgstr "Švajčiarsko"
+
+#: framework/WDW_FM_Library.php:4825
+msgid "Syria"
+msgstr "Sýria"
+
+#: framework/WDW_FM_Library.php:4826
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: framework/WDW_FM_Library.php:4827
+msgid "Tajikistan"
+msgstr "Tadžikistan"
+
+#: framework/WDW_FM_Library.php:4828
+msgid "Tanzania"
+msgstr "Tanzánia"
+
+#: framework/WDW_FM_Library.php:4829
+msgid "Thailand"
+msgstr "Thajsko"
+
+#: framework/WDW_FM_Library.php:4830
+msgid "Togo"
+msgstr "Togo"
+
+#: framework/WDW_FM_Library.php:4831
+msgid "Tonga"
+msgstr "Tonga"
+
+#: framework/WDW_FM_Library.php:4832
+msgid "Trinidad and Tobago"
+msgstr "Trinidad a Tobago"
+
+#: framework/WDW_FM_Library.php:4833
+msgid "Tunisia"
+msgstr "Tunisko"
+
+#: framework/WDW_FM_Library.php:4834
+msgid "Turkey"
+msgstr "Turecko"
+
+#: framework/WDW_FM_Library.php:4835
+msgid "Turkmenistan"
+msgstr "Turkenistan"
+
+#: framework/WDW_FM_Library.php:4836
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: framework/WDW_FM_Library.php:4837
+msgid "Uganda"
+msgstr "Uganda"
+
+#: framework/WDW_FM_Library.php:4838
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: framework/WDW_FM_Library.php:4839
+msgid "United Arab Emirates"
+msgstr "Spojené Arabské Emiráty"
+
+#: framework/WDW_FM_Library.php:4840
+msgid "United Kingdom"
+msgstr "Spojené Kráľovstvo (UK)"
+
+#: framework/WDW_FM_Library.php:4841
+msgid "United States"
+msgstr "Spojené štáty"
+
+#: framework/WDW_FM_Library.php:4842
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: framework/WDW_FM_Library.php:4843
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: framework/WDW_FM_Library.php:4844
+msgid "Vanuatu"
+msgstr "Tuvalu"
+
+#: framework/WDW_FM_Library.php:4845
+msgid "Vatican City"
+msgstr "Vatikán"
+
+#: framework/WDW_FM_Library.php:4846
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: framework/WDW_FM_Library.php:4847
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: framework/WDW_FM_Library.php:4848
+msgid "Wales"
+msgstr "Wales"
+
+#: framework/WDW_FM_Library.php:4849
+msgid "Yemen"
+msgstr "Yemen"
+
+#: framework/WDW_FM_Library.php:4850
+msgid "Zambia"
+msgstr "Zambia"
+
+#: framework/WDW_FM_Library.php:4851
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: framework/WDW_FM_Library.php:4865
+msgid "Alabama"
+msgstr "Alabama"
+
+#: framework/WDW_FM_Library.php:4866
+msgid "Alaska"
+msgstr "Aljaška"
+
+#: framework/WDW_FM_Library.php:4867
+msgid "Arizona"
+msgstr "Arizona"
+
+#: framework/WDW_FM_Library.php:4868
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: framework/WDW_FM_Library.php:4869
+msgid "California"
+msgstr "Kalifornia"
+
+#: framework/WDW_FM_Library.php:4870
+msgid "Colorado"
+msgstr "Colorado"
+
+#: framework/WDW_FM_Library.php:4871
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#: framework/WDW_FM_Library.php:4872
+msgid "Delaware"
+msgstr "Delaware"
+
+#: framework/WDW_FM_Library.php:4873
+msgid "District Of Columbia"
+msgstr "District of Columbia"
+
+#: framework/WDW_FM_Library.php:4874
+msgid "Florida"
+msgstr "Florida"
+
+#: framework/WDW_FM_Library.php:4876
+msgid "Hawaii"
+msgstr "Havaj"
+
+#: framework/WDW_FM_Library.php:4877
+msgid "Idaho"
+msgstr "Idaho"
+
+#: framework/WDW_FM_Library.php:4878
+msgid "Illinois"
+msgstr "Illinois"
+
+#: framework/WDW_FM_Library.php:4879
+msgid "Indiana"
+msgstr "Indiana"
+
+#: framework/WDW_FM_Library.php:4880
+msgid "Iowa"
+msgstr "Iowa"
+
+#: framework/WDW_FM_Library.php:4881
+msgid "Kansas"
+msgstr "Kansas"
+
+#: framework/WDW_FM_Library.php:4882
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: framework/WDW_FM_Library.php:4883
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: framework/WDW_FM_Library.php:4884
+msgid "Maine"
+msgstr "Maine"
+
+#: framework/WDW_FM_Library.php:4885
+msgid "Maryland"
+msgstr "Maryland"
+
+#: framework/WDW_FM_Library.php:4886
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#: framework/WDW_FM_Library.php:4887
+msgid "Michigan"
+msgstr "Michigan"
+
+#: framework/WDW_FM_Library.php:4888
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: framework/WDW_FM_Library.php:4889
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: framework/WDW_FM_Library.php:4890
+msgid "Missouri"
+msgstr "Missouri"
+
+#: framework/WDW_FM_Library.php:4891
+msgid "Montana"
+msgstr "Montana"
+
+#: framework/WDW_FM_Library.php:4892
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: framework/WDW_FM_Library.php:4893
+msgid "Nevada"
+msgstr "Nevada"
+
+#: framework/WDW_FM_Library.php:4894
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#: framework/WDW_FM_Library.php:4895
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: framework/WDW_FM_Library.php:4896
+msgid "New Mexico"
+msgstr "New Mexico"
+
+#: framework/WDW_FM_Library.php:4897
+msgid "New York"
+msgstr "New York"
+
+#: framework/WDW_FM_Library.php:4898
+msgid "North Carolina"
+msgstr "Severná Karolína"
+
+#: framework/WDW_FM_Library.php:4899
+msgid "North Dakota"
+msgstr "Severná Dakota"
+
+#: framework/WDW_FM_Library.php:4900
+msgid "Ohio"
+msgstr "Ohio"
+
+#: framework/WDW_FM_Library.php:4901
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: framework/WDW_FM_Library.php:4902
+msgid "Oregon"
+msgstr "Oregon"
+
+#: framework/WDW_FM_Library.php:4903
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: framework/WDW_FM_Library.php:4904
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: framework/WDW_FM_Library.php:4905
+msgid "South Carolina"
+msgstr "Južná Karolína"
+
+#: framework/WDW_FM_Library.php:4906
+msgid "South Dakota"
+msgstr "Južná Dakota"
+
+#: framework/WDW_FM_Library.php:4907
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: framework/WDW_FM_Library.php:4908
+msgid "Texas"
+msgstr "Texas"
+
+#: framework/WDW_FM_Library.php:4909
+msgid "Utah"
+msgstr "Utah"
+
+#: framework/WDW_FM_Library.php:4910
+msgid "Vermont"
+msgstr "Vermont"
+
+#: framework/WDW_FM_Library.php:4911
+msgid "Virginia"
+msgstr "Virginia"
+
+#: framework/WDW_FM_Library.php:4912
+msgid "Washington"
+msgstr "Washington"
+
+#: framework/WDW_FM_Library.php:4913
+msgid "West Virginia"
+msgstr "Západná Virgínia"
+
+#: framework/WDW_FM_Library.php:4914
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: framework/WDW_FM_Library.php:4915
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: framework/WDW_FM_Library.php:4929
+msgid "Alberta"
+msgstr "Alberta"
+
+#: framework/WDW_FM_Library.php:4930
+msgid "British Columbia"
+msgstr "Britská Kolumbia"
+
+#: framework/WDW_FM_Library.php:4931
+msgid "Manitoba"
+msgstr "Manitoba"
+
+#: framework/WDW_FM_Library.php:4932
+msgid "New Brunswick"
+msgstr "New Brunswick"
+
+#: framework/WDW_FM_Library.php:4933
+msgid "Newfoundland and Labrador"
+msgstr "Newfoundland a Labrador"
+
+#: framework/WDW_FM_Library.php:4934
+msgid "Northwest Territories"
+msgstr "Severozápadné teritóriá"
+
+#: framework/WDW_FM_Library.php:4935
+msgid "Nova Scotia"
+msgstr "Nova Scotia"
+
+#: framework/WDW_FM_Library.php:4936
+msgid "Nunavut"
+msgstr "Nunavut"
+
+#: framework/WDW_FM_Library.php:4937
+msgid "Ontario"
+msgstr "Ontario"
+
+#: framework/WDW_FM_Library.php:4938
+msgid "Prince Edward Island"
+msgstr "Prince Edward Island"
+
+#: framework/WDW_FM_Library.php:4939
+msgid "Quebec"
+msgstr "Quebec"
+
+#: framework/WDW_FM_Library.php:4940
+msgid "Saskatchewan"
+msgstr "Saskatchewan"
+
+#: framework/WDW_FM_Library.php:4941
+msgid "Yukon"
+msgstr "Yukon"
+
+#: framework/WDW_FM_Library.php:4956
+msgid "Prev"
+msgstr "Späť"
+
+#: framework/WDW_FM_Library.php:4958
+msgid "Today"
+msgstr "Dnes"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "January"
+msgstr "Január"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "February"
+msgstr "Február"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "March"
+msgstr "Marec"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "April"
+msgstr "Apríl"
+
+#: framework/WDW_FM_Library.php:4959 framework/WDW_FM_Library.php:4960
+#: frontend/views/form_maker.php:3842
+msgid "May"
+msgstr "Máj"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "June"
+msgstr "Jún"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "July"
+msgstr "Júl"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "August"
+msgstr "August"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "September"
+msgstr "September"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "October"
+msgstr "Október"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "November"
+msgstr "November"
+
+#: framework/WDW_FM_Library.php:4959 frontend/views/form_maker.php:3842
+msgid "December"
+msgstr "December"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Jan"
+msgstr "Jan"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Feb"
+msgstr "Feb"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Mar"
+msgstr "Mar"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Apr"
+msgstr "Apr"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Jun"
+msgstr "Jún"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Jul"
+msgstr "Júl"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Aug"
+msgstr "Aug"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Sep"
+msgstr "Sep"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Oct"
+msgstr "Okt"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Nov"
+msgstr "Nov"
+
+#: framework/WDW_FM_Library.php:4960
+msgid "Dec"
+msgstr "Dec"
+
+#: framework/WDW_FM_Library.php:4962
+msgid "Sun"
+msgstr "Ned"
+
+#: framework/WDW_FM_Library.php:4962
+msgid "Mon"
+msgstr "Pon"
+
+#: framework/WDW_FM_Library.php:4962
+msgid "Tue"
+msgstr "Uto"
+
+#: framework/WDW_FM_Library.php:4962
+msgid "Wed"
+msgstr "Str"
+
+#: framework/WDW_FM_Library.php:4962
+msgid "Thu"
+msgstr "Štv"
+
+#: framework/WDW_FM_Library.php:4962
+msgid "Fri"
+msgstr "Pia"
+
+#: framework/WDW_FM_Library.php:4962
+msgid "Sat"
+msgstr "Sob"
+
+#: framework/WDW_FM_Library.php:4963
+msgid "Su"
+msgstr "Ne"
+
+#: framework/WDW_FM_Library.php:4963
+msgid "Mo"
+msgstr "Po"
+
+#: framework/WDW_FM_Library.php:4963
+msgid "Tu"
+msgstr "Ut"
+
+#: framework/WDW_FM_Library.php:4963
+msgid "We"
+msgstr "St"
+
+#: framework/WDW_FM_Library.php:4963
+msgid "Th"
+msgstr "Št"
+
+#: framework/WDW_FM_Library.php:4963
+msgid "Fr"
+msgstr "Pi"
+
+#: framework/WDW_FM_Library.php:4963
+msgid "Sa"
+msgstr "So"
+
+#: framework/WDW_FM_Library.php:5448
+msgid "All fields list"
+msgstr "Zoznam všetkých polí"
+
+#: framework/WDW_FM_Library.php:5461
+msgid "Form fields"
+msgstr "Výber farby orámovania polí formulára"
+
+#: framework/WDW_FM_Library.php:5464
+msgid "Submission ID"
+msgstr "ID prihlášky"
+
+#: framework/WDW_FM_Library.php:5466
+msgid "Admin Email"
+msgstr "E-mail správcu"
+
+#: framework/WDW_FM_Library.php:5467
+msgid "User Email"
+msgstr "E-mail užívateľa"
+
+#: framework/WDW_FM_Library.php:5468
+msgid "User Name"
+msgstr "Užívateľské meno"
+
+#: framework/WDW_FM_Library.php:5469
+msgid "Page Url"
+msgstr "URL stránky"
+
+#: framework/WDW_FM_Library.php:5470
+msgid "Verification Link"
+msgstr "Platnosť overovacieho odkazu vyprší"
+
+#: framework/WDW_FM_Library.php:5567
+msgid "Submitter Name"
+msgstr "Meno odosielateľa"
+
+#: framework/WDW_FM_Library.php:5571
+msgid "Submitter Email"
+msgstr "Odoslať e-mail"
+
+#: framework/WDW_FM_Library.php:5576
+msgid "Submitter IP"
+msgstr "IP predkladateľa"
+
+#: framework/WDW_FM_Library.php:5580
+msgid "Submission Date"
+msgstr "Dátum predloženia"
+
+#: framework/WDW_FM_Library.php:5595
+msgid " Submissions"
+msgstr "Objednávky"
+
+#: framework/WDW_FM_Library.php:5617
+#, php-format
+msgid ""
+"All personal data and submissions of this user found in %s plugin were "
+"removed."
+msgstr ""
+"Všetky osobné údaje a príspevky tohto používateľa nájdené v %s boli "
+"odstránené."
+
+#: framework/WDW_FM_Library.php:5665 wd/templates/display_subscribe.php:39
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobných údajov"
+
+#: framework/WDW_FM_Library.php:5702
+msgid "Select a form"
+msgstr "Vyberte pole"
+
+#: frontend/models/form_maker.php:27
+msgid "There is no form selected or the form was deleted."
+msgstr "Nie je vybratý žiadny formulár alebo bol formulár odstránený."
+
+#: frontend/models/form_maker.php:32
+msgid "The form you are trying to view does not have Embedded display type."
+msgstr "Formulár, ktorý sa pokúšate zobraziť, nemá vložený typ zobrazenia."
+
+#: frontend/models/form_maker.php:41
+msgid "The form you are trying to view has been unpublished."
+msgstr "Formulár, ktorý sa pokúšate zobraziť, nebol publikovaný."
+
+#: frontend/models/form_maker.php:1216 frontend/models/form_maker.php:1228
+#: frontend/models/form_maker.php:1286
+msgid "Error, incorrect Security code."
+msgstr "Chyba, nesprávny bezpečnostný kód."
+
+#: frontend/models/form_maker.php:1249 frontend/models/form_maker.php:1274
+#: frontend/models/form_maker.php:1280
+msgid ""
+"Submission has failed due to the unsuccessful ReCaptcha verification. Please "
+"try to submit the form again."
+msgstr ""
+"Odoslanie zlyhalo v dôsledku neúspešného overenia ReCaptcha. Pokúste sa "
+"formulár odoslať znova."
+
+#: frontend/models/form_maker.php:1329
+msgid "Error, something went wrong."
+msgstr "Chyba, vyskytla sa chyba."
+
+#: frontend/models/form_maker.php:1354
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr "Vaša IP je na čiernej listine. Prosím, obráťte sa na správcu webu"
+
+#: frontend/models/form_maker.php:1555
+#, php-format
+msgid ""
+"%s Submission failed. Your consent to collect personal data is required."
+msgstr "%s zlyhalo. Vyžaduje sa váš súhlas so zhromažďovať osobné údaje."
+
+#: frontend/models/form_maker.php:1596
+msgid "This is not a valid date format."
+msgstr "Toto nie je platná e-mailová adresa."
+
+#: frontend/models/form_maker.php:1688
+msgid "This functionality is disabled in demo."
+msgstr "Táto funkcia je vypnutá v ukážke."
+
+#: frontend/models/form_maker.php:1726
+#, php-format
+msgid "The file exceeds the allowed size of %s KB."
+msgstr "Súboru presiahne povolenú veľkosť  %s KB."
+
+#: frontend/models/form_maker.php:1740
+msgid "Can not upload this type of file."
+msgstr "Je nám ľúto, ale nemáte možnosť nahrať tento typ súboru."
+
+#: frontend/models/form_maker.php:1847 frontend/models/form_maker.php:2794
+msgid "Error, file cannot be moved."
+msgstr "Chyba môže súbor nemožno presunúť."
+
+#: frontend/models/form_maker.php:2313
+#, php-format
+msgid "This field %s requires a unique entry."
+msgstr "Toto pole %s vyžaduje jedinečný prístup a táto hodnota bola už podaná."
+
+#: frontend/models/form_maker.php:2353 frontend/models/form_maker.php:2458
+#: frontend/models/form_maker.php:2474 frontend/models/form_maker.php:2484
+#: frontend/models/form_maker.php:2554
+msgid "Database error occurred. Please try again."
+msgstr "Vyskytla sa chyba databázy. Skúste to znova."
+
+#: frontend/models/form_maker.php:2562
+msgid "Nothing was submitted."
+msgstr "Nič bol predložený."
+
+#: frontend/models/form_maker.php:2878 frontend/models/form_maker.php:2879
+#: frontend/models/form_maker.php:2880
+msgid "Your chosen password."
+msgstr "Zvolené heslo."
+
+#: frontend/models/form_maker.php:3665 frontend/views/form_maker.php:107
+#: frontend/views/form_maker.php:1826
+msgid "Your form was successfully submitted."
+msgstr "Váš formulár bol úspešne odoslaný."
+
+#: frontend/models/form_maker.php:3671 frontend/views/form_maker.php:104
+msgid "Error, email was not sent."
+msgstr "Chyba, bol e-mail neposlal."
+
+#: frontend/models/form_submissions.php:391
+msgid "You have no permissions to download"
+msgstr "Nemáte žiadne povolenia na prevzatie súboru"
+
+#: frontend/models/verify_email.php:32
+msgid "Your email address is already verified."
+msgstr "Vaša e-mailová adresa je už overená."
+
+#: frontend/models/verify_email.php:46
+msgid "Your email verification has timed out."
+msgstr "Váš e-mail overenie vypršal."
+
+#: frontend/models/verify_email.php:61
+msgid "Your email has been successfully verified."
+msgstr "Váš e-mail bol úspešne overený."
+
+#: frontend/models/verify_email.php:66
+msgid "Verification link is invalid."
+msgstr "Overovací odkaz je neplatný."
+
+#: frontend/views/form_maker.php:567
+msgid "Password values don't match"
+msgstr "Hodnoty hesla sa nezhodujú"
+
+#: frontend/views/form_maker.php:1118
+msgid "The email addresses don't match"
+msgstr "E-mailové adresy sa nezhodujú"
+
+#: frontend/views/form_maker.php:1119
+msgid "This is not a valid email address."
+msgstr "Toto nie je platná e-mailová adresa."
+
+#: frontend/views/form_maker.php:4127
+msgid "AM"
+msgstr "Do obedu"
+
+#: frontend/views/form_maker.php:4128
+msgid "PM"
+msgstr "Po obede"
+
+#: frontend/views/form_submissions.php:20
+msgid "You have no permission to view submissions."
+msgstr "Nemáte povolenie na zobrazenie odoslaných údajov."
+
+#: frontend/views/form_submissions.php:244
+msgid "Search by fields"
+msgstr "Vyhľadávanie podľa polí"
+
+#: frontend/views/form_submissions.php:245
+msgid "GO"
+msgstr "Zobraziť"
+
+#: frontend/views/form_submissions.php:251
+#, php-format
+msgid ""
+"%s of %s submissions are not shown, as the field you sorted by is missing in "
+"those submissions."
+msgstr ""
+"%s sa %s, pretože pole, podľa ktorých ste zoraďovali, v týchto odoslaniach "
+"chýba."
+
+#: frontend/views/form_submissions.php:728
+#: frontend/views/form_submissions.php:732
+msgid "Select a Field"
+msgstr "Vyberte pole "
+
+#: frontend/views/form_submissions.php:747
+msgid "Select a Date"
+msgstr "Nastavte dátum začiatku pre tento plán"
+
+#: wd/includes/deactivate.php:22
+msgid "Technical problems / hard to use"
+msgstr "Technické problémy / ťažko sa používajú"
+
+#: wd/includes/deactivate.php:26
+msgid "Free version is limited"
+msgstr "Bezplatná verzia je obmedzená"
+
+#: wd/includes/deactivate.php:30
+msgid "Upgrading to paid version"
+msgstr "Inovácia na platenú verziu"
+
+#: wd/includes/deactivate.php:34
+msgid "Temporary deactivation"
+msgstr "Dočasná deaktivácia"
+
+#: wd/includes/notices.php:208
+msgid "Leave A Review?"
+msgstr "Opustiť recenziu?"
+
+#: wd/includes/notices.php:209
+#, php-format
+msgid ""
+"We hope you've enjoyed using WordPress %s! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+"Dúfame, že sa vám páčilo používať WordPress %s! Zvážili by ste, že nám "
+"zanecháte recenziu na WordPress.org?"
+
+#: wd/includes/notices.php:210
+msgid "Sure! I'd love to!"
+msgstr "Určite! Rád by som!"
+
+#: wd/includes/notices.php:211
+msgid "I've already left a review"
+msgstr "Už som zanechal recenziu"
+
+#: wd/includes/notices.php:212
+msgid "Maybe Later"
+msgstr "Možno neskôr"
+
+#: wd/includes/notices.php:213
+msgid "Never show again"
+msgstr "Už sa nikdy nezopakušte"
+
+#: wd/templates/display_deactivation_popup.php:8
+msgid ""
+"Please let us know why you are deactivating. Your answer will help us to "
+"provide you support or sometimes offer discounts. (Optional)"
+msgstr ""
+"Dajte nám vedieť, prečo deaktivujete. Vaša odpoveď nám pomôže poskytnúť vám "
+"podporu alebo niekedy ponúknuť zľavy. (Voliteľné)"
+
+#: wd/templates/display_deactivation_popup.php:22
+msgid "Skip and Deactivate"
+msgstr "Preskočiť a deaktivovať"
+
+#: wd/templates/display_deactivation_popup.php:23
+msgid "Submit and Deactivate"
+msgstr "Odoslať a deaktivovať"
+
+#: wd/templates/display_overview.php:10 wd/templates/display_overview.php:119
+#, php-format
+msgid "Get Premium %s and Other Solutions Essential for Your WordPress Site."
+msgstr ""
+"Získajte prémiové %s a ďalšie riešenia nevyhnutné pre vaše stránky WordPress."
+
+#: wd/templates/display_overview.php:13
+msgid "Try Free"
+msgstr "Vyskúšať zadarmo"
+
+#: wd/templates/display_overview.php:21 wd/templates/display_overview.php:81
+msgid "Premium "
+msgstr "Premium "
+
+#: wd/templates/display_overview.php:27
+msgid "60+ pro plugins/Extensions"
+msgstr "60+ pro pluginy/rozšírenia"
+
+#: wd/templates/display_overview.php:28
+msgid ""
+"Access 60+ plugins and extensions, including key plugins, such as gallery, "
+"form, slider, social plugins and more."
+msgstr ""
+"Získajte prístup k doplnkom a rozšíreniam 60+ vrátane kľúčových doplnkov, "
+"ako sú galéria, formulár, jazdec, sociálne doplnky a ďalšie."
+
+#: wd/templates/display_overview.php:32
+msgid "Unified dashboard"
+msgstr "Zjednotená tabuľa"
+
+#: wd/templates/display_overview.php:33
+msgid ""
+"Manage your WordPress websites all in one place within a single dashboard. "
+"No need to switch between sites."
+msgstr ""
+"Spravujte svoje webové stránky WordPress na jednom mieste v rámci jedného "
+"panela. Nie je potrebné prepínať medzi lokalitami."
+
+#: wd/templates/display_overview.php:37
+msgid "Premium WordPress themes"
+msgstr "Prémiové wordpress témy"
+
+#: wd/templates/display_overview.php:38
+msgid ""
+"Professionally designed, responsive themes for your website. Build fully-"
+"functional, elegant websites effortlessly."
+msgstr ""
+"Profesionálne navrhnuté responzívne motívy pre vaše webové stránky. Vytváraj "
+"plne funkčné a elegantné webové stránky bez námahy."
+
+#: wd/templates/display_overview.php:43
+msgid "Backup"
+msgstr "Záloha"
+
+#: wd/templates/display_overview.php:44
+msgid ""
+"10Web cloud storage space. Easily and securely backup your website in our "
+"storage."
+msgstr ""
+"10Web cloudový úložný priestor. Jednoducho a bezpečne zálohujte svoje webové "
+"stránky v našom úložisku."
+
+#: wd/templates/display_overview.php:50
+msgid "SEO"
+msgstr "SEO"
+
+#: wd/templates/display_overview.php:51
+msgid ""
+"Improve search rankings of your WordPress site with a comprehensive search "
+"engine optimization solution."
+msgstr ""
+"Zlepšite poradie vyhľadávania na vašom webe WordPress pomocou komplexného "
+"riešenia optimalizácie pre vyhľadávače."
+
+#: wd/templates/display_overview.php:56
+msgid "Security"
+msgstr "Bezpečnosť"
+
+#: wd/templates/display_overview.php:57
+msgid ""
+"Protect your WordPress site from security issues and threats with a powerful "
+"security service coming soon to 10Web."
+msgstr ""
+"Chráňte svoju stránku WordPress pred bezpečnostnými problémami a hrozbami s "
+"výkonnou bezpečnostnou službou už čoskoro na 10Web."
+
+#: wd/templates/display_overview.php:62
+msgid "Image optimization"
+msgstr "Optimalizácia obrazu"
+
+#: wd/templates/display_overview.php:63
+msgid ""
+"Automatically resize and compress all images on your website to save space "
+"and improve site speed."
+msgstr ""
+"Automaticky zmeniť veľkosť a komprimovať všetky obrázky na vašich webových "
+"stránkach, aby ste ušetrili miesto a zlepšili rýchlosť webu."
+
+#: wd/templates/display_overview.php:68
+msgid "Hosting"
+msgstr "Hosting"
+
+#: wd/templates/display_overview.php:69
+msgid ""
+"We’ll soon be offering affordable hosting solution with WordPress-friendly "
+"features and great customer support."
+msgstr ""
+"Čoskoro budeme ponúkať cenovo dostupné hostingové riešenie s funkciami "
+"vhodnými pre WordPress a skvelou zákazníckou podporou."
+
+#: wd/templates/display_overview.php:73 wd/templates/display_overview.php:121
+msgid "Get free for 14 days"
+msgstr "Získajte zadarmo na 14 dní"
+
+#: wd/templates/display_overview.php:75 wd/templates/display_overview.php:96
+msgid "Learn More"
+msgstr "Dozvedieť sa viac"
+
+#: wd/templates/display_overview.php:81
+msgid " features you get!"
+msgstr " funkcie dostanete!"
+
+#: wd/templates/display_overview.php:94
+msgid "More great features of the plugin"
+msgstr "Ďalšie skvelé funkcie doplnku"
+
+#: wd/templates/display_overview.php:103
+msgid "Checkout how it works"
+msgstr "Pozrite sa, ako to funguje"
+
+#: wd/templates/display_overview.php:107
+msgid "Demo"
+msgstr "Demo"
+
+#: wd/templates/display_overview.php:111
+msgid "User Guide"
+msgstr "Používateľská príručka"
+
+#: wd/templates/display_subscribe.php:5
+msgid "Hi there!"
+msgstr "Ahoj!"
+
+#: wd/templates/display_subscribe.php:6
+msgid "Allow 10Web to collect some usage data"
+msgstr "Povoliť 10Web zhromažďovať niektoré údaje o používaní"
+
+#: wd/templates/display_subscribe.php:8
+#, php-format
+msgid ""
+"This will allow you to get more out of your plugin experience - get awesome "
+"customer support, receive exclusive deals and discounts on premium products "
+"and more. You can choose to skip this step, %s will still work just fine."
+msgstr ""
+"To vám umožní získať viac zo svojho zážitku z pluginu - získať úžasnú "
+"zákaznícku podporu, získať exkluzívne ponuky a zľavy na prémiové produkty a "
+"ďalšie. Môžete sa rozhodnúť tento krok vynechať, %s bude fungovať dobre."
+
+#: wd/templates/display_subscribe.php:11
+msgid "What data is being collected?"
+msgstr "Aké údaje sa zhromažďujú?"
+
+#: wd/templates/display_subscribe.php:15
+msgid "Your name & Email address"
+msgstr "Vaše meno a e-mailová adresa"
+
+#: wd/templates/display_subscribe.php:19
+msgid "Site URL, Wordpress version"
+msgstr "Adresa URL lokality, verzia Wordpress"
+
+#: wd/templates/display_subscribe.php:23
+msgid "List of plugins"
+msgstr "Zoznam doplnkov"
+
+#: wd/templates/display_subscribe.php:27
+msgid "Allow & Continue"
+msgstr "Povoliť a pokračovať"
+
+#: wd/templates/display_subscribe.php:33
+msgid ""
+"We will not sell, share, or distribute your personal information to third "
+"parties."
+msgstr ""
+"Vaše osobné údaje nebudeme predávať, zdieľať ani distribuovať tretím stranám."
+
+#: wd/templates/display_subscribe.php:45
+msgid "Terms of Use"
+msgstr "Všeobecné podmienky"
+
+#: wd/wd.php:53 wd/wd.php:57
+msgid "Premium"
+msgstr "Premium"
+
+#~ msgid "The"
+#~ msgstr "The"
+
+#~ msgid "value must be between"
+#~ msgstr "hodnota musí byť medzi "
+
+#, fuzzy
+#~| msgid "Error, incorrect Security code."
+#~ msgid "Error, incorrect secret code."
+#~ msgstr "Chyba, nesprávny bezpečnostný kód."
+
+#, fuzzy
+#~| msgid "Verification link is invalid."
+#~ msgid "Verification failed."
+#~ msgstr "Overovací odkaz je neplatný."
+
+#, fuzzy
+#~ msgid "Address line 1"
+#~ msgstr "Ulica riadok 2"
+
+#, fuzzy
+#~ msgid "Address line 2"
+#~ msgstr "Ulica riadok 2"
+
+#, fuzzy
+#~ msgid "Error, file destination does not exist."
+#~ msgstr "Chyba, bol e-mail neposlal."
+
+#~ msgid "Middle"
+#~ msgstr "Stredná"
+
+#~ msgid "Phone Number"
+#~ msgstr "Telefónne číslo"
+
+#~ msgid "Dollars"
+#~ msgstr "Dolárov"

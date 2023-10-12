@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 44.154">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-6 {
+        fill: #e5e5e5;
+      }
+
+      .cls-2 {
+        stroke: #5848de;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #555;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_259" data-name="Group 259" transform="translate(-1315 -422)">
+    <g id="Path_134" data-name="Path 134" class="cls-1" transform="translate(1315 425)">
+      <path class="cls-5" d="M 69 40.65436172485352 L 4 40.65436172485352 C 2.070090055465698 40.65436172485352 0.5 39.08427047729492 0.5 37.15436172485352 L 0.5 1.000000834465027 C 0.5 -0.9299091100692749 2.070090055465698 -2.499999046325684 4 -2.499999046325684 L 69 -2.499999046325684 C 70.92990875244141 -2.499999046325684 72.5 -0.9299091100692749 72.5 1.000000834465027 L 72.5 37.15436172485352 C 72.5 39.08427047729492 70.92990875244141 40.65436172485352 69 40.65436172485352 Z"/>
+      <path class="cls-6" d="M 4 -2 C 2.345787048339844 -2 1 -0.6542091369628906 1 1 L 1 37.15436172485352 C 1 38.80857086181641 2.345787048339844 40.15436172485352 4 40.15436172485352 L 69 40.15436172485352 C 70.65421295166016 40.15436172485352 72 38.80857086181641 72 37.15436172485352 L 72 1 C 72 -0.6542091369628906 70.65421295166016 -2 69 -2 L 4 -2 M 4 -3 L 69 -3 C 71.20913696289063 -3 73 -1.209140777587891 73 1 L 73 37.15436172485352 C 73 39.36350250244141 71.20913696289063 41.15436172485352 69 41.15436172485352 L 4 41.15436172485352 C 1.790863037109375 41.15436172485352 0 39.36350250244141 0 37.15436172485352 L 0 1 C 0 -1.209140777587891 1.790863037109375 -3 4 -3 Z"/>
+    </g>
+    <g id="Group_131" data-name="Group 131" transform="translate(970 -264)">
+      <path id="Path_119" data-name="Path 119" class="cls-2" d="M23.831,0" transform="translate(385.388 693.5)"/>
+      <rect id="Rectangle_110" data-name="Rectangle 110" class="cls-3" width="59" height="8" rx="1" transform="translate(352 692)"/>
+    </g>
+    <rect id="Rectangle_166" data-name="Rectangle 166" class="cls-3" width="59" height="8" rx="1" transform="translate(1322 440)"/>
+    <rect id="Rectangle_167" data-name="Rectangle 167" class="cls-3" width="40" height="8" rx="1" transform="translate(1322 452)"/>
+    <rect id="Rectangle_168" data-name="Rectangle 168" class="cls-4" width="15" height="8" rx="1" transform="translate(1366 452)"/>
+  </g>
+</svg>

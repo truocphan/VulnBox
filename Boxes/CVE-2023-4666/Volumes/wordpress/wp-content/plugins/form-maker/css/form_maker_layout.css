@@ -1,0 +1,36 @@
+.fm_submit_layout {
+  border-radius: 3px !important;
+  width: 100%;
+}
+
+.fm_submit_layout em {
+  color: #999;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.CodeMirror {
+  background: white;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.fm_label_buttons {
+  border: 1px solid #C0C0C0;
+  cursor: pointer;
+  font-weight: bold;
+  max-width: 200px;
+  overflow: hidden;
+  padding: 4px 15px;
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+  word-break: break-all; 
+  word-wrap: break-word;
+}
+
+.fm_layout p {
+  font-size: 14px;
+  font-family: segoe ui;
+  text-shadow: 0px 0px 1px rgb(202, 202, 202);
+}
