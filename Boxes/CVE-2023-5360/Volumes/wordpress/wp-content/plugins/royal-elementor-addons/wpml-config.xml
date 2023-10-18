@@ -1,0 +1,600 @@
+<wpml-config>
+    <elementor-widgets>
+
+        <widget name="wpr-advanced-accordion">
+            <fields-in-item items_of="advanced_accordion">
+                <field name="Advanced Accordion: Title" editor_type="LINE">accordion_title</field>
+                <field name="Advanced Accordion: Content" editor_type="AREA">accordion_content</field>
+            </fields-in-item>
+            <fields>
+                <field name="Advanced Accordion: Placeholder" editor_type="LINE">acc_search_placeholder</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-advanced-text">
+            <fields>
+                <field name="Advanced Text: Cursor Content Text" editor_type="LINE">anim_cursor_content</field>
+                <field name="Advanced Text: Prefix Text" editor_type="LINE">prefix_text</field>
+                <field name="Advanced Text: Animated Text" editor_type="AREA">animated_text</field>
+                <field name="Advanced Text: Highlight Text" editor_type="LINE">highlighted_text</field>
+                <field name="Advanced Text: Suffix Text" editor_type="LINE">suffix_text</field>
+                <field name="Advanced Text: Clipped Text" editor_type="LINE">clipped_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-back-to-top">
+            <fields>
+                <field name="Back to Top: Button Text" editor_type="LINE">button_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-before-after">
+            <fields>
+                <field name="Before After: Image 1 Label" editor_type="LINE">label_image_1</field>
+                <field name="Before After: Image 2 Label" editor_type="LINE">label_image_2</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-business-hours">
+            <fields-in-item items_of="hours_items">
+                <field name="Business Hours: Day" editor_type="LINE">day</field>
+                <field name="Business Hours: Time" editor_type="LINE">time</field>
+                <field name="Business Hours: Closed Text" editor_type="LINE">closed_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-button">
+            <fields>
+                <field name="Button: Text" editor_type="LINE">button_text</field>
+                <field name="Button: Effect Text" editor_type="LINE">button_hover_animation_text</field>
+                <field name="Button: Tooltip Text" editor_type="AREA">tooltip_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-charts">
+            <fields-in-item items_of="charts_data_set">
+                <field name="Charts: Label" editor_type="LINE">chart_data_label</field>
+                <field name="Charts: Data" editor_type="LINE">chart_data_set</field>
+                <field name="Charts: Closed Text" editor_type="LINE">closed_text</field>
+            </fields-in-item>
+            <fields>
+                <field name="Charts: Separator" editor_type="LINE">data_csv_separator</field>
+                <field name="Charts: Data Labels" editor_type="AREA">charts_labels_data</field>
+                <field name="Charts: X Axis Title" editor_type="LINE">x_axis_title</field>
+                <field name="Charts: Y Axis Title" editor_type="LINE">y_axis_title</field>
+                <field name="Charts: Title" editor_type="LINE">chart_title</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-content-ticker">
+            <fields>
+                <field name="Content Ticker: Heading" editor_type="LINE">heading_text</field>
+                <field name="Content Ticker: Typing Cursor" editor_type="LINE">slider_effect_cursor</field>
+                <field name="Content Ticker: Typing Cursor" editor_type="LINE">slider_effect_cursor</field>
+            </fields>
+            <fields-in-item items_of="ticker_items">
+                <field name="Content Ticker: Ticker Title" editor_type="LINE">ticker_title</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-content-toggle">
+            <fields>
+                <field name="Content Toggle: First Label" editor_type="LINE">switcher_first_label</field>
+                <field name="Content Toggle: Second Label" editor_type="LINE">switcher_second_label</field>
+                <field name="Content Toggle: Switcher First Content" editor_type="AREA">switcher_first_content</field>
+                <field name="Content Toggle: Switcher Second Content" editor_type="AREA">switcher_second_content</field>
+                <field name="Content Ticker: Ticker Title" editor_type="LINE">ticker_title</field>
+            </fields>
+            <fields-in-item items_of="switcher_items">
+                <field name="Content Toggle: Switcher Label" editor_type="LINE">switcher_label</field>
+                <field name="Content Toggle: Switcher Content" editor_type="AREA">switcher_content</field>
+                <field name="Content Toggle: Switcher Label" editor_type="LINE">switcher_label</field>
+                <field name="Content Toggle: Switcher Content" editor_type="AREA">switcher_content</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-countdown">
+            <fields>
+                <field name="Countdown: Day" editor_type="LINE">labels_days_singular</field>
+                <field name="Countdown: Days" editor_type="LINE">labels_days_plural</field>
+                <field name="Countdown: Hour" editor_type="LINE">labels_hours_singular</field>
+                <field name="Countdown: Hours" editor_type="LINE">labels_hours_plural</field>
+                <field name="Countdown: Minute" editor_type="LINE">labels_minutes_singular</field>
+                <field name="Countdown: Minutes" editor_type="LINE">labels_minutes_plural</field>
+                <field name="Countdown: Seconds" editor_type="LINE">labels_seconds_plural</field>
+                <field name="Countdown: Display Message" editor_type="AREA">display_message_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-data-table">
+            <fields-in-item items_of="table_header">
+                <field name="Data Table: Title" editor_type="LINE">table_th</field>
+            </fields-in-item>
+            <fields-in-item items_of="table_content_rows">
+                <field name="Data Table: Content Tooltip Text" editor_type="AREA">content_tooltip_text</field>
+            </fields-in-item>
+            <fields-in-item items_of="table_content_rows">
+                <field name="Data Table: Content" editor_type="AREA">table_td</field>
+            </fields-in-item>
+            <fields>
+                <field name="Data Table: Export Excel Text" editor_type="LINE">export_excel_text</field>
+                <field name="Data Table: Export CSV Text" editor_type="LINE">export_csv_text</field>
+                <field name="Data Table: Search Placeholder" editor_type="LINE">search_placeholder</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-dual-button">
+            <fields>
+                <field name="Dual Button: First Text" editor_type="LINE">button_a_text</field>
+                <field name="Dual Button: Effect Text 1" editor_type="LINE">button_a_hover_animation_text</field>
+                <field name="Dual Button: Second Text" editor_type="LINE">button_b_text</field>
+                <field name="Dual Button: Effect Text 2" editor_type="LINE">button_b_hover_animation_text</field>
+                <field name="Dual Button: Middle Badge Text" editor_type="LINE">middle_badge_text</field>
+                <field name="Dual Button: Tooltip A Text" editor_type="AREA">tooltip_a_text</field>
+                <field name="Dual Button: Tooltip B Text" editor_type="AREA">tooltip_b_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-dual-color-heading">
+            <fields>
+                <field name="Dual Color Heading: Primary Heading" editor_type="LINE">primary_heading</field>
+                <field name="Dual Color Heading: Secondary Heading" editor_type="LINE">secondary_heading</field>
+                <field name="Dual Color Heading: Description" editor_type="AREA">description</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-feature-list">
+            <fields-in-item items_of="list">
+                <field name="Feature List: Title" editor_type="LINE">list_title</field>
+                <field name="Feature List: Content" editor_type="AREA">list_content</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-flip-box">
+            <fields>
+                <field name="Flip Box: Front Title" editor_type="LINE">front_title</field>
+                <field name="Flip Box: Front Button" editor_type="LINE">front_btn_text</field>
+                <field name="Flip Box: Front Description" editor_type="AREA">front_description</field>
+                <field name="Flip Box: Back Title" editor_type="LINE">back_title</field>
+                <field name="Flip Box: Back Button" editor_type="LINE">back_btn_text</field>
+                <field name="Flip Box: Back Description" editor_type="AREA">back_description</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-flip-carousel">
+            <fields-in-item items_of="carousel_elements">
+                <field name="Flip Carousel: Image Caption" editor_type="LINE">slide_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-form-builder">
+            <fields>
+                <field name="Form Builder: Subject" editor_type="LINE">email_subject</field>
+                <field name="Form Builder: Button Text" editor_type="LINE">button_text</field>
+                <field name="Form Builder: Form Name" editor_type="LINE">form_name</field>
+                <field name="Form Builder: Success Message" editor_type="LINE">success_message</field>
+                <field name="Form Builder: Error Message" editor_type="LINE">error_message</field>
+            </fields>
+            <fields-in-item items_of="form_fields">
+                <field name="Form Builder: Field Label" editor_type="LINE">field_label</field>
+                <field name="Form Builder: Field Sub Label" editor_type="LINE">field_sub_label</field>
+                <field name="Form Builder: Prev Button Text" editor_type="LINE">previous_button_text</field>
+                <field name="Form Builder: Next Button Text" editor_type="LINE">next_button_text</field>
+                <field name="Form Builder: Placeholder" editor_type="LINE">placeholder</field>
+                <field name="Form Builder: Field Value" editor_type="LINE">field_value</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-google-maps">
+            <fields>
+                <field name="Google Maps: Location Title" editor_type="LINE">gm_location_title</field>
+                <field name="Google Maps: Location Description" editor_type="AREA">gm_location_description</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-grid">
+            <fields>
+                <field name="Post Grid: Not Found Text" editor_type="LINE">query_not_found_text</field>
+                <field name="Post Grid: 'All' Filter Text" editor_type="LINE">filters_all_text</field>
+                <field name="Post Grid: Filters Separator" editor_type="LINE">filters_separator</field>
+                <field name="Post Grid: Older Posts Text" editor_type="LINE">pagination_older_text</field>
+                <field name="Post Grid: Newer Posts Text" editor_type="LINE">pagination_newer_text</field>
+                <field name="Post Grid: Prev Page Text" editor_type="LINE">pagination_prev_text</field>
+                <field name="Post Grid: Next Page Text" editor_type="LINE">pagination_next_text</field>
+                <field name="Post Grid: First Page Text" editor_type="LINE">pagination_first_text</field>
+                <field name="Post Grid: Last Page Text" editor_type="LINE">pagination_last_text</field>
+                <field name="Post Grid: Load More Text" editor_type="LINE">pagination_load_more_text</field>
+                <field name="Post Grid: Finish Text" editor_type="LINE">pagination_finish_text</field>
+            </fields>
+            <fields-in-item items_of="grid_elements">
+                <field name="Post Grid: Read More Text" editor_type="LINE">element_read_more_text</field>
+                <field name="Post Grid: Separator" editor_type="LINE">element_tax_sep</field>
+                <field name="Post Grid: No Comments" editor_type="LINE">element_comments_text_1</field>
+                <field name="Post Grid: One Comment" editor_type="LINE">element_comments_text_2</field>
+                <field name="Post Grid: Multiple Comments" editor_type="LINE">element_comments_text_3</field>
+                <field name="Post Grid: Extra Text" editor_type="LINE">element_extra_text</field>
+                <field name="Grid: No Likes Text" editor_type="LINE">element_like_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-image-accordion">
+            <fields>
+            </fields>
+            <fields-in-item items_of="accordion_items">
+                <field name="Image Accordion: Item Title" editor_type="LINE">accordion_item_title</field>
+                <field name="Image Accordion: Item Description" editor_type="LINE">accordion_item_description</field>
+                <field name="Image Accordion: Button Text" editor_type="LINE">element_button_text</field>
+                <field name="Image Accordion: Extra Text" editor_type="LINE">element_extra_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-image-hotspots">
+            <fields-in-item items_of="hotspot_items">
+                <field name="Image Hotspots: Text" editor_type="LINE">hotspot_text</field>
+                <field name="Image Hotspots: Tooltip Text" editor_type="AREA">hotspot_tooltip_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-instagram-feed">
+            <fields>
+                <field name="Instagram Feed: Button Text" editor_type="LINE">instagram_follow_text</field>
+                <field name="Instagram Feed: Load More Text" editor_type="LINE">pagination_load_more_text</field>
+                <field name="Instagram Feed: Finish Text" editor_type="LINE">pagination_finish_text</field>
+            </fields>
+            <fields-in-item items_of="insta_feed_elements">
+                <field name="Instagram Feed: Read More Text" editor_type="LINE">element_read_more_text</field>
+                <field name="Instagram Feed: One Comment" editor_type="LINE">element_comments_text_2</field>
+                <field name="Instagram Feed: Multiple Comments" editor_type="LINE">element_comments_text_3</field>
+                <field name="Instagram Feed: Extra Text" editor_type="LINE">element_extra_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-logo">
+            <fields>
+                <field name="Logo: Title Text" editor_type="LINE">custom_title</field>
+                <field name="Logo: Tagline Text" editor_type="LINE">custom_description</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-magazine-grid">
+            <fields>
+                <field name="Magazine Grid: Not Found Text" editor_type="LINE">query_not_found_text</field>
+            </fields>
+            <fields-in-item items_of="grid_elements">
+                <field name="Magazine Grid: Read More Text" editor_type="LINE">element_read_more_text</field>
+                <field name="Magazine Grid: Separator" editor_type="LINE">element_tax_sep</field>
+                <field name="Magazine Grid: No Comments" editor_type="LINE">element_comments_text_1</field>
+                <field name="Magazine Grid: One Comment" editor_type="LINE">element_comments_text_2</field>
+                <field name="Magazine Grid: Multiple Comments" editor_type="LINE">element_comments_text_3</field>
+                <field name="Magazine Grid: Extra Text" editor_type="LINE">element_extra_text</field>
+                <field name="Magazine Grid: No Likes Text" editor_type="LINE">element_like_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-mailchimp">
+            <fields>
+                <field name="Mailchimp: Form Title" editor_type="LINE">form_title</field>
+                <field name="Mailchimp: Form Description" editor_type="AREA">form_description</field>
+                <field name="Mailchimp: Email Label" editor_type="LINE">email_label</field>
+                <field name="Mailchimp: Email Placeholder" editor_type="LINE">email_placeholder</field>
+                <field name="Mailchimp: Button Text" editor_type="LINE">subscribe_btn_text</field>
+                <field name="Mailchimp: Button Loading Text" editor_type="LINE">subscribe_button_loading_text</field>
+                <field name="Mailchimp: Success Message" editor_type="LINE">success_message</field>
+                <field name="Mailchimp: Error Message" editor_type="LINE">error_message</field>
+                <field name="Mailchimp: Name Label" editor_type="LINE">name_label</field>
+                <field name="Mailchimp: Name Placeholder" editor_type="LINE">name_placeholder</field>
+                <field name="Mailchimp: Last Name Label" editor_type="LINE">last_name_label</field>
+                <field name="Mailchimp: Last Name Placeholder" editor_type="LINE">last_name_placeholder</field>
+                <field name="Mailchimp: Phone Number Label" editor_type="LINE">phone_number_label</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-media-grid">
+            <fields>
+                <field name="Media Grid: Not Found Text" editor_type="LINE">query_not_found_text</field>
+                <field name="Media Grid: 'All' Filter Text" editor_type="LINE">filters_all_text</field>
+                <field name="Media Grid: Filters Separator" editor_type="LINE">filters_separator</field>
+                <field name="Media Grid: Older Posts Text" editor_type="LINE">pagination_older_text</field>
+                <field name="Media Grid: Newer Posts Text" editor_type="LINE">pagination_newer_text</field>
+                <field name="Media Grid: Prev Page Text" editor_type="LINE">pagination_prev_text</field>
+                <field name="Media Grid: Next Page Text" editor_type="LINE">pagination_next_text</field>
+                <field name="Media Grid: First Page Text" editor_type="LINE">pagination_first_text</field>
+                <field name="Media Grid: Last Page Text" editor_type="LINE">pagination_last_text</field>
+                <field name="Media Grid: Finish Text" editor_type="LINE">pagination_finish_text</field>
+                <field name="Media Grid: Load More Text" editor_type="LINE">pagination_load_more_text</field>
+            </fields>
+            <fields-in-item items_of="grid_elements">
+                <field name="Media Grid: Separator" editor_type="LINE">element_tax_sep</field>
+                <field name="Media Grid: Extra Text" editor_type="LINE">element_extra_text</field>
+                <field name="Magazine Grid: No Likes Text" editor_type="LINE">element_like_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-mega-menu">
+            <fields>
+                <field name="Mega Menu: Toggle Open Text" editor_type="LINE">toggle_btn_txt_1</field>
+                <field name="Mega Menu: Toggle Close Text" editor_type="LINE">toggle_btn_txt_2</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-nav-menu">
+            <fields>
+                <field name="Nav Menu: Toggle Open Text" editor_type="LINE">toggle_btn_txt_1</field>
+                <field name="Nav Menu: Toggle Close Text" editor_type="LINE">toggle_btn_txt_2</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-offcanvas">
+            <fields>
+                <field name="Offcanvas: Title" editor_type="LINE">offcanvas_title</field>
+                <field name="Offcanvas: Button Title" editor_type="LINE">offcanvas_button_title</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-onepage-nav">
+            <fields-in-item items_of="nav_items">
+                <field name="Onepage Nav: Item Tooltip" editor_type="LINE">nav_item_tooltip</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-page-list">
+            <fields-in-item items_of="page_list">
+                <field name="Page List: Item Title" editor_type="LINE">page_list_item_title</field>
+                <field name="Page List: Item Sub Title" editor_type="LINE">page_list_item_sub_title</field>
+                <field name="Page List: Badge Text" editor_type="LINE">page_list_item_badge_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-phone-call">
+            <fields>
+                <field name="Phone Call: Button Text" editor_type="LINE">button_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-popup-trigger">
+            <fields>
+                <field name="Popup Trigger: Button Text" editor_type="LINE">popup_trigger_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-posts-timeline">
+            <fields>
+                <field name="Posts Timeline: Not Found Text" editor_type="LINE">query_not_found_text</field>
+                <field name="Posts Timeline: Read More Text" editor_type="LINE">read_more_text</field>
+                <field name="Posts Timeline: Load More Text" editor_type="LINE">pagination_load_more_text</field>
+                <field name="Posts Timeline: Finish Text" editor_type="LINE">pagination_finish_text</field>
+            </fields>
+            <fields-in-item items_of="timeline_repeater_list">
+                <field name="Posts Timeline: Label Text" editor_type="LINE">repeater_year</field>
+                <field name="Posts Timeline: Primary Label" editor_type="LINE">repeater_date_label</field>
+                <field name="Posts Timeline: Secondary Label" editor_type="LINE">repeater_extra_label</field>
+                <field name="Posts Timeline: Item Title" editor_type="LINE">repeater_story_title</field>
+                <field name="Posts Timeline: Item Description" editor_type="AREA">repeater_description</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-price-list">
+            <fields-in-item items_of="prlist_items">
+                <field name="Price List: Title" editor_type="LINE">prlist_title</field>
+                <field name="Price List: Price" editor_type="LINE">prlist_price</field>
+                <field name="Price List: Old Price" editor_type="LINE">prlist_old_price</field>
+                <field name="Price List: Description" editor_type="AREA">prlist_description</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-pricing-table">
+            <fields>
+                <field name="Pricing Table: Badge Title" editor_type="LINE">badge_title</field>
+            </fields>
+            <fields-in-item items_of="pricing_items">
+                <field name="Pricing Table: Title" editor_type="LINE">heading_title</field>
+                <field name="Pricing Table: Sub Title" editor_type="LINE">heading_sub_title</field>
+                <field name="Pricing Table: Text" editor_type="LINE">text</field>
+                <field name="Pricing Table: Price" editor_type="LINE">price</field>
+                <field name="Pricing Table: Sub Price" editor_type="LINE">sub_price</field>
+                <field name="Pricing Table: Currency" editor_type="LINE">currency</field>
+                <field name="Pricing Table: Period" editor_type="LINE">preiod</field>
+                <field name="Pricing Table: Feature Text" editor_type="LINE">feature_text</field>
+                <field name="Pricing Table: Button Text" editor_type="LINE">btn_text</field>
+                <field name="Pricing Table: Feature Tooltip" editor_type="AREA">feature_tooltip_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-progress-bar">
+            <fields>
+                <field name="Progress Bar: Title" editor_type="LINE">title</field>
+                <field name="Progress Bar: Subtitle" editor_type="LINE">subtitle</field>
+                <field name="Progress Bar: Counter Prefix" editor_type="LINE">counter_prefix</field>
+                <field name="Progress Bar: Counter Suffix" editor_type="LINE">counter_suffix</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-promo-box">
+            <fields>
+                <field name="Promo Box: Title" editor_type="LINE">content_title</field>
+                <field name="Promo Box: Button Text" editor_type="LINE">content_btn_text</field>
+                <field name="Promo Box: Description" editor_type="AREA">content_description</field>
+                <field name="Promo Box: Badge Title" editor_type="LINE">badge_title</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-search">
+            <fields>
+                <field name="Search: Results Text" editor_type="LINE">view_result_text</field>
+                <field name="Search: No Results Text" editor_type="LINE">no_results_text</field>
+                <field name="Search: Placeholder" editor_type="LINE">search_placeholder</field>
+                <field name="Search: Aria Label" editor_type="LINE">search_aria_label</field>
+                <field name="Search: Button Text" editor_type="LINE">search_btn_text</field>
+                <field name="Search: All Text" editor_type="LINE">all_cat_text</field>
+                <field name="Search: Load More Text" editor_type="LINE">pagination_load_more_text</field>
+                <field name="Search: Pagination Finish Text" editor_type="LINE">pagination_finish_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-sharing-buttons">
+            <fields-in-item items_of="sharing_buttons">
+                <field name="Sharing Buttons: Custom Label" editor_type="LINE">sharing_custom_label</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-tabs">
+            <fields-in-item items_of="tabs">
+                <field name="Tabs: Label" editor_type="LINE">tab_title</field>
+                <field name="Tabs: Content" editor_type="AREA">tab_content</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-team-member">
+            <fields>
+                <field name="Team Member: Name" editor_type="LINE">member_name</field>
+                <field name="Team Member: Job" editor_type="LINE">member_job</field>
+                <field name="Team Member: Description" editor_type="AREA">member_description</field>
+                <field name="Team Member: Button Text" editor_type="LINE">member_btn_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-testimonial-carousel">
+            <fields>
+                <field name="" editor_type="LINE"></field>
+            </fields>
+            <fields-in-item items_of="testimonial_items">
+                <field name="Testimonial Carousel: Author" editor_type="LINE">testimonial_author</field>
+                <field name="Testimonial Carousel: Job" editor_type="LINE">testimonial_job</field>
+                <field name="Testimonial Carousel: Title" editor_type="LINE">testimonial_title</field>
+                <field name="Testimonial Carousel: Date" editor_type="LINE">testimonial_date</field>
+                <field name="Testimonial Carousel: Content" editor_type="AREA">testimonial_content</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-twitter-feed">
+            <fields>
+                <field name="Twitter Feed: Load More Text" editor_type="LINE">pagination_load_more_text</field>
+                <field name="Twitter Feed: Finish Text" editor_type="LINE">pagination_finish_text</field>
+            </fields>
+            <fields-in-item items_of="twitter_feed_elements">
+                <field name="Twitter Feed: Read More Text" editor_type="LINE">element_read_more_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-woo-grid">
+            <fields>
+                <field name="Woo Grid: Not Found Text" editor_type="LINE">query_not_found_text</field>
+                <field name="Woo Grid: Linked Products Heading" editor_type="LINE">grid_linked_products_heading</field>
+                <field name="Woo Grid: 'All' Filter Text" editor_type="LINE">filters_all_text</field>
+                <field name="Woo Grid: Filters Separator" editor_type="LINE">filters_separator</field>
+                <field name="Woo Grid: Older Posts Text" editor_type="LINE">pagination_older_text</field>
+                <field name="Woo Grid: Newer Posts Text" editor_type="LINE">pagination_newer_text</field>
+                <field name="Woo Grid: Prev Page Text" editor_type="LINE">pagination_prev_text</field>
+                <field name="Woo Grid: Next Page Text" editor_type="LINE">pagination_next_text</field>
+                <field name="Woo Grid: First Page Text" editor_type="LINE">pagination_first_text</field>
+                <field name="Woo Grid: Last Page Text" editor_type="LINE">pagination_last_text</field>
+                <field name="Woo Grid: Load More Text" editor_type="LINE">pagination_load_more_text</field>
+                <field name="Woo Grid: Finish Text" editor_type="LINE">pagination_finish_text</field>
+                <field name="Woo Grid: Sort Heading" editor_type="LINE">sort_heading</field>
+            </fields>
+            <fields-in-item items_of="grid_elements">
+                <field name="Woo Grid: Separator" editor_type="LINE">element_tax_sep</field>
+                <field name="Woo Grid: Sales Date Separator" editor_type="LINE">element_sale_dates_sep</field>
+                <field name="Woo Grid: Simple Grouped Text" editor_type="LINE">element_addcart_simple_txt</field>
+                <field name="Woo Grid: Grouped Product Text" editor_type="LINE">element_addcart_grouped_txt</field>
+                <field name="Woo Grid: Variable Product Text" editor_type="LINE">element_addcart_variable_txt</field>
+                <field name="Woo Grid: Extra Text" editor_type="LINE">element_extra_text</field>
+                <field name="Woo Grid: Sale Starts Text" editor_type="LINE">element_sale_starts_text</field>
+                <field name="Woo Grid: Sale Ends Text" editor_type="LINE">element_sale_ends_text</field>
+                <field name="Woo Grid: Add to Wishlist Text" editor_type="LINE">add_to_wishlist_text</field>
+                <field name="Woo Grid: Add to Compare Text" editor_type="LINE">add_to_compare_text</field>
+                <field name="Woo Grid: Remove from Wishlist Text" editor_type="LINE">remove_from_wishlist_text</field>
+                <field name="Woo Grid: Remove from Compare Text" editor_type="LINE">remove_from_compare_text</field>
+                <field name="Woo Grid: No Likes Text" editor_type="LINE">element_like_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-archive-title">
+            <fields>
+                <field name="Archive Title: Text Before Title" editor_type="LINE">post_title_before_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-author-box">
+            <fields>
+                <field name="Author Box: Title" editor_type="LINE">author_title_text</field>
+                <field name="Author Box: Posts Link Text" editor_type="LINE">author_posts_link_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-post-comments">
+            <fields>
+                <field name="Post Comments: One Comment" editor_type="LINE">comments_text_1</field>
+                <field name="Post Comments: Multiple Comments" editor_type="LINE">comments_text_2</field>
+                <field name="Post Comments: Section Title" editor_type="LINE">comment_form_title</field>
+                <field name="Post Comments: Submit Button Text" editor_type="LINE">comment_form_submit_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-post-info">
+            <fields-in-item items_of="post_info_elements">
+                <field name="Post Info: No Comments" editor_type="LINE">post_info_comments_text_1</field>
+                <field name="Post Info: One Comment" editor_type="LINE">post_info_comments_text_2</field>
+                <field name="Post Info: Multiple Comments" editor_type="LINE">post_info_comments_text_3</field>
+                <field name="Post Info: Separator" editor_type="LINE">post_info_tax_sep</field>
+                <field name="Post Info: Button Text" editor_type="LINE">post_info_cf_btn_text</field>
+                <field name="Post Info: Extra Text" editor_type="LINE">post_info_extra_text</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="wpr-post-navigation">
+            <fields>
+                <field name="Post Navigation: Previous Text" editor_type="LINE">post_nav_prev_text</field>
+                <field name="Post Navigation: Next Text" editor_type="LINE">post_nav_next_text</field>
+                <field name="Post Navigation: Back Button Link" editor_type="LINE">post_nav_back_link</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-page-cart">
+            <fields>
+                <field name="Cart: Update Button" editor_type="LINE">update_cart_button_text</field>
+                <field name="Cart: Totals Title" editor_type="LINE">totals_title</field>
+                <field name="Cart: Checkout Button" editor_type="LINE">checkout_button_text</field>
+                <field name="Cart: Update Shipping" editor_type="LINE">update_shipping_button_text</field>
+                <field name="Cart: Apply Coupon" editor_type="LINE">apply_coupon_button_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-product-media">
+            <fields>
+                <field name="Product Media: Sales Badge" editor_type="LINE">product_media_sales_badge_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-product-mini-cart">
+            <fields>
+                <field name="Product Mini Cart: Toggle Text" editor_type="LINE">product_media_sales_badge_text</field>
+                <field name="Mini Cart: Close Cart" editor_type="LINE">close_cart_heading</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-product-sales-badge">
+            <fields>
+                <field name="Product Sales Badge: Badge Text" editor_type="LINE">sales_badge_text</field>
+            </fields>
+        </widget>
+
+        <widget name="wpr-product-stock">
+            <fields>
+                <field name="Product Stock: In Stock Text" editor_type="LINE">in_stock_availability_text</field>
+                <field name="Product Stock: Out of Stock Text" editor_type="LINE">out_of_stock_availability_text</field>
+                <field name="Product Stock: Back Order Text" editor_type="LINE">backorder_availability_text</field>
+            </fields>
+        </widget>
+
+        <!-- <widget name="">
+            <fields>
+                <field name="" editor_type="LINE"></field>
+            </fields>
+            <fields-in-item items_of="">
+                <field name="" editor_type="LINE"></field>
+            </fields-in-item>
+        </widget> -->
+
+    </elementor-widgets>
+</wpml-config>

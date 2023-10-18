@@ -1,0 +1,1064 @@
+/*
+ *  Usage:
+ *
+      <div class="wpr-rotating-plane"></div>
+ *
+ */
+
+.wpr-rotating-plane {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  -webkit-animation: wpr-rotatePlane 1.2s infinite ease-in-out;
+  animation: wpr-rotatePlane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes wpr-rotatePlane {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+@keyframes wpr-rotatePlane {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-double-bounce">
+        <div class="wpr-child wpr-double-bounce1"></div>
+        <div class="wpr-child wpr-double-bounce2"></div>
+      </div>
+ *
+ */
+
+.wpr-double-bounce {
+  width: 23px;
+  height: 23px;
+  position: relative;
+}
+
+.wpr-double-bounce .wpr-child {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: wpr-doubleBounce 2s infinite ease-in-out;
+  animation: wpr-doubleBounce 2s infinite ease-in-out;
+}
+
+.wpr-double-bounce .wpr-double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes wpr-doubleBounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes wpr-doubleBounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-wave">
+        <div class="wpr-rect wpr-rect1"></div>
+        <div class="wpr-rect wpr-rect2"></div>
+        <div class="wpr-rect wpr-rect3"></div>
+        <div class="wpr-rect wpr-rect4"></div>
+        <div class="wpr-rect wpr-rect5"></div>
+      </div>
+ *
+ */
+
+.wpr-wave {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+.wpr-wave .wpr-rect {
+  height: 100%;
+  width: 4px;
+  margin-right: 2px;
+  display: inline-block;
+  -webkit-animation: wpr-waveStretchDelay 1.2s infinite ease-in-out;
+  animation: wpr-waveStretchDelay 1.2s infinite ease-in-out;
+}
+
+.wpr-wave .wpr-rect1 {
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+
+.wpr-wave .wpr-rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.wpr-wave .wpr-rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.wpr-wave .wpr-rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.wpr-wave .wpr-rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes wpr-waveStretchDelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+@keyframes wpr-waveStretchDelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-wandering-cubes">
+        <div class="wpr-cube wpr-cube1"></div>
+        <div class="wpr-cube wpr-cube2"></div>
+      </div>
+ *
+ */
+
+.wpr-wandering-cubes {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.wpr-wandering-cubes .wpr-cube {
+  background-color: #333;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: wpr-wanderingCube 1.8s ease-in-out -1.8s infinite both;
+  animation: wpr-wanderingCube 1.8s ease-in-out -1.8s infinite both;
+}
+
+.wpr-wandering-cubes .wpr-cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+@-webkit-keyframes wpr-wanderingCube {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translateX(30px) rotate(-90deg) scale(0.5);
+    transform: translateX(30px) rotate(-90deg) scale(0.5);
+  }
+  50% {
+    /* Hack to make FF rotate in the right direction */
+    -webkit-transform: translateX(30px) translateY(30px) rotate(-179deg);
+    transform: translateX(30px) translateY(30px) rotate(-179deg);
+  }
+  50.1% {
+    -webkit-transform: translateX(30px) translateY(30px) rotate(-180deg);
+    transform: translateX(30px) translateY(30px) rotate(-180deg);
+  }
+  75% {
+    -webkit-transform: translateX(0) translateY(30px) rotate(-270deg) scale(0.5);
+    transform: translateX(0) translateY(30px) rotate(-270deg) scale(0.5);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes wpr-wanderingCube {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translateX(30px) rotate(-90deg) scale(0.5);
+    transform: translateX(30px) rotate(-90deg) scale(0.5);
+  }
+  50% {
+    /* Hack to make FF rotate in the right direction */
+    -webkit-transform: translateX(30px) translateY(30px) rotate(-179deg);
+    transform: translateX(30px) translateY(30px) rotate(-179deg);
+  }
+  50.1% {
+    -webkit-transform: translateX(30px) translateY(30px) rotate(-180deg);
+    transform: translateX(30px) translateY(30px) rotate(-180deg);
+  }
+  75% {
+    -webkit-transform: translateX(0) translateY(30px) rotate(-270deg) scale(0.5);
+    transform: translateX(0) translateY(30px) rotate(-270deg) scale(0.5);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-spinner wpr-spinner-pulse"></div>
+ *
+ */
+
+.wpr-spinner-pulse {
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  -webkit-animation: wpr-pulseScaleOut 1s infinite ease-in-out;
+  animation: wpr-pulseScaleOut 1s infinite ease-in-out;
+}
+
+@-webkit-keyframes wpr-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes wpr-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-chasing-dots">
+        <div class="wpr-child wpr-dot1"></div>
+        <div class="wpr-child wpr-dot2"></div>
+      </div>
+ *
+ */
+
+.wpr-chasing-dots {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: wpr-chasingDotsRotate 2s infinite linear;
+  animation: wpr-chasingDotsRotate 2s infinite linear;
+}
+
+.wpr-chasing-dots .wpr-child {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  border-radius: 100%;
+  -webkit-animation: wpr-chasingDotsBounce 2s infinite ease-in-out;
+  animation: wpr-chasingDotsBounce 2s infinite ease-in-out;
+}
+
+.wpr-chasing-dots .wpr-dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes wpr-chasingDotsRotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes wpr-chasingDotsRotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes wpr-chasingDotsBounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes wpr-chasingDotsBounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-three-bounce">
+        <div class="wpr-child wpr-bounce1"></div>
+        <div class="wpr-child wpr-bounce2"></div>
+        <div class="wpr-child wpr-bounce3"></div>
+      </div>
+ *
+ */
+
+.wpr-three-bounce {
+  width: 80px;
+  text-align: center;
+}
+
+.wpr-three-bounce .wpr-child {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 1px;
+  display: inline-block;
+  -webkit-animation: wpr-three-bounce 1.4s ease-in-out 0s infinite both;
+  animation: wpr-three-bounce 1.4s ease-in-out 0s infinite both;
+}
+
+.wpr-three-bounce .wpr-bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.wpr-three-bounce .wpr-bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes wpr-three-bounce {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes wpr-three-bounce {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-circle">
+        <div class="wpr-circle1 wpr-child"></div>
+        <div class="wpr-circle2 wpr-child"></div>
+        <div class="wpr-circle3 wpr-child"></div>
+        <div class="wpr-circle4 wpr-child"></div>
+        <div class="wpr-circle5 wpr-child"></div>
+        <div class="wpr-circle6 wpr-child"></div>
+        <div class="wpr-circle7 wpr-child"></div>
+        <div class="wpr-circle8 wpr-child"></div>
+        <div class="wpr-circle9 wpr-child"></div>
+        <div class="wpr-circle10 wpr-child"></div>
+        <div class="wpr-circle11 wpr-child"></div>
+        <div class="wpr-circle12 wpr-child"></div>
+      </div>
+ *
+ */
+
+.wpr-circle {
+  width: 22px;
+  height: 22px;
+  position: relative;
+}
+
+.wpr-circle .wpr-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.wpr-circle .wpr-child:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 15%;
+  background-color: #333;
+  border-radius: 100%;
+  -webkit-animation: wpr-circleBounceDelay 1.2s infinite ease-in-out both;
+  animation: wpr-circleBounceDelay 1.2s infinite ease-in-out both;
+}
+
+.wpr-circle .wpr-circle2 {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.wpr-circle .wpr-circle3 {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.wpr-circle .wpr-circle4 {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.wpr-circle .wpr-circle5 {
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+.wpr-circle .wpr-circle6 {
+  -webkit-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  transform: rotate(150deg);
+}
+
+.wpr-circle .wpr-circle7 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.wpr-circle .wpr-circle8 {
+  -webkit-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  transform: rotate(210deg);
+}
+
+.wpr-circle .wpr-circle9 {
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+
+.wpr-circle .wpr-circle10 {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.wpr-circle .wpr-circle11 {
+  -webkit-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  transform: rotate(300deg);
+}
+
+.wpr-circle .wpr-circle12 {
+  -webkit-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  transform: rotate(330deg);
+}
+
+.wpr-circle .wpr-circle2:before {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.wpr-circle .wpr-circle3:before {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.wpr-circle .wpr-circle4:before {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.wpr-circle .wpr-circle5:before {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+.wpr-circle .wpr-circle6:before {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+
+.wpr-circle .wpr-circle7:before {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+
+.wpr-circle .wpr-circle8:before {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.wpr-circle .wpr-circle9:before {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+}
+
+.wpr-circle .wpr-circle10:before {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+
+.wpr-circle .wpr-circle11:before {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+
+.wpr-circle .wpr-circle12:before {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+
+@-webkit-keyframes wpr-circleBounceDelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes wpr-circleBounceDelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-cube-grid">
+        <div class="wpr-cube wpr-cube1"></div>
+        <div class="wpr-cube wpr-cube2"></div>
+        <div class="wpr-cube wpr-cube3"></div>
+        <div class="wpr-cube wpr-cube4"></div>
+        <div class="wpr-cube wpr-cube5"></div>
+        <div class="wpr-cube wpr-cube6"></div>
+        <div class="wpr-cube wpr-cube7"></div>
+        <div class="wpr-cube wpr-cube8"></div>
+        <div class="wpr-cube wpr-cube9"></div>
+      </div>
+ *
+ */
+
+.wpr-cube-grid {
+  width: 40px;
+  height: 40px;
+  /*
+   * Spinner positions
+   * 1 2 3
+   * 4 5 6
+   * 7 8 9
+   */
+}
+
+.wpr-cube-grid .wpr-cube {
+  width: 33.33%;
+  height: 33.33%;
+  background-color: #333;
+  float: left;
+  -webkit-animation: wpr-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: wpr-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+
+.wpr-cube-grid .wpr-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.wpr-cube-grid .wpr-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.wpr-cube-grid .wpr-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.wpr-cube-grid .wpr-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.wpr-cube-grid .wpr-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.wpr-cube-grid .wpr-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.wpr-cube-grid .wpr-cube7 {
+  -webkit-animation-delay: 0.0s;
+  animation-delay: 0.0s;
+}
+
+.wpr-cube-grid .wpr-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.wpr-cube-grid .wpr-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@-webkit-keyframes wpr-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes wpr-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-fading-circle">
+        <div class="wpr-circle1 wpr-circle"></div>
+        <div class="wpr-circle2 wpr-circle"></div>
+        <div class="wpr-circle3 wpr-circle"></div>
+        <div class="wpr-circle4 wpr-circle"></div>
+        <div class="wpr-circle5 wpr-circle"></div>
+        <div class="wpr-circle6 wpr-circle"></div>
+        <div class="wpr-circle7 wpr-circle"></div>
+        <div class="wpr-circle8 wpr-circle"></div>
+        <div class="wpr-circle9 wpr-circle"></div>
+        <div class="wpr-circle10 wpr-circle"></div>
+        <div class="wpr-circle11 wpr-circle"></div>
+        <div class="wpr-circle12 wpr-circle"></div>
+      </div>
+ *
+ */
+
+.wpr-fading-circle {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+
+.wpr-fading-circle .wpr-circle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.wpr-fading-circle .wpr-circle:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 15%;
+  border-radius: 100%;
+  -webkit-animation: wpr-circleFadeDelay 1.2s infinite ease-in-out both;
+  animation: wpr-circleFadeDelay 1.2s infinite ease-in-out both;
+}
+
+.wpr-fading-circle .wpr-circle2 {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.wpr-fading-circle .wpr-circle3 {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.wpr-fading-circle .wpr-circle4 {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.wpr-fading-circle .wpr-circle5 {
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+.wpr-fading-circle .wpr-circle6 {
+  -webkit-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  transform: rotate(150deg);
+}
+
+.wpr-fading-circle .wpr-circle7 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.wpr-fading-circle .wpr-circle8 {
+  -webkit-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  transform: rotate(210deg);
+}
+
+.wpr-fading-circle .wpr-circle9 {
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+
+.wpr-fading-circle .wpr-circle10 {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.wpr-fading-circle .wpr-circle11 {
+  -webkit-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  transform: rotate(300deg);
+}
+
+.wpr-fading-circle .wpr-circle12 {
+  -webkit-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  transform: rotate(330deg);
+}
+
+.wpr-fading-circle .wpr-circle2:before {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.wpr-fading-circle .wpr-circle3:before {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.wpr-fading-circle .wpr-circle4:before {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.wpr-fading-circle .wpr-circle5:before {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+.wpr-fading-circle .wpr-circle6:before {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+
+.wpr-fading-circle .wpr-circle7:before {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+
+.wpr-fading-circle .wpr-circle8:before {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.wpr-fading-circle .wpr-circle9:before {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+}
+
+.wpr-fading-circle .wpr-circle10:before {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+
+.wpr-fading-circle .wpr-circle11:before {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+
+.wpr-fading-circle .wpr-circle12:before {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+
+@-webkit-keyframes wpr-circleFadeDelay {
+  0%,
+  39%,
+  100% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@keyframes wpr-circleFadeDelay {
+  0%,
+  39%,
+  100% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+
+/*
+ *  Usage:
+ *
+      <div class="wpr-folding-cube">
+        <div class="wpr-cube1 wpr-cube"></div>
+        <div class="wpr-cube2 wpr-cube"></div>
+        <div class="wpr-cube4 wpr-cube"></div>
+        <div class="wpr-cube3 wpr-cube"></div>
+      </div>
+ *
+ */
+
+.wpr-folding-cube {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotate(45deg);
+      transform: rotateZ(45deg);
+}
+
+.wpr-folding-cube .wpr-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.wpr-folding-cube .wpr-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  -webkit-animation: wpr-foldCubeAngle 2.4s infinite linear both;
+  animation: wpr-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.wpr-folding-cube .wpr-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  -ms-transform: scale(1.1) rotate(90deg);
+      transform: scale(1.1) rotateZ(90deg);
+}
+
+.wpr-folding-cube .wpr-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  -ms-transform: scale(1.1) rotate(180deg);
+      transform: scale(1.1) rotateZ(180deg);
+}
+
+.wpr-folding-cube .wpr-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  -ms-transform: scale(1.1) rotate(270deg);
+      transform: scale(1.1) rotateZ(270deg);
+}
+
+.wpr-folding-cube .wpr-cube2:before {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.wpr-folding-cube .wpr-cube3:before {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.wpr-folding-cube .wpr-cube4:before {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+
+@-webkit-keyframes wpr-foldCubeAngle {
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes wpr-foldCubeAngle {
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
