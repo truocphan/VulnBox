@@ -1,0 +1,142 @@
+/* General Styles */
+
+#mm-plugin-options h1 small { line-height: 12px; font-size: 12px; color: #bbb; }
+#mm-plugin-options h2 { margin: 0; padding: 12px 0 12px 15px; font-size: 16px; cursor: pointer; }
+#mm-plugin-options abbr[title] { cursor: help !important; border-bottom: 1px dotted #dfdfdf !important; text-decoration: none !important; }
+
+#mm-plugin-options .notice code { line-height: 1; font-size: 12px; }
+#mm-plugin-options .usp-dismiss-notice { float: right; }
+
+/* Table Styles */
+
+.mm-table-wrap { margin: 15px; }
+.mm-table-wrap table { padding: 10px 0; }
+.mm-table-wrap td, 
+.mm-table-wrap th { padding: 15px; vertical-align: middle; }
+.mm-table-wrap th { width: 25%; }
+
+.mm-table-less-padding table { padding: 20px 0; }
+.mm-table-less-padding th, 
+.mm-table-less-padding td { padding: 5px 15px; }
+.mm-table-less-padding th.some-padding, 
+.mm-table-less-padding td.some-padding { padding: 10px 15px 0 15px; }
+
+/* Toggle All */
+
+#mm-panel-toggle { margin: 5px 0; }
+
+/* Support Panel */
+
+#mm-panel-alert p { margin: 15px; }
+#mm-panel-alert .dismiss-alert { margin: 15px; }
+#mm-panel-alert .dismiss-alert-wrap { display: inline-block; vertical-align: middle; padding: 7px 0 10px 0; }
+#mm-panel-alert .dismiss-alert label { display: inline-block; vertical-align: middle; margin: -2px 15px 0 0; }
+
+/* Overview Panel */
+
+#mm-panel-overview {
+	box-sizing: border-box; width: 100%; overflow: hidden; position: relative;
+	background-image: url(../images/usp-logo.jpg); background-repeat: no-repeat; background-position: 20px 50px; background-size: 180px 130px; 
+	}
+#mm-panel-overview .mm-panel-overview { width: calc(100% - 140px); padding: 0 0 25px 0; }
+#mm-panel-overview .mm-panel-overview p  { margin: 0 15px 0 220px }
+#mm-panel-overview .mm-panel-overview ul { margin: 15px 15px 20px 250px; }
+#mm-panel-overview .mm-panel-overview li { margin: 10px 0; list-style-type: disc; }
+
+#mm-panel-overview .mm-panel-overview-pro {
+	box-sizing: border-box; display: block; position: absolute; bottom: 20px; right: 20px; width: 100px; height: 100px;
+	text-decoration: none; text-align: center; text-indent: -9999em; border: 1px solid #efefef; border-radius: 50%; color: #fff;
+	background-color: transparent; background-image: url(../images/usp-pro.png); background-repeat: no-repeat; background-position: center center; background-size: 100px 100px;
+	}
+#mm-panel-overview .mm-panel-overview-pro:hover,
+#mm-panel-overview .mm-panel-overview-pro:active { text-decoration: none; }
+
+@media (max-width: 1200px) {
+	#mm-panel-overview .mm-panel-overview { width: 100%; }
+}
+
+@media (max-width: 800px) {
+	#mm-panel-overview { background-image: none; }
+	#mm-panel-overview .mm-panel-overview p { margin-left: 15px; }
+	#mm-panel-overview .mm-panel-overview ul { margin-left: 40px; }
+}
+
+/* Inner Panels */
+
+#mm-plugin-options h3 { margin: 0; padding: 15px 15px 10px 15px; font-size: 16px; color: #333; cursor: pointer; }
+#mm-plugin-options h3:hover { background-color: #FFFFDF; }
+#mm-plugin-options h3::before {
+	content: '\f347'; position: relative; top: -3px;
+	display: inline-block; vertical-align: middle; margin: 0 5px 0 0; line-height: 1;
+	font-family: 'dashicons'; font-weight: normal; font-size: 16px; color: #333;
+	}
+#mm-plugin-options h3.toggle-open::before { content: '\f343'; }
+#mm-plugin-options .mm-section-desc { padding: 0 0 10px 0; }
+#mm-plugin-options table.widefat { border-radius: 3px; border-color: #ccc; }
+
+/* Form Controls */
+
+#mm-plugin-options input[type=text] { width: 80%; }
+#mm-plugin-options input[type=checkbox] { margin-top: -3px; }
+#mm-plugin-options textarea { display: block; width: 90%; }
+#mm-plugin-options .usp-input-short[type=text],
+#mm-plugin-options .small-text[type=number] { width: 100px; margin-right: 5px; }
+#mm-plugin-options .mm-radio-inputs { margin: 7px 0; }
+#mm-plugin-options .usp-upload-image[type=text] { width: calc(100% - 220px); }
+#mm-plugin-options .button-primary { display: block; margin: 12px 0 15px 15px; }
+
+/* Code & Captions */
+
+#mm-panel-primary .mm-item-desc    { margin: 0 0 15px 0;  line-height: 1.5; font-size: 14px; color: #777; }
+#mm-panel-primary .mm-item-caption { margin: 3px 0 0 2px; line-height: 1.5; font-size: 12px; color: #777; }
+#mm-panel-primary .mm-item-caption code { line-height: 1; font-size: 10px; color: #666; background-color: rgba(0,0,0,0.05); background: rgba(0,0,0,0.05); }
+
+#mm-plugin-options input[type=checkbox] + span.mm-item-caption { margin: 0; }
+#mm-plugin-options select + span.mm-item-caption { margin: 0; padding: 0 0 0 5px; position: relative; top: 2px; }
+
+/* Shortcodes Panel */
+
+#mm-panel-secondary .toggle { padding: 0 0 20px 0; }
+#mm-panel-secondary .no-bottom-margin { margin-bottom: 0; }
+
+#mm-panel-secondary p { margin: 15px; }
+#mm-panel-secondary ul { margin: 15px 15px 15px 40px; }
+#mm-panel-secondary li { margin: 10px 0; list-style-type: disc; }
+#mm-panel-secondary code { font-size: 12px; }
+#mm-panel-secondary pre { overflow: auto; margin: 15px; padding: 15px; font: 14px/20px Consolas, Monaco, monospace; color: #eee; background-color: #222; }
+
+/* Restore Defaults */
+
+#mm-restore-settings p { margin: 15px; }
+#mm-restore-settings p.first-child { margin-top: 5px; }
+#mm-restore-settings label { display: inline-block; vertical-align: middle; position: relative; top: -1px; }
+#mm-restore-settings input.button-primary { display: block; margin: 20px 0 15px 15px; }
+
+/* Custom Form */
+
+#mm-panel-primary .usp-custom-form-info { padding: 0 0 0 30px; }
+#mm-panel-primary .usp-custom-form-info code { line-height: 1; font-size: 11px; color: #333; background-color: rgba(0,0,0,0.05); background: rgba(0,0,0,0.05); }
+#mm-panel-primary .usp-custom-form-info p { margin: 0; padding: 10px 0; font-size: 12px; }
+#mm-panel-primary .usp-custom-form-info ul { margin: 0 0 0 30px; padding: 0; font-size: 12px; }
+#mm-panel-primary .usp-custom-form-info li { margin: 3px 0; list-style-type: disc; }
+
+/* Category Menu */
+
+#mm-panel-primary ul.usp-category-options { list-style: none; margin: 20px; padding: 0; }
+#mm-panel-primary ul.usp-category-options ul { margin: 7px 0 7px 30px; list-style: none; }
+#mm-panel-primary ul.usp-category-options li { margin: 6px 0; list-style: none; }
+#mm-panel-primary ul.usp-category-options input[type=checkbox] { margin-top: -1px; }
+
+#mm-panel-primary .usp-cat-toggle-link::before {
+	content: '\f347'; position: relative; top: -2px;
+	display: inline-block; vertical-align: middle; margin: 0 5px 0 0; line-height: 1;
+	font-family: 'dashicons'; font-weight: normal; font-size: 14px; color: #333;
+	}
+#mm-panel-primary .usp-cat-toggle-link.toggle-open::before { content: '\f343'; }
+#mm-panel-primary .usp-cat-toggle-link.mm-item-desc { margin: 0; padding: 0 0 15px 0; }
+
+/* Credit Line */
+
+#mm-plugin-options .postbox:last-child { margin-bottom: 0; }
+#mm-credit-info { margin: 7px 0 10px 3px; font-size: 12px; color: #999; }
+#mm-credit-info a { color: #999; } #mm-credit-info a:hover { color: #777; }

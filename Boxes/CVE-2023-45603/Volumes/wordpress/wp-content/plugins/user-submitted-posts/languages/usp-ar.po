@@ -1,0 +1,1676 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: USP 20230727\n"
+"Language: ar\n"
+
+#: library/plugin-settings.php:590
+msgid " approved posts"
+msgstr " المشاركات المعتمدة"
+
+#: user-submitted-posts.php:1649
+msgid " file"
+msgstr " ملف"
+
+#: user-submitted-posts.php:1646
+msgid " file required"
+msgstr " الملف مطلوب"
+
+#: user-submitted-posts.php:1648
+msgid " files"
+msgstr " الملفات"
+
+#: user-submitted-posts.php:1645
+msgid " files required"
+msgstr " الملفات المطلوبة"
+
+#: user-submitted-posts.php:123
+msgid " or higher, and has been deactivated! "
+msgstr " أو أعلى ، وتم إلغاء تنشيطه! "
+
+#: user-submitted-posts.php:1651 user-submitted-posts.php:1652
+#: user-submitted-posts.php:1653 user-submitted-posts.php:1654
+msgid " pixels"
+msgstr " بكسل"
+
+#: user-submitted-posts.php:1691 user-submitted-posts.php:1692
+msgid " required"
+msgstr " مطلوب"
+
+#: library/plugin-display.php:511
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "\"أضف صورة أخرى\" وصلة"
+
+#: library/plugin-display.php:37
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "و [مدش]. الحل النهائي للمحتوى الذي ينشئه المستخدم."
+
+#: library/plugin-settings.php:203
+msgid "(Provide your own form template &amp; styles)"
+msgstr "(توفير أنماط وأنماط النموذج الخاصة بك)"
+
+#: library/plugin-settings.php:199
+msgid "(Provide your own styles)"
+msgstr "(قدم الأنماط الخاصة بك)"
+
+#: library/plugin-settings.php:195
+msgid "(Recommended)"
+msgstr "(مُستَحسَن)"
+
+#: library/plugin-display.php:107
+msgid "..and upload them into a directory named"
+msgstr ".. وتحميلها في دليل باسم"
+
+#: library/plugin-display.php:746
+msgid "Access Control"
+msgstr "صلاحية التحكم صلاحية الدخول"
+
+#: library/plugin-display.php:444
+msgid "Add a challenge question to help stop spam. Tip: make the question easy to answer for any human."
+msgstr "أضف سؤال التحدي للمساعدة في إيقاف البريد العشوائي. نصيحة: اجعل الإجابة على السؤال سهلة لأي إنسان."
+
+#: views/submission-form.php:147 views/submission-form-alt.php:162
+msgid "Add another image"
+msgstr "أضف صورة أخرى"
+
+#: library/plugin-display.php:267
+msgid "Additional recipients for email alerts. Use commas to separate multiple addresses."
+msgstr "المستلمون الإضافيون لتنبيهات البريد الإلكتروني. استخدم الفواصل للفصل بين العناوين المتعددة."
+
+#: library/shortcode-login.php:183
+msgid "Admin"
+msgstr "مسؤل"
+
+#: library/plugin-settings.php:223 library/plugin-settings.php:247
+#: library/plugin-settings.php:271 library/plugin-settings.php:295
+#: library/plugin-settings.php:319
+msgid "After post content"
+msgstr "بعد نشر المحتوى"
+
+#: user-submitted-posts.php:1662
+msgid "An error occurred. Please go back and try again."
+msgstr "حدث خطأ. الرجاء العودة والمحاولة مجددا."
+
+#: library/plugin-display.php:339 library/plugin-display.php:722
+#: library/plugin-display.php:727
+msgid "and"
+msgstr "و"
+
+#: library/support-panel.php:61
+msgid "and is greatly appreciated."
+msgstr "وهو محل تقدير كبير."
+
+#: views/submission-form.php:85 views/submission-form-alt.php:100
+msgid "Antispam Question"
+msgstr "سؤال مكافحة البريد العشوائي"
+
+#: library/support-panel.php:63
+msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+msgstr "يساعدني التبرع بأي حجم على مواصلة تطوير هذا البرنامج المساعد المجاني وموارد WordPress الرائعة الأخرى."
+
+#: library/plugin-settings.php:1214
+msgid "Apply code"
+msgstr "تطبيق الكود"
+
+#: library/plugin-display.php:207
+msgid "Assigned Author"
+msgstr "المؤلف المعين"
+
+#: library/plugin-settings.php:1214
+msgid "at checkout. Sale ends 9/9/23."
+msgstr "عند الخروج. البيع ينتهي 9/9/23."
+
+#: library/plugin-display.php:723 library/plugin-display.php:727
+msgid "attributes"
+msgstr "صفات"
+
+#: library/plugin-display.php:559
+msgid "Automatically display images and more."
+msgstr "عرض الصور تلقائيًا والمزيد."
+
+#: library/plugin-settings.php:219 library/plugin-settings.php:243
+#: library/plugin-settings.php:267 library/plugin-settings.php:291
+#: library/plugin-settings.php:315
+msgid "Before post content"
+msgstr "قبل نشر المحتوى"
+
+#: library/support-panel.php:53
+msgid "books"
+msgstr "الكتب"
+
+#: library/plugin-display.php:805
+msgid "by"
+msgstr "بواسطة"
+
+#: library/plugin-display.php:128
+msgid "By default, CSS &amp; JavaScript files are loaded on every page. To load only on specific page(s), enter the URL(s) here. Use commas to separate multiple URLs. Leave blank to load on all pages."
+msgstr "بشكل افتراضي ، CSS & amp؛ يتم تحميل ملفات JavaScript في كل صفحة. للتحميل على صفحة (صفحات) معينة فقط ، أدخل عنوان (عناوين) URL هنا. استخدم الفواصل للفصل بين عدة عناوين URL. اتركه فارغا ليتم تحميله في كل الصفحات."
+
+#: library/plugin-display.php:406
+msgid "By default, this displays an &ldquo;Agree to Terms&rdquo; checkbox. Customize as desired."
+msgstr "بشكل افتراضي ، يعرض هذا الأمر & ldquo؛ Agree to Terms & rdquo؛ خانة الاختيار. التخصيص حسب الرغبة."
+
+#: library/plugin-display.php:729
+msgid "Can use"
+msgstr "يمكن استخدام"
+
+#: library/plugin-display.php:457
+msgid "Case-sensitivity"
+msgstr "حساسية القضية"
+
+#: library/plugin-display.php:308
+msgid "Categories"
+msgstr "فئات"
+
+#: library/plugin-display.php:303
+msgid "Categories &amp; Tags"
+msgstr "فئات وأمبير. العلامات"
+
+#: library/plugin-display.php:339
+msgid "category"
+msgstr "فئة"
+
+#: library/plugin-display.php:325
+msgid "Category ID for Hidden Field"
+msgstr "معرف الفئة للحقل المخفي"
+
+#: library/plugin-settings.php:431 library/plugin-display.php:442
+#: library/plugin-display.php:447
+msgid "Challenge Question"
+msgstr "سؤال تحدي"
+
+#: library/plugin-display.php:452
+msgid "Challenge Response"
+msgstr "قبل التحدي"
+
+#: library/plugin-display.php:295 library/plugin-display.php:368
+#: library/plugin-display.php:396 library/plugin-display.php:434
+msgid "check out"
+msgstr "الدفع"
+
+#: library/plugin-display.php:730
+msgid "Check out the source code inline notes for more info"
+msgstr "تحقق من الملاحظات المضمنة في التعليمات البرمجية المصدر لمزيد من المعلومات"
+
+#: library/shortcode-login.php:98
+msgid "Check your email for the password."
+msgstr "تحقق من بريدك الإلكتروني للحصول على كلمة المرور."
+
+#: library/shortcode-login.php:103
+msgid "Check your email to reset your password."
+msgstr "تحقق من بريدك الإلكتروني لإعادة تعيين كلمة المرور الخاصة بك."
+
+#: library/plugin-display.php:419
+msgid "Checkbox Error"
+msgstr "خطأ في خانة الاختيار"
+
+#: library/plugin-display.php:414
+msgid "Checkbox Name"
+msgstr "اسم خانة الاختيار"
+
+#: library/plugin-display.php:424
+msgid "Checkbox Text"
+msgstr "نص مربع الاختيار"
+
+#: library/plugin-display.php:61
+msgid "Choose fields to display on the front-end form."
+msgstr "اختر الحقول المراد عرضها في نموذج الواجهة الأمامية."
+
+#: library/plugin-display.php:482
+msgid "Choose reCaptcha version"
+msgstr "اختر نسخة reCaptcha"
+
+#: library/plugin-display.php:350
+msgid "Configure Custom Field #1."
+msgstr "تكوين الحقل المخصص # 1."
+
+#: library/plugin-display.php:378
+msgid "Configure Custom Field #2."
+msgstr "تكوين الحقل المخصص # 2."
+
+#: library/plugin-display.php:252
+msgid "Configure email notifications for new submitted posts."
+msgstr "تكوين إخطارات البريد الإلكتروني للمشاركات الجديدة المرسلة."
+
+#: library/plugin-display.php:94
+msgid "Configure general settings. Note: the default settings work fine for most cases."
+msgstr "تكوين الإعدادات العامة. ملاحظة: الإعدادات الافتراضية تعمل بشكل جيد في معظم الحالات."
+
+#: library/plugin-display.php:490
+msgid "Configure settings for image uploads."
+msgstr "تكوين الإعدادات لتحميل الصور."
+
+#: library/plugin-display.php:305
+msgid "Configure settings for the Category and Tag fields."
+msgstr "تكوين الإعدادات لحقلي الفئة والعلامة."
+
+#: library/plugin-display.php:204
+msgid "Configure user settings."
+msgstr "تكوين إعدادات المستخدم."
+
+#: library/shortcode-login.php:180
+msgid "Congratulations, you&rsquo;re logged in."
+msgstr "تهانينا ، لقد قمت بتسجيل الدخول."
+
+#: user-submitted-posts.php:1679 user-submitted-posts.php:1680
+msgid "Correct captcha required"
+msgstr "مطلوب كلمة التحقق الصحيحة"
+
+#: library/plugin-display.php:272
+msgid "Custom address for the email &ldquo;From&rdquo; header (see plugin FAQs for info)."
+msgstr "عنوان مخصص للبريد الإلكتروني \"من\" header (راجع الأسئلة الشائعة حول البرنامج المساعد للحصول على معلومات)."
+
+#: library/plugin-display.php:404
+msgid "Custom Checkbox"
+msgstr "خانة اختيار مخصصة"
+
+#: user-submitted-posts.php:1659
+msgid "Custom checkbox required"
+msgstr "مطلوب مربع اختيار مخصص"
+
+#: library/plugin-display.php:160
+msgid "Custom Content"
+msgstr "محتوى مخصص"
+
+#: user-submitted-posts.php:1656 library/core-functions.php:306
+#: library/plugin-settings.php:392 library/plugin-settings.php:930
+#: library/plugin-display.php:348
+msgid "Custom Field 1"
+msgstr "حقل مخصص 1"
+
+#: library/plugin-display.php:615
+msgid "Custom Field 1 Display"
+msgstr "عرض حقل مخصص 1"
+
+#: library/plugin-display.php:622
+msgid "Custom Field 1 Markup"
+msgstr "ترميز الحقل 1 المخصص"
+
+#: user-submitted-posts.php:1657 library/core-functions.php:255
+#: library/plugin-settings.php:397 library/plugin-settings.php:933
+#: library/plugin-display.php:376
+msgid "Custom Field 2"
+msgstr "حقل مخصص 2"
+
+#: library/plugin-display.php:628
+msgid "Custom Field 2 Display"
+msgstr "عرض حقل مخصص 2"
+
+#: library/plugin-display.php:635
+msgid "Custom Field 2 Markup"
+msgstr "ترميز الحقل 2 المخصص"
+
+#: library/plugin-display.php:358 library/plugin-display.php:386
+msgid "Custom Field Label"
+msgstr "تسمية حقل مخصص"
+
+#: library/plugin-display.php:353 library/plugin-display.php:381
+msgid "Custom Field Name"
+msgstr "اسم الحقل المخصص"
+
+#: library/plugin-settings.php:203
+msgid "Custom Form + Custom CSS"
+msgstr "نموذج مخصص + CSS مخصص"
+
+#: library/plugin-display.php:513
+msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
+msgstr "ترميز مخصص لـ & ldquo ؛ إضافة صورة أخرى & rdquo ؛ وصلة. اتركه فارغًا لاستخدام الترميز الافتراضي (موصى به)."
+
+#: library/plugin-display.php:498
+msgid "Default Featured Image"
+msgstr "الصورة المميزة الافتراضية"
+
+#: library/plugin-settings.php:504
+msgid "Disable"
+msgstr "إبطال"
+
+#: library/plugin-display.php:177
+msgid "Disable all required attributes on form fields (useful for troubleshooting error messages)"
+msgstr "تعطيل جميع السمات المطلوبة في حقول النموذج (مفيد لاستكشاف رسائل الخطأ وإصلاحها)"
+
+#: library/plugin-display.php:180
+msgid "Disable IP Tracking"
+msgstr "تعطيل تتبع IP"
+
+#: library/plugin-display.php:234
+msgid "Disable Replace Author"
+msgstr "تعطيل استبدال المؤلف"
+
+#: library/plugin-display.php:175
+msgid "Disable Required"
+msgstr "Disable Required"
+
+#: library/plugin-settings.php:373 library/plugin-settings.php:414
+#: library/plugin-settings.php:444 library/plugin-settings.php:474
+msgid "Disable this field"
+msgstr "قم بتعطيل هذا المجال"
+
+#: library/plugin-settings.php:1286
+msgid "Dismiss"
+msgstr "رفض"
+
+#: library/plugin-display.php:332
+msgid "Display a select/dropdown menu of existing tags (valid when Tag field is displayed on the form)"
+msgstr "عرض قائمة تحديد / منسدلة للعلامات الموجودة (صالحة عند عرض حقل العلامة في النموذج)"
+
+#: library/plugin-display.php:409
+msgid "Display Checkbox"
+msgstr "عرض خانة الاختيار"
+
+#: library/plugin-display.php:749
+msgid "Display content only to users with a specific capability:"
+msgstr "عرض المحتوى فقط للمستخدمين ذوي الإمكانيات المحددة:"
+
+#: library/plugin-display.php:751
+msgid "Display content to logged-in users:"
+msgstr "عرض المحتوى للمستخدمين الذين قاموا بتسجيل الدخول:"
+
+#: library/plugin-display.php:753
+msgid "Display content to visitors only:"
+msgstr "عرض المحتوى للزوار فقط:"
+
+#: library/plugin-display.php:411
+msgid "Display custom checkbox on the submission form"
+msgstr "عرض مربع الاختيار المخصص في نموذج التقديم"
+
+#: library/plugin-display.php:617
+msgid "Display Custom Field 1:"
+msgstr "عرض الحقل المخصص 1:"
+
+#: library/plugin-display.php:630
+msgid "Display Custom Field 2:"
+msgstr "عرض الحقل المخصص 2:"
+
+#: library/plugin-display.php:706
+msgid "Display image gallery"
+msgstr "عرض معرض الصور"
+
+#: library/plugin-display.php:591
+msgid "Display submitted author/name:"
+msgstr "عرض المؤلف / الاسم المقدم:"
+
+#: library/plugin-display.php:578
+msgid "Display submitted email address:"
+msgstr "عرض عنوان البريد الإلكتروني المقدم:"
+
+#: library/plugin-display.php:564
+msgid "Display submitted images:"
+msgstr "عرض الصور المقدمة:"
+
+#: library/plugin-display.php:604
+msgid "Display submitted URL:"
+msgstr "عرض عنوان URL المقدم:"
+
+#: library/plugin-display.php:660
+msgid "Display the Form"
+msgstr "اعرض النموذج"
+
+#: library/plugin-display.php:677
+msgid "Display the login/register form"
+msgstr "قم بعرض نموذج تسجيل الدخول / التسجيل"
+
+#: library/plugin-display.php:664
+msgid "Display the submit-post form"
+msgstr "عرض استمارة التقديم-المشاركة"
+
+#: library/plugin-display.php:687
+msgid "Display user-submitted posts"
+msgstr "عرض المشاركات المقدمة من المستخدم"
+
+#: library/plugin-display.php:182
+msgid "Do not collect or store any user IP address (useful for complying with privacy regulations)"
+msgstr "لا تجمع أو تخزن أي عنوان IP للمستخدم (مفيد للامتثال للوائح الخصوصية)"
+
+#: library/plugin-settings.php:227 library/plugin-settings.php:251
+#: library/plugin-settings.php:275 library/plugin-settings.php:299
+#: library/plugin-settings.php:323
+msgid "Do not display"
+msgstr "لا تعرض"
+
+#: library/plugin-display.php:236
+msgid "Do not replace post author with submitted user name"
+msgstr "لا تستبدل كاتب المنشور باسم المستخدم المقدم"
+
+#: library/plugin-display.php:41
+msgid "Documentation"
+msgstr "توثيق"
+
+#: library/support-panel.php:51
+msgid "Donate via PayPal, credit card, or cryptocurrency"
+msgstr "تبرع عبر PayPal أو بطاقة الائتمان أو العملة المشفرة"
+
+#: library/support-panel.php:55
+msgid "donation"
+msgstr "هبة"
+
+#: library/plugin-settings.php:586
+msgid "Draft"
+msgstr "مسودة"
+
+#: user-submitted-posts.php:1704
+msgid "Duplicate post title. Please try again."
+msgstr "عنوان المشاركة مكرر. حاول مرة اخرى."
+
+#: library/plugin-settings.php:918
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#: library/plugin-display.php:270
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "بريد إلكتروني & ldquo ؛ من & rdquo ؛ عنوان"
+
+#: library/plugin-display.php:265
+msgid "Email Address for Alerts"
+msgstr "عنوان البريد الإلكتروني للتنبيهات"
+
+#: library/plugin-display.php:283
+msgid "Email Alert Message"
+msgstr "رسالة تنبيه بالبريد الإلكتروني"
+
+#: library/plugin-display.php:276
+msgid "Email Alert Subject"
+msgstr "موضوع تنبيه البريد الإلكتروني"
+
+#: library/plugin-display.php:250
+msgid "Email Alerts"
+msgstr "تنبيهات البريد الإلكتروني"
+
+#: library/plugin-display.php:576
+msgid "Email Display"
+msgstr "عرض البريد الإلكتروني"
+
+#: library/plugin-display.php:583
+msgid "Email Markup"
+msgstr "ترميز البريد الإلكتروني"
+
+#: library/plugin-display.php:294
+msgid "email-alert options"
+msgstr "خيارات التنبيه بالبريد الإلكتروني"
+
+#: library/plugin-settings.php:503
+msgid "Enable"
+msgstr "يُمكَِن"
+
+#: library/plugin-settings.php:371 library/plugin-settings.php:412
+#: library/plugin-settings.php:443 library/plugin-settings.php:473
+msgid "Enable and require"
+msgstr "تمكين وطلب"
+
+#: library/plugin-settings.php:372 library/plugin-settings.php:413
+msgid "Enable but do not require"
+msgstr "تمكين ولكن لا تتطلب"
+
+#: library/plugin-display.php:260
+msgid "Enable HTML Format"
+msgstr "تفعيل تنسيق HTML"
+
+#: library/plugin-display.php:262
+msgid "Enable HTML format for email alert messages"
+msgstr "قم بتمكين تنسيق HTML لرسائل التنبيه بالبريد الإلكتروني"
+
+#: library/plugin-display.php:167
+msgid "Enable RTE/Visual Editor for the Post Content field"
+msgstr "قم بتمكين RTE / Visual Editor لحقل محتوى المنشور"
+
+#: library/plugin-display.php:185
+msgid "Enable Shortcodes"
+msgstr "تفعيل الرموز القصيرة"
+
+#: library/plugin-display.php:187
+msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
+msgstr "تفعيل الرموز القصيرة في الحاجيات. افتراضيًا ، لا يقوم WordPress بتمكين الرموز القصيرة في الأدوات. "
+
+#: library/plugin-display.php:317
+msgid "Enable users to select multiple categories"
+msgstr "تمكين المستخدمين من تحديد فئات متعددة"
+
+#: library/plugin-display.php:549
+msgid "Enable users to upload other file types (like PDF, Word, Zip, videos, and more), check out"
+msgstr "قم بتمكين المستخدمين من تحميل أنواع الملفات الأخرى (مثل PDF و Word و Zip ومقاطع الفيديو والمزيد) ، تحقق"
+
+#. Description of the plugin
+#: 
+msgid "Enables your visitors to submit posts and images from anywhere on your site."
+msgstr "تمكن زوار موقعك من إرسال المنشورات والصور من أي مكان على موقعك."
+
+#: library/plugin-display.php:35
+msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
+msgstr "تمكن زوار موقعك من إرسال المنشورات وتحميل الصور من الواجهة الأمامية لموقعك. "
+
+#: library/plugin-display.php:454
+msgid "Enter the *only* correct answer to the challenge question"
+msgstr "أدخل الإجابة الصحيحة * فقط * على سؤال التحدي"
+
+#: library/plugin-display.php:502
+msgid "Enter URL or click button to upload/choose an image (optional)"
+msgstr "أدخل عنوان URL أو انقر فوق الزر لتحميل / اختيار صورة (اختياري)"
+
+#: library/plugin-display.php:476
+msgid "Enter your Private Key"
+msgstr "أدخل مفتاحك الخاص"
+
+#: library/plugin-display.php:471
+msgid "Enter your Public Key"
+msgstr "أدخل المفتاح العام الخاص بك"
+
+#: library/shortcode-login.php:156
+msgid "Enter your username or email to reset your password."
+msgstr "أدخل اسم المستخدم الخاص بك أو البريد الإلكتروني لإعادة تعيين كلمة المرور الخاصة بك."
+
+#: library/plugin-display.php:155
+msgid "Error Message"
+msgstr "رسالة خطأ"
+
+#: library/plugin-display.php:157
+msgid "Error message displayed if post submission fails (basic markup allowed)"
+msgstr "تظهر رسالة خطأ في حالة فشل إرسال المنشور (يُسمح بالترميز الأساسي)"
+
+#: library/plugin-display.php:421
+msgid "Error message displayed if user does not check the box"
+msgstr "يتم عرض رسالة الخطأ إذا لم يحدد المستخدم المربع"
+
+#: user-submitted-posts.php:1714
+msgid "Error: "
+msgstr "خطأ: "
+
+#: library/plugin-display.php:759
+msgid "Example"
+msgstr "مثال"
+
+#: library/plugin-display.php:493
+msgid "Featured Image"
+msgstr "صورة مميزة"
+
+#: user-submitted-posts.php:1697
+msgid "File not uploaded. Please check the file and try again."
+msgstr "لم يتم تحميل الملف. يرجى التحقق من الملف والمحاولة مرة أخرى."
+
+#: user-submitted-posts.php:1690
+msgid "File type not allowed (please upload images only)"
+msgstr "نوع الملف غير مسموح به (يرجى تحميل الصور فقط)"
+
+#: library/plugin-display.php:366 library/plugin-display.php:394
+#: library/plugin-display.php:432
+msgid "For"
+msgstr "ل"
+
+#: library/plugin-display.php:293 library/plugin-display.php:338
+msgid "For more"
+msgstr "للمزيد من"
+
+#: library/plugin-display.php:36
+msgid "For more features and unlimited forms, check out"
+msgstr "لمزيد من الميزات والنماذج غير المحدودة ، تحقق من"
+
+#: library/plugin-display.php:194 library/plugin-display.php:242
+#: library/plugin-display.php:644
+msgid "For more options and features, check out"
+msgstr "لمزيد من الخيارات والميزات ، تحقق من"
+
+#: library/plugin-display.php:84
+msgid "For unlimited fields, check out"
+msgstr "لحقول غير محدودة ، تحقق من"
+
+#: library/shortcode-login.php:90
+msgid "Forgot?"
+msgstr "نسيت؟"
+
+#: library/plugin-display.php:59
+msgid "Form Fields"
+msgstr "حقول النموذج"
+
+#: library/plugin-display.php:97
+msgid "Form Style"
+msgstr "نمط النموذج"
+
+#: library/plugin-display.php:557
+msgid "Front-end Display"
+msgstr "عرض الواجهة الأمامية"
+
+#: library/plugin-display.php:115
+msgid "FYI: here is a"
+msgstr "لمعلوماتك: هنا ملف"
+
+#: library/plugin-display.php:92
+msgid "General Settings"
+msgstr "الاعدادات العامة"
+
+#: library/plugin-display.php:48
+msgid "Get USP Pro"
+msgstr "احصل على USP Pro"
+
+#: library/plugin-settings.php:38
+msgid "Get USP Pro for unlimited forms!"
+msgstr "احصل على USP Pro للحصول على نماذج غير محدودة!"
+
+#: library/plugin-display.php:46
+msgid "give it a 5-star rating"
+msgstr "امنحها تصنيف 5 نجوم"
+
+#: library/plugin-settings.php:66
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "امنح USP تصنيفًا من فئة 5 نجوم على WordPress.org"
+
+#: library/plugin-settings.php:39
+msgid "Go Pro"
+msgstr "Go Pro"
+
+#: library/plugin-settings.php:461 library/plugin-display.php:464
+msgid "Google reCaptcha"
+msgstr "جوجل reCaptcha"
+
+#: library/shortcode-login.php:107
+msgid "Have an account?"
+msgstr "هل لديك حساب؟"
+
+#: library/plugin-display.php:693
+msgid "Here are some examples showing how to configure this shortcode:"
+msgstr "فيما يلي بعض الأمثلة التي توضح كيفية تكوين هذا الرمز القصير:"
+
+#: library/plugin-display.php:320
+msgid "Hidden/Default Category"
+msgstr "الفئة المخفية / الافتراضية"
+
+#: library/plugin-settings.php:61
+msgid "Homepage"
+msgstr "الصفحة الرئيسية"
+
+#: library/plugin-settings.php:195
+msgid "HTML5 Form + Default CSS"
+msgstr "نموذج HTML5 + CSS الافتراضي"
+
+#: library/plugin-settings.php:199
+msgid "HTML5 Form + Disable CSS"
+msgstr "نموذج HTML5 + تعطيل CSS"
+
+#. URI of the plugin
+#: 
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
+
+#. Author URI of the plugin
+#: 
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
+
+#: views/submission-form.php:169 views/submission-form-alt.php:184
+msgid "Human verification: leave this field empty."
+msgstr "التحقق البشري: اترك هذا الحقل فارغًا."
+
+#: library/plugin-display.php:273
+msgid "If multiple addresses are specified for the previous setting, include an equal number of addresses for this setting (in the same order)."
+msgstr "إذا تم تحديد عناوين متعددة للإعداد السابق ، فقم بتضمين عدد متساوٍ من العناوين لهذا الإعداد (بنفس الترتيب)."
+
+#: library/plugin-display.php:760
+msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
+msgstr "إذا قام المستخدم بتسجيل الدخول ، اعرض نموذج ما بعد الإرسال ؛ أو إذا لم يقم المستخدم بتسجيل الدخول ، اعرض نموذج تسجيل الدخول:"
+
+#: library/plugin-display.php:45
+msgid "If you like this plugin, please"
+msgstr "إذا كنت تحب هذا البرنامج المساعد ، من فضلك"
+
+#: library/plugin-display.php:562
+msgid "Image Display"
+msgstr "عرض الصور"
+
+#: user-submitted-posts.php:1689
+msgid "Image height exceeds maximum"
+msgstr "ارتفاع الصورة يتجاوز الحد الأقصى"
+
+#: library/plugin-display.php:569
+msgid "Image Markup"
+msgstr "توصيف الصورة"
+
+#: library/plugin-settings.php:491 library/plugin-display.php:488
+msgid "Image Uploads"
+msgstr "تحميلات الصور"
+
+#: user-submitted-posts.php:1687
+msgid "Image width exceeds maximum"
+msgstr "عرض الصورة يتجاوز الحد الأقصى"
+
+#: library/plugin-display.php:722
+msgid "in"
+msgstr "في"
+
+#: library/plugin-display.php:107
+msgid "in your theme:"
+msgstr "في المظهر الخاص بك:"
+
+#: library/plugin-display.php:121
+msgid "Include JavaScript"
+msgstr "قم بتضمين JavaScript"
+
+#: library/plugin-display.php:123
+msgid "Include required JavaScript files (recommended)"
+msgstr "قم بتضمين ملفات JavaScript المطلوبة (مستحسن)"
+
+#: library/enqueue-scripts.php:152
+msgid "Incorrect response."
+msgstr "استجابة غير صحيحة."
+
+#: library/plugin-display.php:114
+msgid "Installation Docs"
+msgstr "تثبيت المستندات"
+
+#. Author of the plugin
+#: 
+msgid "Jeff Starr"
+msgstr "جيف ستار"
+
+#: library/plugin-display.php:806
+msgid "Jeff Starr on Twitter"
+msgstr "جيف ستار على تويتر"
+
+#: library/plugin-display.php:702 library/plugin-display.php:774
+msgid "Learn&nbsp;more"
+msgstr "تعلم المزيد"
+
+#: library/plugin-display.php:785
+msgid "Leave this option disabled to remember your settings."
+msgstr "اترك هذا الخيار معطلاً لتذكر إعداداتك."
+
+#: library/plugin-settings.php:88
+msgid "Like this plugin? Give it a"
+msgstr "مثل هذا البرنامج المساعد؟ امنحها أ"
+
+#: library/plugin-display.php:115
+msgid "list of USP CSS selectors"
+msgstr "قائمة محددات USP CSS"
+
+#: user-submitted-posts.php:1771
+msgid "log in"
+msgstr "تسجيل الدخول"
+
+#: library/shortcode-login.php:108
+msgid "Log in or sign up! It&rsquo;s fast &amp; free!"
+msgstr "تسجيل الدخول أو الاشتراك! إنه سريع. حر!"
+
+#: library/shortcode-login.php:182
+msgid "Log out"
+msgstr "تسجيل خروج"
+
+#: library/shortcode-login.php:88 library/shortcode-login.php:127
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: library/shortcode-login.php:155
+msgid "Lose something?"
+msgstr "تفقد شيئا؟"
+
+#: library/support-panel.php:107
+msgid "Make a donation&nbsp;&raquo;"
+msgstr "قم بالتبرع & nbsp؛ & raquo؛"
+
+#: library/plugin-display.php:459
+msgid "Make the challenge response case-sensitive"
+msgstr "اجعل استجابة التحدي حساسة لحالة الأحرف"
+
+#: library/plugin-display.php:624
+msgid "Markup for Custom Field 1. You may include any of the following variables:"
+msgstr "ترميز الحقل المخصص 1. يمكنك تضمين أي من المتغيرات التالية:"
+
+#: library/plugin-display.php:637
+msgid "Markup for Custom Field 2. You may include any of the following variables:"
+msgstr "ترميز الحقل المخصص 2. يمكنك تضمين أي من المتغيرات التالية:"
+
+#: library/plugin-display.php:571
+msgid "Markup for each submitted image. You may include any of the following variables:"
+msgstr "ترميز لكل صورة مقدمة. يمكنك تضمين أي من المتغيرات التالية:"
+
+#: library/plugin-display.php:598
+msgid "Markup for submitted author/name. You may include"
+msgstr "ترميز المؤلف / الاسم المقدم. يمكنك تضمين ملفات"
+
+#: library/plugin-display.php:585
+msgid "Markup for submitted email address. You may include any of the following variables:"
+msgstr "ترميز عنوان البريد الإلكتروني المقدم. يمكنك تضمين أي من المتغيرات التالية:"
+
+#: library/plugin-display.php:611
+msgid "Markup for submitted URL. You may include any of the following variables:"
+msgstr "ترميز URL المقدم. يمكنك تضمين أي من المتغيرات التالية:"
+
+#: library/plugin-display.php:543
+msgid "Maximum height (in pixels) for uploaded images"
+msgstr "أقصى ارتفاع (بالبكسل) للصور التي تم تحميلها"
+
+#: library/plugin-display.php:541
+msgid "Maximum image height"
+msgstr "أقصى ارتفاع للصورة"
+
+#: library/plugin-display.php:536
+msgid "Maximum image width"
+msgstr "أقصى عرض للصورة"
+
+#: library/plugin-display.php:521
+msgid "Maximum number of images"
+msgstr "أقصى عدد من الصور"
+
+#: user-submitted-posts.php:1685
+msgid "Maximum number of images exceeded "
+msgstr "تم تجاوز الحد الأقصى لعدد الصور "
+
+#: library/plugin-display.php:523
+msgid "Maximum number of images for each submitted post"
+msgstr "أقصى عدد من الصور لكل منشور مقدم"
+
+#: library/plugin-display.php:538
+msgid "Maximum width (in pixels) for uploaded images"
+msgstr "أقصى عرض (بالبكسل) للصور التي تم تحميلها"
+
+#: library/plugin-display.php:152
+msgid "Message displayed after successful post submission (basic markup allowed)"
+msgstr "يتم عرض الرسالة بعد إرسال المنشور بنجاح (يُسمح بالترميز الأساسي)"
+
+#: library/plugin-display.php:508
+msgid "Message displayed next to the file upload field (basic markup allowed)"
+msgstr "يتم عرض الرسالة بجوار حقل تحميل الملف (يُسمح بالترميز الأساسي)"
+
+#: library/plugin-display.php:285
+msgid "Message for email alerts. Leave blank to use default message. You may include any of the following variables:"
+msgstr "رسالة لتنبيهات البريد الإلكتروني. اتركه فارغا لاستخدام الرسالة الافتراضية. يمكنك تضمين أي من المتغيرات التالية:"
+
+#: library/plugin-display.php:533
+msgid "Minimum height (in pixels) for uploaded images"
+msgstr "الحد الأدنى للارتفاع (بالبكسل) للصور التي تم تحميلها"
+
+#: library/plugin-display.php:531
+msgid "Minimum image height"
+msgstr "أدنى ارتفاع للصورة"
+
+#: user-submitted-posts.php:1688
+msgid "Minimum image height not met"
+msgstr "لم يتم تلبية الحد الأدنى لارتفاع الصورة"
+
+#: library/plugin-display.php:526
+msgid "Minimum image width"
+msgstr "أدنى عرض للصورة"
+
+#: user-submitted-posts.php:1686
+msgid "Minimum image width not met"
+msgstr "لم يتم تلبية الحد الأدنى لعرض الصورة"
+
+#: library/plugin-display.php:516
+msgid "Minimum number of images"
+msgstr "الحد الأدنى لعدد الصور"
+
+#: library/plugin-display.php:518
+msgid "Minimum number of images for each submitted post"
+msgstr "الحد الأدنى لعدد الصور لكل منشور مقدم"
+
+#: user-submitted-posts.php:1684
+msgid "Minimum number of images not met"
+msgstr "لم يتم استيفاء الحد الأدنى لعدد الصور"
+
+#: library/plugin-display.php:528
+msgid "Minimum width (in pixels) for uploaded images"
+msgstr "الحد الأدنى للعرض (بالبكسل) للصور التي تم تحميلها"
+
+#: library/plugin-display.php:81 library/plugin-display.php:191
+#: library/plugin-display.php:239 library/plugin-display.php:290
+#: library/plugin-display.php:335 library/plugin-display.php:363
+#: library/plugin-display.php:391 library/plugin-display.php:429
+#: library/plugin-display.php:546 library/plugin-display.php:641
+msgid "More Options"
+msgstr "المزيد من الخيارات"
+
+#: library/plugin-display.php:315
+msgid "Multiple Categories"
+msgstr "فئات متعددة"
+
+#: library/plugin-display.php:589
+msgid "Name Display"
+msgstr "اسم العرض"
+
+#: library/plugin-display.php:596
+msgid "Name Markup"
+msgstr "توصيف الاسم"
+
+#: user-submitted-posts.php:1683
+msgid "Non-empty value for hidden field"
+msgstr "قيمة غير فارغة للحقل المخفي"
+
+#: library/plugin-display.php:743
+msgid "Note that the url attribute accepts"
+msgstr "لاحظ أن سمة عنوان url مقبولة"
+
+#: library/plugin-display.php:718
+msgid "Notes:"
+msgstr "ملحوظات:"
+
+#: library/plugin-display.php:807
+msgid "Obsessive Web Design &amp; Development"
+msgstr "تصميم مواقع الويب الوسواسية تطوير"
+
+#: library/plugin-display.php:162
+msgid "Optional markup/text to include before the submission form (leave blank to disable)"
+msgstr "ترميز / نص اختياري لتضمينه قبل نموذج الإرسال (اتركه فارغًا للتعطيل)"
+
+#: library/plugin-display.php:340
+msgid "options, check out"
+msgstr "خيارات ، تحقق من"
+
+#: library/support-panel.php:59
+msgid "or"
+msgstr "أو"
+
+#: library/support-panel.php:59
+msgid "or by making a"
+msgstr "أو بجعل"
+
+#: library/plugin-display.php:786
+msgid "Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
+msgstr "أو ، للمضي قدمًا واستعادة خيارات المكون الإضافي الافتراضية: حدد المربع ، واحفظ إعداداتك ، ثم قم بإلغاء تنشيط / إعادة تنشيط المكون الإضافي."
+
+#: library/plugin-display.php:691
+msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
+msgstr "أو استخدم علامة القالب لعرض قائمة بالمشاركات المرسلة في أي مكان في قالب السمة الخاص بك:"
+
+#: library/plugin-display.php:710
+msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
+msgstr "أو استخدم علامة القالب لعرض معرض صور في أي مكان في قالب السمة الخاص بك:"
+
+#: library/plugin-display.php:669 library/plugin-display.php:682
+msgid "Or, use the template tag to display the form anywhere in your theme template:"
+msgstr "أو استخدم علامة القالب لعرض النموذج في أي مكان في قالب السمة الخاص بك:"
+
+#: library/plugin-display.php:31
+msgid "Overview"
+msgstr "ملخص"
+
+#: library/shortcode-login.php:118
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: library/plugin-settings.php:587
+msgid "Pending (default)"
+msgstr "معلق (افتراضي)"
+
+#: library/support-panel.php:49
+msgid "Perishable Press Books"
+msgstr "كتب الصحافة القابلة للتلف"
+
+#: user-submitted-posts.php:1770
+msgid "Please"
+msgstr "لو سمحت"
+
+#: user-submitted-posts.php:1682
+msgid "Please check your email and try again"
+msgstr "يرجى التحقق من بريدك الإلكتروني وحاول مرة أخرى"
+
+#: views/submission-form.php:21 views/submission-form-alt.php:40
+msgid "Please complete the required fields."
+msgstr "الرجاء إكمال الحقول المطلوبة."
+
+#: library/support-panel.php:105
+msgid "Please Donate"
+msgstr "يرجى التبرع"
+
+#: user-submitted-posts.php:124
+msgid "Please return to the"
+msgstr "يرجى العودة إلى"
+
+#: views/submission-form.php:92 views/submission-form-alt.php:107
+msgid "Please select a category.."
+msgstr "الرجاء تحديد الفئة.."
+
+#: views/submission-form.php:58 views/submission-form-alt.php:73
+msgid "Please select some tags.."
+msgstr "الرجاء تحديد بعض العلامات .."
+
+#: library/plugin-settings.php:883
+msgid "Please select your image(s) to upload."
+msgstr "يرجى تحديد الصور الخاصة بك لتحميلها."
+
+#: library/support-panel.php:58
+msgid "Please show support by purchasing one of my"
+msgstr "يرجى إظهار الدعم عن طريق شراء واحدة من بلدي"
+
+#: library/plugin-settings.php:60 library/plugin-display.php:40
+#: library/plugin-display.php:805
+msgid "Plugin Homepage"
+msgstr "الصفحة الرئيسية للبرنامج المساعد"
+
+#: library/support-panel.php:50
+msgid "Plugin Planet: Pro WordPress Plugins"
+msgstr "كوكب البرنامج المساعد: ملحقات Pro WordPress"
+
+#: library/plugin-settings.php:1211
+msgid "Plugin Sale:"
+msgstr "بيع البرنامج المساعد:"
+
+#: library/plugin-display.php:55
+msgid "Plugin Settings"
+msgstr "إعدادات البرنامج المساعد"
+
+#: library/support-panel.php:54
+msgid "plugins"
+msgstr "الإضافات"
+
+#: views/submission-form.php:90 views/submission-form-alt.php:105
+#: library/plugin-display.php:70
+msgid "Post Category"
+msgstr "فئة المشاركة"
+
+#: user-submitted-posts.php:1677
+msgid "Post category required"
+msgstr "فئة الوظيفة مطلوبة"
+
+#: views/submission-form.php:123 views/submission-form.php:124
+#: views/submission-form-alt.php:138 views/submission-form-alt.php:139
+#: library/plugin-display.php:71
+msgid "Post Content"
+msgstr "آخر المحتوى"
+
+#: user-submitted-posts.php:1678
+msgid "Post content required"
+msgstr "محتوى المشاركة مطلوب"
+
+#: user-submitted-posts.php:1703
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "لم يتم إنشاء المشاركة. يرجى الاتصال بمسؤول الموقع للحصول على المساعدة."
+
+#: library/plugin-display.php:138
+msgid "Post Status"
+msgstr "وضع آخر"
+
+#: library/plugin-display.php:141
+msgid "Post Status for submitted posts"
+msgstr "حالة النشر للوظائف المقدمة"
+
+#: views/submission-form.php:56 views/submission-form.php:65
+#: views/submission-form.php:66 views/submission-form-alt.php:71
+#: views/submission-form-alt.php:80 views/submission-form-alt.php:81
+#: library/plugin-display.php:69
+msgid "Post Tags"
+msgstr "نشر العلامات"
+
+#: user-submitted-posts.php:1676
+msgid "Post tags required"
+msgstr "علامات النشر مطلوبة"
+
+#: views/submission-form.php:49 views/submission-form.php:50
+#: views/submission-form-alt.php:64 views/submission-form-alt.php:65
+#: library/plugin-display.php:68
+msgid "Post Title"
+msgstr "عنوان الوظيفة"
+
+#: user-submitted-posts.php:1674
+msgid "Post title required"
+msgstr "مطلوب عنوان الوظيفة"
+
+#: library/plugin-display.php:131
+msgid "Post Type"
+msgstr "نوع آخر"
+
+#: library/plugin-display.php:134
+msgid "Post Type for submitted posts"
+msgstr "نوع الوظيفة للوظائف المقدمة"
+
+#: library/plugin-display.php:474
+msgid "Private Key"
+msgstr "مفتاح سري"
+
+#: library/plugin-settings.php:1213
+msgid "Pro WordPress plugins"
+msgstr "إضافات Pro WordPress"
+
+#: library/shortcode-login.php:184
+msgid "Profile"
+msgstr "حساب تعريفي"
+
+#: library/plugin-display.php:469
+msgid "Public Key"
+msgstr "المفتاح العمومي"
+
+#: library/plugin-settings.php:590
+msgid "Publish after "
+msgstr "نشر بعد "
+
+#: library/plugin-settings.php:589
+msgid "Publish after 1 approved post"
+msgstr "انشر بعد مشاركة واحدة معتمدة"
+
+#: library/plugin-settings.php:588
+msgid "Publish immediately"
+msgstr "انشر على الفور"
+
+#: library/plugin-settings.php:67
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "قيم هذا البرنامج المساعد & nbsp؛ & raquo؛"
+
+#: library/plugin-display.php:479
+msgid "reCaptcha Version"
+msgstr "نسخة reCaptcha"
+
+#: library/plugin-display.php:255
+msgid "Receive Email Alert"
+msgstr "تلقي تنبيه عبر البريد الإلكتروني"
+
+#: library/plugin-display.php:145
+msgid "Redirect URL"
+msgstr "إعادة توجيه URL"
+
+#: library/plugin-display.php:147
+msgid "Redirect user to this URL after post submission (leave blank to stay on current page)"
+msgstr "إعادة توجيه المستخدم إلى عنوان URL هذا بعد إرسال المنشور (اتركه فارغًا للبقاء في الصفحة الحالية)"
+
+#: library/shortcode-login.php:89
+msgid "Register"
+msgstr "يسجل"
+
+#: library/shortcode-login.php:135
+msgid "Register for this site!"
+msgstr "التسجيل في هذا الموقع!"
+
+#: library/plugin-display.php:219
+msgid "Registered Email"
+msgstr "بريد الكتروني مسجل"
+
+#: library/plugin-display.php:224
+msgid "Registered URL"
+msgstr "URL المسجل"
+
+#: library/plugin-display.php:214
+msgid "Registered Username"
+msgstr "اسم المستخدم المسجل"
+
+#: library/shortcode-login.php:124
+msgid "Remember me"
+msgstr "تذكرنى"
+
+#: library/plugin-display.php:172
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate posts)"
+msgstr "اشتراط أن تكون عناوين المنشورات المقدمة فريدة (مفيدة لمنع النشرات المتعددة / المكررة)"
+
+#: library/plugin-display.php:229
+msgid "Require User Login"
+msgstr "يتطلب تسجيل دخول المستخدم"
+
+#: library/plugin-display.php:231
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "مطالبة المستخدمين بتسجيل الدخول إلى WordPress لعرض / إرسال النموذج"
+
+#: user-submitted-posts.php:122
+msgid "requires WordPress "
+msgstr "يتطلب WordPress "
+
+#: library/shortcode-misc.php:18
+msgid "Reset form"
+msgstr "إعادة تعيين النموذج"
+
+#: library/plugin-display.php:734
+msgid "Reset Form Button"
+msgstr "زر إعادة تعيين النموذج"
+
+#: library/shortcode-login.php:163
+msgid "Reset my password"
+msgstr "إعادة تعيين كلمة المرور الخاصة بي"
+
+#: library/plugin-display.php:789
+msgid "Restore default options upon plugin deactivation/reactivation"
+msgstr "استعادة الخيارات الافتراضية عند إلغاء تنشيط / إعادة تنشيط البرنامج المساعد"
+
+#: library/plugin-display.php:783
+msgid "Restore Defaults"
+msgstr "استعادة الضبط الافتراضي"
+
+#: user-submitted-posts.php:1740
+msgid "Return to form"
+msgstr "العودة إلى النموذج"
+
+#: library/plugin-display.php:165
+msgid "Rich Text Editor"
+msgstr "معالج النصوص"
+
+#: library/plugin-settings.php:1212
+msgid "Save 20% on any of our"
+msgstr "وفر 20٪ على أي من"
+
+#: library/plugin-display.php:652
+msgid "Save All Changes"
+msgstr "احفظ جميع التغييرات"
+
+#: library/plugin-display.php:818
+msgid "Save Preference"
+msgstr "حفظ التفضيل"
+
+#: library/plugin-display.php:791
+msgid "Save Settings"
+msgstr "احفظ التغييرات"
+
+#: library/plugin-settings.php:618
+msgid "Select categories to include in the Category field:"
+msgstr "حدد الفئات المراد تضمينها في حقل الفئة:"
+
+#: library/plugin-display.php:257
+msgid "Send email alerts for new post submissions"
+msgstr "إرسال تنبيهات البريد الإلكتروني لتقديم آخر جديد"
+
+#: library/plugin-settings.php:29
+msgid "Settings"
+msgstr "إعدادات"
+
+#: library/plugin-display.php:310
+msgid "Show categories"
+msgstr "عرض الفئات"
+
+#: user-submitted-posts.php:693
+msgid "Show USP Posts"
+msgstr "إظهار وظائف USP"
+
+#: library/shortcode-login.php:136
+msgid "Sign up now for the good stuff."
+msgstr "اشترك الآن لالأشياء الجيدة."
+
+#: library/shortcode-login.php:147
+msgid "Sign up!"
+msgstr "اشتراك!"
+
+#: library/plugin-display.php:327
+msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
+msgstr "حدد معرفات الفئة لاستخدامها في & ldquo ؛ الفئة المخفية / الافتراضية & rdquo ؛ (افصل بين المعرفات المتعددة بفاصلات)"
+
+#: library/plugin-display.php:210
+msgid "Specify the user that should be assigned as author for submitted posts"
+msgstr "حدد المستخدم الذي يجب تعيينه كمؤلف للمشاركات المقدمة"
+
+#: library/plugin-display.php:278
+msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
+msgstr "سطر الموضوع لتنبيهات البريد الإلكتروني. اتركه فارغا لاستخدام سطر الموضوع الافتراضي. يمكنك تضمين أي من المتغيرات التالية:"
+
+#: views/submission-form.php:197 views/submission-form-alt.php:212
+msgid "Submit Post"
+msgstr "إرسال آخر"
+
+#: library/plugin-settings.php:9
+msgid "Submitted Posts"
+msgstr "المشاركات المقدمة"
+
+#: user-submitted-posts.php:636
+msgid "Submitter Email: "
+msgstr "البريد الإلكتروني للمرسل: "
+
+#: user-submitted-posts.php:638
+msgid "Submitter IP: "
+msgstr "عنوان IP للمرسل: "
+
+#: user-submitted-posts.php:635
+msgid "Submitter Name: "
+msgstr "اسم المرسل: "
+
+#: user-submitted-posts.php:637
+msgid "Submitter URL: "
+msgstr "URL المرسل: "
+
+#: library/plugin-display.php:150
+msgid "Success Message"
+msgstr "نجاح رسالة"
+
+#: library/shortcode-login.php:97 library/shortcode-login.php:102
+msgid "Success!"
+msgstr "نجاح!"
+
+#: library/plugin-settings.php:889
+msgid "Success! Thank you for your submission."
+msgstr "نجاح! شكرا لتقريركم."
+
+#: library/plugin-display.php:42
+msgid "Support Forum"
+msgstr "منتدى الدعم"
+
+#: library/plugin-display.php:340
+msgid "tag"
+msgstr "بطاقة شعار"
+
+#: library/plugin-display.php:126
+msgid "Targeted Loading"
+msgstr "التحميل المستهدف"
+
+#: library/plugin-display.php:426
+msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
+msgstr "يتم عرض النص بجوار مربع الاختيار. نصيحة: استخدم الأقواس المتعرجة لإخراج أقواس زاوية ، على سبيل المثال:"
+
+#: library/support-panel.php:57
+msgid "Thank you for using"
+msgstr "شكرا لأستخدامك"
+
+#: library/plugin-display.php:46
+msgid "THANK YOU for your support!"
+msgstr "شكرا لدعمكم!"
+
+#: library/plugin-display.php:113
+msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
+msgstr "سيمكنك ذلك من تخصيص النموذج والأنماط حسب الرغبة. لمزيد من المعلومات ، راجع قسم \"نموذج الإرسال المخصص\" في"
+
+#: library/plugin-display.php:769
+msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
+msgstr "يمكن إضافة أكواد الوصول القصيرة إلى أي منشور أو صفحة WP. لذلك يمكنك عرض النماذج والمحتويات الأخرى بشكل مشروط ، بناءً على دور المستخدم وحالة تسجيل الدخول."
+
+#: user-submitted-posts.php:1701
+msgid "The file(s) could not be uploaded"
+msgstr "لا يمكن تحميل الملف (الملفات)"
+
+#: library/plugin-display.php:684
+msgid "The login/register form displays as a tabbed interface, so users can switch between login, register, and reset password."
+msgstr "يتم عرض نموذج تسجيل الدخول / التسجيل كواجهة مبوبة ، بحيث يمكن للمستخدمين التبديل بين تسجيل الدخول والتسجيل وإعادة تعيين كلمة المرور."
+
+#: library/plugin-display.php:701
+msgid "The pro version provides many more options for this shortcode."
+msgstr "يوفر الإصدار المحترف العديد من الخيارات لهذا الرمز القصير."
+
+#: library/plugin-display.php:773
+msgid "The pro version provides more flexibility with access-control shortcodes."
+msgstr "يوفر الإصدار المحترف مزيدًا من المرونة مع الرموز القصيرة للتحكم في الوصول."
+
+#: library/plugin-settings.php:869
+msgid "There was an error. Please check required fields and try again."
+msgstr "كان هناك خطأ. يرجى التحقق من الحقول المطلوبة وحاول مرة أخرى."
+
+#: library/plugin-display.php:188
+msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
+msgstr "يتيح هذا الإعداد أي / جميع الرموز القصيرة في الأدوات (حتى الرموز القصيرة من المكونات الإضافية الأخرى)."
+
+#: library/plugin-display.php:738
+msgid "This shortcode accepts the following attributes:"
+msgstr "يقبل هذا الرمز القصير السمات التالية:"
+
+#: library/plugin-display.php:736
+msgid "This shortcode displays a link that resets the form to its original state:"
+msgstr "يعرض هذا الرمز القصير ارتباطًا يعيد تعيين النموذج إلى حالته الأصلية:"
+
+#: library/plugin-display.php:360
+msgid "This will be displayed as the field label on the form. Default: Custom Field 1"
+msgstr "سيتم عرض هذا كتسمية الحقل في النموذج. الافتراضي: حقل مخصص 1"
+
+#: library/plugin-display.php:388
+msgid "This will be displayed as the field label on the form. Default: Custom Field 2"
+msgstr "سيتم عرض هذا كتسمية الحقل في النموذج. الافتراضي: حقل مخصص 2"
+
+#: library/plugin-display.php:700 library/plugin-display.php:756
+#: library/plugin-display.php:772
+msgid "Tip:"
+msgstr "نصيحة:"
+
+#: library/plugin-display.php:599
+msgid "to display the submitted name."
+msgstr "لعرض الاسم المقدم."
+
+#: library/plugin-display.php:466
+msgid "To enable Google reCaptcha, enter your public and private keys."
+msgstr "لتمكين Google reCaptcha ، أدخل مفاتيحك العامة والخاصة."
+
+#: library/plugin-display.php:743
+msgid "to get the current URL."
+msgstr "للحصول على عنوان URL الحالي."
+
+#: library/plugin-display.php:729
+msgid "to get the URL of the full-size image"
+msgstr "للحصول على عنوان URL للصورة بالحجم الكامل"
+
+#: library/plugin-display.php:757
+msgid "to include markup in the deny message, you can use"
+msgstr "لتضمين الترميز في رسالة الرفض ، يمكنك استخدام"
+
+#: library/plugin-display.php:757
+msgid "to output"
+msgstr "لإخراج"
+
+#: library/plugin-display.php:721
+msgid "to output angle brackets"
+msgstr "لإخراج أقواس زاوية"
+
+#: library/plugin-display.php:449
+msgid "To prevent spam, enter a question that users must answer before submitting the form"
+msgstr "لمنع البريد العشوائي ، أدخل سؤالاً يجب على المستخدمين الإجابة عليه قبل إرسال النموذج"
+
+#: user-submitted-posts.php:1772
+msgid "to submit content!"
+msgstr "لتقديم المحتوى!"
+
+#: user-submitted-posts.php:126
+msgid "to upgrade WordPress and try again."
+msgstr "لترقية WordPress وحاول مرة أخرى."
+
+#: library/plugin-display.php:22
+msgid "Toggle all panels"
+msgstr "تبديل كل اللوحات"
+
+#: library/plugin-display.php:170
+msgid "Unique Titles"
+msgstr "عناوين فريدة"
+
+#: library/plugin-display.php:433
+msgid "unlimited checkbox fields"
+msgstr "حقول مربعات اختيار غير محدودة"
+
+#: library/plugin-display.php:367 library/plugin-display.php:395
+msgid "unlimited custom fields"
+msgstr "حقول مخصصة غير محدودة"
+
+#: library/plugin-display.php:48
+msgid "Unlimited front-end forms"
+msgstr "أشكال غير محدودة للواجهة الأمامية"
+
+#: views/submission-form.php:138 views/submission-form-alt.php:153
+msgid "Upload an Image"
+msgstr "تحميل صورة"
+
+#: library/plugin-display.php:506
+msgid "Upload Message"
+msgstr "تحميل الرسالة"
+
+#: library/plugin-settings.php:920
+msgid "URL"
+msgstr "URL"
+
+#: library/plugin-display.php:602
+msgid "URL Display"
+msgstr "عرض URL"
+
+#: library/plugin-display.php:609
+msgid "URL Markup"
+msgstr "ترميز URL"
+
+#: library/plugin-display.php:322
+msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
+msgstr "استخدم حقلاً مخفيًا لفئة المشاركة. هذا يخفي حقل الفئة ويعين قيمته عبر الخيار التالي."
+
+#: library/plugin-display.php:721
+msgid "Use curly brackets"
+msgstr "استخدم الأقواس المتعرجة"
+
+#: library/plugin-display.php:330
+msgid "Use Existing Tags"
+msgstr "استخدم العلامات الموجودة"
+
+#: library/plugin-display.php:355 library/plugin-display.php:383
+#: library/plugin-display.php:416
+msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
+msgstr "استخدم فقط الأبجدية الرقمية والشرطات السفلية والشرطات. إذا لم تكن متأكدًا ، فاستخدم الاسم الافتراضي:"
+
+#: library/plugin-display.php:726
+msgid "Use single straight quotes (instead of double quotes) in"
+msgstr "استخدم علامات الاقتباس المفردة (بدلاً من علامات الاقتباس المزدوجة) في"
+
+#: library/plugin-display.php:495
+msgid "Use submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
+msgstr "استخدم الصور المرسلة كصور مميزة. يتطلب دعم سمة للصور المميزة (ويعرف أيضًا باسم Post Thumbnails)"
+
+#: library/plugin-display.php:667 library/plugin-display.php:680
+msgid "Use the shortcode to display the form on any WP Post or Page:"
+msgstr "استخدم الرمز المختصر لعرض النموذج على أي منشور أو صفحة WP:"
+
+#: library/plugin-display.php:226
+msgid "Use the user&rsquo;s Profile URL as the value of the URL field (valid when the user is logged in to WordPress)"
+msgstr "استخدم عنوان URL لملف تعريف المستخدم كقيمة لحقل عنوان URL (صالح عند تسجيل دخول المستخدم إلى WordPress)"
+
+#: library/plugin-display.php:221
+msgid "Use the user&rsquo;s registered email as the value of the Email field (valid when the user is logged in to WordPress)"
+msgstr "استخدم البريد الإلكتروني المسجل للمستخدم كقيمة لحقل البريد الإلكتروني (صالح عندما يقوم المستخدم بتسجيل الدخول إلى WordPress)"
+
+#: library/plugin-display.php:216
+msgid "Use the user&rsquo;s registered username for the Name field (valid when the user is logged in to WordPress)"
+msgstr "استخدم اسم المستخدم المسجل لحقل الاسم (صالح عندما يقوم المستخدم بتسجيل الدخول إلى WordPress)"
+
+#: library/plugin-display.php:708
+msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
+msgstr "استخدم هذا الرمز المختصر لعرض معرض للصور التي تم تحميلها لكل منشور مقدم:"
+
+#: library/plugin-display.php:689
+msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
+msgstr "استخدم هذا الرمز المختصر لعرض قائمة بالمنشورات المرسلة على أي منشور أو صفحة WP:"
+
+#: library/plugin-display.php:66
+msgid "User Email"
+msgstr "البريد الالكتروني للمستخدم"
+
+#: user-submitted-posts.php:1681
+msgid "User email required"
+msgstr "البريد الإلكتروني للمستخدم مطلوب"
+
+#: user-submitted-posts.php:1672
+msgid "User login required"
+msgstr "تسجيل دخول المستخدم مطلوب"
+
+#: library/plugin-display.php:65
+msgid "User Name"
+msgstr "اسم المستخدم"
+
+#: user-submitted-posts.php:1673
+msgid "User name required"
+msgstr "اسم المستخدم (مطلوب"
+
+#: library/plugin-display.php:202
+msgid "User Settings"
+msgstr "إعدادات المستخدم"
+
+#: user-submitted-posts.php:202
+msgid "User Submitted Post"
+msgstr "مشاركة أرسلها المستخدم"
+
+#: user-submitted-posts.php:605
+msgid "User Submitted Post Info"
+msgstr "أرسل المستخدم معلومات المشاركة"
+
+#. Name of the plugin
+#: user-submitted-posts.php:42 library/support-panel.php:7
+msgid "User Submitted Posts"
+msgstr "مشاركات المستخدم المرسلة"
+
+#: library/plugin-display.php:67
+msgid "User URL"
+msgstr "URL المستخدم"
+
+#: user-submitted-posts.php:1675
+msgid "User URL required"
+msgstr "مطلوب URL المستخدم"
+
+#: library/shortcode-login.php:114 library/shortcode-login.php:139
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: library/shortcode-login.php:159
+msgid "Username or Email"
+msgstr "اسم المستخدم أو البريد الالكتروني"
+
+#: user-submitted-posts.php:694 library/plugin-display.php:35
+msgid "USP"
+msgstr "USP"
+
+#: library/plugin-display.php:666
+msgid "USP enables you to display a post-submission form anywhere on your site."
+msgstr "يمكّنك USP من عرض نموذج ما بعد الإرسال في أي مكان على موقعك."
+
+#: library/plugin-display.php:36 library/plugin-display.php:85
+#: library/plugin-display.php:195 library/plugin-display.php:243
+#: library/plugin-display.php:296 library/plugin-display.php:341
+#: library/plugin-display.php:369 library/plugin-display.php:397
+#: library/plugin-display.php:435 library/plugin-display.php:550
+#: library/plugin-display.php:645 library/plugin-display.php:673
+msgid "USP Pro"
+msgstr "USP Pro"
+
+#: library/plugin-display.php:748
+msgid "USP provides three shortcodes to control access and restrict content."
+msgstr "يوفر USP ثلاثة رموز قصيرة للتحكم في الوصول وتقييد المحتوى."
+
+#: library/plugin-settings.php:339
+msgid "v2 (I&rsquo;m not a robot)"
+msgstr "v2 (أنا لست روبوتًا)"
+
+#: library/plugin-settings.php:343
+msgid "v3 (Hidden reCaptcha)"
+msgstr "الإصدار 3 (اختبار reCaptcha المخفي)"
+
+#: views/submission-form.php:131 views/submission-form-alt.php:146
+msgid "Verification"
+msgstr "تَحَقّق"
+
+#: library/shortcode-misc.php:135
+msgid "View full post"
+msgstr "مشاهدة المشاركة كاملة"
+
+#: library/plugin-display.php:672
+msgid "Want more than one form? Create unlimited submission forms, registration forms, contact forms and more with"
+msgstr "تريد أكثر من شكل؟ قم بإنشاء نماذج تقديم غير محدودة واستمارات التسجيل ونماذج الاتصال والمزيد باستخدام"
+
+#: library/shortcode-login.php:177
+msgid "Welcome, "
+msgstr "مرحباً، "
+
+#: library/plugin-display.php:102
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "باستخدام هذا الخيار ، يمكنك نسخ القوالب الافتراضية للمكون الإضافي:"
+
+#: user-submitted-posts.php:125
+msgid "WordPress Admin Area"
+msgstr "منطقة إدارة WordPress"
+
+#: library/plugin-settings.php:179
+msgid "WP Page"
+msgstr "صفحة الفسفور الابيض"
+
+#: library/plugin-settings.php:175
+msgid "WP Post (recommended)"
+msgstr "WP Post (موصى به)"
+
+#: library/plugin-display.php:796
+msgid "WP Resources"
+msgstr "موارد الفسفور الابيض"
+
+#: library/plugin-display.php:679
+msgid "You also can display a simple form that enables users to log in, register, or reset their password."
+msgstr "يمكنك أيضًا عرض نموذج بسيط يمكّن المستخدمين من تسجيل الدخول أو التسجيل أو إعادة تعيين كلمة المرور الخاصة بهم."
+
+#: library/plugin-display.php:712
+msgid "You can customize using any of the follwing attributes:"
+msgstr "يمكنك التخصيص باستخدام أي من السمات التالية:"
+
+#: views/submission-form.php:37 views/submission-form.php:38
+#: views/submission-form-alt.php:52 views/submission-form-alt.php:53
+#: library/shortcode-login.php:143
+msgid "Your Email"
+msgstr "بريدك الالكتروني"
+
+#: library/support-panel.php:60
+msgid "Your generous support helps future development of"
+msgstr "دعمك السخي يساعد في التطوير المستقبلي لـ"
+
+#: views/submission-form.php:31 views/submission-form.php:32
+#: views/submission-form-alt.php:46 views/submission-form-alt.php:47
+msgid "Your Name"
+msgstr "اسمك"
+
+#: views/submission-form.php:43 views/submission-form.php:44
+#: views/submission-form-alt.php:58 views/submission-form-alt.php:59
+msgid "Your URL"
+msgstr "عنوان URL الخاص بك"
+
+#: library/plugin-settings.php:92
+msgid "★★★★★ rating&nbsp;&raquo;"
+msgstr "★★★★★ التصنيف & نبسب ؛ & raquo ؛"
+

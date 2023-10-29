@@ -1,0 +1,4 @@
+/* User Submitted Posts > CSS > Posts */
+.wrap .button#usp-admin-filter, 
+.wrap .button#usp-admin-filter-other { float: right; margin: 0 8px 0 0; }
+.wrap form#posts-filter input#delete_all { margin-right: 8px; }

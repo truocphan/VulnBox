@@ -1,0 +1,1676 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: USP 20230727\n"
+"Language: sr\n"
+
+#: library/plugin-settings.php:590
+msgid " approved posts"
+msgstr " одобрене постове"
+
+#: user-submitted-posts.php:1649
+msgid " file"
+msgstr " фајл"
+
+#: user-submitted-posts.php:1646
+msgid " file required"
+msgstr " потребна датотека"
+
+#: user-submitted-posts.php:1648
+msgid " files"
+msgstr " фајлови"
+
+#: user-submitted-posts.php:1645
+msgid " files required"
+msgstr " потребне датотеке"
+
+#: user-submitted-posts.php:123
+msgid " or higher, and has been deactivated! "
+msgstr " или више, и деактивиран! "
+
+#: user-submitted-posts.php:1651 user-submitted-posts.php:1652
+#: user-submitted-posts.php:1653 user-submitted-posts.php:1654
+msgid " pixels"
+msgstr " пиксела"
+
+#: user-submitted-posts.php:1691 user-submitted-posts.php:1692
+msgid " required"
+msgstr " потребан"
+
+#: library/plugin-display.php:511
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "&лдкуо;Додај још једну слику&рдкуо; линк"
+
+#: library/plugin-display.php:37
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "&мдасх; врхунско решење за садржај који генеришу корисници."
+
+#: library/plugin-settings.php:203
+msgid "(Provide your own form template &amp; styles)"
+msgstr "(Наведите свој шаблон обрасца и стилове)"
+
+#: library/plugin-settings.php:199
+msgid "(Provide your own styles)"
+msgstr "(Наведите своје стилове)"
+
+#: library/plugin-settings.php:195
+msgid "(Recommended)"
+msgstr "(препоручено)"
+
+#: library/plugin-display.php:107
+msgid "..and upload them into a directory named"
+msgstr "..и отпремите их у директоријум под називом"
+
+#: library/plugin-display.php:746
+msgid "Access Control"
+msgstr "Контрола приступа"
+
+#: library/plugin-display.php:444
+msgid "Add a challenge question to help stop spam. Tip: make the question easy to answer for any human."
+msgstr "Додајте изазовно питање да бисте спречили нежељену пошту. Савет: учините питање једноставним за сваког човека."
+
+#: views/submission-form.php:147 views/submission-form-alt.php:162
+msgid "Add another image"
+msgstr "Додајте још једну слику"
+
+#: library/plugin-display.php:267
+msgid "Additional recipients for email alerts. Use commas to separate multiple addresses."
+msgstr "Додатни примаоци за обавештења путем е-поште. Користите зарезе да одвојите више адреса."
+
+#: library/shortcode-login.php:183
+msgid "Admin"
+msgstr "Админ"
+
+#: library/plugin-settings.php:223 library/plugin-settings.php:247
+#: library/plugin-settings.php:271 library/plugin-settings.php:295
+#: library/plugin-settings.php:319
+msgid "After post content"
+msgstr "Након садржаја поста"
+
+#: user-submitted-posts.php:1662
+msgid "An error occurred. Please go back and try again."
+msgstr "Дошло је до грешке. Вратите се и покушајте поново."
+
+#: library/plugin-display.php:339 library/plugin-display.php:722
+#: library/plugin-display.php:727
+msgid "and"
+msgstr "и"
+
+#: library/support-panel.php:61
+msgid "and is greatly appreciated."
+msgstr "и веома је цењен."
+
+#: views/submission-form.php:85 views/submission-form-alt.php:100
+msgid "Antispam Question"
+msgstr "Антиспам питање"
+
+#: library/support-panel.php:63
+msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
+msgstr "Донација било које величине помаже ми да наставим са развојем овог бесплатног додатка и других сјајних ВордПресс ресурса."
+
+#: library/plugin-settings.php:1214
+msgid "Apply code"
+msgstr "Примени код"
+
+#: library/plugin-display.php:207
+msgid "Assigned Author"
+msgstr "Додељени аутор"
+
+#: library/plugin-settings.php:1214
+msgid "at checkout. Sale ends 9/9/23."
+msgstr "на одласку. Распродаја се завршава 9.9.23."
+
+#: library/plugin-display.php:723 library/plugin-display.php:727
+msgid "attributes"
+msgstr "атрибути"
+
+#: library/plugin-display.php:559
+msgid "Automatically display images and more."
+msgstr "Аутоматски приказујте слике и још много тога."
+
+#: library/plugin-settings.php:219 library/plugin-settings.php:243
+#: library/plugin-settings.php:267 library/plugin-settings.php:291
+#: library/plugin-settings.php:315
+msgid "Before post content"
+msgstr "Пре објављивања садржаја"
+
+#: library/support-panel.php:53
+msgid "books"
+msgstr "књиге"
+
+#: library/plugin-display.php:805
+msgid "by"
+msgstr "од стране"
+
+#: library/plugin-display.php:128
+msgid "By default, CSS &amp; JavaScript files are loaded on every page. To load only on specific page(s), enter the URL(s) here. Use commas to separate multiple URLs. Leave blank to load on all pages."
+msgstr "Подразумевано, ЦСС &амп; ЈаваСцрипт датотеке се учитавају на сваку страницу. Да бисте учитали само на одређеним страницама, унесите УРЛ(е) овде. Користите зарезе да бисте одвојили више УРЛ-ова. Оставите празно за учитавање на свим страницама."
+
+#: library/plugin-display.php:406
+msgid "By default, this displays an &ldquo;Agree to Terms&rdquo; checkbox. Customize as desired."
+msgstr "Подразумевано, ово приказује &лдкуо;Слажем се са условима&рдкуо; поље за потврду. Прилагодите по жељи."
+
+#: library/plugin-display.php:729
+msgid "Can use"
+msgstr "Можете користити"
+
+#: library/plugin-display.php:457
+msgid "Case-sensitivity"
+msgstr "Осетљивост на велика и мала слова"
+
+#: library/plugin-display.php:308
+msgid "Categories"
+msgstr "Категорије"
+
+#: library/plugin-display.php:303
+msgid "Categories &amp; Tags"
+msgstr "Категорије &амп; Ознаке"
+
+#: library/plugin-display.php:339
+msgid "category"
+msgstr "категорија"
+
+#: library/plugin-display.php:325
+msgid "Category ID for Hidden Field"
+msgstr "ИД категорије за скривено поље"
+
+#: library/plugin-settings.php:431 library/plugin-display.php:442
+#: library/plugin-display.php:447
+msgid "Challenge Question"
+msgstr "Изазов Питање"
+
+#: library/plugin-display.php:452
+msgid "Challenge Response"
+msgstr "Цхалленге Респонсе"
+
+#: library/plugin-display.php:295 library/plugin-display.php:368
+#: library/plugin-display.php:396 library/plugin-display.php:434
+msgid "check out"
+msgstr "провери"
+
+#: library/plugin-display.php:730
+msgid "Check out the source code inline notes for more info"
+msgstr "Погледајте инлине белешке изворног кода за више информација"
+
+#: library/shortcode-login.php:98
+msgid "Check your email for the password."
+msgstr "Проверите своју е-пошту за лозинку."
+
+#: library/shortcode-login.php:103
+msgid "Check your email to reset your password."
+msgstr "Проверите своју е-пошту да бисте ресетовали лозинку."
+
+#: library/plugin-display.php:419
+msgid "Checkbox Error"
+msgstr "Грешка у пољу за потврду"
+
+#: library/plugin-display.php:414
+msgid "Checkbox Name"
+msgstr "Име поља за потврду"
+
+#: library/plugin-display.php:424
+msgid "Checkbox Text"
+msgstr "Текст у пољу за потврду"
+
+#: library/plugin-display.php:61
+msgid "Choose fields to display on the front-end form."
+msgstr "Изаберите поља за приказ на обрасцу за предњи део."
+
+#: library/plugin-display.php:482
+msgid "Choose reCaptcha version"
+msgstr "Изаберите реЦаптцха верзију"
+
+#: library/plugin-display.php:350
+msgid "Configure Custom Field #1."
+msgstr "Конфигуришите прилагођено поље #1."
+
+#: library/plugin-display.php:378
+msgid "Configure Custom Field #2."
+msgstr "Конфигуришите прилагођено поље #2."
+
+#: library/plugin-display.php:252
+msgid "Configure email notifications for new submitted posts."
+msgstr "Конфигуришите обавештења е-поштом за нове послате постове."
+
+#: library/plugin-display.php:94
+msgid "Configure general settings. Note: the default settings work fine for most cases."
+msgstr "Конфигуришите општа подешавања. Напомена: подразумеване поставке раде добро у већини случајева."
+
+#: library/plugin-display.php:490
+msgid "Configure settings for image uploads."
+msgstr "Конфигуришите подешавања за отпремање слика."
+
+#: library/plugin-display.php:305
+msgid "Configure settings for the Category and Tag fields."
+msgstr "Конфигуришите подешавања за поља Категорија и Ознака."
+
+#: library/plugin-display.php:204
+msgid "Configure user settings."
+msgstr "Конфигуришите корисничка подешавања."
+
+#: library/shortcode-login.php:180
+msgid "Congratulations, you&rsquo;re logged in."
+msgstr "Честитамо, пријављени сте."
+
+#: user-submitted-posts.php:1679 user-submitted-posts.php:1680
+msgid "Correct captcha required"
+msgstr "Потребна је исправна цаптцха"
+
+#: library/plugin-display.php:272
+msgid "Custom address for the email &ldquo;From&rdquo; header (see plugin FAQs for info)."
+msgstr "Прилагођена адреса за имејл &лдкуо;Од&рдкуо; заглавље (погледајте честа питања о додацима за информације)."
+
+#: library/plugin-display.php:404
+msgid "Custom Checkbox"
+msgstr "Прилагођено поље за потврду"
+
+#: user-submitted-posts.php:1659
+msgid "Custom checkbox required"
+msgstr "Потребно је прилагођено поље за потврду"
+
+#: library/plugin-display.php:160
+msgid "Custom Content"
+msgstr "Прилагођени садржај"
+
+#: user-submitted-posts.php:1656 library/core-functions.php:306
+#: library/plugin-settings.php:392 library/plugin-settings.php:930
+#: library/plugin-display.php:348
+msgid "Custom Field 1"
+msgstr "Прилагођено поље 1"
+
+#: library/plugin-display.php:615
+msgid "Custom Field 1 Display"
+msgstr "Приказ прилагођеног поља 1"
+
+#: library/plugin-display.php:622
+msgid "Custom Field 1 Markup"
+msgstr "Ознака прилагођеног поља 1"
+
+#: user-submitted-posts.php:1657 library/core-functions.php:255
+#: library/plugin-settings.php:397 library/plugin-settings.php:933
+#: library/plugin-display.php:376
+msgid "Custom Field 2"
+msgstr "Прилагођено поље 2"
+
+#: library/plugin-display.php:628
+msgid "Custom Field 2 Display"
+msgstr "Приказ прилагођеног поља 2"
+
+#: library/plugin-display.php:635
+msgid "Custom Field 2 Markup"
+msgstr "Ознака прилагођеног поља 2"
+
+#: library/plugin-display.php:358 library/plugin-display.php:386
+msgid "Custom Field Label"
+msgstr "Ознака прилагођеног поља"
+
+#: library/plugin-display.php:353 library/plugin-display.php:381
+msgid "Custom Field Name"
+msgstr "Назив прилагођеног поља"
+
+#: library/plugin-settings.php:203
+msgid "Custom Form + Custom CSS"
+msgstr "Прилагођени образац + прилагођени ЦСС"
+
+#: library/plugin-display.php:513
+msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
+msgstr "Прилагођене ознаке за &лдкуо;Додај другу слику&рдкуо; линк. Оставите празно да бисте користили подразумеване ознаке (препоручено)."
+
+#: library/plugin-display.php:498
+msgid "Default Featured Image"
+msgstr "Подразумевана истакнута слика"
+
+#: library/plugin-settings.php:504
+msgid "Disable"
+msgstr "Онемогући"
+
+#: library/plugin-display.php:177
+msgid "Disable all required attributes on form fields (useful for troubleshooting error messages)"
+msgstr "Онемогућите све потребне атрибуте у пољима обрасца (корисно за решавање порука о грешци)"
+
+#: library/plugin-display.php:180
+msgid "Disable IP Tracking"
+msgstr "Онемогућите ИП праћење"
+
+#: library/plugin-display.php:234
+msgid "Disable Replace Author"
+msgstr "Онемогући Замени аутора"
+
+#: library/plugin-display.php:175
+msgid "Disable Required"
+msgstr "Обавезно онемогућити"
+
+#: library/plugin-settings.php:373 library/plugin-settings.php:414
+#: library/plugin-settings.php:444 library/plugin-settings.php:474
+msgid "Disable this field"
+msgstr "Онемогућите ово поље"
+
+#: library/plugin-settings.php:1286
+msgid "Dismiss"
+msgstr "Одбаци"
+
+#: library/plugin-display.php:332
+msgid "Display a select/dropdown menu of existing tags (valid when Tag field is displayed on the form)"
+msgstr "Прикажите избор/падајући мени постојећих ознака (важи када је поље ознаке приказано на обрасцу)"
+
+#: library/plugin-display.php:409
+msgid "Display Checkbox"
+msgstr "Прикажи поље за потврду"
+
+#: library/plugin-display.php:749
+msgid "Display content only to users with a specific capability:"
+msgstr "Прикажи садржај само корисницима са одређеним могућностима:"
+
+#: library/plugin-display.php:751
+msgid "Display content to logged-in users:"
+msgstr "Прикажи садржај пријављеним корисницима:"
+
+#: library/plugin-display.php:753
+msgid "Display content to visitors only:"
+msgstr "Прикажи садржај само посетиоцима:"
+
+#: library/plugin-display.php:411
+msgid "Display custom checkbox on the submission form"
+msgstr "Прикажи прилагођено поље за потврду на обрасцу за подношење"
+
+#: library/plugin-display.php:617
+msgid "Display Custom Field 1:"
+msgstr "Прикажи прилагођено поље 1:"
+
+#: library/plugin-display.php:630
+msgid "Display Custom Field 2:"
+msgstr "Прикажи прилагођено поље 2:"
+
+#: library/plugin-display.php:706
+msgid "Display image gallery"
+msgstr "Прикажите галерију слика"
+
+#: library/plugin-display.php:591
+msgid "Display submitted author/name:"
+msgstr "Прикажи послатог аутора/име:"
+
+#: library/plugin-display.php:578
+msgid "Display submitted email address:"
+msgstr "Прикажи послату имејл адресу:"
+
+#: library/plugin-display.php:564
+msgid "Display submitted images:"
+msgstr "Прикажи послате слике:"
+
+#: library/plugin-display.php:604
+msgid "Display submitted URL:"
+msgstr "Прикажи послату УРЛ адресу:"
+
+#: library/plugin-display.php:660
+msgid "Display the Form"
+msgstr "Прикажите образац"
+
+#: library/plugin-display.php:677
+msgid "Display the login/register form"
+msgstr "Прикажите образац за пријаву/регистрацију"
+
+#: library/plugin-display.php:664
+msgid "Display the submit-post form"
+msgstr "Прикажите образац за слање поруке"
+
+#: library/plugin-display.php:687
+msgid "Display user-submitted posts"
+msgstr "Прикажи постове које су послали корисници"
+
+#: library/plugin-display.php:182
+msgid "Do not collect or store any user IP address (useful for complying with privacy regulations)"
+msgstr "Немојте прикупљати или чувати било коју корисничку ИП адресу (корисно за поштовање прописа о приватности)"
+
+#: library/plugin-settings.php:227 library/plugin-settings.php:251
+#: library/plugin-settings.php:275 library/plugin-settings.php:299
+#: library/plugin-settings.php:323
+msgid "Do not display"
+msgstr "Не приказуј"
+
+#: library/plugin-display.php:236
+msgid "Do not replace post author with submitted user name"
+msgstr "Не замењујте аутора поста посланим корисничким именом"
+
+#: library/plugin-display.php:41
+msgid "Documentation"
+msgstr "Документација"
+
+#: library/support-panel.php:51
+msgid "Donate via PayPal, credit card, or cryptocurrency"
+msgstr "Донирајте путем ПаиПал-а, кредитне картице или криптовалуте"
+
+#: library/support-panel.php:55
+msgid "donation"
+msgstr "донација"
+
+#: library/plugin-settings.php:586
+msgid "Draft"
+msgstr "Нацрт"
+
+#: user-submitted-posts.php:1704
+msgid "Duplicate post title. Please try again."
+msgstr "Дупликат наслова поста. Молим вас, покушајте поново."
+
+#: library/plugin-settings.php:918
+msgid "Email"
+msgstr "Емаил"
+
+#: library/plugin-display.php:270
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "Имејл &лдкуо;Од&рдкуо; Адреса"
+
+#: library/plugin-display.php:265
+msgid "Email Address for Alerts"
+msgstr "Адреса е-поште за упозорења"
+
+#: library/plugin-display.php:283
+msgid "Email Alert Message"
+msgstr "Порука упозорења е-поштом"
+
+#: library/plugin-display.php:276
+msgid "Email Alert Subject"
+msgstr "Предмет упозорења е-поштом"
+
+#: library/plugin-display.php:250
+msgid "Email Alerts"
+msgstr "Обавештења е-поштом"
+
+#: library/plugin-display.php:576
+msgid "Email Display"
+msgstr "Приказ е-поште"
+
+#: library/plugin-display.php:583
+msgid "Email Markup"
+msgstr "Емаил Маркуп"
+
+#: library/plugin-display.php:294
+msgid "email-alert options"
+msgstr "опције за упозорење путем е-поште"
+
+#: library/plugin-settings.php:503
+msgid "Enable"
+msgstr "Омогући"
+
+#: library/plugin-settings.php:371 library/plugin-settings.php:412
+#: library/plugin-settings.php:443 library/plugin-settings.php:473
+msgid "Enable and require"
+msgstr "Омогући и захтевај"
+
+#: library/plugin-settings.php:372 library/plugin-settings.php:413
+msgid "Enable but do not require"
+msgstr "Омогућите, али не захтевајте"
+
+#: library/plugin-display.php:260
+msgid "Enable HTML Format"
+msgstr "Омогући ХТМЛ формат"
+
+#: library/plugin-display.php:262
+msgid "Enable HTML format for email alert messages"
+msgstr "Омогућите ХТМЛ формат за поруке упозорења е-поштом"
+
+#: library/plugin-display.php:167
+msgid "Enable RTE/Visual Editor for the Post Content field"
+msgstr "Омогућите РТЕ/Визуелни уређивач за поље Пост Цонтент"
+
+#: library/plugin-display.php:185
+msgid "Enable Shortcodes"
+msgstr "Омогући кратке кодове"
+
+#: library/plugin-display.php:187
+msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
+msgstr "Омогућите кратке кодове у виџетима. ВордПресс подразумевано не омогућава кратке кодове у виџетима. "
+
+#: library/plugin-display.php:317
+msgid "Enable users to select multiple categories"
+msgstr "Омогућите корисницима да изаберу више категорија"
+
+#: library/plugin-display.php:549
+msgid "Enable users to upload other file types (like PDF, Word, Zip, videos, and more), check out"
+msgstr "Омогућите корисницима да отпремају друге типове датотека (као што су ПДФ, Ворд, Зип, видео записи и још много тога), погледајте"
+
+#. Description of the plugin
+#: 
+msgid "Enables your visitors to submit posts and images from anywhere on your site."
+msgstr "Омогућава вашим посетиоцима да шаљу постове и слике са било ког места на вашој веб локацији."
+
+#: library/plugin-display.php:35
+msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
+msgstr "омогућава вашим посетиоцима да шаљу постове и отпремају слике са предњег дела вашег сајта. "
+
+#: library/plugin-display.php:454
+msgid "Enter the *only* correct answer to the challenge question"
+msgstr "Унесите *једини* тачан одговор на изазовно питање"
+
+#: library/plugin-display.php:502
+msgid "Enter URL or click button to upload/choose an image (optional)"
+msgstr "Унесите УРЛ или кликните на дугме да бисте отпремили/одабрали слику (опционално)"
+
+#: library/plugin-display.php:476
+msgid "Enter your Private Key"
+msgstr "Унесите свој приватни кључ"
+
+#: library/plugin-display.php:471
+msgid "Enter your Public Key"
+msgstr "Унесите свој јавни кључ"
+
+#: library/shortcode-login.php:156
+msgid "Enter your username or email to reset your password."
+msgstr "Унесите своје корисничко име или е-пошту да бисте ресетовали лозинку."
+
+#: library/plugin-display.php:155
+msgid "Error Message"
+msgstr "Порука о грешци"
+
+#: library/plugin-display.php:157
+msgid "Error message displayed if post submission fails (basic markup allowed)"
+msgstr "Порука о грешци се приказује ако слање објаве не успе (основно означавање је дозвољено)"
+
+#: library/plugin-display.php:421
+msgid "Error message displayed if user does not check the box"
+msgstr "Порука о грешци се приказује ако корисник не означи поље"
+
+#: user-submitted-posts.php:1714
+msgid "Error: "
+msgstr "Грешка: "
+
+#: library/plugin-display.php:759
+msgid "Example"
+msgstr "Пример"
+
+#: library/plugin-display.php:493
+msgid "Featured Image"
+msgstr "Садржавана слика"
+
+#: user-submitted-posts.php:1697
+msgid "File not uploaded. Please check the file and try again."
+msgstr "Датотека није отпремљена. Проверите датотеку и покушајте поново."
+
+#: user-submitted-posts.php:1690
+msgid "File type not allowed (please upload images only)"
+msgstr "Тип датотеке није дозвољен (молимо отпремите само слике)"
+
+#: library/plugin-display.php:366 library/plugin-display.php:394
+#: library/plugin-display.php:432
+msgid "For"
+msgstr "За"
+
+#: library/plugin-display.php:293 library/plugin-display.php:338
+msgid "For more"
+msgstr "Више"
+
+#: library/plugin-display.php:36
+msgid "For more features and unlimited forms, check out"
+msgstr "За више функција и неограничене форме, погледајте"
+
+#: library/plugin-display.php:194 library/plugin-display.php:242
+#: library/plugin-display.php:644
+msgid "For more options and features, check out"
+msgstr "За више опција и функција, погледајте"
+
+#: library/plugin-display.php:84
+msgid "For unlimited fields, check out"
+msgstr "За неограничена поља, погледајте"
+
+#: library/shortcode-login.php:90
+msgid "Forgot?"
+msgstr "Заборавили сте?"
+
+#: library/plugin-display.php:59
+msgid "Form Fields"
+msgstr "Форм Фиелдс"
+
+#: library/plugin-display.php:97
+msgid "Form Style"
+msgstr "Форм Стиле"
+
+#: library/plugin-display.php:557
+msgid "Front-end Display"
+msgstr "Предњи екран"
+
+#: library/plugin-display.php:115
+msgid "FYI: here is a"
+msgstr "ФИИ: ево а"
+
+#: library/plugin-display.php:92
+msgid "General Settings"
+msgstr "Општа подешавања"
+
+#: library/plugin-display.php:48
+msgid "Get USP Pro"
+msgstr "Набавите УСП Про"
+
+#: library/plugin-settings.php:38
+msgid "Get USP Pro for unlimited forms!"
+msgstr "Набавите УСП Про за неограничене форме!"
+
+#: library/plugin-display.php:46
+msgid "give it a 5-star rating"
+msgstr "дајте му оцену од 5 звездица"
+
+#: library/plugin-settings.php:66
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "Дајте УСП-у оцену од 5 звездица на ВордПресс.орг"
+
+#: library/plugin-settings.php:39
+msgid "Go Pro"
+msgstr "Го Про"
+
+#: library/plugin-settings.php:461 library/plugin-display.php:464
+msgid "Google reCaptcha"
+msgstr "Гоогле реЦаптцха"
+
+#: library/shortcode-login.php:107
+msgid "Have an account?"
+msgstr "Имате налог?"
+
+#: library/plugin-display.php:693
+msgid "Here are some examples showing how to configure this shortcode:"
+msgstr "Ево неколико примера који показују како да конфигуришете овај кратки код:"
+
+#: library/plugin-display.php:320
+msgid "Hidden/Default Category"
+msgstr "Скривена/подразумевана категорија"
+
+#: library/plugin-settings.php:61
+msgid "Homepage"
+msgstr "Почетна страница"
+
+#: library/plugin-settings.php:195
+msgid "HTML5 Form + Default CSS"
+msgstr "ХТМЛ5 образац + подразумевани ЦСС"
+
+#: library/plugin-settings.php:199
+msgid "HTML5 Form + Disable CSS"
+msgstr "ХТМЛ5 образац + Онемогући ЦСС"
+
+#. URI of the plugin
+#: 
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "хттпс://перисхаблепресс.цом/усер-субмиттед-постс/"
+
+#. Author URI of the plugin
+#: 
+msgid "https://plugin-planet.com/"
+msgstr "хттпс://плугин-планет.цом/"
+
+#: views/submission-form.php:169 views/submission-form-alt.php:184
+msgid "Human verification: leave this field empty."
+msgstr "Људска верификација: оставите ово поље празним."
+
+#: library/plugin-display.php:273
+msgid "If multiple addresses are specified for the previous setting, include an equal number of addresses for this setting (in the same order)."
+msgstr "Ако је за претходну поставку наведено више адреса, укључите једнак број адреса за ово подешавање (истим редоследом)."
+
+#: library/plugin-display.php:760
+msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
+msgstr "Ако је корисник пријављен, прикажите образац након слања; или ако корисник није пријављен, прикажите образац за пријаву:"
+
+#: library/plugin-display.php:45
+msgid "If you like this plugin, please"
+msgstr "Ако вам се свиђа овај додатак, молим"
+
+#: library/plugin-display.php:562
+msgid "Image Display"
+msgstr "Приказ слике"
+
+#: user-submitted-posts.php:1689
+msgid "Image height exceeds maximum"
+msgstr "Висина слике премашује максимум"
+
+#: library/plugin-display.php:569
+msgid "Image Markup"
+msgstr "Имаге Маркуп"
+
+#: library/plugin-settings.php:491 library/plugin-display.php:488
+msgid "Image Uploads"
+msgstr "Имаге Уплоадс"
+
+#: user-submitted-posts.php:1687
+msgid "Image width exceeds maximum"
+msgstr "Ширина слике премашује максимум"
+
+#: library/plugin-display.php:722
+msgid "in"
+msgstr "ин"
+
+#: library/plugin-display.php:107
+msgid "in your theme:"
+msgstr "у твојој теми:"
+
+#: library/plugin-display.php:121
+msgid "Include JavaScript"
+msgstr "Укључи ЈаваСцрипт"
+
+#: library/plugin-display.php:123
+msgid "Include required JavaScript files (recommended)"
+msgstr "Укључите потребне ЈаваСцрипт датотеке (препоручено)"
+
+#: library/enqueue-scripts.php:152
+msgid "Incorrect response."
+msgstr "Нетачан одговор."
+
+#: library/plugin-display.php:114
+msgid "Installation Docs"
+msgstr "Инсталлатион Доцс"
+
+#. Author of the plugin
+#: 
+msgid "Jeff Starr"
+msgstr "Јефф Старр"
+
+#: library/plugin-display.php:806
+msgid "Jeff Starr on Twitter"
+msgstr "Џеф Стар на Твитеру"
+
+#: library/plugin-display.php:702 library/plugin-display.php:774
+msgid "Learn&nbsp;more"
+msgstr "Сазнајте&нбсп;више"
+
+#: library/plugin-display.php:785
+msgid "Leave this option disabled to remember your settings."
+msgstr "Оставите ову опцију онемогућену да бисте запамтили своја подешавања."
+
+#: library/plugin-settings.php:88
+msgid "Like this plugin? Give it a"
+msgstr "Свиђа вам се овај додатак? Дај му а"
+
+#: library/plugin-display.php:115
+msgid "list of USP CSS selectors"
+msgstr "листа УСП ЦСС селектора"
+
+#: user-submitted-posts.php:1771
+msgid "log in"
+msgstr "Пријавите се"
+
+#: library/shortcode-login.php:108
+msgid "Log in or sign up! It&rsquo;s fast &amp; free!"
+msgstr "Пријавите се или се пријавите! То је брзо &амп; бесплатно!"
+
+#: library/shortcode-login.php:182
+msgid "Log out"
+msgstr "Одјавити се"
+
+#: library/shortcode-login.php:88 library/shortcode-login.php:127
+msgid "Login"
+msgstr "Пријавите се"
+
+#: library/shortcode-login.php:155
+msgid "Lose something?"
+msgstr "Изгубити нешто?"
+
+#: library/support-panel.php:107
+msgid "Make a donation&nbsp;&raquo;"
+msgstr "Донирајте&нбсп;&ракуо;"
+
+#: library/plugin-display.php:459
+msgid "Make the challenge response case-sensitive"
+msgstr "Нека одговор на изазов буде осетљив на велика и мала слова"
+
+#: library/plugin-display.php:624
+msgid "Markup for Custom Field 1. You may include any of the following variables:"
+msgstr "Ознаке за прилагођено поље 1. Можете укључити било коју од следећих променљивих:"
+
+#: library/plugin-display.php:637
+msgid "Markup for Custom Field 2. You may include any of the following variables:"
+msgstr "Ознаке за прилагођено поље 2. Можете укључити било коју од следећих променљивих:"
+
+#: library/plugin-display.php:571
+msgid "Markup for each submitted image. You may include any of the following variables:"
+msgstr "Ознаке за сваку послату слику. Можете укључити било коју од следећих променљивих:"
+
+#: library/plugin-display.php:598
+msgid "Markup for submitted author/name. You may include"
+msgstr "Ознаке за послатог аутора/име. Можете укључити"
+
+#: library/plugin-display.php:585
+msgid "Markup for submitted email address. You may include any of the following variables:"
+msgstr "Ознаке за послату адресу е-поште. Можете укључити било коју од следећих променљивих:"
+
+#: library/plugin-display.php:611
+msgid "Markup for submitted URL. You may include any of the following variables:"
+msgstr "Ознака за послату УРЛ адресу. Можете укључити било коју од следећих променљивих:"
+
+#: library/plugin-display.php:543
+msgid "Maximum height (in pixels) for uploaded images"
+msgstr "Максимална висина (у пикселима) за отпремљене слике"
+
+#: library/plugin-display.php:541
+msgid "Maximum image height"
+msgstr "Максимална висина слике"
+
+#: library/plugin-display.php:536
+msgid "Maximum image width"
+msgstr "Максимална ширина слике"
+
+#: library/plugin-display.php:521
+msgid "Maximum number of images"
+msgstr "Максималан број слика"
+
+#: user-submitted-posts.php:1685
+msgid "Maximum number of images exceeded "
+msgstr "Максималан број слика је премашен "
+
+#: library/plugin-display.php:523
+msgid "Maximum number of images for each submitted post"
+msgstr "Максималан број слика за сваку послату објаву"
+
+#: library/plugin-display.php:538
+msgid "Maximum width (in pixels) for uploaded images"
+msgstr "Максимална ширина (у пикселима) за отпремљене слике"
+
+#: library/plugin-display.php:152
+msgid "Message displayed after successful post submission (basic markup allowed)"
+msgstr "Порука се приказује након успешног слања поста (основна ознака је дозвољена)"
+
+#: library/plugin-display.php:508
+msgid "Message displayed next to the file upload field (basic markup allowed)"
+msgstr "Порука се приказује поред поља за отпремање датотеке (основне ознаке су дозвољене)"
+
+#: library/plugin-display.php:285
+msgid "Message for email alerts. Leave blank to use default message. You may include any of the following variables:"
+msgstr "Порука за обавештења путем е-поште. Оставите празно да бисте користили подразумевану поруку. Можете укључити било коју од следећих променљивих:"
+
+#: library/plugin-display.php:533
+msgid "Minimum height (in pixels) for uploaded images"
+msgstr "Минимална висина (у пикселима) за отпремљене слике"
+
+#: library/plugin-display.php:531
+msgid "Minimum image height"
+msgstr "Минимална висина слике"
+
+#: user-submitted-posts.php:1688
+msgid "Minimum image height not met"
+msgstr "Минимална висина слике није испуњена"
+
+#: library/plugin-display.php:526
+msgid "Minimum image width"
+msgstr "Минимална ширина слике"
+
+#: user-submitted-posts.php:1686
+msgid "Minimum image width not met"
+msgstr "Минимална ширина слике није испуњена"
+
+#: library/plugin-display.php:516
+msgid "Minimum number of images"
+msgstr "Минимални број слика"
+
+#: library/plugin-display.php:518
+msgid "Minimum number of images for each submitted post"
+msgstr "Минимални број слика за сваку послату објаву"
+
+#: user-submitted-posts.php:1684
+msgid "Minimum number of images not met"
+msgstr "Минимални број слика није испуњен"
+
+#: library/plugin-display.php:528
+msgid "Minimum width (in pixels) for uploaded images"
+msgstr "Минимална ширина (у пикселима) за отпремљене слике"
+
+#: library/plugin-display.php:81 library/plugin-display.php:191
+#: library/plugin-display.php:239 library/plugin-display.php:290
+#: library/plugin-display.php:335 library/plugin-display.php:363
+#: library/plugin-display.php:391 library/plugin-display.php:429
+#: library/plugin-display.php:546 library/plugin-display.php:641
+msgid "More Options"
+msgstr "Више опција"
+
+#: library/plugin-display.php:315
+msgid "Multiple Categories"
+msgstr "Више категорија"
+
+#: library/plugin-display.php:589
+msgid "Name Display"
+msgstr "Приказ имена"
+
+#: library/plugin-display.php:596
+msgid "Name Markup"
+msgstr "Ознака имена"
+
+#: user-submitted-posts.php:1683
+msgid "Non-empty value for hidden field"
+msgstr "Непразна вредност за скривено поље"
+
+#: library/plugin-display.php:743
+msgid "Note that the url attribute accepts"
+msgstr "Имајте на уму да урл атрибут прихвата"
+
+#: library/plugin-display.php:718
+msgid "Notes:"
+msgstr "напомене:"
+
+#: library/plugin-display.php:807
+msgid "Obsessive Web Design &amp; Development"
+msgstr "Опсесивни веб дизајн & ампер; Развој"
+
+#: library/plugin-display.php:162
+msgid "Optional markup/text to include before the submission form (leave blank to disable)"
+msgstr "Опционална ознака/текст за укључивање пре обрасца за подношење (оставите празно да бисте онемогућили)"
+
+#: library/plugin-display.php:340
+msgid "options, check out"
+msgstr "опције, проверите"
+
+#: library/support-panel.php:59
+msgid "or"
+msgstr "или"
+
+#: library/support-panel.php:59
+msgid "or by making a"
+msgstr "или израдом а"
+
+#: library/plugin-display.php:786
+msgid "Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
+msgstr "Или, да наставите и вратите подразумеване опције додатка: означите поље, сачувајте подешавања, а затим деактивирајте/реактивирајте додатак."
+
+#: library/plugin-display.php:691
+msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
+msgstr "Или користите ознаку шаблона да бисте приказали листу послатих постова било где у шаблону теме:"
+
+#: library/plugin-display.php:710
+msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
+msgstr "Или користите ознаку шаблона да бисте приказали галерију слика било где у шаблону теме:"
+
+#: library/plugin-display.php:669 library/plugin-display.php:682
+msgid "Or, use the template tag to display the form anywhere in your theme template:"
+msgstr "Или користите ознаку шаблона да бисте приказали образац било где у шаблону теме:"
+
+#: library/plugin-display.php:31
+msgid "Overview"
+msgstr "Преглед"
+
+#: library/shortcode-login.php:118
+msgid "Password"
+msgstr "Лозинка"
+
+#: library/plugin-settings.php:587
+msgid "Pending (default)"
+msgstr "На чекању (подразумевано)"
+
+#: library/support-panel.php:49
+msgid "Perishable Press Books"
+msgstr "Покварљиве штампане књиге"
+
+#: user-submitted-posts.php:1770
+msgid "Please"
+msgstr "Молимо вас"
+
+#: user-submitted-posts.php:1682
+msgid "Please check your email and try again"
+msgstr "Проверите своју е-пошту и покушајте поново"
+
+#: views/submission-form.php:21 views/submission-form-alt.php:40
+msgid "Please complete the required fields."
+msgstr "Попуните обавезна поља."
+
+#: library/support-panel.php:105
+msgid "Please Donate"
+msgstr "Молимо Донирајте"
+
+#: user-submitted-posts.php:124
+msgid "Please return to the"
+msgstr "Молимо вас да се вратите на"
+
+#: views/submission-form.php:92 views/submission-form-alt.php:107
+msgid "Please select a category.."
+msgstr "Молимо изаберите категорију.."
+
+#: views/submission-form.php:58 views/submission-form-alt.php:73
+msgid "Please select some tags.."
+msgstr "Изаберите неке ознаке.."
+
+#: library/plugin-settings.php:883
+msgid "Please select your image(s) to upload."
+msgstr "Изаберите своју слику(е) за отпремање."
+
+#: library/support-panel.php:58
+msgid "Please show support by purchasing one of my"
+msgstr "Молимо покажите подршку куповином једног од мојих"
+
+#: library/plugin-settings.php:60 library/plugin-display.php:40
+#: library/plugin-display.php:805
+msgid "Plugin Homepage"
+msgstr "Почетна страница додатака"
+
+#: library/support-panel.php:50
+msgid "Plugin Planet: Pro WordPress Plugins"
+msgstr "Плугин Планет: Про ВордПресс додаци"
+
+#: library/plugin-settings.php:1211
+msgid "Plugin Sale:"
+msgstr "Продаја додатака:"
+
+#: library/plugin-display.php:55
+msgid "Plugin Settings"
+msgstr "Подешавања додатака"
+
+#: library/support-panel.php:54
+msgid "plugins"
+msgstr "додаци"
+
+#: views/submission-form.php:90 views/submission-form-alt.php:105
+#: library/plugin-display.php:70
+msgid "Post Category"
+msgstr "Категорија поста"
+
+#: user-submitted-posts.php:1677
+msgid "Post category required"
+msgstr "Категорија поста је обавезна"
+
+#: views/submission-form.php:123 views/submission-form.php:124
+#: views/submission-form-alt.php:138 views/submission-form-alt.php:139
+#: library/plugin-display.php:71
+msgid "Post Content"
+msgstr "Пост Цонтент"
+
+#: user-submitted-posts.php:1678
+msgid "Post content required"
+msgstr "Потребан је садржај објаве"
+
+#: user-submitted-posts.php:1703
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "Пост није креиран. За помоћ се обратите администратору сајта."
+
+#: library/plugin-display.php:138
+msgid "Post Status"
+msgstr "Пост Статус"
+
+#: library/plugin-display.php:141
+msgid "Post Status for submitted posts"
+msgstr "Статус објаве за послате постове"
+
+#: views/submission-form.php:56 views/submission-form.php:65
+#: views/submission-form.php:66 views/submission-form-alt.php:71
+#: views/submission-form-alt.php:80 views/submission-form-alt.php:81
+#: library/plugin-display.php:69
+msgid "Post Tags"
+msgstr "Пост Тагс"
+
+#: user-submitted-posts.php:1676
+msgid "Post tags required"
+msgstr "Ознаке за постављање су обавезне"
+
+#: views/submission-form.php:49 views/submission-form.php:50
+#: views/submission-form-alt.php:64 views/submission-form-alt.php:65
+#: library/plugin-display.php:68
+msgid "Post Title"
+msgstr "Наслов поста"
+
+#: user-submitted-posts.php:1674
+msgid "Post title required"
+msgstr "Потребан је наслов поста"
+
+#: library/plugin-display.php:131
+msgid "Post Type"
+msgstr "Пост Типе"
+
+#: library/plugin-display.php:134
+msgid "Post Type for submitted posts"
+msgstr "Врста објаве за послате постове"
+
+#: library/plugin-display.php:474
+msgid "Private Key"
+msgstr "Приватни кључ"
+
+#: library/plugin-settings.php:1213
+msgid "Pro WordPress plugins"
+msgstr "Професионални додаци за ВордПресс"
+
+#: library/shortcode-login.php:184
+msgid "Profile"
+msgstr "Профил"
+
+#: library/plugin-display.php:469
+msgid "Public Key"
+msgstr "Јавни кључ"
+
+#: library/plugin-settings.php:590
+msgid "Publish after "
+msgstr "Објавите после "
+
+#: library/plugin-settings.php:589
+msgid "Publish after 1 approved post"
+msgstr "Објавите након 1 одобрене објаве"
+
+#: library/plugin-settings.php:588
+msgid "Publish immediately"
+msgstr "Објавите одмах"
+
+#: library/plugin-settings.php:67
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "Оцените овај додатак&нбсп;&ракуо;"
+
+#: library/plugin-display.php:479
+msgid "reCaptcha Version"
+msgstr "реЦаптцха верзија"
+
+#: library/plugin-display.php:255
+msgid "Receive Email Alert"
+msgstr "Примите упозорење путем е-поште"
+
+#: library/plugin-display.php:145
+msgid "Redirect URL"
+msgstr "УРЛ за преусмеравање"
+
+#: library/plugin-display.php:147
+msgid "Redirect user to this URL after post submission (leave blank to stay on current page)"
+msgstr "Преусмери корисника на ову УРЛ адресу након слања објаве (оставите празно да останете на тренутној страници)"
+
+#: library/shortcode-login.php:89
+msgid "Register"
+msgstr "Регистровати"
+
+#: library/shortcode-login.php:135
+msgid "Register for this site!"
+msgstr "Региструјте се за овај сајт!"
+
+#: library/plugin-display.php:219
+msgid "Registered Email"
+msgstr "Регистровани маил"
+
+#: library/plugin-display.php:224
+msgid "Registered URL"
+msgstr "Регистрован УРЛ"
+
+#: library/plugin-display.php:214
+msgid "Registered Username"
+msgstr "Регистровано корисиничко име"
+
+#: library/shortcode-login.php:124
+msgid "Remember me"
+msgstr "Сети ме се"
+
+#: library/plugin-display.php:172
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate posts)"
+msgstr "Захтевајте да наслови послатих постова буду јединствени (корисно за спречавање вишеструких/дуплираних постова)"
+
+#: library/plugin-display.php:229
+msgid "Require User Login"
+msgstr "Захтевај пријаву корисника"
+
+#: library/plugin-display.php:231
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "Захтевајте да корисници буду пријављени на ВордПресс да би видели/проследили образац"
+
+#: user-submitted-posts.php:122
+msgid "requires WordPress "
+msgstr "захтева ВордПресс "
+
+#: library/shortcode-misc.php:18
+msgid "Reset form"
+msgstr "Ресетуј образац"
+
+#: library/plugin-display.php:734
+msgid "Reset Form Button"
+msgstr "Дугме за ресетовање обрасца"
+
+#: library/shortcode-login.php:163
+msgid "Reset my password"
+msgstr "Ресетуј моју лозинку"
+
+#: library/plugin-display.php:789
+msgid "Restore default options upon plugin deactivation/reactivation"
+msgstr "Врати подразумеване опције након деактивације/поновне активације додатка"
+
+#: library/plugin-display.php:783
+msgid "Restore Defaults"
+msgstr "Врати подразумеване вредности"
+
+#: user-submitted-posts.php:1740
+msgid "Return to form"
+msgstr "Вратите се у форму"
+
+#: library/plugin-display.php:165
+msgid "Rich Text Editor"
+msgstr "Уређивач богатог текста"
+
+#: library/plugin-settings.php:1212
+msgid "Save 20% on any of our"
+msgstr "Уштедите 20% на било ком од наших"
+
+#: library/plugin-display.php:652
+msgid "Save All Changes"
+msgstr "Сачувај све промене"
+
+#: library/plugin-display.php:818
+msgid "Save Preference"
+msgstr "Саве Преференце"
+
+#: library/plugin-display.php:791
+msgid "Save Settings"
+msgstr "Сачувај подешавања"
+
+#: library/plugin-settings.php:618
+msgid "Select categories to include in the Category field:"
+msgstr "Изаберите категорије које ћете укључити у поље Категорија:"
+
+#: library/plugin-display.php:257
+msgid "Send email alerts for new post submissions"
+msgstr "Пошаљите обавештења е-поштом за нове објаве"
+
+#: library/plugin-settings.php:29
+msgid "Settings"
+msgstr "Подешавања"
+
+#: library/plugin-display.php:310
+msgid "Show categories"
+msgstr "Прикажи категорије"
+
+#: user-submitted-posts.php:693
+msgid "Show USP Posts"
+msgstr "Прикажи УСП постове"
+
+#: library/shortcode-login.php:136
+msgid "Sign up now for the good stuff."
+msgstr "Пријавите се сада за добре ствари."
+
+#: library/shortcode-login.php:147
+msgid "Sign up!"
+msgstr "Пријави се!"
+
+#: library/plugin-display.php:327
+msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
+msgstr "Наведите ИД(ове) категорије које ћете користити за &лдкуо;Скривену/подразумевану категорију&рдкуо; (раздвојите више ИД-ова зарезима)"
+
+#: library/plugin-display.php:210
+msgid "Specify the user that should be assigned as author for submitted posts"
+msgstr "Наведите корисника који треба да буде додељен као аутор за послате објаве"
+
+#: library/plugin-display.php:278
+msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
+msgstr "Тема за обавештења путем е-поште. Оставите празно да бисте користили подразумевану тему. Можете укључити било коју од следећих променљивих:"
+
+#: views/submission-form.php:197 views/submission-form-alt.php:212
+msgid "Submit Post"
+msgstr "Пошаљи објаву"
+
+#: library/plugin-settings.php:9
+msgid "Submitted Posts"
+msgstr "Субмиттед Постс"
+
+#: user-submitted-posts.php:636
+msgid "Submitter Email: "
+msgstr "Е-пошта подносиоца: "
+
+#: user-submitted-posts.php:638
+msgid "Submitter IP: "
+msgstr "ИП подносиоца: "
+
+#: user-submitted-posts.php:635
+msgid "Submitter Name: "
+msgstr "Име подносиоца: "
+
+#: user-submitted-posts.php:637
+msgid "Submitter URL: "
+msgstr "УРЛ подносиоца: "
+
+#: library/plugin-display.php:150
+msgid "Success Message"
+msgstr "Порука о успеху"
+
+#: library/shortcode-login.php:97 library/shortcode-login.php:102
+msgid "Success!"
+msgstr "Успех!"
+
+#: library/plugin-settings.php:889
+msgid "Success! Thank you for your submission."
+msgstr "Успех! Хвала ти за Твоју покорност."
+
+#: library/plugin-display.php:42
+msgid "Support Forum"
+msgstr "Форум подршке"
+
+#: library/plugin-display.php:340
+msgid "tag"
+msgstr "таг"
+
+#: library/plugin-display.php:126
+msgid "Targeted Loading"
+msgstr "Циљано учитавање"
+
+#: library/plugin-display.php:426
+msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
+msgstr "Текст се приказује поред поља за потврду. Савет: користите витичасте заграде за излаз угаоних заграда, на пример:"
+
+#: library/support-panel.php:57
+msgid "Thank you for using"
+msgstr "Хвала вам што користите"
+
+#: library/plugin-display.php:46
+msgid "THANK YOU for your support!"
+msgstr "Хвала вам на подршци!"
+
+#: library/plugin-display.php:113
+msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
+msgstr "То ће вам омогућити да прилагодите форму и стилове по жељи. За више информација, погледајте одељак „Прилагођени образац за подношење“ у"
+
+#: library/plugin-display.php:769
+msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
+msgstr "Приступне кратке шифре се могу додати било којој ВП објави или страници. Тако можете да приказујете обрасце и други садржај условно, на основу улоге корисника и статуса пријаве."
+
+#: user-submitted-posts.php:1701
+msgid "The file(s) could not be uploaded"
+msgstr "Није могуће отпремити фајл(е)."
+
+#: library/plugin-display.php:684
+msgid "The login/register form displays as a tabbed interface, so users can switch between login, register, and reset password."
+msgstr "Образац за пријаву/регистрацију се приказује као интерфејс са картицама, тако да корисници могу да прелазе између пријаве, регистрације и ресетовања лозинке."
+
+#: library/plugin-display.php:701
+msgid "The pro version provides many more options for this shortcode."
+msgstr "Про верзија пружа много више опција за овај кратки код."
+
+#: library/plugin-display.php:773
+msgid "The pro version provides more flexibility with access-control shortcodes."
+msgstr "Про верзија пружа већу флексибилност са кратким кодовима за контролу приступа."
+
+#: library/plugin-settings.php:869
+msgid "There was an error. Please check required fields and try again."
+msgstr "Дошло је до грешке. Проверите обавезна поља и покушајте поново."
+
+#: library/plugin-display.php:188
+msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
+msgstr "Ово подешавање омогућава све/све кратке кодове у виџетима (чак и кратке кодове из других додатака)."
+
+#: library/plugin-display.php:738
+msgid "This shortcode accepts the following attributes:"
+msgstr "Овај кратки код прихвата следеће атрибуте:"
+
+#: library/plugin-display.php:736
+msgid "This shortcode displays a link that resets the form to its original state:"
+msgstr "Овај кратки код приказује везу која враћа образац у првобитно стање:"
+
+#: library/plugin-display.php:360
+msgid "This will be displayed as the field label on the form. Default: Custom Field 1"
+msgstr "Ово ће бити приказано као ознака поља на обрасцу. Подразумевано: Прилагођено поље 1"
+
+#: library/plugin-display.php:388
+msgid "This will be displayed as the field label on the form. Default: Custom Field 2"
+msgstr "Ово ће бити приказано као ознака поља на обрасцу. Подразумевано: Прилагођено поље 2"
+
+#: library/plugin-display.php:700 library/plugin-display.php:756
+#: library/plugin-display.php:772
+msgid "Tip:"
+msgstr "Савет:"
+
+#: library/plugin-display.php:599
+msgid "to display the submitted name."
+msgstr "за приказ послатог имена."
+
+#: library/plugin-display.php:466
+msgid "To enable Google reCaptcha, enter your public and private keys."
+msgstr "Да бисте омогућили Гоогле реЦаптцха, унесите своје јавне и приватне кључеве."
+
+#: library/plugin-display.php:743
+msgid "to get the current URL."
+msgstr "да бисте добили тренутни УРЛ."
+
+#: library/plugin-display.php:729
+msgid "to get the URL of the full-size image"
+msgstr "да бисте добили УРЛ слике у пуној величини"
+
+#: library/plugin-display.php:757
+msgid "to include markup in the deny message, you can use"
+msgstr "да бисте укључили ознаку у поруку о одбијању, можете користити"
+
+#: library/plugin-display.php:757
+msgid "to output"
+msgstr "на излаз"
+
+#: library/plugin-display.php:721
+msgid "to output angle brackets"
+msgstr "за излазне угаоне заграде"
+
+#: library/plugin-display.php:449
+msgid "To prevent spam, enter a question that users must answer before submitting the form"
+msgstr "Да бисте спречили нежељену пошту, унесите питање на које корисници морају да одговоре пре слања обрасца"
+
+#: user-submitted-posts.php:1772
+msgid "to submit content!"
+msgstr "да пошаљете садржај!"
+
+#: user-submitted-posts.php:126
+msgid "to upgrade WordPress and try again."
+msgstr "да надоградите ВордПресс и покушајте поново."
+
+#: library/plugin-display.php:22
+msgid "Toggle all panels"
+msgstr "Укључите све панеле"
+
+#: library/plugin-display.php:170
+msgid "Unique Titles"
+msgstr "Јединствени наслови"
+
+#: library/plugin-display.php:433
+msgid "unlimited checkbox fields"
+msgstr "неограничена поља за потврду"
+
+#: library/plugin-display.php:367 library/plugin-display.php:395
+msgid "unlimited custom fields"
+msgstr "неограничена прилагођена поља"
+
+#: library/plugin-display.php:48
+msgid "Unlimited front-end forms"
+msgstr "Неограничени предњи облици"
+
+#: views/submission-form.php:138 views/submission-form-alt.php:153
+msgid "Upload an Image"
+msgstr "Отпремите слику"
+
+#: library/plugin-display.php:506
+msgid "Upload Message"
+msgstr "Отпремите поруку"
+
+#: library/plugin-settings.php:920
+msgid "URL"
+msgstr "УРЛ"
+
+#: library/plugin-display.php:602
+msgid "URL Display"
+msgstr "Приказ УРЛ-а"
+
+#: library/plugin-display.php:609
+msgid "URL Markup"
+msgstr "УРЛ Маркуп"
+
+#: library/plugin-display.php:322
+msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
+msgstr "Користите скривено поље за категорију објаве. Ово сакрива поље категорије и поставља његову вредност преко следеће опције."
+
+#: library/plugin-display.php:721
+msgid "Use curly brackets"
+msgstr "Користите витичасте заграде"
+
+#: library/plugin-display.php:330
+msgid "Use Existing Tags"
+msgstr "Користите постојеће ознаке"
+
+#: library/plugin-display.php:355 library/plugin-display.php:383
+#: library/plugin-display.php:416
+msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
+msgstr "Користите само алфанумеричке, доње црте и цртице. Ако нисте сигурни, користите подразумевано име:"
+
+#: library/plugin-display.php:726
+msgid "Use single straight quotes (instead of double quotes) in"
+msgstr "Користите једноструке равне наводнике (уместо двоструких наводника) у"
+
+#: library/plugin-display.php:495
+msgid "Use submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
+msgstr "Користите послате слике као истакнуте слике. Захтева подршку за теме за истакнуте слике (познате као сличице за објаве)"
+
+#: library/plugin-display.php:667 library/plugin-display.php:680
+msgid "Use the shortcode to display the form on any WP Post or Page:"
+msgstr "Користите кратки код да бисте приказали образац на било којој ВП објави или страници:"
+
+#: library/plugin-display.php:226
+msgid "Use the user&rsquo;s Profile URL as the value of the URL field (valid when the user is logged in to WordPress)"
+msgstr "Користите УРЛ корисничког профила као вредност УРЛ поља (важи када је корисник пријављен на ВордПресс)"
+
+#: library/plugin-display.php:221
+msgid "Use the user&rsquo;s registered email as the value of the Email field (valid when the user is logged in to WordPress)"
+msgstr "Користите регистровану адресу е-поште корисника као вредност поља Емаил (важи када је корисник пријављен на ВордПресс)"
+
+#: library/plugin-display.php:216
+msgid "Use the user&rsquo;s registered username for the Name field (valid when the user is logged in to WordPress)"
+msgstr "Користите регистровано корисничко име корисника за поље Име (важи када је корисник пријављен на ВордПресс)"
+
+#: library/plugin-display.php:708
+msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
+msgstr "Користите овај кратки код да прикажете галерију отпремљених слика за сваку послату објаву:"
+
+#: library/plugin-display.php:689
+msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
+msgstr "Користите овај кратки код да прикажете листу послатих постова на било којој ВП објави или страници:"
+
+#: library/plugin-display.php:66
+msgid "User Email"
+msgstr "Емаил корисника"
+
+#: user-submitted-posts.php:1681
+msgid "User email required"
+msgstr "Потребна је адреса е-поште корисника"
+
+#: user-submitted-posts.php:1672
+msgid "User login required"
+msgstr "Потребна је пријава корисника"
+
+#: library/plugin-display.php:65
+msgid "User Name"
+msgstr "Корисничко име"
+
+#: user-submitted-posts.php:1673
+msgid "User name required"
+msgstr "Потребно је корисничко име"
+
+#: library/plugin-display.php:202
+msgid "User Settings"
+msgstr "Подешавања корисника"
+
+#: user-submitted-posts.php:202
+msgid "User Submitted Post"
+msgstr "Порука коју је послао корисник"
+
+#: user-submitted-posts.php:605
+msgid "User Submitted Post Info"
+msgstr "Подаци о објави коју је послао корисник"
+
+#. Name of the plugin
+#: user-submitted-posts.php:42 library/support-panel.php:7
+msgid "User Submitted Posts"
+msgstr "Постови које су послали корисници"
+
+#: library/plugin-display.php:67
+msgid "User URL"
+msgstr "УРЛ корисника"
+
+#: user-submitted-posts.php:1675
+msgid "User URL required"
+msgstr "Потребна је УРЛ адреса корисника"
+
+#: library/shortcode-login.php:114 library/shortcode-login.php:139
+msgid "Username"
+msgstr "Корисничко име"
+
+#: library/shortcode-login.php:159
+msgid "Username or Email"
+msgstr "Корисничко име или е-маил"
+
+#: user-submitted-posts.php:694 library/plugin-display.php:35
+msgid "USP"
+msgstr "УСП"
+
+#: library/plugin-display.php:666
+msgid "USP enables you to display a post-submission form anywhere on your site."
+msgstr "УСП вам омогућава да прикажете образац након подношења било где на вашој веб локацији."
+
+#: library/plugin-display.php:36 library/plugin-display.php:85
+#: library/plugin-display.php:195 library/plugin-display.php:243
+#: library/plugin-display.php:296 library/plugin-display.php:341
+#: library/plugin-display.php:369 library/plugin-display.php:397
+#: library/plugin-display.php:435 library/plugin-display.php:550
+#: library/plugin-display.php:645 library/plugin-display.php:673
+msgid "USP Pro"
+msgstr "УСП Про"
+
+#: library/plugin-display.php:748
+msgid "USP provides three shortcodes to control access and restrict content."
+msgstr "УСП обезбеђује три кратка кода за контролу приступа и ограничавање садржаја."
+
+#: library/plugin-settings.php:339
+msgid "v2 (I&rsquo;m not a robot)"
+msgstr "в2 (ја нисам робот)"
+
+#: library/plugin-settings.php:343
+msgid "v3 (Hidden reCaptcha)"
+msgstr "в3 (Скривена реЦаптцха)"
+
+#: views/submission-form.php:131 views/submission-form-alt.php:146
+msgid "Verification"
+msgstr "Верификација"
+
+#: library/shortcode-misc.php:135
+msgid "View full post"
+msgstr "Погледај цео пост"
+
+#: library/plugin-display.php:672
+msgid "Want more than one form? Create unlimited submission forms, registration forms, contact forms and more with"
+msgstr "Желите више од једног обрасца? Креирајте неограничен број образаца за подношење, образаца за регистрацију, образаца за контакт и још много тога"
+
+#: library/shortcode-login.php:177
+msgid "Welcome, "
+msgstr "Добродошли, "
+
+#: library/plugin-display.php:102
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "Помоћу ове опције можете копирати подразумеване шаблоне додатка:"
+
+#: user-submitted-posts.php:125
+msgid "WordPress Admin Area"
+msgstr "ВордПресс Админ Ареа"
+
+#: library/plugin-settings.php:179
+msgid "WP Page"
+msgstr "ВП Паге"
+
+#: library/plugin-settings.php:175
+msgid "WP Post (recommended)"
+msgstr "ВП Пост (препоручено)"
+
+#: library/plugin-display.php:796
+msgid "WP Resources"
+msgstr "ВП Ресоурцес"
+
+#: library/plugin-display.php:679
+msgid "You also can display a simple form that enables users to log in, register, or reset their password."
+msgstr "Такође можете приказати једноставан образац који корисницима омогућава да се пријаве, региструју или ресетују своју лозинку."
+
+#: library/plugin-display.php:712
+msgid "You can customize using any of the follwing attributes:"
+msgstr "Можете прилагодити користећи било који од следећих атрибута:"
+
+#: views/submission-form.php:37 views/submission-form.php:38
+#: views/submission-form-alt.php:52 views/submission-form-alt.php:53
+#: library/shortcode-login.php:143
+msgid "Your Email"
+msgstr "Ваша е-пошта"
+
+#: library/support-panel.php:60
+msgid "Your generous support helps future development of"
+msgstr "Ваша великодушна подршка помаже будућем развоју"
+
+#: views/submission-form.php:31 views/submission-form.php:32
+#: views/submission-form-alt.php:46 views/submission-form-alt.php:47
+msgid "Your Name"
+msgstr "Твоје име"
+
+#: views/submission-form.php:43 views/submission-form.php:44
+#: views/submission-form-alt.php:58 views/submission-form-alt.php:59
+msgid "Your URL"
+msgstr "Ваш УРЛ"
+
+#: library/plugin-settings.php:92
+msgid "★★★★★ rating&nbsp;&raquo;"
+msgstr "★★★★★ оцена&нбсп;&ракуо;"
+

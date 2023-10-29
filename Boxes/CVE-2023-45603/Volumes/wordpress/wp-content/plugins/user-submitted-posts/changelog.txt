@@ -1,0 +1,695 @@
+== User Submitted Posts - Changelog ==
+
+This file is formatted with Markdown: https://daringfireball.net/projects/markdown/syntax
+
+You can view the file directly, or use a free Markdown editor such as: https://dillinger.io/
+
+More recent changelog info is available in the `readme.txt` file, located in the plugin's root directory.
+
+
+
+**20200911**
+
+* Fixes bug where line breaks and new lines were not saved
+* Tests on WordPress 5.5 + 5.6 (alpha)
+
+**20200906**
+
+* Fixes JavaScript error with select/dropdown fields
+* Updates JavaScript Cookie script to latest version
+* Tests on WordPress 5.5 + 5.6 (alpha)
+
+**20200817**
+
+* Adds option to auto-display submitted name
+* Adds filter hook `hook usp_name_custom_field`
+* Adds `%%user_url%%` (user-submitted URL) for email alerts
+* Improves cookie functionality for select fields
+* Improves logic for enabling post-thumbnail support
+* Improves logic for setting featured images when enabled
+* Login form displays "Register" tab only if registration is enabled
+* Removes function `usp_display_featured_image()`
+* Bugfix: users allowed to select placeholder value
+* Bugfix: fancy select script maybe not loading
+* Bugfix: `post_name` empty for Draft and Pending status
+* Bugfix: `%%edit_link%%` returning empty for non-logged-in users
+* Bugfix: form forgetting entered values when returned with an error
+* Bugfix: dot `.` missing from filename extension in custom fields
+* Bugfix: corrects several incorrect localization domain
+* Adds pt_PT translation (Thanks [@ipublicis](https://profiles.wordpress.org/ipublicis/))
+* Updates all default language translation files
+* Updates default translation template
+* Refines plugin setting page styles
+* Refines readme/documentation
+* Tests on WordPress 5.5
+
+**20200320**
+
+* Adds option to display select menu for Tags field
+* Adds filter hook `usp_get_tag_options_args`
+* Adds new option to use "Registered Email"
+* Adds Google reCaptcha v3 (hidden reCaptcha)
+* Updates reCaptcha library to version 1.2.3
+* Adds filter hook `hook usp_recaptcha_score`
+* Adds new German translation (Thanks to Max)
+* Improves some styles on settings page
+* Improves markup of submission form
+* Improves security of form cookies
+* Generates new default translation template
+* Updates all language translation files
+* Tests on WordPress 5.4
+
+**20191110**
+
+* Adds proper validation for URL and Email fields
+* Adds missing images for USP Login/Register/Password form
+* Adds support for `data-rel` attribute auto-display settings
+* Improves handling of post status for submitted posts
+* Updates styles for plugin settings page
+* Generates new default translation template
+* Tests on WordPress 5.3
+
+**20190902**
+
+Summary: This version of USP adds an image-preview feature to the form. Also brings full support for multiple categories and hierarchical (nested) category display. Lots of other smaller improvements as well. Thank you to those who provide feedback and ideas!
+
+* Adds Image Preview feature
+* Adds filter hook `usp_meta_box_post_types` for USP Meta Box
+* Adds filter hook `usp_pll_set_post_language` for Polylang plugin
+* Adds filter hook `usp_filter_posts_link` for "USP" filter button
+* Adds support for "Non-USP" filter button on Posts screen
+* Fixes bug: "USP" button not displayed on Pages screen
+* Improves targeted loading, now accepts multiple URLs
+* Updates cookie script to JS Cookie v2.2.1
+* Improves cookie handling
+* Adds support for multiple categories
+* Adds hierarchical category display
+* Adds Chosen select field enhancer
+* Improves form logic and structure
+* Adds Taiwanese translation `usp-zh_TW` ([Thanks to richon](https://blog.iegoffice.com/))
+* Fine-tunes display of plugin settings page
+* Generates new default translation template
+* Updates some links to https
+* Tests on WordPress 5.3 (alpha)
+
+**20190502**
+
+* Bumps [minimum PHP version](https://codex.wordpress.org/Template:Server_requirements) to 5.6.20
+* Improves form posting for Login/Register form
+* Tweaks plugin settings screen content
+* Updates default translation template
+* Tests on WordPress 5.2
+
+**20190501**
+
+* Fixes security issue with uploaded images on Apache + FastCGI
+* Tests on WordPress 5.1 and 5.2 (beta)
+
+**20190426**
+
+* Adds another security check for uploaded images (Thanks to Matthias)
+* Tests on WordPress 5.1 and 5.2 (beta)
+
+**20190312**
+
+* Adds automatic Urdu translation
+* Adds filter hook `usp_file_name`
+* Adds filter hook `usp_unique_filename`
+* Adds function `usp_random_string()`
+* Adds function `usp_unique_filename()`
+* Adds `%%url%%` to "Image Markup" setting
+* Improves handling of uploaded file names
+* Improves function `usp_plugin_action_links()`
+* Removes deprecated Google reCaptcha (old version)
+* Bumps minimum required version of PHP to 5.3
+* Adds check for admin user for settings shortcut link
+* Refines plugin settings screen UI
+* Generates new default translation template
+* Tests on WordPress 5.1 and 5.2 (alpha)
+
+**20190220**
+
+* Just a version bump for compat with WP 5.1
+* Full update coming soon :)
+
+**20181117**
+
+* Adds `%%custom_field%%` shortcode for email alerts
+* Adds homepage link to Plugins screen
+* Updates `usp_post_author_options()`
+* Updates Russian translation (Thank you Artem)
+* Updates default translation template
+* Tests on WordPress 5.0 (beta)
+
+**20180822**
+
+* Tweaks appearance of plugin settings page
+* Tweaks USP form styles (checkbox alignment)
+* Fixes incorrect class name in USP forms
+* Makes "Incorrect response." a translatable string
+* Adds `rel="noopener noreferrer"` to all [blank-target links](https://perishablepress.com/wordpress-blank-target-vulnerability/)
+* Updates GDPR blurb and donate link
+* Regenerates default translation template
+* Further tests on WP versions 4.9 and 5.0 (alpha)
+
+**20180511**
+
+* Adds new GDPR settings, including custom checkbox
+* Adds function to disable submit button after first click
+* Adds new template tag `usp_get_images()` to display images
+* Adds new shortcode `[usp_gallery]` to display image gallery
+* Adds new filter hook `usp_filename_append`
+* Adds new filter hook `usp_image_attachments_args`
+* Adds new filter hook `usp_image_attachments`
+* Specifies normal context for `add_meta_box()`
+* Adds plugin version to enqueued assets
+* Fine-tunes some text on plugin settings page
+* Bugfix: make all unique id attributes in login form
+* Adds Greek translation (thank you Lena S!)
+* Generates new default translation template
+* Tests on WordPress 5.0 (alpha)
+
+**20180323**
+
+* Adds `wp_update_post()` to call action hook `publish_post`
+* Tests on WordPress 5.0 (alpha)
+
+**20180319**
+
+* Fixes bug with toggle form info on plugin settings page
+* Renames `usp_reset_button()` to `usp_reset_button_shortcode`
+* Tests on WordPress 5.0 (alpha)
+
+**20180314**
+
+* Adds auto-rotate feature for JPG images uploaded via mobile
+* Adds `current` attribute to `usp_display_posts` shortcode
+* Adds option to disable "replace author" functionality
+* Adds shortcode to display "reset form" button
+* Adds filter hook for Post Type, `usp_post_type_options`
+* Adds filter hook, `usp_require_login_url`
+* Adds post-language support for Polylang plugin
+* Adds `usp-post-id` as custom field for all submitted posts
+* Updates some text and styles on plugin settings page
+* Improves empty paragraph fix
+* Fixes bug in `usp_image_args`
+* Fixes bug so form only redirects for successful submission
+* Fixes bug with `.preventDefault()`
+* Updates Show Support panel
+* Removes filter hook, `usp_file_key`
+* Adds translations for Swedish, Irish
+* Generates new translation template
+* Updates plugin image files
+* Tests on WordPress 5.0 (alpha)
+
+**20171105**
+
+* Provides Google reCAPTCHA support for older PHP versions (less than 5.3)
+
+**20171104**
+
+* Fixes bug involving jQuery cookie functionality
+* Tests on WordPress 4.9
+
+**20171103**
+
+* Fixes PHP Warning for `htmlspecialchars_decode()`
+* Fixes bug with non-admin users, removes extra `manage_options` requirement
+* Improves logic of core functions for better performance
+* Adds `$wpdb->prepare()` to `usp_post_author_options()`
+* Tests on WordPress 4.9
+
+**20171101**
+
+* Updates readme
+* Fixes SVN issue
+
+**20171028**
+
+* Adds new Login/Register Form
+* Adds new optional Custom Field
+* Adds new access control shortcodes
+* Adds shortcode `%%edit_link%%` for email alerts
+* Adds shortcode `%%user_email%%` for email alerts
+* Adds support when `allow_url_fopen` is disabled
+* Adds `parsley.min.js.map` to `/resources/` directory
+* Adds new function, `usp_get_submitted_title()`
+* Adds new filter hook: `usp_max_users`
+* Adds new filter hook: `usp_content_allowed`
+* Adds new filter hook: `usp_custom_custom_field`
+* Adds new filter hook: `usp_content_patterns`
+* Adds new filter hook: `usp_content_replacements`
+* Adds extra `manage_options` requirement to modify settings
+* Adds Czech language translation
+* Adds Slovenian language translation
+* Adds Norwegian language translation
+* Replaces Arabic (Argentina) translation with Arabic
+* Updates Google reCAPTCHA library to version 1.1.3
+* Updates Parsley validation script to version 2.8.0
+* Updates all language translation files
+* Improves logic in core USP JavaScript file
+* Improves file handling and validation
+* Improves logic of `usp_auto_display_options()`
+* Improves logic of `usp_form_display_options()`
+* Improves logic of USP Form templates
+* Refactors logic of plugin settings page
+* Streamlines Support panel in plugin settings
+* Changes label from "Auto Publish" to "Post Status"
+* Removes deprecated `/custom/` directory
+* Removes deprecated `jquery.usp.files.js`
+* Fixes bug when displaying/requiring the Title field
+* Fixes some PHP Notices for "Undefined Index", etc.
+* Regenerates default translation template
+* Tests on WordPress 4.9
+
+**20170801**
+
+* Adds new Post Type setting to choose between Posts and Pages
+* Adds `%%post_content%%` and `%%post_author%%` shortcodes to Email Alerts
+* Adds `%%author%%` shortcode to Auto-Display Images, Email, and URL
+* Adds new filter hook, `usp_author_custom_field`
+* Adds new filter hook, `usp_post_type`
+* Fixes bug related to large file sizes
+* Fixes bug related to optional post title
+* Fixes bug related to optional email field
+* Adds new/refreshed translations for Arabic, Chinese, French, Russian, Persian, German, Serbian, Romanian, Italian, Japanese, Hebrew, Hindi, Turkish, Korean, Polish, Bengali, Panjabi
+* Regenerates default translation file
+* Moves some FAQs to their own [dedicated post](https://perishablepress.com/faqs-user-submitted-posts/) at Perishable Press
+* Moves older changelog items to their own dedicated file, `changelog.txt`, located in the plugin's root directory
+* Updates GPL license blurb
+* Adds GPL license text file
+* Tests on WordPress 4.9 (alpha)
+
+**20170531**
+
+* Fixes bug with Google reCAPTCHA
+* Adds localization to featured image variable
+* Further tests on WordPress 4.8 (beta)
+
+**20170326**
+
+* Adds Google reCAPTCHA (anti-spam) field
+* Adds function to clear form cookies if user logs out
+* Adds new Arabic translation (Thanks to Abdeslam Lachhab)
+* Adds new french translation by Milehan
+* Improves plugin documentation
+* Changes "USP" post-filter button to display for WP Posts
+* Adds option to send HTML-format email alerts
+* Fixes undefined variable notice for filter link
+* Adds `%%title_parent%%` for auto-display images
+* Adds `%%title%%` for auto-display email and url
+* Adds class `.usp-submit` to submit button
+* Fixes email validation bug when email optional
+* Adds filter hook `usp_editor_content` for `wp_editor()`
+* Adds filter hook `usp_return_form` for return link
+* Adds fallback for `wp_add_inline_script` for WP &lt; 4.5
+* Tweaks sanitization of post content to improve security
+* Updates show support panel in plugin settings
+* Reorders plugin action links
+* Improves default options functionality
+* Replaces global `$wp_version` with `get_bloginfo('version')`
+* Adds option to customize the "From" email address for alerts
+* Refines display of settings panels
+* Adds new IP-detection script
+* Generates new default translation template
+* Tests on WordPress version 4.8
+
+**20161122**
+
+* Changed `get_template_directory()` to `get_stylesheet_directory()` in `usp_display_form()`
+* Changed `get_template_directory()` to `get_stylesheet_directory()` in `usp_enqueueResources()`
+* Changed `get_template_directory_uri()` to `get_stylesheet_directory_uri()` in `usp_enqueueResources()`
+
+**20161119**
+
+* Moved custom form template to theme directory
+* Refactored and combined `usp_js_vars()` with `usp_enqueueResources()`
+* Refactored `usp_load_admin_styles()`
+* Refactored `add_usp_links()` function
+* Refined `usp_display_form()` function
+* Removed `usp_editor_style()` and file
+* Removed deprecated `usp_currentPageURL()`
+* Removed filter hook `usp_current_page`
+* Fine-tuned submission form and styles
+* Improved default styling of WP RTE field
+* Reorganized and refined plugin settings page
+* Upgraded Parsley.js to version 2.6.0
+* Deprecated JS function `usp_check_files()`
+* Bugfix: conflict with "Require User Login" and "Registered Username"
+* Bugfix: conflict with "Require User Login" and "User Profile URL"
+* Bugfix: support nag re-appears after each settings save
+* Added `usp_default_title` filter hook for default post titles
+* Changed form label from "Post URL" to "User URL" on plugin settings page
+* Added missing parameter to `usp_check_images()`
+* Reorganized and streamlined plugin file structure
+* Streamlined some global variables
+* Added some missing translation strings
+* Updated plugin author URL
+* Updated Twitter URL to https
+* Changed stable tag from trunk to latest version
+* Updated URL for rate this plugin links
+* Regenerated default translation template
+* Tested on WordPress version 4.7 (beta)
+
+**20160815**
+
+* Fine-tuned the plugin settings page
+* Replaced `_e()` with `esc_html_e()` or `esc_attr_e()`
+* Replaced `__()` with `esc_html__()` or `esc_attr__()`
+* Added plugin icons and larger banner image
+* Improved translation support
+* Added more allowed tags and attributes to relevant plugin settings
+* Removed usp_addNewPostStatus() function (deprecated hook)
+* Fixed bug where required URL field shows error if User Profile URL enabled
+* Added more allowed tags and attributes to submitted post content
+* Refined logic of usp_checkForPublicSubmission() function
+* Added usp_redirect_message() for error messages when Redirect URL enabled 
+* Changed hook priority for usp_checkForPublicSubmission() function
+* Added Russian translation (thanks to [Nick Lysenko](https://twitter.com/unbirth7))
+* Added setting to display form only to logged-in users
+* Fine-tuned default form styles and error messages
+* Generated new translation template
+* Tested on WordPress 4.6
+
+**20160411**
+
+* Cleaned up plugin tags
+* Added new Dutch translation (thanks to [Berend](http://botoboto.com/))
+* Added Italian translation (thanks to [Rosario](https://rosariomonaco.com/))
+* Replaced icon with retina version
+* Added screenshot to readme/docs
+* Added retina version of banner
+* Reorganized and refreshed readme.txt
+* Tested on WordPress version 4.5 beta
+
+**20160215**
+
+* Fixes XSS vulnerability (thanks to [Panagiotis Vagenas](https://twitter.com/panVagenas))
+* Updates descriptions for settings "Registered Username" and "User Profile URL"
+* Adds `[usp_display_posts]` shortcode to display list of user submitted posts
+* Adds UTF-8 default parameter to get_option('blog_charset')
+* Replaces get_currentuserinfo() with wp_get_current_user()
+* Removes quotes from charset in email headers
+* Adds screenshots to readme.txt/documentation
+* Cleans up readme.txt/documentation
+* Tested on WordPress 4.5 alpha
+
+**20151113**
+
+Note: the CSS and JavaScript for the plugin settings page is now moved to their own external files. Please clear your browser cache and/or force refresh the settings page to load the new files!
+
+* Added options to auto-display custom fields and images
+* "USP" button on Posts screen now displays all USP Posts (not just Pending)
+* Added Dutch translation (Thanks to [Erik Kroon](https://www.punchcreative.nl/))
+* Added German translation (Thanks to [Michael](https://wordpress.org/support/topic/image-problem-german-translation))
+* Added check for `$post` in `usp_is_public_submission()`
+* Removed width from `a#usp_add-another` in `usp.css`
+* Fixed custom markup for "Add Another" link
+* Added option to show fields but not require
+* Added `usp_check_required()` function
+* Added setting to enable shortcodes in widgets
+* Added `get_currentuserinfo()` where required
+* Added `esc_url()` to sanitize URI strings
+* Removed unnecessary `mail()` headers (Thanks to Jason Hendriks)
+* Refined `usp_send_mail_alert()`
+* Fixed sending alerts to multiple email addresses
+* Added option to disable tracking of IP addresses
+* Added option to specify customize email alert subject
+* Added option to specify customize email alert message
+* Reorganized and streamlined settings page
+* Added option to disable default USP styles for custom forms
+* Replaced USP graphics with retina versions
+* Added `usp_load_admin_styles()` to enqueue settings styles
+* Replaced `load_custom_admin_css()` with `usp_load_admin_styles()`
+* Moved JavaScript and CSS to their own external files
+* Added option to publish as "Draft" Post Status
+* Removed deprecated `usp_answer` and `usp_form_width` options
+* Added more attributes to `$allowed_atts`
+* Added `usp_form_display_options()`
+* Added `usp_auto_display_options()`
+* Added hooks: 
+	* `usp_post_draft`
+	* `usp_image_args`
+	* `usp_image_title`
+	* `usp_image_thumb`
+	* `usp_image_medium`
+	* `usp_image_large`
+	* `usp_image_full`
+	* `usp_image_custom_size`
+	* `usp_image_custom`
+	* `usp_email_custom_field`
+	* `usp_url_custom_field`
+* Added `usp_auto_display_images()`, `usp_auto_display_email()`, `usp_auto_display_url()`
+* Added `usp_replace_image_vars()`
+* USP Meta Box not displayed if no data to display
+* Fixed bug with targeted loading of USP stylesheet
+* Updated heading hierarchy in plugin settings
+* Updated translation template file
+* Updated minimum version requirement
+* Tested on WordPress 4.4 beta
+
+**20150808**
+
+* Tested on WordPress 4.3
+* Updated minimum version requirement
+
+**20150507**
+
+* Tested with WP 4.2 + 4.3 (alpha)
+* Changes a few "http" links to "https"
+* Fixes XSS vulnerability with add_query_arg()
+* Adds isset() to stop some minor PHP warnings
+* Fixes mixed content warning for https sites
+* Adds support for exif_imagetype when needed
+* Adds Arabic translation, thanks to Amine CH
+* Adds Spanish translation, thanks to Clara Rold√°n
+
+**20150319**
+
+* Tested with latest version of WP (4.1)
+* Increases minimum version to WP 3.8
+* Removes deprecated screen_icon()
+* Adds $usp_wp_vers for version check
+* Streamline/fine-tune plugin code
+* Adds Text Domain and Domain Path to file header
+* Adds alert panel to plugin settings page
+* Adds Serbo-Croatian translation - thanks [Borisa Djuraskovic](https://www.webhostinghub.com/)
+* Adds Chinese translation - thanks Xing
+* Improves error handling
+* Improves post author process
+* Improves post-submission process
+* Improves code in submission-form.php
+* Adds nonce security to submission process
+* Adds proper headers to email alert
+* Adds Email field to the form (hidden by default)
+* Adds USP Info meta box to Post Edit screen (Props: Nathan Clough)
+* Adds specific error messages for fields/files (e.g., min, max, required)
+* Adds option to disable required attributes
+* Adds usp_post_status filter hook
+* Adds usp_file_key filter hook
+* Adds usp_post_data filter hook
+* Adds usp_editor_settings filter hook
+* Adds usp_error_message filter hook
+* Adds usp_post_moderate filter hook
+* Adds usp_post_publish filter hook
+* Adds usp_post_approve filter hook
+* Adds drag_drop_upload to visual/rich-text editor
+* Adds option to require unique post titles
+* Changes approved-post count to check for name/IP instead of URL/IP
+* Changes class .hidden to .usp-hidden in default submission form
+* Changes class .no-js to .usp-no-js in default submission form
+* Changes class .js to .usp-js in default submission form
+* Replaces sanitize_text_field() with esc_url() for URL field
+* Replaces default .mo/.po templates with .pot template
+* Fixes bug where encoded characters are removed from URL
+* Fixes various bugs and PHP notices
+
+**20140930**
+
+* Removes required attribute from default form textarea
+* Removes "exclude" from type on redirect-override in default form
+* Adds class "exclude" and "hidden" to redirect-override in default form
+
+**20140927**
+
+* Tested on latest version of WordPress (4.0)
+* Increases min-version requirement to 3.7
+* Improves layout and styles of plugin settings page
+* Adds Romanian translation - thanks [Hideg Andras](https://www.blue-design.ro/)
+* Adds Persian (Farsi) translation - thanks [Pooya Behravesh](http://icomp.ir/)
+* Adds French translation - thanks [Mirko Humbert](https://www.designer-daily.com/) and [Matthieu Solente](https://www.copier-coller.com/)
+* Updates default mo/po translation files
+* Updates Parsley.js to version 2.0
+* Updates usp.css with styles for Parsley 2.0
+* Updates captcha-check script for Parsley 2.0
+* Updates markup in default form for Parsley 2.0
+* Replaces call to wp-load.php with wp_print_scripts
+* Replaces sac.php with individual JavaScript libraries
+* Improves logic of usp_enqueueResources() function
+* Improves logic of min-file check JavaScript
+* Removes ?version from enqueued resources
+* Adds option to use "custom" form and stylesheet
+* Removes deprecated "classic" form, submission-form-classic.php and usp-classic.css
+* Removes `novalidate` from default form
+* Removes `data-type="url"` from default form
+* Removes `.usp-required` classes from default form
+* Removes `id="user-submitted-tags"` from default form
+* Removes `<div class="usp-error"></div>` from default form
+* Adds "Please select a category.." to category select field
+* Updates CSS for default form, see list at https://m0n.co/e
+* Replaces some stripslashes() with sanitize_text_field()
+* Replaces some htmlentities() with sanitize_text_field()
+* Fixes bug where too big/small images would not trigger error
+* Adds post id and error as query variable in return URL
+* Adds sanitize_text_field() to usp_currentPageURL()
+* Adds the following filter hooks:
+	* `usp_post_status`
+	* `usp_post_author`
+	* `usp_form_shortcode`
+	* `usp_mail_subject`
+	* `usp_mail_message`
+	* `usp_new_post`
+	* `usp_input_validate`
+* Adds the following action hooks:
+	* `usp_submit_success`
+	* `usp_submit_error`
+	* `usp_insert_before`
+	* `usp_insert_after`
+	* `usp_files_before`
+	* `usp_files_after`
+	* `usp_current_page`
+
+**20140308**
+
+* usp_require_wp_version() now runs only on plugin activation
+
+**20140123**
+
+* Tested with latest version of WordPress (3.8)
+* Added trailing slash to load_plugin_textdomain()
+* Increased WP minimum version requirement from 3.3 to 3.5
+* Added popout info about Pro version now available
+* Added Spanish translation; thanks to [Mar√≠a Iglesias](https://globalcultura.com/)
+* Change CSS for "USP" button to display after the "Filter" button on edit.php
+* Added 8px margin to "Empty Trash" button on the Post Trash screen
+* Changed handle from "uspContent" to "uspcontent" for wp_editor()
+* Added class ".usp-required" to input fields (for use with JavaScript)
+* Fixed issue of submitted posts going to Trash when a specific number of images is required AND the user submits the form without selecting the required number of images. JavaScript now checks for required image(s) and will not allow the form to be submitted until the user has selected the correct number of images.
+* Improved logic responsible for displaying file input fields and the "Add Another Image" button
+* Added option to display custom markup for "Add Another Image" button
+* Replaced select fields with number inputs for settings "minimum/maximum number of images"
+* Added `href`, `rel`, and `target` attributes to $allowed_atts
+* Made default options translatable, generated new mo/po templates
+* Streamlined plugin settings intro panel
+
+**20131107**
+
+* Added i18n support
+* Added uninstall.php file
+* Removed "&Delta;" from `die()`
+* Added "rate this plugin" links
+* Added Brazilian Portuguese translation; thanks to [Daniel Lemes](https://www.tutoriart.com.br/)
+* Added notes about support for multiple email addresses for email alerts
+* Increased `line-height` on settings page `<td>` elements
+* Added `.inline` class to some plugin settings
+* Changed CSS for `#usp_admin_filter_posts` in usp-admin.css
+* Changed link text on Post filter button from "User Submitted Posts" to "USP"
+* Fixed backwards setting for captcha case-sensitivity
+* Added `is_object($post)` to `usp_display_featured_image`; Thanks to [Larry Holish](holish.net)
+* Changed `application/x-javascript` to `application/javascript` in usp.php
+* Removed `getUrlVars` function and changed "forget input values" to use a simpler regex; Thanks to [Larry Holish](holish.net)
+* Tricked out `wp_editor` with complete array in both submission-form files
+* Added note on settings screen about deprecating the "classic" submit form
+* Replaced `wp-blog-header.php` with `wp-load.php` in usp.php
+* Improved sanitization of POST variables
+* Added check for empty content when content textarea is displayed on form
+* Removed closing `?>` from user-submitted-posts.php
+* Tested with latest version of WordPress (3.7)
+* Fleshed out readme.txt with even more infos
+* General code cleanup and maintenance
+
+**20130720**
+
+* Added option to set attachment as featured image
+* Improved localization support (.mo and .po)
+* Added optional use of WP's built-in rich text editor
+* Added custom stylesheet for WP's rich text editor
+* Replace antispam placeholder in submission-form.php
+* Improved jQuery for "add another image" functionality
+* Added jQuery script to remember form input values via cookies
+* Added data validation for input fields via Parsley @ https://parsleyjs.org/
+* Overview and Updates panels now toggled open by default
+* Updated CSS styles for HTML5 and Classic forms
+* Improved logic for form verification JavaScript
+* Resolved numerous PHP notices and warnings
+* Updated readme.txt with more infos
+* General code check n clean
+
+**20130104**
+
+* Added explanation of plugin functionality in readme.txt
+* Fixed character encoding issue for author name
+* Added margins to submit buttons (to fix WP's new CSS)
+* Removed "anti-spam" text from captcha placeholder attribute
+* usp_post_attachments() tag now accepts custom sizes
+* Added temp fix for warning: "getimagesize(): Filename cannot be empty"
+* Restyled USP filter button on admin Posts pages
+
+**20121120**
+
+* added id to tag input field in submission-form.php
+* enabled option to disable loading of external JavaScript file
+* enabled option to specify URL for targeted resource loading
+* added `fieldset { border: 0; }` to usp.css stylesheet
+* increased width of anti-spam input field (via usp.css)
+* changed the order of input fields in submission-form.php
+* fixed loading of resources on success and error pages
+* added field for custom content to display before the USP form
+* enable HMTL for success, error, and upload messages
+* fixed issue with content not getting included in posts
+
+**20121119**
+
+* increased default image width and height
+* comment out output start in three files
+* remove echo output for input value attributes
+* cleaned up placeholders with clearer infos
+* remove usp_validateContent() function
+* remove conditional if for content in usp_checkForPublicSubmission() [1]
+* [1] default text no longer added to posts when empty
+* remove content validation in usp_createPublicSubmission()
+* added option to receive email alert for new submissions
+* added option to set author as current user
+* added option to set author url as usp url
+* added option to set category as hidden
+* submission-form.php &amp; submission-form-classic.php: changed markup output for success &amp; error messages
+
+**20121108**
+
+* Fixed non-submission when title and other fields are hidden
+
+**20121107**
+
+* Rebuilt plugin and optimized code using current WP API
+* Redesigned settings page, toggling panels, better structure, more info, etc.
+* Errors now redirect to specified page (if set) or current page
+* Fixed bug to allow for unlimited number of uploaded images
+* Cleaned up template tags, added inline comments
+* Optimized/enhanced the user-submission form
+* Added option to restore default settings
+* Added settings link from Plugins page
+* Renamed CSS and JavaScript files
+* Added challenge question captcha
+* Added hidden field for security
+* Added option for custom success message
+* Submission form now retains entered value if error
+* Added placeholder attributes to the form fields
+* Submissions including invalid upload files now redirect to form with error message
+* Fixed default author of submitted posts
+* the_author_link is not filterable, so created new function usp_author_link
+* moved admin styles from form stylesheet to admin-only stylesheet
+* Added new HTML5 form and stylesheet, kept originals as "classic" version
+
+**1.0**
+
+* Initial release
