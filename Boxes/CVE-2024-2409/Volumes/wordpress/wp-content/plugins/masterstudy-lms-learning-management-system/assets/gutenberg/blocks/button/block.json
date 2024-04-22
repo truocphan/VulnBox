@@ -1,0 +1,99 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "masterstudy/button",
+  "version": "0.1.0",
+  "title": "MasterStudy Button",
+  "category": "masterstudy-lms-blocks",
+  "icon": "button",
+  "description": "Convince readers to take action with a button",
+  "supports": {
+    "html": false,
+    "align": false,
+    "alignWide": false,
+    "__experimentalBorder": {
+      "width": true,
+      "radius": true,
+      "color": true,
+      "style": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true
+    }
+  },
+  "attributes": {
+    "linkTarget": {
+      "type": "string",
+      "default": ""
+    },
+    "rel": {
+      "type": "string",
+      "default": ""
+    },
+    "url": {
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "type": "string",
+      "default": ""
+    },
+    "enableIcon": {
+      "type": "boolean",
+      "default": false
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "right"
+    },
+    "color": {
+      "type": "string",
+      "default": ""
+    },
+    "hoverColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgHoverColor": {
+      "type": "string",
+      "default": ""
+    },
+    "borderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "keywords": [
+    "lms",
+    "link",
+    "button",
+    "masterstudy"
+  ],
+  "example": {},
+  "textdomain": "masterstudy-lms-learning-management-system",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

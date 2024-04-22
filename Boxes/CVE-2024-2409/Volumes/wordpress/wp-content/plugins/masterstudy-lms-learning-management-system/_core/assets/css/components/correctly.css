@@ -1,0 +1,1 @@
+.masterstudy-correctly{display:flex;justify-content:center;align-items:center;flex-shrink:0;width:20px;height:20px;padding:0;border-radius:50%;background:var(--success-100)}.masterstudy-correctly::after{display:flex;content:"\e94e";font-weight:400;font-size:8px;font-family:stmlms;color:#fff;line-height:0}

@@ -1,0 +1,433 @@
+/*
+  TODO when will be available option for giving empty field from Nuxy these css styles should be removed
+*/
+.stm_metaboxes_grid__inner .container-constructed .row .wpcfto-box.column-1.wpcfto-box-pro_banner {
+    display: none;
+}
+.stm_metaboxes_grid__inner .container-constructed .row .wpcfto-box.column-1.not_pro.wpcfto-box-pro_banner {
+    display: flex;
+}
+/* ended css styles for Nuxy Empty Field*/
+
+.buttonload i {
+    margin-left: 3px;
+    display: none;
+}
+
+.buttonload .downloaded {
+    display: none;
+}
+
+.stm-lms-theme-pre-install-info {
+    margin-top: 20px;
+}
+
+html body.lms-starter-theme-setup #adminmenumain, html body.lms-starter-theme-setup #wpadminbar, html body.lms-starter-theme-setup #wpcontent #wpbody-content .notice, html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-plugin-admin-notice, html body.lms-starter-theme-setup #wpfooter {
+    display: none
+}
+
+html body.lms-starter-theme-setup {
+    background: #fff;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+html body.lms-starter-theme-setup #wpcontent {
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content {
+    padding-bottom: 0
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-back-to-dashboard {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    width: 190px;
+    height: 50px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-back-to-dashboard a {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .16);
+    border-radius: 4px;
+    background-color: #fff;
+    color: #2a3045;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .28px;
+    opacity: .8
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-back-to-dashboard a:hover {
+    opacity: 1
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-back-to-dashboard a i.stm-lms-left-arrow-icon {
+    width: 14px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='16' viewBox='0 0 14 16'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%232a3045' d='M.455 9.099a1.554 1.554 0 0 1 0-2.197l6.67-6.67 1.514 1.514L3.455 6.93H14v2.14H3.455l5.184 5.184-1.514 1.514z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper {
+    background: #fff;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 100px 80px;
+    position: relative
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #fff;
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-logo-branding {
+    display: inline-flex;
+    justify-content: center;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 40px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-logo-branding span.stm-lms-icon-logo {
+    width: 40px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cdefs%3E%3CclipPath id='vccqa'%3E%3Cpath d='M4.678 0h30.644A4.678 4.678 0 0 1 40 4.678v30.644A4.678 4.678 0 0 1 35.322 40H4.678A4.678 4.678 0 0 1 0 35.322V4.678A4.678 4.678 0 0 1 4.678 0z'/%3E%3C/clipPath%3E%3CclipPath id='vccqb'%3E%3Cpath d='M15.322 26.9v-3.41h1.358c.794 0 1.273.482 1.273 1.188 0 .79-.598 1.2-1.344 1.2h-.556V26.9zm1.364-1.656c.37 0 .585-.23.585-.541 0-.346-.23-.531-.599-.531h-.57v1.072zm2.145 1.657v-3.412h1.546c.43 0 .764.122.986.346.189.19.29.458.29.79 0 .55-.295.896-.725 1.057l.827 1.219h-.87l-.735-1.092h-.575v1.092zm1.556-1.755c.374 0 .588-.194.588-.49 0-.32-.23-.484-.603-.484h-.762v.974h.777zm2.147 0c0-.964.761-1.754 1.808-1.754 1.047 0 1.799.78 1.799 1.754 0 .965-.761 1.755-1.808 1.755-1.047 0-1.799-.78-1.799-1.755zm1.808 1.072c.602 0 1.019-.477 1.019-1.072 0-.585-.427-1.072-1.028-1.072-.602 0-1.019.478-1.019 1.072 0 .585.427 1.072 1.028 1.072z'/%3E%3C/clipPath%3E%3CclipPath id='vccqc'%3E%3Cpath d='M29.5 25a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1z'/%3E%3C/clipPath%3E%3CclipPath id='vccqd'%3E%3Cpath d='M13.5 25.5h0-.5.5z'/%3E%3C/clipPath%3E%3CclipPath id='vccqe'%3E%3Cpath d='M4.678 0h.936v40h-.936A4.678 4.678 0 0 1 0 35.322V4.678A4.678 4.678 0 0 1 4.678 0z'/%3E%3C/clipPath%3E%3CclipPath id='vccqf'%3E%3Cpath d='M.175 35.263v-.585h39.766v.585a4.678 4.678 0 0 1-4.678 4.679H4.853a4.678 4.678 0 0 1-4.678-4.679z'/%3E%3C/clipPath%3E%3CclipPath id='vccqg'%3E%3Cpath d='M5.848 30.644h30.125c1.115 0 1.97-.329 2.565-.985.596-.657 1.005-1.476 1.228-2.459v6.952a3.509 3.509 0 0 1-3.509 3.51H5.848a3.509 3.509 0 1 1 0-7.018z'/%3E%3C/clipPath%3E%3CclipPath id='vccqh'%3E%3Cpath d='M5.848 30.644h30.125c1.115 0 1.97-.329 2.565-.985.596-.657 1.005-1.476 1.228-2.459v6.952a3.509 3.509 0 0 1-3.509 3.51H5.848a3.509 3.509 0 1 1 0-7.018z'/%3E%3C/clipPath%3E%3CclipPath id='vccqi'%3E%3Cpath d='M1 35v-7h39v7z'/%3E%3C/clipPath%3E%3CclipPath id='vccqj'%3E%3Cpath d='M4 35a3 3 0 0 1-3-3v-1a3 3 0 0 1 3-3h33a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3z'/%3E%3C/clipPath%3E%3CclipPath id='vccqk'%3E%3Cpath d='M3 38V28h37v10z'/%3E%3C/clipPath%3E%3CclipPath id='vccql'%3E%3Cpath d='M5.848 30.644h30.125c1.115 0 1.97-.329 2.565-.985.596-.657 1.005-1.476 1.228-2.459v6.952a3.509 3.509 0 0 1-3.509 3.51H5.848a3.509 3.509 0 1 1 0-7.018z'/%3E%3C/clipPath%3E%3CclipPath id='vccqm'%3E%3Cpath d='M1 34v-8h39v8z'/%3E%3C/clipPath%3E%3CclipPath id='vccqn'%3E%3Cpath d='M5 34a4 4 0 1 1 0-8h31a4 4 0 1 1 0 8z'/%3E%3C/clipPath%3E%3CclipPath id='vccqo'%3E%3Cpath d='M3 38V28h37v10z'/%3E%3C/clipPath%3E%3CclipPath id='vccqp'%3E%3Cpath d='M29.006 4.795v14.076c0 .825-.741 1.5-1.647 1.5H23.81c-.033 0-1.337.016-2.2.48-.692.372-.967 1.24-.967 1.254 0-.026-.347-.83-1.12-1.254-.785-.43-1.997-.48-2.046-.48H13.93c-.906 0-1.647-.675-1.647-1.5V4.795zm-4.993 6.67a2.368 2.368 0 0 0-1.504.44 1.355 1.355 0 0 0-.56 1.11c-.005.259.07.512.216.725.144.204.337.369.56.479.246.12.5.22.763.296.28.082.559.155.838.219.279.064.533.133.762.208.205.061.396.163.56.3.137.11.217.275.217.451a.809.809 0 0 1-.384.712 1.898 1.898 0 0 1-1.063.255 2.274 2.274 0 0 1-.736-.115 1.831 1.831 0 0 1-.543-.277 2.546 2.546 0 0 1-.406-.411.737.737 0 0 1-.203-.404v-.167a.093.093 0 0 0-.105-.104h-.555a.097.097 0 0 0-.115.104v1.87a.093.093 0 0 0 .115.096h.495a.09.09 0 0 0 .105-.096l-.008-.783c.205.269.467.487.767.64.415.21.877.313 1.342.295.734 0 1.286-.152 1.656-.455.358-.276.564-.706.557-1.16a1.115 1.115 0 0 0-.221-.69 1.533 1.533 0 0 0-.573-.46 4.941 4.941 0 0 0-.777-.288 23.325 23.325 0 0 0-.847-.22 8.819 8.819 0 0 1-.776-.22 1.617 1.617 0 0 1-.573-.32.624.624 0 0 1-.22-.479c0-.262.135-.505.357-.643.28-.18.607-.268.939-.252a1.83 1.83 0 0 1 1.19.335.911.911 0 0 1 .407.664v.223a.09.09 0 0 0 .105.096h.556a.09.09 0 0 0 .105-.096v-1.742a.09.09 0 0 0-.105-.096h-.494a.094.094 0 0 0-.115.096l.018.495c-.371-.42-.953-.63-1.747-.63zM14.965 7.84a.088.088 0 0 0-.078.02.096.096 0 0 0-.033.076v.406c-.001.03.01.057.033.076.021.019.05.026.078.02h.648v4.531h-.648a.088.088 0 0 0-.078.02.096.096 0 0 0-.033.076v.405c-.001.03.01.058.033.077.021.018.05.026.078.019h1.96c.027.007.056 0 .078-.02a.096.096 0 0 0 .033-.076v-.406a.096.096 0 0 0-.033-.077.089.089 0 0 0-.078-.02h-.57v-3.97h.017l1.62 3.764c.071.146.216.239.375.239a.42.42 0 0 0 .375-.24l1.62-3.764h.009v3.973h-.572a.084.084 0 0 0-.074.022.092.092 0 0 0-.028.074v.406a.092.092 0 0 0 .028.074c.02.018.048.027.074.022h1.97a.087.087 0 0 0 .074-.023.09.09 0 0 0 .028-.074v-.406a.091.091 0 0 0-.028-.074.084.084 0 0 0-.074-.022h-.656v-4.53h.656a.084.084 0 0 0 .074-.022.091.091 0 0 0 .028-.074v-.42a.091.091 0 0 0-.028-.06.084.084 0 0 0-.074-.022h-1.304a.406.406 0 0 0-.41.271l-1.278 2.887c-.102.244-.233.574-.392.99h-.035l-.4-1.006-1.272-2.87a.4.4 0 0 0-.4-.272z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqa)'%3E%3Cpath fill='%233350d4' d='M0 40V0h40v40z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqb)'%3E%3Cpath fill='%23fff' d='M14.737 27.486v-4.679h11.988v4.679z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqc)'%3E%3Cpath fill='%23fff' d='M28 26v-2h2v2z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqd)'%3E%3Cpath fill='%23fff' d='M11 26v-2h3v2z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqe)'%3E%3Cpath fill='%232b44b6' d='M0 40V0h6v40z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqf)'%3E%3Cpath fill='%232b44b6' d='M-.41 40.527v-6.433h40.936v6.433z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqg)'%3E%3Cpath fill='%23e3e5e6' d='M1.754 38.246v-11.63h38.597v11.63z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqh)'%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqi)'%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqj)'%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqk)'%3E%3Cpath fill='%23babab8' d='M1 36v-8h39v8z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccql)'%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqm)'%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqn)'%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqo)'%3E%3Cpath fill='%23e3e5e6' d='M1 34v-8h39v8z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Cg%3E%3Cg/%3E%3Cg clip-path='url(%23vccqp)'%3E%3Cpath fill='%23fff' d='M11.698 22.69V4.21h17.893v18.48z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-logo-branding span.stm-lms-text-logo {
+    width: 162px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='162' height='37' viewBox='0 0 162 37'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23273044' d='M11.952 15.078V6.54l-3.765 5.82h-.085L4.36 6.583v8.496H.362V.208h4.312l3.513 5.756L11.7.208h4.312v14.87zm12.066-5.864h3.303L25.679 4.99zm5.554 5.864l-1.073-2.657h-5.68l-1.052 2.657h-4.292L23.745.103h3.933l6.27 14.975zm21.947 0V3.818H47.1V.208h12.916v3.61H55.6v11.26zm10.121 0V.208h11.844v3.504h-7.805v2.252h7.068v3.25H65.68v2.356h7.91v3.508zm17.8-7.732h2.693c.687 0 1.224-.162 1.61-.478.385-.32.578-.763.578-1.329 0-.58-.193-1.018-.579-1.317-.385-.297-.929-.444-1.63-.444h-2.671zm4.755 7.732l-2.966-4.505H79.44v4.505h-4.082V.208h6.963c2.146 0 3.745.53 4.797 1.592.87.88 1.304 2.054 1.304 3.527 0 2.18-1.01 3.705-3.03 4.567l3.514 5.184zm26.017 0V1.758h-4.943V.207h11.57v1.55h-4.944v13.32zm26.123-1.55h3.45c1.837 0 3.313-.56 4.428-1.666 1.115-1.115 1.672-2.52 1.672-4.218 0-1.685-.56-3.09-1.683-4.21-1.122-1.115-2.594-1.677-4.417-1.677h-3.45zm-1.662 1.55V.208h5.112c2.3 0 4.18.704 5.638 2.114 1.458 1.407 2.188 3.182 2.188 5.322 0 2.123-.734 3.893-2.199 5.308-1.465 1.418-3.341 2.126-5.627 2.126zm19.241 0V9.193L147.793.208h2.02l4.963 7.436 5.007-7.436h1.935l-6.122 8.964v5.906zm-61.366-2.166zm1.03-1.235c.786.726 1.575 1.255 2.368 1.595.791.34 1.686.508 2.682.508.98 0 1.773-.236 2.376-.71.604-.477.905-1.094.905-1.86 0-.72-.267-1.297-.8-1.72-.533-.422-1.542-.791-3.029-1.106-1.752-.381-3.015-.898-3.786-1.549-.771-.652-1.157-1.579-1.157-2.783 0-1.177.456-2.145 1.367-2.909.912-.766 2.069-1.147 3.471-1.147 1.95 0 3.674.61 5.175 1.828l-.968 1.293c-1.304-1.076-2.72-1.612-4.25-1.612-.938 0-1.696.229-2.27.689-.576.46-.863 1.044-.863 1.754 0 .737.277 1.314.83 1.742.555.423 1.61.805 3.167 1.145 1.668.368 2.885.883 3.65 1.539.764.66 1.146 1.562 1.146 2.71 0 1.26-.47 2.276-1.41 3.047-.94.772-2.145 1.157-3.617 1.157-2.259 0-4.264-.79-6.017-2.376zm26.977 1.944c-1.108-1.124-1.662-2.713-1.662-4.768V.208h1.662v8.54c0 1.6.396 2.833 1.188 3.706.793.868 1.897 1.306 3.314 1.306 1.388 0 2.475-.416 3.26-1.251.786-.837 1.179-2.056 1.179-3.656V.208h1.661v8.52c0 2.123-.554 3.75-1.661 4.884-1.108 1.133-2.602 1.699-4.481 1.699-1.865 0-3.352-.564-4.46-1.69zm-84.28-3.495c1.471 1.191 3.063 1.784 4.774 1.784 1.121 0 1.682-.352 1.682-1.06 0-.311-.168-.57-.504-.775-.337-.205-.996-.422-1.978-.648a23.827 23.827 0 0 1-2.219-.624 8.726 8.726 0 0 1-1.704-.833c-.554-.346-.964-.786-1.23-1.326-.267-.539-.4-1.183-.4-1.932 0-1.405.515-2.546 1.546-3.432 1.031-.887 2.416-1.328 4.155-1.328 2.411 0 4.43.659 6.058 1.976l-2.04 2.91c-1.375-.977-2.75-1.465-4.123-1.465-.478 0-.842.091-1.094.276a.854.854 0 0 0-.379.722c0 .341.172.61.515.807.344.2 1.02.41 2.03.638 1.852.412 3.23.962 4.134 1.647.904.684 1.357 1.695 1.357 3.026 0 1.5-.54 2.685-1.62 3.547-1.08.867-2.524 1.296-4.333 1.296-2.777 0-5.077-.82-6.9-2.463z'/%3E%3C/g%3E%3Cg opacity='.7'%3E%3Cpath fill='%232a3045' d='M139.12 34.728v2.08h-8.672v-11.2h8.464v2.08h-5.888v2.432h5.2v2.016h-5.2v2.592zm-13.76 2.08l-.016-6.72-3.296 5.536h-1.168l-3.28-5.392v6.576h-2.432v-11.2h2.144l4.192 6.96 4.128-6.96h2.128l.032 11.2zm-12.256-2.08v2.08h-8.672v-11.2h8.464v2.08h-5.888v2.432h5.2v2.016h-5.2v2.592zm-11.328-9.12v11.2h-2.592v-4.592h-5.088v4.592h-2.592v-11.2h2.592v4.416h5.088v-4.416zm-17.84 2.112h-3.584v-2.112h9.76v2.112h-3.584v9.088h-2.592zm-11.52 1.952c0-.63-.203-1.112-.608-1.448-.405-.336-.997-.504-1.776-.504H67.92v3.904h2.112c.779 0 1.37-.17 1.776-.512.405-.341.608-.821.608-1.44zm.048 7.136l-2.16-3.12H67.92v3.12h-2.592v-11.2h4.848c.992 0 1.853.165 2.584.496.73.33 1.293.8 1.688 1.408.395.608.592 1.328.592 2.16 0 .832-.2 1.55-.6 2.152-.4.603-.968 1.064-1.704 1.384l2.512 3.6zm-9.2-2.08v2.08h-8.672v-11.2h8.464v2.08h-5.888v2.432h5.2v2.016h-5.2v2.592zm-16.24-7.008H43.44v-2.112h9.76v2.112h-3.584v9.088h-2.592zm-6.832 1.952c0-.63-.203-1.112-.608-1.448-.405-.336-.997-.504-1.776-.504h-2.112v3.904h2.112c.779 0 1.37-.17 1.776-.512.405-.341.608-.821.608-1.44zm.048 7.136l-2.16-3.12h-2.384v3.12h-2.592v-11.2h4.848c.992 0 1.853.165 2.584.496.73.33 1.293.8 1.688 1.408.395.608.592 1.328.592 2.16 0 .832-.2 1.55-.6 2.152-.4.603-.968 1.064-1.704 1.384l2.512 3.6zM27.408 32.44l-1.776-4.288-1.776 4.288zm.816 1.968h-5.2l-.992 2.4h-2.656l4.992-11.2h2.56l5.008 11.2h-2.72zM13.84 27.72h-3.584v-2.112h9.76v2.112h-3.584v9.088H13.84zM2.584 36.64c-.827-.24-1.49-.552-1.992-.936l.88-1.952c.48.352 1.05.635 1.712.848a6.43 6.43 0 0 0 1.984.32c.736 0 1.28-.11 1.632-.328.352-.219.528-.51.528-.872a.834.834 0 0 0-.312-.664 2.365 2.365 0 0 0-.8-.424 15.923 15.923 0 0 0-1.32-.352c-.853-.203-1.552-.405-2.096-.608a3.405 3.405 0 0 1-1.4-.976c-.39-.448-.584-1.045-.584-1.792 0-.65.176-1.24.528-1.768.352-.528.883-.947 1.592-1.256.71-.31 1.576-.464 2.6-.464.715 0 1.413.085 2.096.256.683.17 1.28.416 1.792.736l-.8 1.968c-1.035-.587-2.07-.88-3.104-.88-.725 0-1.261.117-1.608.352-.347.235-.52.544-.52.928s.2.67.6.856c.4.187 1.01.37 1.832.552.853.203 1.552.405 2.096.608a3.47 3.47 0 0 1 1.4.96c.39.437.584 1.03.584 1.776 0 .64-.179 1.224-.536 1.752-.357.528-.893.947-1.608 1.256-.715.31-1.584.464-2.608.464-.885 0-1.741-.12-2.568-.36z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content.hidden {
+    display: none
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content.step-2 .stm-lms-theme-install-info {
+    margin-top: 110px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-success-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-success-title .stm-lms-success-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #195ec8;
+    border-radius: 50%
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-success-title .stm-lms-success-icon i {
+    display: block;
+    width: 46px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='46' height='34' viewBox='0 0 46 34'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23195ec8' d='M15.48 28.68L2.36 15.72.12 17.96l15.36 15.36 30.4-30.4L43.64.68z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-success-title p {
+    width: 80%;
+    color: #2a3045;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: center
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-success-info {
+    color: #696d7c;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+    text-align: center
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-success-info a {
+    color: #195ec8;
+    text-decoration: none
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-preview {
+    height: 300px;
+    margin-bottom: 20px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-preview img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-pre-install-info p {
+    color: #2a3045;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21.6px;
+    text-align: left
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-pre-install-info ul li {
+    color: #696d7c;
+    font-family: "SF UI Display";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .32px;
+    text-align: left
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-pre-install-info ul li:before {
+    content: "\2022";
+    font-size: 20px;
+    color: #195ec8;
+    margin-right: 10px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-pre-install-info .stm-lms-attention {
+    display: flex;
+    align-items: center;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    border-radius: 4px;
+    height: 50px;
+    width: 100%
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-pre-install-info .stm-lms-attention .stm-lms-attention-icon {
+    display: block;
+    width: 24px;
+    height: 22px;
+    margin-left: 15px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='22' viewBox='0 0 24 22'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23ea4040' d='M13 13a1 1 0 1 1-2 0V7a1 1 0 0 1 2 0zm-1 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm2.876-16.328a3.309 3.309 0 0 0-5.752 0L.414 17.19a3.178 3.178 0 0 0 .03 3.19A3.264 3.264 0 0 0 3.29 22h17.42a3.264 3.264 0 0 0 2.847-1.62c.581-.981.592-2.198.03-3.19z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-pre-install-info .stm-lms-attention .stm-lms-attention-info {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-pre-install-info .stm-lms-attention .stm-lms-attention-info p {
+    color: #696d7c;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16.8px;
+    margin: 0;
+    padding: 0
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-pre-install-info .stm-lms-attention .stm-lms-attention-info span {
+    color: #2a3045;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 16.8px;
+    text-align: left;
+    opacity: .7
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-install-info {
+    margin: 50px 0 10px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-theme-install-info p {
+    color: #2a3045;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: center;
+    margin: 0
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-installation-result-message {
+    color: #696d7c;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21.6px;
+    text-align: center
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-starter-theme-progress-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+    height: 6px;
+    width: 100%;
+    margin: 30px 0;
+    background-color: #eef1f7;
+    border-radius: 3px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-starter-theme-progress-bar .percentage {
+    position: absolute;
+    bottom: 10px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-starter-theme-progress-bar .progress-bar {
+    background-color: #195ec8;
+    border-radius: 3px;
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-installation-result-data {
+    display: flex;
+    flex-direction: column
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-installation-result-data .stm-lms-pro-install-items {
+    display: inline-flex;
+    -webkit-column-gap: 8px;
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    align-items: center;
+    color: #696d7c;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .32px;
+    text-align: left
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-installation-result-data .stm-lms-pro-install-items .ready {
+    width: 14px;
+    height: 14px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23195ec8' d='M9.475 4.525a.7.7 0 0 1 .99.99L6.508 9.472l-.003.003a.698.698 0 0 1-.99 0l-1.98-1.98a.7.7 0 1 1 .99-.99L6.01 7.99zM7 14A7 7 0 1 0 7 0a7 7 0 0 0 0 14z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-installation-result-data .stm-lms-pro-install-items .loader {
+    width: 8px;
+    height: 8px;
+    border: 3px solid #195ec8;
+    border-top: 3px solid #fff;
+    border-radius: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-actions {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    margin-top: 10px
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-actions .stm-lms-pro-button {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 4px;
+    height: 50px;
+    min-width: 100px;
+    padding: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-actions .stm-lms-pro-button:focus, html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-actions .stm-lms-pro-button:hover {
+    font-size: 15px;
+    outline: 0;
+    box-shadow: none;
+    border: none
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-actions .stm-lms-pro-button.default-btn {
+    background-color: #eef1f7;
+    color: #2a3045
+}
+
+html body.lms-starter-theme-setup #wpcontent #wpbody-content .stm-lms-pro-starter-theme-setup-wrapper .stm-lms-pro-starter-theme-content .stm-lms-pro-actions .stm-lms-pro-button.main-btn {
+    background-color: #195ec8;
+    color: #fff
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "masterstudy/advanced-text",
+  "version": "0.1.0",
+  "title": "MasterStudy Text",
+  "category": "masterstudy-lms-blocks",
+  "icon": "heading",
+  "description": "Add and customize texts with MasterStudy Text",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true,
+    "className": true,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalWritingMode": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "__unstablePasteTextInline": true,
+    "__experimentalSlashInserter": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "type": "string",
+      "default": ""
+    },
+    "mobile": {
+      "type": "object",
+      "default": {}
+    },
+    "tablet": {
+      "type": "object",
+      "default": {}
+    },
+    "desktop": {
+      "type": "object",
+      "default": {}
+    },
+    "level": {
+      "type": "number",
+      "default": 2
+    },
+    "blockStyles": {
+      "type": "object",
+      "default": {}
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "advanced-text",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

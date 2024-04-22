@@ -1,0 +1,95 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "masterstudy/cta",
+  "version": "0.1.0",
+  "title": "MasterStudy Call to Action",
+  "category": "masterstudy-lms-blocks",
+  "icon": "",
+  "description": "Make your offer clear and convince readers to take action",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "__experimentalBorder": {
+      "width": true,
+      "radius": true,
+      "color": true,
+      "style": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true
+    },
+    "layout": true
+  },
+  "attributes": {
+    "layout": {},
+    "width": {
+      "type": "string",
+      "default": ""
+    },
+    "textAlign": {
+      "type": "string",
+      "default": ""
+    },
+    "color": {
+      "type": "string",
+      "default": ""
+    },
+    "hoverColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgHoverColor": {
+      "type": "string",
+      "default": ""
+    },
+    "backgroundImage": {
+      "type": "string",
+      "default": ""
+    },
+    "isBackgroundImage": {
+      "type": "boolean",
+      "default": false
+    },
+    "isBackgroundTransparent": {
+      "type": "boolean",
+      "default": false
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "keywords": [
+    "lms",
+    "cta",
+    "call to action",
+    "masterstudy"
+  ],
+  "textdomain": "masterstudy-lms-learning-management-system",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

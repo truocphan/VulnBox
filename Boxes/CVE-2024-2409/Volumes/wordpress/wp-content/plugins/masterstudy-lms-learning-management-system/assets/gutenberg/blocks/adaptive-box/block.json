@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "masterstudy/adaptive-box",
+  "version": "0.1.0",
+  "title": "MasterStudy Adaptive Container",
+  "category": "masterstudy-lms-blocks",
+  "icon": "align-center",
+  "description": "Add an adaptive section with MasterStudy blocks",
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "__experimentalBorder": {
+      "radius": true,
+      "color": true,
+      "style": true,
+      "width": false
+    },
+    "color": {
+      "background": true,
+      "text": false
+    },
+    "align": [
+      "wide",
+      "full"
+    ],
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "layout": {
+      "allowSizingOnChildren": true
+    },
+    "interactivity": {
+      "clientNavigation": true
+    }
+  },
+  "attributes": {
+    "mobile": {
+      "type": "object",
+      "default": {}
+    },
+    "tablet": {
+      "type": "object",
+      "default": {}
+    },
+    "desktop": {
+      "type": "object",
+      "default": {}
+    },
+    "display": {
+      "type": "string",
+      "default": "block",
+      "enum": [
+        "block",
+        "flex"
+      ]
+    },
+    "isBackgroundImage": {
+      "type": "boolean",
+      "default": false
+    },
+    "backgroundImage": {
+      "type": "string",
+      "default": ""
+    },
+    "blockStyles": {
+      "type": "string",
+      "default": ""
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "keywords": [
+    "lms",
+    "flex",
+    "adaptive",
+    "masterstudy"
+  ],
+  "textdomain": "masterstudy-lms-learning-management-system",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

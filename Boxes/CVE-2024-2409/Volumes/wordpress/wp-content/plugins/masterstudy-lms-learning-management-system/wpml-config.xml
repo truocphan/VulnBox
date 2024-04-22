@@ -1,0 +1,76 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">stm-courses</custom-type>
+        <custom-type translate="1">stm-lessons</custom-type>
+        <custom-type translate="1">stm-quizzes</custom-type>
+        <custom-type translate="1">stm-questions</custom-type>
+        <custom-type translate="1">stm-assignments</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">stm_lms_course_taxonomy</taxonomy>
+        <taxonomy translate="1">stm_lms_question_taxonomy</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="translate" encoding="json">faq</custom-field>
+        <custom-field action="translate">announcement</custom-field>
+        <custom-field action="translate">duration_info</custom-field>
+        <custom-field action="translate">video_duration</custom-field>
+        <custom-field action="copy">featured</custom-field>
+        <custom-field action="copy">level</custom-field>
+        <custom-field action="copy">status</custom-field>
+        <custom-field action="copy">status_dates</custom-field>
+        <custom-field action="copy">not_single_sale</custom-field>
+        <custom-field action="copy">single_sale</custom-field>
+        <custom-field action="copy">price</custom-field>
+        <custom-field action="copy">sale_price</custom-field>
+        <custom-field action="copy">sale_price_dates</custom-field>
+        <custom-field action="copy">enterprise_price</custom-field>
+        <custom-field action="copy">not_membership</custom-field>
+        <custom-field action="copy">affiliate_course</custom-field>
+        <custom-field action="copy">affiliate_course_link</custom-field>
+        <custom-field action="translate">affiliate_course_text</custom-field>
+        <custom-field action="copy">expiration_course</custom-field>
+        <custom-field action="copy">end_time</custom-field>
+        <custom-field action="copy">type</custom-field>
+        <custom-field action="copy">video_type</custom-field>
+        <custom-field action="translate">presto_player_idx</custom-field>
+        <custom-field action="translate">lesson_video</custom-field>
+        <custom-field action="translate">lesson_video_poster</custom-field>
+        <custom-field action="translate">lesson_video_width</custom-field>
+        <custom-field action="translate">lesson_embed_ctx</custom-field>
+        <custom-field action="translate">lesson_youtube_url</custom-field>
+        <custom-field action="translate">lesson_stream_url</custom-field>
+        <custom-field action="translate">lesson_vimeo_url</custom-field>
+        <custom-field action="translate">lesson_ext_link_url</custom-field>
+        <custom-field action="translate">duration</custom-field>
+        <custom-field action="translate">lesson_excerpt</custom-field>
+        <custom-field action="copy">preview</custom-field>
+        <custom-field action="copy">questions</custom-field>
+        <custom-field action="copy">quiz_style</custom-field>
+        <custom-field action="copy">correct_answer</custom-field>
+        <custom-field action="copy">passing_grade</custom-field>
+        <custom-field action="copy">re_take_cut</custom-field>
+        <custom-field action="copy">random_questions</custom-field>
+        <custom-field action="copy">answers</custom-field>
+        <custom-field action="translate">question_explanation</custom-field>
+        <custom-field action="translate">question_hint</custom-field>
+        <custom-field action="copy">question_view_type</custom-field>
+        <custom-field action="copy">assignment_tries</custom-field>
+        <custom-field action="copy">coming_soon_status</custom-field>
+        <custom-field action="copy">coming_soon_show_course_details</custom-field>
+        <custom-field action="copy">coming_soon_preordering</custom-field>
+        <custom-field action="copy">coming_soon_time</custom-field>
+        <custom-field action="copy">coming_soon_date</custom-field>
+        <custom-field action="copy">coming_soon_email_notification</custom-field>
+        <custom-field action="copy">coming_soon_show_course_price</custom-field>
+        <custom-field action="translate">coming_soon_message</custom-field>
+    </custom-fields>
+    <custom-fields-texts>
+        <key name="faq">
+            <key name="*">
+                <key name="question"/>
+                <key name="answer"/>
+            </key>
+        </key>
+    </custom-fields-texts>
+</wpml-config>

@@ -1,0 +1,184 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?c9eman');
+	src:url('../fonts/icomoon.eot?#iefixc9eman') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?c9eman') format('truetype'),
+		url('../fonts/icomoon.woff?c9eman') format('woff'),
+		url('../fonts/icomoon.svg?c9eman#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="fa-icon-stm_icon_"], [class*=" fa-icon-stm_icon"] {
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.fa-icon-stm_icon_bullhorn:before {
+	content: "\e630";
+}
+.fa-icon-stm_icon_clock:before {
+	content: "\e631";
+}
+.fa-icon-stm_icon_film-play:before {
+	content: "\e632";
+}
+.fa-icon-stm_icon_category:before {
+	content: "\e633";
+}
+.fa-icon-stm_icon_teacher:before {
+	content: "\e634";
+}
+.fa-icon-stm_icon_plus-circle:before {
+	content: "\e635";
+}
+.fa-icon-stm_icon_mail-o:before {
+	content: "\e62b";
+}
+.fa-icon-stm_icon_phone-o:before {
+	content: "\e62c";
+}
+.fa-icon-stm_icon_pin-o:before {
+	content: "\e62d";
+}
+.fa-icon-stm_icon_skype-o:before {
+	content: "\e62e";
+}
+.fa-icon-stm_icon_book:before {
+	content: "\e62a";
+}
+.fa-icon-stm_icon_alarm:before {
+	content: "\e623";
+}
+.fa-icon-stm_icon_briefcase:before {
+	content: "\e624";
+}
+.fa-icon-stm_icon_diamond:before {
+	content: "\e625";
+}
+.fa-icon-stm_icon_earth:before {
+	content: "\e626";
+}
+.fa-icon-stm_icon_graduation-hat:before {
+	content: "\e627";
+}
+.fa-icon-stm_icon_license:before {
+	content: "\e628";
+}
+.fa-icon-stm_icon_users:before {
+	content: "\e629";
+}
+.fa-icon-stm_icon_brain:before {
+	content: "\e600";
+}
+.fa-icon-stm_icon_handshake:before {
+	content: "\e601";
+}
+.fa-icon-stm_icon_net:before {
+	content: "\e602";
+}
+.fa-icon-stm_icon_linkedin:before {
+	content: "\e603";
+}
+.fa-icon-stm_icon_pin:before {
+	content: "\e604";
+}
+.fa-icon-stm_icon_market_research:before {
+	content: "\e605";
+}
+.fa-icon-stm_icon_medal_one:before {
+	content: "\e606";
+}
+.fa-icon-stm_icon_mountain_biking:before {
+	content: "\e607";
+}
+.fa-icon-stm_icon_paint_palette:before {
+	content: "\e608";
+}
+.fa-icon-stm_icon_phone:before {
+	content: "\e609";
+}
+.fa-icon-stm_icon_fax:before {
+	content: "\e60a";
+}
+.fa-icon-stm_icon_seo_monitoring:before {
+	content: "\e60b";
+}
+.fa-icon-stm_icon_seo_performance_up:before {
+	content: "\e60c";
+}
+.fa-icon-stm_icon_user:before {
+	content: "\e60d";
+}
+.fa-icon-stm_icon_guitar:before {
+	content: "\e60e";
+}
+.fa-icon-stm_icon_add_user:before {
+	content: "\e60f";
+}
+.fa-icon-stm_icon_aps:before {
+	content: "\e610";
+}
+.fa-icon-stm_icon_chevron_right:before {
+	content: "\e611";
+}
+.fa-icon-stm_icon_chevron_left:before {
+	content: "\e612";
+}
+.fa-icon-stm_icon_viral_marketing:before {
+	content: "\e613";
+}
+.fa-icon-stm_icon_yoga:before {
+	content: "\e614";
+}
+.fa-icon-stm_icon_youtube_play:before {
+	content: "\e615";
+}
+.fa-icon-stm_icon_book_black:before {
+	content: "\e616";
+}
+.fa-icon-stm_icon_book_stack:before {
+	content: "\e617";
+}
+.fa-icon-stm_icon_ecommerce_cart:before {
+	content: "\e618";
+}
+.fa-icon-stm_icon_certificate:before {
+	content: "\e619";
+}
+.fa-icon-stm_icon_climbing:before {
+	content: "\e61a";
+}
+.fa-icon-stm_icon_comment_o:before {
+	content: "\e61b";
+}
+.fa-icon-stm_icon_drawing_tool_circle:before {
+	content: "\e61c";
+}
+.fa-icon-stm_icon_diploma_paper:before {
+	content: "\e61d";
+}
+.fa-icon-stm_icon_drawing_tool_point:before {
+	content: "\e61e";
+}
+.fa-icon-stm_icon_dribble:before {
+	content: "\e61f";
+}
+.fa-icon-stm_icon_doc_edit:before {
+	content: "\e620";
+}
+.fa-icon-stm_icon_users_group:before {
+	content: "\e621";
+}
+.fa-icon-stm_icon_ms_logo:before {
+	content: "\e622";
+}

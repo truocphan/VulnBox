@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "masterstudy/iconbox",
+  "version": "0.1.0",
+  "title": "MasterStudy Iconbox",
+  "category": "masterstudy-lms-blocks",
+  "icon": "welcome-widgets-menus",
+  "description": "Add bullet points with an icon box to show off your products and services",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#2A3045"
+    },
+    "titleFontSize": {
+      "type": "string",
+      "default": "20px"
+    },
+    "titleFontWeight": {
+      "type": "number",
+      "default": 700
+    },
+    "descColor": {
+      "type": "string",
+      "default": "#2A3045BF"
+    },
+    "descFontSize": {
+      "type": "string",
+      "default": "14px"
+    },
+    "descFontWeight": {
+      "type": "number",
+      "default": 400
+    },
+    "blockColor": {
+      "type": "string",
+      "default": ""
+    },
+    "clientId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "keywords": [
+    "lms",
+    "Iconbox",
+    "box",
+    "masterstudy"
+  ],
+  "textdomain": "masterstudy-lms-learning-management-system",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

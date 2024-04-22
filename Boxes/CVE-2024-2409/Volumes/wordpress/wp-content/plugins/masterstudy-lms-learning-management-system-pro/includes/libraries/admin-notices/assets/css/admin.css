@@ -1,0 +1,189 @@
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden),
+.wp-core-ui .stm-notice {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: none;
+  padding-top: 10px;
+  padding-right: 10px !important;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background: #ffffff;
+  max-width: 100%;
+  margin: 5px 15px 15px 0;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) .img,
+.wp-core-ui .stm-notice .img {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 2px;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) .img img,
+.wp-core-ui .stm-notice .img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-cog-notice,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice,
+.wp-core-ui .stm-notice.stm-notice-cog-notice {
+  align-items: flex-start;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice .img img, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice .img img, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-cog-notice .img img,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice .img img,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice .img img,
+.wp-core-ui .stm-notice.stm-notice-cog-notice .img img {
+  max-width: 18px;
+  max-height: 18px;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice button, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice button, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-cog-notice button,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice button,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice button,
+.wp-core-ui .stm-notice.stm-notice-cog-notice button {
+  margin-top: 7px;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice.only-title, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice.only-title, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-cog-notice.only-title,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice.only-title,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice.only-title,
+.wp-core-ui .stm-notice.stm-notice-cog-notice.only-title {
+  align-items: center;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice.only-title button, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice.only-title button, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-cog-notice.only-title button,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice.only-title button,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice.only-title button,
+.wp-core-ui .stm-notice.stm-notice-cog-notice.only-title button {
+  margin-top: 0;
+  margin-left: auto;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice.only-title.has-btn button, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice.only-title.has-btn button, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-cog-notice.only-title.has-btn button,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice.only-title.has-btn button,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice.only-title.has-btn button,
+.wp-core-ui .stm-notice.stm-notice-cog-notice.only-title.has-btn button {
+  margin-left: 10px;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice.without-btn button, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice.without-btn button, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-cog-notice.without-btn button,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice.without-btn button,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice.without-btn button,
+.wp-core-ui .stm-notice.stm-notice-cog-notice.without-btn button {
+  margin-top: 0;
+  margin-left: auto;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice .img img, .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice .img img,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice .img img,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice .img img {
+  animation: zoom-in-zoom-out 0.8s ease-out infinite;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-circle-notice .img,
+.wp-core-ui .stm-notice.stm-notice-animate-circle-notice .img {
+  background: rgba(255, 176, 57, 0.2);
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-animate-triangle-notice .img,
+.wp-core-ui .stm-notice.stm-notice-animate-triangle-notice .img {
+  background: rgba(255, 41, 67, 0.15);
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden).stm-notice-cog-notice .img,
+.wp-core-ui .stm-notice.stm-notice-cog-notice .img {
+  background: rgba(34, 122, 255, 0.15);
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) h4,
+.wp-core-ui .stm-notice h4 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1D2327;
+  margin: 0;
+  padding: 0;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) h5,
+.wp-core-ui .stm-notice h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(29, 35, 39, 0.7);
+  margin: 0;
+  padding: 0;
+  max-width: 700px;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) a.button,
+.wp-core-ui .stm-notice a.button {
+  margin: 0 0 0 auto;
+  padding: 9px 18px;
+  background: #4478FF;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: none;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) a.button.btn-second,
+.wp-core-ui .stm-notice a.button.btn-second {
+  margin-left: 10px;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) button,
+.wp-core-ui .stm-notice button {
+  position: relative;
+  padding: 0;
+  background: rgba(29, 35, 39, 0.1);
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) button:before,
+.wp-core-ui .stm-notice button:before {
+  content: "\f335";
+}
+@media (max-width: 767px) {
+  .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden),
+  .wp-core-ui .stm-notice {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) .text-wrap,
+  .wp-core-ui .stm-notice .text-wrap {
+    margin: 10px 0;
+  }
+  .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) a.button,
+  .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) a.button.btn-second,
+  .wp-core-ui .stm-notice a.button,
+  .wp-core-ui .stm-notice a.button.btn-second {
+    margin: 5px auto 5px 0;
+  }
+  .wp-core-ui .about-wrap .stm-notice.notice:not(.hidden) button,
+  .wp-core-ui .stm-notice button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+.wp-core-ui #wpbody-content .wrap .stm-notice {
+  margin: 5px 0 15px;
+}
