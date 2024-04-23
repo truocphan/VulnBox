@@ -1,0 +1,721 @@
+/* open sans font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,600;1,800&display=swap');
+
+/* inter font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;800;900&display=swap');
+
+:root {
+    --instawp-color-primary: #005E54;
+    --instawp-color-gray: #9CA3AF;
+    --instawp-color-green: #13bf85;
+    --instawp-color-red: #d93f21;
+}
+
+body[class*="instawp"] #wpbody {
+    font-family: 'Inter', serif;
+    /*background-color: #fafafa;*/
+}
+
+.box-width {
+    max-width: 1049px;
+    margin: auto;
+}
+
+.box-shadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.btn-width {
+    width: 464px;
+}
+
+.left-width {
+    Width: 320px;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E5E7EB;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #005E54;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.switch-toggle {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider-toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E5E7EB;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider-toggle:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider-toggle {
+    background-color: #11BF85;
+}
+
+input:checked + .slider-toggle:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider-toggle.round-toggle {
+    border-radius: 34px;
+}
+
+.slider-toggle.round-toggle:before {
+    border-radius: 50%;
+}
+
+[class*=hint--]:after {
+    font-family: 'Inter' !important;
+}
+
+.instawp-single-field svg {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-top: -2px;
+    fill: rgb(55 65 81 / 1);
+}
+
+.toggle-control {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.toggle-control .toggle-switch {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 16px;
+    width: 36px;
+    height: 16px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+}
+
+.toggle-control .toggle-switch:before, .toggle-control .toggle-switch:after {
+    content: "";
+}
+
+.toggle-control .toggle-switch:before {
+    display: block;
+    /* background: linear-gradient(to bottom, #fff 0%, #eee 100%); */
+    background: #fff;
+    border-radius: 50%;
+    /* box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25); */
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.25s;
+}
+
+.toggle-control .toggle:hover .toggle-switch:before {
+    /* background: linear-gradient(to bottom, #fff 0%, #fff 100%); */
+    background: #fff;
+    /* box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5); */
+}
+
+.toggle-control .toggle-checkbox:checked + .toggle-switch {
+    background: var(--instawp-color-green);
+}
+
+.toggle-control .toggle-checkbox:checked + .toggle-switch:before {
+    left: 22px;
+}
+
+.toggle-control .toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+.toggle-control .toggle-label {
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.instawp_is_event_syncing .toggle-control .toggle-switch {
+    width: 76px;
+    height: 32px;
+    border-radius: 32px;
+}
+
+.instawp_is_event_syncing .toggle-control .toggle-switch:before {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    left: 4px;
+}
+
+.instawp_is_event_syncing .toggle-control .toggle-checkbox:checked + .toggle-switch:before {
+    left: 48px;
+}
+
+.instawp_is_event_syncing .toggle-control .toggle-label {
+    display: none;
+}
+
+.sync-listining {
+    display: none;
+}
+
+.data-padding {
+    padding: 118px 0;
+}
+
+.left-width {
+    Width: 320px;
+}
+
+.down-img {
+    transform: rotate(180deg);
+}
+
+.active .down-img {
+    transform: rotate(0);
+}
+
+.custom-border {
+    border: 1px solid rgba(0, 94, 84, 0.1);
+}
+
+.card-active {
+    background: rgba(0, 94, 84, 0.04);
+}
+
+.card-main-shadow {
+    box-shadow: 0 5px 14px rgba(8, 15, 52, 0.04);
+}
+
+.text-border {
+    border: 1px solid rgba(209, 213, 219, 0.4);
+}
+
+.text-bg {
+    background: rgba(249, 250, 251, 0.4);
+}
+
+.instawp-progress-bar {
+    width: 0;
+    transition: 0.3s;
+}
+
+.custom-bg {
+    background: rgba(239, 252, 245, 0.5);
+}
+
+#adminmenu .toplevel_page_instawp div.wp-menu-image img {
+    margin-left: 10px;
+}
+
+.instawp-wrap .nav-item-content {
+    display: none;
+}
+
+.instawp-wrap .nav-item-content.active {
+    display: block;
+}
+
+.instawp-wrap .nav-items .nav-item > a {
+    cursor: pointer;
+}
+
+.instawp-wrap .nav-items .nav-item > a > svg > path {
+    fill: var(--instawp-color-gray);
+    transition: 0.3s;
+    /*stroke: none;*/
+}
+
+
+.instawp-wrap .nav-items .nav-item.active > a > svg > path,
+.instawp-wrap .nav-items .nav-item > a:hover > svg > path {
+    fill: var(--instawp-color-primary);
+    /*stroke: var(--instawp-color-primary);*/
+    stroke: none;
+    /*stroke: var(--instawp-color-gray);*/
+}
+
+.instawp-wrap .nav-items .nav-item > a > svg > path[stroke="#9CA3AF"]:hover {
+    stroke: var(--instawp-color-primary);
+}
+
+.instawp-form input[type=text],
+.instawp-form input[type=text]:active,
+.instawp-form input[type=text]:focus,
+.instawp-form input[type=password],
+.instawp-form input[type=password]:active,
+.instawp-form input[type=password]:focus,
+.instawp-form input[type=url],
+.instawp-form input[type=url]:active,
+.instawp-form input[type=url]:focus,
+.instawp-form input[type=number],
+.instawp-form input[type=number]:active,
+.instawp-form input[type=number]:focus,
+.instawp-form input[type=email],
+.instawp-form input[type=email]:active,
+.instawp-form input[type=email]:focus,
+.instawp-form select,
+.instawp-form select:active,
+.instawp-form select:focus {
+    padding: 8px 14px;
+    border: 1px solid #dedede;
+    outline: none;
+    box-shadow: none;
+    min-width: 120px;
+    transition: 0.3s;
+    display: block;
+}
+
+.instawp-form select,
+.instawp-form select:active,
+.instawp-form select:focus {
+    background-position: right 12px top 55%;
+    min-width: 180px;
+    display: block;
+}
+
+.instawp-form input[type=text]:active,
+.instawp-form input[type=text]:focus,
+.instawp-form input[type=password]:active,
+.instawp-form input[type=password]:focus,
+.instawp-form input[type=url]:active,
+.instawp-form input[type=url]:focus,
+.instawp-form input[type=number]:active,
+.instawp-form input[type=number]:focus,
+.instawp-form input[type=email]:active,
+.instawp-form input[type=email]:focus,
+.instawp-form select:active,
+.instawp-form select:focus {
+    border-color: var(--instawp-color-primary);
+}
+
+.instawp-form .instawp-form-fields {
+    /*height: 450px;*/
+    /*overflow-y: auto;*/
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.instawp-form .instawp-form-fields::-webkit-scrollbar {
+    width: 5px;
+}
+
+.instawp-form .instawp-form-fields::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.instawp-form .instawp-form-fields::-webkit-scrollbar-thumb {
+    background: #b9b8b8;
+    border-radius: 5px;
+}
+
+.instawp-form.loading .instawp-form-fields {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.instawp-form .instawp-form-response {
+    /*transition: 0.3s;*/
+}
+
+.instawp-form .instawp-form-response.success {
+    color: var(--instawp-color-green);
+}
+
+.instawp-form .instawp-form-response.error {
+    color: var(--instawp-color-red);
+}
+
+.instawp-form.loading .instawp-form-response {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 4px solid rgba(74, 138, 244, 0.2);
+    border-right-color: var(--instawp-color-green);
+    animation: loading 1s linear infinite;
+    align-self: center;
+}
+
+.instawp-wrap .instawp-button-connect {
+    position: relative;
+    transition: 0.3s;
+}
+
+.instawp-wrap .instawp-button-connect.loading > span {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.instawp-wrap .instawp-button-connect.loading:after {
+    content: ' ';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 3px solid rgba(74, 138, 244, 0.2);
+    border-right-color: var(--instawp-color-green);
+    animation: loading 1s linear infinite;
+    margin: -8px -8px;
+}
+
+.instawp-wrap .nav-item-content.create.loading .instawp-migration-loader {
+    position: relative;
+    transition: 0.3s;
+}
+
+.instawp-wrap .nav-item-content.create.loading .instawp-migration-loader:after {
+    content: ' ';
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 50%;
+    left: -18px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 3px solid rgba(74, 138, 244, 0.2);
+    border-right-color: var(--instawp-color-green);
+    animation: loading 1s linear infinite;
+    margin: -8px -8px;
+}
+
+
+.instawp-wrap .nav-item-content.create.warning .screen-buttons {
+    display: none;
+}
+
+.instawp-wrap .nav-item-content.create .screen {
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.instawp-wrap .nav-item-content.create .screen.active {
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+}
+
+.screen-nav:not(.active) .screen-nav-icon {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.screen-nav.active .screen-nav-icon {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 94 84 / var(--tw-bg-opacity));
+}
+
+.screen-nav:not(.active) .screen-nav-icon > img,
+.screen-nav.active .screen-nav-icon > span {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.screen-nav.active .screen-nav-icon > img {
+    height: auto;
+    width: auto;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.nav-item-content.create.active .screen-buttons {
+    position: relative;
+}
+
+.nav-item-content.create.active .screen-buttons p.doing-request {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    display: none;
+}
+
+.nav-item-content.create.active .screen-buttons p.doing-request.loading {
+    display: inline-block;
+}
+
+.nav-item-content.create.active .screen-buttons p.doing-request:after {
+    content: ' ';
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 50%;
+    left: -16px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 3px solid rgba(74, 138, 244, 0.2);
+    border-right-color: var(--instawp-color-green);
+    animation: loading 1s linear infinite;
+    margin: -8px -8px;
+}
+
+.exclude-files-container::-webkit-scrollbar,
+.exclude-database-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.exclude-files-container::-webkit-scrollbar-track,
+.exclude-database-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.exclude-files-container::-webkit-scrollbar-thumb,
+.exclude-database-container::-webkit-scrollbar-thumb {
+    background: #b9b8b8;
+    border-radius: 5px;
+}
+
+.nav-item-content.create .expand-folder .rotate-icon {
+    transform: rotate(-90deg);
+}
+
+.instawp-checkbox[type='checkbox'],
+.instawp-checkbox[type='radio'],
+.instawp-option-selector[type='checkbox'],
+.instawp-option-selector[type='radio'] {
+    color: rgb(0 94 84 / 1);
+}
+
+.instawp-option-selector[type='checkbox'] {
+    margin-top: -2px !important;
+}
+
+.instawp-checkbox[type='checkbox']:checked,
+.instawp-option-selector[type='checkbox']:checked,
+.instawp-option-selector[type='radio']:checked {
+    border-color: transparent;
+    background-color: currentColor;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+}
+
+.instawp-checkbox[type='checkbox']:checked::before,
+.instawp-option-selector[type='checkbox']:checked::before {
+    content: '';
+}
+
+.instawp-checkbox[type='radio']:checked::before,
+.instawp-option-selector[type='radio']:checked::before {
+    background-color: #fff;
+}
+
+.nav-item-content.sites .pagination span {
+    cursor: pointer;
+}
+
+.nav-item-content.sites .pagination span.active {
+    color: rgb(0 94 84 / 1);
+    font-weight: 600;
+}
+
+.nav-item-content.sites .pagination span.disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.nav-item-content.sites .staging-site-list {
+    display: none;
+}
+
+/**
+ * Migrate Hosting
+ */
+.instawp-migrate-wrap.box-width {
+    max-width: 685px;
+    background-color: #fff;
+    margin: 61px auto;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.instawp-migrate-wrap .box-shadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.instawp-migrate-wrap .accordion-item {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;;
+}
+
+.instawp-migrate-wrap .accordion-item-header {
+    padding: 20px 24px;
+    cursor: pointer;
+}
+
+
+.instawp-migrate-wrap .accordion-padding {
+    padding: 8px 32px 32px;
+}
+
+.instawp-migrate-wrap .active .arrow-icon {
+    transform: rotate(180deg);
+}
+
+.instawp-migrate-wrap .accordion-height {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.instawp-migrate-wrap input[type=text] {
+    padding-right: 0.75rem !important;
+    padding-left: 2.5rem !important;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    line-height: 1;
+    --tw-border-opacity: 1;
+    border: 1px solid rgb(209 213 219 / var(--tw-border-opacity));
+    transition: 0.2s;
+}
+
+.instawp-migrate-wrap input[type=text]:focus,
+.instawp-migrate-wrap input[type=text]:active {
+    box-shadow: none;
+    border: 1px solid #6B2FAD;
+    outline: none;
+}
+
+.instawp-migrate-wrap button:focus,
+.instawp-migrate-wrap button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.instawp-migrate-wrap .loading {
+    position: relative;
+    transition: 0.3s;
+}
+
+.instawp-migrate-wrap .loading:after {
+    content: ' ';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 50%;
+    left: 12px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 3px solid rgba(74, 138, 244, 0.2);
+    border-right-color: var(--instawp-color-green);
+    animation: loading 1s linear infinite;
+    margin: -8px -8px;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}

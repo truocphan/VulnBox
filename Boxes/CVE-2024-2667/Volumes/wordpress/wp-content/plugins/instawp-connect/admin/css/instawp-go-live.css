@@ -1,0 +1,243 @@
+/**
+ * Cloudways Integration
+ */
+
+
+
+.instawp-go-live-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+}
+
+.instawp-go-live-wrap > div > h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.instawp-go-live-wrap a {
+    text-decoration: none;
+}
+
+.instawp-go-live-wrap .main-wrapper {
+    width: 760px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    padding: 44px 64px 44px 44px;
+    text-align: left;
+
+}
+
+.instawp-go-live-wrap .main-wrapper h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    text-align: left;
+    margin: 0 0 12px;
+}
+
+.instawp-go-live-wrap .instawp-manage-sites {
+    display: none;
+    margin-top: 35px;
+}
+
+.instawp-go-live-wrap .trial-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+
+.instawp-go-live-wrap .trail-padding {
+    padding: 32px 25px;
+}
+
+.instawp-go-live-wrap .trial-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.instawp-go-live-wrap .trial-flex h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1F2937;
+    width: 100px;
+    margin: 0;
+}
+
+.instawp-go-live-wrap .trial-flex h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4B5563;
+    margin: 0;
+}
+
+.instawp-go-live-wrap .trial-margin {
+    margin-bottom: 0;
+}
+
+.instawp-go-live-wrap .trial-footer {
+    background: #F9FAFB;
+    border-radius: 0 0 8px 8px;
+    padding: 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.instawp-go-live-wrap .live-btn {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    background: #005E54;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 32px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.instawp-go-live-wrap .live-btn.instawp-btn-go-live.disabled {
+    background: #858686;
+    pointer-events: none;
+    user-select: none;
+}
+
+.instawp-go-live-wrap .trial-footer-flex {
+    display: flex;
+    align-items: center;
+}
+
+.instawp-go-live-wrap .trial-footer .go-live-loader:not(.visible) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.instawp-go-live-wrap .trial-footer-flex p.go-live-status-message {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #005E54;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.instawp-go-live-wrap .trial-footer-flex p.go-live-status-progress {
+    margin-left: 10px;
+}
+
+.instawp-go-live-wrap .trial-footer a.manage-account-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #11BF85;
+    display: none;
+}
+
+
+.instawp-go-live-wrap .trial-footer a img {
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.instawp-go-live-wrap .trail-padding label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #374151;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.instawp-go-live-wrap .input-position {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.instawp-go-live-wrap .form-control,
+.instawp-go-live-wrap .form-control:focus,
+.instawp-go-live-wrap .form-control:active {
+    padding: 9px 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    width: 100%;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    outline: none;
+}
+
+.instawp-go-live-wrap .form-control::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+.instawp-go-live-wrap .verify-btn {
+    background: #F9FAFB;
+    border: 1px solid #D1D5DB;
+    border-radius: 0 6px 6px 0;
+    padding: 9px 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #374151;
+    cursor: pointer;
+}
+
+.instawp-go-live-wrap .input-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.instawp-go-live-wrap .trail-padding p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+
+}
+
+.instawp-go-live-wrap .trail-padding p span {
+    color: #005E54;
+    cursor: pointer;
+}
+
+.instawp-go-live-wrap .trail-padding p img {
+    position: relative;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+}
+
+.instawp-go-live-wrap .spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

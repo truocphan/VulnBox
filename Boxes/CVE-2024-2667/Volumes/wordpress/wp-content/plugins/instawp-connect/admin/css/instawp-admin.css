@@ -1,0 +1,69 @@
+/**
+ * Admin CSS
+ */
+
+
+#wpadminbar li#wp-admin-bar-instawp-template-migrate a,
+#wpadminbar li#wp-admin-bar-instawp-template-migrate a:hover,
+#wpadminbar li#wp-admin-bar-instawp-template-migrate a:active,
+#wpadminbar li#wp-admin-bar-instawp-template-migrate a:focus,
+#wpadminbar li#wp-admin-bar-instawp-template-migrate a:visited {
+    background: #6b2fad;
+    color: #f1f1f1;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#wpadminbar li#wp-admin-bar-instawp-go-live a,
+#wpadminbar li#wp-admin-bar-instawp-go-live a:hover,
+#wpadminbar li#wp-admin-bar-instawp-go-live a:active,
+#wpadminbar li#wp-admin-bar-instawp-go-live a:focus,
+#wpadminbar li#wp-admin-bar-instawp-go-live a:visited {
+    background: #10a372;
+    color: #f1f1f1;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+}
+
+#wpadminbar li#wp-admin-bar-instawp-go-live.loading {
+    position: relative;
+    transition: 0.3s;
+}
+
+#wpadminbar li#wp-admin-bar-instawp-go-live.loading a {
+    padding-left: 32px;
+}
+
+#wpadminbar li#wp-admin-bar-instawp-go-live.loading:after {
+    content: ' ';
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 50%;
+    left: 16px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 3px solid rgb(255 255 255 / 20%);
+    border-right-color: #fff;
+    animation: loading 1s linear infinite;
+    margin: -8px -8px;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}

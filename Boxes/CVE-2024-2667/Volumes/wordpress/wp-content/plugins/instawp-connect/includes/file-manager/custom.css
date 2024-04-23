@@ -1,0 +1,44 @@
+body.fm-login-page {
+    background-image: none;
+}
+
+.brand {
+    display: none;
+}
+
+.fm-login-page .card-title {
+    margin-bottom: 0.5rem;
+}
+
+.dropdown-menu {
+    padding: 5px;
+}
+
+a[title="Help"],
+a[title="Sign Out"] {
+    display: none;
+}
+
+.d-sm-block {
+    display: none !important;
+}
+
+div.footer {
+    display: none;
+}
+
+div.card-body {
+    padding: 30px 30px 20px 30px;
+}
+
+.instawp-autologin .form-signin {
+    opacity: .3;
+    pointer-events: none;
+}
+
+.instawp-autologin .form-signin label,
+.instawp-autologin .form-signin input,
+.instawp-autologin .form-signin hr,
+.instawp-autologin .form-signin button {
+    display: none;
+}

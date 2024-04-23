@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.instawp-qa-tools .instawp-manager {
+    @apply rounded-md p-3 font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50 mr-4;
+}
