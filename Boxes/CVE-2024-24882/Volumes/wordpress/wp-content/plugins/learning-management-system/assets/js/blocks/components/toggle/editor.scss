@@ -1,0 +1,87 @@
+.masteriyo-toggle {
+	&.masteriyo-inline {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 16px;
+		align-items: center;
+	}
+
+	.masteriyo-toggle-body {
+		position: relative;
+		display: inline-block;
+	}
+
+	.masteriyo-toggle-track {
+		content: "";
+		display: inline-block;
+		box-sizing: border-box;
+		vertical-align: top;
+		background-color: #fff;
+		border: 3px solid #64748b;
+		width: 30px;
+		height: 18px;
+		border-radius: 9px;
+		transition: 0.2s background ease;
+
+		@media (prefers-reduced-motion: reduce) {
+			transition-duration: 0s;
+			transition-delay: 0s;
+		}
+	}
+
+	&.is-checked {
+		.masteriyo-toggle-track {
+			background-color: #2563eb;
+			border: 1px solid #2563eb;
+		}
+	}
+
+	&.is-checked {
+		.masteriyo-toggle-thumb {
+			background-color: #fff;
+			border-width: 0;
+			transform: translateX(10px);
+		}
+	}
+
+	.masteriyo-toggle-thumb {
+		display: block;
+		position: absolute;
+		box-sizing: border-box;
+		top: 4px;
+		left: 5px;
+		width: 9px;
+		height: 9px;
+		border-radius: 50%;
+		transition: 0.1s transform ease;
+		background-color: #64748b;
+
+		@media (prefers-reduced-motion: reduce) {
+			transition-duration: 0s;
+			transition-delay: 0s;
+		}
+	}
+
+	.masteriyo-toggle-checkbox {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		margin: 0;
+		padding: 0;
+		z-index: 1;
+		border: none;
+
+		&:focus + .masteriyo-toggle-track {
+			box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007cba;
+			outline: 2px solid transparent;
+			outline-offset: 2px;
+		}
+
+		&::before {
+			content: "";
+		}
+	}
+}

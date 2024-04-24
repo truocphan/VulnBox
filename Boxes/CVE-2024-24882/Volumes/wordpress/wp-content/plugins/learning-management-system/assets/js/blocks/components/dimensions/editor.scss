@@ -1,0 +1,60 @@
+.masteriyo-dimensions {
+	&.masteriyo-responsive {
+		margin-bottom: 25px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.masteriyo-dimensions-head {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+
+	.masteriyo-units {
+		margin-left: auto;
+
+		.masteriyo-units-menu {
+			position: absolute;
+			margin: 4px 0;
+		}
+	}
+}
+
+.masteriyo-dimensions-container {
+	display: flex;
+	text-align: center;
+	gap: 6px;
+	padding-top: 16px;
+
+	.masteriyo-dimension {
+		display: block;
+
+		label {
+			color: #64748b;
+		}
+	}
+
+	input[type="number"] {
+		width: 50px;
+		height: 40px;
+		border-color: #e2e8f0;
+	}
+}
+
+.masteriyo-dimensions-label {
+	width: auto;
+}
+
+.masteriyo-dimensions-lock {
+	border-color: transparent;
+	background: none;
+	padding-bottom: 10px;
+	cursor: pointer;
+
+	svg {
+		fill: #2563eb;
+	}
+}

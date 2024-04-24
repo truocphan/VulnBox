@@ -1,0 +1,20 @@
+<?php
+/**
+ * Migration class template used by the wp cli to create migration classes.
+ */
+
+use Masteriyo\Database\Migration;
+
+class $class extends Migration {
+	/**
+	 * Run the migration.
+	 */
+	public function up() {
+	}
+
+	/**
+	 * Reverse the migrations.
+	 */
+	public function down() {
+	}
+}

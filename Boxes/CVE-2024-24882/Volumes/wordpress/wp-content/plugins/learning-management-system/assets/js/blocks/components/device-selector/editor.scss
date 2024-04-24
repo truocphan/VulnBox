@@ -1,0 +1,27 @@
+.masteriyo-device-selector {
+	padding: 6px 0 !important;
+	display: flex;
+
+	.masteriyo-device {
+		all: unset;
+		cursor: pointer;
+		padding: 4px;
+
+		svg {
+			height: 13px;
+			width: 13px;
+		}
+
+		&.active {
+			background: #e1eaff;
+			border-radius: 2px;
+			width: 16px;
+			height: 16px;
+			text-align: center;
+
+			svg {
+				fill: #2563eb;
+			}
+		}
+	}
+}

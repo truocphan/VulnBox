@@ -1,0 +1,39 @@
+.masteriyo-slider-head {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	margin-bottom: 8px;
+
+	.masteriyo-units {
+		margin-left: auto;
+
+		.masteriyo-units-menu {
+			position: absolute;
+			margin: 4px 0;
+		}
+	}
+}
+
+.masteriyo-slider-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	align-items: center;
+	margin-bottom: 25px;
+
+	input[type="number"] {
+		width: 50px;
+		height: 40px;
+		border-color: #e2e8f0;
+	}
+
+	input[type="range"] {
+		width: 100%;
+		height: 4px;
+		cursor: pointer;
+	}
+}
+
+.masteriyo-slider-label {
+	width: auto;
+}

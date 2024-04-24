@@ -1,0 +1,76 @@
+.masteriyo-panel {
+	border-bottom: 1px solid #dbdbdb;
+	border-radius: 2px;
+
+	&-title {
+		color: #64748b;
+		font-size: 15px;
+	}
+
+	.masteriyo-panel-toggle-button {
+		position: relative;
+		padding: 14px 17px;
+		outline: none;
+		width: 100%;
+		font-weight: 600;
+		border: 0;
+		box-shadow: 0 1px 0 #dbdbdb;
+		border-radius: 2px;
+		height: auto;
+		background: none;
+		text-align: left;
+		cursor: pointer;
+		line-height: 21px;
+
+		.masteriyo-icon {
+			position: absolute;
+			right: 17px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		&:hover {
+			background-color: #fafbff;
+		}
+	}
+
+	&.is-open {
+		background-color: #fafbff;
+
+		.masteriyo-panel-head {
+			border-bottom: 1px solid #e2e8f0;
+			margin-bottom: 25px;
+		}
+
+		.masteriyo-panel-toggle-button {
+			color: #2563eb;
+		}
+
+		.masteriyo-panel-icon > svg path {
+			fill: #2563eb;
+		}
+
+		.masteriyo-panel-body {
+			margin: 0 17px 25px;
+
+			.masteriyo-control {
+				margin-bottom: 25px;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+
+			p {
+				color: #64748b;
+			}
+		}
+	}
+}
+
+.components-panel__body-toggle {
+	&.components-button {
+		color: #64748b;
+		font-size: 14px;
+	}
+}

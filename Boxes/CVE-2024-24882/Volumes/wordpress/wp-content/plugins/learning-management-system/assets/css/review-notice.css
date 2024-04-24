@@ -1,0 +1,78 @@
+.masteriyo-notice.masteriyo-review-notice {
+  padding: 24px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content {
+  display: flex;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content .masteriyo-x-icon-container svg {
+  fill: #acacbe;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content-wrapper {
+  margin-left: 16px;
+  flex: 1;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content-wrapper .masteriyo-notice__title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(26, 32, 44);
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content-wrapper .masteriyo-notice__description {
+  font-size: 14px;
+  margin: 8px 0 0 0;
+  color: #7c7d8f;
+  display: flex;
+  align-items: center;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content-wrapper .masteriyo-notice__description a {
+  color: #7c7d8f;
+  margin: 0 4px;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content-wrapper .masteriyo-notice__description .star-icons {
+  margin: 0 8px;
+  fill: #fec30d;
+  display: flex;
+  align-items: center;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content-wrapper .masteriyo-notice__description .star-icons svg {
+  height: 15px;
+  width: 15px;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice-main-content-wrapper .masteriyo-notice__description .star-icons svg:not(:first-child) {
+  margin-left: 8px;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice__actions {
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice__actions .masteriyo-leave-review {
+  padding: 2px 12px;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  background-color: rgb(69, 132, 255);
+  color: white;
+  font-weight: 600;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+}
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice__actions .masteriyo-remind-me-later,
+.masteriyo-notice.masteriyo-review-notice .masteriyo-notice__actions .masteriyo-already-reviewed {
+  padding: 2px 0;
+  margin-left: 24px;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #7c7d8f;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+}
