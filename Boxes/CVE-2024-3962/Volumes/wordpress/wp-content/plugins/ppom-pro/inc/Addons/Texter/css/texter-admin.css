@@ -1,0 +1,100 @@
+/****************************
+ *    Texter Admin CSS      *
+ ****************************/
+
+.ppom-img-uploader-area{
+    max-height: 100%;
+    position: relative;
+    overflow: auto;
+}
+.ppom-img-uploader-area img{
+    border: 1px solid;
+}
+.ppom-textbox-active{
+    border: 1px solid green !important;
+}
+.ppom-textbox-tool{
+    width: 137px;
+    height: 50px;
+    background-color: transparent;
+    cursor: move;
+    position: absolute !important;
+    font-size: 17px;
+    color: black;
+    overflow: hidden;
+    border: 1px dashed;
+}
+.texter-setting-alert{
+    color: #c10821;
+}
+.ppom-remove-image-btn{
+    background-color: #ff6c6cf2 !important;
+    color: #fff !important;
+    margin-top: 3px !important;
+}
+.ppom-texbox-add{
+    text-align: center;
+}
+.ppom-texbox-add button{
+    margin-bottom: 8px !important;
+}
+.ppom-texbox-add i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.texter-textbox-notice{
+    background: #55f15ab8;
+    border-left: 5px solid #218021;
+    padding: 5px;
+    padding-top: 3px;
+    display: inline-block;
+}
+.ppom-design-wrapper .ppom-textbox-remove{
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+    position: absolute;
+}
+.ppom-setting-panel-wrapper .ppom-texter-desc{
+    cursor: pointer;
+    color: #3d31f99e;
+}
+.ppom-setting-panel-wrapper .form-control,
+.ppom-texter-checkbox .form-control{
+    width: 100%;
+    height: 28px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.ppom-texter-save-btn{
+    text-align: right;
+}
+.ppom-texter-save-btn button{
+    padding: 4px 9px;
+    margin-bottom: 0;
+    font-size: 14px;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #188aff8a;
+}
+.ppom-textbox-show {
+    margin: 0 0 10px;
+}

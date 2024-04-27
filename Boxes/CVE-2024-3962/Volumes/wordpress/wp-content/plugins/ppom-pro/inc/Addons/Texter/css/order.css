@@ -1,0 +1,114 @@
+.texter-table{
+	width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.texter-table>thead>tr>th {
+	vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+.texter-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.texter-table > thead > tr > th,
+.texter-table > tbody > tr > th,
+.texter-table > tfoot > tr > th,
+.texter-table > thead > tr > td,
+.texter-table > tbody > tr > td,
+.texter-table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.texter-table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.texter-table > caption + thead > tr:first-child > th,
+.texter-table > colgroup + thead > tr:first-child > th,
+.texter-table > thead:first-child > tr:first-child > th,
+.texter-table > caption + thead > tr:first-child > td,
+.texter-table > colgroup + thead > tr:first-child > td,
+.texter-table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.texter-table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+}
+.texter-table > thead > tr > th,
+.texter-table > tbody > tr > th,
+.texter-table > tfoot > tr > th,
+.texter-table > thead > tr > td,
+.texter-table > tbody > tr > td,
+.texter-table > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.texter-table > thead > tr > th,
+.texter-table > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+.table-responsive {
+  min-height: .01%;
+  overflow-x: auto;
+}
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  .table-responsive > .table-bordered {
+    border: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+}

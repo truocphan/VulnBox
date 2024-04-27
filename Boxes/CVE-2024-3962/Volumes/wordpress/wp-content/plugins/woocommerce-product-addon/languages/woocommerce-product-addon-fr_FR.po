@@ -1,0 +1,3777 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: N-Media WooCommerce PPOM\n"
+"POT-Creation-Date: 2018-05-21 20:39+0500\n"
+"PO-Revision-Date: 2023-01-22 21:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-product-addon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin.php:128
+msgid " - <a href=\"%s\" target=\"_blank\">Create New Meta</a></p>"
+msgstr ""
+
+#: classes/frontend-scripts.class.php:542 inc/hooks.php:338 inc/hooks.php:366
+msgid " files allowed only"
+msgstr " fichiers autorisés uniquement"
+
+#: classes/fields.class.php:855
+msgid " of the following matches"
+msgstr " des occurrences suivantes"
+
+#: inc/woocommerce.php:255
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/prices.php:790
+msgid "%d Files"
+msgstr ""
+
+#: classes/fields.class.php:198 classes/fields.class.php:285
+#: classes/fields.class.php:286 classes/frontend-scripts.class.php:488
+#: classes/frontend-scripts.class.php:567
+#: classes/frontend-scripts.class.php:569
+#: classes/frontend-scripts.class.php:570
+#: classes/frontend-scripts.class.php:571
+#: classes/frontend-scripts.class.php:572 inc/admin.php:654 inc/admin.php:674
+#: inc/arrays.php:594 inc/arrays.php:595 inc/arrays.php:596 inc/arrays.php:597
+#: inc/arrays.php:598 inc/arrays.php:599 inc/arrays.php:601 inc/arrays.php:628
+#: inc/files.php:106 inc/nmInput.class.php:158 inc/nmInput.class.php:238
+#: inc/nmInput.class.php:266 inc/nmInput.class.php:354
+#: inc/nmInput.class.php:443 inc/nmInput.class.php:556
+#: inc/nmInput.class.php:638 inc/nmInput.class.php:725
+#: inc/nmInput.class.php:823 inc/nmInput.class.php:936
+#: inc/nmInput.class.php:1166 inc/nmInput.class.php:1261
+#: inc/nmInput.class.php:1335 inc/nmInput.class.php:1418
+#: inc/nmInput.class.php:1504 inc/nmInput.class.php:1600 inc/prices.php:799
+#: inc/prices.php:1230 inc/prices.php:1271 inc/woocommerce.php:256
+#: inc/woocommerce.php:575 templates/frontend/inputs/cropper.php:44
+#: templates/frontend/inputs/divider.php:106
+#: templates/frontend/inputs/divider.php:116
+#: templates/frontend/inputs/divider.php:121
+#: templates/frontend/inputs/divider.php:128
+#: templates/frontend/inputs/divider.php:136
+#: templates/frontend/inputs/file.php:38 templates/frontend/inputs/text.php:54
+#: templates/frontend/inputs/timezone.php:28 templates/render-fields.php:411
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: templates/admin/changelog.php:60
+msgid "%s Changelog"
+msgstr ""
+
+#: templates/frontend/component/quantities/grid-layout.php:50
+#: templates/frontend/component/quantities/horizontal-layout.php:73
+#: templates/frontend/component/quantities/vertical-layout.php:67
+msgid "%s in stock"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:54 templates/admin/ppom-fields.php:416
+#, fuzzy
+msgid "&laquo; Existing Product Meta"
+msgstr "&laquo; Meta produit existant"
+
+#: inc/admin.php:53 inc/admin.php:66
+#, fuzzy, php-format
+#| msgid "<a class=\"btn button\" href=\"%s\">%s</a>"
+msgid "<a class=\"btn button\" href=\"%1$s\">%2$s</a>"
+msgstr "<a href=\"%s\">%s</a>"
+
+#: inc/admin.php:50 inc/admin.php:64
+#, fuzzy, php-format
+#| msgid "<a href=\"%s\">%s</a>"
+msgid "<a href=\"%1$s\">%2$s</a>"
+msgstr "<a href=\"%s\">%s</a>"
+
+#: inc/functions.php:993
+#, fuzzy, php-format
+msgid "<a href=\"%s\">Add Fields</a>"
+msgstr "Ajouter des champs"
+
+#: classes/inputs/input.daterange.php:38
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.daterangepicker.com/\" target=\"_blank\">All about "
+#| "Daterangepicker</a>"
+msgid ""
+"<a href=\"http://www.daterangepicker.com/\" target=\"_blank\">"
+"Daterangepicker</a>"
+msgstr ""
+"< a href = \"http://www.daterangepicker.com/\" target = \"_ blank\" > All "
+"about daterangepicker </a>"
+
+#: classes/inputs/input.daterange.php:25
+#, fuzzy
+msgid ""
+"<a href=\"http://www.daterangepicker.com/\" target=\"_blank\">More detail</a>"
+msgstr ""
+"< a href = \"http://www.daterangepicker.com/\" target = \"_ blank\" > plus "
+"de détails </a>"
+
+#: classes/inputs/input.text.php:97
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://github.com/RobinHerbots/Inputmask\" target=\"_blank\">"
+#| "See all Masking Options</a>"
+msgid ""
+"<a href=\"https://github.com/RobinHerbots/Inputmask\" target=\"_blank\">"
+"Options</a>"
+msgstr ""
+"< a href = \"https://github.com/RobinHerbots/Inputmask\" target = \"_ "
+"blank\" > Voir toutes les options de masquage </a>"
+
+#: classes/inputs/input.text.php:125
+msgid "<a target=\"_blank\" href=\""
+msgstr ""
+
+#: classes/inputs/input.date.php:84
+msgid ""
+"<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-"
+"defaultDate\">Example</a>"
+msgstr ""
+
+#: classes/inputs/input.date.php:112
+msgid ""
+"<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-"
+"firstDay\">Example</a>"
+msgstr ""
+
+#: classes/inputs/input.date.php:98
+msgid ""
+"<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-"
+"maxDate\">Example</a>"
+msgstr ""
+
+#: classes/inputs/input.date.php:91
+msgid ""
+"<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-"
+"minDate\">Example</a>"
+msgstr ""
+
+#: classes/inputs/input.date.php:105
+msgid ""
+"<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-"
+"yearRange\">Example</a>"
+msgstr ""
+
+#: classes/inputs/input.textarea.php:108
+#, fuzzy
+#| msgid ""
+#| "Enable <a target=\"_blank\" href=\"https://codex.wordpress."
+#| "org/Function_Reference/wp_editor\">WordPress rich editor</a>."
+msgid ""
+"<a target=\"_blank\" href=\"https://codex.wordpress."
+"org/Function_Reference/wp_editor\">Editor</a>"
+msgstr ""
+"Enable < a target = \"_ blank\" href = \"https://codex.wordpress."
+"org/Function_Reference/wp_editor\" > </a> éditeur WordPress Rich."
+
+#: inc/woocommerce.php:163
+msgid "<div class=\"woocommerce-error\" role=\"alert\">%s</div>"
+msgstr ""
+
+#: inc/nmInput.class.php:1249 templates/frontend/inputs/quantities.php:41
+msgid "<div class=\"woocommerce-error\">%s</div>"
+msgstr ""
+
+#: inc/woocommerce.php:41
+msgid ""
+"<div class='error'>Some of your fields has duplicated datanames, please fix "
+"it</div>"
+msgstr ""
+
+#: classes/inputs/input.measure.php:26
+msgid "<i class=\"fa fa-building-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.date.php:26
+msgid "<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.select.php:26
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:26
+msgid "<i class=\"fa fa-check-square-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.timezone.php:26
+msgid "<i class=\"fa fa-clock-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.section.php:31
+msgid "<i class=\"fa fa-code\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:25
+msgid "<i class=\"fa fa-crop\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.radio.php:26
+msgid "<i class=\"fa fa-dot-circle-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.file.php:27
+msgid "<i class=\"fa fa-file\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.textarea.php:26
+msgid "<i class=\"fa fa-file-text-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.audio.php:26
+msgid "<i class=\"fa fa-file-video-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.hidden.php:26 classes/inputs/input.number.php:26
+msgid "<i class=\"fa fa-hashtag\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:26
+msgid "<i class=\"fa fa-list-ol\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.color.php:26
+msgid "<i class=\"fa fa-modx\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.divider.php:26 classes/inputs/input.text.php:26
+msgid "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.image.php:26
+msgid "<i class=\"fa fa-picture-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.daterange.php:26
+msgid "<i class=\"fa fa-table\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:27
+msgid "<i class=\"fa fa-usd\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: classes/inputs/input.email.php:26 classes/inputs/input.palettes.php:26
+msgid "<i class=\"fa fa-user-plus\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: inc/nmInput.class.php:1548 templates/frontend/inputs/cropper.php:84
+msgid "<option value=\"\">%s</option>"
+msgstr ""
+
+#: templates/frontend/component/quantities/grid-layout.php:112
+#: templates/frontend/component/quantities/horizontal-layout.php:116
+#: templates/frontend/component/quantities/vertical-layout.php:122
+msgid "<span class=\"ppom-instock\">%s</span>"
+msgstr ""
+
+#: inc/functions.php:372 inc/functions.php:396 inc/functions.php:421
+#: inc/functions.php:483
+msgid "<strong>Total = %d</strong>"
+msgstr ""
+
+#: classes/inputs/input.date.php:111
+msgid ""
+"[ This feature requires jQuery datePicker ] First day of the week to show on "
+"the popup calendar."
+msgstr ""
+
+#: classes/inputs/input.date.php:148
+msgid ""
+"[ This feature requires jQuery datePicker ] Prevent display &amp; selection "
+"of weekends."
+msgstr ""
+
+#: classes/inputs/input.date.php:154
+msgid ""
+"[ This feature requires jQuery datePicker ] Prevent selection of dates prior "
+"to today&rsquo;s date."
+msgstr ""
+
+#: classes/inputs/input.date.php:76
+msgid ""
+"[ This feature requires jQuery datePicker ] Select your preferred date "
+"format."
+msgstr ""
+
+#: classes/inputs/input.date.php:83
+msgid ""
+"[ This feature requires jQuery datePicker ] The default highlighted date if "
+"the date field is blank.  Enter a date or use shortcode (examples: +10d, "
+"+17d, +1m +7d). Full dates should follow the same date format you have "
+"selected for this field."
+msgstr ""
+
+#: classes/inputs/input.date.php:90
+msgid ""
+"[ This feature requires jQuery datePicker ] The earliest selectable date. "
+"Enter a date or use shortcode (examples: +10d, +17d, +1m +7d). Full dates "
+"should follow the same date format you have selected for this field."
+msgstr ""
+
+#: classes/inputs/input.date.php:97
+msgid ""
+"[ This feature requires jQuery datePicker ] The maximum selectable date. "
+"Enter a date or use shortcode (examples: +10d, +17d, +1m +7d). Full dates "
+"should follow the same date format you have selected for this field."
+msgstr ""
+
+#: classes/inputs/input.date.php:104
+msgid ""
+"[ This feature requires jQuery datePicker ] Years to allow date selections. "
+"Example: c-10:c+10. TIP: The letter \"c\" indicates the current year so "
+"\"c+1\" will indicate next year.  Thus c:c+1 will be %s:%s"
+msgstr ""
+
+#: inc/arrays.php:375
+msgid "A Fast and Optimized script to caculate price on product page in Table."
+msgstr ""
+
+#: inc/arrays.php:384
+msgid ""
+"A faster approach to load conditional fields. Beta version, please report "
+"bug in new conditional script."
+msgstr ""
+
+#: templates/admin/existing-meta.php:35 templates/admin/existing-meta.php:50
+#: templates/admin/ppom-fields.php:306 templates/admin/ppom-fields.php:324
+msgid "Actions"
+msgstr ""
+
+#: classes/fields.class.php:1169
+msgid "Add Audio/Video"
+msgstr ""
+
+#: classes/inputs/input.palettes.php:82
+#, fuzzy
+msgid "Add colors"
+msgstr "Ajouter des couleurs"
+
+#: classes/fields.class.php:208
+msgid "Add Field"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:287
+msgid "Add field"
+msgstr ""
+
+#: classes/fields.class.php:1164
+msgid "Add Images"
+msgstr ""
+
+#: inc/admin.php:687
+msgid "Add more field types"
+msgstr ""
+
+#: classes/fields.class.php:161
+msgid "Add New Group"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:112 classes/inputs/input.file.php:165
+#: classes/inputs/input.palettes.php:125 classes/inputs/input.radio.php:100
+#: classes/inputs/input.select.php:108
+msgid "Add one time fee to cart total."
+msgstr "Ajouter une seule fois les frais fixe au panier total."
+
+#: classes/fields.class.php:1148 classes/inputs/input.cropper.php:124
+msgid "Add Options"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:56 classes/inputs/input.quantities.php:66
+#: classes/inputs/input.radio.php:56 classes/inputs/input.select.php:56
+msgid "Add options"
+msgstr "Ajouter options"
+
+#: templates/admin/ppom-fields.php:281
+msgid "Add PPOM Fields"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:133
+msgid "Add the -/+ buttons"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:197
+#, fuzzy
+msgid "Add your own CSS."
+msgstr "Ajoutez votre propre CSS."
+
+#: templates/admin/ppom-fields.php:208
+msgid "Add your own javascipt script."
+msgstr ""
+
+#: classes/inputs/input.section.php:60
+#, fuzzy
+msgid "Add your text/HTML here."
+msgstr "Saisissez votre texte ici"
+
+#: classes/inputs/input.measure.php:94 classes/inputs/input.text.php:83
+#: classes/inputs/input.textarea.php:73
+msgid "Add-on Price"
+msgstr ""
+
+#: inc/arrays.php:303
+msgid "Advance Features (PRO)"
+msgstr ""
+
+#: inc/arrays.php:466
+msgid "After PPOM Fields"
+msgstr ""
+
+#: classes/fields.class.php:777 classes/fields.class.php:850
+msgid "All"
+msgstr ""
+
+#: classes/inputs/input.daterange.php:37
+msgid "All about Daterangepicker, see daterangepicker"
+msgstr ""
+
+#: classes/admin.class.php:164
+msgid "All Addons"
+msgstr ""
+
+#: classes/inputs/input.timezone.php:69
+#, fuzzy
+msgid ""
+"All,AFRICA, AMERICA, ANTARCTICA, ASIA, ATLANTIC, AUSTRALIA, EUROPE, INDIAN, "
+"PACIFIC"
+msgstr ""
+"Tous, Afrique, Amérique, Antarctique, Asie, Atlantique, Australie, Europe, "
+"indien, Pacifique"
+
+#: classes/inputs/input.cropper.php:169
+msgid "Allow Resize"
+msgstr "Autoriser redimmensionner"
+
+#: classes/inputs/input.image.php:132
+msgid "Allow users to select more then one images?."
+msgstr "Permettre aux utilisateurs de sélectionner plus d'une images ?."
+
+#: classes/inputs/input.palettes.php:119
+msgid "Allow users to select more then one palette?."
+msgstr ""
+
+#: classes/inputs/input.audio.php:102
+#, fuzzy
+msgid "Allow users to select more then one videos or audios?."
+msgstr ""
+"Permettre aux utilisateurs de sélectionner plus d'une vidéo ou audios?."
+
+#: inc/arrays.php:845
+msgid "Allows to create chained dropdown options."
+msgstr ""
+
+#: templates/admin/products-list.php:28
+msgid "Already Attached"
+msgstr ""
+
+#: classes/fields.class.php:778 classes/fields.class.php:851
+msgid "Any"
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:86
+#, fuzzy
+msgid "Apply as discount"
+msgstr "Appliquer comme escompte"
+
+#: templates/admin/ppom-fields.php:173
+#, fuzzy
+msgid "Apply for Categories"
+msgstr "Postuler pour les catégories"
+
+#: inc/arrays.php:346
+msgid "Apply tax settings on option prices from WooCommerce->Tax"
+msgstr ""
+
+#: backend/settings-panel.class.php:824 classes/frontend-scripts.class.php:543
+#: inc/hooks.php:340 inc/hooks.php:368
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+#: templates/admin/products-list.php:68
+msgid "Attach"
+msgstr ""
+
+#: templates/admin/existing-meta.php:93
+msgid "Attach to Products"
+msgstr ""
+
+#: classes/freemium.class.php:215 classes/inputs/input.audio.php:24
+#: inc/arrays.php:1046
+#, fuzzy
+msgid "Audio / Video"
+msgstr "Audio/Vidéo"
+
+#: classes/inputs/input.audio.php:25
+#, fuzzy
+msgid "Audio File Selection"
+msgstr "Sélection de fichiers audio"
+
+#: inc/arrays.php:1047
+msgid ""
+"Audio/Video input allows clients to select Audio/Video options uploaded by "
+"Admin in the media library. It’s similar to Image type input but with a "
+"different media type. Price can also be set against each option."
+msgstr ""
+
+#: inc/nmInput.class.php:1327
+#, fuzzy
+msgid "audios not selected"
+msgstr "audios non sélectionnés"
+
+#: classes/inputs/input.daterange.php:162
+#, fuzzy
+msgid "Auto Apply Changes"
+msgstr "Appliquer les changements"
+
+#: backend/options.php:25
+#, fuzzy
+#| msgid "Basic Setting"
+msgid "Basic Settings"
+msgstr "Paramètres de base"
+
+#: inc/arrays.php:467
+msgid "Before  PPOM Fields"
+msgstr ""
+
+#: backend/options.php:30 inc/arrays.php:258
+msgid ""
+"Bootstrap JS is being loaded from CDN, it will disable if your site already "
+"loading it."
+msgstr ""
+
+#: backend/settings-panel.class.php:530
+msgid "Bottom"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:138
+#, fuzzy
+#| msgid "Boundar height,width"
+msgid "Boundary height,width"
+msgstr "Hauteur délimitée, largeur"
+
+#: templates/admin/changelog.php:31
+msgid "Bug Fixes"
+msgstr ""
+
+#: classes/fields.class.php:162
+msgid "Bulk Actions"
+msgstr ""
+
+#: inc/arrays.php:720
+msgid ""
+"Bulk Quantity for Options Addon allow store admin to set discount prices for "
+"each options. This Addon is best tool for companies like Printin, designing "
+"and who looking to sale products with options with different prices."
+msgstr ""
+
+#: inc/arrays.php:719
+msgid "Bulk Quantity Options"
+msgstr ""
+
+#: inc/arrays.php:288 inc/arrays.php:419 inc/arrays.php:434 inc/arrays.php:449
+#: inc/arrays.php:463
+msgid "Button"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:84 classes/inputs/input.file.php:83
+msgid "Button class"
+msgstr "Class du bouton"
+
+#: classes/inputs/input.cropper.php:78 classes/inputs/input.file.php:77
+msgid "Button label (select files)"
+msgstr "Nom du bouton (Sélectionner fichiers)"
+
+#: inc/arrays.php:64
+msgid "By Role"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:158
+#, fuzzy
+msgid "Calculate Tax for Fixed Fee"
+msgstr "Calculer la taxe pour les frais fixes"
+
+#: inc/arrays.php:725
+msgid "Cart Edit"
+msgstr ""
+
+#: inc/arrays.php:452
+msgid "Category First"
+msgstr ""
+
+#: inc/arrays.php:438
+msgid "Category Overrides Individual Assignment"
+msgstr ""
+
+#: classes/freemium.class.php:119 inc/arrays.php:844
+msgid "Chained Input"
+msgstr ""
+
+#: classes/inputs/input.image.php:95
+msgid "Change image height e,g: 50px or 50%. "
+msgstr ""
+
+#: classes/inputs/input.image.php:89
+msgid "Change image width e,g: 50px or 50%."
+msgstr ""
+
+#: classes/inputs/input.image.php:72
+msgid "Change selected images border color, e.g: #fff"
+msgstr ""
+
+#: classes/inputs/input.palettes.php:57
+msgid "Change selected palette border color, e.g: #fff"
+msgstr ""
+
+#: classes/admin.class.php:165
+msgid "Changelog"
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:87
+msgid "Check for Apply as discount"
+msgstr ""
+
+#: inc/arrays.php:366
+#, fuzzy
+#| msgid "Check this option to enable REST API"
+msgid "Check this option to enable PPOM REST API"
+msgstr "Cochez cette option pour activer l'API REST"
+
+#: classes/inputs/input.quantities.php:138
+msgid "Check/update stock against each variation"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:24
+#, fuzzy
+msgid "Checkbox Input"
+msgstr "Entrée CheckBox"
+
+#: classes/inputs/input.checkbox.php:75
+#, fuzzy
+msgid "Checked option(s)"
+msgstr "Options (s) cochée Mini"
+
+#: backend/templates/inputs/select.php:37
+msgid "Choose Options"
+msgstr ""
+
+#: backend/options.php:58
+msgid "choose role"
+msgstr ""
+
+#: classes/admin.class.php:367
+msgid "Choose Roles"
+msgstr ""
+
+#: classes/inputs/input.divider.php:98
+msgid "Choose the divider color."
+msgstr ""
+
+#: classes/inputs/input.divider.php:104
+msgid "Choose the divider text color."
+msgstr ""
+
+#: classes/inputs/input.audio.php:56 classes/inputs/input.checkbox.php:61
+#: classes/inputs/input.cropper.php:64 classes/inputs/input.date.php:61
+#: classes/inputs/input.daterange.php:57 classes/inputs/input.email.php:61
+#: classes/inputs/input.file.php:63 classes/inputs/input.image.php:57
+#: classes/inputs/input.measure.php:100 classes/inputs/input.number.php:85
+#: classes/inputs/input.palettes.php:62 classes/inputs/input.quantities.php:99
+#: classes/inputs/input.radio.php:66 classes/inputs/input.select.php:73
+#: classes/inputs/input.text.php:89 classes/inputs/input.textarea.php:79
+#: classes/inputs/input.timezone.php:74
+msgid "Class"
+msgstr "Classe"
+
+#: inc/arrays.php:351
+msgid "Clear Fields after Add to Cart?"
+msgstr ""
+
+#: classes/inputs/input.text.php:96
+msgid "Click options to see all Masking Options"
+msgstr ""
+
+#: templates/admin/existing-meta.php:102
+msgid "Clone"
+msgstr "Dupliquer"
+
+#: templates/admin/existing-meta.php:131 templates/admin/ppom-fields.php:115
+#: templates/admin/ppom-fields.php:259
+msgid "Close"
+msgstr ""
+
+#: classes/fields.class.php:207
+msgid "close"
+msgstr ""
+
+#: classes/freemium.class.php:107 inc/arrays.php:764
+msgid "Collapse"
+msgstr ""
+
+#: classes/inputs/input.palettes.php:25
+#, fuzzy
+msgid "color boxes"
+msgstr "boîtes de couleur"
+
+#: classes/inputs/input.color.php:63
+#, fuzzy
+msgid "Color codes seperated by comma e.g: #125, #459, #78b"
+msgstr ""
+"Codes de couleur séparés par des virgules par exemple: #125, #459, #78b"
+
+#: classes/inputs/input.palettes.php:99
+#, fuzzy
+msgid "Color height"
+msgstr "Hauteur Couleur"
+
+#: classes/freemium.class.php:211 classes/inputs/input.palettes.php:24
+#: inc/arrays.php:1031
+msgid "Color Palettes"
+msgstr "Palettes de couleurs"
+
+#: classes/inputs/input.color.php:25
+#, fuzzy
+msgid "Color pallete input"
+msgstr "Couleur palette d'entrée"
+
+#: inc/arrays.php:911
+msgid "Color Picker"
+msgstr ""
+
+#: classes/freemium.class.php:179 classes/inputs/input.color.php:24
+msgid "Color picker"
+msgstr "Sélecteur de couleurs"
+
+#: inc/arrays.php:912
+msgid ""
+"Color Picker allows the client to select a color. Palette colors can also be "
+"defined in settings."
+msgstr ""
+
+#: classes/inputs/input.palettes.php:93
+#, fuzzy
+msgid "Color width"
+msgstr "Largeur Couleur"
+
+#: inc/arrays.php:1087
+msgid "Conditional Field Repeater"
+msgstr ""
+
+#: classes/freemium.class.php:70
+msgid ""
+"Conditional Field Repeater allows repeating this field across a value of "
+"another PPOM field. Conditional Field Repeater feature is the part of the "
+"PPOM Pro."
+msgstr ""
+
+#: inc/arrays.php:1088
+msgid ""
+"Conditional Field Repeater is a feature used to repeat a PPOM field by the "
+"value of another PPOM field (number field)."
+msgstr ""
+
+#: classes/freemium.class.php:123 inc/arrays.php:863
+msgid "Conditional Images"
+msgstr ""
+
+#: classes/freemium.class.php:53
+msgid "Conditional Repeater (PRO)"
+msgstr ""
+
+#: classes/fields.class.php:1142 classes/inputs/input.audio.php:112
+#: classes/inputs/input.checkbox.php:128 classes/inputs/input.color.php:135
+#: classes/inputs/input.cropper.php:210 classes/inputs/input.date.php:176
+#: classes/inputs/input.daterange.php:185 classes/inputs/input.email.php:105
+#: classes/inputs/input.file.php:175 classes/inputs/input.image.php:160
+#: classes/inputs/input.measure.php:145 classes/inputs/input.number.php:129
+#: classes/inputs/input.palettes.php:153
+#: classes/inputs/input.pricematrix.php:121
+#: classes/inputs/input.quantities.php:158 classes/inputs/input.radio.php:116
+#: classes/inputs/input.section.php:94 classes/inputs/input.select.php:124
+#: classes/inputs/input.text.php:153 classes/inputs/input.textarea.php:130
+#: classes/inputs/input.timezone.php:125
+msgid "Conditions"
+msgstr "Conditions"
+
+#: classes/inputs/input.section.php:59
+msgid "Content"
+msgstr "Contenu"
+
+#: templates/admin/ppom-fields.php:160
+#, fuzzy
+msgid "Control how price table will be shown for options or disable."
+msgstr ""
+"Contrôlez la façon dont la table des prix sera affichée pour les options ou "
+"désactiver."
+
+#: templates/admin/ppom-fields.php:158
+#, fuzzy
+#| msgid "Control price display on product page."
+msgid "Control price display on product page"
+msgstr "Affichage des prix de contrôle sur la page produit."
+
+#: templates/admin/ppom-fields.php:391
+msgid "Copy Field"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:24
+msgid "Crop images"
+msgstr "Recadrer les images"
+
+#: inc/functions.php:545 inc/functions.php:1577
+msgid "Cropped"
+msgstr "Recadré"
+
+#: templates/admin/ppom-fields.php:195
+msgid "Custom CSS"
+msgstr ""
+
+#: classes/fields.class.php:1181
+msgid "Custom Fonts"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:206
+msgid "Custom Javascipt"
+msgstr ""
+
+#: inc/arrays.php:422
+msgid "Daily"
+msgstr ""
+
+#: backend/settings-panel.class.php:502 classes/inputs/input.divider.php:47
+msgid "Dashed"
+msgstr ""
+
+#: classes/fields.class.php:527 templates/admin/ppom-fields.php:301
+#: templates/admin/ppom-fields.php:319
+msgid "Data Name"
+msgstr ""
+
+#: classes/inputs/input.audio.php:41 classes/inputs/input.checkbox.php:41
+#: classes/inputs/input.color.php:41 classes/inputs/input.cropper.php:43
+#: classes/inputs/input.date.php:41 classes/inputs/input.daterange.php:42
+#: classes/inputs/input.divider.php:66 classes/inputs/input.email.php:41
+#: classes/inputs/input.file.php:42 classes/inputs/input.hidden.php:43
+#: classes/inputs/input.image.php:41 classes/inputs/input.measure.php:55
+#: classes/inputs/input.number.php:41 classes/inputs/input.palettes.php:41
+#: classes/inputs/input.pricematrix.php:42
+#: classes/inputs/input.quantities.php:51 classes/inputs/input.radio.php:41
+#: classes/inputs/input.section.php:42 classes/inputs/input.select.php:41
+#: classes/inputs/input.text.php:43 classes/inputs/input.textarea.php:42
+#: classes/inputs/input.timezone.php:41
+msgid "Data name"
+msgstr "Nom de la donnée"
+
+#: inc/nmInput.class.php:264
+msgid "data-use_units=\""
+msgstr ""
+
+#: inc/nmInput.class.php:279
+msgid ""
+"data-use_units=\"no\" data-price=\"%1$s\" data-label=\"%2$s\" data-"
+"data_name=\"%3$s\" data-optionid=\"%4$s\" data-qty=\"%5$s\">"
+msgstr ""
+
+#: inc/admin.php:18
+msgid "Date"
+msgstr "Date"
+
+#: classes/inputs/input.date.php:75
+#, fuzzy
+#| msgid "Date formats"
+msgid "Date format"
+msgstr "Formats de date"
+
+#: classes/inputs/input.date.php:24
+#, fuzzy
+msgid "Date Input"
+msgstr "Type d’Entrée Date"
+
+#: inc/arrays.php:896
+msgid "Date Range Input"
+msgstr ""
+
+#: inc/arrays.php:897
+msgid ""
+"Date Range Picker allows clients to select dates, times, or from predefined "
+"ranges."
+msgstr ""
+
+#: classes/freemium.class.php:175 classes/inputs/input.daterange.php:24
+#, fuzzy
+msgid "DateRange Input"
+msgstr "Entrée DateRange"
+
+#: inc/arrays.php:437
+msgid "Default"
+msgstr ""
+
+#: classes/inputs/input.color.php:56
+#, fuzzy
+#| msgid "Dedfault color"
+msgid "Default color"
+msgstr "Couleur Dedfault"
+
+#: classes/inputs/input.date.php:82
+msgid "Default Date"
+msgstr "Date par Défaut"
+
+#: classes/inputs/input.palettes.php:100
+#, fuzzy
+msgid "default is 50, e.g: 100"
+msgstr "la valeur par défaut est 50, par exemple: 100"
+
+#: classes/inputs/input.palettes.php:94
+#, fuzzy
+msgid "default is 50, e.g: 75"
+msgstr "la valeur par défaut est 50, par exemple: 75"
+
+#: classes/inputs/input.daterange.php:72
+#, fuzzy
+msgid "Default is down."
+msgstr "La valeur par défaut est Down."
+
+#: classes/inputs/input.quantities.php:80
+msgid "Default option price, if no prices is given in Options"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:79
+msgid "Default Price"
+msgstr ""
+
+#: classes/fields.class.php:586 classes/fields.class.php:605
+msgid "Default. Qty"
+msgstr ""
+
+#: classes/inputs/input.color.php:57
+#, fuzzy
+msgid "Define default color e.g: #effeff"
+msgstr "Définir la couleur par défaut par exemple: #effeff"
+
+#: classes/fields.class.php:163 inc/files.php:475
+msgid "Delete"
+msgstr "Supprimer"
+
+#: inc/arrays.php:417
+msgid "Delete Un-used images"
+msgstr ""
+
+#: inc/arrays.php:904 inc/arrays.php:919 inc/arrays.php:934 inc/arrays.php:949
+#: inc/arrays.php:964 inc/arrays.php:979 inc/arrays.php:994 inc/arrays.php:1024
+#: inc/arrays.php:1039 inc/arrays.php:1054 inc/arrays.php:1069
+msgid "Demo"
+msgstr ""
+
+#: inc/arrays.php:1062
+msgid ""
+"Depending on the products that you provide, some of them could require some "
+"measurement specifications, and this can be done using Measure Input."
+msgstr ""
+
+#: classes/inputs/input.audio.php:46 classes/inputs/input.checkbox.php:46
+#: classes/inputs/input.color.php:46 classes/inputs/input.cropper.php:48
+#: classes/inputs/input.date.php:46 classes/inputs/input.daterange.php:47
+#: classes/inputs/input.email.php:46 classes/inputs/input.file.php:47
+#: classes/inputs/input.image.php:46 classes/inputs/input.measure.php:60
+#: classes/inputs/input.number.php:46 classes/inputs/input.palettes.php:46
+#: classes/inputs/input.pricematrix.php:47
+#: classes/inputs/input.quantities.php:56 classes/inputs/input.radio.php:46
+#: classes/inputs/input.section.php:54 classes/inputs/input.select.php:46
+#: classes/inputs/input.text.php:48 classes/inputs/input.textarea.php:47
+#: classes/inputs/input.timezone.php:46
+msgid "Description"
+msgstr "Description"
+
+#: backend/options.php:29 inc/arrays.php:253
+msgid "Disable Bootstrap"
+msgstr ""
+
+#: inc/arrays.php:271
+msgid "Disable FontAwesome"
+msgstr ""
+
+#: classes/inputs/input.date.php:153
+#, fuzzy
+#| msgid "Disable Past Dates?"
+msgid "Disable Past Dates"
+msgstr "Désactiver les dates passées?"
+
+#: classes/inputs/input.date.php:147
+#, fuzzy
+#| msgid "Disable Weekends?"
+msgid "Disable Weekends"
+msgstr "Désactiver les week-ends?"
+
+#: classes/fields.class.php:387 classes/fields.class.php:394
+msgid "Discount"
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:52
+#, fuzzy
+msgid "Discount On?"
+msgstr "Rabais sur?"
+
+#: inc/arrays.php:234 inc/arrays.php:237 inc/arrays.php:588
+msgid "Discount Price"
+msgstr "Prix bas"
+
+#: inc/admin.php:166
+msgid "Dismiss this notice"
+msgstr "Ignorer cet avertissement"
+
+#: classes/inputs/input.color.php:113
+#, fuzzy
+msgid "Display color picker by default, otherwise show on click"
+msgstr "Afficher sélecteur de couleurs par défaut, sinon afficher sur le clic"
+
+#: classes/inputs/input.hidden.php:67 classes/inputs/input.section.php:84
+msgid "Display Field Value in Cart"
+msgstr ""
+
+#: inc/arrays.php:1032
+msgid ""
+"Display the variations of the products using the Color Palettes. You create "
+"the palette from the colors which you wish."
+msgstr ""
+
+#: classes/freemium.class.php:223 classes/inputs/input.divider.php:24
+#: inc/arrays.php:1076
+msgid "Divider"
+msgstr ""
+
+#: classes/inputs/input.divider.php:97
+msgid "Divider color"
+msgstr ""
+
+#: classes/inputs/input.divider.php:85
+msgid "Divider height"
+msgstr ""
+
+#: classes/inputs/input.divider.php:103
+msgid "Divider text color"
+msgstr ""
+
+#: inc/arrays.php:388
+msgid "Do not send Product Meta to PayPal Invoice"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:165
+#, fuzzy
+msgid "Do Not Show Price Table"
+msgstr "Ne pas afficher le tableau des prix"
+
+#: inc/arrays.php:678 inc/arrays.php:701 inc/arrays.php:712 inc/arrays.php:735
+#: inc/arrays.php:746 inc/arrays.php:757 inc/arrays.php:768 inc/arrays.php:779
+#: inc/arrays.php:796 inc/arrays.php:807 inc/arrays.php:818 inc/arrays.php:837
+#: inc/arrays.php:848 inc/arrays.php:867 inc/arrays.php:878 inc/arrays.php:889
+#: inc/arrays.php:900 inc/arrays.php:915 inc/arrays.php:930 inc/arrays.php:945
+#: inc/arrays.php:960 inc/arrays.php:975 inc/arrays.php:990 inc/arrays.php:1005
+#: inc/arrays.php:1009 inc/arrays.php:1020 inc/arrays.php:1035
+#: inc/arrays.php:1050 inc/arrays.php:1065 inc/arrays.php:1080
+msgid "Docs"
+msgstr ""
+
+#: classes/freemium.class.php:127
+msgid "Domain"
+msgstr ""
+
+#: inc/arrays.php:731
+msgid "Domain Checker"
+msgstr ""
+
+#: inc/arrays.php:732
+msgid ""
+"Domain Checker Addon will check any domain’s availability. Adds domain to "
+"cart if it’s not already registered. A simple solution to sell domains with "
+"WooCommerce PPOM. Customized messages for domain availability/not-"
+"availability. Ajax base script to check domain and show result."
+msgstr ""
+
+#: backend/settings-panel.class.php:501 classes/inputs/input.divider.php:46
+msgid "Dotted"
+msgstr ""
+
+#: backend/settings-panel.class.php:503 classes/inputs/input.divider.php:48
+msgid "Double"
+msgstr ""
+
+#: inc/functions.php:1560
+msgid "Download File"
+msgstr "Télécharger le fichier"
+
+#: inc/nmInput.class.php:1430 templates/frontend/inputs/file.php:50
+#, fuzzy
+#| msgid "Drag file(s) here"
+msgid "Drag File Here"
+msgstr "Glisser le (s) fichier (s) ici"
+
+#: inc/nmInput.class.php:1437 inc/nmInput.class.php:1514
+#: inc/nmInput.class.php:1520 templates/frontend/inputs/cropper.php:56
+#, fuzzy
+msgid "Drag file/directory here"
+msgstr "Faites glisser le fichier/répertoire ici"
+
+#: backend/options.php:94 inc/arrays.php:200
+msgid "E.g for Tax/Va info like. Vat included"
+msgstr ""
+
+#: classes/inputs/input.daterange.php:82
+#, fuzzy
+msgid "e.g MM-DD-YYYY, DD-MMM-YYYY"
+msgstr "p. ex. mm-jj-aaaa, jj-mmm-aaaa"
+
+#: classes/inputs/input.daterange.php:106
+#, fuzzy
+msgid "e.g: 2017-02-25"
+msgstr "par exemple: 2017-02-25"
+
+#: classes/inputs/input.daterange.php:112
+#, fuzzy
+msgid "e.g: 2017-09-15"
+msgstr "par exemple: 2017-09-15"
+
+#: classes/inputs/input.daterange.php:88
+msgid "e.g: 30"
+msgstr "ex: 30"
+
+#: classes/inputs/input.color.php:69
+#, fuzzy
+msgid "e.g: 500"
+msgstr "par exemple: 500"
+
+#: templates/admin/existing-meta.php:100
+msgid "Edit"
+msgstr "Modifier"
+
+#: classes/fields.class.php:1110
+msgid "Edit Changing"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:397
+msgid "Edit Field"
+msgstr ""
+
+#: inc/functions.php:1591
+msgid "Edited"
+msgstr "Modifié"
+
+#: classes/inputs/input.email.php:24
+#, fuzzy
+msgid "Email Input"
+msgstr "Saisie par courriel"
+
+#: classes/freemium.class.php:111 inc/arrays.php:814
+msgid "Emojis"
+msgstr ""
+
+#: inc/arrays.php:356
+msgid "Empty all fields on Product page after to cart."
+msgstr ""
+
+#: backend/templates/inputs/checkbox.php:16
+msgid "Enable"
+msgstr ""
+
+#: classes/freemium.class.php:94
+msgid "Enable Conditional Repeat"
+msgstr ""
+
+#: classes/inputs/input.audio.php:107 classes/inputs/input.checkbox.php:123
+#: classes/inputs/input.color.php:130 classes/inputs/input.cropper.php:205
+#: classes/inputs/input.date.php:171 classes/inputs/input.daterange.php:180
+#: classes/inputs/input.email.php:100 classes/inputs/input.file.php:170
+#: classes/inputs/input.image.php:155 classes/inputs/input.measure.php:140
+#: classes/inputs/input.number.php:124 classes/inputs/input.palettes.php:148
+#: classes/inputs/input.pricematrix.php:116
+#: classes/inputs/input.quantities.php:153 classes/inputs/input.radio.php:111
+#: classes/inputs/input.section.php:89 classes/inputs/input.select.php:119
+#: classes/inputs/input.text.php:148 classes/inputs/input.textarea.php:125
+#: classes/inputs/input.timezone.php:120
+#, fuzzy
+msgid "Enable Conditions"
+msgstr "Activer les conditions"
+
+#: classes/inputs/input.cropper.php:187
+#, fuzzy
+msgid "Enable Exif"
+msgstr "Activer EXIF"
+
+#: classes/inputs/input.date.php:142
+msgid "Enable jQuery datePicker over HTML5 date field."
+msgstr ""
+
+#: inc/arrays.php:262
+msgid "Enable Legacy Inputs Rendering"
+msgstr ""
+
+#: backend/options.php:45 inc/arrays.php:279
+msgid "Enable Legacy Price Calculations"
+msgstr ""
+
+#: classes/inputs/input.image.php:125
+#, fuzzy
+msgid "Enable legacy view"
+msgstr "Activer la vue héritée"
+
+#: inc/arrays.php:379
+msgid "Enable New Conditional Logic Script"
+msgstr ""
+
+#: inc/arrays.php:361
+msgid "Enable PPOM REST API?"
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:92
+#, fuzzy
+msgid "Enable Quantity Slider"
+msgstr "Activer la quantité Slider"
+
+#: classes/inputs/input.textarea.php:107
+msgid "Enable WordPress rich editor."
+msgstr ""
+
+#: classes/inputs/input.cropper.php:175
+#, fuzzy
+msgid "Enable Zoom"
+msgstr "Autoriser le zoom"
+
+#: classes/inputs/input.cropper.php:176 classes/inputs/input.cropper.php:188
+msgid ""
+"Enable zooming functionality. If set to false - scrolling and pinching would "
+"not zoom."
+msgstr ""
+
+#: classes/inputs/input.daterange.php:99
+msgid "End Date"
+msgstr "Date de fin"
+
+#: classes/inputs/input.cropper.php:163
+#, fuzzy
+msgid "Enforce Boundary"
+msgstr "Appliquer la limite"
+
+#: classes/inputs/input.quantities.php:132
+msgid "Enhance -/+ controls"
+msgstr ""
+
+#: inc/arrays.php:786
+msgid "Enquiry Form"
+msgstr ""
+
+#: inc/arrays.php:410
+msgid ""
+"Enter any characters to create a secret key. This key must be set while "
+"requesting to API"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:94
+msgid "Enter max quantity allowed."
+msgstr ""
+
+#: classes/inputs/input.quantities.php:88
+msgid "Enter min quantity allowed."
+msgstr ""
+
+#: classes/admin.class.php:295
+#, fuzzy
+msgid "Entery API key"
+msgstr "Clé API Entery"
+
+#: classes/inputs/input.file.php:133
+msgid "Error Message"
+msgstr ""
+
+#: classes/inputs/input.audio.php:51 classes/inputs/input.checkbox.php:51
+#: classes/inputs/input.color.php:51 classes/inputs/input.cropper.php:53
+#: classes/inputs/input.date.php:56 classes/inputs/input.daterange.php:52
+#: classes/inputs/input.email.php:56 classes/inputs/input.file.php:52
+#: classes/inputs/input.image.php:52 classes/inputs/input.measure.php:65
+#: classes/inputs/input.number.php:56 classes/inputs/input.palettes.php:51
+#: classes/inputs/input.quantities.php:61 classes/inputs/input.radio.php:51
+#: classes/inputs/input.select.php:51 classes/inputs/input.text.php:58
+#: classes/inputs/input.textarea.php:57 classes/inputs/input.timezone.php:51
+msgid "Error message"
+msgstr "Message d'erreur"
+
+#: inc/files.php:157
+msgid "Error while creating directory"
+msgstr "Erreur durant la création du dossier"
+
+#: inc/files.php:348 inc/files.php:374 inc/files.php:377
+#, fuzzy, php-format
+msgid "Error while deleting file %s"
+msgstr "Erreur lors de la suppression de \\\"%s\\\"."
+
+#: inc/admin.php:533
+msgid "Error while deleting the PPOM, try again."
+msgstr ""
+
+#: inc/arrays.php:61
+msgid "Everyone"
+msgstr ""
+
+#: classes/fields.class.php:164
+msgid "Export"
+msgstr "Exporter"
+
+#: classes/fields.class.php:165
+msgid "Export (PRO)"
+msgstr ""
+
+#: templates/admin/addons-list.php:42
+msgid "Feature"
+msgstr ""
+
+#: templates/admin/changelog.php:30
+msgid "Features"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:157
+#, fuzzy
+msgid "Fee Taxable?"
+msgstr "Taxe imposable?"
+
+#: templates/admin/addons-list.php:41
+msgid "Field"
+msgstr ""
+
+#: classes/inputs/input.hidden.php:48
+msgid "Field value"
+msgstr "Valeur de champ"
+
+#: classes/fields.class.php:1137
+msgid "Fields"
+msgstr ""
+
+#: inc/arrays.php:691
+msgid "Fields PopUp"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:58 classes/inputs/input.file.php:57
+#, fuzzy
+msgid "File cost/price"
+msgstr "Coût/prix"
+
+#: classes/freemium.class.php:183 classes/inputs/input.file.php:25
+#: inc/arrays.php:926
+#, fuzzy
+msgid "File Input"
+msgstr "Entrée de fichier"
+
+#: inc/arrays.php:927
+msgid ""
+"File Input allows clients to upload files from their computers or mobile "
+"devices. Admin can set any file type and size."
+msgstr ""
+
+#: inc/files.php:372
+#, fuzzy
+msgid "File removed"
+msgstr "Fichier supprimé"
+
+#: classes/inputs/input.file.php:102
+msgid "File size"
+msgstr "Taille de fichier"
+
+#: inc/files.php:182
+#, fuzzy
+msgid "File type not valid - "
+msgstr "Type de fichier non valide-"
+
+#: classes/inputs/input.file.php:95
+msgid "File types"
+msgstr "Types de fichiers"
+
+#: classes/inputs/input.file.php:96
+msgid "File types allowed seperated by comma, e.g: jpg,pdf,zip"
+msgstr ""
+"Fichiers types autorisés séparés par des virgules, exemple: jpg, png, zip, "
+"rar, pdf"
+
+#: classes/inputs/input.cropper.php:90 classes/inputs/input.file.php:89
+msgid "Files allowed"
+msgstr "Fichiers autorisés"
+
+#: classes/inputs/input.date.php:110
+msgid "First day of week"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:117 classes/inputs/input.select.php:67
+#: classes/inputs/input.timezone.php:62
+msgid "First option"
+msgstr "Première option"
+
+#: classes/frontend-scripts.class.php:558 classes/inputs/input.checkbox.php:111
+#: classes/inputs/input.file.php:164 classes/inputs/input.palettes.php:124
+#: classes/inputs/input.radio.php:99 classes/inputs/input.select.php:107
+#: inc/arrays.php:225 inc/arrays.php:228 inc/arrays.php:591
+msgid "Fixed Fee"
+msgstr "Frais Fixe"
+
+#: classes/freemium.class.php:143 inc/arrays.php:685
+msgid "Fixed Price"
+msgstr "Prix fixe"
+
+#: classes/fields.class.php:492 classes/fields.class.php:513
+msgid "Fixed?"
+msgstr ""
+
+#: inc/arrays.php:183
+msgid ""
+"Following settings help you the control and customize plugin as per your "
+"need. <a href=\""
+msgstr ""
+
+#: backend/settings-panel.class.php:556
+msgid "Font Color"
+msgstr ""
+
+#: classes/fields.class.php:528
+msgid "Font Name"
+msgstr ""
+
+#: inc/arrays.php:697
+msgid "Font Picker"
+msgstr ""
+
+#: inc/arrays.php:698
+msgid ""
+"Font selector loads fonts from Google and client can pick font and can see "
+"live preview of font effect. Admin can also filter font families and set "
+"Custom Fonts."
+msgstr ""
+
+#: backend/settings-panel.class.php:550
+msgid "Font Size"
+msgstr ""
+
+#: classes/inputs/input.divider.php:91
+msgid "Font size"
+msgstr ""
+
+#: inc/arrays.php:276
+msgid ""
+"FontAwesome are being loaded from CDN, it will disable if your site already "
+"loading it."
+msgstr ""
+
+#: classes/fields.class.php:1176
+msgid "Fonts Family"
+msgstr ""
+
+#: classes/freemium.class.php:131
+msgid "Fonts Picker"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:149
+#, fuzzy
+#| msgid "For your reference"
+msgid "For your reference."
+msgstr "Pour votre référence"
+
+#: inc/admin.php:299
+msgid "Form added successfully"
+msgstr "Formulaire ajouté avec succès"
+
+#: inc/admin.php:442
+msgid "Form updated successfully"
+msgstr "Formulaire mis à jour avec succès"
+
+#: inc/admin.php:450
+msgid "Form updated successfully."
+msgstr ""
+
+#: classes/inputs/input.daterange.php:81
+msgid "Format"
+msgstr "Format"
+
+#: classes/admin.class.php:166 templates/admin/changelog.php:55
+msgid "General Settings"
+msgstr ""
+
+#: templates/admin/addons-list.php:65
+msgid "Get Started"
+msgstr ""
+
+#: classes/freemium.class.php:72
+msgid ""
+"Get the number of players from another PPOM field, and repeat this "
+"field(let's say that's a text field representing the player name) across the "
+"number of players. That's pretty useful for dynamic repeating the PPOM field."
+msgstr ""
+
+#: templates/input/quantities.php:258
+msgid "Grand Total: "
+msgstr "Total général : "
+
+#: classes/fields.class.php:813 classes/fields.class.php:873
+msgid "greater than"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:36
+msgid "Grid Layout"
+msgstr ""
+
+#: backend/settings-panel.class.php:504 classes/inputs/input.divider.php:49
+msgid "Groove"
+msgstr ""
+
+#: classes/fields.class.php:672 classes/fields.class.php:688
+msgid "Height"
+msgstr ""
+
+#: classes/inputs/input.hidden.php:24
+msgid "Hidden Input"
+msgstr "Entrée Cachée"
+
+#: classes/fields.class.php:767 classes/fields.class.php:845
+msgid "Hide"
+msgstr ""
+
+#: inc/arrays.php:331
+msgid "Hide Options Price?"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:182
+msgid "Hide or Show the zoom slider."
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:104
+msgid "Hide Price Matrix?"
+msgstr ""
+
+#: inc/arrays.php:310
+#, fuzzy
+#| msgid "Include Product Price?"
+msgid "Hide Product Price?"
+msgstr "Inclure le prix du produit?"
+
+#: classes/inputs/input.daterange.php:163
+#, fuzzy
+msgid "Hide the Apply/Cancel button."
+msgstr "Masquer le bouton appliquer/annuler."
+
+#: inc/arrays.php:320
+msgid "Hide Variable Product Price?"
+msgstr ""
+
+#: inc/arrays.php:336
+msgid ""
+"Hides options price in Selec/Radio/Checkbox/Image display prices with label"
+msgstr ""
+
+#: inc/arrays.php:315
+msgid "Hides Product core price under price Title (When PPOM Fields attached)"
+msgstr ""
+
+#: inc/arrays.php:325
+msgid ""
+"Hides Variable Product core price under price Title (When PPOM Fields "
+"attached)"
+msgstr ""
+
+#: backend/templates/admin-settings.php:239
+msgid "Hint: "
+msgstr ""
+
+#: classes/inputs/input.quantities.php:35
+msgid "Horizontal Layout"
+msgstr "Mise en page horizontale"
+
+#: classes/inputs/input.image.php:101
+msgid "How many Images can be checked by user e.g: 2. Leave blank for default."
+msgstr ""
+
+#: classes/inputs/input.image.php:107
+msgid "How many Images can be checked by user e.g: 3. Leave blank for default."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:81
+msgid ""
+"How many options can be checked by user e.g: 2. Leave blank for default."
+msgstr ""
+"Combien d’options peuvent être cochée par l’utilisateur par exemple : 2. "
+"laissez vide pour la valeur par défaut."
+
+#: classes/inputs/input.checkbox.php:87
+msgid ""
+"How many options can be checked by user e.g: 3. Leave blank for default."
+msgstr ""
+"Combien d’options peuvent être cochée par l’utilisateur par exemple : 3. "
+"laissez vide pour la valeur par défaut."
+
+#: classes/freemium.class.php:207 classes/inputs/input.section.php:29
+#: inc/arrays.php:1016
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/inputs/input.section.php:30
+#, fuzzy
+msgid "HTML content"
+msgstr "Contenu Html"
+
+#. Author URI of the plugin
+msgid "https://themeisle.com/"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://themeisle.com/plugins/ppom-pro/"
+msgstr ""
+
+#: classes/admin.class.php:292
+#, fuzzy
+msgid ""
+"If you don't know your API key, please login into your: <a target=\"_blank\" "
+"href=\"http://wordpresspoets.com/member-area\">Member area</a>"
+msgstr ""
+"Si vous ne connaissez pas votre clé API, connectez-vous à votre: < a target "
+"= \"_ blank\" href = \"http://wordpresspoets.com/member-area\" > espace "
+"membre </a>"
+
+#: backend/options.php:41
+msgid "If you found any issue in conditions you may enable this option."
+msgstr ""
+
+#: templates/admin/ppom-fields.php:175
+#, fuzzy
+#| msgid ""
+#| "If you want to apply this meta against categories, type here each "
+#| "category SLUG per line. For All type: All. Leave blank for default"
+msgid ""
+"If you want to apply this meta against categories, type here each category "
+"SLUG per line. For All type: All. Leave blank for default."
+msgstr ""
+"Si vous souhaitez appliquer cette méta par catégories, tapez ici chaque "
+"catégorie Slug par ligne. Pour tous les types: All. Laisser vide pour défaut"
+
+#: classes/freemium.class.php:187 classes/inputs/input.cropper.php:23
+#: inc/arrays.php:941
+#, fuzzy
+msgid "Image Cropper"
+msgstr "Image Cropper"
+
+#: classes/fields.class.php:1187
+msgid "Image Dimensions"
+msgstr ""
+
+#: classes/freemium.class.php:151 inc/arrays.php:708
+msgid "Image DropDown"
+msgstr ""
+
+#: classes/inputs/input.image.php:94
+msgid "Image Height"
+msgstr ""
+
+#: inc/arrays.php:987
+msgid ""
+"Image input is just like Radio/Checkbox, but images can be uploaded against "
+"each option. Price can also be set against each image option."
+msgstr ""
+
+#: classes/inputs/input.cropper.php:104
+msgid "Image size"
+msgstr "Taille de l'image"
+
+#: classes/inputs/input.cropper.php:97
+#, fuzzy
+msgid "Image types"
+msgstr "Types d'images"
+
+#: classes/inputs/input.cropper.php:98
+#, fuzzy
+msgid "Image types allowed seperated by comma, e.g: jpg,png"
+msgstr ""
+"Types d'images autorisés séparés par des virgules, par exemple: jpg, png"
+
+#: classes/inputs/input.image.php:88
+msgid "Image Width"
+msgstr ""
+
+#: classes/freemium.class.php:199 classes/inputs/input.image.php:24
+#: inc/arrays.php:986
+msgid "Images"
+msgstr "Images"
+
+#: templates/frontend/inputs/image.php:30
+msgid "Images are required, please add it."
+msgstr ""
+
+#: inc/nmInput.class.php:928
+#, fuzzy
+msgid "Images not selected"
+msgstr "Images non sélectionnées"
+
+#: classes/inputs/input.image.php:25
+#, fuzzy
+msgid "Images selection"
+msgstr "Sélection d'images"
+
+#: classes/fields.class.php:166
+msgid "Import Field Groups "
+msgstr ""
+
+#: classes/fields.class.php:167
+msgid "Import Field Groups (PRO)"
+msgstr ""
+
+#: inc/arrays.php:453
+msgid "Individual First"
+msgstr ""
+
+#: inc/arrays.php:439
+msgid "Individual Overrides Category Assignment"
+msgstr ""
+
+#: classes/inputs/input.text.php:95
+#, fuzzy
+msgid "Input Masking"
+msgstr "Masquage d'entrée"
+
+#: classes/inputs/input.audio.php:57 classes/inputs/input.checkbox.php:62
+#: classes/inputs/input.cropper.php:65 classes/inputs/input.date.php:62
+#: classes/inputs/input.daterange.php:58 classes/inputs/input.email.php:62
+#: classes/inputs/input.file.php:64 classes/inputs/input.image.php:58
+#: classes/inputs/input.measure.php:101 classes/inputs/input.number.php:86
+#: classes/inputs/input.palettes.php:63 classes/inputs/input.quantities.php:100
+#: classes/inputs/input.radio.php:67 classes/inputs/input.select.php:74
+#: classes/inputs/input.text.php:90 classes/inputs/input.textarea.php:80
+#: classes/inputs/input.timezone.php:75
+msgid ""
+"Insert an additional class(es) (separateb by comma) for more personalization."
+msgstr ""
+"Insérez une classe supplémentaire (separé par des virgules) pour plus de "
+"personnalisation."
+
+#: classes/inputs/input.audio.php:52 classes/inputs/input.checkbox.php:52
+#: classes/inputs/input.color.php:52 classes/inputs/input.cropper.php:54
+#: classes/inputs/input.date.php:57 classes/inputs/input.daterange.php:53
+#: classes/inputs/input.email.php:57 classes/inputs/input.file.php:53
+#: classes/inputs/input.image.php:53 classes/inputs/input.measure.php:66
+#: classes/inputs/input.number.php:57 classes/inputs/input.palettes.php:52
+#: classes/inputs/input.quantities.php:62 classes/inputs/input.radio.php:52
+#: classes/inputs/input.select.php:52 classes/inputs/input.text.php:59
+#: classes/inputs/input.textarea.php:58 classes/inputs/input.timezone.php:52
+msgid "Insert the error message for validation."
+msgstr "Insérer le message d'erreur pour la validation."
+
+#: backend/settings-panel.class.php:506 classes/inputs/input.divider.php:51
+msgid "Inset"
+msgstr ""
+
+#: classes/fields.class.php:811 classes/fields.class.php:871
+msgid "is"
+msgstr ""
+
+#: classes/frontend-scripts.class.php:579 inc/woocommerce.php:255
+msgid "is a required field"
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:38
+#, fuzzy
+msgid "It will as section heading wrapped in h2"
+msgstr "Il sera comme le titre de section enveloppé dans H2"
+
+#: classes/inputs/input.audio.php:37 classes/inputs/input.checkbox.php:37
+#: classes/inputs/input.color.php:37 classes/inputs/input.cropper.php:39
+#: classes/inputs/input.date.php:37 classes/inputs/input.divider.php:62
+#: classes/inputs/input.email.php:37 classes/inputs/input.file.php:38
+#: classes/inputs/input.image.php:37 classes/inputs/input.measure.php:51
+#: classes/inputs/input.number.php:37 classes/inputs/input.palettes.php:37
+#: classes/inputs/input.radio.php:37 classes/inputs/input.select.php:37
+#: classes/inputs/input.text.php:39 classes/inputs/input.textarea.php:38
+#: classes/inputs/input.timezone.php:37
+#, fuzzy
+msgid "It will be shown as field label"
+msgstr "Il sera affiché comme étiquette de champ"
+
+#: classes/inputs/input.quantities.php:47
+msgid "It will be shown as field label. See example for usage."
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:99
+#, fuzzy
+msgid "It will calculate price against per unit and show along total"
+msgstr "Il calculera le prix par unité et montrera le long du total"
+
+#: classes/inputs/input.palettes.php:131
+#, fuzzy
+msgid "It will display color palettes as circle"
+msgstr "Il affichera les palettes de couleurs en tant que cercle"
+
+#: classes/inputs/input.pricematrix.php:93
+#, fuzzy
+msgid "It will display Range slider for quantity under matrix"
+msgstr "Il montrera la gamme Slider pour la quantité sous la matrice"
+
+#: classes/inputs/input.divider.php:79
+msgid "It will only apply on style 1."
+msgstr ""
+
+#: classes/inputs/input.textarea.php:63
+#, fuzzy
+msgid "It will pull content from post. e.g: 22"
+msgstr "Il tirera le contenu de la poste. par exemple: 22"
+
+#: backend/options.php:106
+msgid "It will render the general settings."
+msgstr ""
+
+#: classes/inputs/input.timezone.php:103
+#, fuzzy
+msgid "It will show current local time."
+msgstr "Il montrera l'heure locale actuelle."
+
+#: inc/arrays.php:1017
+msgid ""
+"It’s not input, just to add content/text or HTML. Added HTML is shown on "
+"product details."
+msgstr ""
+
+#: classes/inputs/input.date.php:141
+#, fuzzy
+#| msgid "jQuery Datepicker"
+msgid "jQuery datePicker"
+msgstr "Utilisez jQuery DatePicker"
+
+#: classes/inputs/input.cropper.php:118 classes/inputs/input.select.php:68
+#: classes/inputs/input.timezone.php:63
+#, fuzzy
+msgid "Just for info e.g: Select your option."
+msgstr "Juste pour info par exemple: sélectionnez votre option."
+
+#: inc/arrays.php:942
+msgid ""
+"Just like a File Upload but only supports images with a nice cropper using "
+"Croppie JS API."
+msgstr ""
+
+#: classes/fields.class.php:470 classes/fields.class.php:670
+msgid "Label"
+msgstr ""
+
+#: inc/arrays.php:190 inc/arrays.php:209 inc/arrays.php:218 inc/arrays.php:227
+#: inc/arrays.php:236 inc/arrays.php:245 inc/arrays.php:399
+msgid "Label For Price Table"
+msgstr ""
+
+#: backend/options.php:69
+#, fuzzy
+#| msgid "Save settings"
+msgid "Label Settings"
+msgstr "Enregistrer les paramètres"
+
+#: classes/inputs/input.hidden.php:39
+#, fuzzy
+msgid "Label will show in cart"
+msgstr "L'étiquette s'affichera dans le panier"
+
+#: inc/arrays.php:442 inc/arrays.php:456
+msgid "Leave if default if not sure."
+msgstr ""
+
+#: backend/settings-panel.class.php:534
+msgid "Left"
+msgstr ""
+
+#: classes/inputs/input.daterange.php:139
+#: classes/inputs/input.daterange.php:145
+#: classes/inputs/input.daterange.php:151
+#, fuzzy
+msgid "Left blank for default"
+msgstr "Vide pour défaut"
+
+#: classes/inputs/input.daterange.php:157
+#, fuzzy
+msgid "Left blank for default."
+msgstr "Vide pour défaut."
+
+#: backend/options.php:40
+msgid "Legacy Conditions Script"
+msgstr ""
+
+#: backend/options.php:35
+msgid "Legacy Inputs Rendering"
+msgstr ""
+
+#: classes/fields.class.php:814 classes/fields.class.php:874
+msgid "less than"
+msgstr ""
+
+#: backend/settings-panel.class.php:553
+msgid "Line Height"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:137
+msgid "Manage Stock"
+msgstr ""
+
+#: classes/inputs/input.date.php:96 classes/inputs/input.daterange.php:111
+msgid "Max Date"
+msgstr "Date limite"
+
+#: classes/inputs/input.file.php:115
+msgid "Max Height"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:93
+msgid "Max Quantity"
+msgstr ""
+
+#: classes/inputs/input.palettes.php:76
+msgid "Max selected"
+msgstr ""
+
+#: classes/inputs/input.file.php:127
+msgid "Max Width"
+msgstr ""
+
+#: classes/inputs/input.text.php:64 classes/inputs/input.textarea.php:68
+#, fuzzy
+msgid "Max. characters allowed, leave blank for default"
+msgstr "Max. caractères autorisés, laisser vide pour défaut"
+
+#: classes/inputs/input.checkbox.php:86
+#, fuzzy
+msgid "Max. Checked option(s)"
+msgstr "Max. Option (s) cochée (s)"
+
+#: classes/inputs/input.image.php:106
+msgid "Max. Image Select"
+msgstr ""
+
+#: classes/inputs/input.text.php:63 classes/inputs/input.textarea.php:67
+msgid "Max. Length"
+msgstr "Longueur Maximale"
+
+#: classes/fields.class.php:588 classes/fields.class.php:607
+#, fuzzy
+msgid "Max. Qty"
+msgstr "Qté max"
+
+#: classes/inputs/input.palettes.php:77
+msgid "Max. selected, leave blank for default."
+msgstr ""
+
+#: classes/inputs/input.measure.php:70 classes/inputs/input.number.php:61
+#, fuzzy
+msgid "Max. values"
+msgstr "Valeurs maxi :"
+
+#: classes/inputs/input.measure.php:71 classes/inputs/input.number.php:62
+#, fuzzy
+msgid "Max. values allowed, leave blank for default"
+msgstr "Max. valeurs autorisées, laisser vide pour défaut"
+
+#: classes/freemium.class.php:219 classes/inputs/input.measure.php:24
+#: inc/arrays.php:1061
+msgid "Measure Input"
+msgstr ""
+
+#: classes/inputs/input.measure.php:25
+msgid "Measuremnts"
+msgstr ""
+
+#: templates/admin/existing-meta.php:33 templates/admin/existing-meta.php:48
+#, fuzzy
+#| msgid "Meta."
+msgid "Meta"
+msgstr "Méta-Informations."
+
+#: inc/admin.php:528 inc/admin.php:562
+#, fuzzy
+msgid "Meta deleted successfully"
+msgstr "Supprimée avec succès"
+
+#: templates/admin/ppom-fields.php:147
+#, fuzzy
+msgid "Meta group name"
+msgstr "Group Name"
+
+#: inc/arrays.php:432
+msgid "Meta Group Overrides"
+msgstr ""
+
+#: inc/arrays.php:447
+msgid "Meta Group Priority"
+msgstr ""
+
+#: templates/admin/existing-meta.php:31 templates/admin/existing-meta.php:46
+#, fuzzy
+#| msgid "Meta ID."
+msgid "Meta ID"
+msgstr "Identifiant méta."
+
+#: classes/inputs/input.date.php:89 classes/inputs/input.daterange.php:105
+#, fuzzy
+msgid "Min Date"
+msgstr "Date min"
+
+#: classes/inputs/input.file.php:109
+msgid "Min Height"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:87
+msgid "Min Quantity"
+msgstr ""
+
+#: classes/inputs/input.file.php:121
+msgid "Min Width"
+msgstr ""
+
+#: classes/inputs/input.text.php:71
+#, fuzzy
+msgid "Min. characters allowed, leave blank for default"
+msgstr "Min. caractères autorisés, laisser vide pour défaut"
+
+#: classes/inputs/input.checkbox.php:80
+msgid "Min. Checked option(s)"
+msgstr "Options (s) cochée Mini"
+
+#: classes/inputs/input.image.php:100
+msgid "Min. Image Select"
+msgstr ""
+
+#: classes/inputs/input.text.php:70
+msgid "Min. Length"
+msgstr "Longueur Minimum"
+
+#: classes/fields.class.php:587 classes/fields.class.php:606
+#, fuzzy
+msgid "Min. Qty"
+msgstr "Qté Min"
+
+#: classes/inputs/input.measure.php:76 classes/inputs/input.number.php:67
+#, fuzzy
+msgid "Min. values"
+msgstr "Valeurs min."
+
+#: classes/inputs/input.measure.php:77 classes/inputs/input.number.php:68
+#, fuzzy
+msgid "Min. values allowed, leave blank for default"
+msgstr "Min. valeurs autorisées, laisser vide pour défaut"
+
+#: inc/arrays.php:424
+msgid "Monthly"
+msgstr ""
+
+#: classes/inputs/input.audio.php:101
+msgid "Multiple selection?"
+msgstr "Sélection multiple?"
+
+#: classes/inputs/input.image.php:131 classes/inputs/input.palettes.php:118
+msgid "Multiple selections?"
+msgstr ""
+
+#: classes/inputs/input.daterange.php:94 classes/inputs/input.daterange.php:100
+msgid "Must be same format as defined in above (Format) field."
+msgstr ""
+
+#: templates/admin/existing-meta.php:32 templates/admin/existing-meta.php:47
+#, fuzzy
+#| msgid "Name."
+msgid "Name"
+msgstr "Nom."
+
+#: classes/form.class.php:154 templates/render-fields.php:198
+msgid "Next"
+msgstr ""
+
+#: classes/plugin.class.php:445 classes/plugin.class.php:446
+#, fuzzy, php-format
+msgid "nm_action_%d"
+msgstr "nm_action_% d"
+
+#: inc/admin.php:307 inc/rest.class.php:393
+#, fuzzy
+msgid "No changes found."
+msgstr "Changements trouvés"
+
+#: inc/rest.class.php:690
+#, fuzzy
+msgid "No fields to delete"
+msgstr "Aucun champ à supprimer"
+
+#: inc/rest.class.php:209 inc/rest.class.php:276
+#, fuzzy
+msgid "No fields to save"
+msgstr "Aucun champ à enregistrer"
+
+#: inc/rest.class.php:131 inc/rest.class.php:172
+#, fuzzy
+msgid "No Meta Found"
+msgstr "Aucun article orphelin n'a été trouvé !"
+
+#: inc/rest.class.php:585
+#, fuzzy
+msgid "No meta found to save"
+msgstr "Aucun méta trouvé pour sauver"
+
+#: inc/rest.class.php:536 inc/rest.class.php:576 inc/rest.class.php:681
+msgid "No Order Found"
+msgstr "Commande non trouvée"
+
+#: inc/rest.class.php:119 inc/rest.class.php:228 inc/rest.class.php:295
+msgid "No Product Found"
+msgstr "Aucun produit trouvé"
+
+#: backend/settings-panel.class.php:499 classes/ppom.class.php:168
+#: inc/admin.php:92
+msgid "None"
+msgstr "Aucun"
+
+#: classes/fields.class.php:812 classes/fields.class.php:872
+msgid "not"
+msgstr ""
+
+#: classes/inputs/input.number.php:24
+#, fuzzy
+msgid "Number Input"
+msgstr "Nombre d'entrées"
+
+#: classes/fields.class.php:783
+msgid "of the following matches"
+msgstr ""
+
+#: classes/inputs/input.text.php:130
+msgid "One Time Fee/Charge"
+msgstr ""
+
+#: inc/arrays.php:62
+msgid "Only Guests"
+msgstr ""
+
+#: classes/fields.class.php:772
+msgid "only if"
+msgstr "seulement si"
+
+#: inc/arrays.php:63
+msgid "Only Members"
+msgstr ""
+
+#: classes/inputs/input.daterange.php:71
+#, fuzzy
+msgid "Open Style"
+msgstr "style ouvert"
+
+#: classes/fields.class.php:383 classes/fields.class.php:468
+msgid "Option"
+msgstr ""
+
+#: classes/fields.class.php:583 classes/fields.class.php:602
+#: classes/fields.class.php:686
+msgid "option"
+msgstr "option"
+
+#: backend/options.php:74 classes/frontend-scripts.class.php:557
+#: inc/arrays.php:188 inc/arrays.php:191 inc/arrays.php:590
+#, fuzzy
+msgid "Option Total"
+msgstr "Total de l'option"
+
+#: backend/options.php:73
+msgid "Option Total Label inside Price Table"
+msgstr ""
+
+#: backend/options.php:93 inc/arrays.php:198
+msgid "Option Total Suffix"
+msgstr ""
+
+#: classes/inputs/input.date.php:52 classes/inputs/input.email.php:52
+#: classes/inputs/input.textarea.php:53
+msgid "Optional."
+msgstr ""
+
+#: classes/inputs/input.number.php:52 classes/inputs/input.text.php:54
+msgid "Optionally placeholder."
+msgstr ""
+
+#: templates/frontend/component/quantities/horizontal-layout.php:45
+#: templates/frontend/component/quantities/vertical-layout.php:46
+#: templates/input/quantities.php:35 templates/input/quantities.php:176
+msgid "Options"
+msgstr "Options"
+
+#: templates/input/quantities.php:245
+#, fuzzy
+msgid "Options Total: "
+msgstr "Total des options :"
+
+#: classes/inputs/input.quantities.php:143
+msgid "Order quantity will not be controlled by this."
+msgstr ""
+
+#: inc/functions.php:538
+msgid "Original Image"
+msgstr ""
+
+#: backend/settings-panel.class.php:507 classes/inputs/input.divider.php:52
+msgid "Outset"
+msgstr ""
+
+#: classes/inputs/input.color.php:62
+#, fuzzy
+msgid "Palettes colors"
+msgstr "Couleurs de palettes"
+
+#: classes/inputs/input.color.php:74
+#, fuzzy
+msgid "Palettes mode"
+msgstr "Mode palettes"
+
+#: classes/inputs/input.color.php:68
+#, fuzzy
+msgid "Palettes width"
+msgstr "Largeur de palettes"
+
+#: classes/freemium.class.php:115 inc/arrays.php:833
+msgid "Phone Input"
+msgstr ""
+
+#: backend/options.php:65
+msgid "php,php4,php5,php6,php7,phtml,exe,shtml"
+msgstr ""
+
+#: classes/inputs/input.date.php:51 classes/inputs/input.email.php:51
+#: classes/inputs/input.number.php:51 classes/inputs/input.text.php:53
+#: classes/inputs/input.textarea.php:52 templates/admin/ppom-fields.php:304
+#: templates/admin/ppom-fields.php:322
+msgid "Placeholder"
+msgstr ""
+
+#: templates/frontend/inputs/audio.php:24
+msgid "Please Add Some Audio/Video"
+msgstr ""
+
+#: templates/frontend/inputs/palettes.php:33
+msgid "Please Add Some Option"
+msgstr ""
+
+#: templates/frontend/inputs/pricematrix.php:29
+msgid "Please Add Some Option."
+msgstr ""
+
+#: templates/frontend/inputs/quantities.php:23
+msgid "Please add some options to display variations."
+msgstr ""
+
+#: templates/frontend/inputs/checkbox.php:38
+#: templates/frontend/inputs/radio.php:28
+#: templates/frontend/inputs/select.php:29
+msgid "Please add some options to render this input."
+msgstr ""
+
+#: inc/arrays.php:176
+msgid "Please migrate settings to new settings panel framework. <a href=\""
+msgstr ""
+
+#: classes/form.class.php:126 templates/render-fields.php:75
+#, fuzzy, php-format
+msgid "Please provide data name property for %s"
+msgstr "Veuillez fournir la propriété de nom de données pour %s"
+
+#: classes/inputs/input.image.php:137
+msgid "Popup"
+msgstr "Popup"
+
+#: classes/inputs/input.textarea.php:62
+msgid "Post ID"
+msgstr "ID de l'article"
+
+#: backend/settings-panel.class.php:136 classes/admin.class.php:33
+#: classes/admin.class.php:34 inc/admin.php:17 inc/admin.php:24
+#, fuzzy
+msgid "PPOM"
+msgstr "PPOM"
+
+#. Description of the plugin
+#, fuzzy
+#| msgid ""
+#| "PPOM (Personalized Product Meta Manager) plugin allow WooCommerce Store "
+#| "Admin to create unlimited input fields and files to attach with Product "
+#| "Page"
+msgid ""
+"PPOM (Personalized Product Meta Manager) plugin allow WooCommerce Store "
+"Admin to create unlimited input fields and files to attach with Product "
+"Pages."
+msgstr ""
+"PPOM (personnalisé Product Meta Manager) plugin permettre WooCommerce Store "
+"admin pour créer des champs d'entrée illimitée et des fichiers à joindre à "
+"la page de produit"
+
+#: backend/settings-panel.class.php:124
+msgid "PPOM Admin Settings"
+msgstr ""
+
+#: inc/arrays.php:408
+#, fuzzy
+msgid "PPOM API Secret Key"
+msgstr "Clé API secrète"
+
+#: inc/arrays.php:726
+msgid ""
+"PPOM Cart Edit Addon allow clients to edit fields once these are added to "
+"cart on cart page. It has also option to show all meta fields in different "
+"column on cart page. Extra column can be disable from Settings -> PPOM Cart "
+"tab."
+msgstr ""
+
+#: inc/arrays.php:787
+msgid ""
+"PPOM Enquiry Form Add-on adds button on product page. A customer can ask the "
+"admin about any product with PPOM Field in email. All PPOM Meta Fields are "
+"sent with message typed by the customer. Multiple email recipients can be "
+"added for product enquiry."
+msgstr ""
+
+#: inc/arrays.php:765
+msgid ""
+"PPOM Field Collapsed Add-on is front-end design which groups field inside "
+"beautiful section. Like steps, and if your product has a large number of "
+"fields then it is the best add-on to a short length of your product page."
+msgstr ""
+
+#: classes/admin.class.php:162
+msgid "PPOM Field Groups"
+msgstr ""
+
+#: classes/admin.class.php:99 classes/admin.class.php:100
+#: classes/admin.class.php:115 classes/admin.class.php:130
+#: classes/plugin.class.php:891 templates/admin/changelog.php:54
+#: templates/admin/products-list.php:36 templates/admin/products-list.php:76
+#, fuzzy
+msgid "PPOM Fields"
+msgstr "Champs PPOM"
+
+#: inc/arrays.php:692
+msgid ""
+"PPOM Fields PopUp wrap all PPOM fields inside a popup. A product with large "
+"number of fields can now has simple button with customized label. To enable "
+"this PopUp just one click required in product edit page. "
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "PPOM for WooCommerce"
+msgstr ""
+
+#: templates/admin/changelog.php:18
+msgid "PPOM Free"
+msgstr ""
+
+#: inc/arrays.php:709
+msgid ""
+"PPOM Image DropDown Addon show images inside a select box. The title, "
+"description, and prices can be added along with all images. It’s best when "
+"you have a long list of images and don’t want to use Image Type input."
+msgstr ""
+
+#: classes/plugin.class.php:871
+msgid "PPOM Meta Successfully Changed to - %s"
+msgstr ""
+
+#: backend/options.php:55 inc/arrays.php:286
+msgid "PPOM Permissions"
+msgstr ""
+
+#: templates/admin/changelog.php:25
+msgid "PPOM Pro"
+msgstr ""
+
+#: templates/admin/addons-list.php:30
+msgid "PPOM PRO Features"
+msgstr ""
+
+#: inc/arrays.php:804
+msgid ""
+"PPOM Quantity Option Add-on is simple ‘Number’ input type which can be used "
+"to accept option quantity BUT Price can also be set. Like for a Pizza "
+"Product, customer have a option to order more then one drink and each extra "
+"drink as price. Here this Option Quantity will do the trick.  This Add-on "
+"can be used as Name your Price."
+msgstr ""
+
+#: inc/arrays.php:743
+msgid ""
+"PPOM Quantity Pack Add-on is a special input type which is very similar to "
+"Variation Quantities input but with a good difference. Like if you are want "
+"to sell some products with different options in specific quantities, not "
+"sure?"
+msgstr ""
+
+#: backend/settings-panel.class.php:129 backend/settings-panel.class.php:130
+#: classes/admin.class.php:306
+msgid "PPOM Settings"
+msgstr ""
+
+#: classes/integrations/elementor/shortcode-widget.php:24
+msgid "PPOM Shortcode"
+msgstr ""
+
+#: inc/arrays.php:754
+msgid ""
+"PPOM Super List addon contains many pre-defined lists to render as Select "
+"field on product page. It includes Countries, Currencies, Months etc. "
+msgstr ""
+
+#: inc/arrays.php:776
+msgid ""
+"PPOM Text Counter Add-on is special type text input field. It can restrict a "
+"total number of words or character with nice info panel below. Each word or "
+"character can be changed and the price will be added to cart."
+msgstr ""
+
+#: inc/arrays.php:675
+msgid ""
+"PPOM Texter Addon is the best and simple solution for web2print business "
+"using WooCommerce. Now define a fixed position and area for Text in your "
+"Templates like on Mug, T-shirt or Visiting Cards with preset font family, "
+"size. The client will fill the text with his all of its attributes and send "
+"to cart. It’s like a smart Product Designer. Multiple templates can also be "
+"attached to one product."
+msgstr ""
+
+#: inc/admin.php:231 inc/admin.php:378
+msgid "PPOM title is too long to save, please make it less than 50 characters."
+msgstr ""
+
+#: inc/arrays.php:793
+msgid ""
+"PPOM Variation Quantity Matrix Add-on is an advanced form of Variation "
+"Quantity Field. Variation Quantity Matrix is a super simple form when "
+"quantities need to be collected against multiple options. Like if you "
+"selling T-Shirt and need to collect Quantities against each Color of each "
+"Size, this Add-on can be used to render a Tabular/Grid. "
+msgstr ""
+
+#: backend/options.php:36 inc/arrays.php:267
+msgid ""
+"PPOM Version 22.0 is major update, if some issues occur you can revert back "
+"to old version by this."
+msgstr ""
+
+#: classes/inputs/input.measure.php:89
+msgid "Pre-defined value for measure input"
+msgstr ""
+
+#: classes/inputs/input.number.php:80 classes/inputs/input.text.php:77
+#, fuzzy
+msgid "Pre-defined value for text input"
+msgstr "Valeur pré-définie pour l'entrée de texte"
+
+#: classes/form.class.php:153 templates/render-fields.php:197
+msgid "Prev"
+msgstr ""
+
+#: classes/fields.class.php:584 classes/fields.class.php:603
+#: classes/fields.class.php:636 classes/fields.class.php:646
+msgid "price (if any)"
+msgstr "prix (si nécessaire)"
+
+#: classes/fields.class.php:384 classes/fields.class.php:469
+#: classes/fields.class.php:673 classes/fields.class.php:689
+msgid "Price (optional)"
+msgstr ""
+
+#: classes/freemium.class.php:203 classes/inputs/input.pricematrix.php:25
+#: inc/arrays.php:1001
+#, fuzzy
+msgid "Price Matrix"
+msgstr "Matrice des prix"
+
+#: classes/inputs/input.pricematrix.php:62
+#, fuzzy
+msgid "Price matrix"
+msgstr "Matrice des prix"
+
+#: inc/arrays.php:1002
+msgid ""
+"Price Matrix allows admin to offer client Less Price on Bulk/More quantities."
+" More quantities will decrease the price set in the matrix."
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:105
+msgid "Price Matrix table will be hidden"
+msgstr ""
+
+#: inc/arrays.php:461
+msgid "Price Table Position"
+msgstr ""
+
+#: classes/inputs/input.measure.php:95 classes/inputs/input.text.php:84
+#: classes/inputs/input.textarea.php:74
+msgid "Price will be added as Add-on if text provided"
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:26
+msgid "Price/Quantity"
+msgstr "Prix/Quantité"
+
+#: templates/admin/addons-list.php:56
+msgid "PRO"
+msgstr ""
+
+#: classes/integrations/elementor/shortcode-widget.php:52
+msgid "Product Details"
+msgstr ""
+
+#: classes/integrations/elementor/shortcode-widget.php:60
+msgid "Product ID"
+msgstr ""
+
+#: inc/hooks.php:825
+msgid "Product ID is not valid"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:138
+#, fuzzy
+msgid "Product Meta Basic Settings"
+msgstr "Paramètres Meta de base du produit"
+
+#: classes/plugin.class.php:561
+#, php-format
+msgid "Product meta removed."
+msgid_plural "%s Products meta removed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/plugin.class.php:558
+#, php-format
+msgid "Product meta updated."
+msgid_plural "%s Products meta updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/arrays.php:393
+msgid ""
+"Product meta will not be sent to PayPal invoice, only the Item name will be "
+"sent to invoice"
+msgstr ""
+
+#: backend/options.php:79 classes/frontend-scripts.class.php:556
+#: inc/arrays.php:207 inc/arrays.php:210 inc/arrays.php:589
+msgid "Product Price"
+msgstr "Prix du produit"
+
+#: backend/options.php:78
+msgid "Product Price Label inside Price Table"
+msgstr ""
+
+#: classes/frontend-scripts.class.php:573 inc/arrays.php:600
+msgid "Product Quantity"
+msgstr "Quantité"
+
+#: templates/admin/products-list.php:33 templates/admin/products-list.php:73
+msgid "Product Title"
+msgstr ""
+
+#: templates/input/quantities.php:251
+msgid "Product Total: "
+msgstr "Total Produit: "
+
+#: templates/admin/existing-meta.php:72
+msgid "Products"
+msgstr "Produits"
+
+#: classes/admin.class.php:291
+#, fuzzy
+msgid "Provide API key below:"
+msgstr "Fournir la clé API ci-dessous:"
+
+#: classes/inputs/input.divider.php:92
+msgid "Provide divider text font size e.g: 18px"
+msgstr ""
+
+#: classes/inputs/input.file.php:134
+msgid ""
+"Provide image dimension error message. It will display on frontend while "
+"uploading the image."
+msgstr ""
+
+#: classes/inputs/input.file.php:116
+msgid "Provide maximum image height."
+msgstr ""
+
+#: classes/inputs/input.file.php:128
+msgid "Provide maximum image width."
+msgstr ""
+
+#: classes/inputs/input.file.php:110
+msgid "Provide minimum image height."
+msgstr ""
+
+#: classes/inputs/input.file.php:122
+msgid "Provide minimum image width."
+msgstr ""
+
+#: classes/integrations/elementor/shortcode-widget.php:62
+msgid "Provide Product ID"
+msgstr ""
+
+#: classes/inputs/input.divider.php:86
+msgid "Provide the divider height e.g: 3px."
+msgstr ""
+
+#: inc/nmInput.class.php:1247 templates/frontend/inputs/quantities.php:39
+msgid ""
+"Quantities cannot be used with Price Matrix, Remove prices from quantities "
+"input."
+msgstr ""
+
+#: classes/freemium.class.php:163 inc/arrays.php:742
+msgid "Quantities Pack"
+msgstr ""
+
+#: classes/frontend-scripts.class.php:575 inc/arrays.php:604
+#: templates/frontend/component/quantities/horizontal-layout.php:58
+#: templates/frontend/component/quantities/vertical-layout.php:47
+#: templates/input/quantities.php:53 templates/input/quantities.php:177
+msgid "Quantity"
+msgstr "Quantité"
+
+#: classes/freemium.class.php:159 inc/arrays.php:803
+msgid "Quantity Option"
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:67
+#, fuzzy
+msgid "Quantity Step"
+msgstr "Étape de quantité"
+
+#: classes/inputs/input.pricematrix.php:68
+#, fuzzy
+msgid "Quantity step e.g: 3"
+msgstr "Étape de quantité par exemple: 3"
+
+#: classes/inputs/input.radio.php:24
+msgid "Radio Input"
+msgstr "Entrée radio"
+
+#: classes/freemium.class.php:167 inc/arrays.php:885
+msgid "Radio Switcher"
+msgstr ""
+
+#: classes/fields.class.php:64
+msgid "Range format is invalid. (range: {range})"
+msgstr ""
+
+#: classes/inputs/input.timezone.php:68
+msgid "Regions"
+msgstr "Régions"
+
+#: classes/inputs/input.checkbox.php:25
+msgid "regular checkbox input"
+msgstr "entrées de case à cocher"
+
+#: classes/inputs/input.date.php:25
+#, fuzzy
+msgid "regular date input"
+msgstr "entrée de date régulière"
+
+#: classes/inputs/input.divider.php:25
+msgid "regular didider input"
+msgstr ""
+
+#: classes/inputs/input.email.php:25
+#, fuzzy
+msgid "regular email input"
+msgstr "entrée d'email régulière"
+
+#: classes/inputs/input.file.php:26
+msgid "regular file input"
+msgstr "regular file input"
+
+#: classes/inputs/input.hidden.php:25
+#, fuzzy
+msgid "regular hidden input"
+msgstr "entrée cachée régulière"
+
+#: classes/inputs/input.number.php:25
+#, fuzzy
+msgid "regular number input"
+msgstr "entrée de nombre régulier"
+
+#: classes/inputs/input.radio.php:25
+#, fuzzy
+msgid "regular radio input"
+msgstr "entrée radio régulière"
+
+#: classes/inputs/input.select.php:25
+#, fuzzy
+msgid "regular select input"
+msgstr "entrée Select régulière"
+
+#: classes/inputs/input.quantities.php:25
+#, fuzzy
+msgid "regular select-box input"
+msgstr "entrée Select-Box régulière"
+
+#: classes/inputs/input.text.php:25
+#, fuzzy
+msgid "regular text input"
+msgstr "entrée de texte régulière"
+
+#: classes/inputs/input.textarea.php:25
+#, fuzzy
+msgid "regular textarea input"
+msgstr "entrée textarea régulière"
+
+#: inc/files.php:475 inc/files.php:489 templates/admin/ppom-fields.php:289
+msgid "Remove"
+msgstr "Supprimer"
+
+#: classes/plugin.class.php:454 classes/plugin.class.php:455
+#, fuzzy
+msgid "Remove Meta"
+msgstr "Supprimer les métadonnées"
+
+#: classes/inputs/input.audio.php:95 classes/inputs/input.checkbox.php:117
+#: classes/inputs/input.color.php:124 classes/inputs/input.cropper.php:199
+#: classes/inputs/input.date.php:165 classes/inputs/input.daterange.php:174
+#: classes/inputs/input.email.php:94 classes/inputs/input.file.php:158
+#: classes/inputs/input.image.php:149 classes/inputs/input.measure.php:134
+#: classes/inputs/input.number.php:118 classes/inputs/input.palettes.php:142
+#: classes/inputs/input.quantities.php:147 classes/inputs/input.radio.php:105
+#: classes/inputs/input.select.php:113 classes/inputs/input.text.php:142
+#: classes/inputs/input.textarea.php:119 classes/inputs/input.timezone.php:114
+#: templates/admin/ppom-fields.php:305 templates/admin/ppom-fields.php:323
+msgid "Required"
+msgstr "Requis"
+
+#: classes/inputs/input.date.php:42
+msgid ""
+"REQUIRED: The identification name of this field, that you can insert into "
+"body email configuration. Note: Use only lowercase characters and "
+"underscores."
+msgstr ""
+
+#: classes/inputs/input.audio.php:42 classes/inputs/input.checkbox.php:42
+#: classes/inputs/input.color.php:42 classes/inputs/input.cropper.php:44
+#: classes/inputs/input.daterange.php:43 classes/inputs/input.divider.php:67
+#: classes/inputs/input.email.php:42 classes/inputs/input.file.php:43
+#: classes/inputs/input.hidden.php:44 classes/inputs/input.image.php:42
+#: classes/inputs/input.measure.php:56 classes/inputs/input.number.php:42
+#: classes/inputs/input.palettes.php:42 classes/inputs/input.pricematrix.php:43
+#: classes/inputs/input.quantities.php:52 classes/inputs/input.radio.php:42
+#: classes/inputs/input.section.php:43 classes/inputs/input.select.php:42
+#: classes/inputs/input.text.php:44 classes/inputs/input.textarea.php:43
+#: classes/inputs/input.timezone.php:42
+msgid ""
+"REQUIRED: The identification name of this field, that you can insert into "
+"body email configuration. Note:Use only lowercase characters and underscores."
+msgstr ""
+"REQUIS : Le nom d'identification de ce champ, vous pouvez l'insérer dans le "
+"corps de l'email de configuration. <strong>Remarque:</strong>Utilisez "
+"uniquement des caractères minuscules."
+
+#: backend/options.php:64
+msgid "Restricted file types here"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:164
+msgid "Restricts zoom so image cannot be smaller than viewport."
+msgstr ""
+
+#: classes/inputs/input.textarea.php:106
+#, fuzzy
+msgid "Rich Editor"
+msgstr "Éditeur Rich"
+
+#: backend/settings-panel.class.php:505 classes/inputs/input.divider.php:50
+msgid "Ridge"
+msgstr ""
+
+#: backend/settings-panel.class.php:526
+msgid "Right"
+msgstr ""
+
+#: classes/inputs/input.audio.php:78 classes/inputs/input.checkbox.php:100
+#: classes/inputs/input.color.php:101 classes/inputs/input.cropper.php:152
+#: classes/inputs/input.date.php:136 classes/inputs/input.daterange.php:127
+#: classes/inputs/input.email.php:83 classes/inputs/input.file.php:147
+#: classes/inputs/input.hidden.php:61 classes/inputs/input.image.php:120
+#: classes/inputs/input.measure.php:123 classes/inputs/input.number.php:107
+#: classes/inputs/input.palettes.php:113
+#: classes/inputs/input.pricematrix.php:81
+#: classes/inputs/input.quantities.php:121 classes/inputs/input.radio.php:88
+#: classes/inputs/input.section.php:72 classes/inputs/input.select.php:96
+#: classes/inputs/input.text.php:119 classes/inputs/input.textarea.php:101
+#: classes/inputs/input.timezone.php:97
+msgid "Role separated by comma."
+msgstr ""
+
+#: classes/admin.class.php:368
+#, fuzzy
+#| msgid "Rows"
+msgid "Roles"
+msgstr "Lignes"
+
+#: classes/fields.class.php:798 classes/fields.class.php:861
+#, fuzzy
+#| msgid "Rule # "
+msgid "Rule "
+msgstr "Règle #"
+
+#: templates/admin/existing-meta.php:132
+msgid "Save"
+msgstr ""
+
+#: classes/fields.class.php:1109
+#, fuzzy
+#| msgid "Save Changes"
+msgid "Save Changing"
+msgstr "Enregistrer les modifications"
+
+#: templates/admin/ppom-fields.php:331
+msgid "Save Fields"
+msgstr ""
+
+#: inc/arrays.php:826 inc/arrays.php:856
+msgid "Screenshot (Admin)"
+msgstr ""
+
+#: inc/arrays.php:822 inc/arrays.php:852
+msgid "Screenshot (Front)"
+msgstr ""
+
+#: templates/admin/addons-list.php:33
+msgid "Search"
+msgstr ""
+
+#: inc/rest.class.php:218 inc/rest.class.php:285 inc/rest.class.php:594
+#: inc/rest.class.php:699
+#, fuzzy
+msgid "Secret key is not valid"
+msgstr "La clé secrète n'est pas valide"
+
+#: classes/admin.class.php:376
+msgid "Select all"
+msgstr ""
+
+#: classes/inputs/input.audio.php:84
+#, fuzzy
+msgid "Select audio or video from media library"
+msgstr "Sélectionnez audio ou vidéo à partir de la Médiathèque"
+
+#: classes/fields.class.php:997 classes/inputs/input.audio.php:83
+#, fuzzy
+msgid "Select Audio/Video"
+msgstr "Sélectionnez audio/vidéo"
+
+#: classes/inputs/input.pricematrix.php:53
+msgid "Select discount option."
+msgstr ""
+
+#: templates/admin/ppom-fields.php:65
+msgid "Select Field"
+msgstr ""
+
+#: templates/frontend/inputs/cropper.php:28
+#: templates/frontend/inputs/file.php:28 templates/render-fields.php:623
+#: templates/render-fields.php:671
+msgid "Select files"
+msgstr "Sélectionner des fichiers"
+
+#: classes/inputs/input.image.php:77
+msgid "Select images"
+msgstr "Sélectionner des images"
+
+#: classes/inputs/input.image.php:78
+msgid "Select images from media library"
+msgstr "Sélectionnez les images dans la librairie de médias"
+
+#: classes/inputs/input.select.php:24
+msgid "Select Input"
+msgstr "Sélectionnez l'entree"
+
+#: inc/admin.php:86
+msgid "Select Meta to Show Fields on this product"
+msgstr ""
+
+#: classes/inputs/input.color.php:75
+msgid "Select Mode"
+msgstr "Sélectionner le mode"
+
+#: classes/admin.class.php:377
+msgid "Select none"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:164
+msgid "Select Option"
+msgstr "Sélectionner une option"
+
+#: inc/arrays.php:397
+msgid "Select Option Label"
+msgstr ""
+
+#: classes/freemium.class.php:147 inc/arrays.php:874
+msgid "Select Option Quantity"
+msgstr ""
+
+#: inc/arrays.php:400
+msgid "Select Options"
+msgstr ""
+
+#: classes/plugin.class.php:377
+msgid "Select options"
+msgstr "Choix des options"
+
+#: inc/admin.php:76
+#, fuzzy
+msgid "Select PPOM Meta"
+msgstr "Sélectionnez PPOM Meta"
+
+#: templates/admin/existing-meta.php:34 templates/admin/existing-meta.php:49
+msgid "Select Products"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:129
+msgid "Select Squar or circle, see help"
+msgstr ""
+
+#: classes/inputs/input.divider.php:71
+msgid "Select style"
+msgstr ""
+
+#: classes/inputs/input.divider.php:72
+msgid "Select style you want to render"
+msgstr ""
+
+#: classes/inputs/input.audio.php:96 classes/inputs/input.checkbox.php:118
+#: classes/inputs/input.color.php:125 classes/inputs/input.cropper.php:200
+#: classes/inputs/input.date.php:166 classes/inputs/input.daterange.php:175
+#: classes/inputs/input.email.php:95 classes/inputs/input.file.php:159
+#: classes/inputs/input.image.php:150 classes/inputs/input.measure.php:135
+#: classes/inputs/input.number.php:119 classes/inputs/input.palettes.php:143
+#: classes/inputs/input.quantities.php:148 classes/inputs/input.radio.php:106
+#: classes/inputs/input.select.php:114 classes/inputs/input.text.php:143
+#: classes/inputs/input.textarea.php:120 classes/inputs/input.timezone.php:115
+msgid "Select this if it must be required."
+msgstr "Sélectionnez cette option si elle est demandée."
+
+#: classes/inputs/input.quantities.php:72
+msgid "Select variation layout design"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:106 classes/inputs/input.radio.php:73
+#: classes/inputs/input.select.php:80 classes/inputs/input.textarea.php:86
+#: classes/inputs/input.timezone.php:81
+msgid "Select width column"
+msgstr ""
+
+#: classes/inputs/input.audio.php:63 classes/inputs/input.checkbox.php:68
+#: classes/inputs/input.color.php:85 classes/inputs/input.cropper.php:71
+#: classes/inputs/input.date.php:68 classes/inputs/input.daterange.php:64
+#: classes/inputs/input.email.php:68 classes/inputs/input.file.php:70
+#: classes/inputs/input.image.php:64 classes/inputs/input.measure.php:107
+#: classes/inputs/input.number.php:92 classes/inputs/input.palettes.php:69
+#: classes/inputs/input.section.php:48
+msgid "Select width column."
+msgstr ""
+
+#: classes/fields.class.php:902 classes/fields.class.php:952
+msgid "Select/Upload Image"
+msgstr "Sélectionnez/Téléchargez Image"
+
+#: classes/inputs/input.palettes.php:56
+msgid "Selected Border Color"
+msgstr ""
+
+#: classes/inputs/input.palettes.php:87
+#, fuzzy
+msgid "Selected color"
+msgstr "Sélectionner une couleur"
+
+#: classes/inputs/input.image.php:82
+msgid "Selected image"
+msgstr "Image sélectionnée"
+
+#: classes/inputs/input.image.php:71
+msgid "Selected Image Border Color"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:111 classes/inputs/input.radio.php:61
+#: classes/inputs/input.select.php:61 classes/inputs/input.timezone.php:56
+msgid "Selected option"
+msgstr "Option sélectionnée"
+
+#: classes/inputs/input.cropper.php:139
+msgid "Separated by command h,w e.g: 200,200, see help"
+msgstr ""
+
+#: classes/inputs/input.measure.php:88 classes/inputs/input.number.php:79
+#: classes/inputs/input.text.php:76
+#, fuzzy
+msgid "Set default value"
+msgstr "Définir la valeur par défaut"
+
+#: inc/arrays.php:427
+msgid ""
+"Set duration to uploaded images of abandoned cart. Re-activate plugin to "
+"when update this option"
+msgstr ""
+
+#: classes/inputs/input.audio.php:71 classes/inputs/input.checkbox.php:93
+#: classes/inputs/input.color.php:93 classes/inputs/input.cropper.php:145
+#: classes/inputs/input.date.php:128 classes/inputs/input.daterange.php:118
+#: classes/inputs/input.email.php:76 classes/inputs/input.file.php:140
+#: classes/inputs/input.hidden.php:54 classes/inputs/input.image.php:113
+#: classes/inputs/input.measure.php:115 classes/inputs/input.number.php:100
+#: classes/inputs/input.palettes.php:106
+#: classes/inputs/input.pricematrix.php:74
+#: classes/inputs/input.quantities.php:114 classes/inputs/input.radio.php:81
+#: classes/inputs/input.section.php:65 classes/inputs/input.select.php:88
+#: classes/inputs/input.text.php:111 classes/inputs/input.textarea.php:94
+#: classes/inputs/input.timezone.php:89
+msgid "Set field visibility based on user."
+msgstr ""
+
+#: inc/arrays.php:470
+msgid "Set the location to render Price Table on Front-end"
+msgstr ""
+
+#: backend/settings-panel.class.php:341
+msgid "Settings saved error."
+msgstr ""
+
+#: backend/settings-panel.class.php:335
+msgid "Settings saved successfully."
+msgstr ""
+
+#: classes/fields.class.php:766 classes/fields.class.php:844
+msgid "Show"
+msgstr ""
+
+#: classes/inputs/input.palettes.php:130
+#, fuzzy
+msgid "Show as Circle"
+msgstr "Afficher en tant que cercle"
+
+#: classes/inputs/input.image.php:138
+#, fuzzy
+msgid "Show big image on hover"
+msgstr "Afficher la grande image sur Hover"
+
+#: classes/inputs/input.cropper.php:170
+msgid "Show cropping handler resize."
+msgstr ""
+
+#: classes/inputs/input.audio.php:90 classes/inputs/input.checkbox.php:106
+#: classes/inputs/input.color.php:119 classes/inputs/input.cropper.php:194
+#: classes/inputs/input.date.php:160 classes/inputs/input.daterange.php:169
+#: classes/inputs/input.email.php:89 classes/inputs/input.file.php:153
+#: classes/inputs/input.image.php:144 classes/inputs/input.measure.php:129
+#: classes/inputs/input.number.php:113 classes/inputs/input.palettes.php:137
+#: classes/inputs/input.pricematrix.php:111
+#: classes/inputs/input.quantities.php:127 classes/inputs/input.radio.php:94
+#: classes/inputs/input.section.php:78 classes/inputs/input.select.php:102
+#: classes/inputs/input.text.php:137 classes/inputs/input.textarea.php:114
+#: classes/inputs/input.timezone.php:109
+msgid "Show Description in Tooltip with Help Icon"
+msgstr ""
+
+#: classes/inputs/input.daterange.php:150
+#, fuzzy
+msgid "Show Dropdown"
+msgstr "Afficher menu déroulant"
+
+#: templates/admin/ppom-fields.php:167
+#, fuzzy
+msgid "Show Each Option's Price"
+msgstr "Afficher le prix de chaque option"
+
+#: classes/inputs/input.hidden.php:66 classes/inputs/input.section.php:83
+msgid "Show in Cart"
+msgstr ""
+
+#: classes/inputs/input.timezone.php:102
+msgid "Show Local Time"
+msgstr "Afficher l'heure locale"
+
+#: classes/inputs/input.color.php:112
+msgid "Show on load"
+msgstr "Afficher au téléchargement"
+
+#: templates/admin/ppom-fields.php:166
+#, fuzzy
+msgid "Show Only Option's Total"
+msgstr "Afficher le total de l'option uniquement"
+
+#: classes/inputs/input.color.php:106
+#, fuzzy
+msgid "Show palettes"
+msgstr "Afficher les palettes"
+
+#: classes/inputs/input.pricematrix.php:98
+#, fuzzy
+msgid "Show price per unit?"
+msgstr "Afficher le prix par unité"
+
+#: classes/inputs/input.daterange.php:132
+#, fuzzy
+msgid "Show Timepicker"
+msgstr "Afficher timepicker"
+
+#: classes/inputs/input.daterange.php:138
+#, fuzzy
+msgid "Show Timepicker 24 Hours"
+msgstr "Afficher timepicker 24 heures"
+
+#: classes/inputs/input.daterange.php:144
+#, fuzzy
+msgid "Show Timepicker Seconds"
+msgstr "Afficher timepicker secondes"
+
+#: classes/inputs/input.daterange.php:133
+#, fuzzy
+msgid "Show Timepicker."
+msgstr "Montrez timepicker."
+
+#: classes/inputs/input.timezone.php:25
+msgid "Show Timezone"
+msgstr "Le fuseau horaire par défaut est UTC"
+
+#: classes/inputs/input.audio.php:89 classes/inputs/input.checkbox.php:105
+#: classes/inputs/input.color.php:118 classes/inputs/input.cropper.php:193
+#: classes/inputs/input.date.php:159 classes/inputs/input.daterange.php:168
+#: classes/inputs/input.email.php:88 classes/inputs/input.file.php:152
+#: classes/inputs/input.image.php:143 classes/inputs/input.measure.php:128
+#: classes/inputs/input.number.php:112 classes/inputs/input.palettes.php:136
+#: classes/inputs/input.pricematrix.php:110
+#: classes/inputs/input.quantities.php:126 classes/inputs/input.radio.php:93
+#: classes/inputs/input.section.php:77 classes/inputs/input.select.php:101
+#: classes/inputs/input.text.php:136 classes/inputs/input.textarea.php:113
+#: classes/inputs/input.timezone.php:108
+msgid "Show tooltip (PRO)"
+msgstr ""
+
+#: classes/inputs/input.daterange.php:156
+#, fuzzy
+msgid "Show Week Numbers"
+msgstr "Afficher les numéros de semaine ?"
+
+#: classes/inputs/input.cropper.php:181
+#, fuzzy
+msgid "Show Zoomer"
+msgstr "Afficher zoomer"
+
+#: inc/admin.php:184 inc/admin.php:336
+msgid ""
+"Since version 22.0, Database has some changes. Please Deactivate & then "
+"activate the PPOM plugin."
+msgstr ""
+
+#: inc/files.php:454 inc/files.php:486
+msgid "Size: "
+msgstr "Taille:"
+
+#: classes/inputs/input.radio.php:47
+msgid "Small description, it will be diplay near name title."
+msgstr "Petite description, il sera affiché à proximité du nom du titre."
+
+#: classes/inputs/input.audio.php:47 classes/inputs/input.checkbox.php:47
+#: classes/inputs/input.color.php:47 classes/inputs/input.cropper.php:49
+#: classes/inputs/input.date.php:47 classes/inputs/input.daterange.php:48
+#: classes/inputs/input.email.php:47 classes/inputs/input.file.php:48
+#: classes/inputs/input.image.php:47 classes/inputs/input.measure.php:61
+#: classes/inputs/input.number.php:47 classes/inputs/input.palettes.php:47
+#: classes/inputs/input.quantities.php:57 classes/inputs/input.section.php:55
+#: classes/inputs/input.select.php:47 classes/inputs/input.text.php:49
+#: classes/inputs/input.textarea.php:48 classes/inputs/input.timezone.php:47
+msgid "Small description, it will be display near name title."
+msgstr ""
+
+#: backend/settings-panel.class.php:500 classes/inputs/input.divider.php:45
+msgid "Solid"
+msgstr ""
+
+#: templates/frontend/ppom-fields.php:20
+msgid "Some of your fields has duplicated datanames, please fix it"
+msgstr ""
+
+#: inc/arrays.php:686
+msgid ""
+"Sometimes prices are very complex like for a printing company, they are "
+"selling their visiting cards in Packages.So Package Price Add-on allows "
+"admin to set prices against package. It’s usage is very simple, just add "
+"quantity (package) and it’s price. There is also option to set unit like you "
+"are selling visiting cards then unit may called as “cards”."
+msgstr ""
+
+#: inc/woocommerce.php:145
+msgid ""
+"Sorry, an error has occurred. Please enable JavaScript or contact site owner."
+msgstr ""
+
+#: inc/woocommerce.php:1128
+#, fuzzy, php-format
+msgid "Sorry, maximum quantity is %d."
+msgstr "Désolé, la quantité maximale est% d."
+
+#: classes/plugin.class.php:724
+msgid "Sorry, you are not allowed to clone"
+msgstr ""
+
+#: classes/admin.class.php:206 inc/admin.php:549
+msgid "Sorry, you are not allowed to perform this action"
+msgstr ""
+
+#: backend/settings-panel.class.php:306 classes/admin.class.php:245
+#: inc/admin.php:509
+msgid "Sorry, you are not allowed to perform this action please try again"
+msgstr ""
+
+#: inc/admin.php:198 inc/admin.php:351
+msgid "Sorry, you are not allowed to perform this action."
+msgstr ""
+
+#: classes/inputs/input.measure.php:83 classes/inputs/input.number.php:74
+#, fuzzy
+msgid "specified legal number intervals"
+msgstr "intervalles légaux de nombre spécifiés"
+
+#: classes/inputs/input.daterange.php:93
+msgid "Start Date"
+msgstr "Date de début"
+
+#: templates/admin/ppom-fields.php:300 templates/admin/ppom-fields.php:318
+msgid "Status"
+msgstr ""
+
+#: classes/inputs/input.measure.php:82 classes/inputs/input.number.php:73
+msgid "Steps"
+msgstr "Étapes"
+
+#: classes/fields.class.php:589 classes/fields.class.php:608
+msgid "Stock"
+msgstr ""
+
+#: classes/fields.class.php:397
+msgid "Stock (optional)"
+msgstr ""
+
+#: classes/fields.class.php:390
+msgid "Stock (PRO only)"
+msgstr ""
+
+#: classes/inputs/input.divider.php:34
+msgid "Style 1"
+msgstr ""
+
+#: classes/inputs/input.divider.php:35
+msgid "Style 2"
+msgstr ""
+
+#: classes/inputs/input.divider.php:36
+msgid "Style 3"
+msgstr ""
+
+#: classes/inputs/input.divider.php:37
+msgid "Style 4"
+msgstr ""
+
+#: classes/inputs/input.divider.php:38
+msgid "Style 5"
+msgstr ""
+
+#: classes/inputs/input.divider.php:78
+msgid "Style border"
+msgstr ""
+
+#: inc/rest.class.php:609
+msgid "Submitted fields are in valid format."
+msgstr ""
+
+#: classes/freemium.class.php:155 inc/arrays.php:753
+msgid "Super List"
+msgstr ""
+
+#: backend/templates/admin-settings.php:60
+msgid "Switch to Legacy Settings"
+msgstr ""
+
+#: inc/arrays.php:341
+msgid "Taxable Options Price?"
+msgstr ""
+
+#: classes/freemium.class.php:139 inc/arrays.php:775
+msgid "Text Counter"
+msgstr ""
+
+#: classes/inputs/input.text.php:24
+msgid "Text Input"
+msgstr "Saisie de texte"
+
+#: classes/inputs/input.textarea.php:24
+msgid "Textarea Input"
+msgstr "Zone de texte"
+
+#: classes/freemium.class.php:135 inc/arrays.php:674
+msgid "Texter"
+msgstr ""
+
+#: inc/arrays.php:864
+msgid ""
+"That field is used to show dependent fields according to the selected image."
+msgstr ""
+
+#: backend/settings-panel.class.php:825
+msgid "The administrator role cannot be removed."
+msgstr ""
+
+#: inc/arrays.php:815
+msgid ""
+"The Emoji field adds emoji support to the input (can be textarea, text, "
+"dropdown."
+msgstr ""
+
+#: classes/fields.class.php:61
+msgid ""
+"The end value of the range must be greater than the start value. (range: "
+"{range})"
+msgstr ""
+
+#: inc/arrays.php:834
+msgid ""
+"The Phone field provides a formatted text input field with a country "
+"selection dropdown."
+msgstr ""
+
+#: inc/arrays.php:886
+msgid ""
+"The Radio Switcher input creates a more appealing view for the product page, "
+"and it allows different images for each option."
+msgstr ""
+
+#: classes/fields.class.php:62
+msgid "The start value cannot be equal to the end value. (range: {range})"
+msgstr ""
+
+#: templates/frontend/inputs/timezone.php:34
+msgid "The timezone not found, please add different regions."
+msgstr ""
+
+#. Author of the plugin
+msgid "Themeisle"
+msgstr ""
+
+#: inc/arrays.php:305
+msgid "These options will work when PRO version is installed"
+msgstr ""
+
+#: classes/freemium.class.php:96
+msgid ""
+"This control turns on the Conditional Field Repeater mode for this field, in "
+"this way, this field is repeated by the selected field(selected in the "
+"Origin setting) below"
+msgstr ""
+
+#: inc/arrays.php:1077
+msgid ""
+"This input allows you to define each meta field better and to create a more "
+"attractive design for your products."
+msgstr ""
+
+#: inc/arrays.php:875
+msgid ""
+"This input allows you to display a dropdown with options along with their "
+"quantities."
+msgstr ""
+
+#: classes/inputs/input.cropper.php:59 classes/inputs/input.file.php:58
+#, fuzzy
+msgid "This will be added into cart"
+msgstr "Ceci sera ajouté au panier"
+
+#: classes/inputs/input.color.php:107
+#, fuzzy
+msgid "Tick if need to show a group of common colors beneath the square"
+msgstr ""
+"Cochez si besoin de montrer un groupe de couleurs communes sous le carré"
+
+#: classes/inputs/input.audio.php:108 classes/inputs/input.audio.php:113
+#: classes/inputs/input.checkbox.php:124 classes/inputs/input.checkbox.php:129
+#: classes/inputs/input.color.php:131 classes/inputs/input.color.php:136
+#: classes/inputs/input.cropper.php:206 classes/inputs/input.cropper.php:211
+#: classes/inputs/input.date.php:172 classes/inputs/input.date.php:177
+#: classes/inputs/input.daterange.php:181
+#: classes/inputs/input.daterange.php:186 classes/inputs/input.email.php:101
+#: classes/inputs/input.email.php:106 classes/inputs/input.file.php:171
+#: classes/inputs/input.file.php:176 classes/inputs/input.image.php:156
+#: classes/inputs/input.image.php:161 classes/inputs/input.measure.php:141
+#: classes/inputs/input.measure.php:146 classes/inputs/input.number.php:125
+#: classes/inputs/input.number.php:130 classes/inputs/input.palettes.php:149
+#: classes/inputs/input.palettes.php:154
+#: classes/inputs/input.pricematrix.php:117
+#: classes/inputs/input.pricematrix.php:122
+#: classes/inputs/input.quantities.php:154
+#: classes/inputs/input.quantities.php:159 classes/inputs/input.radio.php:112
+#: classes/inputs/input.radio.php:117 classes/inputs/input.section.php:90
+#: classes/inputs/input.section.php:95 classes/inputs/input.select.php:120
+#: classes/inputs/input.select.php:125 classes/inputs/input.text.php:149
+#: classes/inputs/input.text.php:154 classes/inputs/input.textarea.php:126
+#: classes/inputs/input.textarea.php:131 classes/inputs/input.timezone.php:121
+#: classes/inputs/input.timezone.php:126
+msgid "Tick it to turn conditional logic to work below"
+msgstr ""
+"Cochez pour activer une logique conditionnelle pour fonctionner en dessous de"
+
+#: classes/inputs/input.image.php:126
+#, fuzzy
+msgid "Tick it to turn on old boxes view for images"
+msgstr "Cochez-la pour activer la vue des anciennes cases pour les images"
+
+#: classes/inputs/input.daterange.php:87
+#, fuzzy
+msgid "Timepicker increment"
+msgstr "Incrément timepicker"
+
+#: classes/freemium.class.php:191 classes/inputs/input.timezone.php:24
+#: inc/arrays.php:956
+#, fuzzy
+msgid "Timezone Input"
+msgstr "Entrée TimeZone"
+
+#: inc/arrays.php:957
+msgid ""
+"Timezone input is a unique form of Select Input, but it has a predefined "
+"list of all Time-zones. Different Time-zones can also be filtered with "
+"options."
+msgstr ""
+
+#: classes/inputs/input.audio.php:36 classes/inputs/input.checkbox.php:36
+#: classes/inputs/input.color.php:36 classes/inputs/input.cropper.php:38
+#: classes/inputs/input.date.php:36 classes/inputs/input.daterange.php:36
+#: classes/inputs/input.divider.php:61 classes/inputs/input.email.php:36
+#: classes/inputs/input.file.php:37 classes/inputs/input.hidden.php:38
+#: classes/inputs/input.image.php:36 classes/inputs/input.measure.php:50
+#: classes/inputs/input.number.php:36 classes/inputs/input.palettes.php:36
+#: classes/inputs/input.pricematrix.php:37
+#: classes/inputs/input.quantities.php:46 classes/inputs/input.radio.php:36
+#: classes/inputs/input.select.php:36 classes/inputs/input.text.php:38
+#: classes/inputs/input.textarea.php:37 classes/inputs/input.timezone.php:36
+#: templates/admin/ppom-fields.php:303 templates/admin/ppom-fields.php:321
+msgid "Title"
+msgstr "Titre"
+
+#: classes/fields.class.php:388 classes/fields.class.php:395
+msgid "Tooltip"
+msgstr ""
+
+#: backend/settings-panel.class.php:522
+msgid "Top"
+msgstr ""
+
+#: backend/options.php:84 classes/frontend-scripts.class.php:560
+#: inc/arrays.php:216 inc/arrays.php:219 inc/arrays.php:593
+msgid "Total"
+msgstr "Total"
+
+#: backend/options.php:89 classes/frontend-scripts.class.php:559
+#: inc/arrays.php:243 inc/arrays.php:246 inc/arrays.php:592
+msgid "Total Discount"
+msgstr "Remise totale"
+
+#: backend/options.php:88
+msgid "Total Discount Label inside Price Table"
+msgstr ""
+
+#: backend/options.php:83
+msgid "Total Label inside Price Table"
+msgstr ""
+
+#: inc/woocommerce.php:606
+#, fuzzy
+#| msgid "Total will be calcuated in Cart"
+msgid "Total will be calculated in the cart"
+msgstr "Le total sera calculé dans le panier"
+
+#: templates/admin/changelog.php:32
+msgid "Tweaks"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:302 templates/admin/ppom-fields.php:320
+msgid "Type"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:79 classes/inputs/input.file.php:78
+msgid "Type button label e.g: Select Photos"
+msgstr "Tapez le nom du bouton, par exemple: Sélectionner photo"
+
+#: classes/inputs/input.cropper.php:85 classes/inputs/input.file.php:84
+msgid "Type class for both (select, upload) buttons"
+msgstr "Class pour les deux (select, upload) de type boutons"
+
+#: classes/inputs/input.palettes.php:88
+msgid ""
+"Type color code given in (Add Options) tab if you want already selected."
+msgstr ""
+
+#: classes/inputs/input.palettes.php:83
+#, fuzzy
+msgid ""
+"Type color code with price (optionally). To write label, use #colorcode - "
+"White"
+msgstr ""
+"Tapez le code de couleur avec le prix (facultativement). Pour écrire une "
+"étiquette, utilisez #colorcode-blanc"
+
+#: classes/inputs/input.pricematrix.php:48
+#, fuzzy
+#| msgid "Type description, it will be diplay under section heading."
+msgid "Type description, it will be display under section heading."
+msgstr "Type Description, il sera diplay sous le titre de section."
+
+#: classes/inputs/input.text.php:103
+msgid "Type field width in % e.g: 50%"
+msgstr "Entrez la largeur de champ dans % par exemple: 50 %"
+
+#: classes/inputs/input.cropper.php:91 classes/inputs/input.file.php:90
+#, fuzzy
+msgid "Type number of files allowed per upload by user, e.g: 3"
+msgstr ""
+"Type nombre de fichiers autorisés par upload par l'utilisateur, par exemple: "
+"3"
+
+#: classes/inputs/input.timezone.php:57
+#, fuzzy
+msgid "Type option name (given above) if you want already selected."
+msgstr "Tapez l'option nom (donnée ci-dessus) si vous voulez déjà sélectionné."
+
+#: classes/inputs/input.cropper.php:112 classes/inputs/input.radio.php:62
+#: classes/inputs/input.select.php:62
+msgid ""
+"Type option name given in (Add Options) tab if you want already selected."
+msgstr ""
+
+#: classes/inputs/input.image.php:83
+msgid ""
+"Type option title given in (Add Images) tab if you want it already selected."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:57 classes/inputs/input.quantities.php:67
+#: classes/inputs/input.radio.php:57
+#, fuzzy
+msgid "Type option with price (optionally)"
+msgstr "Option de type avec prix (optionnel)"
+
+#: classes/inputs/input.select.php:57
+msgid ""
+"Type option with price (optionally), Option ID should be unique and without "
+"spaces."
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:76
+msgid ""
+"Type option(s) name given in (Add Options) tab if you want already checked."
+msgstr ""
+
+#: classes/inputs/input.pricematrix.php:63
+msgid "Type quantity range with price."
+msgstr ""
+
+#: classes/inputs/input.cropper.php:105 classes/inputs/input.file.php:103
+msgid "Type size with units in kb|mb per file uploaded by user, e.g: 3mb"
+msgstr ""
+"Tapez la taille avec des unités en Ko | Mo par fichier téléchargé par "
+"l’utilisateur, par exemple: 3 Mo"
+
+#: classes/fields.class.php:626
+msgid "Unique ID)"
+msgstr ""
+
+#: classes/fields.class.php:400 classes/fields.class.php:471
+msgid "Unique Option ID)"
+msgstr ""
+
+#: classes/fields.class.php:635 classes/fields.class.php:645
+msgid "Unit"
+msgstr ""
+
+#: classes/frontend-scripts.class.php:574 inc/arrays.php:602
+msgid "unit"
+msgstr "unité"
+
+#: classes/inputs/input.quantities.php:142
+msgid "Unlink Order Quantity"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:262
+msgid "Update Field"
+msgstr ""
+
+#: classes/freemium.class.php:74
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: classes/freemium.class.php:72
+msgid "Use case example:"
+msgstr ""
+
+#: inc/arrays.php:370
+msgid "Use optimized Price Table Caculation (BETA)"
+msgstr ""
+
+#: classes/inputs/input.text.php:124
+msgid "Use Regex Expresession"
+msgstr ""
+
+#: classes/inputs/input.audio.php:77 classes/inputs/input.checkbox.php:99
+#: classes/inputs/input.color.php:100 classes/inputs/input.cropper.php:151
+#: classes/inputs/input.date.php:135 classes/inputs/input.daterange.php:126
+#: classes/inputs/input.email.php:82 classes/inputs/input.file.php:146
+#: classes/inputs/input.hidden.php:60 classes/inputs/input.image.php:119
+#: classes/inputs/input.measure.php:122 classes/inputs/input.number.php:106
+#: classes/inputs/input.palettes.php:112
+#: classes/inputs/input.pricematrix.php:80
+#: classes/inputs/input.quantities.php:120 classes/inputs/input.radio.php:87
+#: classes/inputs/input.section.php:71 classes/inputs/input.select.php:95
+#: classes/inputs/input.text.php:118 classes/inputs/input.textarea.php:100
+#: classes/inputs/input.timezone.php:96
+msgid "User Roles"
+msgstr ""
+
+#: classes/fields.class.php:63
+msgid ""
+"Values in two ranges intersect. Every range of numbers should be covered by "
+"only one range. Intersects ranges: {range1} AND {range2}"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:71
+msgid "Variation Layout"
+msgstr ""
+
+#: classes/freemium.class.php:171
+msgid "Variation Matrix"
+msgstr ""
+
+#: inc/arrays.php:972
+msgid ""
+"Variation Quantities allow clients to order different quantities against "
+"different options."
+msgstr ""
+
+#: classes/freemium.class.php:195 classes/inputs/input.quantities.php:24
+#: inc/arrays.php:971
+msgid "Variation Quantity"
+msgstr "Quantité de Variation"
+
+#: inc/arrays.php:792
+msgid "Variation Quantity Matrix"
+msgstr ""
+
+#: classes/inputs/input.quantities.php:34
+msgid "Vertical Layout"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:123
+msgid "Viewport Size"
+msgstr ""
+
+#: classes/inputs/input.cropper.php:128
+#, fuzzy
+msgid "Viewport type"
+msgstr "Type de fenêtre d'affichage"
+
+#: classes/inputs/input.audio.php:70 classes/inputs/input.checkbox.php:92
+#: classes/inputs/input.color.php:92 classes/inputs/input.cropper.php:144
+#: classes/inputs/input.date.php:127 classes/inputs/input.daterange.php:117
+#: classes/inputs/input.email.php:75 classes/inputs/input.file.php:139
+#: classes/inputs/input.hidden.php:53 classes/inputs/input.image.php:112
+#: classes/inputs/input.measure.php:114 classes/inputs/input.number.php:99
+#: classes/inputs/input.palettes.php:105
+#: classes/inputs/input.pricematrix.php:73
+#: classes/inputs/input.quantities.php:113 classes/inputs/input.radio.php:80
+#: classes/inputs/input.section.php:64 classes/inputs/input.select.php:87
+#: classes/inputs/input.text.php:110 classes/inputs/input.textarea.php:93
+#: classes/inputs/input.timezone.php:88
+msgid "Visibility"
+msgstr ""
+
+#: inc/arrays.php:423 inc/hooks.php:788
+msgid "Weekly"
+msgstr ""
+
+#: classes/fields.class.php:585 classes/fields.class.php:604
+msgid "weight (if any)"
+msgstr ""
+
+#: classes/fields.class.php:671 classes/fields.class.php:687
+#: classes/inputs/input.audio.php:62 classes/inputs/input.checkbox.php:67
+#: classes/inputs/input.color.php:84 classes/inputs/input.cropper.php:70
+#: classes/inputs/input.date.php:67 classes/inputs/input.daterange.php:63
+#: classes/inputs/input.email.php:67 classes/inputs/input.file.php:69
+#: classes/inputs/input.image.php:63 classes/inputs/input.measure.php:106
+#: classes/inputs/input.number.php:91 classes/inputs/input.palettes.php:68
+#: classes/inputs/input.quantities.php:105 classes/inputs/input.radio.php:72
+#: classes/inputs/input.section.php:47 classes/inputs/input.select.php:79
+#: classes/inputs/input.text.php:102 classes/inputs/input.textarea.php:85
+#: classes/inputs/input.timezone.php:80
+msgid "Width"
+msgstr "Largeur"
+
+#: classes/inputs/input.text.php:131
+msgid "Will not multiply with quantity"
+msgstr ""
+
+#: templates/admin/existing-meta.php:122
+msgid "WooCommerce Products"
+msgstr ""
+
+#: classes/inputs/input.date.php:103
+msgid "Year Range"
+msgstr "Fourchette d'années"
+
+#: backend/options.php:31 inc/arrays.php:255 inc/arrays.php:264
+#: inc/arrays.php:273 inc/arrays.php:281 inc/arrays.php:312 inc/arrays.php:322
+#: inc/arrays.php:333 inc/arrays.php:343 inc/arrays.php:353 inc/arrays.php:363
+#: inc/arrays.php:372 inc/arrays.php:381 inc/arrays.php:390
+msgid "Yes"
+msgstr "Oui"
+
+#: classes/admin.class.php:170
+#, fuzzy
+#| msgid "Create different meta groups for different products"
+msgid "You can create different meta groups for different products."
+msgstr "Créer différents groupes de méta pour différents produits"
+
+#: classes/frontend-scripts.class.php:580
+msgid "You can only select a maximum of"
+msgstr ""
+
+#: classes/frontend-scripts.class.php:581
+msgid "You can only select a minimum of"
+msgstr ""
+
+#: classes/inputs/input.hidden.php:49
+#, fuzzy
+msgid "you can pre-set the value of this hidden input."
+msgstr "vous pouvez pré-définir la valeur de cette entrée cachée."
+
+#: backend/options.php:56 inc/arrays.php:293
+msgid ""
+"You can set permissions here so PPOM fields can be managed by different roles"
+msgstr ""
+
+#: inc/files.php:147
+msgid ""
+"You cannot upload the file at this time, please refresh the page and try "
+"again. Note that your current option choices will be reset."
+msgstr ""
+
+#: inc/files.php:122
+msgid "Your image-%s"
+msgstr ""

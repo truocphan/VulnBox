@@ -1,0 +1,142 @@
+/*******************************
+ *    Texter Frontent CSS      *
+ *******************************/
+ 
+.ppom-textbox-setting-section{
+	margin-top: 15px;
+	display: grid;
+}
+.ppom-select-textbox{
+	width: 100%;
+	height: 34px;
+	background-color: #e0e0e0;
+}
+.ppom-select-textbox option{
+	background-color: white;
+}
+.ppom-main-inner-wrapper{
+	border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    padding: 9px 0 10px 0;
+    text-align: left;
+}
+.texter-setting-row{
+	padding-bottom: 10px;
+}
+.ppom-main-inner-wrapper .ppom-image-section .ppom-text-over-image{
+	background-color: gray;
+	overflow: hidden;
+	cursor: pointer;
+}
+.ppom-all-textbox-setting label{
+	display: block;
+}
+.ppom-all-textbox-setting .font-select{
+	display: block;
+	width: auto;
+}
+.ppom-image-section img{
+	max-width: unset;
+}
+.ppom-texter-title-render{
+	margin-top: 0;
+    color: #040429;
+    font-size: 20px;
+}
+.ppom-texter-char-limit{
+	float: right;
+}
+.ppom-texter-fonts-tip button,  
+.ppom-texter-fonts-tip input[type="button"] {
+	font-size: 13px !important;
+}
+.ppom-texter-fonts-tip label{
+	float: left;
+	margin-top: 3px;
+	padding-right: 8px;
+}
+.ppom-texter-fonts-tip div{
+	margin-top: 5px;
+}
+@media screen and (max-width: 420px) {
+   	.ppom-texter-char-limit {
+        margin-top: 0px; 
+  	}
+}
+
+/*use grid*/
+.texter-row-handle{
+	margin-left: -15px;
+    margin-right: -15px;
+}
+.texter-row-handle:before,
+.texter-row-handle:after {
+  display: table;
+  content: " ";
+}
+.texter-row-handle:after {
+  clear: both;
+}
+.texter-col-md-12,
+.texter-col-md-6,
+.texter-col-sm-6 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.ppom-all-textbox-setting .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.ppom-all-textbox-setting .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.ppom-all-textbox-setting .form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.ppom-all-textbox-setting .form-control:-ms-input-placeholder {
+  color: #999;
+}
+.ppom-all-textbox-setting .form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.ppom-all-textbox-setting .form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+@media (min-width: 768px) {
+  .texter-col-sm-6 {
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  	.texter-col-md-12,
+	.texter-col-md-6, {
+    float: left;
+  }
+  .texter-col-md-12{
+    width: 100%;
+  }
+  .texter-col-md-6 {
+    width: 50%;
+  }
+}
