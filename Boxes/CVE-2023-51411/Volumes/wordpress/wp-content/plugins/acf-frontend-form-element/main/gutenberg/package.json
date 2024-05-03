@@ -1,0 +1,24 @@
+{
+  "name": "gutenberg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "@wordpress/scripts": "^25.1.0"
+  },
+  "description": "",
+  "dependencies": {
+    "@automattic/isolated-block-editor": "^2.26.0",
+    "react": "^18.2.0",
+    "react-select": "^5.7.0"
+  }
+}

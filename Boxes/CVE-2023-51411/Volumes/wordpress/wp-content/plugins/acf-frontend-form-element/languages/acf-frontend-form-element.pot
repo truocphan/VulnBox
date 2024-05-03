@@ -1,0 +1,3308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ACF Frontend\n"
+"POT-Creation-Date: 2020-10-20 13:05+0300\n"
+"PO-Revision-Date: 2020-10-20 13:08+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: acf-frontend.php:224 acf-frontend.php:247
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: acf-frontend.php:225 acf-frontend.php:248
+#: main/elementor/actions/email.php:564
+msgid "ACF Frontend"
+msgstr ""
+
+#: acf-frontend.php:226 acf-frontend.php:304
+msgid "Elementor"
+msgstr ""
+
+#: acf-frontend.php:249
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: acf-frontend.php:302 acf-frontend.php:327
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: acf-frontend.php:303 acf-frontend.php:328
+msgid "ACF Elementor Form"
+msgstr ""
+
+#: acf-frontend.php:329
+msgid "PHP"
+msgstr ""
+
+#: acf-frontend.php:340
+msgid "Video Tutorials"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:11
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:33
+#: main/elementor/widgets/acf-frontend-form.php:737
+#: main/elementor/widgets/acf-frontend-form.php:823
+#: main/elementor/widgets/acf-frontend-form.php:839
+msgid "Version"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:34
+msgid "Select the reCaptcha version"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:38
+msgid "reCaptcha V2"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:39
+msgid "reCaptcha V3"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:45
+msgid "Theme"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:46
+msgid "Select the reCaptcha theme"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:50
+#: main/elementor/widgets/acf-frontend-form.php:826
+msgid "Light"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:51
+#: main/elementor/widgets/acf-frontend-form.php:827
+msgid "Dark"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:66
+#: main/elementor/widgets/edit_button.php:213
+msgid "Size"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:67
+msgid "Select the reCaptcha size"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:71
+#: main/elementor/classes/style_tab.php:490
+#: main/elementor/classes/style_tab.php:702
+#: main/elementor/classes/style_tab.php:1033
+#: main/elementor/classes/style_tab.php:1217
+#: main/elementor/classes/style_tab.php:1749
+#: main/elementor/classes/style_tab.php:2422
+#: main/elementor/widgets/acf-frontend-form.php:842
+#: main/elementor/widgets/edit_button.php:422
+msgid "Normal"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:72
+#: main/elementor/widgets/acf-frontend-form.php:843
+msgid "Compact"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:87
+msgid "Hide logo"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:88
+msgid "Hide the reCaptcha logo"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:105
+msgid "Site key"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:106
+msgid ""
+"Enter the site key. <a href=\"https://www.google.com/recaptcha/admin\" "
+"target=\"_blank\">reCaptcha API Admin</a>"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:113
+msgid "Secret key"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:114
+msgid ""
+"Enter the secret key. <a href=\"https://www.google.com/recaptcha/admin\" "
+"target=\"_blank\">reCaptcha API Admin</a>"
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:225
+msgid "reCaptcha has expired."
+msgstr ""
+
+#: main/frontend/fields/recaptcha.php:232
+msgid "An error has occured."
+msgstr ""
+
+#: main/frontend/module.php:88
+msgid "Show Only On Frontend"
+msgstr ""
+
+#: main/frontend/module.php:99
+msgid "Set as product price"
+msgstr ""
+
+#: main/frontend/module.php:106
+msgid "Set as sale price"
+msgstr ""
+
+#: main/frontend/module.php:115
+msgid "Set as product sold individually option"
+msgstr ""
+
+#: main/frontend/module.php:126
+msgid "Set as site title"
+msgstr ""
+
+#: main/frontend/module.php:133
+msgid "Set as site tagline"
+msgstr ""
+
+#: main/frontend/module.php:141
+msgid "Set as post title"
+msgstr ""
+
+#: main/frontend/module.php:148
+msgid "Set as post slug"
+msgstr ""
+
+#: main/frontend/module.php:156
+#: main/elementor/widgets/acf-frontend-form.php:573
+msgid "Set as username"
+msgstr ""
+
+#: main/frontend/module.php:163
+msgid "Set as product sku"
+msgstr ""
+
+#: main/frontend/module.php:170
+#: main/frontend/module.php:215
+#: main/frontend/module.php:255
+msgid "Read only"
+msgstr ""
+
+#: main/frontend/module.php:181
+msgid "Set as user password"
+msgstr ""
+
+#: main/frontend/module.php:188
+msgid "Set as password confirm"
+msgstr ""
+
+#: main/frontend/module.php:201
+#: main/elementor/actions/email.php:140
+msgid "User Email"
+msgstr ""
+
+#: main/frontend/module.php:208
+#: main/elementor/widgets/acf-frontend-form.php:1936
+msgid "Comment Author Email"
+msgstr ""
+
+#: main/frontend/module.php:227
+msgid "Set as post content"
+msgstr ""
+
+#: main/frontend/module.php:240
+msgid "Set as post excerpt"
+msgstr ""
+
+#: main/frontend/module.php:247
+msgid "Set as user bio"
+msgstr ""
+
+#: main/frontend/module.php:265
+msgid "Happy Files Folder"
+msgstr ""
+
+#: main/frontend/module.php:266
+msgid "Limit the media library choice to specific Happy Files Categories"
+msgstr ""
+
+#: main/frontend/module.php:278
+msgid "Set as product gallery"
+msgstr ""
+
+#: main/frontend/module.php:289
+msgid "Set as site logo"
+msgstr ""
+
+#: main/frontend/module.php:297
+msgid "Set as post image"
+msgstr ""
+
+#: main/frontend/module.php:309
+msgid "Limit Row Edit to"
+msgstr ""
+
+#: main/frontend/module.php:313
+msgid ""
+"Save data to the rows and filter the rows based on that data. Brought to you "
+"by ACF Frontend."
+msgstr ""
+
+#: main/frontend/module.php:315
+msgid "Author of the Row"
+msgstr ""
+
+#: main/frontend/module.php:1245
+#, php-format
+msgid ""
+"The email %s is already assigned to an existing account. Please try a "
+"different email or login to your account"
+msgstr ""
+
+#: main/frontend/module.php:1268
+msgid "The username "
+msgstr ""
+
+#: main/frontend/module.php:1271
+msgid ""
+"The username contains illegal characters. Please enter only latin letters, "
+"numbers, @, -, . and _"
+msgstr ""
+
+#: main/frontend/module.php:1286
+#: main/frontend/module.php:1293
+msgid "The passwords do not match"
+msgstr ""
+
+#: main/frontend/module.php:1299
+msgid "The password is too weak. Please make it stronger."
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:12
+msgid "Row Author"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:45
+msgid "Activate Payments"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:65
+#: main/elementor/classes/payments.php:189
+msgid "Stripe"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:84
+msgid "Activate Stripe"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:121
+msgid ""
+"<h2>Set Up</h2>\n"
+"\n"
+"Click <a target=\"_blank\" href=\"https://dashboard.stripe.com/register"
+"\">here</a> to create a Stripe account. Once you do that you will recieve "
+"your API Keys."
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:129
+msgid "Use Live Keys"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:132
+msgid "We reccomend testing out the test keys before using the live keys"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:154
+msgid "Live Publishable Key"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:178
+msgid "Live Secret Key"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:202
+msgid "Test Publishable Key"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:226
+msgid "Test Secret Key"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:250
+#: main/elementor/classes/payments.php:195
+msgid "Paypal"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:269
+msgid "Activate Paypal"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:307
+msgid ""
+"<h2>Set Up</h2>\n"
+"\n"
+"Click <a target=\"_blank\" href=\"https://developer.paypal.com/developer/"
+"applications/create\">here</a> to create a PayPal App. Once you do that you "
+"will recieve your API Keys."
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:315
+msgid "Live Mode"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:318
+msgid ""
+"We reccomend testing out the test mode before using switching to live mode"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:335
+msgid "Client ID"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:354
+msgid "Secret"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:393
+#: main/admin/admin-pages/custom-post-types.php:11
+#: main/admin/admin-pages/custom-post-types.php:14
+#: main/admin/admin-pages/custom-post-types.php:46
+#: main/admin/module.php:50
+msgid "Payments"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:398
+msgid "External Id"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:413
+#: main/admin/admin-pages/custom-fields.php:574
+#: main/elementor/actions/user.php:23
+#: main/elementor/actions/user.php:187
+#: main/elementor/actions/user.php:199
+#: main/elementor/actions/user.php:327
+#: main/elementor/actions/user.php:339
+#: main/elementor/widgets/acf-frontend-form.php:1896
+msgid "User"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:432
+#: main/elementor/classes/payments.php:219
+#: main/elementor/classes/payments.php:238
+msgid "Currency"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:447
+msgid "Amount Charged"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:470
+#: main/elementor/classes/payments.php:275
+msgid "Post Submissions"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:493
+#: main/elementor/classes/payments.php:207
+msgid "Processor"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:529
+msgid "Hide Admin"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:533
+#: main/admin/module.php:48
+msgid "Hide WP Dashboard"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:553
+msgid "Hide by...."
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:556
+msgid ""
+"If you choose \"User\", there will be a checkbox in each user's profile page "
+"to show/hide the WP dashboard"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:575
+#: main/elementor/widgets/acf-frontend-form.php:1907
+msgid "Role"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:586
+msgid "Roles"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:621
+msgid "Redirect to"
+msgstr ""
+
+#: main/admin/admin-pages/custom-fields.php:624
+msgid "Where to redirect users when logging in. Defaults to home."
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:12
+#: main/admin/admin-pages/custom-post-types.php:36
+msgid "Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:13
+msgid "My Payments"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:15
+msgid "Add new"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:16
+msgid "Add new Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:17
+msgid "Edit Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:18
+msgid "New Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:19
+msgid "View Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:20
+msgid "View Payments"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:21
+msgid "Search Payments"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:22
+msgid "No Payments found"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:23
+msgid "No Payments found in trash"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:24
+#: main/admin/admin-pages/custom-post-types.php:42
+msgid "Parent Payment:"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:25
+msgid "Featured image for this Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:26
+msgid "Set featured image for this Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:27
+msgid "Remove featured image for this Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:28
+msgid "Use as featured image for this Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:29
+msgid "Payment archives"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:30
+msgid "Insert into Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:31
+msgid "Upload to this Payment"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:32
+msgid "Filter Payments list"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:33
+msgid "Payments list navigation"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:34
+msgid "Payments list"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:35
+msgid "Payments attributes"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:37
+msgid "Payment published"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:38
+msgid "Payment published privately."
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:39
+msgid "Payment reverted to draft."
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:40
+msgid "Payment scheduled"
+msgstr ""
+
+#: main/admin/admin-pages/custom-post-types.php:41
+msgid "Payment updated."
+msgstr ""
+
+#: main/admin/admin-pages/hide-admin/settings.php:74
+msgid "Hide WordPress Admin Area"
+msgstr ""
+
+#: main/admin/admin-pages/hide-admin/settings.php:77
+msgid "Hide Admin Area"
+msgstr ""
+
+#: main/admin/admin-pages/local-avatar/settings.php:38
+msgid "Local Gravatar"
+msgstr ""
+
+#: main/admin/admin-pages/local-avatar/settings.php:44
+msgid "Replace Gravatar with Local Avatar"
+msgstr ""
+
+#: main/admin/admin-pages/uploads-privacy/settings.php:18
+msgid "Media Uploads Privacy"
+msgstr ""
+
+#: main/admin/admin-pages/uploads-privacy/settings.php:24
+msgid "Filter Media by Author"
+msgstr ""
+
+#: main/admin/module.php:21
+msgid "Settings"
+msgstr ""
+
+#: main/admin/module.php:45
+msgid "Welcome"
+msgstr ""
+
+#: main/admin/module.php:46
+#: main/elementor/dynamic-tags/user-local-avatar.php:40
+msgid "Local Avatar"
+msgstr ""
+
+#: main/admin/module.php:47
+msgid "Uploads Privacy"
+msgstr ""
+
+#: main/admin/module.php:60
+msgid "Hello and welcome"
+msgstr ""
+
+#: main/admin/module.php:61
+msgid ""
+"If this is your first time using ACF Frontend, we recommend you watch Paul "
+"Charlton from WPTuts beautifully explain how to use it."
+msgstr ""
+
+#: main/admin/module.php:62
+msgid ""
+"Here is a video where our lead developer and head of support, explains the "
+"basic usage of ACF Frontend."
+msgstr ""
+
+#: main/admin/module.php:64
+msgid "If you have any questions at all please feel welcome to email support at"
+msgstr ""
+
+#: main/admin/module.php:64
+msgid "or on whatsapp"
+msgstr ""
+
+#: main/admin/module.php:102
+#: main/admin/module.php:112
+msgid "Save Settings"
+msgstr ""
+
+#: main/admin/module.php:103
+#: main/admin/module.php:113
+msgid "Settings Saved"
+msgstr ""
+
+#: main/elementor/actions/comment.php:23
+#: main/elementor/widgets/acf-frontend-form.php:1932
+#: main/elementor/widgets/comments_list.php:126
+#: main/elementor/widgets/comments_list.php:229
+msgid "Comment"
+msgstr ""
+
+#: main/elementor/actions/comment.php:83
+msgid "Post to Comment On"
+msgstr ""
+
+#: main/elementor/actions/comment.php:87
+#: main/elementor/actions/post.php:278
+#: main/elementor/widgets/trash_button.php:187
+msgid "Current Post"
+msgstr ""
+
+#: main/elementor/actions/comment.php:88
+#: main/elementor/actions/comment.php:98
+#: main/elementor/actions/post.php:280
+#: main/elementor/widgets/trash_button.php:189
+msgid "Specific Post"
+msgstr ""
+
+#: main/elementor/actions/comment.php:100
+#: main/elementor/actions/post.php:305
+#: main/elementor/actions/product.php:397
+#: main/elementor/actions/term.php:82
+#: main/elementor/actions/user.php:189
+#: main/elementor/actions/user.php:329
+#: main/elementor/classes/limit_submit.php:113
+#: main/elementor/widgets/acf-frontend-form.php:1415
+#: main/elementor/widgets/trash_button.php:214
+msgid "18"
+msgstr ""
+
+#: main/elementor/actions/comment.php:101
+#: main/elementor/actions/post.php:306
+#: main/elementor/widgets/trash_button.php:215
+msgid "Enter the post ID"
+msgstr ""
+
+#: main/elementor/actions/comment.php:101
+msgid "Commenting must be turned on for that post"
+msgstr ""
+
+#: main/elementor/actions/email.php:25
+#: main/elementor/actions/user.php:257
+#: main/elementor/widgets/acf-frontend-form.php:1901
+msgid "Email"
+msgstr ""
+
+#: main/elementor/actions/email.php:50
+msgid "Email Shortcodes"
+msgstr ""
+
+#: main/elementor/actions/email.php:59
+msgid "ACF Text Field"
+msgstr ""
+
+#: main/elementor/actions/email.php:69
+msgid "ACF Image Field"
+msgstr ""
+
+#: main/elementor/actions/email.php:80
+#: main/elementor/actions/post.php:114
+#: main/elementor/widgets/acf-frontend-form.php:1886
+msgid "Post Title"
+msgstr ""
+
+#: main/elementor/actions/email.php:90
+#: main/elementor/widgets/acf-frontend-form.php:1887
+msgid "Post Content"
+msgstr ""
+
+#: main/elementor/actions/email.php:100
+#: main/elementor/widgets/acf-frontend-form.php:1889
+msgid "Post Excerpt"
+msgstr ""
+
+#: main/elementor/actions/email.php:110
+#: main/elementor/widgets/acf-frontend-form.php:1888
+msgid "Featured Image"
+msgstr ""
+
+#: main/elementor/actions/email.php:120
+msgid "Post URL"
+msgstr ""
+
+#: main/elementor/actions/email.php:130
+#: main/elementor/actions/user.php:256
+#: main/elementor/widgets/acf-frontend-form.php:1898
+msgid "Username"
+msgstr ""
+
+#: main/elementor/actions/email.php:150
+msgid "User First Name"
+msgstr ""
+
+#: main/elementor/actions/email.php:160
+msgid "User Last Name"
+msgstr ""
+
+#: main/elementor/actions/email.php:184
+#: main/elementor/actions/email.php:186
+#: main/elementor/actions/email.php:187
+msgid "Email Name"
+msgstr ""
+
+#: main/elementor/actions/email.php:189
+msgid "Give this email an identifier"
+msgstr ""
+
+#: main/elementor/actions/email.php:198
+msgid "To"
+msgstr ""
+
+#: main/elementor/actions/email.php:210
+#: main/elementor/actions/email.php:231
+#: main/elementor/actions/email.php:252
+msgid ""
+"Separate emails with commas. <br> To display the names and addresses, use "
+"the following format: Name&lt;address&gt;."
+msgstr ""
+
+#: main/elementor/actions/email.php:220
+msgid "Cc"
+msgstr ""
+
+#: main/elementor/actions/email.php:241
+msgid "Bcc"
+msgstr ""
+
+#: main/elementor/actions/email.php:273
+msgid "From"
+msgstr ""
+
+#: main/elementor/actions/email.php:280
+msgid "From Email"
+msgstr ""
+
+#: main/elementor/actions/email.php:291
+msgid "From Name"
+msgstr ""
+
+#: main/elementor/actions/email.php:304
+msgid "Reply-To"
+msgstr ""
+
+#: main/elementor/actions/email.php:311
+msgid "Reply-To Email"
+msgstr ""
+
+#: main/elementor/actions/email.php:321
+msgid "Reply-To Name"
+msgstr ""
+
+#: main/elementor/actions/email.php:342
+msgid "Subject"
+msgstr ""
+
+#: main/elementor/actions/email.php:344
+msgid "New message from [user:username]"
+msgstr ""
+
+#: main/elementor/actions/email.php:353
+#: main/elementor/widgets/acf-frontend-form.php:459
+#: main/elementor/widgets/acf-frontend-form.php:1506
+#: main/elementor/widgets/acf-frontend-form.php:1517
+#: main/elementor/widgets/acf-frontend-form.php:1919
+msgid "Message"
+msgstr ""
+
+#: main/elementor/actions/email.php:365
+msgid "Meta Data"
+msgstr ""
+
+#: main/elementor/actions/email.php:379
+#: main/elementor/actions/email.php:537
+msgid "Date"
+msgstr ""
+
+#: main/elementor/actions/email.php:380
+#: main/elementor/actions/email.php:543
+msgid "Time"
+msgstr ""
+
+#: main/elementor/actions/email.php:381
+#: main/elementor/actions/email.php:550
+msgid "User Agent"
+msgstr ""
+
+#: main/elementor/actions/email.php:382
+#: main/elementor/actions/email.php:557
+msgid "Remote IP"
+msgstr ""
+
+#: main/elementor/actions/email.php:383
+msgid "Credit"
+msgstr ""
+
+#: main/elementor/actions/email.php:392
+msgid "Send As"
+msgstr ""
+
+#: main/elementor/actions/email.php:397
+msgid "HTML"
+msgstr ""
+
+#: main/elementor/actions/email.php:398
+msgid "Plain"
+msgstr ""
+
+#: main/elementor/actions/email.php:406
+#: main/elementor/widgets/acf-frontend-form.php:1320
+msgid "Emails"
+msgstr ""
+
+#: main/elementor/actions/email.php:442
+#, php-format
+msgid "New message from \"%s\""
+msgstr ""
+
+#: main/elementor/actions/email.php:563
+msgid "Powered by"
+msgstr ""
+
+#: main/elementor/actions/options.php:21
+msgid "Options"
+msgstr ""
+
+#: main/elementor/actions/post.php:23
+#: main/elementor/actions/post.php:303
+#: main/elementor/actions/post.php:314
+#: main/elementor/widgets/acf-frontend-form.php:1884
+#: main/elementor/widgets/trash_button.php:175
+#: main/elementor/widgets/trash_button.php:212
+#: main/elementor/widgets/trash_button.php:225
+msgid "Post"
+msgstr ""
+
+#: main/elementor/actions/post.php:104
+msgid "Post Settings"
+msgstr ""
+
+#: main/elementor/actions/post.php:112
+msgid "Default Title"
+msgstr ""
+
+#: main/elementor/actions/post.php:115
+msgid ""
+"Structure the title field. You can use shortcodes for text fields. Foe "
+"example: [acf:text]"
+msgstr ""
+
+#: main/elementor/actions/post.php:121
+msgid "Default Featured Image"
+msgstr ""
+
+#: main/elementor/actions/post.php:132
+msgid "Delete Post Option"
+msgstr ""
+
+#: main/elementor/actions/post.php:134
+#: main/elementor/actions/post.php:400
+#: main/elementor/actions/post.php:435
+#: main/elementor/actions/product.php:224
+#: main/elementor/actions/user.php:297
+#: main/elementor/classes/limit_submit.php:87
+#: main/elementor/classes/multi_step.php:149
+#: main/elementor/classes/style_tab.php:25
+#: main/elementor/classes/style_tab.php:2025
+#: main/elementor/widgets/acf-frontend-form.php:193
+#: main/elementor/widgets/acf-frontend-form.php:326
+#: main/elementor/widgets/acf-frontend-form.php:405
+#: main/elementor/widgets/acf-frontend-form.php:419
+#: main/elementor/widgets/acf-frontend-form.php:433
+#: main/elementor/widgets/acf-frontend-form.php:447
+#: main/elementor/widgets/acf-frontend-form.php:562
+#: main/elementor/widgets/acf-frontend-form.php:575
+#: main/elementor/widgets/acf-frontend-form.php:588
+#: main/elementor/widgets/acf-frontend-form.php:602
+#: main/elementor/widgets/acf-frontend-form.php:857
+#: main/elementor/widgets/acf-frontend-form.php:1205
+#: main/elementor/widgets/acf-frontend-form.php:1250
+#: main/elementor/widgets/acf-frontend-form.php:1438
+#: main/elementor/widgets/acf-frontend-form.php:1450
+#: main/elementor/widgets/acf-frontend-form.php:1673
+#: main/elementor/widgets/acf-frontend-form.php:1708
+msgid "Yes"
+msgstr ""
+
+#: main/elementor/actions/post.php:135
+#: main/elementor/actions/post.php:401
+#: main/elementor/actions/post.php:436
+#: main/elementor/actions/product.php:225
+#: main/elementor/actions/user.php:298
+#: main/elementor/classes/limit_submit.php:88
+#: main/elementor/classes/multi_step.php:150
+#: main/elementor/classes/style_tab.php:26
+#: main/elementor/classes/style_tab.php:2026
+#: main/elementor/widgets/acf-frontend-form.php:194
+#: main/elementor/widgets/acf-frontend-form.php:327
+#: main/elementor/widgets/acf-frontend-form.php:406
+#: main/elementor/widgets/acf-frontend-form.php:420
+#: main/elementor/widgets/acf-frontend-form.php:434
+#: main/elementor/widgets/acf-frontend-form.php:448
+#: main/elementor/widgets/acf-frontend-form.php:563
+#: main/elementor/widgets/acf-frontend-form.php:576
+#: main/elementor/widgets/acf-frontend-form.php:589
+#: main/elementor/widgets/acf-frontend-form.php:616
+#: main/elementor/widgets/acf-frontend-form.php:858
+#: main/elementor/widgets/acf-frontend-form.php:1206
+#: main/elementor/widgets/acf-frontend-form.php:1251
+#: main/elementor/widgets/acf-frontend-form.php:1439
+#: main/elementor/widgets/acf-frontend-form.php:1451
+#: main/elementor/widgets/acf-frontend-form.php:1674
+#: main/elementor/widgets/acf-frontend-form.php:1709
+msgid "No"
+msgstr ""
+
+#: main/elementor/actions/post.php:146
+#: main/elementor/actions/product.php:236
+#: main/elementor/widgets/status_button.php:106
+#: main/elementor/widgets/trash_button.php:106
+msgid "Delete Button Text"
+msgstr ""
+
+#: main/elementor/actions/post.php:148
+#: main/elementor/actions/post.php:149
+#: main/elementor/actions/product.php:238
+#: main/elementor/actions/product.php:239
+#: main/elementor/widgets/status_button.php:108
+#: main/elementor/widgets/status_button.php:109
+#: main/elementor/widgets/trash_button.php:108
+#: main/elementor/widgets/trash_button.php:109
+msgid "Delete"
+msgstr ""
+
+#: main/elementor/actions/post.php:159
+#: main/elementor/actions/product.php:249
+#: main/elementor/widgets/status_button.php:115
+#: main/elementor/widgets/trash_button.php:115
+msgid "Delete Button Icon"
+msgstr ""
+
+#: main/elementor/actions/post.php:171
+#: main/elementor/actions/product.php:261
+#: main/elementor/widgets/status_button.php:123
+#: main/elementor/widgets/trash_button.php:123
+msgid "Confirm Delete Message"
+msgstr ""
+
+#: main/elementor/actions/post.php:173
+#: main/elementor/actions/post.php:174
+#: main/elementor/widgets/status_button.php:125
+#: main/elementor/widgets/status_button.php:126
+#: main/elementor/widgets/trash_button.php:125
+#: main/elementor/widgets/trash_button.php:126
+msgid "The post will be deleted. Are you sure?"
+msgstr ""
+
+#: main/elementor/actions/post.php:184
+#: main/elementor/actions/product.php:275
+#: main/elementor/widgets/status_button.php:132
+#: main/elementor/widgets/trash_button.php:132
+msgid "Force Delete"
+msgstr ""
+
+#: main/elementor/actions/post.php:188
+#: main/elementor/actions/product.php:279
+#: main/elementor/widgets/status_button.php:136
+#: main/elementor/widgets/trash_button.php:136
+msgid "Whether or not to completely delete the posts right away."
+msgstr ""
+
+#: main/elementor/actions/post.php:198
+#: main/elementor/actions/product.php:289
+#: main/elementor/widgets/status_button.php:142
+#: main/elementor/widgets/trash_button.php:143
+msgid "Redirect After Delete"
+msgstr ""
+
+#: main/elementor/actions/post.php:202
+#: main/elementor/actions/product.php:293
+#: main/elementor/widgets/trash_button.php:147
+msgid "Reload Current Url"
+msgstr ""
+
+#: main/elementor/actions/post.php:203
+#: main/elementor/actions/product.php:294
+#: main/elementor/widgets/acf-frontend-form.php:1343
+#: main/elementor/widgets/acf-frontend-form.php:1385
+#: main/elementor/widgets/trash_button.php:148
+msgid "Custom Url"
+msgstr ""
+
+#: main/elementor/actions/post.php:204
+#: main/elementor/actions/product.php:295
+#: main/elementor/widgets/acf-frontend-form.php:1344
+#: main/elementor/widgets/trash_button.php:149
+msgid "Referer"
+msgstr ""
+
+#: main/elementor/actions/post.php:216
+#: main/elementor/actions/product.php:306
+#: main/elementor/widgets/trash_button.php:157
+msgid "Custom URL"
+msgstr ""
+
+#: main/elementor/actions/post.php:218
+#: main/elementor/actions/product.php:308
+#: main/elementor/widgets/acf-frontend-form.php:1387
+#: main/elementor/widgets/status_button.php:144
+#: main/elementor/widgets/trash_button.php:159
+msgid "Enter Url Here"
+msgstr ""
+
+#: main/elementor/actions/post.php:256
+msgid "Post Status"
+msgstr ""
+
+#: main/elementor/actions/post.php:261
+#: main/elementor/actions/product.php:352
+msgid "Draft"
+msgstr ""
+
+#: main/elementor/actions/post.php:262
+#: main/elementor/actions/product.php:353
+msgid "Private"
+msgstr ""
+
+#: main/elementor/actions/post.php:263
+#: main/elementor/actions/product.php:354
+msgid "Pending Review"
+msgstr ""
+
+#: main/elementor/actions/post.php:264
+#: main/elementor/actions/product.php:355
+msgid "Published"
+msgstr ""
+
+#: main/elementor/actions/post.php:274
+msgid "Post To Edit"
+msgstr ""
+
+#: main/elementor/actions/post.php:279
+#: main/elementor/actions/product.php:371
+#: main/elementor/widgets/trash_button.php:188
+msgid "Url Query"
+msgstr ""
+
+#: main/elementor/actions/post.php:289
+#: main/elementor/actions/product.php:381
+#: main/elementor/actions/user.php:164
+#: main/elementor/actions/user.php:174
+#: main/elementor/widgets/trash_button.php:197
+msgid "URL Query"
+msgstr ""
+
+#: main/elementor/actions/post.php:291
+#: main/elementor/actions/post.php:292
+#: main/elementor/widgets/trash_button.php:199
+#: main/elementor/widgets/trash_button.php:200
+msgid "post_id"
+msgstr ""
+
+#: main/elementor/actions/post.php:294
+#: main/elementor/widgets/trash_button.php:202
+msgid ""
+"Enter the URL query parameter containing the id of the post you want to edit"
+msgstr ""
+
+#: main/elementor/actions/post.php:342
+msgid "New Post Type"
+msgstr ""
+
+#: main/elementor/actions/post.php:353
+msgid "New Post Terms"
+msgstr ""
+
+#: main/elementor/actions/post.php:358
+#: main/elementor/actions/product.php:437
+#: main/elementor/actions/term.php:69
+msgid "Current Term"
+msgstr ""
+
+#: main/elementor/actions/post.php:359
+#: main/elementor/actions/product.php:438
+#: main/elementor/actions/term.php:70
+msgid "Specific Term"
+msgstr ""
+
+#: main/elementor/actions/post.php:370
+#: main/elementor/actions/post.php:381
+#: main/elementor/actions/product.php:448
+#: main/elementor/actions/product.php:459
+msgid "Terms"
+msgstr ""
+
+#: main/elementor/actions/post.php:372
+#: main/elementor/actions/product.php:450
+#: main/elementor/widgets/acf-frontend-form.php:1593
+#: main/elementor/widgets/edit_button.php:345
+#: main/elementor/widgets/status_button.php:195
+#: main/elementor/widgets/trash_button.php:291
+msgid "18, 12, 11"
+msgstr ""
+
+#: main/elementor/actions/post.php:373
+#: main/elementor/actions/product.php:451
+msgid "Enter the a comma-seperated list of term ids"
+msgstr ""
+
+#: main/elementor/actions/post.php:398
+msgid "Show Saved Drafts Selection"
+msgstr ""
+
+#: main/elementor/actions/post.php:411
+msgid "Edit Draft Text"
+msgstr ""
+
+#: main/elementor/actions/post.php:413
+#: main/elementor/actions/post.php:414
+msgid "Edit a draft"
+msgstr ""
+
+#: main/elementor/actions/post.php:421
+msgid "New Draft Text"
+msgstr ""
+
+#: main/elementor/actions/post.php:423
+#: main/elementor/actions/post.php:424
+msgid "&mdash; New Post &mdash;"
+msgstr ""
+
+#: main/elementor/actions/post.php:433
+msgid "Save As Draft Option"
+msgstr ""
+
+#: main/elementor/actions/post.php:445
+msgid "Save Draft Text"
+msgstr ""
+
+#: main/elementor/actions/post.php:447
+msgid "Save as Draft"
+msgstr ""
+
+#: main/elementor/actions/post.php:448
+msgid "save as Draft"
+msgstr ""
+
+#: main/elementor/actions/post.php:458
+msgid "Save Draft Description"
+msgstr ""
+
+#: main/elementor/actions/post.php:460
+msgid "Want to finish later?"
+msgstr ""
+
+#: main/elementor/actions/product.php:23
+#: main/elementor/actions/product.php:395
+#: main/elementor/actions/product.php:406
+msgid "Product"
+msgstr ""
+
+#: main/elementor/actions/product.php:87
+#: main/elementor/widgets/acf-frontend-form.php:1964
+msgid "SKU"
+msgstr ""
+
+#: main/elementor/actions/product.php:196
+msgid "Product Settings"
+msgstr ""
+
+#: main/elementor/actions/product.php:203
+msgid "Product Title Structure"
+msgstr ""
+
+#: main/elementor/actions/product.php:205
+#: main/elementor/widgets/acf-frontend-form.php:1949
+msgid "Product Title"
+msgstr ""
+
+#: main/elementor/actions/product.php:206
+msgid ""
+"Structure the title field. You can use shortcodes for text fields. Foe "
+"example: [acf name=\"text\"]"
+msgstr ""
+
+#: main/elementor/actions/product.php:212
+msgid "Default Product Image"
+msgstr ""
+
+#: main/elementor/actions/product.php:222
+msgid "Delete Product Option"
+msgstr ""
+
+#: main/elementor/actions/product.php:264
+#: main/elementor/actions/product.php:265
+msgid "The product will be deleted. Are you sure?"
+msgstr ""
+
+#: main/elementor/actions/product.php:347
+msgid "Product Status"
+msgstr ""
+
+#: main/elementor/actions/product.php:366
+msgid "Product To Edit"
+msgstr ""
+
+#: main/elementor/actions/product.php:370
+msgid "Current Product"
+msgstr ""
+
+#: main/elementor/actions/product.php:372
+msgid "Specific Product"
+msgstr ""
+
+#: main/elementor/actions/product.php:383
+#: main/elementor/actions/product.php:384
+msgid "product_id"
+msgstr ""
+
+#: main/elementor/actions/product.php:386
+msgid ""
+"Enter the URL query parameter containing the id of the product you want to "
+"edit"
+msgstr ""
+
+#: main/elementor/actions/product.php:398
+msgid "Enter the product ID"
+msgstr ""
+
+#: main/elementor/actions/product.php:432
+msgid "New Product Terms"
+msgstr ""
+
+#: main/elementor/actions/term.php:23
+#: main/elementor/actions/term.php:80
+#: main/elementor/actions/term.php:91
+#: main/elementor/widgets/acf-frontend-form.php:1911
+msgid "Term"
+msgstr ""
+
+#: main/elementor/actions/term.php:65
+msgid "Term To Edit"
+msgstr ""
+
+#: main/elementor/actions/term.php:83
+msgid "Enter term id"
+msgstr ""
+
+#: main/elementor/actions/user.php:136
+msgid "User Settings"
+msgstr ""
+
+#: main/elementor/actions/user.php:159
+msgid "User To Edit"
+msgstr ""
+
+#: main/elementor/actions/user.php:163
+#: main/elementor/actions/user.php:314
+msgid "Current User"
+msgstr ""
+
+#: main/elementor/actions/user.php:165
+#: main/elementor/actions/user.php:316
+msgid "Specific User"
+msgstr ""
+
+#: main/elementor/actions/user.php:176
+#: main/elementor/actions/user.php:177
+msgid "user_id"
+msgstr ""
+
+#: main/elementor/actions/user.php:178
+msgid ""
+"Enter the URL query parameter containing the id of the user you want to edit"
+msgstr ""
+
+#: main/elementor/actions/user.php:191
+#: main/elementor/actions/user.php:331
+msgid "Enter user id"
+msgstr ""
+
+#: main/elementor/actions/user.php:218
+msgid "Default Username"
+msgstr ""
+
+#: main/elementor/actions/user.php:222
+msgid "Generate Random Number"
+msgstr ""
+
+#: main/elementor/actions/user.php:223
+msgid "Generate From ID"
+msgstr ""
+
+#: main/elementor/actions/user.php:225
+msgid "Will be overwritten if your form has a \"Username\" field"
+msgstr ""
+
+#: main/elementor/actions/user.php:232
+msgid "Username Prefix"
+msgstr ""
+
+#: main/elementor/actions/user.php:235
+#: main/elementor/actions/user.php:244
+msgid "Please enter only lowercase latin letters, numbers, @, -, . and _"
+msgstr ""
+
+#: main/elementor/actions/user.php:242
+msgid "Username Suffix"
+msgstr ""
+
+#: main/elementor/actions/user.php:251
+msgid "Default Display Name"
+msgstr ""
+
+#: main/elementor/actions/user.php:255
+#: main/elementor/classes/style_tab.php:410
+#: main/elementor/widgets/edit_button.php:128
+msgid "Default"
+msgstr ""
+
+#: main/elementor/actions/user.php:258
+#: main/elementor/widgets/acf-frontend-form.php:1902
+#: main/elementor/widgets/comments_list.php:120
+msgid "First Name"
+msgstr ""
+
+#: main/elementor/actions/user.php:259
+#: main/elementor/widgets/acf-frontend-form.php:1903
+#: main/elementor/widgets/comments_list.php:121
+msgid "Last Name"
+msgstr ""
+
+#: main/elementor/actions/user.php:260
+msgid "First and Last Name"
+msgstr ""
+
+#: main/elementor/actions/user.php:261
+#: main/elementor/widgets/acf-frontend-form.php:1904
+msgid "Nickname"
+msgstr ""
+
+#: main/elementor/actions/user.php:263
+msgid "Will be overwritten if your form has a \"Display Name\" field"
+msgstr ""
+
+#: main/elementor/actions/user.php:271
+msgid "New User Role"
+msgstr ""
+
+#: main/elementor/actions/user.php:283
+msgid "Hide WordPress Admin Area?"
+msgstr ""
+
+#: main/elementor/actions/user.php:285
+#: main/elementor/widgets/acf-frontend-form.php:1744
+#: main/elementor/widgets/acf-frontend-form.php:1773
+#: main/elementor/widgets/acf-frontend-form.php:1805
+msgid "Hide"
+msgstr ""
+
+#: main/elementor/actions/user.php:286
+#: main/elementor/widgets/acf-frontend-form.php:1745
+#: main/elementor/widgets/acf-frontend-form.php:1774
+#: main/elementor/widgets/acf-frontend-form.php:1806
+msgid "Show"
+msgstr ""
+
+#: main/elementor/actions/user.php:295
+msgid "Log in as new user?"
+msgstr ""
+
+#: main/elementor/actions/user.php:309
+msgid "Managing User"
+msgstr ""
+
+#: main/elementor/actions/user.php:313
+msgid "No Manager"
+msgstr ""
+
+#: main/elementor/actions/user.php:318
+msgid "Who will be in charge of editing this user's data?"
+msgstr ""
+
+#: main/elementor/actions/webhook.php:25
+msgid "Webhook"
+msgstr ""
+
+#: main/elementor/actions/webhook.php:50
+#: main/elementor/actions/webhook.php:52
+#: main/elementor/actions/webhook.php:53
+msgid "Webhook Name"
+msgstr ""
+
+#: main/elementor/actions/webhook.php:55
+msgid "Give this webhook an identifier"
+msgstr ""
+
+#: main/elementor/actions/webhook.php:62
+#: main/elementor/actions/webhook.php:64
+#: main/elementor/actions/webhook.php:65
+msgid "Webhook URL"
+msgstr ""
+
+#: main/elementor/actions/webhook.php:74
+msgid "Webhooks"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:22
+msgid "Limit Reached Message"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:27
+msgid "Limit Message"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:28
+#: main/elementor/widgets/acf-frontend-form.php:1507
+msgid "Custom Content"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:29
+msgid "Nothing"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:36
+msgid "Reached Limit Message"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:40
+msgid ""
+"You have already submitted this form the maximum amount of times that you "
+"are allowed"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:41
+msgid ""
+"you have already submitted this form the maximum amount of times that you "
+"are allowed"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:50
+msgid "Reached Limit Content"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:66
+#: main/elementor/classes/limit_submit.php:68
+msgid "Rule Name"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:76
+msgid "Allowed Submissions"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:85
+msgid "Limit For Everyone"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:96
+msgid "Limit By Role"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:111
+#: main/elementor/classes/limit_submit.php:124
+msgid "Limit By User"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:114
+msgid "Enter a commma seperated list of user ids"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:142
+msgid "Add Limiting Rules"
+msgstr ""
+
+#: main/elementor/classes/limit_submit.php:147
+msgid "Subscribers"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:22
+msgid "Steps Display"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:30
+msgid "Tabs"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:31
+msgid "Counter"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:39
+msgid ""
+"Responsive visibility will take effect only on preview or live page, and not "
+"while editing in Elementor."
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:47
+msgid "Step Tabs Display"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:55
+#: main/elementor/classes/multi_step.php:92
+#: main/elementor/classes/multi_step.php:170
+msgid "Desktop"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:56
+#: main/elementor/classes/multi_step.php:93
+#: main/elementor/classes/multi_step.php:171
+msgid "Tablet"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:57
+#: main/elementor/classes/multi_step.php:94
+#: main/elementor/classes/multi_step.php:172
+msgid "Mobile"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:67
+msgid "Tabs Position"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:71
+msgid "Top"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:72
+msgid "Side"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:84
+msgid "Step Counter Display"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:104
+msgid "Counter Prefix"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:106
+#: main/elementor/classes/multi_step.php:107
+msgid "Step "
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:119
+msgid "Counter Suffix"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:133
+msgid "Step Number in Tabs"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:135
+msgid "show"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:136
+msgid "hide"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:147
+msgid "Link to Step in Tabs"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:241
+#: main/elementor/widgets/acf-frontend-form.php:1974
+msgid "Step"
+msgstr ""
+
+#: main/elementor/classes/multi_step.php:378
+msgid "Please add some fields to this step."
+msgstr ""
+
+#: main/elementor/classes/payments.php:26
+#: main/elementor/classes/payments.php:349
+#: main/elementor/widgets/payment-form.php:51
+msgid "Payment Form"
+msgstr ""
+
+#: main/elementor/classes/payments.php:35
+#: main/elementor/widgets/acf-frontend-form.php:339
+#: main/elementor/widgets/comments_list.php:271
+msgid "Label"
+msgstr ""
+
+#: main/elementor/classes/payments.php:37
+#: main/elementor/classes/payments.php:38
+msgid "Card Number"
+msgstr ""
+
+#: main/elementor/classes/payments.php:44
+#: main/elementor/widgets/acf-frontend-form.php:356
+msgid "Placeholder"
+msgstr ""
+
+#: main/elementor/classes/payments.php:46
+#: main/elementor/classes/payments.php:47
+msgid "•••• •••• •••• ••••"
+msgstr ""
+
+#: main/elementor/classes/payments.php:53
+#: main/elementor/classes/payments.php:423
+#: main/elementor/classes/style_tab.php:1546
+#: main/elementor/widgets/acf-frontend-form.php:983
+#: main/elementor/widgets/comments_list.php:595
+#: main/elementor/widgets/comments_list.php:712
+msgid "Width"
+msgstr ""
+
+#: main/elementor/classes/payments.php:84
+#: main/elementor/classes/payments.php:452
+#: main/elementor/widgets/acf-frontend-form.php:1017
+#: main/elementor/widgets/comments_list.php:789
+msgid "Margin"
+msgstr ""
+
+#: main/elementor/classes/payments.php:109
+#: main/elementor/classes/payments.php:477
+#: main/elementor/classes/style_tab.php:91
+#: main/elementor/classes/style_tab.php:449
+#: main/elementor/classes/style_tab.php:661
+#: main/elementor/classes/style_tab.php:825
+#: main/elementor/classes/style_tab.php:993
+#: main/elementor/classes/style_tab.php:1177
+#: main/elementor/classes/style_tab.php:1315
+#: main/elementor/classes/style_tab.php:1437
+#: main/elementor/classes/style_tab.php:1705
+#: main/elementor/classes/style_tab.php:1860
+#: main/elementor/classes/style_tab.php:2069
+#: main/elementor/classes/style_tab.php:2171
+#: main/elementor/classes/style_tab.php:2273
+#: main/elementor/classes/style_tab.php:2400
+#: main/elementor/widgets/acf-frontend-form.php:920
+#: main/elementor/widgets/acf-frontend-form.php:1042
+#: main/elementor/widgets/comments_list.php:770
+#: main/elementor/widgets/edit_button.php:543
+msgid "Padding"
+msgstr ""
+
+#: main/elementor/classes/payments.php:150
+msgid "Number"
+msgstr ""
+
+#: main/elementor/classes/payments.php:156
+msgid "Name on Card"
+msgstr ""
+
+#: main/elementor/classes/payments.php:157
+msgid "Full Name"
+msgstr ""
+
+#: main/elementor/classes/payments.php:162
+msgid "Expiration"
+msgstr ""
+
+#: main/elementor/classes/payments.php:168
+msgid "CVC"
+msgstr ""
+
+#: main/elementor/classes/payments.php:179
+msgid "Pay Button Text"
+msgstr ""
+
+#: main/elementor/classes/payments.php:181
+#: main/elementor/classes/payments.php:182
+msgid "Pay Now!"
+msgstr ""
+
+#: main/elementor/classes/payments.php:221
+#: main/elementor/classes/payments.php:222
+#: main/elementor/classes/payments.php:240
+#: main/elementor/classes/payments.php:241
+msgid "USD"
+msgstr ""
+
+#: main/elementor/classes/payments.php:259
+msgid "Amount To Charge"
+msgstr ""
+
+#: main/elementor/classes/payments.php:265
+msgid "Must be equal to or greater than 50 cents in USD"
+msgstr ""
+
+#: main/elementor/classes/payments.php:290
+msgid "Plan Description"
+msgstr ""
+
+#: main/elementor/classes/payments.php:293
+#: main/elementor/classes/payments.php:294
+#: main/elementor/classes/payments.php:333
+msgid "5 post submissions"
+msgstr ""
+
+#: main/elementor/classes/payments.php:304
+msgid "Success Message"
+msgstr ""
+
+#: main/elementor/classes/payments.php:306
+#: main/elementor/classes/payments.php:307
+msgid "Thank you for your payment"
+msgstr ""
+
+#: main/elementor/classes/payments.php:356
+msgid "Submit Button Width"
+msgstr ""
+
+#: main/elementor/classes/payments.php:386
+msgid "Button Align"
+msgstr ""
+
+#: main/elementor/classes/payments.php:390
+#: main/elementor/classes/payments.php:506
+#: main/elementor/classes/style_tab.php:172
+#: main/elementor/classes/style_tab.php:393
+#: main/elementor/classes/style_tab.php:621
+#: main/elementor/classes/style_tab.php:1998
+#: main/elementor/classes/style_tab.php:2369
+msgid "Start"
+msgstr ""
+
+#: main/elementor/classes/payments.php:391
+#: main/elementor/classes/payments.php:507
+#: main/elementor/classes/style_tab.php:173
+#: main/elementor/classes/style_tab.php:394
+#: main/elementor/classes/style_tab.php:622
+#: main/elementor/classes/style_tab.php:1583
+#: main/elementor/classes/style_tab.php:1671
+#: main/elementor/classes/style_tab.php:1999
+#: main/elementor/classes/style_tab.php:2370
+#: main/elementor/widgets/comments_list.php:438
+#: main/elementor/widgets/edit_button.php:193
+msgid "Center"
+msgstr ""
+
+#: main/elementor/classes/payments.php:392
+#: main/elementor/classes/payments.php:508
+#: main/elementor/classes/style_tab.php:174
+#: main/elementor/classes/style_tab.php:395
+#: main/elementor/classes/style_tab.php:623
+#: main/elementor/classes/style_tab.php:2000
+#: main/elementor/classes/style_tab.php:2371
+msgid "End"
+msgstr ""
+
+#: main/elementor/classes/payments.php:402
+#: main/elementor/classes/style_tab.php:75
+#: main/elementor/classes/style_tab.php:509
+#: main/elementor/classes/style_tab.php:552
+#: main/elementor/classes/style_tab.php:721
+#: main/elementor/classes/style_tab.php:764
+#: main/elementor/classes/style_tab.php:857
+#: main/elementor/classes/style_tab.php:1052
+#: main/elementor/classes/style_tab.php:1084
+#: main/elementor/classes/style_tab.php:1236
+#: main/elementor/classes/style_tab.php:1268
+#: main/elementor/classes/style_tab.php:1347
+#: main/elementor/classes/style_tab.php:1468
+#: main/elementor/classes/style_tab.php:1769
+#: main/elementor/classes/style_tab.php:1802
+#: main/elementor/classes/style_tab.php:1913
+#: main/elementor/classes/style_tab.php:2095
+#: main/elementor/classes/style_tab.php:2196
+#: main/elementor/classes/style_tab.php:2298
+#: main/elementor/classes/style_tab.php:2441
+#: main/elementor/classes/style_tab.php:2483
+#: main/elementor/widgets/acf-frontend-form.php:904
+#: main/elementor/widgets/edit_button.php:441
+#: main/elementor/widgets/edit_button.php:477
+msgid "Background Color"
+msgstr ""
+
+#: main/elementor/classes/payments.php:415
+#: main/elementor/classes/style_tab.php:522
+#: main/elementor/classes/style_tab.php:734
+#: main/elementor/classes/style_tab.php:870
+#: main/elementor/classes/style_tab.php:1369
+#: main/elementor/classes/style_tab.php:1491
+#: main/elementor/classes/style_tab.php:1718
+#: main/elementor/classes/style_tab.php:1873
+#: main/elementor/classes/style_tab.php:2108
+#: main/elementor/classes/style_tab.php:2209
+#: main/elementor/classes/style_tab.php:2311
+#: main/elementor/classes/style_tab.php:2453
+#: main/elementor/widgets/comments_list.php:927
+msgid "Border"
+msgstr ""
+
+#: main/elementor/classes/payments.php:502
+#: main/elementor/classes/style_tab.php:168
+#: main/elementor/classes/style_tab.php:389
+#: main/elementor/classes/style_tab.php:617
+#: main/elementor/classes/style_tab.php:1994
+#: main/elementor/classes/style_tab.php:2365
+msgid "Horizontal Align"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:23
+msgid "Remove Field Outline"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:41
+#: main/elementor/classes/style_tab.php:194
+#: main/elementor/classes/style_tab.php:253
+#: main/elementor/classes/style_tab.php:322
+#: main/elementor/classes/style_tab.php:497
+#: main/elementor/classes/style_tab.php:540
+#: main/elementor/classes/style_tab.php:709
+#: main/elementor/classes/style_tab.php:752
+#: main/elementor/classes/style_tab.php:845
+#: main/elementor/classes/style_tab.php:1335
+#: main/elementor/classes/style_tab.php:1456
+#: main/elementor/classes/style_tab.php:1757
+#: main/elementor/classes/style_tab.php:1790
+#: main/elementor/classes/style_tab.php:1901
+#: main/elementor/classes/style_tab.php:2083
+#: main/elementor/classes/style_tab.php:2184
+#: main/elementor/classes/style_tab.php:2286
+#: main/elementor/classes/style_tab.php:2429
+#: main/elementor/classes/style_tab.php:2471
+#: main/elementor/widgets/acf-frontend-form.php:870
+#: main/elementor/widgets/comments_list.php:548
+#: main/elementor/widgets/edit_button.php:429
+#: main/elementor/widgets/edit_button.php:465
+msgid "Text Color"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:54
+#: main/elementor/widgets/acf-frontend-form.php:883
+msgid "Placeholder Text Color"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:107
+#: main/elementor/classes/style_tab.php:563
+#: main/elementor/classes/style_tab.php:775
+#: main/elementor/classes/style_tab.php:1813
+#: main/elementor/classes/style_tab.php:2494
+#: main/elementor/widgets/acf-frontend-form.php:936
+#: main/elementor/widgets/edit_button.php:488
+msgid "Border Color"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:123
+#: main/elementor/widgets/acf-frontend-form.php:952
+msgid "Border Width"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:139
+#: main/elementor/classes/style_tab.php:461
+#: main/elementor/classes/style_tab.php:673
+#: main/elementor/classes/style_tab.php:878
+#: main/elementor/classes/style_tab.php:1004
+#: main/elementor/classes/style_tab.php:1188
+#: main/elementor/classes/style_tab.php:1377
+#: main/elementor/classes/style_tab.php:1499
+#: main/elementor/classes/style_tab.php:1726
+#: main/elementor/classes/style_tab.php:1881
+#: main/elementor/classes/style_tab.php:2116
+#: main/elementor/classes/style_tab.php:2217
+#: main/elementor/classes/style_tab.php:2319
+#: main/elementor/classes/style_tab.php:2521
+#: main/elementor/widgets/acf-frontend-form.php:968
+#: main/elementor/widgets/comments_list.php:681
+#: main/elementor/widgets/edit_button.php:523
+msgid "Border Radius"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:157
+#: main/elementor/widgets/acf-frontend-form.php:165
+msgid "Form Title"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:186
+#: main/elementor/classes/style_tab.php:425
+#: main/elementor/classes/style_tab.php:637
+#: main/elementor/classes/style_tab.php:808
+#: main/elementor/classes/style_tab.php:984
+#: main/elementor/classes/style_tab.php:1168
+#: main/elementor/classes/style_tab.php:1298
+#: main/elementor/classes/style_tab.php:1420
+#: main/elementor/classes/style_tab.php:1688
+#: main/elementor/classes/style_tab.php:1843
+#: main/elementor/classes/style_tab.php:2046
+#: main/elementor/classes/style_tab.php:2147
+#: main/elementor/classes/style_tab.php:2249
+#: main/elementor/classes/style_tab.php:2383
+msgid "Typography"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:220
+msgid "Labels"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:228
+#: main/elementor/classes/style_tab.php:300
+#: main/elementor/classes/style_tab.php:368
+#: main/elementor/classes/style_tab.php:596
+#: main/elementor/classes/style_tab.php:1603
+msgid "Spacing"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:264
+msgid "Mark Color"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:292
+msgid "Instructions"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:345
+msgid "Fields"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:360
+msgid "Submit Buttons"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:406
+msgid "Next/Previous Align"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:411
+msgid "Start and End"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:533
+#: main/elementor/classes/style_tab.php:745
+#: main/elementor/classes/style_tab.php:1065
+#: main/elementor/classes/style_tab.php:1249
+#: main/elementor/classes/style_tab.php:2464
+#: main/elementor/widgets/edit_button.php:458
+msgid "Hover"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:585
+msgid "Draft Button"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:799
+msgid "Add New Button"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:909
+msgid "Action Icons"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:917
+msgid "Remove Row"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:925
+#: main/elementor/classes/style_tab.php:1109
+msgid "Horizontal Position"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:954
+#: main/elementor/classes/style_tab.php:1138
+msgid "Vertical Position"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1040
+#: main/elementor/classes/style_tab.php:1072
+#: main/elementor/classes/style_tab.php:1224
+#: main/elementor/classes/style_tab.php:1256
+msgid "Icon Color"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1100
+msgid "Add Variation"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1289
+msgid "Add Image Button"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1408
+msgid "Modal Button"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1529
+msgid "Steps"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1538
+msgid "Step Tabs"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1574
+msgid "Align"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1579
+#: main/elementor/classes/style_tab.php:1667
+#: main/elementor/widgets/comments_list.php:434
+#: main/elementor/widgets/edit_button.php:189
+msgid "Left"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1587
+#: main/elementor/classes/style_tab.php:1675
+#: main/elementor/widgets/comments_list.php:442
+#: main/elementor/widgets/edit_button.php:197
+msgid "Right"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1633
+msgid "Space Between"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1662
+msgid "Text Align"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1783
+msgid "Active"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1833
+msgid "Step Counter"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1927
+msgid "Modal Window"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1938
+msgid "Modal Width"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:1966
+msgid "Modal Content"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:2015
+msgid "Messages"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:2023
+msgid "Preview Messages"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:2038
+#: main/elementor/widgets/edit_button.php:130
+msgid "Success"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:2139
+msgid "Error"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:2241
+msgid "Limit"
+msgstr ""
+
+#: main/elementor/classes/style_tab.php:2356
+#: main/elementor/widgets/status_button.php:98
+#: main/elementor/widgets/trash_button.php:45
+#: main/elementor/widgets/trash_button.php:98
+msgid "Trash Button"
+msgstr ""
+
+#: main/elementor/dynamic-tags/author-local-avatar.php:39
+msgid "Author Local Avatar"
+msgstr ""
+
+#: main/elementor/dynamic-tags/user-local-avatar.php:75
+msgid "Fallback"
+msgstr ""
+
+#: main/elementor/helpers/data_fetch.php:77
+msgid "Post Author"
+msgstr ""
+
+#: main/elementor/helpers/data_fetch.php:188
+msgid "All Folders"
+msgstr ""
+
+#: main/elementor/module.php:135
+msgid "FRONTEND FORMS"
+msgstr ""
+
+#: main/elementor/module.php:143
+msgid "FRONTEND BUTTONS"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:60
+#: main/elementor/widgets/acf-frontend-form.php:2051
+#: main/elementor/widgets/edit_button.php:146
+#: main/elementor/widgets/edit_button.php:147
+#: main/elementor/widgets/edit_post.php:44
+msgid "Edit Post"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:61
+#: main/elementor/widgets/edit_options.php:45
+#: main/elementor/widgets/edit_post.php:45
+#: main/elementor/widgets/edit_product.php:45
+#: main/elementor/widgets/edit_term.php:45
+#: main/elementor/widgets/edit_user.php:45
+#: main/elementor/widgets/new_product.php:45
+msgid "Update"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:62
+#: main/elementor/widgets/edit_post.php:46
+msgid "Your post has been updated successfully."
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:90
+msgid "Frontend Admin Form"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:155
+msgid "Form Structure"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:178
+msgid "Form ID"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:191
+msgid "Multi Step"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:240
+msgid ""
+"<p><a target=\"_blank\" href=\"https://www.dynamiapps.com/\"><b>Go pro</"
+"b></a> to unlock multi step forms.</p>"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:251
+msgid "Field Type"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:266
+#: main/elementor/widgets/acf-frontend-form.php:1880
+msgid "ACF Field Groups"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:279
+#: main/elementor/widgets/acf-frontend-form.php:1879
+msgid "ACF Fields"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:293
+msgid "Exclude Specific Fields"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:311
+#: main/elementor/widgets/acf-frontend-form.php:1531
+#: main/elementor/widgets/comments_list.php:151
+msgid "Content"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:324
+msgid "Show Label"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:342
+msgid "Field Label"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:359
+msgid "Field Placeholder"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:371
+msgid "Default Value"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:374
+msgid ""
+"This will populate a field if no value has been given yet. You can use "
+"shortcodes from other text fields. Foe example: [acf:field_name]"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:387
+msgid "Instruction"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:390
+msgid "Field Instruction"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:403
+msgid "Required"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:416
+msgid "Hidden"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:418
+msgid ""
+"This will hide the field. Useful if used with a default value. Warning: do "
+"not hide required field if they do not have a default value!"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:430
+msgid "Disabled"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:432
+msgid ""
+"This will prevent users from editing the field and the data will not be sent."
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:444
+msgid "Readonly"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:446
+msgid "This will prevent users from editing the field."
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:461
+msgid "You can add here text, images template shortcodes, and more"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:462
+msgid "Type your message here"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:471
+msgid "Roles to Choose From"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:487
+msgid "Default Role Option"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:502
+msgid "Password Strength"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:507
+msgid "Very Weak"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:508
+msgid "Weak"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:509
+#: main/elementor/widgets/edit_button.php:99
+msgid "Medium"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:510
+msgid "Strong"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:520
+msgid "Taxonomy"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:533
+msgid "Appearance"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:538
+msgid "Multiple Value"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:540
+msgid "Checkboxes"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:541
+msgid "Multi Select"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:545
+msgid "Single Value"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:547
+msgid "Radio Buttons"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:548
+msgid "Select"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:560
+msgid "Add Term"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:586
+msgid "Allow Edit"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:590
+msgid ""
+"WARNING: allowing your users to change their username might affect your "
+"existing urls and their SEO rating"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:600
+msgid "On Text"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:614
+msgid "Off Text"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:640
+#: main/elementor/widgets/acf-frontend-form.php:642
+msgid "In stock"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:654
+#: main/elementor/widgets/acf-frontend-form.php:656
+msgid "Out of stock"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:668
+#: main/elementor/widgets/acf-frontend-form.php:670
+msgid "On backorder"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:694
+#: main/elementor/widgets/acf-frontend-form.php:696
+msgid "Do not allow"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:708
+msgid "Notify"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:710
+msgid "Allow, but notify customers"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:722
+#: main/elementor/widgets/acf-frontend-form.php:724
+msgid "Allow"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:740
+msgid "Version 2"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:741
+msgid "Version 3"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:752
+#: main/elementor/widgets/acf-frontend-form.php:796
+msgid "Site Key"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:766
+#: main/elementor/widgets/acf-frontend-form.php:799
+msgid "Secret Key"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:782
+msgid ""
+"If you don't already have a site key and a secret, you may generate them "
+"here:"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:813
+#: main/elementor/widgets/comments_list.php:542
+msgid "Style"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:855
+msgid "Hide Logo"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1086
+msgid "Submit Button Text"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1100
+msgid "Submit Button Description"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1102
+msgid "All done?"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1117
+msgid "Step Emails"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1119
+msgid ""
+"A comma seperated list of email names to send upon completing this step."
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1128
+msgid "Step Title"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1142
+msgid "Step Tab Text"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1158
+msgid "Previous Button"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1160
+#: main/elementor/widgets/acf-frontend-form.php:1161
+msgid "Previous"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1174
+msgid "Next Button"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1176
+#: main/elementor/widgets/acf-frontend-form.php:1177
+msgid "Next"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1194
+msgid "Action"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1203
+msgid "Custom Action Settings"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1239
+msgid "Permmisions"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1248
+msgid "Custom Permmissions Settings"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1272
+msgid "Steps Settings"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1289
+msgid "Actions"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1315
+msgid "Submit Actions"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1330
+msgid ""
+"<p><a target=\"_blank\" href=\"https://www.dynamiapps.com/\"><b>Go pro</"
+"b></a> to unlock more actions.</p>"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1338
+msgid "Redirect After Submit"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1342
+msgid "Reload Current Page/Post"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1345
+msgid "Post Url"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1353
+msgid "No Page Reload"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1356
+msgid ""
+"This feature is still in development so it will update the data in the "
+"database, but not on the frontend."
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1368
+msgid "After Reload"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1372
+msgid "Clear Form"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1373
+msgid "Edit Form"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1403
+msgid "Key"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1405
+msgid "page_id"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1413
+msgid "Value"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1425
+msgid "URL Parameters"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1435
+msgid "Preview Redirect URL"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1448
+msgid "Show Success Message"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1459
+msgid "Submit Message"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1500
+msgid "No Permissions Message"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1505
+msgid "None"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1521
+#: main/elementor/widgets/acf-frontend-form.php:1522
+msgid "You do not have the proper permissions to view this form"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1542
+#: main/elementor/widgets/edit_button.php:295
+#: main/elementor/widgets/status_button.php:87
+#: main/elementor/widgets/trash_button.php:87
+msgid "Only Logged In Users"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1543
+#: main/elementor/widgets/edit_button.php:296
+#: main/elementor/widgets/status_button.php:88
+#: main/elementor/widgets/trash_button.php:88
+msgid "Only Logged Out"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1544
+#: main/elementor/widgets/edit_button.php:297
+#: main/elementor/widgets/status_button.php:89
+#: main/elementor/widgets/trash_button.php:89
+msgid "All Users"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1553
+#: main/elementor/widgets/edit_button.php:315
+#: main/elementor/widgets/status_button.php:165
+#: main/elementor/widgets/trash_button.php:261
+msgid "Who Can See This..."
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1567
+#: main/elementor/widgets/edit_button.php:326
+#: main/elementor/widgets/status_button.php:176
+#: main/elementor/widgets/trash_button.php:272
+msgid "Select By Role"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1582
+#: main/elementor/widgets/acf-frontend-form.php:1623
+msgid "<h3>OR</h3>"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1591
+#: main/elementor/widgets/acf-frontend-form.php:1603
+#: main/elementor/widgets/edit_button.php:343
+#: main/elementor/widgets/edit_button.php:357
+#: main/elementor/widgets/status_button.php:193
+#: main/elementor/widgets/status_button.php:207
+#: main/elementor/widgets/trash_button.php:289
+#: main/elementor/widgets/trash_button.php:303
+msgid "Select By User"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1595
+#: main/elementor/widgets/edit_button.php:347
+#: main/elementor/widgets/status_button.php:197
+#: main/elementor/widgets/trash_button.php:293
+msgid "Enter the a comma-seperated list of user ids"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1632
+#: main/elementor/widgets/acf-frontend-form.php:1644
+msgid "Dynamic Permissions"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1648
+msgid "User Manager"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1660
+#: main/elementor/widgets/edit_button.php:306
+#: main/elementor/widgets/status_button.php:156
+#: main/elementor/widgets/trash_button.php:252
+msgid "Permissions"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1670
+msgid "WP uploader"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1683
+msgid "<h3>Media Privacy</h3>"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1685
+msgid "<p>Click <a target=\"_blank\" href=\""
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1698
+msgid "Display Options"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1706
+msgid "Show in Modal"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1716
+msgid "Modal Button Text"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1731
+msgid "Modal Button Icon"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1742
+msgid "Hide Field Labels"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1756
+msgid "Label Position"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1759
+msgid "Above"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1760
+#: main/elementor/widgets/comments_list.php:717
+msgid "Inline"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1771
+msgid "Hide Required Mark"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1788
+msgid "Instruction Position"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1791
+msgid "Above Field"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1792
+msgid "Below Field"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1803
+msgid "Field Seperator"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1824
+msgid "Limit Submissions"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1834
+msgid ""
+"<p><a target=\"_blank\" href=\"https://www.dynamiapps.com/\"><b>Go pro</"
+"b></a> to unlock limit submissions.</p>"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1852
+#: main/elementor/widgets/status_button.php:248
+#: main/elementor/widgets/trash_button.php:344
+msgid "Styles"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1861
+#: main/elementor/widgets/status_button.php:257
+#: main/elementor/widgets/trash_button.php:353
+msgid ""
+"<p><a target=\"_blank\" href=\"https://www.dynamiapps.com/\"><b>Go Pro</"
+"b></a> to unlock styles.</p>"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1877
+msgid "ACF Field"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1890
+#: main/elementor/widgets/acf-frontend-form.php:1956
+msgid "Categories"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1891
+#: main/elementor/widgets/acf-frontend-form.php:1957
+msgid "Tags"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1892
+#: main/elementor/widgets/acf-frontend-form.php:1958
+msgid "Custom Taxonomy"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1899
+msgid "Password"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1900
+msgid "Confirm Password"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1905
+#: main/elementor/widgets/comments_list.php:118
+msgid "Display Name"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1906
+msgid "Biography"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1913
+msgid "Term Name"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1917
+#: main/elementor/widgets/comments_list.php:98
+#: main/elementor/widgets/comments_list.php:139
+#: main/elementor/widgets/comments_list.php:854
+msgid "Layout"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1924
+msgid "Site"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1926
+msgid "Site Title"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1927
+msgid "Site Tagline"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1928
+msgid "Site Logo"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1934
+#: main/elementor/widgets/comments_list.php:128
+msgid "Comment Body"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1935
+msgid "Comment Author"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1940
+msgid "Security"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1942
+msgid "Recaptcha"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1947
+msgid "Product Information"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1950
+msgid "Price"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1951
+msgid "Sale Price"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1952
+msgid "Description"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1953
+msgid "Main Image"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1954
+msgid "Product Images"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1955
+msgid "Short Description"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1962
+msgid "Product Inventory"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1965
+msgid "Stock Status"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1966
+msgid "Sold Individually"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1967
+msgid "Manage Stock"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1968
+msgid "Stock Quantity"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1969
+msgid "Allow Backorders"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:1970
+msgid "Low Stock Threshold"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2039
+msgid "Main Action"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2052
+#: main/elementor/widgets/acf-frontend-form.php:2362
+msgid "New Post"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2053
+msgid "Edit User"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2054
+msgid "New User"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2055
+#: main/elementor/widgets/edit_term.php:44
+msgid "Edit Term"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2063
+#: main/elementor/widgets/edit_options.php:44
+msgid "Edit Site"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2065
+#: main/elementor/widgets/edit_product.php:44
+msgid "Edit Product"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2066
+#: main/elementor/widgets/acf-frontend-form.php:2378
+msgid "New Product"
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2211
+msgid "Note: You must turn on \"Multi Step\" for your steps to work."
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2770
+msgid "Validation failed."
+msgstr ""
+
+#: main/elementor/widgets/acf-frontend-form.php:2771
+msgid "Limit Reached."
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:56
+msgid "Comment List"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:107
+msgid "Comments Per Page"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:116
+#: main/elementor/widgets/comments_list.php:230
+msgid "Author"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:119
+msgid "Author Email"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:122
+#: main/elementor/widgets/comments_list.php:1052
+msgid "Profile Image"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:132
+#: main/elementor/widgets/comments_list.php:134
+#: main/elementor/widgets/comments_list.php:718
+msgid "Custom"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:135
+msgid "Custom Field Data"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:141
+msgid "Group"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:158
+msgid "Comment Data"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:167
+msgid "End Point"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:179
+#: main/elementor/widgets/comments_list.php:194
+#: main/elementor/widgets/edit_button.php:124
+msgid "Type"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:183
+#: main/elementor/widgets/comments_list.php:198
+#: main/elementor/widgets/edit_button.php:141
+msgid "Text"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:184
+#: main/elementor/widgets/comments_list.php:199
+msgid "Image"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:200
+msgid "Choices"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:212
+msgid "Some Custom Text"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:225
+msgid "Source"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:241
+#: main/elementor/widgets/comments_list.php:254
+#: main/elementor/widgets/comments_list.php:393
+msgid "Field Key"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:267
+msgid "Display"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:270
+msgid "value"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:360
+msgid "Before Text"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:371
+msgid "After Text"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:382
+msgid "Default Text"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:406
+msgid "HTML Tag"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:430
+#: main/elementor/widgets/edit_button.php:185
+msgid "Alignment"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:446
+#: main/elementor/widgets/edit_button.php:201
+msgid "Justified"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:491
+msgid "Default Image"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:504
+msgid "Custom Size (px)"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:523
+msgid "Alt Text"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:525
+msgid "display_name"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:527
+msgid "Author Display Name"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:528
+msgid "Author First Name"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:529
+msgid "Author Last Name"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:634
+msgid "Max Width"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:706
+msgid "Advanced"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:716
+msgid "Full Width"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:732
+msgid "Custom Width"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:814
+msgid "User Data"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:864
+msgid "Comment Margin"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:882
+msgid "Comment Spacing"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:895
+msgid "Reply Spacing"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:908
+msgid "Comment Paddings"
+msgstr ""
+
+#: main/elementor/widgets/comments_list.php:934
+msgid "Comment Border Radius"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:52
+msgid "Edit Button"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:97
+msgid "Extra Small"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:98
+msgid "Small"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:100
+msgid "Large"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:101
+msgid "Extra Large"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:117
+#: main/elementor/widgets/edit_button.php:395
+msgid "Button"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:129
+msgid "Info"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:131
+msgid "Warning"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:132
+msgid "Danger"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:154
+msgid "Link to Edit Page"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:171
+msgid "URL Query Key"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:176
+msgid "Choose the key of the URL query which returns the post id"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:224
+msgid "Icon"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:237
+msgid "Icon Position"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:241
+msgid "Before"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:242
+msgid "After"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:253
+msgid "Icon Spacing"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:270
+msgid "View"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:279
+msgid "Button ID"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:285
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:286
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows <code>A-z 0-9</code> & underscore chars "
+"without spaces."
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:378
+#: main/elementor/widgets/status_button.php:228
+#: main/elementor/widgets/trash_button.php:324
+msgid "Dynamic Selection"
+msgstr ""
+
+#: main/elementor/widgets/edit_button.php:502
+msgid "Hover Animation"
+msgstr ""
+
+#: main/elementor/widgets/edit_options.php:46
+msgid "Your site info has been updated successfully."
+msgstr ""
+
+#: main/elementor/widgets/edit_options.php:74
+msgid "Edit Site Form"
+msgstr ""
+
+#: main/elementor/widgets/edit_post.php:74
+msgid "Edit Post Form"
+msgstr ""
+
+#: main/elementor/widgets/edit_product.php:46
+msgid "Your product has been updated successfully."
+msgstr ""
+
+#: main/elementor/widgets/edit_product.php:79
+msgid "Edit Product Form"
+msgstr ""
+
+#: main/elementor/widgets/edit_term.php:46
+msgid "The term has been edited successfully."
+msgstr ""
+
+#: main/elementor/widgets/edit_term.php:69
+msgid "Edit Term Form"
+msgstr ""
+
+#: main/elementor/widgets/edit_user.php:44
+msgid "Edit Profile"
+msgstr ""
+
+#: main/elementor/widgets/edit_user.php:46
+msgid "Your profile has been updated successfully."
+msgstr ""
+
+#: main/elementor/widgets/edit_user.php:79
+msgid "Edit User Form"
+msgstr ""
+
+#: main/elementor/widgets/new_comment.php:44
+msgid "Add Comment"
+msgstr ""
+
+#: main/elementor/widgets/new_comment.php:45
+#: main/elementor/widgets/new_post.php:45
+#: main/elementor/widgets/new_user.php:45
+msgid "Submit"
+msgstr ""
+
+#: main/elementor/widgets/new_comment.php:46
+msgid "Your comment has been added successfully."
+msgstr ""
+
+#: main/elementor/widgets/new_comment.php:69
+msgid "New Comment Form"
+msgstr ""
+
+#: main/elementor/widgets/new_post.php:44
+msgid "Add Post"
+msgstr ""
+
+#: main/elementor/widgets/new_post.php:46
+msgid "Your post has been added successfully."
+msgstr ""
+
+#: main/elementor/widgets/new_post.php:74
+msgid "New Post Form"
+msgstr ""
+
+#: main/elementor/widgets/new_product.php:44
+msgid "Add Product"
+msgstr ""
+
+#: main/elementor/widgets/new_product.php:46
+msgid "Your product has been added successfully."
+msgstr ""
+
+#: main/elementor/widgets/new_product.php:79
+msgid "Add Product Form"
+msgstr ""
+
+#: main/elementor/widgets/new_user.php:44
+msgid "Register Now"
+msgstr ""
+
+#: main/elementor/widgets/new_user.php:46
+msgid "Your profile has been created successfully."
+msgstr ""
+
+#: main/elementor/widgets/new_user.php:79
+msgid "New User Form"
+msgstr ""
+
+#: main/elementor/widgets/status_button.php:45
+msgid "Post Status Button"
+msgstr ""
+
+#: main/elementor/widgets/trash_button.php:183
+msgid "Post To Delete"
+msgstr ""
+
+#: main/payments/get_paid.php:66
+msgid "Limit Reached. You are no longer authorized to post"
+msgstr ""

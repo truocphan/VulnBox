@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "acf-frontend/form",
+  "title": "Frontend Admin Form",
+  "description": "Display a frontend admin form so that your users can update content from the frontend.",
+  "category": "frontend-admin",
+  "textdomain": "frontend-admin",
+  "supports": {
+    "align": [
+      "wide"
+    ]
+  },
+  "attributes": {
+    "formID": {
+      "type": "number",
+      "default": 0
+    },
+    "editMode": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "file:../../admin-form/index.js"
+}

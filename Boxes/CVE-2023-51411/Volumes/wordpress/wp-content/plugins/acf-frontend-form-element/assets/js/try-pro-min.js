@@ -1,0 +1,1 @@
+!function(n){n(document).ready((function(){var a=n(".acff-upgrade-pro-action");a.length&&a.find("a.acff-dismiss-notice").click((function(t){t.preventDefault(),a.remove(),n.post(ajaxurl,{action:"acff-upgrade-pro-dismiss",_n:n(this).attr("data-nonce")},(function(n){}))}))}))}(jQuery);

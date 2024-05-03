@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "acf-frontend/submissions",
+  "title": "Frontend Admin Submissions",
+  "description": "Display frontend submissions so that site admins can update content from the frontend.",
+  "category": "frontend-admin",
+  "textdomain": "frontend-admin",
+  "supports": {
+    "align": [
+      "wide"
+    ]
+  },
+  "attributes": {
+    "formID": {
+      "type": "number",
+      "default": 0
+    },
+    "editMode": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "file:../../submissions/index.js"
+}
