@@ -1,0 +1,164 @@
+.piotnetforms-social-icon__items{
+    display: flex;
+}
+.piotnetforms-icon__item i{
+    font-size: 40px;
+    color: #006afe;
+}
+.piotnetforms-icon__item.stacked-circle i{
+    color: #ffffff;
+}
+.piotnetforms-icon__item.stacked-circle{
+    display: inline-block;
+    padding: .5em;
+    background-color: #30a6d8;
+    border-radius: 50%;
+}
+.piotnetforms-icon__item.stacked-square{
+    display: inline-block;
+    padding: .5em;
+    background-color: #30a6d8;
+}
+.piotnetforms-icon__item.stacked-square i{
+    color: #ffffff;
+}
+.piotnetforms-icon__item.framed-square{
+    display: inline-block;
+    padding: .5em;
+    border: 3px solid #30a6d8;
+}
+.piotnetforms-icon__item.framed-circle{
+    display: inline-block;
+    padding: .5em;
+    border: 3px solid #30a6d8;
+    border-radius: 50%;
+}
+.piotnetforms-social-icon__item{
+    margin-right: 7px;
+}
+.piotnetforms-social-icon__item:hover i{
+  transition: all .3s;
+}
+.piotnetforms-social-icon__item:last-child{
+    margin-right: 0 !important;
+}
+.piotnetforms-social-icon__item.rounded i{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.piotnetforms-social-icon__item.square i{
+    padding: 15px;
+    font-size: 20px;
+}
+.piotnetforms-social-icon__item.circle i{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+/* social color */
+.piotnetforms-social-icon__item .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+  .piotnetforms-social-icon__item .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .piotnetforms-social-icon__item .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item.fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item.fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .piotnetforms-social-icon__item .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+.piotnetforms-social-icon__item .fa-rss {
+    background: #ff6600;
+    color: white;
+}

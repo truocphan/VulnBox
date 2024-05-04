@@ -1,0 +1,60 @@
+.piotnetforms-booking {
+	label {
+		display: inline-block;
+	}
+}
+
+.piotnetforms-booking__inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -3px;
+} 
+
+.piotnetforms-booking__inner .active {
+	background: #fff;
+}
+
+.piotnetforms-booking__item {
+	padding: 3px;
+}
+
+.piotnetforms-booking__item-inner {
+	padding: 15px;
+	position: relative;
+	border-radius: 6px;
+	input {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+	}
+	.elementor-field-option {
+		label {
+			display: none; 
+		}
+	} 
+}
+ 
+.piotnetforms-booking__item:hover { 
+	transition: 0.3s;
+}   
+
+.variation-piotnetforms_form_booking,
+.variation-piotnetforms_form_booking_fields,
+.variation-piotnetforms_woocommerce_checkout_redirect {
+  display: none !important; 
+}
+
+.piotnetforms-booking--loading {
+  opacity: 0.5;
+  pointer-events: none;
+  .elementor-editor-active & {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

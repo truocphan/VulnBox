@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoon.eot?q99cza');
+  src:  url('../../fonts/icomoon.eot?q99cza#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?q99cza') format('truetype'),
+    url('../../fonts/icomoon.woff?q99cza') format('woff'),
+    url('../../fonts/icomoon.svg?q99cza#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spinner-of-dots:before {
+  content: "\e901";
+}
+.icon-sort-down:before {
+  content: "\e900";
+}
+
+.single-piotnetforms {
+  background: #fff;
+}
+
+.piotnetforms-field-type-hidden { 
+    display: none !important;
+}
+
+[data-piotnetforms-submit-form-id] {
+	cursor: pointer;
+}
+
+[data-piotnetforms-submit-form-id] .piotnetforms-spinner {
+	float: left;
+	margin-right: 10px;
+	display: none !important;
+}
+
+.piotnetforms-spinner {
+	display: none;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.piotnetforms-waiting [data-piotnetforms-submit-form-id] .piotnetforms-spinner {
+  display: inline-block !important;
+  animation: spin 2s infinite linear;
+}
+
+.piotnetforms-submit .piotnetforms-message {
+	display: none;
+	margin-top: 10px;
+}
+
+.piotnetforms-submit .piotnetforms-message.visible {
+	display: block;
+}
+
+.piotnetforms-upload { 
+  width: 100%;
+}
+
+.piotnetforms-upload .error {
+  display: block;
+}
+
+[data-piotnetforms-required] {
+  color: red;
+  width: 100%;
+}
+
+.piotnetforms-mark-required .piotnetforms-field-label:after {
+    content: "*";
+    color: red;
+    padding-left: .2em;
+}
+
+.piotnetforms-widget-piotnetforms-field-hidden {
+  margin-bottom: 0 !important;
+}
+
+.piotnetforms-field-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  input,
+  textarea,
+  select {
+    outline: none;
+  }
+
+  select {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+}
+
+.piotnetforms-field-group {
+  width: 100%;
+}
+
+.piotnetforms-fields-wrapper.piotnetforms-labels-above .piotnetforms-field-group .piotnetforms-field-subgroup, .piotnetforms-fields-wrapper.piotnetforms-labels-above .piotnetforms-field-group .piotnetforms-select-wrapper, .piotnetforms-fields-wrapper.piotnetforms-labels-above .piotnetforms-field-group input, .piotnetforms-fields-wrapper.piotnetforms-labels-above .piotnetforms-field-group textarea {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.piotnetforms-fields-wrapper {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.piotnetforms-field-subgroup {
+  display: flex;
+  flex-direction: column;
+  &.piotnetforms-subgroup-inline {
+    flex-direction: row;
+    .piotnetforms-field-option {
+      padding-right: 10px;
+    }
+  }
+}
+
+.piotnetforms-field-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  font-size: 18px;
+  i {
+    display: block;
+  }
+}
+
+.piotnetforms-field-label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.piotnetforms-button-content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.piotnetforms-align-icon-right {
+	order: 15; 
+}
+
+a.piotnetforms-btn__inner {
+	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    cursor: pointer;
+    background-color: #006afe;
+    &::hover {
+    	color: #fff;
+    }
+}
+
+@media (min-width: 1025px) {
+	.piotnetforms-hidden-desktop {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.piotnetforms-hidden-tablet {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.piotnetforms-hidden-phone {
+		display: none;
+	}
+}
+
+.piotnetforms-field-group {
+	position: relative; 
+}
+
+.piotnetforms-field-icon {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	font-size: 18px;
+}
+
+.piotnetforms-field-container {
+	position: relative; 
+}
+
+.piotnetforms-field-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.piotnetforms-button {
+    display: inline-block;
+    line-height: 1;
+    background-color: #006afe;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoon.eot?q99cza');
+  src:  url('../../fonts/icomoon.eot?q99cza#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?q99cza') format('truetype'),
+    url('../../fonts/icomoon.woff?q99cza') format('woff'),
+    url('../../fonts/icomoon.svg?q99cza#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.piotnetforms-message {
+	display: none;
+}
+
+.piotnetforms-button--justify {
+	width: 100%;
+}
+
+.piotnetforms-container {
+	/*max-width: 1140px;
+	padding: 15px;
+	margin: 0 auto;*/
+}
+
+.piotnetforms-button-icon {
+	display: inline-block;
+}
+
+.piotnetforms-admin-button-ajax{
+  padding: 10px;
+  font-size: 13px;
+  outline: none;
+  border:none;
+  transition: all .3s;
+}
+.piotnetforms-admin-button-ajax:hover{
+  -webkit-box-shadow: 0 8px 6px -8px black;
+	-moz-box-shadow: 0 8px 6px -8px black;
+	box-shadow: 0 8px 6px -8px black;
+}
+
+.piotnetforms-select-wrapper::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e900";
+  font-weight: 900;
+  font-size: 8px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 10px;
+    pointer-events: none;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.6,5.864 L7.752,5.864 L14.52,23 L13.392,23 L11.232,17.504 L3.024,17.504 L0.84,23 L-0.288,23 L6.6,5.864 Z M10.896,16.592 L7.224,6.896 L7.176,6.896 L3.36,16.592 L10.896,16.592 Z" id="path-1"></path>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-23">
+            <rect id="Rectangle" x="0" y="0" width="41" height="41"></rect>
+            <g id="Group-6" transform="translate(10.138000, 6.000000)" fill-rule="nonzero">
+                <g id="A" transform="translate(2.862000, 0.000000)">
+                    <g>
+                        <use fill="#000000" xlink:href="#path-1"></use>
+                        <use fill="#222222" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <polygon id="Path_5" fill="#000000" points="-2.84217094e-14 28.5 2.89949724 28.5 20.345 28.5 20.345 27.5 19.3604715 27.5 -2.84217094e-14 27.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

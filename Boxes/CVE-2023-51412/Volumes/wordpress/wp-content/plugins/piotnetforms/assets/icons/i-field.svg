@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>            </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="2.88 3.392 0.024 3.392 0.024 2.432 6.876 2.432 6.876 3.392 4.02 3.392 4.02 11 2.88 11"></polygon>
+    </defs>
+    <g id="------------" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-27">
+            <rect id="Rectangle-Copy-4" x="0" y="0" width="41" height="41"></rect>
+            <g id="Group-12" transform="translate(2.000000, 12.000000)">
+                <g id="Group-2">
+                    <g id="Rectangle_16">
+                        <rect id="Rectangle" x="0" y="0" width="37" height="17"></rect>
+                        <path d="M0,0 L37,0 L37,17 L0,17 L0,0 Z M1,1 L1,16 L36,16 L36,1 L1,1 Z" id="Rectangle" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                    <g id="T" transform="translate(5.000000, 2.000000)" fill-rule="nonzero">
+                        <g>
+                            <use fill="#000000" xlink:href="#path-1"></use>
+                            <use fill="#222222" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

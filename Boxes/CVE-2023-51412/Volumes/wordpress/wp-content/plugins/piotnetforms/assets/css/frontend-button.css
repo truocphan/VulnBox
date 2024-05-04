@@ -1,0 +1,13 @@
+.piotnetforms-btn a.piotnet-button{
+    padding: 10px 20px;
+    background-color: #006afe;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    display: inline-block;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="16px" viewBox="0 0 27 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(-0.989000, -0.500000)">
+            <g id="Rectangle_63" transform="translate(14.489000, 8.500000) rotate(90.000000) translate(-14.489000, -8.500000) translate(6.489000, -5.000000)">
+                <rect id="Rectangle" x="0" y="0" width="16" height="27" rx="1"></rect>
+                <rect id="Rectangle" stroke="#000000" x="0.5" y="0.5" width="15" height="26" rx="0.5"></rect>
+            </g>
+            <circle id="Ellipse_14" fill="#000000" fill-rule="nonzero" transform="translate(5.000000, 8.919000) rotate(90.000000) translate(-5.000000, -8.919000) " cx="5" cy="8.919" r="1"></circle>
+        </g>
+    </g>
+</svg>

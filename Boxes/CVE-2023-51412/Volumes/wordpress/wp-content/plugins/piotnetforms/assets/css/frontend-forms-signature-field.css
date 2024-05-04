@@ -1,0 +1,14 @@
+.piotnetforms-signature {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.piotnetforms-signature canvas {
+	margin-bottom: 10px;
+	border: 1px solid #818a91;
+}
+
+.piotnetforms-signature .piotnetforms-field {
+	display: none !important;
+}

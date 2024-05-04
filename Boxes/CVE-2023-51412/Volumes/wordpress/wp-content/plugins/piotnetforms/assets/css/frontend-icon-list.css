@@ -1,0 +1,37 @@
+ul.piotnetforms-icon-list__inner{
+    margin: 0;
+}
+ul.piotnetforms-icon-list__inner.horizontal{
+    display: flex;
+}
+ul.piotnetforms-icon-list__inner>li.piotnetforms-icon-list__item{
+    list-style: none;
+    margin-bottom: 5px;
+    align-items: center;
+}
+ul.piotnetforms-icon-list__inner.horizontal>li.piotnetforms-icon-list__item{
+    display: inline-flex;
+}
+ul.piotnetforms-icon-list__inner.vertical>li.piotnetforms-icon-list__item{
+    display: flex;
+}
+ul.piotnetforms-icon-list__inner.vertical>li.piotnetforms-icon-list__item:last-child{
+    margin-bottom: 0px !important;
+}
+ul.piotnetforms-icon-list__inner.horizontal>li.piotnetforms-icon-list__item:last-child{
+    margin-right: 0px !important;
+}
+span.piotnetforms-icon-list__item-icon i, span.piotnetforms-icon-list__item-text{
+    transition: all .3s;
+}
+
+.piotnetforms-icon-list__item--align {
+    display: flex;
+    align-items: center;
+}
+.piotnetforms-icon__item i{
+    transition: all .3s;
+}
+.piotnetforms-icon-list{
+    display: flex;
+}

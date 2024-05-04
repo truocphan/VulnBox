@@ -1,0 +1,190 @@
+
+.piotnetforms-editor__widgets {
+	display: none;
+	flex-wrap: wrap;
+	&.active {
+		display: flex;
+	}
+}
+
+.piotnetforms-editor__widgets-item {
+	width: 50%;
+	padding: 6px;
+}
+
+#piotnetforms-editor-meta-box {
+	.inside {
+		padding: 0;
+		margin:  0;
+	}
+}
+
+.piotnetforms-editor__widgets-item-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+	background: #fff;
+	cursor: pointer;
+	.piotnet-widget-preview & {
+		width: 100% !important;
+		border: dashed 1px #dedede;
+		margin-bottom: 10px;
+	}
+	i {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+}
+
+.piotnetforms-widget {
+	.piotnet-widget-preview & {
+		cursor: pointer;
+	}
+}
+
+.piotnetforms-editor__header {
+	padding: 6px;
+}
+
+.piotnetforms-editor__header-inner {
+	position: relative;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,.05);
+}
+
+.piotnetforms-editor__header-text {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.piotnetforms-editor__widgets-open {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+ 
+.piotnetforms-editor__widgets-open-button {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.piotnetforms-widget-controls {
+	display: none;
+	&.active {
+		display: block;
+	}
+}
+
+[data-piotnet-editor-widgets-item] {
+	&.active {
+		outline: solid 1px #006afe;
+	}
+}
+
+.piotnet-column__inner {
+	padding: 10px;
+	.piotnetforms-widget-preview & {
+		min-height: 50px; 
+	}
+}
+
+.piotnet-section {
+	position: relative;
+	&:hover {
+		outline: solid 1px #006afe;
+	}
+}
+
+.piotnet-section__controls {
+	display: none;
+	position: absolute;
+	top: -26px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 99;
+	background: #006afe;
+	color: #fff;
+	font-size: 12px;
+	.piotnet-section:hover>&,
+	.active>& {
+		display: flex;
+	}
+}
+
+.piotnet-section__controls-item {
+    padding: 7px 8px;
+    line-height: 1;
+}
+
+.piotnet-column {
+	position: relative;
+	&:hover {
+		outline: solid 1px #006afe;
+	}
+}
+
+.piotnet-column__controls {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	background: #006afe;
+	color: #fff;
+	font-size: 12px; 
+	.piotnet-column:hover>&,
+	.active>& {
+		display: flex;
+	}
+}
+
+.piotnet-column__controls-item {
+	padding: 7px 8px;
+    line-height: 1;
+}
+
+.piotnet-widget {
+	position: relative;
+	&:hover {
+		outline: solid 1px #006afe;
+	}
+}
+
+.piotnet-widget__controls {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	background: #006afe;
+	color: #fff;
+	font-size: 12px;
+	.piotnet-widget:hover>&,
+	.active>& {
+		display: flex;
+	}
+} 
+
+.piotnet-widget__controls-item {
+	padding: 7px 8px;
+    line-height: 1;
+}
+
+.piotnetforms-widget-preview .piotnetforms-conditional-logic-hidden {
+    display: block !important;
+}
+
+.piotnetforms-database td {
+  padding: 10px 15px;
+  margin-bottom: 10px; 
+  border: solid 1px #ccc;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Ellipse_12" transform="translate(9.500000, 9.500000) scale(-1, 1) translate(-9.500000, -9.500000) ">
+                <circle id="Oval" cx="9.5" cy="9.5" r="9.5"></circle>
+                <circle id="Oval" stroke="#FFFFFF" cx="9.5" cy="9.5" r="9"></circle>
+            </g>
+            <polygon id="Triangle" stroke="#FFFFFF" transform="translate(10.500000, 9.500000) scale(-1, -1) rotate(-90.000000) translate(-10.500000, -9.500000) " points="10.5 6 14 13 7 13"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+.piotnet-start-controls-tabs{
+    display: flex;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.piotnet-controls-tab-heading{
+    cursor: pointer;
+    width: 100%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    padding: 5px 0px;
+    transition: all .3s;
+}
+.piotnet-controls-tab-heading:last-child{
+    border-right: none;
+}
+.piotnet-controls-tab-heading.active{
+    background-color: #949496;
+    color: #fff;
+}
+.piotnet-controls-tab-content{
+    display: none;
+}
+.piotnet-controls-tab-content.active{
+    transition: all .3s;
+    display: block;
+} 

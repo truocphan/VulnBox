@@ -1,0 +1,35 @@
+#piotnetforms {
+	word-break: break-word;
+	width: 100%;
+	img {
+		max-width: 100%;
+	}
+}
+
+.piotnet-base-frontend {
+	padding: 0;
+}
+
+.piotnet-column__inner {
+	padding: 10px;
+	width: 100%;
+}
+
+.piotnet-section__container {
+	display: flex;
+	flex-wrap: wrap; 
+}
+
+.piotnet-column {
+	flex: 1 1 auto;
+	display: flex;
+}
+
+.piotnet-section__container {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	&.piotnet-section__container--full-width {
+		width: 100% !important;
+		max-width: none !important;
+	}
+}

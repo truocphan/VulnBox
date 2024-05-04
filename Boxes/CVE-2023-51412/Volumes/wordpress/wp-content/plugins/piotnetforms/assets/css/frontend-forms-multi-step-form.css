@@ -1,0 +1,95 @@
+.piotnetforms-multi-step-form {
+    .piotnetforms-message {
+        text-align: center;
+    }
+}
+
+.piotnetforms-multi-step-form__progressbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    counter-reset: step;
+}
+
+.piotnetforms-multi-step-form__progressbar-item {
+    position: relative;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    flex: 1;
+}
+
+.piotnetforms-multi-step-form__progressbar-item-step {
+	width: 20px;
+    line-height: 20px;
+    display: block; 
+    color: #333;
+    background: #ececec;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.piotnetforms-multi-step-form__progressbar-item-step-number {
+	position: relative;
+}
+
+.piotnetforms-multi-step-form__progressbar-item-step-number::after {
+    content: '';
+    width: calc(100% + 30px);
+    height: 2px;
+    background: #ececec;
+    position: absolute;
+    left: calc(-50% - 20px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.rtl .piotnetforms-multi-step-form__progressbar-item-step-number::after {
+    left: calc(50%);
+}
+
+
+.piotnetforms-multi-step-form__progressbar-item:first-child .piotnetforms-multi-step-form__progressbar-item-step-number::after {
+	display: none;
+}
+
+.active .piotnetforms-multi-step-form__progressbar-item-step, .piotnetforms-multi-step-form__progressbar-item.active .piotnetforms-multi-step-form__progressbar-item-step-number::after {
+    background: #27AE60;
+    color: #fff;
+}
+
+.piotnetforms-multi-step-form__content-item {
+	display: none;
+}
+
+.piotnetforms-multi-step-form__content-item.active {
+	display: block;
+}
+
+.piotnetforms-multi-step-form__content-item-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.piotnetforms-multi-step-form__content-item:first-child .piotnetforms-multi-step-form__content-item-buttons {
+	justify-content: center;
+}
+
+.piotnetforms-multi-step-form__content-item-button .elementor-button {
+	background: #27AE60;
+	cursor: pointer;
+}
+
+.piotnetforms-multi-step-form .elementor-message {
+	display: none;
+	text-align: center;
+}
+
+.piotnetforms-multi-step-form .elementor-message.visible {
+	display: block;
+}

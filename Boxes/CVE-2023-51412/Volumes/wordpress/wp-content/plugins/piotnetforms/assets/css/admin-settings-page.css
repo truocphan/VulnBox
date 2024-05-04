@@ -1,0 +1,297 @@
+.piotnetforms-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #261979;
+}
+
+.piotnetforms-header .elementor-message {
+  display: none !important;
+}
+
+.piotnetforms-header__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.piotnetforms-header__left>* {
+  display: none;
+}
+
+@media (max-width: 1099px) {
+  .piotnetforms-header__left {
+    width: 100%;
+  }
+}
+
+.piotnetforms-header__logo {
+  display: block;
+}
+
+.piotnetforms-header__logo img {
+  width: 50px;
+}
+
+.piotnetforms-header__headline {
+  display: block; 
+  color: #fff;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.piotnetforms-header__right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1099px) {
+  .piotnetforms-header__right {
+    width: 100%;
+    padding: 20px 0 20px 20px;
+  }
+}
+
+.piotnetforms-header__button {
+  margin-right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 100px;
+  transition: all .4s;
+  font-weight: bold;
+}
+
+.piotnetforms-header__button:hover {
+  background: #fff !important;
+  color: #27134c;
+}
+
+a.piotnetforms-header__button {
+  text-decoration: none;
+}
+
+.piotnetforms-header__button--border {
+  border: solid 2px #fff;
+}
+
+.piotnetforms-header__button--gradient {
+  padding: 12px 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #f2295b;
+}
+
+.piotnetforms-wrap {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.piotnetforms-wrap * {
+  box-sizing: border-box;
+}
+
+.piotnetforms-wrap a {
+  outline: none;
+  text-decoration: none;
+}
+
+.piotnetforms-wrap h3 {
+  font-size: 24px;
+  color: #23282d !important;
+  text-decoration: none;
+}
+
+.piotnetforms-features {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.piotnetforms-features>li {
+  padding: 15px;
+  display: flex;
+}
+
+.piotnetforms-features a {
+  width: calc(100% - 49px);
+  padding-left: 10px;
+  font-size: 14px;
+  color: #23282d;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .piotnetforms-features>li {
+    width: 33.33%;
+  }
+}
+
+.piotnetforms-pro-version {
+  position: relative;
+  display: inline-block!important;
+  vertical-align: middle;
+  padding: 0 0 3px 8px;
+  transform: translateY(1px);
+}
+
+.piotnetforms-pro-version::after {
+  content: "PRO";
+  display: block;
+  padding: 0 5px;
+  border-radius: 2px;
+  color: #fff;
+  background: #e62560;
+  font-size: 9px;
+}
+
+.piotnetforms-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.piotnetforms-switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.piotnetforms-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.piotnetforms-slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .piotnetforms-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .piotnetforms-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .piotnetforms-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded piotnetforms-sliders */
+.piotnetforms-slider.round {
+  border-radius: 28px;
+}
+
+.piotnetforms-slider.round:before {
+  border-radius: 50%;
+}
+
+.piotnetforms-bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.piotnetforms-bottom__left,
+.piotnetforms-bottom__right {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .piotnetforms-bottom__left {
+    width: 33.33%;
+    padding-right: 40px;
+  }
+  .piotnetforms-bottom__right {
+    width: 66.66%;
+  }
+  .piotnetforms-license {
+    padding-left: 10px;
+    max-width: 600px;
+  }
+}
+
+.piotnetforms-license__description {
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+.piotnetforms-toggle-features {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: center
+}
+
+.piotnetforms-toggle-features__button {
+  display: inline-block;
+  margin: 0 10px 15px;
+  padding: 10px 20px;
+  background: #2196f3;
+  border-radius: 100px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a.piotnetforms-toggle-features__button {
+  margin: 0 !important;
+}
+
+a.piotnetforms-toggle-features__button:hover {
+  color: #fff !important;
+}
+
+.piotnetforms-toggle-features__button--disable {
+  background: #ccc;
+}
+
+.piotnetforms-form-database td {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: solid 1px #ccc;
+}
+
+[data-piotnetforms-dropdown-content] {
+  display: none;
+}
+
+/* Zoho button */
+.piotnetforms-zoho-admin-api{
+  display: flex;
+}
+.piotnetforms-zoho-admin-api p.submit{
+  margin-right: 15px;
+}
+
+[data-edit-with-piotnetforms] {
+  margin: 20px 0 0 0 !important;
+}
