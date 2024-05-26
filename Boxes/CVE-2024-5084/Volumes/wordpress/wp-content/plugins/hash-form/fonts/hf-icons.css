@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'hashform-icons';
+    src:
+        url('hf-icons/hf-icons.ttf') format('truetype'),
+        url('hf-icons/hf-icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.hfi {
+    font-family: 'hashform-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hfi.hfi-form:before {
+  content: "\e91c";
+}
+
+.hfi.hfi-phone:before {
+    content: "\e900";
+}
+.hfi.hfi-email:before {
+    content: "\e901";
+}
+.hfi.hfi-name:before {
+    content: "\e902";
+}
+.hfi.hfi-heading:before {
+    content: "\e903";
+}
+.hfi.hfi-image:before {
+    content: "\e904";
+}
+.hfi.hfi-paragraph:before {
+    content: "\e905";
+}
+.hfi.hfi-url:before {
+    content: "\e906";
+}
+.hfi.hfi-address:before {
+    content: "\e907";
+}
+.hfi.hfi-stars:before {
+    content: "\e908";
+}
+.hfi.hfi-divider:before {
+    content: "\e909";
+}
+.hfi.hfi-text:before {
+    content: "\e90a";
+}
+.hfi.hfi-divider-dash:before {
+    content: "\e90b";
+}
+.hfi.hfi-textarea:before {
+    content: "\e90c";
+}
+.hfi.hfi-recaptcha:before {
+    content: "\e90d";
+}
+.hfi.hfi-select:before {
+    content: "\e90e";
+}
+.hfi.hfi-image-select:before {
+    content: "\e90f";
+}
+.hfi.hfi-html:before {
+    content: "\e910";
+}
+.hfi.hfi-user-id:before {
+    content: "\e911";
+}
+.hfi.hfi-spacer:before {
+    content: "\e912";
+}
+.hfi.hfi-time:before {
+    content: "\e913";
+}
+.hfi.hfi-radio:before {
+    content: "\e914";
+}
+.hfi.hfi-check:before {
+    content: "\e915";
+}
+.hfi.hfi-number:before {
+    content: "\e916";
+}
+.hfi.hfi-hidden:before {
+    content: "\e917";
+}
+.hfi.hfi-range:before {
+    content: "\e918";
+}
+.hfi.hfi-range-slider:before {
+    content: "\e918";
+}
+.hfi.hfi-quantity:before {
+    content: "\e919";
+}
+.hfi.hfi-date:before {
+    content: "\e91a";
+}
+.hfi.hfi-upload:before {
+    content: "\e91b";
+}

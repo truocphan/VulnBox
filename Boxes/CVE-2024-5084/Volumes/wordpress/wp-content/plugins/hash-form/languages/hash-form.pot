@@ -1,0 +1,3066 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hash Form\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 04:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.3\n"
+"X-Domain: hash-form"
+
+#: admin/classes/fields/settings.php:495 admin/classes/fields/settings.php:515
+msgid "%"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:271
+#: admin/classes/HashFormEntryListing.php:292
+#, php-format
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr ""
+
+#: admin/classes/HashFormEntry.php:203
+#, php-format
+msgid "%1$s Entry Permanently Deleted"
+msgid_plural "%1$s Entries Permanently Deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/classes/HashFormBuilder.php:283 admin/classes/HashFormBuilder.php:394
+#: admin/classes/HashFormEntry.php:152 admin/classes/HashFormEntry.php:274
+#, php-format
+msgid "%1$s form moved to the Trash. %2$sUndo%3$s"
+msgid_plural "%1$s forms moved to the Trash. %2$sUndo%3$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/classes/HashFormBuilder.php:336
+#, php-format
+msgid "%1$s Form Permanently Deleted"
+msgid_plural "%1$s Forms Permanently Deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/classes/HashFormBuilder.php:309 admin/classes/HashFormBuilder.php:415
+#: admin/classes/HashFormEntry.php:177 admin/classes/HashFormEntry.php:293
+#, php-format
+msgid "%1$s form permanently deleted."
+msgid_plural "%1$s forms permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/classes/HashFormBuilder.php:282 admin/classes/HashFormBuilder.php:403
+#: admin/classes/HashFormEntry.php:151 admin/classes/HashFormEntry.php:282
+#, php-format
+msgid "%1$s form restored from the Trash."
+msgid_plural "%1$s forms restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/settings/captcha-settings.php:6
+#, php-format
+msgid ""
+"%1$s requires a Site and Secret keys. Sign up for a %2$sfree %1$s key%3$s."
+msgstr ""
+
+#: admin/classes/HashFormListing.php:67
+#: admin/classes/HashFormEntryListing.php:115
+#, php-format
+msgid "%s (Edit)"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:457
+#, php-format
+msgid "%s characters only allowed."
+msgstr ""
+
+#: admin/classes/fields/settings.php:11
+#, php-format
+msgid "%s Field"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:455
+#, php-format
+msgid "%s is invalid."
+msgstr ""
+
+#: admin/classes/HashFormFields.php:456
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:390
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: admin/entries/entry-detail.php:10
+msgid "(ID %d)"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:59
+#: admin/classes/HashFormEntryListing.php:225
+msgid "(no title)"
+msgstr ""
+
+#: admin/forms/style/style.php:59
+msgid "--Select Style--"
+msgstr ""
+
+#: admin/classes/fields/settings.php:231
+msgid "09/19/2023"
+msgstr ""
+
+#: admin/classes/fields/settings.php:455
+msgid "1 Column"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:615
+msgid "18-24"
+msgstr ""
+
+#: admin/classes/fields/settings.php:234
+msgid "19/09/2023"
+msgstr ""
+
+#: admin/classes/fields/settings.php:458
+msgid "2 Columns"
+msgstr ""
+
+#: admin/classes/fields/settings.php:228
+msgid "2023-09-19"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:616
+msgid "25-34"
+msgstr ""
+
+#: admin/classes/fields/settings.php:461
+msgid "3 Columns"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:617
+msgid "35-44"
+msgstr ""
+
+#: admin/classes/fields/settings.php:464
+msgid "4 Columns"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:618
+msgid "45-54"
+msgstr ""
+
+#: admin/classes/fields/settings.php:467
+msgid "5 Columns"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:619
+msgid "55-64"
+msgstr ""
+
+#: admin/classes/fields/settings.php:470
+msgid "6 Columns"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:620
+msgid "65 or Above"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:50
+msgid ""
+"A score of 0 is likely to be a bot and a score of 1 is likely not a bot. "
+"Setting a lower threshold will allow more bots, but it will also stop fewer "
+"real users."
+msgstr ""
+
+#: admin/classes/HashFormSmtp.php:32
+msgid "Activate WP Mail SMTP Plugin"
+msgstr ""
+
+#: admin/classes/HashFormLoader.php:61
+msgid "Activating WP Mail SMTP"
+msgstr ""
+
+#: admin/forms/settings/conditional-logic.php:104
+msgid "Add Condition"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:8
+msgid "Add Fields"
+msgstr ""
+
+#: admin/forms/build/builder.php:34
+msgid "Add Fields Here"
+msgstr ""
+
+#: admin/forms/settings/email-settings.php:19
+msgid "Add More Email"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:93
+msgid "Add New"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:20
+msgctxt "add new on admin bar"
+msgid "Style Template"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:22
+msgid "Add New Style Template"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:348
+msgid "Add Option"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:136
+msgid "Address"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:19
+msgctxt "admin menu"
+msgid "Style Template"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:355
+msgid "Afghanistan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:676
+msgid "Age"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:641
+msgid "Agree"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:688
+msgid "Agreement"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:356
+msgid "Aland Islands"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:357
+msgid "Albania"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:358
+msgid "Algeria"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:260
+#: admin/classes/HashFormEntryListing.php:222
+#: admin/classes/HashFormEntryListing.php:281
+msgid "All"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:359
+msgid "American Samoa"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:360
+msgid "Andorra"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:361
+msgid "Angola"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:362
+msgid "Anguilla"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:363
+msgid "Antarctica"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:364
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:365
+msgid "Argentina"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:366
+msgid "Armenia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:367
+msgid "Aruba"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:155
+msgid "at"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:368
+msgid "Australia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:369
+msgid "Austria"
+msgstr ""
+
+#: admin/forms/settings/settings.php:25
+msgid "Auto Responder"
+msgstr ""
+
+#: admin/classes/fields/settings.php:374
+msgid "Automatic Width"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:370
+msgid "Azerbaijan"
+msgstr ""
+
+#: admin/styles/main.php:41 admin/styles/main.php:233 admin/styles/main.php:434
+#: admin/styles/main.php:639
+msgid "Background Color"
+msgstr ""
+
+#: admin/styles/main.php:285
+msgid "Background Color (Focus)"
+msgstr ""
+
+#: admin/styles/main.php:486 admin/styles/main.php:691
+msgid "Background Color (Hover)"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:371
+msgid "Bahamas"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:372
+msgid "Bahrain"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:373
+msgid "Bangladesh"
+msgstr ""
+
+#: admin/styles/main.php:948
+msgid "Bar Color"
+msgstr ""
+
+#: admin/styles/main.php:954
+msgid "Bar Color (Active)"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:374
+msgid "Barbados"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:375
+msgid "Belarus"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:376
+msgid "Belgium"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:377
+msgid "Belize"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:378
+msgid "Benin"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:379
+msgid "Bermuda"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:380
+msgid "Bhutan"
+msgstr ""
+
+#: admin/styles/main.php:61 admin/styles/main.php:253 admin/styles/main.php:305
+#: admin/styles/main.php:454 admin/styles/main.php:506
+#: admin/styles/main.php:659 admin/styles/main.php:711
+msgid "Blur"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:381
+msgid "Bolivia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:382
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#: admin/styles/main.php:77 admin/styles/main.php:269 admin/styles/main.php:470
+#: admin/styles/main.php:675
+msgid "Border Color"
+msgstr ""
+
+#: admin/styles/main.php:322
+msgid "Border Color (Focus)"
+msgstr ""
+
+#: admin/styles/main.php:522 admin/styles/main.php:727
+msgid "Border Color (Hover)"
+msgstr ""
+
+#: admin/styles/main.php:112 admin/styles/main.php:360
+#: admin/styles/main.php:560 admin/styles/main.php:765
+msgid "Border Radius"
+msgstr ""
+
+#: admin/styles/main.php:84 admin/styles/main.php:332 admin/styles/main.php:532
+#: admin/styles/main.php:737
+msgid "Border Width"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:383
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:384
+msgid "Botswana"
+msgstr ""
+
+#: admin/styles/main.php:96 admin/styles/main.php:124 admin/styles/main.php:152
+#: admin/styles/main.php:344 admin/styles/main.php:372
+#: admin/styles/main.php:400 admin/styles/main.php:544
+#: admin/styles/main.php:572 admin/styles/main.php:600
+#: admin/styles/main.php:749 admin/styles/main.php:777
+#: admin/styles/main.php:805
+msgid "Bottom"
+msgstr ""
+
+#: admin/styles/main.php:177 admin/styles/main.php:856
+#: admin/styles/main.php:873
+msgid "Bottom Spacing"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:385
+msgid "Bouvet Island"
+msgstr ""
+
+#: admin/styles/main.php:48 admin/styles/main.php:240 admin/styles/main.php:441
+#: admin/styles/main.php:646
+msgid "Box Shadow"
+msgstr ""
+
+#: admin/styles/main.php:292
+msgid "Box Shadow (Focus)"
+msgstr ""
+
+#: admin/styles/main.php:493 admin/styles/main.php:698
+msgid "Box Shadow (Hover)"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:386
+msgid "Brazil"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:387
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:41
+msgid "Browser Default"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:388
+msgid "Brunei"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:549
+msgid "Build"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:389
+msgid "Bulgaria"
+msgstr ""
+
+#: admin/forms/build/builder.php:44
+#: admin/classes/fields/HashFormFieldType.php:334
+msgid "Bulk Edit Options"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:390
+msgid "Burkina Faso"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:391
+msgid "Burundi"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:408
+msgid "C&ocirc;te d'Ivoire"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:392
+msgid "Cambodia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:393
+msgid "Cameroon"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:394
+msgid "Canada"
+msgstr ""
+
+#: admin/forms/new-form-overlay.php:16
+msgid "Cancel"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:395
+msgid "Cape Verde"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:261
+msgid "Capitalize"
+msgstr ""
+
+#: admin/classes/HashFormSettings.php:29
+msgid "Captcha"
+msgstr ""
+
+#: admin/classes/fields/settings.php:20
+#, php-format
+msgid ""
+"Captchas will not work untill the Site and Secret Keys are set up. Add Keys "
+"%1$shere%2$s."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:396
+msgid "Cayman Islands"
+msgstr ""
+
+#: admin/styles/main.php:841 admin/forms/build/sidebar.php:105
+#: admin/classes/fields/settings.php:61 admin/classes/fields/settings.php:122
+#: admin/classes/fields/settings.php:539
+msgid "Center"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:397
+msgid "Central African Republic"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:398
+msgid "Chad"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:13
+msgid "Checkbox (V2)"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:152
+msgid "Checkboxes"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:399
+msgid "Chile"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:400
+msgid "China"
+msgstr ""
+
+#: admin/forms/style/style.php:51
+msgid "Choose \"Custom Style\" when you want to implement your own styles"
+msgstr ""
+
+#: admin/forms/style/style.php:47
+msgid ""
+"Choose \"Default Style\" when you want to implement Hash Form plugin styles "
+"with minimal designs."
+msgstr ""
+
+#: admin/forms/style/style.php:41
+msgid ""
+"Choose \"No Style\" when you don't want to implement Hash Form plugin style "
+"and let theme style take over."
+msgstr ""
+
+#: admin/forms/settings/auto-responder.php:34
+msgid "Choose a Form Field"
+msgstr ""
+
+#: admin/styles/main.php:1002 admin/forms/settings/import-export.php:37
+msgid "Choose an json file or drag it here"
+msgstr ""
+
+#: admin/styles/main.php:7
+msgid "Choose Form to Preview"
+msgstr ""
+
+#: admin/forms/style/style.php:57
+msgid "Choose Template Style"
+msgstr ""
+
+#: admin/forms/settings/email-settings.php:49
+msgid "Choose the email field by clicking on the TAGS above."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:401
+msgid "Christmas Island"
+msgstr ""
+
+#: admin/classes/HashFormElement.php:54
+msgid "Cick Here"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldAddress.php:26
+msgid "City"
+msgstr ""
+
+#: admin/forms/build/builder.php:35
+msgid "Click or drag a field from the sidebar to add it to your form"
+msgstr ""
+
+#: admin/forms/shortcode-overlay.php:19 admin/classes/HashFormBuilder.php:518
+#: admin/styles/settings.php:53 admin/forms/build/builder.php:46
+msgid "Close"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:402
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:403
+msgid "Colombia"
+msgstr ""
+
+#: admin/styles/main.php:226 admin/styles/main.php:427
+#: admin/styles/main.php:632 admin/styles/main.php:901
+#: admin/styles/main.php:918
+msgid "Color"
+msgstr ""
+
+#: admin/styles/main.php:924
+msgid "Color (Active)"
+msgstr ""
+
+#: admin/styles/main.php:278
+msgid "Color (Focus)"
+msgstr ""
+
+#: admin/styles/main.php:479 admin/styles/main.php:684
+msgid "Color (Hover)"
+msgstr ""
+
+#: admin/styles/main.php:25
+msgid "Column Gap"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:404
+msgid "Comoros"
+msgstr ""
+
+#: admin/forms/settings/settings.php:33
+msgid "Conditional Logic"
+msgstr ""
+
+#: admin/forms/settings/settings.php:29
+msgid "Confirmation"
+msgstr ""
+
+#: admin/forms/settings/form-confirmation.php:8
+msgid "Confirmation Type"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:405
+msgid "Congo"
+msgstr ""
+
+#: admin/classes/fields/settings.php:106
+#: admin/classes/fields/HashFormFieldHTML.php:28
+msgid "Content"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:406
+msgid "Cook Islands"
+msgstr ""
+
+#: admin/forms/shortcode-overlay.php:16
+msgid "Copied!"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:469
+msgid "Copy"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:407
+msgid "Costa Rica"
+msgstr ""
+
+#: admin/classes/HashFormUploader.php:192
+msgid ""
+"Could not save uploaded file. The upload was cancelled, or server error "
+"encountered."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:672
+msgid "Countries"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldAddress.php:38
+msgid "Country"
+msgstr ""
+
+#: admin/forms/new-form-overlay.php:17
+msgid "Create"
+msgstr ""
+
+#: admin/forms/new-form-overlay.php:8
+msgid "Create New Form"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:54
+msgid "Created At"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:51
+msgid "Created By"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:409
+msgid "Croatia"
+msgstr ""
+
+#: admin/classes/fields/settings.php:358
+msgid "CSS Classes"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:410
+msgid "Cuba"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:411
+msgid "Curacao"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldHTML.php:51
+msgid "Custom HTML - No Preview Available"
+msgstr ""
+
+#: admin/forms/style/style.php:36
+msgid "Custom Style"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:412
+msgid "Cyprus"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:413
+msgid "Czech Republic"
+msgstr ""
+
+#: admin/classes/fields/settings.php:265
+msgid "Dashed"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:51 admin/classes/HashFormFields.php:180
+msgid "Date"
+msgstr ""
+
+#: admin/classes/fields/settings.php:222
+msgid "Date Format"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:257 admin/classes/HashFormStyles.php:267
+#: admin/classes/HashFormStyles.php:383
+msgid "Default"
+msgstr ""
+
+#: admin/styles/main.php:12
+msgid "Default Demo Form"
+msgstr ""
+
+#: admin/forms/style/style.php:35
+msgid "Default Style"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:67
+#: admin/classes/fields/settings.php:391
+#: admin/classes/fields/HashFormFieldAddress.php:75
+msgid "Default Value"
+msgstr ""
+
+#: admin/settings/email-settings.php:25 admin/classes/fields/settings.php:181
+#: admin/classes/fields/HashFormFieldType.php:170
+#: admin/classes/fields/HashFormFieldType.php:170
+msgid "Delete"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:170 admin/classes/HashFormListing.php:243
+#: admin/classes/HashFormEntryListing.php:172
+#: admin/classes/HashFormEntryListing.php:269
+msgid "Delete Permanently"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:414
+msgid "Denmark"
+msgstr ""
+
+#: admin/styles/main.php:192 admin/classes/fields/HashFormFieldName.php:75
+#: admin/classes/fields/HashFormFieldAddress.php:84
+msgid "Description"
+msgstr ""
+
+#. Description of the plugin
+msgid "Design, Embed, Connect: Your Ultimate Form Companion for WordPress"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:639
+msgid "Disagree"
+msgstr ""
+
+#: admin/styles/main.php:898
+msgid "Divider"
+msgstr ""
+
+#: admin/classes/fields/settings.php:277
+msgid "Divider Height (px)"
+msgstr ""
+
+#: admin/classes/fields/settings.php:253
+msgid "Divider Type"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:415
+msgid "Djibouti"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:416
+msgid "Dominica"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:417
+msgid "Dominican Republic"
+msgstr ""
+
+#: admin/classes/fields/settings.php:262
+msgid "Dotted"
+msgstr ""
+
+#: admin/classes/fields/settings.php:259
+msgid "Double"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:148
+msgid "Dropdown"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:219
+msgid "Duplicate"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:418
+msgid "East Timor"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:419
+msgid "Ecuador"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:223
+msgid "Edit"
+msgstr ""
+
+#: admin/forms/build/builder.php:52
+msgid "Edit or add field options (one per line)"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:24
+msgid "Edit Template"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:420
+msgid "Egypt"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:421
+msgid "El Salvador"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:124
+msgid "Email"
+msgstr ""
+
+#: admin/classes/HashFormSettings.php:166
+msgid "Email Sent Successfully"
+msgstr ""
+
+#: admin/classes/HashFormSettings.php:33 admin/forms/settings/settings.php:21
+msgid "Email Settings"
+msgstr ""
+
+#: admin/settings/email-settings.php:39
+msgid "Email Template"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:510
+msgid "Embed"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:196
+#: admin/classes/HashFormEntryListing.php:200
+msgid "Empty Trash"
+msgstr ""
+
+#: admin/forms/settings/auto-responder.php:8
+msgid "Enable Auto Responder"
+msgstr ""
+
+#: admin/classes/fields/settings.php:432
+msgid "Enter a Regex Format to validate."
+msgstr ""
+
+#: admin/classes/HashFormListing.php:48 admin/classes/HashFormBuilder.php:567
+#: admin/classes/HashFormEntry.php:16 admin/classes/HashFormEntry.php:16
+msgid "Entries"
+msgstr ""
+
+#: admin/classes/HashFormEntry.php:109
+msgid "Entries per page"
+msgstr ""
+
+#: admin/entries/entry-detail.php:8
+msgid "Entry"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:268
+msgid "Entry Submitted: "
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:717
+msgid "Equals to"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:422
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:423
+msgid "Eritrea"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:448
+msgid "Error ! Refresh the page and try again."
+msgstr ""
+
+#: admin/forms/settings/form-confirmation.php:44
+msgid "Error Message"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:489
+msgid "Error! Form Can not be Copied"
+msgstr ""
+
+#: admin/classes/HashFormLoader.php:62
+msgid "Error! Reload the page and try again."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:424
+msgid "Estonia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:425
+msgid "Ethiopia"
+msgstr ""
+
+#: admin/styles/main.php:975 admin/forms/settings/import-export.php:11
+msgid "Export"
+msgstr ""
+
+#: admin/forms/settings/import-export.php:17
+msgid "Export Form"
+msgstr ""
+
+#: admin/styles/main.php:982
+msgid "Export Style"
+msgstr ""
+
+#: admin/classes/fields/settings.php:328 admin/classes/fields/settings.php:583
+msgid "Extensions"
+msgstr ""
+
+#: admin/classes/fields/settings.php:147
+msgid "Extra Large"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:653
+msgid "Extremely Likely"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:649
+msgid "Extremely Unlikely"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:81
+msgid "Failed"
+msgstr ""
+
+#: admin/classes/HashFormSettings.php:173
+msgid "Failed to Send Email"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:426
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:427
+msgid "Faroe Islands"
+msgstr ""
+
+#: admin/classes/fields/settings.php:530
+msgid "Field Alignment"
+msgstr ""
+
+#: admin/classes/fields/settings.php:421
+msgid "Field Description"
+msgstr ""
+
+#: admin/classes/fields/settings.php:29
+msgid "Field Label"
+msgstr ""
+
+#: admin/classes/fields/settings.php:489
+msgid "Field Max Width"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:9
+msgid "Field Options"
+msgstr ""
+
+#: admin/styles/main.php:209
+msgid "Fields"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:428
+msgid "Fiji"
+msgstr ""
+
+#: admin/classes/HashFormUploader.php:173
+msgid "File has an invalid extension, it should be one of"
+msgstr ""
+
+#: admin/classes/HashFormUploader.php:160
+msgid "File is empty"
+msgstr ""
+
+#: admin/classes/HashFormUploader.php:164
+msgid "File is too large"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:211
+msgid "Filter"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:429
+msgid "Finland"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:26
+msgid "First"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:91
+msgid "First Last"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:93
+msgid "First Middle Last"
+msgstr ""
+
+#: admin/styles/main.php:220
+msgid "Focus"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:380
+msgid "Font Family"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:471
+msgid "Font Size"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:412
+msgid "Font Style"
+msgstr ""
+
+#: admin/classes/HashFormElement.php:34
+#: admin/classes/HashFormEntryListing.php:50 admin/styles/main.php:21
+msgid "Form"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:86
+msgid "Form CSS Class"
+msgstr ""
+
+#: admin/styles/main.php:865 admin/forms/build/sidebar.php:69
+msgid "Form Description"
+msgstr ""
+
+#: admin/forms/new-form-overlay.php:11
+msgid "Form Name"
+msgstr ""
+
+#: admin/forms/style/style.php:32
+msgid "Form Style"
+msgstr ""
+
+#: admin/classes/HashFormImportExport.php:243
+msgid "Form Style Imported Successfully"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:271
+msgid "Form Submitted Successfully"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:47 admin/styles/main.php:848
+#: admin/forms/build/sidebar.php:10 admin/forms/build/sidebar.php:57
+msgid "Form Title"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:486
+msgid "Form was Successfully Copied"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:198 admin/classes/HashFormBuilder.php:637
+#: admin/classes/HashFormBuilder.php:650 admin/forms/build/edit.php:16
+msgid "Form was successfully updated."
+msgstr ""
+
+#: admin/classes/fields/settings.php:430
+msgid "Format"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:45
+msgid "Forms"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:242
+msgid "Forms per page"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:430
+msgid "France"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:431
+msgid "French Guiana"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:432
+msgid "French Polynesia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:433
+msgid "French Southern Territories"
+msgstr ""
+
+#: admin/classes/fields/settings.php:300
+msgid "From"
+msgstr ""
+
+#: admin/forms/settings/auto-responder.php:18
+#: admin/forms/settings/email-settings.php:55
+msgid "From Email"
+msgstr ""
+
+#: admin/forms/settings/auto-responder.php:25
+#: admin/forms/settings/email-settings.php:64
+msgid "From Name"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:90
+msgid "Full Name"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:434
+msgid "Gabon"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:435
+msgid "Gambia"
+msgstr ""
+
+#: admin/classes/fields/settings.php:432
+msgid "Generate Regex"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:436
+msgid "Georgia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:437
+msgid "Germany"
+msgstr ""
+
+#: admin/classes/HashFormUploader.php:37
+msgid "Getting content length is not supported."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:438
+msgid "Ghana"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:439
+msgid "Gibraltar"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:397
+msgid "Google Fonts"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:719
+msgid "Greater Than"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:720
+msgid "Greater Than Or Equals to"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:440
+msgid "Greece"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:441
+msgid "Greenland"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:442
+msgid "Grenada"
+msgstr ""
+
+#: admin/classes/fields/settings.php:268
+msgid "Groove"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:443
+msgid "Guadeloupe"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:444
+msgid "Guam"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:445
+msgid "Guatemala"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:446
+msgid "Guernsey"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:447
+msgid "Guinea"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:448
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:449
+msgid "Guyana"
+msgstr ""
+
+#: admin/styles/main.php:53 admin/styles/main.php:245 admin/styles/main.php:297
+#: admin/styles/main.php:446 admin/styles/main.php:498
+#: admin/styles/main.php:651 admin/styles/main.php:703
+msgid "H"
+msgstr ""
+
+#: admin/classes/fields/settings.php:81
+msgid "H1"
+msgstr ""
+
+#: admin/classes/fields/settings.php:84
+msgid "H2"
+msgstr ""
+
+#: admin/classes/fields/settings.php:87
+msgid "H3"
+msgstr ""
+
+#: admin/classes/fields/settings.php:90
+msgid "H4"
+msgstr ""
+
+#: admin/classes/fields/settings.php:93
+msgid "H5"
+msgstr ""
+
+#: admin/classes/fields/settings.php:96
+msgid "H6"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:450
+msgid "Haiti"
+msgstr ""
+
+#: admin/styles/main.php:960
+msgid "Handle Color"
+msgstr ""
+
+#: admin/styles/main.php:941
+msgid "Handle Size"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:44 admin/classes/HashFormElement.php:15
+msgid "Hash Form"
+msgstr ""
+
+#. Name of the plugin
+msgid "Hash Form - Drag & Drop Form Builder"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:51
+msgid "Hash Form Styles"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:755
+msgid "Hash Froms"
+msgstr ""
+
+#. Author of the plugin
+msgid "HashThemes"
+msgstr ""
+
+#: admin/settings/email-settings.php:14
+msgid "Header Image"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:200 admin/styles/main.php:882
+msgid "Heading"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:451
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: admin/styles/main.php:934
+msgid "Height"
+msgstr ""
+
+#: admin/classes/fields/settings.php:196
+msgid "Height (px)"
+msgstr ""
+
+#: admin/classes/HashFormSettings.php:146
+msgid "Hello, this is a test email."
+msgstr ""
+
+#: admin/classes/HashFormFields.php:196
+#: admin/classes/fields/HashFormFieldHidden.php:27
+msgid "Hidden"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:686 admin/classes/fields/settings.php:46
+msgid "Hide"
+msgstr ""
+
+#: admin/classes/fields/settings.php:69
+msgid "Hide Label"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:452
+msgid "Holy See"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:453
+msgid "Honduras"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:454
+msgid "Hong Kong"
+msgstr ""
+
+#: admin/styles/main.php:421 admin/styles/main.php:626
+msgid "Hover"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:220
+msgid "HTML"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://hashthemes.com/"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:455
+msgid "Hungary"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:456
+msgid "Iceland"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:49
+msgid "ID"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:702
+msgid "if"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:216
+msgid "Image"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldImage.php:38
+msgid "Image Field - No Image"
+msgstr ""
+
+#: admin/classes/fields/settings.php:509
+msgid "Image Max Width"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:160
+msgid "Image Selector"
+msgstr ""
+
+#: admin/classes/fields/settings.php:151
+msgid "Image Size"
+msgstr ""
+
+#: admin/styles/main.php:988 admin/styles/main.php:1006
+#: admin/forms/settings/import-export.php:24
+#: admin/forms/settings/import-export.php:41
+msgid "Import"
+msgstr ""
+
+#: admin/styles/main.php:968 admin/forms/settings/settings.php:37
+msgid "Import/Export"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:684
+msgid "Importance"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:663
+msgid "Important"
+msgstr ""
+
+#: admin/forms/settings/email-settings.php:58
+msgid ""
+"IMPORTANT: The email address should match with your domain name for proper "
+"delivery. eg. admin@yourwebsite.com"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:457
+msgid "India"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:458
+msgid "Indonesia"
+msgstr ""
+
+#: admin/classes/fields/settings.php:452
+msgid "Inline"
+msgstr ""
+
+#: admin/forms/build/builder.php:60
+msgid "Insert Presets"
+msgstr ""
+
+#: admin/classes/HashFormSmtp.php:28
+msgid "Install WP Mail SMTP Plugin"
+msgstr ""
+
+#: admin/classes/HashFormLoader.php:60
+msgid "Installing WP Mail SMTP"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldUpload.php:19
+msgid "Invalid Extension"
+msgstr ""
+
+#: admin/classes/fields/settings.php:573
+msgid "Invalid Format"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:53
+msgid "IP"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:459
+msgid "Iran"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:460
+msgid "Iraq"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:461
+msgid "Ireland"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:723
+msgid "Is Like"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:724
+msgid "Is Not Like"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:463
+msgid "Isle of Man"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:462
+msgid "Israel"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:464
+msgid "Italy"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:465
+msgid "Jamaica"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:466
+msgid "Japan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:467
+msgid "Jersey"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:468
+msgid "Jordan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:469
+msgid "Kazakhstan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:470
+msgid "Kenya"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:471
+msgid "Kiribati"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:474
+msgid "Kosovo"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:475
+msgid "Kuwait"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:476
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: admin/classes/fields/settings.php:52
+msgid "Label Alignment"
+msgstr ""
+
+#: admin/classes/fields/settings.php:34
+msgid "Label Position"
+msgstr ""
+
+#: admin/styles/main.php:168
+msgid "Labels"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:477
+msgid "Laos"
+msgstr ""
+
+#: admin/classes/fields/settings.php:146
+msgid "Large"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:36
+msgid "Last"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:92
+msgid "Last First"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:478
+msgid "Latvia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:479
+msgid "Lebanon"
+msgstr ""
+
+#: admin/styles/main.php:100 admin/styles/main.php:128
+#: admin/styles/main.php:156 admin/styles/main.php:348
+#: admin/styles/main.php:376 admin/styles/main.php:404
+#: admin/styles/main.php:548 admin/styles/main.php:576
+#: admin/styles/main.php:604 admin/styles/main.php:753
+#: admin/styles/main.php:781 admin/styles/main.php:809
+#: admin/styles/main.php:840 admin/forms/build/sidebar.php:99
+#: admin/classes/fields/settings.php:40 admin/classes/fields/settings.php:55
+#: admin/classes/fields/settings.php:116 admin/classes/fields/settings.php:533
+msgid "Left"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:480
+msgid "Lesotho"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:721
+msgid "Less Than"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:722
+msgid "Less Than Or Equals to"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:484
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:481
+msgid "Liberia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:482
+msgid "Libya"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:483
+msgid "Liechtenstein"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:652 admin/classes/HashFormHelper.php:692
+msgid "Likely"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldAddress.php:18
+msgid "Line 1"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldAddress.php:22
+msgid "Line 2"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:497
+msgid "Line Height"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:270
+msgid "Line-through"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:484
+msgid "Lithuania"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:260
+msgid "Lowercase"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:485
+msgid "Luxembourg"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:486
+msgid "Macao"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:487
+msgid "Macedonia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:488
+msgid "Madagascar"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:489
+msgid "Malawi"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:490
+msgid "Malaysia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:491
+msgid "Maldives"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:492
+msgid "Mali"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:493
+msgid "Malta"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:494
+msgid "Marshall Islands"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:495
+msgid "Martinique"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:496
+msgid "Mauritania"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:497
+msgid "Mauritius"
+msgstr ""
+
+#: admin/classes/fields/settings.php:480
+msgid "Max Characters"
+msgstr ""
+
+#: admin/classes/fields/settings.php:213
+msgid "Max Time"
+msgstr ""
+
+#: admin/classes/fields/settings.php:334
+msgid "Maximum File Size Allowed to Upload"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldUpload.php:22
+msgid "Maximum file upload limit exceeded"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldStar.php:21
+msgid "Maximum Rating"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:498
+msgid "Mayotte"
+msgstr ""
+
+#: admin/classes/fields/settings.php:145
+msgid "Medium"
+msgstr ""
+
+#: admin/forms/settings/auto-responder.php:54
+#: admin/forms/settings/form-confirmation.php:10
+#: admin/forms/settings/form-confirmation.php:19
+#: admin/forms/settings/email-settings.php:97
+msgid "Message"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:499
+msgid "Mexico"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:500
+msgid "Micronesia"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:31
+msgid "Middle"
+msgstr ""
+
+#: admin/classes/fields/settings.php:209
+msgid "Min Time"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:501
+msgid "Moldova"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:502
+msgid "Monaco"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:503
+msgid "Mongolia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:504
+msgid "Montenegro"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:505
+msgid "Montserrat"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:506
+msgid "Morocco"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:169
+msgid "Move Field"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:165
+#: admin/classes/HashFormEntryListing.php:167
+msgid "Move to Trash"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:507
+msgid "Mozambique"
+msgstr ""
+
+#: admin/classes/fields/settings.php:135
+msgid "Multiple"
+msgstr ""
+
+#: admin/classes/fields/settings.php:342 admin/classes/fields/settings.php:588
+msgid "Multiple Uploads"
+msgstr ""
+
+#: admin/classes/fields/settings.php:348
+msgid "Multiple Uploads Limit"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:508
+msgid "Myanmar"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:632 admin/classes/HashFormHelper.php:643
+#: admin/classes/HashFormHelper.php:654 admin/classes/HashFormHelper.php:665
+msgid "N/A"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:120
+msgid "Name"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:88
+msgid "Name layout"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:509
+msgid "Namibia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:510
+msgid "Nauru"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:511
+msgid "Nepal"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:512
+msgid "Netherlands"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:629 admin/classes/HashFormHelper.php:640
+#: admin/classes/HashFormHelper.php:651 admin/classes/HashFormHelper.php:662
+msgid "Neutral"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:513
+msgid "New Caledonia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:262
+msgid "New Entry: "
+msgstr ""
+
+#: admin/classes/HashFormEmail.php:105
+msgid "New Form Submission"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:375
+#: admin/classes/fields/HashFormFieldType.php:378
+msgid "New Option"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:23
+msgid "New Template"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:514
+msgid "New Zealand"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:515
+msgid "Nicaragua"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:516
+msgid "Niger"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:517
+msgid "Nigeria"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:518
+msgid "Niue"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:28
+msgid "No entries found."
+msgstr ""
+
+#: admin/classes/HashFormEntry.php:245
+msgid "No Entries were specified"
+msgstr ""
+
+#: admin/classes/HashFormUploader.php:154
+msgid "No files were uploaded."
+msgstr ""
+
+#: admin/classes/HashFormListing.php:28
+msgid "No forms found. Please create a new one."
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:364
+msgid "No forms were specified"
+msgstr ""
+
+#: admin/classes/HashFormEmail.php:104
+msgid "No Name"
+msgstr ""
+
+#: admin/forms/style/style.php:34
+msgid "No Style"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:30
+msgid "No Template found in Trash."
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:29
+msgid "No Template found."
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:258 admin/classes/HashFormStyles.php:268
+msgid "None"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:519
+msgid "Norfolk Island"
+msgstr ""
+
+#: admin/styles/main.php:219 admin/styles/main.php:420
+#: admin/styles/main.php:625
+msgid "Normal"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:472
+msgid "North Korea"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:520
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:521
+msgid "Norway"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:660
+msgid "Not at all Important"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:718
+msgid "Not Equals to"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldHidden.php:31
+msgid ""
+"Note: This field will not show in the form. Enter the value to be hidden."
+msgstr ""
+
+#: admin/classes/HashFormValidate.php:17
+msgid "Nounce Error"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:164
+msgid "Number"
+msgstr ""
+
+#: admin/classes/fields/settings.php:297
+msgid "Number Range"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:522
+msgid "Oman"
+msgstr ""
+
+#: admin/forms/style/form.php:32
+msgid "Oops!"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:526
+msgid "Option 1"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:529
+msgid "Option 2"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:532
+msgid "Option 3"
+msgstr ""
+
+#: admin/classes/fields/settings.php:449
+msgid "Options Layout"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:271
+msgid "Overline"
+msgstr ""
+
+#: admin/styles/main.php:140 admin/styles/main.php:388
+#: admin/styles/main.php:588 admin/styles/main.php:793
+msgid "Padding"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:523
+msgid "Pakistan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:524
+msgid "Palau"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:525
+msgid "Palestine"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:526
+msgid "Panama"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:527
+msgid "Papua New Guinea"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:204 admin/styles/main.php:890
+msgid "Paragraph"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:528
+msgid "Paraguay"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:28
+msgid "Parent Template:"
+msgstr ""
+
+#: admin/classes/HashFormSettings.php:90
+msgid "Permission Denied"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:529
+msgid "Peru"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:530
+msgid "Philippines"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:128
+msgid "Phone"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:531
+msgid "Pitcairn"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldName.php:71
+#: admin/classes/fields/settings.php:402
+#: admin/classes/fields/HashFormFieldAddress.php:79
+msgid "Placeholder"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldSpinner.php:59
+#: admin/classes/fields/HashFormFieldRangeSlider.php:48
+#: admin/classes/fields/HashFormFieldNumber.php:56
+#, php-format
+msgid "Please enter a valid value. Two nearest valid values are %1$s and %2$s"
+msgstr ""
+
+#: admin/classes/HashFormElement.php:76
+msgid "Please select a Form"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldSpinner.php:37
+#: admin/classes/fields/HashFormFieldRangeSlider.php:26
+#: admin/classes/fields/HashFormFieldNumber.php:37
+msgid "Please select a higher number"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldSpinner.php:39
+#: admin/classes/fields/HashFormFieldRangeSlider.php:28
+#: admin/classes/fields/HashFormFieldNumber.php:39
+msgid "Please select a lower number"
+msgstr ""
+
+#: admin/classes/HashFormPreview.php:22
+msgid "Please select a valid form"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:532
+msgid "Poland"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:533
+msgid "Portugal"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:17
+msgctxt "post type general name"
+msgid "Style Template"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:18
+msgctxt "post type singular name"
+msgid "Style Template"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:621
+msgid "Prefer Not to Answer"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:227 admin/classes/HashFormBuilder.php:514
+msgid "Preview"
+msgstr ""
+
+#: admin/styles/settings.php:44
+msgid "Publish"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:534
+msgid "Puerto Rico"
+msgstr ""
+
+#: admin/classes/fields/settings.php:498 admin/classes/fields/settings.php:518
+msgid "px"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:535
+msgid "Qatar"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:156
+msgid "Radio Buttons"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:168 admin/styles/main.php:931
+msgid "Range Slider"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:224
+msgid "reCAPTCHA"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:39
+msgid "reCAPTCHA Language"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:49
+msgid "reCAPTCHA Threshold"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:11
+msgid "reCAPTCHA Type"
+msgstr ""
+
+#: admin/forms/settings/form-confirmation.php:12
+#: admin/forms/settings/form-confirmation.php:37
+msgid "Redirect URL"
+msgstr ""
+
+#: admin/forms/settings/email-settings.php:28
+msgid "Reply To"
+msgstr ""
+
+#: admin/forms/settings/auto-responder.php:32
+msgid "Reply To Email"
+msgstr ""
+
+#: admin/classes/fields/settings.php:288 admin/classes/fields/settings.php:564
+msgid "Required"
+msgstr ""
+
+#: admin/classes/fields/settings.php:440
+msgid "Required Field Indicator"
+msgstr ""
+
+#: admin/styles/main.php:184
+msgid "Required Text Color"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:169 admin/classes/HashFormListing.php:239
+#: admin/classes/HashFormEntryListing.php:171
+#: admin/classes/HashFormEntryListing.php:265
+msgid "Restore"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:536
+msgid "Reunion"
+msgstr ""
+
+#: admin/classes/fields/settings.php:271
+msgid "Ridge"
+msgstr ""
+
+#: admin/styles/main.php:92 admin/styles/main.php:120 admin/styles/main.php:148
+#: admin/styles/main.php:340 admin/styles/main.php:368
+#: admin/styles/main.php:396 admin/styles/main.php:540
+#: admin/styles/main.php:568 admin/styles/main.php:596
+#: admin/styles/main.php:745 admin/styles/main.php:773
+#: admin/styles/main.php:801 admin/styles/main.php:842
+#: admin/forms/build/sidebar.php:102 admin/classes/fields/settings.php:43
+#: admin/classes/fields/settings.php:58 admin/classes/fields/settings.php:119
+#: admin/classes/fields/settings.php:536
+msgid "Right"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:537
+msgid "Romania"
+msgstr ""
+
+#: admin/styles/main.php:33
+msgid "Row Gap"
+msgstr ""
+
+#: admin/classes/fields/settings.php:244
+msgid "Rows"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:538
+msgid "Russia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:539
+msgid "Rwanda"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:540
+msgid "Saint Barthelemy"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:541
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:542
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:543
+msgid "Saint Lucia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:544
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:545
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:546
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:547
+msgid "Samoa"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:548
+msgid "San Marino"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:549
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:680
+msgid "Satisfaction"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:630
+msgid "Satisfied"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:550
+msgid "Saudi Arabia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:134
+msgid "Search"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:18
+msgid "Search Fields"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:27
+msgid "Search Template"
+msgstr ""
+
+#: admin/classes/HashFormSmtp.php:23
+#, php-format
+msgid "See Detail Article %1shere%2s"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:42
+msgid "Select a field to see the options"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:690 admin/classes/HashFormBuilder.php:704
+msgid "Select Field"
+msgstr ""
+
+#: admin/classes/HashFormElement.php:41
+msgid "Select Form"
+msgstr ""
+
+#: admin/classes/fields/settings.php:78
+msgid "Select Heading"
+msgstr ""
+
+#: admin/classes/fields/settings.php:172
+msgid "Select Image"
+msgstr ""
+
+#: admin/classes/fields/settings.php:132
+msgid "Select Type"
+msgstr ""
+
+#: admin/settings/email-settings.php:53
+msgid "Send Test Email"
+msgstr ""
+
+#: admin/settings/email-settings.php:50
+msgid "Send Test Email to"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:551
+msgid "Senegal"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:208
+msgid "Separator"
+msgstr ""
+
+#: admin/classes/fields/settings.php:225
+msgid "September 19, 2023"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:552
+msgid "Serbia"
+msgstr ""
+
+#: admin/classes/HashFormUploader.php:150
+msgid "Server error. Upload directory isn't writable."
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:555 admin/classes/HashFormBuilder.php:755
+#: admin/classes/HashFormSettings.php:13 admin/classes/HashFormSettings.php:13
+#: admin/classes/HashFormSettings.php:42
+msgid "Settings"
+msgstr ""
+
+#: admin/classes/HashFormImportExport.php:203
+msgid "Settings Imported Successfully"
+msgstr ""
+
+#: admin/classes/HashFormSettings.php:97
+msgid "Settings Saved !"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:553
+msgid "Seychelles"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:50
+msgid "Shortcode"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:685
+msgid "Show"
+msgstr ""
+
+#: admin/forms/settings/form-confirmation.php:11
+#: admin/forms/settings/form-confirmation.php:26
+msgid "Show Page"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:76
+msgid "Show the form description"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:64
+msgid "Show the form title"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:554
+msgid "Sierra Leone"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:555
+msgid "Singapore"
+msgstr ""
+
+#: admin/classes/fields/settings.php:138
+msgid "Single"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:556
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#: admin/styles/main.php:911
+msgid "Size"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:557
+msgid "Slovakia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:558
+msgid "Slovenia"
+msgstr ""
+
+#: admin/classes/fields/settings.php:144
+msgid "Small"
+msgstr ""
+
+#: admin/classes/HashFormSmtp.php:13
+msgid "SMTP"
+msgstr ""
+
+#: admin/classes/fields/settings.php:256
+msgid "Solid"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:559
+msgid "Solomon Islands"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:560
+msgid "Somalia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:661
+msgid "Somewhat Important"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:272
+msgid "Sorry, An error Occurred! Your form cannot be submitted."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:561
+msgid "South Africa"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:562
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:473
+msgid "South Korea"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:563
+msgid "South Sudan"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:212
+msgid "Spacer"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:564
+msgid "Spain"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:176
+msgid "Spinner"
+msgstr ""
+
+#: admin/styles/main.php:65 admin/styles/main.php:257 admin/styles/main.php:309
+#: admin/styles/main.php:458 admin/styles/main.php:510
+#: admin/styles/main.php:663 admin/styles/main.php:715
+msgid "Spread"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:565
+msgid "Sri Lanka"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:387
+msgid "Standard Fonts"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:172 admin/styles/main.php:908
+msgid "Star"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldAddress.php:30
+msgid "State/Province"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:52
+msgid "Status"
+msgstr ""
+
+#: admin/classes/fields/settings.php:205 admin/classes/fields/settings.php:310
+msgid "Step"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:642
+msgid "Strongly Agree"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:638
+msgid "Strongly Disagree"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:561
+msgid "Style"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:21
+msgctxt "Style Template"
+msgid "Add New"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:26
+msgid "Styles"
+msgstr ""
+
+#: admin/forms/settings/auto-responder.php:49
+#: admin/forms/settings/email-settings.php:71
+msgid "Subject"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:129 admin/classes/HashFormHelper.php:249
+#: admin/forms/style/form.php:8 admin/forms/build/builder.php:28
+msgid "Submit"
+msgstr ""
+
+#: admin/styles/main.php:616
+msgid "Submit Button"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:96
+msgid "Submit Button Alignment"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:91
+msgid "Submit Button CSS Class"
+msgstr ""
+
+#: admin/forms/build/sidebar.php:81
+msgid "Submit Button Text"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:81
+msgid "Success"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:566
+msgid "Sudan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:567
+msgid "Suriname"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:568
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:569
+msgid "Swaziland"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:570
+msgid "Sweden"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:571
+msgid "Switzerland"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:572
+msgid "Syria"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:573
+msgid "Taiwan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:574
+msgid "Tajikistan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:575
+msgid "Tanzania"
+msgstr ""
+
+#: admin/settings/email-settings.php:41
+msgid "Template 1"
+msgstr ""
+
+#: admin/settings/email-settings.php:42
+msgid "Template 2"
+msgstr ""
+
+#: admin/settings/email-settings.php:43
+msgid "Template 3"
+msgstr ""
+
+#: admin/classes/HashFormSettings.php:123
+msgid "Test Email"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:140
+msgid "Text"
+msgstr ""
+
+#: admin/styles/main.php:838
+msgid "Text Align"
+msgstr ""
+
+#: admin/classes/fields/settings.php:113
+msgid "Text Alignment"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:144
+msgid "Text Area"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:510
+msgid "Text Color"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:452
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:433
+msgid "Text Transform"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:576
+msgid "Thailand"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:269
+msgid ""
+"Thank you for sending email. We will get back to you as soon as possible."
+msgstr ""
+
+#: admin/classes/fields/settings.php:330
+msgid ""
+"The allowed extensions are pdf, doc, docx, xls, xlsx, odt, ppt, pptx, pps, "
+"ppsx, jpg, jpeg, png, gif, bmp, mp3, mp4, ogg, wav, mp4, m4v, mov, wmv, avi, "
+"mpg, ogv, 3gp, txt, zip, rar, 7z, csv"
+msgstr ""
+
+#: admin/forms/style/style.php:43
+msgid ""
+"The preview seen here will not match with the frontend for \"No Style\"."
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldCaptcha.php:117
+msgid "The reCAPTCHA keys are not entered."
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldCaptcha.php:105
+msgid "The reCAPTCHA was not entered correctly"
+msgstr ""
+
+#: admin/classes/HashFormSmtp.php:22
+msgid ""
+"The Simple Mail Transfer Protocol (SMTP) server is better for WordPress "
+"website owners who frequently exchange emails with their visitors. It offers "
+"high security and deliverability to ensure properly sent emails. To use it, "
+"connect your email service to a third-party SMTP provider and install an "
+"SMTP plugin on your WordPress site."
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldCaptcha.php:85
+#: admin/classes/fields/HashFormFieldCaptcha.php:91
+msgid "There was a problem verifying your captcha"
+msgstr ""
+
+#: admin/classes/HashFormValidate.php:12
+msgid "There was a problem with your submission. Please try again."
+msgstr ""
+
+#: admin/settings/email-templates/template3.php:117
+#: admin/settings/email-templates/template2.php:114
+#: admin/settings/email-templates/template1.php:117
+#, php-format
+msgid "This email is sent from %s"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:435
+msgid "This field is invalid."
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldCaptcha.php:149
+msgid "This field is not set up yet."
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:434
+msgid "This field is required."
+msgstr ""
+
+#: admin/classes/fields/settings.php:542
+msgid ""
+"This option will only work if the Field Max Width is set and width is "
+"smaller than container."
+msgstr ""
+
+#: admin/classes/HashFormFields.php:184
+msgid "Time"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:577
+msgid "Timor-Leste"
+msgstr ""
+
+#: admin/classes/fields/settings.php:305
+msgid "To"
+msgstr ""
+
+#: admin/forms/style/style.php:53
+#, php-format
+msgid "To create new Custom Style, go to %1sStyle Template%2s page."
+msgstr ""
+
+#: admin/classes/HashFormElement.php:54
+msgid "To Create New Form"
+msgstr ""
+
+#: admin/forms/settings/email-settings.php:7
+msgid "To Email"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:578
+msgid "Togo"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:579
+msgid "Tokelau"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:580
+msgid "Tonga"
+msgstr ""
+
+#: admin/styles/main.php:88 admin/styles/main.php:116 admin/styles/main.php:144
+#: admin/styles/main.php:336 admin/styles/main.php:364
+#: admin/styles/main.php:392 admin/styles/main.php:536
+#: admin/styles/main.php:564 admin/styles/main.php:592
+#: admin/styles/main.php:741 admin/styles/main.php:769
+#: admin/styles/main.php:797 admin/classes/fields/settings.php:37
+msgid "Top"
+msgstr ""
+
+#: admin/styles/main.php:200 admin/styles/main.php:830
+msgid "Top Spacing"
+msgstr ""
+
+#: admin/classes/HashFormListing.php:247 admin/classes/HashFormListing.php:261
+#: admin/classes/HashFormEntryListing.php:273
+#: admin/classes/HashFormEntryListing.php:282
+msgid "Trash"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:581
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:582
+msgid "Tunisia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:583
+msgid "Turkey"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:584
+msgid "Turkmenistan"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:585
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:7 admin/classes/fields/settings.php:21
+#, php-format
+msgid "Tutorial to %1$sGenerate Site and Secret Keys%2$s"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:586
+msgid "Tuvalu"
+msgstr ""
+
+#: admin/styles/main.php:172 admin/styles/main.php:195
+#: admin/styles/main.php:213 admin/styles/main.php:619
+#: admin/styles/main.php:825 admin/styles/main.php:851
+#: admin/styles/main.php:868 admin/styles/main.php:885
+#: admin/styles/main.php:893
+msgid "Typography"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:587
+msgid "Uganda"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:588
+msgid "Ukraine"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:614
+msgid "Under 18"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:269
+msgid "Underline"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:589
+msgid "United Arab Emirates"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:590
+msgid "United Kingdom"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:591
+msgid "United States"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:592
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:650
+msgid "Unlikely"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:628
+msgid "Unsatisfied"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldType.php:539
+msgid "Untitled"
+msgstr ""
+
+#: admin/classes/HashFormBuilder.php:506 admin/classes/HashFormSettings.php:79
+#: admin/styles/settings.php:47
+msgid "Update"
+msgstr ""
+
+#: admin/forms/build/builder.php:79
+msgid "Update Options"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:188
+msgid "Upload"
+msgstr ""
+
+#: admin/styles/main.php:416
+msgid "Upload Button"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldUpload.php:16
+msgid "Upload File"
+msgstr ""
+
+#: admin/settings/email-settings.php:31 admin/classes/fields/settings.php:186
+msgid "Upload image"
+msgstr ""
+
+#: admin/classes/fields/settings.php:323
+msgid "Upload Label"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:259
+msgid "Uppercase"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:593
+msgid "Uruguay"
+msgstr ""
+
+#: admin/forms/settings/email-settings.php:118
+msgid "Use #form_title for form title, #form_details for form inputs"
+msgstr ""
+
+#: admin/forms/settings/email-settings.php:21
+#: admin/forms/settings/email-settings.php:57
+msgid ""
+"Use [admin_email] for admin email. Settings > General > Administration Email "
+"Address"
+msgstr ""
+
+#: admin/forms/shortcode-overlay.php:9
+msgid "Use the shortcode below to add to your pages"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:192
+#: admin/classes/fields/HashFormFieldUserID.php:33
+msgid "User ID"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldUserID.php:35
+msgid "User ID fields will not show in your form."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:594
+msgid "Uzbekistan"
+msgstr ""
+
+#: admin/styles/main.php:57 admin/styles/main.php:249 admin/styles/main.php:301
+#: admin/styles/main.php:450 admin/styles/main.php:502
+#: admin/styles/main.php:655 admin/styles/main.php:707
+msgid "V"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:24
+msgid "v2 Secret Key"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:19
+msgid "v2 Site Key"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:14
+msgid "v3"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:34
+msgid "v3 Secret Key"
+msgstr ""
+
+#: admin/settings/captcha-settings.php:29
+msgid "v3 Site Key"
+msgstr ""
+
+#: admin/styles/main.php:822
+msgid "Validation"
+msgstr ""
+
+#: admin/classes/fields/settings.php:557
+msgid "Validation Messages"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:595
+msgid "Vanuatu"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:596
+msgid "Vatican City"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:597
+msgid "Venezuela"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:664
+msgid "Very Important"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:631
+msgid "Very Satisfied"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:627
+msgid "Very Unsatisfied"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:598
+msgid "Vietnam"
+msgstr ""
+
+#: admin/classes/HashFormEntryListing.php:253
+msgid "View"
+msgstr ""
+
+#: admin/classes/HashFormStyles.php:25
+msgid "View Template"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:599
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:600
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:601
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: admin/classes/HashFormFields.php:132
+msgid "Website/URL"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:602
+msgid "Western Sahara"
+msgstr ""
+
+#: admin/classes/HashFormSmtp.php:20
+msgid "Why Use SMTP?"
+msgstr ""
+
+#: admin/classes/HashFormSmtp.php:21
+msgid ""
+"WordPress’ email feature uses the Hypertext Preprocessor (PHP) mail() "
+"function by default. However, it is not the most effective tool as it may "
+"trigger spam filters and send error messages to its users."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:603
+msgid "Yemen"
+msgstr ""
+
+#: admin/forms/style/style.php:8 admin/forms/build/edit.php:9
+msgid "You are trying to edit a form that does not exist."
+msgstr ""
+
+#: admin/classes/HashFormEntry.php:56
+msgid "You are trying to view an entry that does not exist."
+msgstr ""
+
+#: admin/styles/main.php:971
+msgid ""
+"You can export the form styles and then import the form styles in the same "
+"or different website."
+msgstr ""
+
+#: admin/forms/settings/import-export.php:7
+msgid ""
+"You can export the settings and then import the form in the same or "
+"different website."
+msgstr ""
+
+#: admin/forms/style/form.php:33
+#, php-format
+msgid "You did not add any fields to your form. %1$sGo back%2$s and add some."
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:604
+msgid "Zambia"
+msgstr ""
+
+#: admin/classes/HashFormHelper.php:605
+msgid "Zimbabwe"
+msgstr ""
+
+#: admin/classes/fields/HashFormFieldAddress.php:34
+msgid "Zip/Postal"
+msgstr ""

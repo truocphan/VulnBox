@@ -1,0 +1,144 @@
+.hf-file-uploader .qq-uploader {
+    position: relative;
+    width: 100%;
+}
+
+.hf-file-uploader .qq-upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #EEE;
+    color: #333;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.hf-form-custom-style .hf-file-uploader .qq-upload-button {
+    border-top: var(--hf-upload-border-top, 1px) solid var(--hf-upload-border-color-normal, #CCC);
+    border-right: var(--hf-upload-border-right, 1px) solid var(--hf-upload-border-color-normal, #CCC);
+    border-bottom: var(--hf-upload-border-bottom, 1px) solid var(--hf-upload-border-color-normal, #CCC);
+    border-left: var(--hf-upload-border-left, 1px) solid var(--hf-upload-border-color-normal, #CCC);
+    border-radius: var(--hf-upload-border-radius-top, 3px) var(--hf-upload-border-radius-right, 3px) var(--hf-upload-border-radius-bottom, 3px) var(--hf-upload-border-radius-left, 3px);
+    padding: var(--hf-upload-padding-top, 10px) var(--hf-upload-padding-right, 20px) var(--hf-upload-padding-bottom, 10px) var(--hf-upload-padding-left, 20px);  
+    color: var(--hf-upload-color-normal, #666);
+    background-color: var(--hf-upload-bg-color-normal, #EEE);
+    box-shadow: var(--hf-upload-shadow-normal-x, 0) var(--hf-upload-shadow-normal-y, 0) var(--hf-upload-shadow-normal-blur, 0) var(--hf-upload-shadow-normal-spread, 0) var(--hf-upload-shadow-normal-color, transparent);
+}
+
+.hf-form-custom-style .hf-file-uploader .qq-upload-button-hover,
+.hf-form-custom-style .hf-file-uploader .qq-upload-button:hover {
+    border-top: var(--hf-upload-border-top, 1px) solid var(--hf-upload-border-color-hover, var(--hf-upload-border-color-normal, #CCC));
+    border-right: var(--hf-upload-border-right, 1px) solid var(--hf-upload-border-color-hover, var(--hf-upload-border-color-normal, #CCC));
+    border-bottom: var(--hf-upload-border-bottom, 1px) solid var(--hf-upload-border-color-hover, var(--hf-upload-border-color-normal, #CCC));
+    border-left: var(--hf-upload-border-left, 1px) solid var(--hf-upload-border-color-hover, var(--hf-upload-border-color-normal, #CCC));
+    color: var(--hf-upload-color-hover,var(--hf-upload-color-normal, inherit));
+    background-color: var(--hf-upload-bg-color-hover, var(--hf-upload-bg-color-normal, #EEE));
+    box-shadow: var(--hf-upload-shadow-hover-x, var(--hf-upload-shadow-normal-x, 0)) var(--hf-upload-shadow-hover-y, var(--hf-upload-shadow-normal-y, 0)) var(--hf-upload-shadow-hover-blur, var(--hf-upload-shadow-normal-blur, 0)) var(--hf-upload-shadow-hover-spread, var(--hf-upload-shadow-normal-spread, 0)) var(--hf-upload-shadow-hover-color, var(--hf-upload-shadow-normal-color, transparent));
+}
+
+.hf-file-uploader .qq-upload-button input{
+    height: 100% !important;
+    width: 100% !important;
+    font-size: 0 !important;
+}
+
+.hf-file-uploader .qq-upload-drop-area{
+    width: 100%;
+    max-width: 300px;
+    min-height: 80px;
+    z-index: 2;
+    background: none;
+    text-align: center;
+    border: 2px dashed #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hf-file-uploader .qq-upload-drop-area-active {
+    background: #EEE;
+}
+
+.hf-file-uploader .qq-upload-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hf-file-uploader .qq-upload-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 8px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1;
+    background-color: #FFF0BD;
+}
+
+.hf-file-uploader .qq-progress-bar{
+    display: none;
+}
+
+.hf-file-uploader .qq-upload-spinner {
+    display: inline-block;
+    background: url("loading.gif");
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
+}
+
+.hf-file-uploader .qq-upload-size, 
+.hf-file-uploader .qq-upload-cancel {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.hf-file-uploader .qq-upload-failed-text {
+    display: none;
+}
+
+.hf-file-uploader .qq-upload-fail .qq-upload-failed-text {
+    display: inline;
+}
+
+.hf-file-uploader .qq-upload-list li.qq-upload-success {
+    background-color: #5DA30C;
+    color: #FFFFFF;
+}
+
+.hf-file-uploader .qq-upload-list li.qq-upload-fail {
+    background-color: #D60000;
+    color: #FFFFFF;
+}
+
+.hf-prev-holder{
+    border: 1px solid #EEE;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hf-prev-holder img{
+    max-width: 200px !important;
+}
+
+.hf-prev-holder .hf-prev-name{
+    display: block;
+    margin: 6px 0;
+    font-size: 12px;
+}
+
+.hf-preview-remove{
+    background: #FF0000;
+    font-size: 12px;
+    cursor: pointer;
+    color: #FFF;
+    padding: 6px 10px;
+    line-height: 1;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.hf-preview-remove:hover{
+    background: #000;
+}
