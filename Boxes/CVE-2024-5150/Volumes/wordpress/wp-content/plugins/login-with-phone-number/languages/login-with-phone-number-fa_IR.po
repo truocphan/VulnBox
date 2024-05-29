@@ -1,0 +1,397 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Login with phone number\n"
+"POT-Creation-Date: 2021-01-11 19:45+0330\n"
+"PO-Revision-Date: 2021-01-11 19:45+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: files-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: login-with-phonenumber.php:75
+msgid "Enable phone number login"
+msgstr "فعال سازی ورود با شماره موبایل"
+
+#: login-with-phonenumber.php:82
+msgid "Enter your phone number"
+msgstr "شماره موبایل خود را  وارد نمایید"
+
+#: login-with-phonenumber.php:84
+msgid "Enter api key"
+msgstr "کلید api را وارد نمایید"
+
+#: login-with-phonenumber.php:87
+msgid "Country code accepted in front"
+msgstr "در چه کشور هایی خدمات میدهین؟"
+
+#: login-with-phonenumber.php:88
+msgid "Buy credit here"
+msgstr "اعتبار بخرید"
+
+#: login-with-phonenumber.php:94
+msgid "Enable email login"
+msgstr "فعالسازی ورود با ایمیل"
+
+#: login-with-phonenumber.php:95
+msgid "Enable password login"
+msgstr "فعالسازی ورود با رمزعبور"
+
+#: login-with-phonenumber.php:96
+msgid "Enter redirect url"
+msgstr "‫لینک هدایت را وارد کنید"
+
+#: login-with-phonenumber.php:97
+msgid "Enable fix position"
+msgstr "فعال سازی حالت ثابت فرم"
+
+#: login-with-phonenumber.php:98 login-with-phonenumber.php:642
+msgid "Default username"
+msgstr "نام کاربری پیش فرض (لاتین)"
+
+#: login-with-phonenumber.php:99 login-with-phonenumber.php:654
+msgid "Default nickname"
+msgstr "لقب پیش فرض"
+
+#: login-with-phonenumber.php:100
+msgid "Shortcode and Template Tag"
+msgstr "کد کوتاه و نحوه استفاده"
+
+#: login-with-phonenumber.php:111 login-with-phonenumber.php:112
+msgid "login setting"
+msgstr "تنظیمات ورود"
+
+#: login-with-phonenumber.php:139
+msgid "idehwebLwp Settings"
+msgstr "تنظیمات ورود"
+
+#: login-with-phonenumber.php:144
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: login-with-phonenumber.php:169
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: login-with-phonenumber.php:241
+msgid "Your Credit:"
+msgstr "اعتبار شما:"
+
+#: login-with-phonenumber.php:270
+msgid "Buy"
+msgstr "خرید"
+
+#: login-with-phonenumber.php:394
+msgid "1. create a page and name it login or register or what ever"
+msgstr "1. یک برگه بسازید"
+
+#: login-with-phonenumber.php:395
+msgid ""
+"2. copy this shortcode <code>[idehweb_lwp]</code> and paste in the page you "
+"created at step 1"
+msgstr ""
+"2. این کد کوتاه را کپی کنید و در برگه ای که ساختید پیست کنید "
+"<code>[idehweb_lwp]</code"
+
+#: login-with-phonenumber.php:396
+msgid ""
+"3. now, that is your login page. check your login page with other device or "
+"browser that you are not logged in!"
+msgstr ""
+"3. خب حالا صفحه ورود شما درست شده. حواستون باشه فرم ورود به کاربران خارج شده "
+"از سایت نشان داده میشود"
+
+#: login-with-phonenumber.php:399
+msgid "for more information visit: "
+msgstr "برای اطلاعات و راهنمایی بیشتر به این لینک مراجعه کنید:"
+
+#: login-with-phonenumber.php:404
+msgid "got it "
+msgstr "فهمیدم"
+
+#: login-with-phonenumber.php:435
+msgid "I want user login with email"
+msgstr "من میخواهم کاربر با ایمیل وارد شود"
+
+#: login-with-phonenumber.php:449
+msgid "I want user login with phone number"
+msgstr "‫من میخواهم کاربر با شماره موبایل وارد شود"
+
+#: login-with-phonenumber.php:463
+msgid "I want user login with password too"
+msgstr "من میخواهم کاربر با رمز عبور نیز وارد شود"
+
+#: login-with-phonenumber.php:473
+msgid "I want form shows on page in fix position"
+msgstr "من میخواهم فرم به حالت ثابت و فیکس روی صفحه نمایش  داده شود"
+
+#: login-with-phonenumber.php:526
+msgid "Choose a country..."
+msgstr "یک کشور انتخاب کنید..."
+
+#: login-with-phonenumber.php:543
+msgid "Authenticate"
+msgstr "اهراز هویت"
+
+#: login-with-phonenumber.php:543
+msgid "activate sms login"
+msgstr "فعال سازی ورود با  اس ام اس"
+
+#: login-with-phonenumber.php:545 login-with-phonenumber.php:812
+msgid "Activate"
+msgstr "فعالسازی"
+
+#: login-with-phonenumber.php:545
+msgid "activate account"
+msgstr "فعال سازی حساب کاربری"
+
+#: login-with-phonenumber.php:560
+msgid "enter api key"
+msgstr "کلید api را وارد نمایید"
+
+#: login-with-phonenumber.php:574
+msgid "enter redirect url"
+msgstr "لینکی که کاربر بعد از ورود باید به آن هدایت شود را وارد کنید"
+
+#: login-with-phonenumber.php:606
+msgid ""
+"make a page and name it login, put the shortcode inside it, now you have a "
+"login page!"
+msgstr "یک برگه بسازید و کد کوتاه را درون آن قرار دهید!"
+
+#: login-with-phonenumber.php:608
+msgid ""
+"To use idehwebLwp manually in your theme template use the following PHP code:"
+msgstr "برای استفاده در پوسته از کد زیر استفاده کنید:"
+
+#: login-with-phonenumber.php:610
+msgid "Need more help?"
+msgstr "کمک بیشتری نیاز دارید؟"
+
+#: login-with-phonenumber.php:671
+msgid "Check credit"
+msgstr "چک کردن اعتبار"
+
+#: login-with-phonenumber.php:675
+#, fuzzy
+#| msgid "Refresh shop"
+msgid "Refresh"
+msgstr "بروزرسانی فروشگاه"
+
+#: login-with-phonenumber.php:677
+msgid "phone number:"
+msgstr "شماره موبایل:"
+
+#: login-with-phonenumber.php:679
+msgid "change"
+msgstr "عوض کردن"
+
+#: login-with-phonenumber.php:710
+msgid "please wait..."
+msgstr "لطفا صبر کنید..."
+
+#: login-with-phonenumber.php:737
+msgid "login"
+msgstr "ورود"
+
+#: login-with-phonenumber.php:744 login-with-phonenumber.php:782
+msgid "Login / register"
+msgstr "ورود / عضویت"
+
+#: login-with-phonenumber.php:747 login-with-phonenumber.php:1414
+msgid "Phone number"
+msgstr "شماره موبایل"
+
+#: login-with-phonenumber.php:762
+msgid "9*********"
+msgstr "9*********"
+
+#: login-with-phonenumber.php:765 login-with-phonenumber.php:790
+msgid "Submit"
+msgstr "ثبت"
+
+#: login-with-phonenumber.php:771
+msgid "Login with email"
+msgstr "ورود با ایمیل"
+
+#: login-with-phonenumber.php:785
+msgid "Your email:"
+msgstr "ایمیل شما:"
+
+#: login-with-phonenumber.php:787
+msgid "Please enter your email"
+msgstr "لطفا ایمیل خود را وارد کنید"
+
+#. Plugin Name of the plugin/theme
+#: login-with-phonenumber.php:796
+msgid "Login with phone number"
+msgstr "ورود با شماره موبایل"
+
+#: login-with-phonenumber.php:804
+msgid "Activation"
+msgstr "فعال سازی"
+
+#: login-with-phonenumber.php:808
+msgid "Security code"
+msgstr "کد امنیتی"
+
+#: login-with-phonenumber.php:824 login-with-phonenumber.php:1001
+msgid "Update password"
+msgstr "بروزرسانی رمز عبور"
+
+#: login-with-phonenumber.php:827
+msgid "Enter new password:"
+msgstr "یک  رمز عبور جدید برگزینید"
+
+#: login-with-phonenumber.php:829
+msgid "Please choose a password"
+msgstr "لطفا یک رمزعبور برای خود وارد کنید"
+
+#: login-with-phonenumber.php:832
+msgid "Update"
+msgstr "بروزرسانی"
+
+#: login-with-phonenumber.php:838
+msgid "Enter password"
+msgstr "رمز عبور را وارد کنید"
+
+#: login-with-phonenumber.php:841
+msgid "Your password:"
+msgstr "رمز عبور شما:"
+
+#: login-with-phonenumber.php:843
+msgid "Please enter your password"
+msgstr "لطفا رمزعبور خود را وارد کنید"
+
+#: login-with-phonenumber.php:846
+msgid "Login"
+msgstr "ورود"
+
+#: login-with-phonenumber.php:849
+msgid "Forgot password"
+msgstr "فراموشی رمز عبور"
+
+#: login-with-phonenumber.php:902 login-with-phonenumber.php:978
+#: login-with-phonenumber.php:1228 login-with-phonenumber.php:1239
+msgid "phone number is wrong!"
+msgstr "شماره موبایل اشتباه وارد شده!"
+
+#: login-with-phonenumber.php:928
+msgid "This username is already registered."
+msgstr "این نام کاربری از قبل وجود دارد."
+
+#: login-with-phonenumber.php:935 login-with-phonenumber.php:1101
+msgid "This email address is already registered."
+msgstr "این ایمیل از قبل وجود دارد."
+
+#: login-with-phonenumber.php:970
+msgid "Sms sent successfully!"
+msgstr "اس ام اس ارسال شد!"
+
+#: login-with-phonenumber.php:1035
+msgid "Password is incorrect!"
+msgstr "رمز عبور اشتباه است!"
+
+#: login-with-phonenumber.php:1043
+msgid "Redirecting..."
+msgstr "در حال هدایت ..."
+
+#: login-with-phonenumber.php:1064
+msgid "Password set successfully! redirecting..."
+msgstr " رمزعبور با موفقیت بروز شد، در حال هدایت..."
+
+#: login-with-phonenumber.php:1072
+msgid "User not found"
+msgstr "کاربر یافت نشد"
+
+#: login-with-phonenumber.php:1138
+msgid "Email sent successfully!"
+msgstr "ایمیل با موفقیت ارسال شد!"
+
+#: login-with-phonenumber.php:1146
+msgid "email is wrong!"
+msgstr "ایمیل اشتباه است!"
+
+#: login-with-phonenumber.php:1157
+msgid "your activation code: "
+msgstr "کد فعالسازی شما:"
+
+#: login-with-phonenumber.php:1260
+msgid "loading..."
+msgstr "در حال بروزرسانی…"
+
+#: login-with-phonenumber.php:1263
+msgid "wrong"
+msgstr "خطا"
+
+#: login-with-phonenumber.php:1273
+msgid "entered code is wrong!"
+msgstr "کد فعالسازی وارد شده اشتباه است!"
+
+#: login-with-phonenumber.php:1284
+msgid "user does not exist!"
+msgstr "کاربر وجود ندارد!"
+
+#: login-with-phonenumber.php:1309
+msgid "Wrong username or password."
+msgstr "نام کاربری و رمز عبور اشتباه است."
+
+#: login-with-phonenumber.php:1312
+msgid " successful, redirecting..."
+msgstr " موفقیت آمیز، در حال هدایت ..."
+
+#: login-with-phonenumber.php:1415
+msgid "Activation code"
+msgstr "کد فعالسازی"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+#| msgid "http://idehweb.com/login-with-phonenumber"
+msgid "http://idehweb.com/login-with-phone-number"
+msgstr "http://idehweb.com/login-with-phonenumber"
+
+#. Description of the plugin/theme
+msgid ""
+"Login with phone number - sending sms - activate user by phone number - "
+"limit pages to login - register and login with ajax - modal"
+msgstr ""
+"ورود با شماره موبایل - ارسال پیامک - فعال سازی حساب کاربری با ارسال پیامک - "
+"ثبت نام و ورود با ajax  -  مدال"
+
+#. Author of the plugin/theme
+#, fuzzy
+#| msgid "Hamid alinia - Idehweb"
+msgid "Hamid Alinia - idehweb"
+msgstr "حمید علی نیا - Idehweb"
+
+#. Author URI of the plugin/theme
+msgid "http://idehweb.com"
+msgstr "http://idehweb.com"
+
+#~ msgid "enter your phone number to login/register!"
+#~ msgstr "لطفا شماره موبایل خود را جهت ورود / عضویت وارد نمایید!"
+
+#~ msgid "Please enter your phone number"
+#~ msgstr "لطفا شماره موبایل خود را وارد نمایید"
+
+#~ msgid "the code has been sent to your phone number..."
+#~ msgstr "کد به شماره موبایل شما پیامک شد…"
+
+#~ msgid ""
+#~ "you can get support at +989120539945 & To use idehwebLwp in your posts "
+#~ "and pages you can use the shortcode:"
+#~ msgstr ""
+#~ "شما می توانید برای پشتیبانی با شماره تماس 09120539945 ارتباط برقرار کنید "
+#~ "یا در وب سایت idehweb.com از پشتیبانی ایده وب استفاده کنید:"

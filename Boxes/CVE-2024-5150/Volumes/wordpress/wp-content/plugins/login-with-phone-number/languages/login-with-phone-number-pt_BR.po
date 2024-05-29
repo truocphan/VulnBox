@@ -1,0 +1,610 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Login with phone number\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-16 16:05+0330\n"
+"PO-Revision-Date: 2021-02-16 16:05+0330\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: files-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.5.0; wp-5.6.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: gateways/class-lwp-infobip-api.php:82 gateways/class-lwp-mshastra-api.php:78
+#: gateways/class-lwp-raygansms-api.php:85
+#: gateways/class-lwp-smsbharti-api.php:86 gateways/class-lwp-twilio-api.php:87
+#: gateways/class-lwp-twilio-api.php:149 gateways/class-lwp-zenziva-api.php:81
+#, fuzzy
+#| msgid "phone number is wrong!"
+msgid "Phone number is invalid"
+msgstr "seu número de telefone está errado!"
+
+#: gateways/class-lwp-infobip-api.php:85 gateways/class-lwp-mshastra-api.php:81
+#: gateways/class-lwp-raygansms-api.php:88
+#: gateways/class-lwp-smsbharti-api.php:89 gateways/class-lwp-twilio-api.php:90
+#: gateways/class-lwp-twilio-api.php:152 gateways/class-lwp-zenziva-api.php:84
+msgid "Invalid API key"
+msgstr ""
+
+#: gateways/class-lwp-infobip-api.php:88 gateways/class-lwp-mshastra-api.php:84
+#: gateways/class-lwp-raygansms-api.php:91
+#: gateways/class-lwp-smsbharti-api.php:92 gateways/class-lwp-twilio-api.php:93
+#: gateways/class-lwp-twilio-api.php:155 gateways/class-lwp-zenziva-api.php:87
+#, fuzzy
+#| msgid "I want user login with phone number"
+msgid "Cannot send SMS to landline phone numbers"
+msgstr "Quero logar com número de telefone"
+
+#: gateways/class-lwp-infobip-api.php:91 gateways/class-lwp-mshastra-api.php:87
+#: gateways/class-lwp-raygansms-api.php:94
+#: gateways/class-lwp-smsbharti-api.php:95 gateways/class-lwp-twilio-api.php:96
+#: gateways/class-lwp-twilio-api.php:158 gateways/class-lwp-twilio-api.php:229
+#: gateways/class-lwp-zenziva-api.php:90
+msgid "Api error"
+msgstr ""
+
+#: gateways/class-lwp-twilio-api.php:226
+msgid "Phone number already verified"
+msgstr ""
+
+#: login-with-phonenumber.php:85
+msgid "Enable phone number login"
+msgstr "Habilite o login de número de telefone"
+
+#: login-with-phonenumber.php:93
+#, fuzzy
+#| msgid "Enter redirect url"
+msgid "Enter your website url"
+msgstr "Digite url de redirecionamento"
+
+#: login-with-phonenumber.php:95
+msgid "Enter api key"
+msgstr "Digite a chave api"
+
+#: login-with-phonenumber.php:96
+msgid "Country code accepted in front"
+msgstr "Código de país aceito na frente"
+
+#: login-with-phonenumber.php:100
+msgid "Buy credit here"
+msgstr "Compre crédito aqui"
+
+#: login-with-phonenumber.php:102
+msgid "use custom sms gateway"
+msgstr ""
+
+#: login-with-phonenumber.php:103
+msgid "sms default gateway"
+msgstr ""
+
+#: login-with-phonenumber.php:106
+msgid "Twilio account SID"
+msgstr ""
+
+#: login-with-phonenumber.php:107
+msgid "Twilio auth token"
+msgstr ""
+
+#: login-with-phonenumber.php:108
+#, fuzzy
+#| msgid "phone number:"
+msgid "Twilio phone number"
+msgstr "número de telefone:"
+
+#: login-with-phonenumber.php:111
+msgid "Zenziva user key"
+msgstr ""
+
+#: login-with-phonenumber.php:112
+msgid "Zenziva pass key"
+msgstr ""
+
+#: login-with-phonenumber.php:114
+msgid "Infobip user"
+msgstr ""
+
+#: login-with-phonenumber.php:115
+#, fuzzy
+#| msgid "Enter password"
+msgid "Infobip password"
+msgstr "Insira a senha"
+
+#: login-with-phonenumber.php:116
+msgid "Infobip sender"
+msgstr ""
+
+#: login-with-phonenumber.php:119
+msgid "Raygansms username"
+msgstr ""
+
+#: login-with-phonenumber.php:120
+#, fuzzy
+#| msgid "Enter password"
+msgid "Raygansms password"
+msgstr "Insira a senha"
+
+#: login-with-phonenumber.php:121
+#, fuzzy
+#| msgid "phone number:"
+msgid "Raygansms phone number"
+msgstr "número de telefone:"
+
+#: login-with-phonenumber.php:123
+#, fuzzy
+#| msgid "Enter api key"
+msgid "Smsbharti api key"
+msgstr "Digite a chave api"
+
+#: login-with-phonenumber.php:124
+msgid "smsbharti from"
+msgstr ""
+
+#: login-with-phonenumber.php:125
+msgid "smsbharti template id"
+msgstr ""
+
+#: login-with-phonenumber.php:126
+msgid "smsbharti route id"
+msgstr ""
+
+#: login-with-phonenumber.php:129
+msgid "mshastra user"
+msgstr ""
+
+#: login-with-phonenumber.php:130
+msgid "mshastra pwd"
+msgstr ""
+
+#: login-with-phonenumber.php:131
+msgid "mshastra senderid"
+msgstr ""
+
+#: login-with-phonenumber.php:143
+msgid "Enable email login"
+msgstr "Habilite o login de e-mail"
+
+#: login-with-phonenumber.php:144
+msgid "Enable password login"
+msgstr "Habilite o login por senha"
+
+#: login-with-phonenumber.php:145
+msgid "Enter redirect url"
+msgstr "Digite url de redirecionamento"
+
+#: login-with-phonenumber.php:146
+msgid "Enable fix position"
+msgstr "Habilitar a posição de correção"
+
+#: login-with-phonenumber.php:147
+#, fuzzy
+#| msgid "Enable phone number login"
+msgid "use phone number for username"
+msgstr "Habilite o login de número de telefone"
+
+#: login-with-phonenumber.php:148 login-with-phonenumber.php:1296
+msgid "Default username"
+msgstr ""
+
+#: login-with-phonenumber.php:149 login-with-phonenumber.php:1308
+msgid "Default nickname"
+msgstr ""
+
+#: login-with-phonenumber.php:150
+msgid "Shortcode and Template Tag"
+msgstr "Shortcode e Tag de modelo"
+
+#: login-with-phonenumber.php:161 login-with-phonenumber.php:162
+msgid "login setting"
+msgstr "configuração de login"
+
+#: login-with-phonenumber.php:190
+msgid "idehwebLwp Settings"
+msgstr "configuração do plugin"
+
+#: login-with-phonenumber.php:195
+msgid "Settings saved."
+msgstr "Configuração salva."
+
+#: login-with-phonenumber.php:220
+#, fuzzy
+msgid "Save Changes"
+msgstr "Modificações Salvas"
+
+#: login-with-phonenumber.php:552
+msgid "Your Credit:"
+msgstr "Créditos:"
+
+#: login-with-phonenumber.php:581
+msgid "Buy"
+msgstr "Pagar"
+
+#: login-with-phonenumber.php:765
+msgid "1. create a page and name it login or register or what ever"
+msgstr ""
+"1. crie uma página e nomeie-a como login ou registro ou o que quer que seja"
+
+#: login-with-phonenumber.php:766
+msgid ""
+"2. copy this shortcode <code>[idehweb_lwp]</code> and paste in the page you "
+"created at step 1"
+msgstr ""
+"2. copie este shortcode <code> [idehweb_lwp] </code> e cole na página que "
+"você criou na etapa 1"
+
+#: login-with-phonenumber.php:767
+msgid ""
+"3. now, that is your login page. check your login page with other device or "
+"browser that you are not logged in!"
+msgstr ""
+"3. agora, essa é a sua página de login. verifique sua página de login com "
+"outro dispositivo ou navegador que você não esteja conectado!"
+
+#: login-with-phonenumber.php:770
+msgid "for more information visit: "
+msgstr "para mais informações, visite: "
+
+#: login-with-phonenumber.php:775
+msgid "got it "
+msgstr "entendi "
+
+#: login-with-phonenumber.php:806
+msgid "I want user login with email"
+msgstr "Quero logar com email"
+
+#: login-with-phonenumber.php:820
+msgid "I want user login with phone number"
+msgstr "Quero logar com número de telefone"
+
+#: login-with-phonenumber.php:834
+msgid "I want user login with password too"
+msgstr "Quero logar com senha também"
+
+#: login-with-phonenumber.php:844
+msgid "I want form shows on page in fix position"
+msgstr "Quero mostrar formulário na página em posição fixa"
+
+#: login-with-phonenumber.php:854
+msgid "I want to use custom gateways"
+msgstr ""
+
+#: login-with-phonenumber.php:891
+msgid "enter your Twilio account SID"
+msgstr ""
+
+#: login-with-phonenumber.php:901
+msgid "enter your Twilio auth token"
+msgstr ""
+
+#: login-with-phonenumber.php:911
+#, fuzzy
+#| msgid "Enter your phone number"
+msgid "enter your Twilio phone number"
+msgstr "Digite seu número de telefone"
+
+#: login-with-phonenumber.php:921
+#, fuzzy
+#| msgid "Enter your phone number"
+msgid "enter your Zenziva user key"
+msgstr "Digite seu número de telefone"
+
+#: login-with-phonenumber.php:931
+#, fuzzy
+#| msgid "enter api key"
+msgid "enter your Zenziva pass key"
+msgstr "inserir api key"
+
+#: login-with-phonenumber.php:941 login-with-phonenumber.php:952
+msgid "enter your Infobip pass key"
+msgstr ""
+
+#: login-with-phonenumber.php:962
+#, fuzzy
+#| msgid "Enter your phone number"
+msgid "enter your Infobip sender"
+msgstr "Digite seu número de telefone"
+
+#: login-with-phonenumber.php:973
+msgid "enter your Raygansms username"
+msgstr ""
+
+#: login-with-phonenumber.php:983
+#, fuzzy
+#| msgid "Please enter your password"
+msgid "enter your Raygansms password"
+msgstr "Por favor, insira sua senha"
+
+#: login-with-phonenumber.php:993
+#, fuzzy
+#| msgid "Enter your phone number"
+msgid "enter your Raygansms phone number"
+msgstr "Digite seu número de telefone"
+
+#: login-with-phonenumber.php:1004
+#, fuzzy
+#| msgid "enter api key"
+msgid "enter your smsbharti api key"
+msgstr "inserir api key"
+
+#: login-with-phonenumber.php:1014
+msgid "enter your smsbharti from"
+msgstr ""
+
+#: login-with-phonenumber.php:1024
+msgid "enter your smsbharti template id"
+msgstr ""
+
+#: login-with-phonenumber.php:1033
+msgid "enter your smsbharti route id"
+msgstr ""
+
+#: login-with-phonenumber.php:1044
+msgid "enter your mshastra username"
+msgstr ""
+
+#: login-with-phonenumber.php:1053
+#, fuzzy
+#| msgid "Please enter your password"
+msgid "enter your mshastra password"
+msgstr "Por favor, insira sua senha"
+
+#: login-with-phonenumber.php:1062
+msgid "enter your mshastra sender ID"
+msgstr ""
+
+#: login-with-phonenumber.php:1098
+msgid "I want to set phone number as username and nickname"
+msgstr ""
+
+#: login-with-phonenumber.php:1151
+msgid "Choose a country..."
+msgstr "Escolha um país..."
+
+#: login-with-phonenumber.php:1168 login-with-phonenumber.php:1187
+msgid "Authenticate"
+msgstr "Autenticar"
+
+#: login-with-phonenumber.php:1168 login-with-phonenumber.php:1187
+msgid "activate sms login"
+msgstr "ativar login por sms"
+
+#: login-with-phonenumber.php:1170 login-with-phonenumber.php:1501
+msgid "Activate"
+msgstr "Ativado"
+
+#: login-with-phonenumber.php:1170
+msgid "activate account"
+msgstr "ativar conta"
+
+#: login-with-phonenumber.php:1202
+msgid "enter api key"
+msgstr "inserir api key"
+
+#: login-with-phonenumber.php:1229
+msgid "enter redirect url"
+msgstr "inserir link de redirecionamento"
+
+#: login-with-phonenumber.php:1261
+msgid ""
+"make a page and name it login, put the shortcode inside it, now you have a "
+"login page!"
+msgstr ""
+"crie uma página, nomeie como login, coloque o shortcode dentro dela e agora, "
+"transforme em página de login do seu site!"
+
+#: login-with-phonenumber.php:1264
+msgid "Need more help?"
+msgstr "Precisa de mais ajuda?"
+
+#: login-with-phonenumber.php:1326
+msgid "Check credit"
+msgstr "Verifique o crédito"
+
+#: login-with-phonenumber.php:1330
+msgid "Refresh"
+msgstr "Atualizar"
+
+#: login-with-phonenumber.php:1366
+msgid "please wait..."
+msgstr "por favor, aguarde..."
+
+#: login-with-phonenumber.php:1426
+msgid "login"
+msgstr "acesso"
+
+#: login-with-phonenumber.php:1433 login-with-phonenumber.php:1471
+msgid "Login / register"
+msgstr "Acesso / registro"
+
+#: login-with-phonenumber.php:1436 login-with-phonenumber.php:2245
+msgid "Phone number"
+msgstr "Número de telefone"
+
+#: login-with-phonenumber.php:1451
+msgid "9*********"
+msgstr "9*********"
+
+#: login-with-phonenumber.php:1454 login-with-phonenumber.php:1479
+msgid "Submit"
+msgstr "Enviar"
+
+#: login-with-phonenumber.php:1460
+msgid "Login with email"
+msgstr "Logar com email"
+
+#: login-with-phonenumber.php:1474
+msgid "Your email:"
+msgstr "Seu email:"
+
+#: login-with-phonenumber.php:1476
+msgid "Please enter your email"
+msgstr "Por favor, entre com seu email"
+
+#. Plugin Name of the plugin/theme
+#: login-with-phonenumber.php:1485
+msgid "Login with phone number"
+msgstr "Logar com número de telefone"
+
+#: login-with-phonenumber.php:1493
+msgid "Activation"
+msgstr "Ativação"
+
+#: login-with-phonenumber.php:1497
+msgid "Security code"
+msgstr "Código de segurança"
+
+#: login-with-phonenumber.php:1513 login-with-phonenumber.php:1743
+msgid "Update password"
+msgstr "Atualizar senha"
+
+#: login-with-phonenumber.php:1516
+msgid "Enter new password:"
+msgstr "Insira a nova senha:"
+
+#: login-with-phonenumber.php:1518
+msgid "Please choose a password"
+msgstr "Por favor, escolha uma senha"
+
+#: login-with-phonenumber.php:1521
+msgid "Update"
+msgstr "Atualizar"
+
+#: login-with-phonenumber.php:1527
+msgid "Enter password"
+msgstr "Insira a senha"
+
+#: login-with-phonenumber.php:1530
+msgid "Your password:"
+msgstr "Sua senha:"
+
+#: login-with-phonenumber.php:1532
+msgid "Please enter your password"
+msgstr "Por favor, insira sua senha"
+
+#: login-with-phonenumber.php:1535
+msgid "Login"
+msgstr "Acesso"
+
+#: login-with-phonenumber.php:1538
+msgid "Forgot password"
+msgstr "Esqueceu a senha"
+
+#: login-with-phonenumber.php:1591 login-with-phonenumber.php:1674
+#: login-with-phonenumber.php:2037 login-with-phonenumber.php:2048
+msgid "phone number is wrong!"
+msgstr "seu número de telefone está errado!"
+
+#: login-with-phonenumber.php:1617
+msgid "This username is already registered."
+msgstr "Este nome de usuário já se encontra em uso."
+
+#: login-with-phonenumber.php:1624 login-with-phonenumber.php:1843
+msgid "This email address is already registered."
+msgstr "Este email já se encontra registrado."
+
+#: login-with-phonenumber.php:1665
+msgid "Sms sent successfully!"
+msgstr "SMS enviado com êxito!"
+
+#: login-with-phonenumber.php:1777
+msgid "Password is incorrect!"
+msgstr "Senha incorreta!"
+
+#: login-with-phonenumber.php:1785
+msgid "Redirecting..."
+msgstr "Redirecionando..."
+
+#: login-with-phonenumber.php:1806
+msgid "Password set successfully! redirecting..."
+msgstr "Senha definida com sucesso! Redirecionando..."
+
+#: login-with-phonenumber.php:1814
+msgid "User not found"
+msgstr "Usuário não encontrado"
+
+#: login-with-phonenumber.php:1881
+msgid "Email sent successfully!"
+msgstr "E-mail enviado com sucesso!"
+
+#: login-with-phonenumber.php:1889
+msgid "email is wrong!"
+msgstr "seu email está errado!"
+
+#: login-with-phonenumber.php:1936
+msgid "your activation code: "
+msgstr "seu código de ativação é:"
+
+#: login-with-phonenumber.php:2069
+msgid "loading..."
+msgstr "carregando..."
+
+#: login-with-phonenumber.php:2072
+msgid "wrong"
+msgstr "errado"
+
+#: login-with-phonenumber.php:2082
+msgid "entered code is wrong!"
+msgstr "o código inserido está errado!"
+
+#: login-with-phonenumber.php:2093
+msgid "user does not exist!"
+msgstr "usuário não existe!"
+
+#: login-with-phonenumber.php:2118
+msgid "Wrong username or password."
+msgstr "Nome de usuário ou senha incorretos."
+
+#: login-with-phonenumber.php:2121
+msgid " successful, redirecting..."
+msgstr "sucesso, redirecionando..."
+
+#: login-with-phonenumber.php:2246
+msgid "Activation code"
+msgstr "Código de ativação"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+#| msgid "http://idehweb.com/login-with-phonenumber"
+msgid "http://idehweb.com/login-with-phone-number"
+msgstr "http://idehweb.com/login-with-phonenumber"
+
+#. Description of the plugin/theme
+msgid ""
+"Login with phone number - sending sms - activate user by phone number - "
+"limit pages to login - register and login with ajax - modal"
+msgstr ""
+"Login com número de telefone - envio de sms - ativação do usuário por número "
+"de telefone - limite de páginas para login - registro e login com ajax - "
+"modal"
+
+#. Author of the plugin/theme
+#, fuzzy
+#| msgid "Hamid alinia - Idehweb"
+msgid "Hamid Alinia - idehweb"
+msgstr "Hamid alinia - Idehweb"
+
+#. Author URI of the plugin/theme
+msgid "http://idehweb.com"
+msgstr "http://idehweb.com"
+
+#~ msgid ""
+#~ "To use idehwebLwp manually in your theme template use the following PHP "
+#~ "code:"
+#~ msgstr ""
+#~ "Para usar idehwebLwp manualmente em seu modelo de tema, use o seguinte "
+#~ "código PHP:"
+
+#~ msgid "change"
+#~ msgstr "mudar"

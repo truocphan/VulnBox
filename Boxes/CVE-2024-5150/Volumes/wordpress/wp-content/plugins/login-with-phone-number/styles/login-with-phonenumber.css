@@ -1,0 +1,419 @@
+form.ajax-auth {
+    display: none;
+    z-index: 999;
+
+    min-width: 300px;
+    height: auto !important;
+    max-width: 350px !important;
+    padding: 40px 25px 25px 25px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-family: inherit;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    color: #878787;
+    margin: 30px auto;
+    position: relative;
+    font-size: 11px;
+}
+#lwp_activate.ajax-auth input.lwp_scode,
+#lwp_activate_email.ajax-auth input.lwp_scode {
+     width: calc(100% - 0px);
+    max-width: 100%;
+    height: 30px;
+    direction: ltr;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #757575;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+.lwp_sso_gateways{
+    margin-top:10px
+}
+.ajax-auth .lwp_sso_gateways > button{
+    display: flex;
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    cursor:pointer;
+    align-items: center;
+    margin-bottom:10px;
+}
+.lw-sticky form.ajax-auth {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+
+}
+
+#lwp_country_codes {
+    float: left;
+}
+
+.ajax-auth h1, .ajax-auth h3 {
+
+    font-weight: 100;
+    color: #333333;
+    line-height: 1;
+}
+
+.ajax-auth .lh1 {
+    font-size: 27px;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    font-family: inherit;
+
+}
+
+.ajax-auth h3 {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+}
+
+.ajax-auth h3 a {
+    color: #e25c4c;
+}
+
+.ajax-auth hr {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.ajax-auth input#username,
+.ajax-auth input#password,
+.ajax-auth input#signonname,
+.ajax-auth input#email,
+.ajax-auth input#signonpassword,
+.ajax-auth input#password2 {
+    border: 1px solid #EDEDED;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    color: #333333;
+    font-size: 15px;
+    padding: 10px 10px 10px 13px;
+    width: 325px;
+    margin: 7px 0 20px 0;
+    background-color: #F9F9F9;
+    font-family: inherit;
+}
+
+.ajax-auth input#username:focus,
+.ajax-auth input#password:focus,
+.ajax-auth input#signonname:focus,
+.ajax-auth input#email:focus,
+.ajax-auth input#signonpassword:focus,
+.ajax-auth input#password2:focus {
+    background-color: #FFF;
+}
+
+.ajax-auth label.error {
+    display: none !important;
+}
+
+.ajax-auth input.error {
+    /*border: 1px solid #FF0000 !important;*/
+}
+
+.ajax-auth input.submit_button {
+    font-size: 13px;
+    color: #FFF;
+    border: 1px solid #b34336;
+    background-color: #e25c4c;
+    border-radius: 3px;
+    text-shadow: 0 1px 0 #ba3f31;
+    padding: 9px 31px 9px 31px;
+    background: -moz-linear-gradient(top, #ea6656, #df5949);
+    border-top: 1px solid #bb483a;
+    border-bottom: 1px solid #a63b2e;
+    float: right;
+    box-shadow: 0 1px 0 #E87A6E inset;
+}
+
+.ajax-auth a {
+    text-decoration: none;
+}
+
+.ajax-auth a.close {
+    display: none;
+    color: #e96262;
+    font-size: 23px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+
+.lw-sticky .ajax-auth a.close {
+    display: block;
+}
+
+.ajax-auth a.text-link {
+    color: #B4B2B2;
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.ajax-auth input {
+    color: #000;
+}
+
+.ajax-auth input:not(.lwp_scode), .ajax-auth label, .ajax-auth button {
+    font-size: 15px;
+    width: 100%;
+    font-family: inherit;
+    display: block;
+    box-sizing: border-box;
+}
+
+.lwp_email {
+    direction: ltr;
+}
+
+input.lwp_username::-webkit-outer-spin-button,
+input.lwp_username::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input.lwp_username {
+    -moz-appearance: textfield;
+}
+
+.rtl .lwp_email::placeholder {
+    direction: rtl;
+}
+
+#lwp_country_codes {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding: 2px 0;
+    border: 1px solid #757575;
+    background-image: none;
+    direction: ltr;
+    height: 30px;
+    min-width: 70px;
+    box-sizing: border-box;
+}
+
+.required.lwp_email {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #757575;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+
+}
+
+#lwp_country_codes:focus,
+.required.lwp_email:focus {
+    outline: none;
+}
+
+/*.lwp_country_codes_span{*/
+/*line-height: 23px;*/
+/*float: left;*/
+/*display: block;*/
+/*background-color: #f6f6f6;*/
+/*height: 30px;*/
+/*padding: 2px 10px;*/
+/*width: 45px;*/
+/*font-size: 15px;*/
+/*border: 1px solid #757575;*/
+/*margin-right: 4px;*/
+/*font-weight: bold;*/
+/*border-radius: 3px;*/
+/*color: #000;*/
+/*box-sizing: border-box;*/
+/*}*/
+.lwp_country_codes_wrap {
+    width: 80px;
+    float: left;
+    box-sizing: border-box;
+    direction: ltr;
+}
+
+.rtl #lwp_login.ajax-auth input.lwp_username::placeholder {
+    text-align: left;
+}
+
+.rtl .iti__selected-flag {
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    padding: 0 2px 0 2px;
+}
+
+.iti__country-list {
+    left: 0;
+}
+
+.iti__country {
+    padding: 5px 10px;
+    outline: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.lwp-inside-form-input{
+    margin-bottom: 20px;
+}
+input.lwp_username::placeholder {
+    color: #b1b1b1 !important;
+}
+
+#lwp_login.ajax-auth input.lwp_username {
+    /*width: calc(100% - 0px);*/
+    max-width: 100%;
+    height: 30px;
+    direction: ltr;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #757575;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.lwp_top_activation {
+    text-align: center;
+}
+
+#lwp_login.ajax-auth input.lwp_username:focus {
+    outline: 0;
+}
+
+.ajax-auth p.status {
+    text-align: center;
+    margin: -15px 0 20px 0;
+    font-weight: 600;
+    display: none;
+}
+
+.submit_button {
+    width: 100%;
+    background-color: #009b9a;
+    border: 1px solid #009b9a;
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.lwp_bottom_activation {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.rtl .lwp_bottom_activation {
+    text-align: left;
+}
+
+a.login_button {
+    font-family: inherit;
+    padding: 5px 7px 5px 7px;
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #DCDCDC;
+    color: #333;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.ajax-auth .lwp_line {
+    width: 90%;
+    display: block;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    margin: auto;
+    background-color: #e6e6e6;
+    height: 1px;
+    max-width: 100%;
+    border: 1px solid;
+}
+
+.accept_terms_and_conditions_text {
+
+}
+
+.ajax-auth .accept_terms_and_conditions .lwp_check_box {
+    width: auto;
+    display: inline-block;
+}
+
+.lwp-form-box-bottom {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+
+.accept_terms_and_conditions {
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.ajax-auth .lwp-radio-otp,
+.ajax-auth .lwp-radio-otp input,
+.ajax-auth .lwp-radio-otp label{
+    display: inline-block;
+    width: auto;
+    margin: 1px 2px;
+}
+.lwp_login_overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 998;
+    /*z-index: 9998;*/
+    top: 0;
+    left: 0;
+}
+
+.lwp_none {
+    display: none !important;
+}
+.lwp_logo_parent{
+    text-align: center;
+}
+.submit_button.lwp_disable {
+    border: 1px solid #999999 !important;
+    background-color: #cccccc !important;
+    color: #666666 !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.iti__selected-flag {
+    padding: 0 6px 0 0px;
+}
+
+ul.iti__country-list li.iti__country.iti__standard {
+    margin-left: 0;
+}
+
+ul.iti__country-list li.iti__country.iti__standard:before {
+    content: none;
+}

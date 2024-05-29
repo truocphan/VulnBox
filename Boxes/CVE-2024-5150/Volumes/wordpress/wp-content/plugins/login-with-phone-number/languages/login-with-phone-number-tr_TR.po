@@ -1,0 +1,698 @@
+# Translation of Plugins - Login with phone number - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - Login with phone number - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-07 05:15:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - Login with phone number - Stable (latest release)\n"
+
+#: login-with-phonenumber.php:2156
+msgid "users can not register!"
+msgstr "kullanicilar kayit olmayi başaramazlar!"
+
+#: login-with-phonenumber.php:76
+msgid "Personal Information"
+msgstr "Kişisel bilgiler"
+
+#: login-with-phonenumber.php:1284
+msgid "I want online support be active"
+msgstr "online destegin etkin olmasini istiyorum"
+
+#: login-with-phonenumber.php:1237
+msgid "20px"
+msgstr "20px"
+
+#: login-with-phonenumber.php:1213
+msgid "13px"
+msgstr "13px"
+
+#: login-with-phonenumber.php:1091 login-with-phonenumber.php:1099
+#: login-with-phonenumber.php:1132 login-with-phonenumber.php:1140
+#: login-with-phonenumber.php:1173 login-with-phonenumber.php:1181
+msgid "0px 0px 0px 0px"
+msgstr "0px 0px 0px 0px"
+
+#: login-with-phonenumber.php:1066
+msgid "enable custom styles"
+msgstr "Özel biçem etkinleştir"
+
+#: login-with-phonenumber.php:1000
+msgid "Style settings"
+msgstr "biçem ayarlari "
+
+#: login-with-phonenumber.php:275
+msgid "Style Settings"
+msgstr "biçem ayarlari "
+
+#: login-with-phonenumber.php:275
+msgid "style settings"
+msgstr "biçem ayarlari "
+
+#: login-with-phonenumber.php:256
+msgid "Enable online support"
+msgstr "online destek etkinleştırmek"
+
+#: login-with-phonenumber.php:180
+msgid "title font size"
+msgstr "Başlık Yazı Tipi Boyutu"
+
+#: login-with-phonenumber.php:179
+msgid "title color"
+msgstr "Başlık rengi"
+
+#: login-with-phonenumber.php:178
+msgid "Titles"
+msgstr "Başlıklar"
+
+#: login-with-phonenumber.php:175
+msgid "label font size"
+msgstr "Etiket yazı tipi boyutu"
+
+#: login-with-phonenumber.php:174 login-with-phonenumber.php:1221
+#: login-with-phonenumber.php:1229
+msgid "label text color"
+msgstr "Etiket metin rengi"
+
+#: login-with-phonenumber.php:173
+msgid "Labels"
+msgstr "Etiketler"
+
+#: login-with-phonenumber.php:170 login-with-phonenumber.php:1205
+msgid "box background color"
+msgstr "kutu Arka Plan Rengi"
+
+#: login-with-phonenumber.php:169
+msgid "Box"
+msgstr "Kutu"
+
+#: login-with-phonenumber.php:167 login-with-phonenumber.php:1197
+msgid "input placeholder color"
+msgstr "Giriş yer tutucu rengi"
+
+#: login-with-phonenumber.php:166 login-with-phonenumber.php:1189
+msgid "input text color"
+msgstr "Giriş metin rengi"
+
+#: login-with-phonenumber.php:165
+msgid "input border width"
+msgstr "Giriş kenarlık genişliği"
+
+#: login-with-phonenumber.php:164
+msgid "input border radius"
+msgstr "Giriş kenarlık yarıçapı"
+
+#: login-with-phonenumber.php:163 login-with-phonenumber.php:1165
+msgid "input border color"
+msgstr "Giriş kenarlik rengi"
+
+#: login-with-phonenumber.php:162 login-with-phonenumber.php:1157
+msgid "input background color"
+msgstr "Giriş Arkaplan rengi"
+
+#: login-with-phonenumber.php:160
+msgid "Inputs"
+msgstr "Girişler"
+
+#: login-with-phonenumber.php:157 login-with-phonenumber.php:1148
+msgid "secondary button text color"
+msgstr "ikincil düğme metin rengi"
+
+#: login-with-phonenumber.php:156
+msgid "secondary button border width"
+msgstr "ikincil düğme kenarlık genişliği"
+
+#: login-with-phonenumber.php:155
+msgid "secondary button border radius"
+msgstr "ikincil düğme kenarlık yarıçapı"
+
+#: login-with-phonenumber.php:154 login-with-phonenumber.php:1124
+msgid "secondary button border color"
+msgstr "ikincil düğme kenarlık rengi"
+
+#: login-with-phonenumber.php:153 login-with-phonenumber.php:1116
+msgid "secondary button background color"
+msgstr "ikincil düğme arka plan rengi"
+
+#: login-with-phonenumber.php:151
+msgid "Secondary button"
+msgstr "İkincil düğme..."
+
+#: login-with-phonenumber.php:148 login-with-phonenumber.php:1107
+msgid "button text color"
+msgstr "Düğme metin rengi"
+
+#: login-with-phonenumber.php:147
+msgid "button border width"
+msgstr "düğme kenarlığı genişliği"
+
+#: login-with-phonenumber.php:146
+msgid "button border radius"
+msgstr "Düğme Kenarlığı Yarıçapı"
+
+#: login-with-phonenumber.php:145 login-with-phonenumber.php:1083
+msgid "button border color"
+msgstr "Düğme Kenar Rengi"
+
+#: login-with-phonenumber.php:144 login-with-phonenumber.php:1075
+msgid "button background color"
+msgstr "Düğme Arka Plan Rengi"
+
+#: login-with-phonenumber.php:143
+msgid "Primary button"
+msgstr "Birincil düğme"
+
+#: login-with-phonenumber.php:139
+msgid "Enable custom styles"
+msgstr "Özel biçim etkinleştir"
+
+#: login-with-phonenumber.php:1431
+msgid "enter Firebase config"
+msgstr "Firebase yapılandırmasini giriniz"
+
+#: login-with-phonenumber.php:1421
+msgid "Firebase config help - documentation"
+msgstr "Firebase yapılandırma ve yardim belgeleri "
+
+#: login-with-phonenumber.php:1421
+msgid "enter Firebase api"
+msgstr "Firebase api sini giriniz"
+
+#: login-with-phonenumber.php:221
+msgid "Firebase config"
+msgstr "Firebase yapılandırmasi"
+
+#: login-with-phonenumber.php:220
+msgid "Firebase api"
+msgstr "Firebase api"
+
+#: login-with-phonenumber.php:1533
+msgid "enter your mshastra sender ID"
+msgstr "mshastra gondericisinin numarasini giriniz"
+
+#: login-with-phonenumber.php:1523
+msgid "enter your mshastra password"
+msgstr "mshastra parolanizi giriniz"
+
+#: login-with-phonenumber.php:1513
+msgid "enter your mshastra username"
+msgstr "mshastra kullanici adini giriniz"
+
+#: login-with-phonenumber.php:236
+msgid "mshastra senderid"
+msgstr "mshastra gondericisinin numarasi"
+
+#: login-with-phonenumber.php:235
+msgid "mshastra pwd"
+msgstr "mshastra pwd"
+
+#: login-with-phonenumber.php:234
+msgid "mshastra user"
+msgstr "mshastra kullanici adi"
+
+#: login-with-phonenumber.php:1502
+msgid "enter your smsbharti route id"
+msgstr "smsbharti rota numaranizi giriniz"
+
+#: login-with-phonenumber.php:231
+msgid "smsbharti route id"
+msgstr "smsbharti rota numarasi"
+
+#: login-with-phonenumber.php:1492
+msgid "enter your smsbharti template id"
+msgstr "smsbharti şablonunuzu giriniz"
+
+#: login-with-phonenumber.php:1482
+msgid "enter your smsbharti from"
+msgstr "smsbharti parametresini giriniz"
+
+#: login-with-phonenumber.php:1472
+msgid "enter your smsbharti api key"
+msgstr "Smsbharti api anahtarinizi giriniz"
+
+#: login-with-phonenumber.php:230
+msgid "smsbharti template id"
+msgstr "smsbharti şablonu"
+
+#: login-with-phonenumber.php:229
+msgid "smsbharti from"
+msgstr " smsbharti paramerti"
+
+#: login-with-phonenumber.php:228
+msgid "Smsbharti api key"
+msgstr "Smsbharti api anahtari"
+
+#: login-with-phonenumber.php:1461
+msgid "enter your Raygansms phone number"
+msgstr "Raygansms telefon numaranizi giriniz"
+
+#: login-with-phonenumber.php:1451
+msgid "enter your Raygansms password"
+msgstr "Raygansms parolanizi giriniz"
+
+#: login-with-phonenumber.php:1441
+msgid "enter your Raygansms username"
+msgstr "Raygansms kullanici adini giriniz"
+
+#: gateways/class-lwp-twilio-api.php:226
+msgid "Phone number already verified"
+msgstr "Telefon numarasi zaten doğrulanmiş"
+
+#: gateways/class-lwp-infobip-api.php:91 gateways/class-lwp-mshastra-api.php:87
+#: gateways/class-lwp-raygansms-api.php:94
+#: gateways/class-lwp-smsbharti-api.php:95 gateways/class-lwp-twilio-api.php:96
+#: gateways/class-lwp-twilio-api.php:158 gateways/class-lwp-twilio-api.php:229
+#: gateways/class-lwp-zenziva-api.php:90
+msgid "Api error"
+msgstr "API Hatası"
+
+#: gateways/class-lwp-infobip-api.php:88 gateways/class-lwp-mshastra-api.php:84
+#: gateways/class-lwp-raygansms-api.php:91
+#: gateways/class-lwp-smsbharti-api.php:92 gateways/class-lwp-twilio-api.php:93
+#: gateways/class-lwp-twilio-api.php:155 gateways/class-lwp-zenziva-api.php:87
+msgid "Cannot send SMS to landline phone numbers"
+msgstr "Sabit telefon numaralarına SMS gönderilemez"
+
+#: gateways/class-lwp-infobip-api.php:85 gateways/class-lwp-mshastra-api.php:81
+#: gateways/class-lwp-raygansms-api.php:88
+#: gateways/class-lwp-smsbharti-api.php:89 gateways/class-lwp-twilio-api.php:90
+#: gateways/class-lwp-twilio-api.php:152 gateways/class-lwp-zenziva-api.php:84
+msgid "Invalid API key"
+msgstr "Hatalı API anahtarı"
+
+#: gateways/class-lwp-infobip-api.php:82 gateways/class-lwp-mshastra-api.php:78
+#: gateways/class-lwp-raygansms-api.php:85
+#: gateways/class-lwp-smsbharti-api.php:86 gateways/class-lwp-twilio-api.php:87
+#: gateways/class-lwp-twilio-api.php:149 gateways/class-lwp-zenziva-api.php:81
+msgid "Phone number is invalid"
+msgstr "Telefon numarasi geçersiz"
+
+#: login-with-phonenumber.php:1569
+msgid "I want to set phone number as username and nickname"
+msgstr "telefon numarasini kullanici ad ve takma isim olarak kullanmak istiyorum"
+
+#: login-with-phonenumber.php:1410
+msgid "enter your Infobip sender"
+msgstr "Infobip göndericisini giriniz"
+
+#: login-with-phonenumber.php:1389 login-with-phonenumber.php:1400
+msgid "enter your Infobip pass key"
+msgstr "Infobip parola anahtarinizi giriniz"
+
+#: login-with-phonenumber.php:1379
+msgid "enter your Zenziva pass key"
+msgstr "Zenziva parola anahtarinizi giriniz"
+
+#: login-with-phonenumber.php:1369
+msgid "enter your Zenziva user key"
+msgstr "Zenziva kullanici adi anahtarinizi giriniz"
+
+#: login-with-phonenumber.php:1359
+msgid "enter your Twilio phone number"
+msgstr "Twilio telefon numaranizi giriniz"
+
+#: login-with-phonenumber.php:1349
+msgid "enter your Twilio auth token"
+msgstr "Twilio kimlik doğrulama tokeninizi giriniz"
+
+#: login-with-phonenumber.php:1339
+msgid "enter your Twilio account SID"
+msgstr "Twilio guvenlık tanımlayıcı numaranizi giriniz"
+
+#: login-with-phonenumber.php:1294
+msgid "I want to use custom gateways"
+msgstr "özel ağ geçidi kullanmak istiyorum"
+
+#: login-with-phonenumber.php:252
+msgid "use phone number for username"
+msgstr "kullanıcı adı ıçın telefon numarasını kullanın"
+
+#: login-with-phonenumber.php:217
+msgid "Infobip sender"
+msgstr "Infobip göndericisi"
+
+#: login-with-phonenumber.php:216
+msgid "Infobip password"
+msgstr "Infobip parolası"
+
+#: login-with-phonenumber.php:215
+msgid "Infobip user"
+msgstr "Infobip kullanıcısı"
+
+#: login-with-phonenumber.php:213
+msgid "Zenziva pass key"
+msgstr "Zenziva parola anahtari"
+
+#: login-with-phonenumber.php:212
+msgid "Zenziva user key"
+msgstr "Zenziva  kullanıcı anahtarı"
+
+#: login-with-phonenumber.php:209
+msgid "Twilio phone number"
+msgstr "Twilio telefon numarasi"
+
+#: login-with-phonenumber.php:208
+msgid "Twilio auth token"
+msgstr "Twilio kimlik doğrulama tokeni"
+
+#: login-with-phonenumber.php:207
+msgid "Twilio account SID"
+msgstr "Twilio hesabının guvenlık tanımlayıcı numarası"
+
+#: login-with-phonenumber.php:204
+msgid "sms default gateway"
+msgstr "varsayılan sms ağ geçidi"
+
+#: login-with-phonenumber.php:203
+msgid "use custom sms gateway"
+msgstr "özel sms ağ geçidini kullanin"
+
+#: login-with-phonenumber.php:194
+msgid "Enter your website url"
+msgstr "web sitenızin Tekdüzen Kaynak Bulucusunu giriniz"
+
+#: login-with-phonenumber.php:254 login-with-phonenumber.php:1779
+msgid "Default nickname"
+msgstr "varsayılan Takma isim "
+
+#: login-with-phonenumber.php:253 login-with-phonenumber.php:1767
+msgid "Default username"
+msgstr "Varsayılan Kullanıcı adı"
+
+#: login-with-phonenumber.php:2866
+msgid "Activation code"
+msgstr "etkinleştirmek kodu"
+
+#: login-with-phonenumber.php:2718
+msgid "Wrong username or password."
+msgstr ""
+
+#: login-with-phonenumber.php:2693
+msgid "user does not exist!"
+msgstr ""
+
+#: login-with-phonenumber.php:2631 login-with-phonenumber.php:2682
+msgid "entered code is wrong!"
+msgstr ""
+
+#: login-with-phonenumber.php:2649 login-with-phonenumber.php:2672
+msgid "wrong"
+msgstr ""
+
+#: login-with-phonenumber.php:2646 login-with-phonenumber.php:2669
+msgid "loading..."
+msgstr ""
+
+#: login-with-phonenumber.php:2498
+msgid "your activation code: "
+msgstr ""
+
+#: login-with-phonenumber.php:2451
+msgid "email is wrong!"
+msgstr ""
+
+#: login-with-phonenumber.php:2443
+msgid "Email sent successfully!"
+msgstr ""
+
+#: login-with-phonenumber.php:2376
+msgid "User not found"
+msgstr ""
+
+#: login-with-phonenumber.php:2368
+msgid "Password set successfully! redirecting..."
+msgstr "parola başarıyla belirlendi! yeniden yönlendiriliyor ..."
+
+#: login-with-phonenumber.php:2347
+msgid "Redirecting..."
+msgstr ""
+
+#: login-with-phonenumber.php:2339
+msgid "Password is incorrect!"
+msgstr ""
+
+#: login-with-phonenumber.php:2230
+msgid "Sms sent successfully!"
+msgstr ""
+
+#: login-with-phonenumber.php:2189 login-with-phonenumber.php:2405
+msgid "This email address is already registered."
+msgstr ""
+
+#: login-with-phonenumber.php:2182
+msgid "This username is already registered."
+msgstr ""
+
+#: login-with-phonenumber.php:2146 login-with-phonenumber.php:2239
+#: login-with-phonenumber.php:2605 login-with-phonenumber.php:2616
+msgid "phone number is wrong!"
+msgstr ""
+
+#: login-with-phonenumber.php:2093
+msgid "Forgot password"
+msgstr ""
+
+#: login-with-phonenumber.php:2090
+msgid "Login"
+msgstr ""
+
+#: login-with-phonenumber.php:2087
+msgid "Please enter your password"
+msgstr "Lütfen parolanızı giriniz."
+
+#: login-with-phonenumber.php:2085
+msgid "Your password:"
+msgstr "Parolanız"
+
+#: login-with-phonenumber.php:2081
+msgid "Enter password"
+msgstr ""
+
+#: login-with-phonenumber.php:2075
+msgid "Update"
+msgstr ""
+
+#: login-with-phonenumber.php:2072
+msgid "Please choose a password"
+msgstr "Lütfen bir parola seçin"
+
+#: login-with-phonenumber.php:2070
+msgid "Enter new password:"
+msgstr "Yeni parola girin:"
+
+#: login-with-phonenumber.php:2066 login-with-phonenumber.php:2307
+msgid "Update password"
+msgstr "Parolayı güncelle"
+
+#: login-with-phonenumber.php:2050
+msgid "Security code"
+msgstr ""
+
+#: login-with-phonenumber.php:2045
+msgid "Activation"
+msgstr "Etkinleştirmek"
+
+#: login-with-phonenumber.php:2028
+msgid "Please enter your email"
+msgstr ""
+
+#: login-with-phonenumber.php:2026
+msgid "Your email:"
+msgstr ""
+
+#: login-with-phonenumber.php:2011
+msgid "Login with email"
+msgstr ""
+
+#: login-with-phonenumber.php:2005 login-with-phonenumber.php:2031
+msgid "Submit"
+msgstr ""
+
+#: login-with-phonenumber.php:2002
+msgid "9*********"
+msgstr ""
+
+#: login-with-phonenumber.php:1987 login-with-phonenumber.php:2865
+msgid "Phone number"
+msgstr ""
+
+#: login-with-phonenumber.php:1983 login-with-phonenumber.php:2022
+msgid "Login / register"
+msgstr ""
+
+#: login-with-phonenumber.php:1976
+msgid "login"
+msgstr ""
+
+#: login-with-phonenumber.php:1890
+msgid "please wait..."
+msgstr ""
+
+#: login-with-phonenumber.php:80
+msgid "phone_number"
+msgstr ""
+
+#: login-with-phonenumber.php:1801
+msgid "Refresh"
+msgstr ""
+
+#: login-with-phonenumber.php:1797
+msgid "Check credit"
+msgstr ""
+
+#: login-with-phonenumber.php:1735
+msgid "Need more help?"
+msgstr ""
+
+#: login-with-phonenumber.php:1732
+msgid "make a page and name it login, put the shortcode inside it, now you have a login page!"
+msgstr ""
+
+#: login-with-phonenumber.php:1700
+msgid "enter redirect url"
+msgstr ""
+
+#: login-with-phonenumber.php:1673
+msgid "enter api key"
+msgstr ""
+
+#: login-with-phonenumber.php:1641
+msgid "activate account"
+msgstr "Hesabı Etkinleştir"
+
+#: login-with-phonenumber.php:1641 login-with-phonenumber.php:2054
+msgid "Activate"
+msgstr ""
+
+#: login-with-phonenumber.php:1639 login-with-phonenumber.php:1658
+msgid "activate sms login"
+msgstr ""
+
+#: login-with-phonenumber.php:1639 login-with-phonenumber.php:1658
+msgid "Authenticate"
+msgstr ""
+
+#: login-with-phonenumber.php:1622
+msgid "Choose a country..."
+msgstr ""
+
+#: login-with-phonenumber.php:1274
+msgid "I want form shows on page in fix position"
+msgstr ""
+
+#: login-with-phonenumber.php:1264
+msgid "I want user login with password too"
+msgstr "Ben de parola ile kullanıcı girişi istiyorum"
+
+#: login-with-phonenumber.php:1250
+msgid "I want user login with phone number"
+msgstr ""
+
+#: login-with-phonenumber.php:1057
+msgid "I want user login with email"
+msgstr ""
+
+#: login-with-phonenumber.php:922
+msgid "got it "
+msgstr ""
+
+#: login-with-phonenumber.php:917
+msgid "for more information visit: "
+msgstr ""
+
+#: login-with-phonenumber.php:914
+msgid "3. now, that is your login page. check your login page with other device or browser that you are not logged in!"
+msgstr ""
+
+#: login-with-phonenumber.php:913
+msgid "2. copy this shortcode <code>[idehweb_lwp]</code> and paste in the page you created at step 1"
+msgstr ""
+
+#: login-with-phonenumber.php:912
+msgid "1. create a page and name it login or register or what ever"
+msgstr ""
+
+#: login-with-phonenumber.php:728
+msgid "Buy"
+msgstr ""
+
+#: login-with-phonenumber.php:699
+msgid "Your Credit:"
+msgstr ""
+
+#: login-with-phonenumber.php:331 login-with-phonenumber.php:1021
+msgid "Save Changes"
+msgstr ""
+
+#: login-with-phonenumber.php:306 login-with-phonenumber.php:1005
+msgid "Settings saved."
+msgstr ""
+
+#: login-with-phonenumber.php:301
+msgid "idehwebLwp Settings"
+msgstr ""
+
+#: login-with-phonenumber.php:268 login-with-phonenumber.php:269
+msgid "login setting"
+msgstr ""
+
+#: login-with-phonenumber.php:255
+msgid "Shortcode and Template Tag"
+msgstr ""
+
+#: login-with-phonenumber.php:251
+msgid "Enable fix position"
+msgstr ""
+
+#: login-with-phonenumber.php:250
+msgid "Enter redirect url"
+msgstr ""
+
+#: login-with-phonenumber.php:249
+msgid "Enable password login"
+msgstr ""
+
+#: login-with-phonenumber.php:248
+msgid "Enable email login"
+msgstr ""
+
+#: login-with-phonenumber.php:201
+msgid "Buy credit here"
+msgstr ""
+
+#: login-with-phonenumber.php:197
+msgid "Country code accepted in front"
+msgstr ""
+
+#: login-with-phonenumber.php:196
+msgid "Enter api key"
+msgstr ""
+
+#: login-with-phonenumber.php:186
+msgid "Enable phone number login"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://idehweb.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Hamid Alinia - idehweb"
+msgstr "Hamid Alinia - idehweb"
+
+#. Description of the plugin
+msgid "Login with phone number - sending sms - activate user by phone number - limit pages to login - register and login with ajax - modal"
+msgstr "Telefon numarasıyla giriş - sms gondermek - Cep telefon numarasıyla uye etkinleştirme - Sadece giriş ve uyelik yazilari sayfada gorulebilir ve ajaxla giriş - modal"
+
+#. Plugin URI of the plugin
+msgid "http://idehweb.com/login-with-phone-number"
+msgstr "http://idehweb.com/login-with-phone-number"
+
+#. Plugin Name of the plugin
+#: login-with-phonenumber.php:2037
+msgid "Login with phone number"
+msgstr ""

@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-09-29 17:22+0330\n"
+"PO-Revision-Date: 2021-02-14 12:50+0330\n"
+"Last-Translator: Optional(\"bbb9ppp\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.0; wp-5.6.1\n"
+
+#: login-with-phonenumber.php:75
+msgid "Enable phone number login"
+msgstr "تفعيل تسجيل الدخول إلى رقم الهاتف"
+
+#: login-with-phonenumber.php:82
+msgid "Enter your phone number"
+msgstr "أدخل رقم هاتفك"
+
+#: login-with-phonenumber.php:84
+msgid "Enter api key"
+msgstr "أدخل مفتاح api"
+
+#: login-with-phonenumber.php:87
+msgid "Country code accepted in front"
+msgstr "رمز البلد مقبول في المقدمة"
+
+#: login-with-phonenumber.php:88
+msgid "Buy credit here"
+msgstr "شراء رصيد هنا"
+
+#: login-with-phonenumber.php:94
+msgid "Enable email login"
+msgstr "تمكين تسجيل الدخول إلى البريد الإلكتروني"
+
+#: login-with-phonenumber.php:95
+msgid "Enable password login"
+msgstr "تفعيل تسجيل الدخول بكلمة المرور"
+
+#: login-with-phonenumber.php:96
+msgid "Enter redirect url"
+msgstr "أدخل عنوان URL لإعادة التوجيه"
+
+#: login-with-phonenumber.php:97
+msgid "Enable fix position"
+msgstr "تفعيل موضع الإصلاح"
+
+#: login-with-phonenumber.php:98
+msgid "Shortcode and Template Tag"
+msgstr "رمز قصير وعلامة القالب"
+
+#: login-with-phonenumber.php:109 login-with-phonenumber.php:110
+msgid "login setting"
+msgstr "إعداد تسجيل الدخول"
+
+#: login-with-phonenumber.php:137
+msgid "idehwebLwp Settings"
+msgstr "idehwebLwp Settings"
+
+#: login-with-phonenumber.php:142
+msgid "Settings saved."
+msgstr "تم حفظ الإعدادات."
+
+#: login-with-phonenumber.php:167
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: login-with-phonenumber.php:228
+msgid "Your Credit:"
+msgstr "ائتمانك:"
+
+#: login-with-phonenumber.php:257
+msgid "Buy"
+msgstr "اشتري"
+
+#: login-with-phonenumber.php:370
+msgid "1. create a page and name it login or register or what ever"
+msgstr "إنشاء صفحة وتسميتها تسجيل الدخول أو التسجيل "
+
+#: login-with-phonenumber.php:371
+msgid ""
+"2. copy this shortcode <code>[idehweb_lwp]</code> and paste in the page you "
+"created at step 1"
+msgstr ""
+"قم بنسخ هذا الرمز المختصر <code> [idhweb_lwp] </code> والصقه في الصفحة التي "
+"أنشأتها في الخطوة 1"
+
+#: login-with-phonenumber.php:372
+msgid ""
+"3. now, that is your login page. check your login page with other device or "
+"browser that you are not logged in!"
+msgstr ""
+"الآن ، هذه هي صفحة تسجيل الدخول الخاصة بك. تحقق من صفحة تسجيل الدخول بجهاز "
+"أو متصفح آخر لم تقم بتسجيل الدخول إليه!"
+
+#: login-with-phonenumber.php:375
+msgid "for more information visit: "
+msgstr "للمزيد من المعلومات قم بزيارة:"
+
+#: login-with-phonenumber.php:380
+msgid "got it "
+msgstr "فهمتك"
+
+#: login-with-phonenumber.php:411
+msgid "I want user login with email"
+msgstr "أريد تسجيل دخول المستخدم بالبريد الإلكتروني"
+
+#: login-with-phonenumber.php:425
+msgid "I want user login with phone number"
+msgstr "أريد تسجيل دخول المستخدم برقم الهاتف"
+
+#: login-with-phonenumber.php:439
+msgid "I want user login with password too"
+msgstr "أريد تسجيل دخول المستخدم بكلمة مرور أيضًا"
+
+#: login-with-phonenumber.php:449
+msgid "I want form shows on page in fix position"
+msgstr "أريد أن يظهر النموذج على الصفحة في موضع معين"
+
+#: login-with-phonenumber.php:502
+msgid "Choose a country..."
+msgstr "إختار بلد .........."
+
+#: login-with-phonenumber.php:519
+msgid "Authenticate"
+msgstr "المصادقة"
+
+#: login-with-phonenumber.php:519
+msgid "activate sms login"
+msgstr "تفعيل تسجيل الدخول عبر الرسائل القصيرة"
+
+#: login-with-phonenumber.php:521 login-with-phonenumber.php:764
+msgid "Activate"
+msgstr "تفعيل"
+
+#: login-with-phonenumber.php:521
+msgid "activate account"
+msgstr "فعل الحساب"
+
+#: login-with-phonenumber.php:536
+msgid "enter api key"
+msgstr "أدخل مفتاح api"
+
+#: login-with-phonenumber.php:550
+msgid "enter redirect url"
+msgstr "أدخل عنوان URL لإعادة التوجيه"
+
+#: login-with-phonenumber.php:582
+msgid ""
+"make a page and name it login, put the shortcode inside it, now you have a "
+"login page!"
+msgstr ""
+"قم بإنشاء صفحة وقم بتسميتها تسجيل الدخول ، ضع الرمز القصير بداخلها ، والآن "
+"لديك صفحة تسجيل دخول!"
+
+#: login-with-phonenumber.php:584
+msgid ""
+"To use idehwebLwp manually in your theme template use the following PHP code:"
+msgstr ""
+"لاستخدام IdhwebLwp يدويًا في قالب السمة الخاص بك ، استخدم كود PHP التالي:"
+
+#: login-with-phonenumber.php:586
+msgid "Need more help?"
+msgstr "هل تريد المزيد من المساعدة؟"
+
+#: login-with-phonenumber.php:623
+msgid "Check credit"
+msgstr "تحقق من الائتمان"
+
+#: login-with-phonenumber.php:627
+msgid "Refresh"
+msgstr "تحديث"
+
+#: login-with-phonenumber.php:629
+msgid "phone number:"
+msgstr "رقم الجوال :"
+
+#: login-with-phonenumber.php:631
+msgid "change"
+msgstr "تغير"
+
+#: login-with-phonenumber.php:662
+msgid "please wait..."
+msgstr "فضلا انتظر............"
+
+#: login-with-phonenumber.php:689
+msgid "login"
+msgstr "دخول"
+
+#: login-with-phonenumber.php:696 login-with-phonenumber.php:734
+msgid "Login / register"
+msgstr "الدخول / التسجيل"
+
+#: login-with-phonenumber.php:699 login-with-phonenumber.php:1307
+msgid "Phone number"
+msgstr "رقم الجوال"
+
+#: login-with-phonenumber.php:714
+msgid "9*********"
+msgstr "9*"
+
+#: login-with-phonenumber.php:717 login-with-phonenumber.php:742
+msgid "Submit"
+msgstr "أرسل"
+
+#: login-with-phonenumber.php:723
+msgid "Login with email"
+msgstr "تسجيل الدخول بالبريد الإلكتروني"
+
+#: login-with-phonenumber.php:737
+msgid "Your email:"
+msgstr "بريدك الالكتروني:"
+
+#: login-with-phonenumber.php:739
+msgid "Please enter your email"
+msgstr "رجاءا أدخل بريدك الإلكتروني"
+
+#. Plugin Name of the plugin/theme
+#: login-with-phonenumber.php:748
+msgid "Login with phone number"
+msgstr "الدخول برقم الجوال"
+
+#: login-with-phonenumber.php:756
+msgid "Activation"
+msgstr "التفعيل"
+
+#: login-with-phonenumber.php:760
+msgid "Security code"
+msgstr "رمز الحماية"
+
+#: login-with-phonenumber.php:776 login-with-phonenumber.php:952
+msgid "Update password"
+msgstr "تحديث كلمة السر"
+
+#: login-with-phonenumber.php:779
+msgid "Enter new password:"
+msgstr "أدخل كلمة سر جديده"
+
+#: login-with-phonenumber.php:781
+msgid "Please choose a password"
+msgstr "اختار كلمة سر"
+
+#: login-with-phonenumber.php:784
+msgid "Update"
+msgstr "تحديث"
+
+#: login-with-phonenumber.php:790
+msgid "Enter password"
+msgstr "أدخل كلمة السر"
+
+#: login-with-phonenumber.php:793
+msgid "Your password:"
+msgstr "كلمتك السريه"
+
+#: login-with-phonenumber.php:795
+msgid "Please enter your password"
+msgstr "فضلا أدخل كلمة السر"
+
+#: login-with-phonenumber.php:798
+msgid "Login"
+msgstr "دخول"
+
+#: login-with-phonenumber.php:801
+msgid "Forgot password"
+msgstr "نسيت كلمة السر"
+
+#: login-with-phonenumber.php:854 login-with-phonenumber.php:929
+#: login-with-phonenumber.php:1156 login-with-phonenumber.php:1167
+msgid "phone number is wrong!"
+msgstr "رقم الجوال خطأ"
+
+#: login-with-phonenumber.php:879
+msgid "This username is already registered."
+msgstr "وسجلت بالفعل اسم المستخدم هذا."
+
+#: login-with-phonenumber.php:886 login-with-phonenumber.php:1051
+msgid "This email address is already registered."
+msgstr "هذا البريد الالكتروني مسجل سابقا."
+
+#: login-with-phonenumber.php:921
+msgid "Sms sent successfully!"
+msgstr "تم إرسال الرسائل القصيرة بنجاح!"
+
+#: login-with-phonenumber.php:986
+msgid "Password is incorrect!"
+msgstr "كلمة سر خطأ"
+
+#: login-with-phonenumber.php:994
+msgid "Redirecting..."
+msgstr "إعادة توجيه..."
+
+#: login-with-phonenumber.php:1015
+msgid "Password set successfully! redirecting..."
+msgstr "لقد تم تعين كلمة السر بنجاح"
+
+#: login-with-phonenumber.php:1023
+msgid "User not found"
+msgstr "المستخدم ليس موجود"
+
+#: login-with-phonenumber.php:1088
+msgid "Email sent successfully!"
+msgstr "تم إرسال البريد الإلكتروني بنجاح!"
+
+#: login-with-phonenumber.php:1096
+msgid "email is wrong!"
+msgstr "إيميل خطأ"
+
+#: login-with-phonenumber.php:1107
+msgid "your activation code: "
+msgstr "كود التفعيل الخاص بك:"
+
+#: login-with-phonenumber.php:1188
+msgid "loading..."
+msgstr "تحميل ......."
+
+#: login-with-phonenumber.php:1191
+msgid "wrong"
+msgstr "خطأ"
+
+#: login-with-phonenumber.php:1201
+msgid "entered code is wrong!"
+msgstr "الكود المدخل خاطئ!"
+
+#: login-with-phonenumber.php:1212
+msgid "user does not exist!"
+msgstr "المستخدم غير موجود!"
+
+#: login-with-phonenumber.php:1237
+msgid "Wrong username or password."
+msgstr "كلمة سر خطأ"
+
+#: login-with-phonenumber.php:1240
+msgid " successful, redirecting..."
+msgstr "نجاح إعادة التوجيه ..."
+
+#: login-with-phonenumber.php:1308
+msgid "Activation code"
+msgstr "كود التفعيل"
+
+#. Plugin URI of the plugin/theme
+msgid "http://idehweb.com/login-with-phone-number"
+msgstr "http://idehweb.com/login-with-phone-number"
+
+#. Description of the plugin/theme
+msgid ""
+"Login with phone number - sending sms - activate user by phone number - "
+"limit pages to login - register and login with ajax - modal"
+msgstr ""
+"تسجيل الدخول باستخدام رقم الهاتف - إرسال الرسائل القصيرة - تفعيل المستخدم عن "
+"طريق رقم الهاتف - تقييد الصفحات للدخول - التسجيل والدخول مع أجاكس - مودال"
+
+#. Author of the plugin/theme
+msgid "Hamid Alinia - idehweb"
+msgstr "Hamid Alinia - idehweb"
+
+#. Author URI of the plugin/theme
+msgid "http://idehweb.com"
+msgstr "http://idehweb.com"
