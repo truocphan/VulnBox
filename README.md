@@ -34,14 +34,6 @@
 - ### [PrivEsc-1: Elementor Pro ≤ 3.11.6 - Authenticated(Subscriber+) Privilege Escalation via update_page_option](https://github.com/truocphan/VulnBox/tree/main/Boxes/PrivEsc-1) - April 26, 2023
 
 #
-#
-# Proof-of-Concept Channel
-To view the detailed Proof-of-Concept (PoC), you need to make a payment for it at https://paypal.me/TRU0CPHAN with the following description: **`<Vulnerability-ID> <Your-Discord-Username>#<Your-Discord-ID>`**
-
-Example: To view the detailed PoC of the "**PrivEsc-1: Elementor Pro ≤ 3.11.6 - Authenticated (Subscriber+) Privilege Escalation via update_page_option**" vulnerability, you need to make a payment with the following description: **`PrivEsc-1 YourDiscordUsername#1234`**
-
-![image](https://github.com/truocphan/VulnBox/assets/57470560/f8dd2aec-7ab9-423f-b373-e805cfb796f4)
-
 # Terms and Policies
 1. The PoC is for research or educational purposes only. **We will not be responsible if you use it for any other malicious purposes.**
 2. Do not share any content about Proof-of-Concept anywhere with anyone.
