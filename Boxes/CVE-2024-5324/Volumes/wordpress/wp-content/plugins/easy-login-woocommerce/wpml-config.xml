@@ -1,0 +1,23 @@
+<wpml-config>
+
+  <admin-texts>
+
+    <key name="xoo-el-gl-options">
+      <key name="m-red-logout" />
+      <key name="m-red-register" />
+      <key name="m-red-login" />
+      <key name="m-ep-success" />
+      <key name="txt-tab-login" />
+      <key name="txt-tab-reg" />
+      <key name="txt-btn-login" />
+      <key name="txt-tab-reg" />
+      <key name="txt-btn-respw" />
+      <key name="txt-sing-head" />
+      <key name="txt-sing-subtxt" />
+      <key name="txt-btn-single" />
+      <key name="txt-btn-reg" />
+    </key>
+
+  </admin-texts>
+
+</wpml-config>

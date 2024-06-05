@@ -1,0 +1,291 @@
+/* Fields */
+.xoo-aff-input-group {
+    position: relative;
+    display: flex;
+    border-collapse: separate;
+    width: 100%;
+}
+
+.xoo-aff-input-group:first-child {
+    border-right: 0;
+}
+
+.xoo-aff-group input{
+    box-sizing: border-box;
+}
+
+
+.xoo-aff-input-group .xoo-aff-input-icon {
+    padding: 6px 0;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    align-items: center;
+    height: auto;
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-style: solid;
+}
+
+body:not(.rtl) .xoo-aff-input-group .xoo-aff-input-icon{
+    border-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.xoo-aff-group input[type="text"], .xoo-aff-group input[type="password"], .xoo-aff-group input[type="email"], .xoo-aff-group input[type="number"], .xoo-aff-group select, .xoo-aff-group select + .select2, .xoo-aff-group input[type="tel"]{
+    flex-grow: 1;
+    min-width: 1px;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    width: 100%!important;
+    margin-bottom: 0;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 3.428571;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-style: solid;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    outline: 0;
+}
+
+.xoo-aff-group label{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.xoo-aff-group {
+    float: left;
+    width: calc(100% - 20px);
+    position: relative;
+}
+
+.xoo-aff-group.onehalf{
+    width: calc(50% - 20px);
+    margin-right: 20px;
+}
+
+.xoo-aff-group.onethird {
+    width: calc(30% - 20px);
+    margin-right: 20px;
+}
+
+
+.xoo-aff-group.twothird {
+    width: calc(70% - 20px);
+    margin-right: 20px;
+}
+
+.xoo-aff-group.onefourth {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+}
+
+.xoo-aff-group.threefourth {
+    width: calc(75% - 20px);
+    margin-right: 20px;
+}
+
+
+div#ui-datepicker-div {
+    z-index: 99999999999!important;
+}
+.xoo-aff-single_checkbox .xoo-aff-label{
+    display: none;
+}
+
+.xoo-aff-options-list label {
+    font-weight: 400;
+}
+
+.xoo-aff-fields {
+    display: table;
+    width: 100%;
+}
+.xoo-aff-group.xoo-aff-checkbox_single {
+    min-height: auto;
+}
+
+.xoo-aff-group.one.xoo-aff-checkbox_single {
+    margin-bottom: 10px;
+}
+
+.xoo-aff-group.xoo-aff-cont-checkbox_single {
+    margin-bottom: 5px;
+}
+
+
+/* Password Strength */
+.xoo-aff-password-strength {
+    text-align: center;
+    font-weight: 600;
+    padding: 3px 0.5em;
+    font-size: 1em;
+}
+
+.xoo-aff-password-strength.strong {
+    background-color: #c1e1b9;
+    border-color: #83c373;
+}
+
+.xoo-aff-password-strength.short {
+    background-color: #f1adad;
+    border-color: #e35b5b;
+}
+
+.xoo-aff-password-strength.bad {
+    background-color: #fbc5a9;
+    border-color: #f78b53;
+}
+
+.xoo-aff-password-strength.good {
+    background-color: #ffe399;
+    border-color: #ffc733;
+}
+
+.xoo-aff-password-hint {
+    margin: 0.5em 0 0;
+    display: block;
+}
+
+.xoo-aff-radio input, .xoo-aff-checkbox_single input, .xoo-aff-checkbox_list input {
+    margin-right: 5px;
+}
+
+
+/* Select 2 */
+body .select2-dropdown {
+    z-index: 99999999999;
+}
+
+.xoo-aff-group .select2-container .select2-selection.select2-selection--single {
+    border: 0;
+    height: 100%;
+    background-color: transparent;
+    margin: 0 0 0 0;
+    border-radius: 0;
+    line-height: inherit;
+    padding: 0;
+}
+
+.xoo-aff-group .select2.select2-container .select2-selection .select2-selection__rendered {
+    padding: 0;
+    line-height: inherit;
+    height: inherit;
+}
+
+.xoo-aff-group .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.xoo-aff-group .select2-container *:focus {
+    outline: none;
+}
+
+.xoo-aff-group select, .xoo-aff-group select + .select2 {
+    padding: 0 15px;
+}
+
+
+select.xoo-aff-states{
+    display: none;
+}
+
+@media only screen and (max-width: 450px) {
+    .xoo-aff-group.onehalf , .xoo-aff-group.onefourth, .xoo-aff-group.onethird , .xoo-aff-group, .xoo-aff-group-twothird {
+        width: calc(100% - 20px);
+    }
+    .xoo-aff-group {
+        margin-right: 0;
+    }
+}
+
+.xoo-aff-flag-cont {
+    display: flex;
+    align-items: center;
+    height: inherit;
+} 
+.xoo-aff-flag-cont span:nth-child(1) {
+    margin-right: 6px;
+}
+ 
+.select2-results .xoo-aff-flag-cont span:nth-child(2) {
+    font-size: 12px;
+}
+
+span.xoo-aff-pwtog-hide {
+    display: none;
+}
+
+.xoo-aff-pw-toggle {
+    display: flex;
+    align-items: center;
+    right: 5px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    user-select: none;
+}
+
+.xoo-aff-pw-toggle > * {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.xoo-aff-select2-dropdown {
+    min-width: 140px;
+}
+
+/* RTL */
+body.rtl .xoo-aff-input-group .xoo-aff-input-icon {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+body.rtl .xoo-aff-flag-cont span:nth-child(1) {
+    margin-left: 10px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+body.rtl .xoo-aff-group {
+    float: right;
+}
+
+body.rtl .xoo-aff-radio input, body.rtl .xoo-aff-checkbox_single input, body.rtl .xoo-aff-checkbox_list input{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+body.rtl .xoo-aff-group:not(.one){
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+
+body.rtl .xoo-aff-input-icon + input, body.rtl .xoo-aff-input-icon + select {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 4px!important;
+    border-top-left-radius: 4px!important;
+}
+
+body.rtl .xoo-aff-input-group .xoo-aff-input-icon {
+    border-left: 0;
+}

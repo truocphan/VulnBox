@@ -1,0 +1,27 @@
+/** Setting Options **/
+ .section-title{
+    display: block;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    font-size: 17px;
+    margin: 0 -10px;
+    padding: 8px;
+    background-color: #5e6871;
+    color: #ffffff;
+}
+
+.xoo-main{
+    background-color: #ffffff;
+    padding: 0 10px;
+    max-width: 1000px;
+    flex-grow: 1;
+}
+.xoo-aff-container {
+    margin-top: 12px;
+    display: flex;
+}
+
+.xoo-main h2{
+    display: none;
+}

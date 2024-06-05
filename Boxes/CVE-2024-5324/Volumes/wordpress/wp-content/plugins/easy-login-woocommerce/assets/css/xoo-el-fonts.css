@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Easy-Login';
+  src:  url('../fonts/Easy-Login.eot?oy4gsz');
+  src:  url('../fonts/Easy-Login.eot?oy4gsz#iefix') format('embedded-opentype'),
+    url('../fonts/Easy-Login.ttf?oy4gsz') format('truetype'),
+    url('../fonts/Easy-Login.woff?oy4gsz') format('woff'),
+    url('../fonts/Easy-Login.svg?oy4gsz#Easy-Login') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="xoo-el-icon-"], [class*=" xoo-el-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Easy-Login' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xoo-el-icon-eye:before {
+  content: "\e901";
+}
+.xoo-el-icon-checkmark:before {
+  content: "\e900";
+}
+.xoo-el-icon-cross:before {
+  content: "\e907";
+}
+.xoo-el-icon-cancel-circle:before {
+  content: "\ea0d";
+}
+.xoo-el-icon-spinner8:before {
+  content: "\e981";
+}
+.xoo-el-icon-eye-blocked:before {
+  content: "\e9d1";
+}
+.xoo-el-icon-arrow-left2:before {
+  content: "\ea40";
+}

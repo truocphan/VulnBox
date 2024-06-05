@@ -1,0 +1,113 @@
+.xoo-el-field-addon-notice {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: table;
+    text-decoration: none;
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.xoo-el-field-addon-notice:hover {
+    color: #0073aa;
+    background-color: #fff;
+}
+
+.xoo-settings-container[active-tab="addon"] .xoo-sc-bottom-btns {
+    display: none;
+}
+
+.xoo-addon {
+    display: inline-block;
+    max-width: 200px;
+    padding: 20px 20px 50px 20px;
+    border: 2px solid #eee;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+}
+
+
+.xoo-addon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.xoo-addon .dashicons {
+    font-size: 42px;
+    display: table;
+    margin: 0 auto;
+    color: #1d3557;
+}
+
+span.xoo-ao-title {
+    display: block;
+    text-align: center;
+    margin: 16px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.xoo-ao-btns {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.xoo-ao-btns a {
+    text-decoration: none;
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+li#xoo-el-username:not(.active), li#xoo-el-password:not(.active) {
+    background-color: #00ffcd;
+}
+
+li#xoo-el-rp-pass:not(.active), li#xoo-el-rp-pass-again:not(.active) {
+    background-color: #ffe983;
+}
+
+.xoo-sc-bottom-btns {
+    max-width: 300px;
+}
+
+li#xoo-el-sing-user:not(.active) {
+    background-color: #3d3d3d;
+    color: #fff;
+}
+
+li#xoo-el-sing-user:not(.active) .xoo-aff-type-icon {
+    color: #3d3d3d;
+}
+
+.xoo-el-popup-info h5 {
+    font-size: 15px;
+    margin: 14px 0;
+}
+
+.xoo-el-popup-info i {
+    margin-top: 17px;
+    display: block;
+}
+
+.xoo-el-li-info li > span {
+    display: block;
+    padding: 8px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}

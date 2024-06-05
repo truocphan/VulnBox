@@ -1,0 +1,615 @@
+
+/** Checkbox Switch **/
+.xoo-aff-switch  {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 28px;
+}
+
+.xoo-aff-switch  input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.xoo-aff-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.xoo-aff-slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 5px;
+  bottom: 5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+.xoo-aff-switch input:checked + .xoo-aff-slider {
+  background-color: #2196F3;
+}
+
+.xoo-aff-switch  input:focus + .xoo-aff-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.xoo-aff-switch  input:checked + .xoo-aff-slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/** --- **/
+
+.xoo-aff-sidebar {
+    background-color: #fff;
+    box-shadow: 3px 6px 16px #eee;
+    width: 65%;
+    padding: 30px;
+    flex-grow: 1;
+ }
+
+.xoo-aff-settings-container {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.xoo-aff-settings-container.loading {
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+ul.xoo-aff-select-fields-type {
+    margin: 0;
+ }
+
+ul.xoo-aff-select-fields-type li {
+    display: table;
+    background-color: #eee;
+    padding: 10px;
+    float: left;
+    margin: 10px 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.xoo-aff-select-fields-type:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+button#xoo-add-field {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.xoo-aff-main {
+    width: 35%;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 3px 6px 16px #eee;
+    display: none;
+    margin-top: 0;
+}
+
+ul.xoo-aff-select-fields-type li.ui-selected {
+    background-color: #13adf7;
+    color: #fff;
+}
+
+/** Field Settings **/
+.xoo-aff-field-section {
+    display: table;
+    width: 100%;
+}
+
+.xoo-aff-fs-head {
+    display: block;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.xoo-aff-field-settings label {
+    display: block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+
+.xoo-aff-fs input[type="text"] {
+    width: 100%;
+}
+
+#xoo-aff-fs-hidden{
+  display: none;
+}
+
+.xoo-aff-fs-half{
+  width: 45%;
+  margin-right: 5%;
+  height: 48px;
+}
+
+.xoo-aff-fs-full{
+  width: 100%;
+  min-height: 48px;
+}
+
+.xoo-aff-fs-wrap .xoo-aff-fs-input{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    float: left;
+}
+
+.xoo-aff-fs-wrap::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.xoo-aff-fs-input input {
+    width: 100%;
+}
+
+.xoo-aff-field-settings .xoo-aff-label {
+    background-color: #f0f0f0;
+    padding: 9px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.xoo-aff-fs-input {
+  position: relative;
+}
+
+.xoo-aff-fs-input .iconpicker-popover {
+    left: 0!important;
+    width: 100%!important;
+}
+
+.xoo-aff-multiple-options input[type="checkbox"] , .xoo-aff-multiple-options input[type="radio"] {
+    width: auto;
+    margin: 0 15px;
+}
+
+.xoo-aff-setting-checkbox_single span.fas.fa-bars {
+    display: none;
+}
+
+.xoo-aff-multiple-options li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 12px;
+    cursor: move;
+}
+
+.xoo-aff-fs-checkbox_single .xoo-add-option , .xoo-aff-fs-checkbox_single .xoo-aff-multiple-options li:not(:first-child){
+    display: none;
+}
+
+button.xoo-add-option {
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    color: #444;
+}
+
+span.mcb-del {
+    padding: 0;
+    cursor: pointer;
+    font-size: 19px;
+    color: #e85555;
+}
+
+input.mcb-label, input.mcb-value {
+    width: 50%;
+    margin-right: 15px;
+}
+
+ul.xoo-aff-options-list li:first-child .mcb-del {
+    display: none;
+}
+
+span.xoo-aff-infotext {
+    visibility: hidden;
+    width: auto;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    text-transform: none;
+}
+
+.xoo-aff-info:hover .xoo-aff-infotext {
+  visibility: visible;
+}
+
+.xoo-aff-info {
+    display: table;
+    float: left;
+    margin-right: 5px;
+}
+
+span.xoo-aff-info-icon {
+    font-size: 15px;
+}
+
+/** --- **/
+
+/** Field Display */
+.xoo-aff-fs-display {
+    display: flex;
+    padding: 8px 10px;
+    background-color: #f0f0f0;
+    max-width: 300px;
+    margin: 0 auto 10px;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+}
+
+.xoo-aff-fs-display.active{
+  background-color: #83d7ff;
+}
+
+.xoo-aff-fsd-cta {
+    cursor: pointer;
+}
+
+span.xoo-aff-fsd-cta-edit {
+    margin-right: 5px;
+    text-decoration: underline;
+}
+
+.xoo-aff-fs-display .xoo-aff-label {
+    margin-right: auto;
+    font-size: 15px;
+    font-weight: 500;
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.xoo-aff-type-icon{
+    font-weight: 600;
+    padding: 5px;
+    background-color: #fff;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+
+
+
+button.xoo-aff-fields-save {
+    margin-left: auto;
+    display: table;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+label.xoo-aff-section-label {
+    margin: 15px 0 0 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #6495ed;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    cursor: text;
+}
+
+.xoo-aff-locked-field .xoo-aff-label span:last-of-type {
+    display: none;
+}
+/*** --- */
+
+
+button#xoo-aff-save, button.xoo-aff-add-field , button.xoo-aff-reset-field{
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 6px 20px 6px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button.xoo-aff-add-field {
+    background-color: #6495ed;
+    margin-right: 10px;
+}
+
+button.xoo-aff-add-field > span, button#xoo-aff-save > span, .xoo-aff-reset-field > span {
+    margin-right: 7px;
+}
+
+button#xoo-aff-save{
+  margin-right: 10px;
+}
+
+.xoo-aff-settings-modal {
+    padding: 20px;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.xoo-aff-settings-topbar {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.xoo-aff-field-selector > span {
+    font-size: 18px;
+    margin: 15px 5px;
+    display: block;
+}
+
+/** Notice */
+span.xoo-aff-notice {
+    padding: 10px 15px;
+    margin-left: auto;
+    display: table;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.xoo-aff-notice-holder {
+    margin-right: auto;
+}
+
+span.xoo-aff-notice.error {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+span.xoo-aff-notice.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+span.xoo-aff-notice.info{
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+span.xoo-aff-notice:before{
+    margin-right: 10px;
+    font-family: 'Font Awesome\ 5 Free'; 
+    font-weight: 600;
+}
+span.xoo-aff-notice.success:before {
+    content: "\f058";
+}
+span.xoo-aff-notice.info:before {
+    content: "\f05a";
+}
+/** - **/
+
+/** Section */
+.xoo-aff-fs-section {
+    margin: 0;
+}
+
+.xoo-aff-fs-input.xoo-aff-fs-section {
+    margin: 0;
+    height: auto;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 9px 0;
+    margin-top: 10px;
+    color: #6495ed;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.xoo-aff-fs-input.xoo-aff-fs-section label {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+button.xoo-aff-reset-field {
+    background-color: crimson;
+}
+.xoo-aff-setting-text.xoo-aff-required label:after {
+    content: "*";
+    color: #ff0000;
+}
+/* -- */
+
+/* Select multiple list */
+.xoo-aff-select-multiple-container {
+    position: relative;
+}
+
+ul.xoo-aff-multiple-list {
+    background-color: #fff;
+    z-index: 99;
+    bottom: 0;
+    position: absolute;
+    overflow: auto;
+    max-height: 200px;
+    max-width: 346px;
+    width: 100%;
+    margin: 0;
+    display: none;
+}
+
+ul.xoo-aff-multiple-list li {
+    cursor: pointer;
+    padding: 2px 10px;
+}
+
+ul.xoo-aff-multiple-list li:hover {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.xoo-aff-select-multiple-textarea {
+    border: 1px solid #ddd;
+    min-height: 45px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    cursor: text;
+}
+
+.xoo-aff-select-multiple-textarea {
+    padding: 5px;
+}
+
+.xoo-aff-select-multiple-textarea ul {
+    margin: 0;
+}
+
+.xoo-aff-select-multiple-textarea ul li {
+    padding: 5px 10px;
+    background-color: #eee;
+    display: table;
+    float: left;
+    margin-right: 7px;
+    cursor: pointer;
+}
+span.xoo-aff-sel-remove {
+    height: 15px;
+    width: 15px;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.xoo-aff-setting-select.xoo-aff-setting-country_list {
+    clear: left;
+}
+
+.xoo-aff-setting-select_multiple {
+    min-height: 70px;
+    height: auto;
+}
+
+.xoo-aff-select-multiple-textarea li.aff-default {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+span.xoo-aff-sel-remove:hover {
+    color: #ff0000;
+    font-weight: 600;
+}
+/* -- */
+
+@media only screen and (max-width: 700px) {
+  .xoo-aff-settings-container {
+      display: block;
+  }
+
+  .xoo-aff-sidebar, .xoo-aff-main{
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px; 
+  }
+}
+
+ul.xoo-aff-main li:not(.xoo-aff-no-sort) .xoo-aff-label {
+    cursor: move;
+}
+
+.xoo-aff-no-sort {
+    background-color: #ffd7d7;
+}
+
+.xoo-aff-fsd-edit {
+    margin-right: 10px;
+    display: none;
+}
+
+.xoo-aff-fs-display.active .xoo-aff-fsd-edit {
+    display: block;
+}
+
+.xoo-aff-container {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* RTL */
+body.rtl .xoo-aff-fsd-edit {
+    margin-left: 10px;
+}
+
+body.rtl .xoo-aff-fs-display .xoo-aff-label {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+body.rtl .xoo-aff-type-icon {
+    margin-left: 5px;
+}
+
+body.rtl button#xoo-aff-save {
+    margin-left: 10px;
+}
+
+body.rtl button.xoo-aff-add-field > span, body.rtl button#xoo-aff-save > span, body.rtl .xoo-aff-reset-field > span {
+    margin-left: 7px;
+    margin-right: revert-layer;
+}
+body.rtl .xoo-aff-info {
+    float: right;
+    margin-left: 5px;
+}
+
+body.rtl .xoo-aff-main {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+body.rtl .xoo-as-label {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+body.rtl .xoo-aff-fs-wrap .xoo-aff-fs-input {
+    float: right;
+    margin-left: 5%;
+    margin-right: 0;
+}
