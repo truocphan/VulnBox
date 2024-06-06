@@ -1,0 +1,111 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Downgrade | Specific Core Version\n"
+"POT-Creation-Date: 2016-05-07 19:06+0200\n"
+"PO-Revision-Date: 2016-05-07 19:06+0200\n"
+"Last-Translator: Gahapati <gahapati@gmail.com>\n"
+"Language-Team: Gahapati <gahapati@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-downgrade.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wp-downgrade.php:45
+msgid "WP Downgrade"
+msgstr ""
+
+#: wp-downgrade.php:45
+msgid "Active"
+msgstr ""
+
+#: wp-downgrade.php:45
+msgid "WP"
+msgstr ""
+
+#: wp-downgrade.php:45
+msgid "is set as target version"
+msgstr ""
+
+#: wp-downgrade.php:45
+msgid "Inactive"
+msgstr ""
+
+#: wp-downgrade.php:47
+msgid ""
+"WARNING! You are using this plugin entirely at your own risk! DO MAKE SURE "
+"you have a current backup of both your files and database, since a manual "
+"version change is deeply affecting your WP installation!"
+msgstr ""
+
+#: wp-downgrade.php:49
+msgid "Which WordPress version would you like to up-/downgrade to?"
+msgstr ""
+
+#: wp-downgrade.php:58
+msgid "WordPress Target Version"
+msgstr ""
+
+#: wp-downgrade.php:59
+msgid "Exact version number from"
+msgstr ""
+
+#: wp-downgrade.php:59
+msgid "WP Releases"
+msgstr ""
+
+#: wp-downgrade.php:59
+msgid "e.g. \"4.4.3\". Leave empty to deactivate."
+msgstr ""
+
+#: wp-downgrade.php:63
+msgid "Current WP Version"
+msgstr ""
+
+#: wp-downgrade.php:68
+msgid "Language Detected"
+msgstr ""
+
+#: wp-downgrade.php:80
+msgid "In order to perform the upgrade/downgrade to WP"
+msgstr ""
+
+#: wp-downgrade.php:80
+msgid "please go to"
+msgstr ""
+
+#: wp-downgrade.php:80
+msgid "Update Core"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Downgrade | Specific Core Version"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.reisetiger.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WP Downgrade allows you to either downgrade or update WordPress Core to an "
+"arbitrary version of your choice. The version you choose is downloaded "
+"directly from wordpress.org and installed just like any regular update. The "
+"target version WordPress allows you to update to remains constant until you "
+"enter a different one or deactivate the plugin either completely or by "
+"leaving the target version field empty."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Reisetiger"
+msgstr ""
