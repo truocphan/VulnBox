@@ -1,5 +1,5 @@
 # Author: truocphan
-# Date: 18.05.2024
+# Date: 17.06.2024
 version: "3.9"
 services:
   wordpress-db:
@@ -25,7 +25,8 @@ services:
       - UPLOAD_LIMIT=100000000
 
   wordpress:
-    image: wordpress
+    image: wordpress-debug
+    build: .
     ports:
       - 80:80
     depends_on:
@@ -33,6 +34,7 @@ services:
     volumes:
       - ./Volumes/wordpress:/var/www/html
       - ./conf.d/ini/custom.ini:/usr/local/etc/php/conf.d/custom.ini
+      - ./conf.d/ini/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
     restart: always
     environment:
       - WORDPRESS_DB_HOST=wordpress-db
