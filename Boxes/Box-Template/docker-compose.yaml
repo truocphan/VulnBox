@@ -1,13 +1,14 @@
 # Author: truocphan
-# Date: 17.06.2024
+# Date: 09.07.2024
 version: "3.9"
 services:
   wordpress-db:
     image: mariadb
     command: '--default-authentication-plugin=mysql_native_password'
     volumes:
-      - ./Volumes/wordpress-db/vulnbox.sql:/docker-entrypoint-initdb.d/vulnbox.sql
+      # - ./Volumes/wordpress-db/vulnbox.sql:/docker-entrypoint-initdb.d/vulnbox.sql
       # - database_data:/var/lib/mysql
+      - ./Volumes/wordpress-db/mysql:/var/lib/mysql
     restart: always
     environment:
       - MYSQL_DATABASE=vulnbox

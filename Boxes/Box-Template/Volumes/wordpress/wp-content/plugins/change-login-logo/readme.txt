@@ -3,9 +3,9 @@ Contributors: boopathi0001
 Donate link: https://paypal.me/boopathirajan
 Tags: WordPress Logo change, Login Logo, Custom logo, WP admin logo, Change default logo
 Requires at least: 4.3
-Tested up to: 6.1.1
+Tested up to: 6.3.1
 Requires PHP: 5.2.4
-Stable tag: 1.1.9
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ The plugin is incredibly user-friendly, allowing you to upload your logo quickly
 
 In addition to its ease of use, the Change WordPress Login Logo Plugin is also lightweight and fast-loading, ensuring that it won't slow down your site's performance. Plus, it's compatible with all the latest versions of WordPress, ensuring that you always have access to the latest features and security updates.
 
-<a href="https://www.boopathirajan.com/contact/" rel="nofollow ugc" target="_blank">Contact for Premium Plugin</a>
+<a href="https://www.boopathirajan.com/product/change-wordpress-login-logo-pro/" rel="nofollow ugc" target="_blank">Purchase Premium Plugin</a>
 
 <h4>Premium Features:</h4>
 
