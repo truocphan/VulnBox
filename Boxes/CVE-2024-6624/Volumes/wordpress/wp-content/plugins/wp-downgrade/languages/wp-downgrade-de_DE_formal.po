@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Downgrade\n"
+"POT-Creation-Date: 2016-05-07 19:05+0200\n"
+"PO-Revision-Date: 2016-05-08 01:30+0200\n"
+"Last-Translator: Gahapati <gahapati@gmail.com>\n"
+"Language-Team: Gahapati <gahapati@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-downgrade.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wp-downgrade.php:45
+msgid "WP Downgrade"
+msgstr "WP Downgrade"
+
+#: wp-downgrade.php:45
+msgid "Active"
+msgstr "Aktiv"
+
+#: wp-downgrade.php:45
+msgid "WP"
+msgstr "Es wird WP"
+
+#: wp-downgrade.php:45
+msgid "is set as target version"
+msgstr "zum Update angeboten"
+
+#: wp-downgrade.php:45
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: wp-downgrade.php:47
+msgid ""
+"WARNING! You are using this plugin entirely at your own risk! DO MAKE SURE "
+"you have a current backup of both your files and database, since a manual "
+"version change is deeply affecting your WP installation!"
+msgstr ""
+"Achtung! Die Nutzung des Plugins erfolgt auf eigene Gefahr! Ein manueller "
+"Versionswechsel ist ein tiefer Eingriff. STELLEN SIE SICHER, daß Sie ein "
+"Backup Ihrer Dateien und Datenbank haben!"
+
+#: wp-downgrade.php:49
+msgid "Which WordPress version would you like to up-/downgrade to?"
+msgstr "Auf welche WordPress-Version möchten Sie aktualisieren?"
+
+#: wp-downgrade.php:58
+msgid "WordPress Target Version"
+msgstr "WordPress-Zielversion"
+
+#: wp-downgrade.php:59
+msgid "Exact version number from"
+msgstr "Versionsnummer gemäß"
+
+#: wp-downgrade.php:59
+msgid "WP Releases"
+msgstr "WP-Releases"
+
+#: wp-downgrade.php:59
+msgid "e.g. \"4.4.3\". Leave empty to deactivate."
+msgstr "z.B. \"4.4.3\". Zum Deaktivieren leer lassen."
+
+#: wp-downgrade.php:63
+msgid "Current WP Version"
+msgstr "Installierte WP-Version"
+
+#: wp-downgrade.php:68
+msgid "Language Detected"
+msgstr "Erkannte Sprache"
+
+#: wp-downgrade.php:80
+msgid "In order to perform the upgrade/downgrade to WP"
+msgstr "Um das Upgrade/Downgrade auf WP"
+
+#: wp-downgrade.php:80
+msgid "please go to"
+msgstr "durchzuführen, gehen Sie als Nächstes zu"
+
+#: wp-downgrade.php:80
+msgid "Update Core"
+msgstr "Update-Core"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Downgrade | Specific Core Version"
+msgstr "WP Downgrade | Versionsvorgabe"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.reisetiger.net"
+msgstr "https://www.reisetiger.net"
+
+#. Description of the plugin/theme
+msgid ""
+"WP Downgrade allows you to either downgrade or update WordPress Core to an "
+"arbitrary version of your choice. The version you choose is downloaded "
+"directly from wordpress.org and installed just like any regular update. The "
+"target version WordPress allows you to update to remains constant until you "
+"enter a different one or deactivate the plugin either completely or by "
+"leaving the target version field empty."
+msgstr ""
+"Mit WP Downgrade können Sie Ihre WordPress-Installation auf jede beliebige "
+"Version aktualisieren. Die gewählte Version wird automatisch direkt von "
+"wordpress.org heruntergeladen und wie ein reguläres Update installiert. Die "
+"Zielversion, die WordPress zur Aktualisierung anbietet, bleibt unverändert, "
+"bis Sie eine neue Versionsnummer eingeben, das Eingabefeld wieder leeren "
+"oder das Plugin deaktivieren."
+
+#. Author of the plugin/theme
+msgid "Reisetiger"
+msgstr "Reisetiger"
+
+#~ msgid "e.g. \"4.5.2\""
+#~ msgstr "z.B. \"4.5.2\""
+
+#~ msgid "WP version"
+#~ msgstr "Es wird WP"
