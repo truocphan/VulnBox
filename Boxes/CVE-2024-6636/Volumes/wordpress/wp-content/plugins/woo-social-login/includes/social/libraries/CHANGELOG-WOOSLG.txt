@@ -1,0 +1,27 @@
+===== 1) File name: Facebook/PersistentData/FacebookSessionPersistentDataHandler.php
+
+-- functions get() change storage method session to cookie
+
+  -- old code 
+  if (isset($_SESSION[$this->sessionPrefix . $key])) {
+	return $_SESSION[$this->sessionPrefix . $key];
+  }
+
+  -- new code
+	if ( isset( $_COOKIE[$this->sessionPrefix . $key] )  ) { // added by wpweb
+		return $_COOKIE[$this->sessionPrefix . $key]; // added by wpweb
+    }
+
+-- functions set() change storage method session to cookie
+
+  -- old code 
+    $_SESSION[$this->sessionPrefix . $key] = $value;
+
+  -- new code
+  	setcookie( $this->sessionPrefix . $key, $value);
+
+
+===== 2) File name: plugins\woo-social-login\includes\social\libraries\Facebook\PersistentData\FacebookSessionPersistentDataHandler.php
+line no. 57 to 62 
+search keyword : session_id
+Change : comment these lines because wp-cron stopped working.
