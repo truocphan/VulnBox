@@ -1,0 +1,392 @@
+.woo-slg-login-error,
+.woo-slg-login-success,
+.woo-slg-login-loader,
+.woo-slg-login-email-error{
+    display:none;
+}
+.woo-slg-login-error,
+.woo-slg-login-success,
+.woo-slg-login-email-error
+{
+    clear: both;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #F1ACAC;
+    border: 1px solid #EE4B4B;
+    margin-bottom: 1.650em;
+    box-shadow: 0px 2px 2px 2px #ccc;
+    padding: 8px 5px 8px 8px;
+}
+.woo-slg-login-error span,
+.woo-slg-login-email-error span{
+    display: block;
+}
+.woo-slg-email-login-container .woo-slg-login-error, .woo-slg-email-login-container .woo-slg-login-email-error, .woo-slg-email-login-container .woo-slg-login-success {
+    margin-top: 10px;
+}
+
+.woo-slg-login-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.woo-slg-login-success a {
+    color: #3c763d !important;
+    font-weight: bold;
+}
+.woo-slg-social-wrap img{
+    outline: 0;
+}
+.woo-slg-social-container a {
+    text-decoration: none !important;
+}
+.woo-slg-login-wrapper {
+    
+    display:inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.woo-slg-login-wrapper a {
+    outline: 0;
+}
+.woo-slg-clear {
+    clear: both;
+}
+.woo-slg-social-container, .woo-slg-email-login-container {	
+    
+    margin: 0 0 21px;
+}
+.woo-slg-social-container legend, .woo-slg-email-login-container legend {
+    display: block;
+    font-size: 120%;
+    line-height: 1;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 0 21px;
+    padding: 0;
+}
+.woo-slg-email-login-container legend {
+    margin-top: 28px;
+}
+
+.woo-slg-widget-content .woo-slg-login-wrapper {
+    margin-bottom: 5px;
+}
+.woo-slg-social-container.woo-slg-widget-content{
+    border:none !important;
+}
+.woo-slg-hide {
+    display:none;
+}
+.woo-slg-social-container-checkout {
+    border: 1px solid #eee;
+    padding: 1.2em;
+    margin: 0 0 21px;
+}
+
+/* css added for login page */
+
+#woo-slg-social-container-login {	
+    margin: auto;
+    padding: 2% 0 2%;
+    width: 320px;
+    max-width: 100%
+}
+.login-area .ps-form #woo-slg-social-container-login {
+    width: 100%;
+    margin: 5px auto auto;
+}
+.ps-page--register #woo-slg-social-container-login {
+    width: 100%;
+    margin: 5px auto auto;
+}
+
+
+#register-page + #woo-slg-social-container-login {	
+    width: auto;
+}
+
+#woo-slg-social-container-login span {	
+    display: block;
+    font-size: 130%;
+    line-height: 1;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 0 21px;
+    padding: 0;
+    color: #999;
+}
+
+/* css for expand / collapse social login */
+
+.woo-slg-info::before {
+    content: ' ';
+    background-image: url("../../images/info-bar.png");
+    position: absolute;
+    left: 26px;
+    top: 18px;
+    height: 20px;
+    width: 16px;
+    background-repeat: no-repeat;
+}
+.woo-slg-info {
+    background: #f7f6f7 none repeat scroll 0 0;
+    border-top: 3px solid #1e85be;
+    color: #515151;
+    margin: 0 0 2em !important;
+    padding: 1em 2em 1em 3.5em !important;
+    position: relative;
+}
+.woo-slg-login-page {
+    margin: 5px auto !important;
+    max-width: 320px;
+    content: "";
+    background: url("../../images/ex-col-icon.png") no-repeat scroll 16px 10px;
+}
+.woo-slg-login-page::before {
+    content: "" !important;
+}
+
+.woo-social-login-linked-profiles thead tr,
+.woo-social-login-linked-profiles tfoot tr{
+    background-color: #f5f5f5;
+}
+.woo-social-login-linked-profiles thead tr th,
+.woo-social-login-linked-profiles tfoot tr th{
+    padding: 8px 0;
+}
+.woo-social-login-linked-profiles thead tr th:first-child,
+.woo-social-login-linked-profiles tfoot tr th:first-child{
+    padding: 8px 0 8px 8px;
+}
+.woo-social-login-linked-profiles tr td img{
+    vertical-align: middle;
+}
+
+/*** Social Button Style ***/
+.woo-slg-social-container .woo-slg-social-btn,
+.woo-slg-social-container .woo-slg-social-btn:hover, .woo-slg-social-container .woo-slg-social-btn:active, .woo-slg-social-container .woo-slg-social-btn:visited{
+    display: inline-block;
+    padding: 6px 6px 6px 38px;
+    color: #FFF;
+    font-size: 11px;
+    margin-bottom: 5px;
+    min-width: 188px;
+    min-height: 34px;
+    max-width: 188px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.2);
+    text-align: center;
+    word-wrap: break-word;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    line-height: 22px;
+    font-weight: bold;
+    position: relative;
+}
+.woo-social-link-buttons .woo-slg-social-btn,
+.woo-social-link-buttons .woo-slg-social-btn:hover, .woo-social-link-buttons .woo-slg-social-btn:active{
+    max-width: 250px;
+    min-width: 250px;
+}
+.woo-slg-icon{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 32px;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* Facebook */
+.woo-slg-social-btn.woo-slg-social-login-facebook {
+    background-color: #3b5998;
+}
+.woo-slg-fb-icon {
+    background-image: url("../../images/facebook-icon.png");
+}
+/* Twitter */
+.woo-slg-social-btn.woo-slg-social-login-twitter {
+    background-color: #55acee;
+}
+.woo-slg-tw-icon {
+    background-image: url("../../images/twitter-icon.png");
+}
+/* Google+ */
+.woo-slg-social-btn.woo-slg-social-login-googleplus {
+    background-color: #dd4b39;
+}
+.woo-slg-gp-icon {
+    background-image: url("../../images/googleplus-icon.png");
+}
+/* LinkedIn */
+.woo-slg-social-btn.woo-slg-social-login-linkedin {
+    background-color: #007bb6;
+}
+.woo-slg-li-icon {
+    background-image: url("../../images/linkedin-icon.png");
+}
+/* Yahoo */
+.woo-slg-social-btn.woo-slg-social-login-yahoo {
+    background-color: #720e9e;
+}
+.woo-slg-yh-icon {
+    background-image: url("../../images/yahoo-icon.png");
+}
+/* Foursquare */
+.woo-slg-social-btn.woo-slg-social-login-foursquare {
+    background-color: #f94877;
+}
+.woo-slg-fs-icon {
+    background-image: url("../../images/foursquare-icon.png");
+}
+/* Windows Live */
+.woo-slg-social-btn.woo-slg-social-login-windowslive {
+    background-color: #1283AD;
+}
+.woo-slg-wl-icon {
+    background-image: url("../../images/windowslive-icon.png");
+}
+/* VK */
+.woo-slg-social-btn.woo-slg-social-login-vk {
+    background-color: #587ea3;
+}
+.woo-slg-vk-icon {
+    background-image: url("../../images/vk-icon.png");
+}
+/* Amazon */
+.woo-slg-social-btn.woo-slg-social-login-amazon {
+    background-color: #FEBC0F;
+}
+.woo-slg-amz-icon {
+    background-image: url("../../images/amazon-icon.png");
+}
+/* Paypal */
+.woo-slg-social-btn.woo-slg-social-login-paypal {
+    background-color: #36638E;
+}
+.woo-slg-paypal-icon {
+    background-image: url("../../images/paypal-icon.png");
+}
+/* GitHub */
+.woo-slg-social-btn.woo-slg-social-login-github {
+    background-color: #252525;
+}
+/* Wordpresscom */
+.woo-slg-social-btn.woo-slg-social-login-wordpresscom {
+    background-color: #2145e6;
+}
+.woo-slg-amz-icon {
+    background-image: url("../../images/github-icon.png");
+}
+.woo-slg-wordpresscom-icon {
+    background-image: url("../../images/wordpresscom-icon.png");
+}
+.woo-slg-social-btn {
+    color: #fff !important;
+}
+
+/* Provider button css */
+.woo-slg-provider{height: 34px;display: inline-block;color: #fff;min-width: 120px;vertical-align: middle;}
+.woo-slg-provider .woo-slg-provider-icon{display: inline-block;height: 34px;vertical-align: middle;width: 34px;text-align: center;background: rgba(0, 0, 0, 0.10);}
+.woo-slg-provider .woo-slg-provider-icon img{max-height: 20px; margin: 7px auto; display: table;box-shadow: none;}
+.woo-slg-provider .woo-slg-provider-name{text-transform: capitalize;padding-left: 7px;font-size: 12px;line-height: 1.2;display: inline-block;font-weight: bold;height: 34px;}
+/* Provider button color for all link*/
+.woo-slg-provider.facebook{background: #3b5998;}
+.woo-slg-provider.twitter{background: #0084b4;}
+.woo-slg-provider.googleplus{background: #d34836;}
+.woo-slg-provider.yahoo{background: #720e9e;}
+.woo-slg-provider.amazon{background: #ff9900;}
+.woo-slg-provider.paypal{background: #003087;}
+.woo-slg-provider.vk{background: #45668e;}
+.woo-slg-provider.windowslive{background: #00a1f1;}
+.woo-slg-provider.foursquare{background: #f94777;}
+.woo-slg-provider.linkedin{background: #0077b5;}
+.woo-slg-provider.github{background: #252525;}
+.woo-slg-provider.wordpresscom{background: #2145e6;}
+
+.woo-slg-horizontal-divider{
+    display: block;
+    height: auto;
+    line-height: 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1rem;
+    margin: 25px 0 15px;
+}
+.woo-slg-horizontal-divider span{
+    padding: 0 10px;
+    background: #fff;
+}
+.woo-slg-email-login-container{
+    margin: auto;
+    padding: 2% 0 2%;
+    width: 320px;
+    max-width: 100%;
+}
+.woo-slg-email-login-wrap, .woo-slg-email-login-container legend{
+    text-align: center;
+}
+.woo-slg-email-login-btn {
+    padding: 7px 10px;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.woo-slg-profile-link-container .woo-slg-social-container legend, .woo-slg-profile-link-container .woo-slg-social-wrap{
+    text-align: left !important;
+}
+.woo-social-login-profile.woo-slg-social-wrap{
+    text-align: left !important;	
+}
+.woo-slg-email-input{
+    margin-bottom: 8px;
+}
+
+
+/*** End Social Button Style ***/
+
+@media only screen and (max-width: 480px) {
+    .woo-social-login-linked-profiles tr td img{
+        max-width: 100px;
+    }
+}
+
+.woo-social-login-linked-profiles{
+    min-width:550px;
+}
+.table-container {
+    overflow-x: auto;
+}
+/*** CSS for BBPress ***/
+.bbp-login-form fieldset .woo-slg-social-container legend, .bbp-login-form fieldset .woo-slg-email-login-container legend{
+    display: block !important;
+}
+form.bbp-login-form #woo-slg-social-container-login{
+    width: auto;
+}
+
+.ps-form .woo-slg-social-container legend, .peepso .woo-slg-social-container legend, 
+.ps-form .woo-slg-email-login-container legend, .peepso .woo-slg-email-login-container legend {
+    font-size: 13px;
+    margin: 5px 0 21px;
+}
+
+.woo-slg-center-align legend, .woo-slg-center-align .woo-slg-social-wrap, .woo-slg-center-align .woo-slg-social-container .widget-title{
+    text-align: center;
+}
+/* Line */
+.woo-slg-social-btn.woo-slg-social-login-line {
+    background-color: #01c301;
+}
+.woo-slg-line-icon {
+    background-image: url("../../images/line-icon.png");
+}

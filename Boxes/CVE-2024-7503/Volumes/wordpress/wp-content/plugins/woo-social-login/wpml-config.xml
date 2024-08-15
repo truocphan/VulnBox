@@ -1,0 +1,41 @@
+<wpml-config>   
+	<admin-texts>
+		<key name="woo_slg_login_heading" />
+		<key name="woo_slg_gdpr_privacy_policy" />
+		<key name="woo_slg_gdpr_user_agree" />
+		<key name="woo_slg_fb_icon_text" />
+		<key name="woo_slg_fb_link_icon_text" />
+		<key name="woo_slg_gp_icon_text" />
+		<key name="woo_slg_gp_link_icon_text" />
+		<key name="woo_slg_li_icon_text" />
+		<key name="woo_slg_li_link_icon_text" />
+		<key name="woo_slg_tw_icon_text" />
+		<key name="woo_slg_tw_link_icon_text" />
+		<key name="woo_slg_yh_icon_text" />
+		<key name="woo_slg_yh_link_icon_text" />
+		<key name="woo_slg_fs_icon_text" />
+		<key name="woo_slg_fs_link_icon_text" />
+		<key name="woo_slg_wl_icon_text" />
+		<key name="woo_slg_wl_link_icon_text" />
+		<key name="woo_slg_vk_icon_text" />
+		<key name="woo_slg_vk_link_icon_text" />
+		<key name="woo_slg_amazon_icon_text" />
+		<key name="woo_slg_amazon_link_icon_text" />
+		<key name="woo_slg_paypal_icon_text" />
+		<key name="woo_slg_paypal_link_icon_text" />
+		<key name="woo_slg_line_icon_text" />
+		<key name="woo_slg_line_link_icon_text" />
+		<key name="woo_slg_github_icon_text" />
+		<key name="woo_slg_github_link_icon_text" />
+		<key name="woo_slg_wordpresscom_icon_text" />
+		<key name="woo_slg_wordpresscom_link_icon_text" />
+		<key name="woo_slg_mail_subject" />
+		<key name="woo_slg_mail_content" />
+		<key name="woo_slg_mail_otp_subject" />
+		<key name="woo_slg_mail_otp_content" />
+		<key name="woo_slg_login_email_heading" />
+		<key name="woo_slg_login_email_placeholder" />
+		<key name="woo_slg_login_btn_text" />
+		<key name="woo_slg_login_email_seprater_text" />
+	</admin-texts>
+</wpml-config>

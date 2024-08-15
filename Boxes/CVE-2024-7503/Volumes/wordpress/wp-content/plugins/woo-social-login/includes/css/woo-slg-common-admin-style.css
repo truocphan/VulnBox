@@ -1,0 +1,99 @@
+/********* CSS for Shortcode Popup Starts **********/
+
+.woo-slg-linked-provider-image {
+    margin-right: 10px;
+}
+
+.woo-slg-popup-content {
+    margin: 0 auto 10px;
+    min-height: 370px;
+    display: none;
+    position: fixed;
+    border: 1px solid #555555;
+    top: 12%;
+    text-align: left;
+    left: 17%;
+    width: 800px;
+    max-width: 90%;
+    padding: 20px 35px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    z-index: 9999;
+    overflow: auto;
+    font: 12px "Lucida Grande", Verdana, Arial, sans-serif;
+    box-shadow: 0 4px 30px #000000;
+    color: #000000;
+    overflow: hidden;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+.d-flex.woo_slg ,.d-flex-wrap ,.meta-box-sortables p.description{
+    flex-wrap: wrap;
+    
+}
+
+.woo-slg-popup-content .description {
+    display: block;
+}
+
+.select2-container {
+    z-index: 9999;
+}
+.statistics-main table.wp-list-table thead th:nth-child(3) { width: 238px;}
+.statistics-main table.wp-list-table thead th:nth-child(4) { width: 141px;}
+.form-table th + td {padding-top: 26px;}
+.woo-slg-popup-overlay {
+    display: none;
+    background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.woo-slg-header-title {
+    float: left;
+    padding: 6px 10px 0;
+}
+
+.woo-slg-popup-close {
+    float: right;
+    padding: 6px 10px 0;
+    text-align: right;
+}
+
+.woo-slg-header {
+    position: relative;
+    background-color: #222222;
+    color: #CFCFCF;
+    height: 27px;
+    left: -35px;
+    right: -35px;
+    top: -20px;
+    width: 109%;
+    width: calc( 100% + 70px);
+}
+
+.woo-slg-popup table.form-table {
+    margin: 15px;
+    width: 80%;
+}
+
+#woo_slg_shortcode_error {
+    color: red;
+}
+
+#woo_slg_insert_container {
+    margin: 15px;
+}
+
+#woo_slg_shortcode_error,
+#woo_slg_insert_container,
+.woo-slg-shortcodes-options {
+    display: block;
+}
+
+
+/***************** CSS for Shortcode Popup Ends******************/
